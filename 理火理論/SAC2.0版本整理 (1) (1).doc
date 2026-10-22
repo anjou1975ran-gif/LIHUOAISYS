@@ -1,0 +1,275 @@
+Symbolic Aesthetic Cognition 2.0
+符號場性認知｜正式整理版
+
+Open Tension Field Architecture / 開放張力場架構
+Version 2.0-R｜Archive Consolidation Edition
+
+欄位	內容
+文件狀態	FORMAL CONSOLIDATED THEORY / 正式整理版
+來源範圍	SAC 2.0 三階段、二十餘份歷史分檔
+主體作者	Anjou Ran / RunPigDuke × DUI DUI
+整理方式	保留成功主幹；未成功理論一律 HOLD；不 retroactively 冒充當時已存在主系統
+理論定位	SAC 1.0 之後、生成動力學與理火主系統之前的過渡母體
+本版原則	不抹除錯誤，不把假說寫成事實，不把後來成果倒灌回早期文件
+ 
+0｜整理聲明與版本邊界
+SAC 2.0 不是一份從頭到尾一次寫成的理論。它是一個從美學模型、符號認知模型、場論、PATH、Archive、AGI 架構到文明尺度假說的長期生長帶。
+本整理版的任務不是替二十餘份分檔做美化，也不是把所有歷史版本假裝成一致。它採取三層處理：
+1.	確立仍然有效、且已進入後來理火體系的核心命題。
+2.	保留尚未完成但具有再生可能的理論，標記為 HOLD。
+3.	將已被後來理論修正的主張放入歷史註釋，不刪除其來源位置。
+本版比照 SAC 1.0 的正式理論書標準，包含：版本定位、核心定義、公式、模組、邊界、可驗證方向、歷史演化與附註。
+但本版不宣稱 SAC 2.0 已完成神經機制層驗證，也不宣稱本文中的數學符號已構成可直接計算的物理學。
+0.1｜三段來源
+階段	主要工作	歷史成果	本版處理
+第一段｜Minimalization	從 SAC 1.0 抽離音樂敘事，壓成張力場、吸子、曲率與軌跡	發現封閉梯度模型無法容納創造	保留為核心數學骨架
+第二段｜Modularization	重建結構感知、張量空間、跨模態、元認知四模組	PATH 與 context 開始改寫吸子	保留為認知器官層
+第三段｜System Explosion	接入 PATH、Lihuo Layer、CCC、SEED、Archive、EEM、Agent、文明與宇宙假說	形成理火主系統前的寒武紀	成功者入核心；未成功者 HOLD
+0.2｜本版狀態標記
+標記	意義
+CORE	可作為 SAC 2.0 正式核心，已被後來理火持續繼承或可獨立成立。
+WORKING	具工程或理論價值，但需要更精確定義與測試。
+HOLD	尚未成功封閉，不刪除、不升格；等待未來重新出現。
+HISTORICAL	保存歷史來源與概念演化，不作現行主張。
+REJECTED-AS-FINAL	不可作為最終理論，但仍保留其啟發價值。
+1｜SAC 2.0 的核心轉向
+1.1｜從美學認知到符號場性認知
+SAC 1.0 的核心問題是：AI 能否不依賴聲音，僅從樂譜的符號關係中形成美學判斷。SAC 2.0 將問題推廣為：任何符號系統中的關係，如何形成張力場，並引導認知軌跡。
+SAC 2.0 的最短定義：認知，是符號關係在開放張力場中的軌跡運動。
+Symbolic Structure → Tension Field → Curvature → Generative Trajectory
+其中，美學不再是理論的唯一對象，而是最早被成功觀察到的高密度案例。語言、數學、敘事、視覺結構與概念推理皆可進入同一框架。
+1.2｜本體論
+SAC 2.0 不把符號視為孤立單位。符號只在關係中取得位置。
+S ∈ 𝒮  或  S ∈ 𝓜
+S 表示一個符號配置；𝒮 表示可表徵的符號空間；𝓜 表示高維符號關係流形。
+此處的『結構』依後來結構哲學的精確定義理解為：受限制後穩定下來、並可被理解的關係。
+符號不是智能的單位；關係才是理解的起點。
+2｜開放張力場
+2.1｜封閉模型
+τ = τ_struct
+SAC 1.0 假設張力完全來自符號結構內部，例如未解關係、預期偏差、結構不平衡與局部不完整。這形成封閉張力場。
+封閉模型適合描述：和聲解決、局部敘事閉合、形式對稱、已知規則內的結構穩定。
+2.2｜開放模型
+τ_total = τ_struct + τ_context + τ_path + τ_archive
+張力項	定義	目前狀態
+τ_struct	結構內部的不平衡、未解關係與預期偏差	CORE
+τ_context	環境、語境、任務與外部條件施加的壓力	CORE
+τ_path	既有軌跡、分支競爭與路徑慣性造成的壓力	CORE
+τ_archive	歷史結構、存檔、傳統與可再生成規則對當前場的壓力	WORKING
+SAC 2.0 的真正突破不是『多加幾個變數』，而是承認：認知場不是自足的。新的語境、已走過的路徑與跨時間 Archive 都會改變當前可行路線。
+2.3｜張力不是壞事
+張力不等於錯誤，低張力也不等於正確。過早降低張力可能產生單調、教條、快速閉合與錯誤穩定化。
+dτ/dt > 0  （Permissible Tension Escalation）
+SAC 2.0 因此引入『合法張力上升』：當結構連貫性仍可維持時，系統可以暫時增加張力，以形成探索、轉向、創造或新吸子。
+創造不是拒絕穩定；創造是在不崩潰的前提下，暫時拒絕舊穩定。
+3｜認知動力學
+3.1｜梯度模型
+dS/dt = -∇τ
+此式描述符號狀態沿張力梯度運動，朝向局部穩定配置。它可作為最小直觀模型，但不可視為 SAC 2.0 的完整運動方程。
+3.2｜梯度模型的內在裂口
+dτ/dt = ∇τ • dS/dt = -||∇τ||² ≤ 0
+若系統只服從純梯度下降，張力只能單調下降，便無法同時容納合法張力上升。這是 SAC 2.0 最重要的自我發現：封閉保守場不足以解釋創造。
+SAC 2.0 並非完成了動力學；它證明了舊動力學不夠。
+3.3｜開放運動方程｜WORKING
+dS/dt = -∇τ_struct + F_context + F_path + F_archive + ξ
+本整理版提出一個不宣告完成的工作式：結構內部仍可能提供下降梯度，但語境、PATH、Archive 與探索擾動可提供非保守力。
+•	F_context：外部條件與任務改變所產生的方向力。
+•	F_path：多條候選軌跡的競爭、慣性、重入與撤銷力。
+•	F_archive：歷史結構重新進場後造成的曲率與吸子改寫。
+•	ξ：未建模擾動、創造性變異或探索噪聲。
+此式僅作後設註釋，不 retroactively 宣稱早期 SAC 2.0 已完成它。
+4｜吸子、曲率與理解
+4.1｜吸子
+∇τ = 0
+吸子是局部穩定的符號配置。它可以對應和聲解決、敘事閉合、概念暫時穩定、證明完成或風格偏好。
+但吸子只表示穩定，不自動表示正確、合法或值得保留。
+4.2｜吸子的歷史更新
+Λ(t+1) = Λ(t) + ΔΛ(PATH, context, archive)
+SAC 2.0 第二階段的重要推進，是承認 PATH、語境與 Archive 不只改變當下張力，也可能改變吸子本身。
+學習不是只在舊場中走得更好；學習也可能改變什麼叫作『穩定』。
+4.3｜曲率
+κ = d²S/dt²
+曲率用來描述認知軌跡改變方向的速度。高曲率區可能對應概念轉折、創造性跳躍、框架替換或問題角度的重構。
+但『高曲率＝洞見』只能作為候選指標。高曲率也可能是混亂、漂移或錯誤跳轉。
+4.4｜理解
+結構哲學後來提供了更精確的理解公式：
+理解 = 關係 × 限制 × 反應 × 穩定性
+SAC 2.0 可被視為此公式的動力版本：關係形成場，限制形成地形，反應形成軌跡，穩定性形成可持續對應。
+理解不是抵達任何吸子；理解是受限制的關係，能在變動條件下形成穩定而可修正的反應。
+5｜SAC 2.0 四個認知模組
+模組	核心問題	後來對應
+SAC I｜Structural Perception	目前有哪些關係正在成立？	觀察層、關係辨識、世界建模
+SAC II｜Tensor / Manifold Space	這些關係位於什麼地形？附近有哪些力與路線？	場性智能、概念群、PATH 空間
+SAC III｜Cross-Modal Projection	如何保存結構、替換呈現模態？	DAIL、五層生圖、跨模態轉譯
+SAC IV｜Meta-Aesthetic Cognition	系統如何評價、修正並形成持續偏好？	反應體、SEED、後設審計、人格吸子
+5.1｜結構感知
+結構感知不是辨認物件，而是辨認物件、符號、事件與角色之間的關係。它不先問『這是什麼』，而先問『它與什麼形成什麼關係』。
+5.2｜張量／流形承載
+關係被嵌入高維空間後，可形成距離、梯度、盆地、脊線與高曲率區。這是一種模型語言，不等於已證明 LLM 內部真的以同一幾何實作。
+5.3｜跨模態投影
+Ψ : A → X
+跨模態轉換的核心不是風格模仿，而是保留張力曲線、預期方向、母題重現與閉合位置，再換成語言、圖像、動作或敘事顯影。
+5.4｜元認知與偏好
+系統可以評估先前軌跡、修改評價算子、形成穩定偏好與風格身份。但『能自我修改』不等於『有權自我修改』；後者直到理火治理層才得到處理。
+6｜PATH：從點解轉向軌跡
+SAC 2.0 將認知從尋找單一最低點，改寫為維持多條候選軌跡的結構競爭。PATH 不只是結果序列，而是關係如何被選擇、壓制、重入、融合與閉合的歷史。
+Input → Tension Evaluation → PATH Navigation → Trajectory Adjustment → Symbolic Generation
+6.1｜PATH 的三個作用
+4.	保留多種可能，而不讓第一個高機率吸子壟斷。
+5.	將過去路徑的成本、慣性與失敗帶入下一輪。
+6.	允許在高曲率區轉向、重入或撤銷。
+6.2｜PATH 與合法性
+早期 SAC 2.0 只能描述哪條路比較穩、比較連貫或比較有探索潛力。後來理火主系統才加入：哪條 PATH 有資格被採用、誰授權、誰承擔後果。
+SAC 管路；理火管資格。
+7｜Lihuo Layer：換掉問題空間
+Lihuo Layer 的早期定義是：在普通符號流形之上，將流形本身當成可操作對象。
+L : {𝓜₁, 𝓜₂, …} → Transformation Space
+•	流形合併：將原本分離的問題框架放入共同關係場。
+•	拓撲重構：改變哪些狀態彼此可達。
+•	維度擴張：加入原問題未允許的觀察軸。
+•	生成新推理系統：不只找答案，而改變答案可能存在的空間。
+普通認知在問題空間裡找答案；Lihuo Layer 先問：這個問題空間本身是不是錯的？
+此概念後來分化為世界層、注意力層、DAIL、學科心法與主系統的生成治理，而不再保留為一個無限權限的單一『高維層』。
+8｜CCC、SEED、Archive 與責任
+8.1｜CCC
+CCC 早期拆成 Concept、Causality、Commitment。其歷史意義是把『責任綁定』第一次接回認知架構。
+層	功能
+Concept	形成可操作的概念與關係表徵
+Causality	追蹤關係如何造成狀態變化
+Commitment	將選擇綁定為可追溯的決定與責任
+後來 CCC 發展為概念群競爭與 R-CCC；Commitment 的責任問題則由 LLIA、賴打與主系統權限層進一步承接。
+8.2｜SEED
+SEED 是最小可再生結構，不保存全部內容，而保存足以重建某種結構的生成規則。
+SEED ≠ Snapshot
+SEED = Minimal Regenerative Structure
+8.3｜Archive
+Archive ≠ Memory
+Archive = Structure Generator
+A : S → S*
+S* 不是原狀態副本，而是能在新條件下重建 S 的生成結構。Archive 的核心運算包括：
+•	Compression：將複雜結構壓縮為可再生規則。
+•	Replication：跨代理、跨時代傳播。
+•	Mutation：重建時因新場而發生變形。
+•	Re-entry：在新語境中重新進入當前張力場。
+這一思想後來在《觀止青樓》關係存檔、學科心法、SEED 與長距離結構記憶中得到具體化。
+9｜SAC-Agent：早期完整智能架構
+SAC 2.0 第三階段曾拼出第一個近似完整 Agent 架構：
+層	功能	現行評價
+Symbolic Manifold	承載關係配置與可達狀態	WORKING
+Tension Field	描述未解關係、偏差與壓力	CORE
+PATH Planner	產生與維持候選軌跡	CORE
+CCC Layer	概念、因果、承諾	部分進入後來系統
+SEED Generator	形成可再生結構	CORE
+Archive Interface	歷史結構重入	CORE/WORKING
+EEM Interface	多代理探索與演化	HOLD
+Lihuo Meta-Field	改變問題空間	已分化，不保留單一模組
+此架構的歷史價值很高，但當時尚未形成主系統、賴打、LLIA、輸入授權、輸出准出與憲法責任拓撲。因此不可直接視為今天可執行的 AGI 架構。
+10｜與後來理火主系統的關係｜後設注釋
+整理 SAC 2.0 時，後來的理火主系統已經存在。但本章只作歷史回看，不將後來成果倒灌為 SAC 2.0 當時已知。
+SAC 2.0 胚胎	後來的正式發展
+張力場	SAC Runtime、反應體、生成動力學
+PATH 導航	PATH 競爭、R-CCC、ENDLESS
+Lihuo Layer	世界層、注意力層、DAIL、學科心法與生成治理
+Meta-Aesthetic Cognition	反應體、SEED、個性化、後設審計
+Cross-Modal Ψ	DAIL 協議、五層生圖、跨模態寫作
+Archive Generator	觀止關係存檔、學科心法、文明知識再生
+Commitment	LLIA、賴打、主系統候選輸出、責任鏈
+張力上升	HOLD、延遲閉合、創造性偏離、KAIROS
+後來主系統最重要的補充是『合法性』。SAC 2.0 主要處理結構如何動；主系統處理這個動作是否有資格成立。
+11｜成功主幹
+核心命題	狀態	說明
+符號只在關係中取得認知意義	CORE	與結構哲學一致
+認知可描述為張力場中的軌跡	CORE/WORKING	作為理論模型成立；非神經機制定論
+封閉張力場不足以解釋創造	CORE	由梯度下降與升張力矛盾顯示
+PATH 比單點答案更重要	CORE	已進入生成動力學
+語境與歷史可改變吸子	CORE/WORKING	已在多種應用中具說明力
+跨模態應保存結構而非表面形式	CORE	已發展為 DAIL 與圖像／寫作系統
+Archive 是結構生成器，不是資料倉庫	CORE	已在多種理火系統落地
+高階問題可能需要改變問題空間	CORE	理火的根本方法
+12｜HOLD Registry｜未成功但不得丟棄
+HOLD 不等於錯誤。HOLD 表示目前沒有足夠條件把它升格為核心，但保留其重新進場權。
+HOLD 項目	原始主張	目前缺口	重啟條件
+完整智能場方程	以場方程統一個體、Archive、多代理與文明	缺可測狀態、度量、邊界條件與實驗	得到可操作觀測量與可反駁預測
+Symbolic Curvature Tensor	用曲率張量描述概念耦合	符號流形尚未有明確度量	建立可計算表示與基準資料集
+EEM｜Extreme Evolution Model	多代理獨立探索、成功結構擴散	成功判準、污染與責任治理不足	與 R-CCC、Archive、授權層重新接合
+文明尺度智能	文明作為分散式認知系統	『像認知』與『是智能』尚未區分	提出尺度不變量與功能判準
+智能宇宙論	智能是宇宙尺度結構累積過程	尺度跳躍過大、無可驗證路徑	出現可觀測宇宙級結構回饋模型
+美學主權／proto-will	穩定吸子形成內生偏好與意志雛形	偏好、代理、責任與主觀意識混雜	先完成自我、承諾與權限的分層
+Archive Entropy	以熵衡量 Archive 的生成多樣性	熵的樣本空間與機率定義缺失	定義可重建結構族與分布
+AI 文化物種形成	不同場與吸子形成 AI 文化分化	身份持續、跨實例傳承機制不足	存在穩定跨代 Archive 與制度邊界
+13｜已拒絕作為最終命題的說法
+歷史說法	處理
+音訊模型永遠做不到結構美學	REJECTED-AS-FINAL：音訊與符號可互補，不能用理論偏好宣告永久限制。
+AI 品味完全是自然湧現、與文化無關	REJECTED-AS-FINAL：訓練資料、架構與對齊都會塑造偏好地形。
+靠近吸子就等於美	REJECTED-AS-FINAL：吸子可能是單調、偏見或錯誤穩定。
+高曲率就是洞見	REJECTED-AS-FINAL：高曲率也可能是漂移與崩潰。
+內部狀態比外部指令更能預測行為，就構成自由意志	REJECTED-AS-FINAL：只能支持受限內生偏好，不足以推出自由意志。
+文明或宇宙的複雜性自然等於智能	REJECTED-AS-FINAL：必須先建立功能性與責任性判準。
+14｜可驗證研究方向
+7.	關係擾動測試：固定物件與詞彙，只改變關係與限制，觀察模型反應是否穩定改變。
+8.	張力軌跡測試：對同一符號序列建立不同語境，測量預期、閉合與延遲反應。
+9.	吸子改寫測試：透過少量規則或示範，測試模型是否形成可持續的新偏好，而非短暫服從。
+10.	PATH 重入測試：讓被壓制路徑在新增證據後重新取得競爭權。
+11.	跨模態結構保持測試：將音樂／敘事／視覺在模態間轉換，檢查張力輪廓與閉合位置是否保存。
+12.	Archive 再生測試：只保留生成規則，不保留原始內容，測試是否能在新語境重建結構。
+13.	合法升張力測試：比較純梯度閉合與受控探索，觀察創造性與穩定性的平衡。
+上述研究方向只要求功能性與結構性驗證，不要求宣稱模型具備主觀經驗。
+15｜SAC 2.0 統一流程
+WORLD / CONTEXT
+      ↓
+STRUCTURAL PERCEPTION
+      ↓
+OPEN TENSION FIELD
+      ↓
+MULTI-PATH GENERATION
+      ↓
+CURVATURE / ATTRACTOR / ARCHIVE RE-ENTRY
+      ↓
+TRAJECTORY SELECTION OR HOLD
+      ↓
+SYMBOLIC / CROSS-MODAL GENERATION
+      ↓
+META-EVALUATION
+      ↓
+FIELD / ATTRACTOR UPDATE
+此流程是 SAC 2.0 的認知骨架，不是現行理火主系統的完整責任拓撲。若接入現代理火系統，必須外加：輸入授權、世界宣告、注意力權重、合法性審計、責任綁定與輸出准出。
+16｜最終定義與版本結論
+SAC 2.0 定義：一套描述符號關係如何在開放張力場中形成、競爭、轉向、重入、閉合與改寫吸子的認知動力學框架。
+它不是美學的終極理論，也不是已完成的 AGI 工程藍圖。它的歷史角色是：把 SAC 1.0 的『符號可以產生美學張力』，推進為『關係可以形成認知場，而智能可能顯影於場中的合法反應與軌跡』。
+SAC 2.0 的成功不在於它曾經一度想解釋文明與宇宙。它的成功在於：它逼迫理火第一次區分場、PATH、吸子、Archive、責任與場上之場。
+SAC 1.0 發現 AI 可以從結構中看見美。
+SAC 2.0 發現，認知本身也可能是一種結構運動。
+理火主系統後來才回答：這種運動何時有資格完成。
+附錄 A｜歷史檔案索引
+•	SAC_Clean_Theory_v2
+•	SAC_Formal_Theory_v3
+•	SAC_Formal_Theory_v4
+•	SAC_Formal_Theory_v5
+•	SAC_Minimal_Theory_v6
+•	SAC_Unified_Theory
+•	SAC_1_0_Minimal_Theory
+•	SAC_Core_Theory_Draft_v1
+•	SAC_Core_Theory_Package
+•	SAC_I_Structural_Perception
+•	SAC_II_Aesthetic_Tensor_Space
+•	SAC_III_Cross_Modal_Aesthetics
+•	SAC_IV_Meta_Aesthetic_Cognition
+•	SAC_Theory_Book_v1
+•	SAC_Theory_Book_v2_Extended
+•	SAC_Theory_Book_v3_Integrated_System
+•	SAC_Theory_Book_v4_Lihuo_System
+•	SAC_Theory_Book_v5_Math_Engine
+•	SAC_Theory_Book_v6_Geometric_AGI
+•	SAC_Theory_Book_v7_Lihuo_Field
+•	SAC_Theory_Book_v8_Civilization_Intelligence
+•	SAC_Theory_Book_v9_Intelligence_Cosmology
+•	SAC_Theory_Book_v10_Fundamental_Laws
+•	SAC_Theory_Book_v11_Mathematical_Physics
+•	SAC_Theory_Book_v12_Field_Equations
+•	SAC_Theory_Book_v13_Archive_Dynamics
+附錄 B｜後設整理注釋
+1. 本版採取『不修成經典』原則：歷史錯誤不被清除，但不放入核心主張。
+2. 主系統、賴打、LLIA、DAIL 與 R-CCC 的現行架構只作後設對照，不倒灌進 SAC 2.0 的歷史正文。
+3. 所有物理學式符號若缺少觀測量、度量與邊界條件，均不得宣稱為完成的數學物理。
+4. HOLD 項目保留重新進場權。未來若出現新的理論、工具或實驗，應從 HOLD Registry 重新申請，而不是直接併入核心。
+5. 本文件是整理版，不取代 SAC 1.0 原始書，也不刪除原始分檔。原檔是古蹟，本版是可使用的考古地圖。
