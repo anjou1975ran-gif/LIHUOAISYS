@@ -1,0 +1,20 @@
+Parameter existence probe | nu = 2.2 b = 0.52 delta = 0.01 eta = 0.0001
+theta 0.99 A 0.9948 B 0.994893709724 C 1.0050378331 g 0.000341144 F0 38695
+   theta < A < B < 1 = True
+   A^2 < theta = True
+   C > 1 = True
+   CB < 1 = True
+   Ctheta/B > 1 = True
+   B/A > 1 = True
+   g > 0 = True
+   F0 > 2/theta = True
+   nu/F0 < eps0/3 = True
+ m = 1000 log(cL)= -27.681195 cL > 2: False
+ m = 100000 log(cL)= -22.960058 cL > 2: False
+ m = 1000000 log(cL)= 59.512979 cL > 2: True
+Toy interpolation: K=2, m=1, theta=2/5, w0=1,v0=2,w1=6,v1=15,H=16
+ volume inequalities satisfied:  True True
+ strict separation fails: w1=6 is NOT > 600*v0=1200
+ matrix shape (18, 33) exact rational rank 17 surjective False
+ Interpretation: not a counterexample; admissibility and sufficiently large H are missing.
+PASS: probe scripts reproduced expected scoped checks. NOT a Lean kernel receipt.
