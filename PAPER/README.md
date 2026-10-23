@@ -1,6 +1,12 @@
 # LIHUO PAPER｜Current Review Procedure Index
 ## 理火論文審查系統現行規格索引
 
+## Lighter × Main boot status (2026-10-23)
+
+**Human boot request approved; formal Host activation remains HOLD until an actual, authorized Lighter/Main invocation endpoint and execution evidence exist.**
+
+Read the [exact stack boot request / evidence boundary](LIHUO_PAPER_LIGHTER_MAIN_BOOT_REQUEST_HUMAN_AUTHORIZED_20261023.md) before asserting that Main or Lighter has run. Target tuple: Protocol V5.1.0 / Lighter V5.1.0 / Main V5.1.1. Document-level use of these procedures does not create qualified runtime receipts, Final Gate or production release.
+
 **Current human-approved procedural direction (2026-10-23): SDE integrated in both GENERAL and MEDICAL paper review.**
 
 > This index identifies the latest approved document-level procedure; it does not attest a deployed Host Runtime or automatically qualify any past case.
