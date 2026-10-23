@@ -1,0 +1,8 @@
+Exact-row-translation symbolic zero-differences (h, alpha, beta, j × t^0..t^3): 360
+Near-period and exact-period independent symbols: r omega
+Taylor tail tau = -t**3/3
+Determinant gap difference exact factorization = -(bbar - theta)*(nu - 1)
+Rational parameter witness: {'nu': '3', 'theta': '19/20', 'A': '97/100', 'B': '3677173/3781800', 'C': '18909/18430', 'eta': '1/10000', 'g': '9709/1000000'}
+Parameter inequalities: {'0<theta<A<B<1': True, 'nu(A-theta)>1-theta': True, 'C>1': True, 'B<1/C': True, 'B<Ctheta<1': True, 'A²<theta': True, 'g>0': True, 'CB<1': True, 'Ctheta/B>1': True, 'B/A>1': True}
+STATUS: scoped identities and finite parameter feasibility PASS. Not an interpolation theorem proof.
+Blow-up A-E numerical identity: exact symbolic zero difference; coefficients positive if a>1, sigma>0.
