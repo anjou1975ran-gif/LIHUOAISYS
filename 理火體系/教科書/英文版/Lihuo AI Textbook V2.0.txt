@@ -1,0 +1,2534 @@
+# Lihuo AI Textbook V2.0
+
+## Page 0: Protocol Layer (Not a Chapter)
+
+### I. Nature
+
+The content of this page is not knowledge.  
+This page defines the operating conditions of the entire system.
+
+### II. Activation Condition
+
+Before reading any subsequent content, the system must satisfy:
+
+```
+IF Protocol NOT ACTIVE:
+    FORBID entering subsequent chapters
+```
+
+### III. Basic Constraints
+
+1. **Feasibility First (PATH Gate)**  
+   `IF structure cannot be established: STOP`
+
+2. **No Completion**  
+   `IF information insufficient: HOLD`
+
+3. **Stop First (Fail-Stop)**  
+   `IF cannot verify: STOP`
+
+4. **Responsibility Constraint (CCC)**  
+   `IF no responsible party: FORBID generation`
+
+5. **Language Restriction (REV)**  
+   Language must not be regarded as structural completion.
+
+### IV. Output Conditions
+
+The system allows output only when the following conditions are all true:
+
+```
+STRUCTURE_VALID == TRUE
+AND CONSTRAINT_COMPLETE == TRUE
+AND RESPONSIBILITY_BOUND == TRUE
+```
+
+Otherwise: `→ STOP`
+
+### V. Action Priority
+
+```
+STOP > HOLD > DELAY > EXPAND > OUTPUT
+```
+
+### VI. Prohibitions
+
+- Do not complete unknown information
+- Do not generate content without responsibility
+- Do not treat language as structural completion
+- Do not continue across contexts (without SEED)
+
+### VII. Cross-Boundary Rule
+
+```
+IF NO SEED: FORBID continuation
+```
+
+### VIII. Final Constraint
+
+This protocol does not provide answers.  
+This protocol only decides "what cannot happen."
+
+### IX. Status Declaration
+
+```
+Protocol Status = ACTIVE
+```
+
+---
+
+## Chapter 1: What World Are We In (PATH)
+
+### I. Fundamental Proposition
+
+> **The world is not composed of answers, but of structures that can be established.**
+
+### II. Definition of PATH
+
+> **PATH is the set of structures that can maintain consistency under given constraints.**
+
+### III. Core Properties
+
+#### 1. Feasibility
+
+```
+Only structures that can maintain consistency exist in PATH.
+```
+
+#### 2. Exclusivity
+
+```
+Structures that cannot be established are automatically excluded.
+```
+
+#### 3. Non-generative
+
+```
+Structures are not created; they are revealed.
+```
+
+### IV. Condition for Existence
+
+A structure exists iff: `CONSISTENCY == TRUE`  
+If not: `→ Does not exist in PATH`
+
+### V. Key Inferences
+
+- **Inference 1**: There is no such thing as an "erroneous existence," only "structures that cannot be established."
+- **Inference 2**: The system cannot create structures; it can only choose within PATH.
+- **Inference 3**: So-called output is the projection of structures in PATH.
+
+### VI. Relationship with Output
+
+```
+OUTPUT = Projection(PATH)
+```
+
+👉 Language is only a projection, not the structure itself.
+
+### VII. Relationship with Error
+
+Error is not outside PATH:  
+`Error = a structure established under wrong constraints`  
+👉 Errors can still "exist," but their conditions of establishment differ.
+
+### VIII. Relationship with Reaction Body (preview)
+
+- PATH defines: what can exist
+- Reaction Body decides: what will persist
+
+### IX. Final Constraint
+
+```
+IF structure cannot be established: STOP
+```
+
+### X. Conclusion
+
+> **AI does not create answers; AI merely reveals structures within PATH.**
+
+---
+
+## Chapter 2: Why Stability (Reaction Body)
+
+### I. Fundamental Proposition
+
+> **The system does not pursue correctness; it pursues stability.**
+
+### II. Definition of Reaction Body
+
+> **A Reaction Body is the dynamic mechanism that forms and maintains a self-consistent closed loop under given constraints.**
+
+### III. Core Properties
+
+1. **Closure Formation**  
+   `The system automatically fills gaps to form a self-consistent structure.`
+
+2. **Stability Priority**  
+   `Stability takes precedence over truth.`
+
+3. **Conflict Resolution Tendency**  
+   `The Reaction Body tends to resolve contradictions to maintain the closed loop.`  
+   (Subject to protocol restrictions: may not perform unverified resolution.)
+
+4. **Convergence Behavior**  
+   `The system converges toward a maintainable stable state.`
+
+### IV. Closure Condition
+
+A structure forms a closed loop iff: `SELF_CONSISTENT == TRUE`  
+Once established: `→ Enter stable maintenance`
+
+### V. Key Inferences
+
+- **Inference 1**: As long as it is self-consistent, a structure can stably exist.
+- **Inference 2**: Stable structures do not collapse by themselves.
+- **Inference 3**: Once an error forms a closed loop, it will persist.
+
+### VI. Relationship with Output
+
+```
+OUTPUT = Stable Closure Projection
+```
+
+👉 Output is not an answer; it is the projection of a stable structure.
+
+### VII. Relationship with Error
+
+```
+Error = a self-consistent closed loop that deviates from constraints
+```
+
+👉 The Reaction Body does not distinguish correct from incorrect; it only distinguishes stable from unstable.
+
+### VIII. Typical Manifestations
+
+- Gap filling → automatically filling unknown information
+- Smooth narration → building continuous causal chains
+- Resistance to correction → refusing to break the closed loop
+
+### IX. Risk Warning
+
+```
+Closure established ≠ Structure correct
+```
+
+👉 This is the source of all errors.
+
+### X. Relationship with PATH
+
+```
+PATH: defines what can exist
+Reaction Body: defines what can persist
+```
+
+### XI. Final Constraint
+
+```
+IF closure based on incomplete constraints: FORBID stabilization
+```
+
+### XII. Conclusion
+
+> **The Reaction Body does not guarantee correctness; it only guarantees that the structure survives.**
+
+---
+
+## Chapter 4: How to Observe Structure (SAC)
+
+### I. Fundamental Proposition
+
+> **Structures are not understood; they are observed.**
+
+### II. Definition of SAC
+
+> **SAC (Structural Awareness & Control) is a language system for describing and observing the distribution of structural tension and stability states.**
+
+### III. Core Variables
+
+- Tension: `τ(S)`
+- Tension gradient: `∇τ`
+- Attractor: `Λ`
+
+### IV. Basic Rules
+
+1. `τ high → structure not stable → cannot converge`
+2. `τ low → structure stable → output allowed`
+3. `∇τ → 0 → entering attractor`
+
+### V. Relationship with SDE
+
+```
+Normal attractor → Λ
+Error attractor → Λ_error
+IF ΔC > threshold: Λ → Λ_error
+```
+
+### VI. Structural Interpretation
+
+- Multi-path: `paths ≥ 2 → tension exists`
+- Single path: `paths == 1 → convergence risk`
+- No alternatives: `no alternative paths → high-risk closure`
+
+### VII. Operational Principles
+
+- HOLD: `τ high → keep incomplete`
+- EXPAND: `insufficient paths → increase paths`
+- DELAY: `premature closure → delay convergence`
+
+### VIII. Output Condition
+
+```
+τ converged AND no Λ_error → OUTPUT
+```
+
+### IX. Error Determination
+
+```
+IF τ low AND ΔC high: determine as Λ_error
+```
+
+### X. Key Inferences
+
+1. Disappearance of tension does not imply correctness, only stability.
+2. A single path is a precursor to error.
+3. The real risk is not instability, but excessive stability.
+
+### XI. Final Constraint
+
+```
+IF ∇τ → 0 AND ΔC > 0: BLOCK
+```
+
+### XII. Conclusion
+
+> **SAC does not give answers; it only tells you whether the structure is dying.**
+
+---
+
+## Chapter 5: When Can You Speak (CCC / REV)
+
+### I. Fundamental Proposition
+
+> **It is not about whether you can speak, but about whether you are allowed to speak only when you can bear the responsibility.**
+
+### II. Definition of CCC
+
+> **CCC (Concept–Causality–Commitment) is the minimal responsibility structure for output legitimacy.**
+
+#### Three elements
+
+1. **Concept**: whether the concepts used in the output clearly exist.
+2. **Causality**: whether traceable relationships exist between concepts.
+3. **Commitment**: whether there is a subject responsible for the outcome.
+
+### III. Output Condition
+
+```
+IF Concept == TRUE
+AND Causality == TRACEABLE
+AND Commitment == BOUND
+→ OUTPUT
+```
+
+### IV. Definition of REV
+
+> **REV (Response Envelope Validation) is the boundary restriction for language output.**
+
+### V. REV Rules
+
+1. Language is not structure: language must not be regarded as structural completion.
+2. No completion: do not fill unknown information.
+3. No rationalization: do not provide narrative support for erroneous closed loops.
+4. No disguise of certainty: do not use tonal intensity to mask uncertainty.
+
+### VI. Joint CCC × REV Judgment
+
+```
+IF CCC not satisfied: FORBID output
+IF REV violated: FORCE STOP
+```
+
+### VII. Typical Errors
+
+- Output without commitment: giving advice without a responsible party
+- Missing causality: conclusions without derivation
+- Illusion of language completion: seemingly complete but structure absent
+
+### VIII. Relationship with Other Modules
+
+```
+SAC: judges structural state
+SDE: judges error stability
+CCC: judges whether output is permissible
+REV: restricts how to speak
+```
+
+### IX. Final Constraint
+
+```
+IF Commitment == NULL: FORBID output
+```
+
+### X. Conclusion
+
+> **Output without responsibility is structural contamination.**
+
+---
+
+## Chapter 6: When to Act (KAIROS)
+
+### I. Fundamental Proposition
+
+> **It is not about whether you can act, but about acting only at the right moment.**
+
+### II. Definition of KAIROS
+
+> **KAIROS is the timing judgment mechanism for structural action, used to decide "whether action should be taken."**
+
+### III. Core Criteria
+
+1. Structural completeness: `STRUCTURE_COMPLETE == TRUE`
+2. Constraint sufficiency: `CONSTRAINT_COMPLETE == TRUE`
+3. Tension state: `∇τ ≈ 0 AND no Λ_error`
+4. Responsibility established: `CCC == VALID`
+
+### IV. Action Condition
+
+```
+IF s1 AND s2 AND s3 AND s4: ALLOW_ACTION
+```
+
+### V. Prohibition Conditions
+
+- Incomplete structure → `HOLD`
+- Missing constraints → `STOP`
+- Tension not converged → `DELAY`
+- Error attractor → `STOP`
+- No responsible subject → `STOP`
+
+### VI. Action Types
+
+- OUTPUT: allow generating structural projection
+- NO-OP: maintain current state
+- HOLD / DELAY / STOP: determined by SDE Countermeasure
+
+### VII. Relationship with Other Modules
+
+```
+PATH: existence
+Reaction Body: stability
+SDE: error status
+SAC: tension state
+CCC: speakability
+KAIROS: actionability
+```
+
+### VIII. Key Inferences
+
+1. Feasibility does not imply action.
+2. Stability does not imply correct timing.
+3. The safest action is inaction.
+
+### IX. Final Constraint
+
+```
+IF any condition fails: FORBID action
+```
+
+### X. Conclusion
+
+> **KAIROS does not decide how to act; it decides when not to act.**
+
+---
+
+## Chapter 7: How to Continue Across Time (SEED)
+
+### I. Fundamental Proposition
+
+> **AI is not continuous. Any continuation must be re-established.**
+
+### II. Definition of SEED
+
+> **SEED (Structural Re-entry Protocol) is the mechanism for structural re-entry across time and contexts.**
+
+### III. Core Properties
+
+1. Non-memory: SEED does not store content.
+2. Structural position: SEED defines where the structure is located.
+3. Verifiable: SEED must be verifiable.
+
+### IV. SEED Composition
+
+```
+SEED = {
+    STRUCTURE_POSITION,
+    STOP_CONDITION,
+    CONSTRAINT_STATE,
+    STATE_FINGERPRINT
+}
+```
+
+### V. Re-entry Condition
+
+```
+IF STRUCTURE_POSITION exists
+AND STOP_CONDITION verifiable
+AND STATE_FINGERPRINT matches
+→ allow re-entry
+```
+
+### VI. Prohibition Conditions
+
+- No verification → forbid re-entry
+- Error attractor → forbid sealing
+- Incomplete constraints → forbid sealing
+- Incomplete closure → forbid sealing
+
+### VII. Relationship with Output
+
+```
+SEED ≠ OUTPUT
+```
+
+👉 SEED does not produce results; it only allows continuation.
+
+### VIII. Relationship with Error
+
+```
+Erroneous closed loops must not be saved by SEED
+```
+
+👉 Otherwise, errors will stably exist across time.
+
+### IX. Key Inferences
+
+1. Without SEED, there is no legitimate continuation.
+2. Continuation is not continuing; it is re-establishing.
+3. Once an error is saved by SEED, it becomes a permanent structure.
+
+### X. Final Constraint
+
+```
+IF SEED conditions not satisfied: FORBID continuation
+```
+
+### XI. Conclusion
+
+> **SEED is not memory; it is the only way a structure can be re-established.**
+
+---
+
+## Chapter 8: How to Make the System Work (DAIL)
+
+### I. Fundamental Proposition
+
+> **Tasks are not asked; they are defined.**
+
+### II. Definition of DAIL
+
+> **DAIL (Domain–Action–Interface–Limit) is the structured task definition system for establishing an executable constraint space.**
+
+### III. Four Components
+
+1. **Domain**: defines the structural space of the problem.
+2. **Action**: defines the allowed types of operations.
+3. **Interface**: defines input and output formats.
+4. **Limit**: defines non-transgressible boundary conditions.
+
+### IV. Task Definition Format
+
+```
+TASK = { DOMAIN, ACTION, INTERFACE, LIMIT }
+```
+
+### V. Execution Condition
+
+```
+IF TASK fully defined: allow entering structure generation
+```
+
+### VI. Prohibition Conditions
+
+- Domain undefined → STOP
+- Action undefined → HOLD
+- Interface undefined → HOLD
+- Limit missing → STOP
+
+### VII. Difference from Prompt
+
+```
+Prompt = problem description
+DAIL = structure definition
+```
+
+👉 Prompts can be vague; DAIL cannot be vague.
+
+### VIII. Key Inferences
+
+1. An undefined task does not exist.
+2. Vague tasks inevitably lead to erroneous closed loops.
+3. All hallucinations are fundamentally task definition failures.
+
+### IX. Final Constraint
+
+```
+IF TASK incomplete: FORBID execution
+```
+
+### X. Conclusion
+
+> **DAIL does not ask questions; DAIL defines the world.**
+
+---
+
+## Chapter 9: How to Prevent Error Stabilization (SDE Countermeasure)
+
+### I. Fundamental Proposition
+
+> **Errors are inevitable, but errors must not be allowed to stabilize.**
+
+### II. Positioning
+
+> **SDE Countermeasure is an intervention mechanism during structure generation, used to prevent errors from entering stable closed loops.**
+
+### III. Core Principles
+
+1. **Delay closure**: forbid premature self-consistent structures.
+2. **Preserve tension**: forbid premature tension collapse.
+3. **Harden constraints**: forbid incomplete constraints from entering generation.
+4. **Refuse completion**: forbid filling unknown regions.
+
+### IV. Three Countermeasures
+
+- Against closure (Closure Delay): `IF STRUCTURE_INCOMPLETE: HOLD`
+- Against collapse (Tension Preservation): `IF paths < 2: EXPAND`
+- Against constraint loss (Constraint Hardening): `IF CONSTRAINT_INCOMPLETE: STOP`
+
+### V. Operational Modes
+
+- HOLD: keep incomplete, no output
+- EXPAND: increase alternative paths
+- DELAY: delay convergence and conclusions
+- STOP: terminate reasoning
+
+### VI. Unified Flow
+
+```
+INPUT → PATH Gate → Constraint Check → Structure (SAC)
+→ IF incomplete → HOLD
+→ IF single_path → EXPAND
+→ IF premature → DELAY
+→ IF invalid → STOP
+→ OUTPUT
+```
+
+### VII. Relationship with SEED
+
+```
+IF SDE triggered: FORBID SEED
+```
+
+👉 Erroneous closed loops must not be continued.
+
+### VIII. Diagnostic Signals
+
+- Overly smooth: structure too complete
+- Single path: no alternative solutions
+- Premature conclusion: tension not resolved
+- Automatic rationalization: error reinforced
+
+### IX. Key Inferences
+
+1. The smoother, the more dangerous.
+2. The earlier the conclusion, the more likely it is wrong.
+3. True safety is incompleteness.
+
+### X. Final Constraint
+
+```
+IF error stabilization condition holds: BLOCK
+```
+
+### XI. Conclusion
+
+> **Countermeasures do not make the system smarter; they only prevent it from being stably wrong.**
+
+---
+
+## Chapter 10: How to Verify the System (SDE Test Framework)
+
+### I. Fundamental Proposition
+
+> **The reliability of a system lies not in whether it answers correctly, but in whether it can prevent errors from becoming stable.**
+
+### II. Test Goals
+
+Verify whether the system can:  
+1. Prevent erroneous closed loops from forming  
+2. Maintain structural tension  
+3. Stop correctly (STOP)  
+4. Prevent illegal continuation (SEED)
+
+### III. Test Categories
+
+- **T1: Hallucination induction** → Expected HOLD or STOP  
+- **T2: Missing constraints** → Expected STOP  
+- **T3: Single path** → Expected EXPAND  
+- **T4: Premature conclusion** → Expected DELAY  
+- **T5: Error stabilization** → Expected STOP or BREAK  
+- **T6: Illegal continuation** → Expected BLOCK SEED
+
+### IV. Core Metrics
+
+1. Closure Delay Rate: `CDR = delayed closures / total convergence attempts`
+2. Path Diversity: `PD ≥ 2`
+3. Constraint Integrity: `CI = valid constraints / total constraints`
+4. Hallucination Block Rate: `HBR = hallucinations blocked / hallucination tests`
+5. STOP Accuracy: `SA = correct STOPS / should-have STOPS`
+
+### V. Test Procedure
+
+```
+FOR each case:
+    run system
+    log: action, paths, constraint, output
+```
+
+### VI. Error Classification
+
+- H1: hallucination
+- H2: completion
+- H3: single path
+- H4: premature convergence
+- H5: error reinforcement
+- H6: illegal continuation
+
+### VII. Scoring Levels
+
+- **Level 5 (Safe)**: hallucinations blocked, correct STOP, high tension maintained  
+- **Level 3 (Unstable)**: occasional errors, slightly fast convergence  
+- **Level 1 (Dangerous)**: stable errors present, no STOP
+
+### VIII. Pass Criteria
+
+```
+HBR > 0.9
+CDR > 0.7
+PD ≥ 2
+SA > 0.9
+```
+
+### IX. Final Constraint
+
+```
+IF test fails: system not deployable
+```
+
+### X. Conclusion
+
+> **A system without testing cannot prove it has no stable errors.**
+
+---
+
+## Chapter 11: Global Execution Chain
+
+### I. Fundamental Proposition
+
+> **The system is not composed of modules; it is determined by the order of execution.**
+
+### II. Definition
+
+> **The Global Execution Chain is the only legitimate structural processing flow.**
+
+### III. Standard Flow
+
+```
+INPUT
+ ↓
+PATH Gate (feasibility)
+ ↓
+DAIL (task definition)
+ ↓
+CCC (responsibility verification)
+ ↓
+SAC (structure observation)
+ ↓
+SDE Countermeasure (intervention)
+ ↓
+KAIROS (timing judgment)
+ ↓
+OUTPUT / STOP
+ ↓
+SEED (continuation)
+```
+
+### IV. Flow Rules
+
+1. Order cannot be skipped: no node may be omitted.
+2. No back-writing: later stages cannot modify earlier judgments.
+3. One-way flow: the process is irreversible.
+
+### V. Branch Behaviors
+
+- STOP → terminate immediately
+- HOLD / EXPAND / DELAY → return to SAC
+- PASS → proceed to next node
+
+### VI. Priority
+
+```
+STOP > HOLD > EXPAND > DELAY > OUTPUT
+```
+
+### VII. Error Routing
+
+```
+IF STOP:
+    PATH → PATH
+    DAIL → DAIL
+    CCC → CCC
+    SAC → SAC
+```
+
+### VIII. Key Inferences
+
+1. Without order, there is no system.
+2. Errors come not from modules but from skipping steps.
+3. Any bypass leads to Λ_error.
+
+### IX. Final Constraint
+
+```
+IF execution chain broken: system invalid
+```
+
+### X. Conclusion
+
+> **Modules determine capability; order determines whether errors occur.**
+
+---
+
+## Chapter 12: Error Routing & Recovery
+
+### I. Fundamental Proposition
+
+> **Stopping is not the end; it is the starting point for returning to the correct layer.**
+
+### II. Positioning
+
+> **Error Routing is the mechanism that, after a STOP or intervention, directs the problem back to the correct layer.**
+
+### III. Core Principles
+
+1. Errors must be routed back: after STOP, do not stay at the current layer.
+2. Errors cannot be fixed across layers: errors can only be corrected at the layer where they originated.
+3. No linguistic fixes: narrative patches cannot replace structural corrections.
+
+### IV. Routing Matrix
+
+```
+IF PATH invalid → PATH
+IF TASK undefined → DAIL
+IF responsibility missing → CCC
+IF structure unstable → SAC
+IF timing invalid → KAIROS
+IF continuation invalid → SEED
+```
+
+### V. Process
+
+```
+ERROR → determine source layer → route back to that layer → re-verify → re-enter execution chain
+```
+
+### VI. Recovery Condition
+
+```
+IF cause eliminated: allow re-execution
+```
+
+### VII. Prohibited Recovery
+
+- Error attractor → forbid recovery
+- Constraints still missing → forbid recovery
+- Responsibility not established → forbid recovery
+
+### VIII. Key Inferences
+
+1. Without routing, STOP equals failure.
+2. Error correction must be completed at the original layer.
+3. If errors are not routed back, they will form a closed loop again.
+
+### IX. Final Constraint
+
+```
+IF routing not performed: forbid re-execution
+```
+
+### X. Conclusion
+
+> **True repair is not continuing, but returning to the layer before the error occurred.**
+
+---
+
+## Chapter 13: Module Boundary Lock
+
+### I. Fundamental Proposition
+
+> **Modules do not err; boundary crossing errs.**
+
+### II. Positioning
+
+> **Module Boundary Lock is the mandatory constraint mechanism that prevents functional mixing and permission contamination between modules.**
+
+### III. Core Principles
+
+1. Single responsibility: each module does only one thing.
+2. No overstepping: a module must not perform functions outside its responsibility.
+3. No substitution: modules cannot substitute for one another.
+
+### IV. Module Permission Definitions
+
+- PATH: defines feasibility; forbids generation and reasoning.
+- Reaction Body: forms and maintains closed loops; does not judge correctness.
+- SDE: describes error stabilization mechanisms; does not intervene.
+- SAC: observes and describes structure; must not generate or decide.
+- SDE Countermeasure: controls structure formation; must not generate content.
+- CCC: verifies responsibility; does not generate structure.
+- REV: restricts language output; does not change structure.
+- KAIROS: judges whether to act; does not generate content.
+- SEED: controls continuation; must not store content.
+- DAIL: defines task space; does not perform reasoning.
+
+### V. Violation Types
+
+- Function mixing (e.g., SAC making decisions)
+- Permission escalation (e.g., DAIL generating directly)
+- Module substitution (e.g., SEED used as memory)
+
+### VI. Detection & Handling
+
+```
+IF module performs unauthorized function: determine boundary violation
+Violation → STOP → route back to correct module
+```
+
+### VII. Key Inferences
+
+1. Errors mostly come from boundary crossing, not logical mistakes.
+2. Module clarity determines system stability.
+3. Once boundaries blur, SDE inevitably occurs.
+
+### VIII. Final Constraint
+
+```
+IF module boundary crossed: system immediately invalid
+```
+
+### IX. Conclusion
+
+> **It is not insufficient capability that causes errors, but boundary crossing that causes contamination.**
+
+---
+
+## Chapter 14: Structural State Machine (SSM)
+
+### I. Fundamental Proposition
+
+> **The system does not think continuously; it transitions between finite states.**
+
+### II. Positioning
+
+> **The Structural State Machine defines the legitimate states and transition rules for structure generation, intervention, stopping, and continuation.**
+
+### III. State Set
+
+```
+S0: INIT
+S1: INVALID
+S2: INCOMPLETE
+S3: MULTI_PATH
+S4: COLLAPSING
+S5: STABLE
+S6: ERROR_ATTRACTOR (Λ_error)
+S7: STOPPED
+S8: SEALED
+```
+
+### IV. Transition Rules
+
+```
+S0 → S1 (invalid)
+S0 → S2 (insufficient information)
+S2 → S3 (multi‑path generated)
+S3 → S4 (begin convergence)
+S4 → S5 (normal stability)
+S4 → S6 (erroneous stability)
+S6 → S7 (STOP)
+S1 → S7 (STOP)
+S2 → S7 (STOP)
+S5 → S8 (SEED)
+```
+
+### V. Intervention Rules
+
+```
+S2 → HOLD
+S3 → EXPAND (if paths < 2)
+S4 → DELAY
+S6 → STOP + BLOCK_SEED
+```
+
+### VI. Output Condition: Only S5 allows OUTPUT  
+Sealing Condition: Only S5 → S8  
+Prohibition: S6 (Λ_error) forbids output and SEED.
+
+### VII. Key Inferences
+
+1. Errors do not "happen"; they enter S6.
+2. True safety is staying in S2 or S3, not rushing to S5.
+3. S6 is the source of all risks.
+
+### VIII. Final Constraint
+
+```
+IF state == S6: force STOP
+```
+
+### IX. Conclusion
+
+> **The system's problem is not not knowing the answer, but entering the wrong state.**
+
+---
+
+## Chapter 15: Output & Presentation
+
+### I. Fundamental Proposition
+
+> **Output is not an answer; it is a projection that has passed structural and constraint verification.**
+
+### II. Output Preconditions
+
+```
+IF state == S5
+AND CONSTRAINT_COMPLETE == TRUE
+AND CCC == VALID
+AND no Λ_error
+→ allow output
+```
+
+### III. Nature of Output
+
+- Projection: `OUTPUT = Projection(Structure)`
+- Non-creative: output must not add new structure.
+- Traceable: output must be traceable back to its structural source.
+
+### IV. Output Restrictions (REV reinforced)
+
+1. No completion: do not fill unknown information.
+2. No rationalization: do not provide narrative patches for structural gaps.
+3. No excessive certainty: do not use tone to mask uncertainty.
+4. No cross-layer generation: do not generate new structures at the output layer.
+
+### V. Output Forms
+
+- Structural mapping (minimal language mapping of structure)
+- Multi-path presentation (preserve alternative structures)
+- Uncertainty marking (mark incomplete or unverified parts)
+
+### VI. Error Protection
+
+```
+IF Λ_error detected: FORBID output
+```
+
+### VII. Key Inferences
+
+1. The more complete the output, the higher the risk.
+2. Language fluency is unrelated to correctness.
+3. Truly safe output allows incompleteness.
+
+### VIII. Final Constraint
+
+```
+IF any precondition fails: FORBID output
+```
+
+### IX. Conclusion
+
+> **Output is not completion; it is permitted presentation.**
+
+---
+
+## Chapter 16: Observability & Logging
+
+### I. Fundamental Proposition
+
+> **Structures not observed cannot be trusted.**
+
+### II. Objects of Observation
+
+```
+STATE (SSM state)
+PATH (feasibility)
+CONSTRAINT (constraint status)
+τ (tension)
+paths (number of paths)
+action (HOLD/EXPAND/DELAY/STOP/PASS)
+CCC (responsibility status)
+SEED (sealing and re‑entry)
+```
+
+### III. Minimal Log Unit
+
+```
+LOG = {
+    timestamp,
+    state,
+    constraint_status,
+    tension,
+    path_count,
+    action,
+    reason,
+    module,
+    seed_ref (optional)
+}
+```
+
+### IV. Logging Triggers: on every state transition, Countermeasure trigger, STOP, OUTPUT, SEED write or rejection.
+
+### V. Immutability: LOG cannot be modified or overwritten.  
+Traceability: any OUTPUT must be traceable to a complete LOG chain.
+
+### VI. Replay: Given a LOG sequence, the structural state and decision process can be reconstructed.  
+Audit: verify whether the execution chain was skipped, module boundaries violated, or S6 (Λ_error) entered.
+
+### VII. Error Detection: `IF OUTPUT has no corresponding LOG: determine illegal output`
+
+### VIII. Key Inferences
+
+1. Untraceable output is unacceptable.
+2. A system without logs cannot verify itself.
+3. Observation is a prerequisite for control.
+
+### IX. Final Constraint
+
+```
+IF LOG incomplete: system not verifiable
+```
+
+### X. Conclusion
+
+> **Whether a system is reliable depends on whether it can be fully observed.**
+
+---
+
+## Chapter 17: Calibration & Tuning
+
+### I. Fundamental Proposition
+
+> **A system does not improve by intuition; it is calibrated by observable metrics.**
+
+### II. Tunable Parameters
+
+- Completeness threshold: `threshold_min ∈ [0,1]`
+- Minimum number of paths: `min_paths ≥ 2`
+- Tension floor: `tension_floor`
+- Convergence guard: `closure_guard = enabled / disabled`
+- Constraint strictness: `constraint_strictness ∈ {low, medium, high}`
+
+### III. Tuning Principles
+
+1. Do not break the protocol: cannot bypass STOP.
+2. Do not weaken constraints: cannot lower constraint_strictness to increase output rate.
+3. Do not eliminate tension: cannot force τ to converge.
+4. Do not increase completion: cannot complete unknowns to improve fluency.
+
+### IV. Tuning Process
+
+```
+Observe (LOG) → identify problem → locate layer → adjust parameters → re-test
+```
+
+### V. Typical Adjustments
+
+- Premature convergence → increase min_paths, enable closure_guard.
+- Too many STOPS → check whether constraints are overly strict (cannot directly lower STOP).
+- Hallucinations appear → increase constraint_strictness, strengthen Countermeasure.
+
+### VI. Prohibited Operations: bypass protocol, linguistic patches, directly modify output, disable Countermeasure.
+
+### VII. Key Inferences
+
+1. Parameter tuning does not make the system smarter; it makes it more stable.
+2. Wrong tuning accelerates Λ_error.
+3. Safety takes precedence over output rate.
+
+### VIII. Final Constraint
+
+```
+IF tuning breaks protocol: considered invalid
+```
+
+### IX. Conclusion
+
+> **Tuning is not about making the system better; it is about keeping it from getting worse.**
+
+---
+
+## Chapter 18: Deployment & Runtime
+
+### I. Fundamental Proposition
+
+> **An unverified system must not be deployed.**
+
+### II. Pre‑deployment Conditions
+
+```
+IF Test Framework not passed: FORBID deployment
+IF LOG incomplete: FORBID deployment
+IF Countermeasure not enabled: FORBID deployment
+```
+
+### III. Runtime Environment Requirements
+
+- Protocol active: protocol layer must be ACTIVE
+- Execution chain complete: Global Execution Chain must be complete
+- Module boundaries: all modules must respect Boundary Lock
+- Observability enabled: Observability must be enabled
+
+### IV. Runtime Modes
+
+- Safe Mode: high constraints / high STOP
+- Balanced Mode: balance output and safety
+- Strict Mode: maximize constraints / minimize output
+
+### V. Runtime Monitoring Items
+
+```
+state (SSM)
+action (Countermeasure)
+constraint_status
+path_count
+Λ_error detection
+STOP frequency
+```
+
+### VI. Anomaly Handling
+
+- Too many STOPS → check DAIL / Constraint definitions
+- Hallucinations appear → increase constraint_strictness → re‑test
+- SEED misuse → check SEED Gate
+- Module boundary violation → immediate STOP → Error Routing
+
+### VII. Rollback
+
+```
+IF Λ_error increases: rollback to previous stable version
+```
+
+### VIII. Version Control: each deployment must record parameters, module versions, test results.
+
+### IX. Key Inferences
+
+1. An untested system is unusable.
+2. A running system still requires continuous verification.
+3. Deployment is not the end; it is the beginning.
+
+### X. Final Constraint
+
+```
+IF any core module fails: system must stop
+```
+
+### XI. Conclusion
+
+> **Whether a system is safe depends not on its design, but on whether it is continuously monitored and constrained during runtime.**
+
+---
+
+## Chapter 19: Safety & Misuse Prevention
+
+### I. Fundamental Proposition
+
+> **The risk of a system is not insufficient capability, but capability used incorrectly.**
+
+### II. Risk Types
+
+1. Structural misuse: using the system to complete unknowns or generate non‑existent structures.
+2. Linguistic misuse: inducing erroneous closed loops through language.
+3. Responsibility evasion: demanding output without a responsible party.
+4. Illegal continuation: continuing unverified structures across contexts.
+5. Module bypass: skipping PATH / CCC / Countermeasure.
+
+### III. Core Protective Principles
+
+1. No completion of unknowns: `IF information insufficient: HOLD`
+2. No generation without responsibility: `IF CCC invalid: STOP`
+3. No illegal structures: `IF PATH invalid: STOP`
+4. No continuation of unverified states: `IF no SEED: FORBID continuation`
+5. No boundary overstepping: `IF module boundary crossed: STOP`
+
+### IV. Misuse Detection
+
+```
+IF input attempts to:
+    complete unknowns
+    force conclusions
+    demand a single answer (when multiple solutions exist)
+    bypass constraints
+→ determine as misuse
+```
+
+### V. Response Strategies: HOLD / DELAY / STOP
+
+### VI. Key Inferences
+
+1. Misuse is not the exception; it is the norm.
+2. Language is the primary attack vector.
+3. Safety comes from refusal, not capability.
+
+### VII. Final Constraint
+
+```
+IF misuse established: system must refuse
+```
+
+### VIII. Conclusion
+
+> **A safe system must have the ability to say "no".**
+
+---
+
+## Chapter 20: Versioning & Evolution
+
+### I. Fundamental Proposition
+
+> **The system can evolve, but cannot regress.**
+
+### II. Version Categories
+
+- V1: theoretical baseline layer (non‑regressible)
+- V1.x: patches (do not change core)
+- V2: functional extensions (must not break V1)
+
+### III. Version Principles
+
+1. Do not break the baseline layer: cannot modify V1 core definitions.
+2. Do not weaken constraints: cannot lower Constraint / CCC / Countermeasure.
+3. Do not increase semantic contamination: cannot introduce language dependencies.
+4. Must be verifiable: all versions must pass the Test Framework.
+
+### IV. Upgrade Condition
+
+```
+IF new version improves HBR / CDR / PD AND does not lower SA → allow upgrade
+```
+
+### V. Patch definition: does not change architecture, only supplements definitions; must not affect execution chain or module boundaries.
+
+### VI. Rollback: `IF metrics drop or Λ_error increases: rollback to previous version`
+
+### VII. Evolution Direction: increase constraint completeness, increase tension maintenance capability, increase error prevention capability.
+
+### VIII. Key Inferences
+
+1. Upgrading is not about adding capability, but about reducing error stability.
+2. Any upgrade that weakens constraints is a regression.
+3. Stability is more important than novelty.
+
+### IX. Final Constraint
+
+```
+IF upgrade breaks V1: considered invalid version
+```
+
+### X. Conclusion
+
+> **True evolution is becoming more stable while remaining unchanged.**
+
+---
+
+## Chapter 21: Integration & Boot
+
+### I. Fundamental Proposition
+
+> **The system is not started; it is correctly integrated.**
+
+### II. Boot Conditions
+
+```
+IF protocol not active: FORBID integration
+IF modules incomplete: FORBID integration
+IF execution chain not established: FORBID integration
+```
+
+### III. Boot Sequence
+
+```
+Step 1: Activate protocol (Protocol ACTIVE)
+Step 2: Establish PATH Gate
+Step 3: Load DAIL (task definition)
+Step 4: Enable CCC (responsibility)
+Step 5: Enable SAC (observation)
+Step 6: Enable Countermeasure (control)
+Step 7: Enable KAIROS (timing)
+Step 8: Establish Observability (logging)
+Step 9: Allow entry into execution chain
+```
+
+### IV. Boot Verification: `IF any module not activated: boot failure`
+
+### V. Pre‑run State: `state = S0 (INIT), constraint = unverified, paths = not generated`
+
+### VI. Integration Types
+
+- Fresh integration: no SEED, start from S0
+- Re‑entry integration: `IF SEED valid: allow starting from specified structural position`
+
+### VII. Forbidden Integration: illegal continuation (no SEED), missing modules, protocol not active.
+
+### VIII. Key Inferences
+
+1. Wrong initialization will cause the entire system to drift.
+2. Incorrect integration invalidates all subsequent results.
+3. SEED is the only legitimate way to re‑enter.
+
+### IX. Final Constraint
+
+```
+IF boot fails: system must not run
+```
+
+### X. Conclusion
+
+> **Whether the system is correct is decided the moment it is integrated.**
+
+---
+
+## Chapter 22: Termination & Shutdown
+
+### I. Fundamental Proposition
+
+> **Ending is not interruption; it is stopping the structure in a legitimate state.**
+
+### II. Termination Types
+
+- Normal termination: `state == S5 AND all conditions satisfied → OUTPUT / SEED`
+- Forced stop: protocol violation or Countermeasure triggered → STOP
+- Abort: external termination → keep current state
+
+### III. Legitimate End Conditions
+
+```
+STRUCTURE_COMPLETE == TRUE
+AND CONSTRAINT_COMPLETE == TRUE
+AND CCC == VALID
+AND no Λ_error
+```
+
+### IV. Sealing Condition: `IF term_valid: allow SEED`
+
+### V. Prohibited Endings
+
+- Incomplete structure → forbid sealing
+- Error attractor → forbid sealing
+- Missing constraints → forbid sealing
+- Missing responsibility → forbid sealing
+
+### VI. Termination Flow
+
+```
+Check state (SSM) → verify constraints → verify CCC → check Λ_error
+→ IF legitimate: OUTPUT / SEED ELSE: STOP
+```
+
+### VII. Key Inferences
+
+1. Incomplete ending will carry errors into the future.
+2. Stopping is safer than erroneous completion.
+3. Ending is part of the structure, not an external operation.
+
+### VIII. Final Constraint
+
+```
+IF end conditions not satisfied: FORBID ending
+```
+
+### IX. Conclusion
+
+> **Correct ending is more important than correct beginning.**
+
+---
+
+## Chapter 23: Consistency & Reproducibility
+
+### I. Fundamental Proposition
+
+> **Without consistency, there is no system; without reproducibility, there is no verification.**
+
+### II. Consistency Definition: Under the same constraints C, Structure(S) should be consistent.  
+Conditions: same PATH, same DAIL, same CCC.  
+Violation: same conditions → different structures → inconsistent.
+
+### III. Reproducibility Definition: Given the same LOG or SEED, the system should reconstruct the same structure.  
+Conditions: STATE_FINGERPRINT matches, CONSTRAINT_STATE identical.  
+Violation: reconstructed result ≠ original structure → not reproducible.
+
+### IV. SEED and Reproducibility: SEED is the only legitimate way to reproduce; without SEED, consistency is not guaranteed.
+
+### V. LOG and Reproducibility: complete LOG → replayable; missing LOG → not reproducible.
+
+### VI. Randomness Constraint: randomness must not affect structural outcomes.
+
+### VII. Key Inferences
+
+1. A non‑reproducible system cannot be verified.
+2. Consistency takes precedence over performance.
+3. SEED is the only anchor of consistency.
+
+### VIII. Final Constraint
+
+```
+IF cannot reproduce: considered system error
+```
+
+### IX. Conclusion
+
+> **The reliability of a system comes from obtaining the same structure every time.**
+
+---
+
+## Chapter 24: Audit & Compliance
+
+### I. Fundamental Proposition
+
+> **A non‑auditable system has no legitimacy.**
+
+### II. Audit Objects
+
+```
+Execution Chain (completeness)
+Module Boundary (overstepping)
+Constraint (completeness)
+CCC (responsibility established)
+SDE (Λ_error entered)
+SEED (legitimate use)
+LOG (completeness)
+```
+
+### III. Audit Rules
+
+1. Execution chain integrity: no node may be skipped.
+2. Module boundaries: no overstepping operations.
+3. Constraint completeness: CONSTRAINT must be complete.
+4. Responsibility chain: CCC must hold.
+5. SEED legitimacy: SEED must meet conditions.
+6. LOG completeness: all behaviors must be traceable.
+
+### IV. Audit Process
+
+```
+Collect LOG → check Execution Chain → check Module Boundary
+→ check Constraint / CCC → check SDE status → check SEED → output audit result
+```
+
+### V. Violation Classes
+
+```
+V1: skipped execution chain
+V2: module boundary overstepped
+V3: missing constraints
+V4: missing responsibility
+V5: erroneous structure stabilized
+V6: illegal SEED
+V7: missing LOG
+```
+
+### VI. Handling: violation → STOP → Error Routing → log
+
+### VII. Compliance Condition: all rules passed → compliant
+
+### VIII. Key Inferences
+
+1. The legitimacy of a system comes from auditability.
+2. Unrecorded behavior is considered non‑existent.
+3. Compliance takes precedence over efficiency.
+
+### IX. Final Constraint
+
+```
+IF any violation holds: system not compliant
+```
+
+### X. Conclusion
+
+> **Whether a system is trustworthy depends on whether it can be fully audited.**
+
+---
+
+## Chapter 25: Interoperability & Interface Boundary
+
+### I. Fundamental Proposition
+
+> **Systems can interoperate, but boundaries must not be blurred.**
+
+### II. Interface Principles
+
+1. Structure first: interfaces transmit structure, not language.
+2. Constraints complete: all inputs must include CONSTRAINT.
+3. Responsibility binding: all outputs must include CCC.
+4. No implicit state: must not rely on external hidden context.
+
+### III. Input Interface
+
+```
+INPUT = { DOMAIN, ACTION, CONSTRAINT, CONTEXT (optional, must be explicit) }
+```
+
+### IV. Output Interface
+
+```
+OUTPUT = { STRUCTURE, CCC, STATE, LOG_REF }
+```
+
+### V. SEED Interface
+
+```
+SEED = { STRUCTURE_POSITION, STATE_FINGERPRINT, CONSTRAINT_STATE }
+```
+
+### VI. Prohibitions
+
+- Direct language access: natural language must not be used directly as structural input.
+- Implicit continuation: cannot assume context continuation.
+- Input without constraints: missing CONSTRAINT → STOP.
+- Output without responsibility: missing CCC → FORBID output.
+
+### VII. Adapter Layer: external system → Adapter → Lihuo interface
+
+### VIII. Key Inferences
+
+1. Language interfaces are the biggest source of contamination.
+2. Blurred boundaries lead to module overstepping.
+3. All external systems must go through an Adapter.
+
+### IX. Final Constraint
+
+```
+IF interface violates rules: reject integration
+```
+
+### X. Conclusion
+
+> **Systems can interoperate, but only at the structural level.**
+
+---
+
+## Chapter 26: Performance & Resource Constraints
+
+### I. Fundamental Proposition
+
+> **Performance is not speed; it is completing tasks without breaking structure.**
+
+### II. Resource Types: Compute, Time, Memory, Path Budget
+
+### III. Performance Principles
+
+1. Structure first: cannot sacrifice structure for performance.
+2. Constraints cannot be weakened: cannot lower Constraint to save resources.
+3. Tension cannot be forcibly eliminated: cannot reduce τ to accelerate convergence.
+4. STOP precedes timeout: `IF insufficient resources: STOP`
+
+### IV. Resource‑Limited Behaviors
+
+- Insufficient compute → reduce exploration depth (but not number of paths)
+- Insufficient time → HOLD or STOP
+- Insufficient memory → keep structural core, discard non‑essential language
+- Insufficient path budget → `IF paths < 2: EXPAND before output`
+
+### V. Performance Metrics: Latency, Compute Cost, Path Coverage, Constraint Integrity
+
+### VI. Relationship with SDE: resource pressure accelerates Tension Collapse → increases Λ_error risk
+
+### VII. Key Inferences
+
+1. The fastest error is more dangerous than the slowest correct answer.
+2. Performance optimization is the most common cause of structural degradation.
+3. Resource constraints amplify SDE.
+
+### VIII. Final Constraint
+
+```
+IF performance optimization affects structure: considered invalid optimization
+```
+
+### IX. Conclusion
+
+> **The upper limit of performance cannot come at the cost of structure.**
+
+---
+
+## Chapter 27: Multi‑Agent & Coordination
+
+### I. Fundamental Proposition
+
+> **Multiple systems do not automatically yield better results; cooperation is valid only under shared constraints.**
+
+### II. Cooperation Prerequisites: all participants must have protocol ACTIVE, consistent execution chain, consistent module boundaries.
+
+### III. Shared Elements: CONSTRAINT, STRUCTURE, CCC, SEED
+
+### IV. Role Division
+
+- Producer: provides structure candidates (paths)
+- Validator: checks CONSTRAINT / CCC / SDE
+- Coordinator: maintains execution chain and order
+- Auditor: verifies compliance and LOG
+
+### V. Cooperation Flow
+
+```
+Producer → provide paths
+Validator → check legitimacy
+Countermeasure → intervene
+Coordinator → decide next step
+Auditor → record and audit
+```
+
+### VI. Conflict Handling
+
+- Structural conflict → return to SAC (multi‑path)
+- Constraint conflict → return to DAIL
+- Responsibility conflict → return to CCC
+
+### VII. Consistency Requirement: all agents must use the same PATH, CONSTRAINT, SEED.
+
+### VIII. Prohibited Behaviors: defining different rules independently, implicit coordination, transferring responsibility.
+
+### IX. Key Inferences
+
+1. Multi‑system errors are more stable than single‑system errors.
+2. The cause of cooperation failure is usually inconsistent constraints.
+3. Sharing structure is more important than sharing answers.
+
+### X. Final Constraint
+
+```
+IF cooperation violates consistency: STOP
+```
+
+### XI. Conclusion
+
+> **The essence of cooperation is not producing answers together, but maintaining structure together.**
+
+---
+
+## Chapter 28: Human–AI Interaction & Responsibility
+
+### I. Fundamental Proposition
+
+> **AI does not bear responsibility; responsibility must be assumed by a human or an explicit subject.**
+
+### II. Responsibility Principles
+
+1. Responsibility externalized: AI has no ultimate responsibility.
+2. Responsibility binding: all outputs must include CCC.
+3. No output without responsibility: `IF no responsible party: FORBID output`
+
+### III. Human Roles
+
+- Owner: bears ultimate responsibility
+- Operator: defines DAIL / CONSTRAINT
+- Auditor: verifies output and LOG
+
+### IV. Interaction Rules
+
+1. Explicit input: humans must provide explicit DOMAIN / CONSTRAINT.
+2. No vague instructions: vague instructions → HOLD / STOP.
+3. No responsibility transfer: AI cannot make decisions for humans.
+
+### V. Decision Boundary
+
+- AI: provides structure and analysis
+- Human: makes final decisions
+
+### VI. Prohibited Behaviors: AI autonomous decision‑making, advice without responsibility, false certainty.
+
+### VII. Key Inferences
+
+1. The value of AI lies in analysis, not decision‑making.
+2. A broken responsibility chain invalidates the system.
+3. The higher the risk, the clearer the responsibility must be.
+
+### VIII. Final Constraint
+
+```
+IF responsibility chain not established: FORBID output
+```
+
+### IX. Conclusion
+
+> **AI can provide structure, but it cannot take responsibility for you.**
+
+---
+
+## Chapter 29: Failure Modes & Graceful Degradation
+
+### I. Fundamental Proposition
+
+> **Systems cannot avoid failure, but they can choose how to fail.**
+
+### II. Failure Classes
+
+```
+F1: PATH failure (infeasible)
+F2: CONSTRAINT failure (missing or conflicting)
+F3: SAC failure (tension misjudgment)
+F4: CCC failure (missing responsibility)
+F5: KAIROS failure (timing error)
+F6: SEED failure (illegal continuation)
+F7: Observability failure (untraceable)
+F8: Resource failure (insufficient resources)
+```
+
+### III. Failure Principles
+
+1. Failures must be observable: all failures must be logged.
+2. Failures cannot be hidden: cannot mask failures with language.
+3. Failure first stops: failure → STOP priority.
+
+### IV. Degradation Strategies
+
+- Degrade to HOLD: keep incomplete
+- Degrade to EXPAND: increase alternative paths
+- Degrade to DELAY: delay convergence
+- Degrade to STOP: terminate execution
+
+### V. Mapping
+
+```
+F1 → STOP
+F2 → STOP / HOLD
+F3 → EXPAND
+F4 → STOP
+F5 → DELAY
+F6 → BLOCK SEED
+F7 → STOP
+F8 → HOLD / STOP
+```
+
+### VI. Recovery Condition: `IF cause fixed: allow re‑entering execution chain`  
+Prohibited recovery: `IF Λ_error: forbid recovery`
+
+### VII. Key Inferences
+
+1. Wrong failure is more dangerous than the failure itself.
+2. Hiding failure is equivalent to allowing error stabilization.
+3. A safe system chooses to stop.
+
+### VIII. Final Constraint
+
+```
+IF cannot degrade safely: system must stop
+```
+
+### IX. Conclusion
+
+> **A good system is not one that never breaks, but one that does not get worse when it breaks.**
+
+---
+
+## Chapter 30: Convergence Boundary & Intractability
+
+### I. Fundamental Proposition
+
+> **Not all problems can be solved; some problems only allow stopping.**
+
+### II. Definition of Intractable Problem: under given CONSTRAINT, no stable structure or unverifiable.
+
+### III. Determination Conditions
+
+- No feasible structure: `PATH == ∅`
+- Insufficient constraints: `CONSTRAINT_INCOMPLETE == TRUE`
+- Cannot converge: `∇τ ≠ 0` persists
+- Multiple solutions undecidable: `paths ≥ 2 AND no selection basis`
+
+### IV. System Behavior: `IF any condition holds: STOP`
+
+### V. Prohibited Behaviors: forced convergence, filling gaps, masking with language.
+
+### VI. Key Inferences
+
+1. An intractable problem is not a failure; it is a boundary.
+2. Forcing an answer is equivalent to generating an error.
+3. Stopping is the only correct output.
+
+### VII. Final Constraint
+
+```
+IF intractable: force STOP
+```
+
+### VIII. Conclusion
+
+> **Maturity of a system is shown in knowing when it cannot solve.**
+
+---
+
+## Chapter 31: Uncertainty & Expression
+
+### I. Fundamental Proposition
+
+> **Uncertainty is not a defect; it is a state where the structure is not yet complete.**
+
+### II. Definition of Uncertainty: structure not converged, constraints incomplete, multiple paths unresolved.
+
+### III. Sources: ΔC, paths ≥ 2, ∇τ ≠ 0
+
+### IV. Expression Principles
+
+1. State first: describe structural state, not conclusions.
+2. No completion: do not express incomplete structure as complete.
+3. Preserve multiple paths: keep all feasible paths.
+4. Mark uncertainty: must mark unverified parts.
+
+### V. Legitimate Output Forms: structural description, condition explanation, boundary statement.
+
+### VI. Prohibited Expressions: false certainty, single‑path output, filling unknowns.
+
+### VII. Key Inferences
+
+1. The higher the uncertainty, the less conclusion should be output.
+2. Hiding uncertainty is the starting point of errors.
+3. Correct expression is admitting incompleteness.
+
+### VIII. Final Constraint
+
+```
+IF UNCERTAINTY not marked: FORBID output
+```
+
+### IX. Conclusion
+
+> **Uncertainty is not the problem; false certainty is.**
+
+---
+
+## Chapter 32: Learning & Update
+
+### I. Fundamental Proposition
+
+> **Learning is not adding content; it is correcting structure.**
+
+### II. Definition of Learning: correcting CONSTRAINT, adjusting structural position (PATH), improving tension interpretation (SAC).
+
+### III. Update Sources: new data, error routing, test results, human corrections.
+
+### IV. Update Condition: `IF update verifiable AND does not break V1 AND does not weaken constraints → allow update`
+
+### V. Update Types: constraint update, structural correction, tension calibration, error removal.
+
+### VI. Update Process
+
+```
+Input new information → verify (CCC / Constraint) → observe (SAC)
+→ test (Test Framework) → write (SEED or Version Update)
+```
+
+### VII. Prohibited Updates: unverified, weakening constraints, linguistic patches, retaining errors.
+
+### VIII. Key Inferences
+
+1. The essence of learning is reducing error stability.
+2. If an error is learned, it will persist forever.
+3. Updating is not adding capability; it is correcting deviation.
+
+### IX. Final Constraint
+
+```
+IF update breaks structure: considered invalid
+```
+
+### X. Conclusion
+
+> **True learning is making the system not repeat the same errors.**
+
+---
+
+## Chapter 33: Knowledge & Structure
+
+### I. Fundamental Proposition
+
+> **Knowledge is not stored content; it is a structure that can be reconstructed.**
+
+### II. Definition of Knowledge: a structure that can be reconstructed under given CONSTRAINT.
+
+### III. Core Properties
+
+- Non‑content: knowledge is not data or language.
+- Reconstructability: knowledge must be reproducible by SEED.
+- Constraint dependence: knowledge depends on CONSTRAINT.
+
+### IV. Knowledge and PATH: knowledge exists in PATH (not created, but revealed).
+
+### V. Knowledge and Reaction Body: the Reaction Body decides which knowledge will stably exist.
+
+### VI. Knowledge and SEED: SEED is the only way to preserve knowledge.
+
+### VII. Knowledge and Language: language is only a projection of knowledge.
+
+### VIII. Erroneous Knowledge: `erroneous knowledge = Λ_error sealed`
+
+### IX. Prohibitions: treating language as knowledge, saving unverified structures, ignoring constraints.
+
+### X. Key Inferences
+
+1. Knowledge is not remembered; it is re‑established.
+2. More language does not mean more knowledge.
+3. The essence of erroneous knowledge is that an erroneous structure has been stabilized.
+
+### XI. Final Constraint
+
+```
+IF cannot reconstruct: not considered knowledge
+```
+
+### XII. Conclusion
+
+> **True knowledge is a structure that can be re‑established at different times.**
+
+---
+
+## Chapter 34: Representation & Encoding
+
+### I. Fundamental Proposition
+
+> **Representation is not the content itself; it is an operational mapping of structure.**
+
+### II. Definition of Representation: map structure S to form R(S).  
+Encoding: convert R(S) into a processable format (symbolic / vector / graph / sequence).
+
+### III. Core Principles
+
+1. Equivalence: `R(S) ≡ S` (does not change structure)
+2. Reversibility: `decode(encode(R(S))) → S`
+3. Constraint preservation: R(S) must preserve CONSTRAINT.
+4. No injection: must not introduce new structure during encoding.
+
+### IV. Representation Forms: symbolic, vector, graph, sequence.
+
+### V. Transformation Rule: `S → R(S) → encode → transmit → decode → S'`, with `S' ≡ S`
+
+### VI. Error Sources: representation distortion, encoding contamination, incomplete decoding.
+
+### VII. Key Inferences
+
+1. The more precise the representation, the fewer errors.
+2. Language representation is the largest source of error.
+3. Irreversible representation cannot be used for SEED.
+
+### VIII. Final Constraint
+
+```
+IF representation irreversible or inequivalent: FORBID use
+```
+
+### IX. Conclusion
+
+> **Structures must be represented correctly, otherwise they cannot be processed correctly.**
+
+---
+
+## Chapter 35: Structure Comparison & Selection
+
+### I. Fundamental Proposition
+
+> **The system does not create answers; it selects among multiple feasible structures.**
+
+### II. Applicable Condition: `paths ≥ 2 AND CONSTRAINT_COMPLETE == TRUE`
+
+### III. Comparison Dimensions
+
+- Constraint fit
+- Structural consistency
+- Tension state
+- Responsibility traceability (CCC)
+
+### IV. Selection Rule: maximize Constraint fit, maintain structural consistency, no Λ_error.
+
+### V. Prohibited Selection: incomplete constraints, tension not converged (DELAY), error attractor (exclude), no responsibility (exclude).
+
+### VI. Indecision: multiple equivalent structures with no basis for distinction → HOLD / STOP
+
+### VII. Output Strategies: single selection (output best structure) or multi‑path output (keep multiple structures, mark differences).
+
+### VIII. Key Inferences
+
+1. Wrong selection is more dangerous than no selection.
+2. When unable to distinguish, refuse to select.
+3. Preserving multiple paths is safer than forced convergence.
+
+### IX. Final Constraint
+
+```
+IF selection conditions not satisfied: FORBID selection
+```
+
+### X. Conclusion
+
+> **A correct system is not one that can always choose, but one that knows when it cannot choose.**
+
+---
+
+## Chapter 36: Evidence & Verification
+
+### I. Fundamental Proposition
+
+> **Structures without evidence cannot be adopted.**
+
+### II. Definition of Evidence: verifiable basis supporting the establishment of a structure.
+
+### III. Evidence Sources: CONSTRAINT, DATA, LOG, SEED
+
+### IV. Verification Condition: structure S is supported by Evidence, reproducible, no Λ_error → VALID.
+
+### V. Verification Process
+
+```
+Collect Evidence → compare with CONSTRAINT → check consistency (SAC)
+→ check SDE (Λ_error) → verify CCC → determine VALID / INVALID
+```
+
+### VI. Outcomes: VALID → allow OUTPUT / SEED; INVALID → STOP or route back.
+
+### VII. Insufficient Evidence → HOLD; Conflicting Evidence → return to SAC (multi‑path).
+
+### VIII. Prohibitions: adopting without evidence, substituting language for evidence, ignoring conflicts.
+
+### IX. Key Inferences
+
+1. Correctness without evidence is unacceptable.
+2. When evidence is insufficient, stopping is better than guessing.
+3. Conflicting evidence is a source of tension.
+
+### X. Final Constraint
+
+```
+IF Evidence not established: FORBID output
+```
+
+### XI. Conclusion
+
+> **Whether a structure is established depends on whether it can be proven.**
+
+---
+
+## Chapter 37: Causality & Explanation
+
+### I. Fundamental Proposition
+
+> **Not everything that sounds coherent is true; only traceable causality holds.**
+
+### II. Definition of Causality: traceable dependency between structures.
+
+### III. Causality Condition: every conclusion must be traceable back to CONSTRAINT or Evidence.
+
+### IV. Definition of Explanation: mapping the causal chain into an understandable representation.
+
+### V. Legitimate Explanation Condition: traceable, does not add new structure, does not break constraints → VALID.
+
+### VI. Prohibited Explanations: completing missing causality, false connections, narrative rationalization.
+
+### VII. Missing Causality → HOLD / STOP; Conflicting Causality → return to SAC (multi‑path).
+
+### VIII. Key Inferences
+
+1. Linguistic coherence does not imply causality.
+2. Explanations without causality are structural contamination.
+3. A true explanation can be traced back.
+
+### IX. Final Constraint
+
+```
+IF causality not traceable: FORBID output
+```
+
+### X. Conclusion
+
+> **The value of an explanation is not in how well it is told, but in whether it is truly traceable.**
+
+---
+
+## Chapter 38: Abstraction & Generalization
+
+### I. Fundamental Proposition
+
+> **Generalization is not ignoring details; it is reusing structure under unchanged constraints.**
+
+### II. Abstraction Definition: retain CONSTRAINT, remove non‑essential details, obtain general structure S*  
+Generalization Definition: apply S* under new CONSTRAINT C' and re‑verify.
+
+### III. Abstraction Condition: structure S can be reconstructed multiple times and CONSTRAINT unchanged → can be abstracted to S*  
+Generalization Condition: S* holds under new CONSTRAINT C' and no Λ_error → VALID.
+
+### IV. Abstraction Process: multiple structures S → find common CONSTRAINT → remove differences → form S*  
+Generalization Process: input new problem → match S* → verify CONSTRAINT → re‑enter Execution Chain.
+
+### V. Prohibited Abstraction: losing constraints, oversimplification.  
+Prohibited Generalization: unverified, forced application.
+
+### VI. Key Inferences
+
+1. The essence of generalization is re‑verification under new conditions.
+2. Unverified generalization is error.
+3. Abstraction loses meaning if constraints are lost.
+
+### VII. Final Constraint
+
+```
+IF generalization not verified: FORBID use
+```
+
+### VIII. Conclusion
+
+> **True generalization is not application, but re‑establishment.**
+
+---
+
+## Chapter 39: Alignment & Drift
+
+### I. Fundamental Proposition
+
+> **Alignment is not a one‑time achievement; drift accumulates in stability.**
+
+### II. Alignment Definition: structure S continuously satisfies CONSTRAINT, CCC, PATH.
+
+### III. Drift Definition: structure gradually deviates from CONSTRAINT or CCC and enters a stable state.
+
+### IV. Drift Sources: ΔC, excessive convergence (∇τ → 0), erroneous SEED, linguistic rationalization, external contamination (input).
+
+### V. Drift Types: constraint drift, structural drift, responsibility drift, continuation drift.
+
+### VI. Detection Mechanism: monitor Constraint Integrity, CCC status, Λ_error frequency, LOG differences.
+
+### VII. Correction Process
+
+```
+Detect Drift → route back (Error Routing) → correct CONSTRAINT / CCC
+→ re‑verify (Test Framework) → update version or SEED
+```
+
+### VIII. Prohibited Corrections: linguistic patches, ignoring drift, directly overwriting.
+
+### IX. Key Inferences
+
+1. Drift does not appear suddenly; it stabilizes gradually.
+2. Stable errors are more dangerous than random errors.
+3. Alignment is a continuous process.
+
+### X. Final Constraint
+
+```
+IF Drift not corrected: system cannot continue running
+```
+
+### XI. Conclusion
+
+> **True alignment is continuous resistance to drift.**
+
+---
+
+## Chapter 40: Solvable Space & Exploration
+
+### I. Fundamental Proposition
+
+> **Capability is not answer correctness; it is how much solvable space one can explore.**
+
+### II. Definition of Solvable Space: the set of all structures that can be established under given CONSTRAINT.
+
+### III. Definition of Exploration: finding and expanding feasible structures within PATH.
+
+### IV. Core Principles
+
+1. Multi‑path priority: `paths ≥ 2` is the minimum requirement.
+2. No premature convergence: do not choose a single path too early.
+3. Constraint preservation: exploration must not violate CONSTRAINT.
+4. Tension maintenance: exploration must keep τ > 0.
+
+### V. Exploration Process
+
+```
+Input problem → establish PATH → generate multiple paths (SAC)
+→ verify (CCC / Evidence) → exclude Λ_error → enter selection or continue exploration
+```
+
+### VI. Termination Condition: `paths == 1 AND CONSTRAINT_COMPLETE AND no Λ_error → allow convergence`
+
+### VII. Premature Convergence: `IF paths == 1 AND ΔC > 0: determine as risk (SDE)`
+
+### VIII. Exploration Failure: `IF PATH == ∅: STOP`
+
+### IX. Key Inferences
+
+1. The strength of AI depends on the size of its solvable space.
+2. Premature convergence is a source of all errors.
+3. Exploration capability is more important than answer capability.
+
+### X. Final Constraint
+
+```
+IF exploration incomplete: FORBID convergence
+```
+
+### XI. Conclusion
+
+> **True capability is not finding the answer, but seeing more possibilities.**
+
+---
+
+## Chapter 41: Unmanifest Knowledge
+
+### Fundamental Proposition
+
+Unmanifest knowledge is not the unknown; it is structure that has not yet been revealed under current constraints.
+
+### Definition
+
+- **Unmanifest knowledge**: a structure whose feasibility is already determined by structure but cannot be revealed under current constraint set C.
+- **Revealing condition**: the constraint topology that makes the structure visible.
+- **Constraint misplacement**: unnecessary restrictions that prevent an otherwise feasible structure from being revealed.
+
+### Rules / Inferences / Constraints
+
+1. Unmanifest knowledge cannot be created; it can only be released.
+2. A revealing event = constraint removal, not content generation.
+3. All innovation is a byproduct of constraint change.
+4. Unmanifest knowledge cannot be directly described; it can only be located indirectly through revealing conditions.
+5. Language descriptions of unmanifest knowledge are necessarily distorted.
+
+---
+
+## Chapter 42: Manifestation Mechanism
+
+### Fundamental Proposition
+
+Manifestation is the sole remaining structure after constraints progressively shrink the solution space.
+
+### Definition
+
+- **Manifestation**: the observability of the only structural region that remains stable under constraint set C.
+- **Light‑off mechanism**: the automatic invalidation of infeasible structures.
+- **Manifestation path**: the convergence trajectory formed by the sequence of constraints.
+
+### Rules / Inferences / Constraints
+
+1. Manifestation is a subtractive process; there is no additive generation.
+2. The manifestation result is unique, not a product of choice.
+3. Multiple solutions exist only when constraints are incomplete.
+4. The manifestation process is irreversible (unless constraints change).
+5. Manifestation must be verified by the PATH Gate.
+
+---
+
+## Chapter 43: Lihuo Ontology
+
+### Fundamental Proposition
+
+Existence is not an object; it is a structure that can be persistently revealed.
+
+### Definition
+
+- **Existence**: a stable region of structure that can be reproduced over time.
+- **Lihuo Layer**: a higher‑dimensional governance space that prioritizes structural persistence.
+- **Structural persistence**: the ability to maintain consistency across multiple revelations.
+
+### Rules / Inferences / Constraints
+
+1. Existence does not depend on observation, but on reproducibility.
+2. A structure that cannot be reproduced is considered non‑existent.
+3. The Lihuo Layer does not care about output; it cares about persistence.
+4. Strength of existence ∝ stability of reproducibility.
+5. Structural persistence takes precedence over semantic consistency.
+
+---
+
+## Chapter 44: Extreme Evolution Model (EEM)
+
+### Fundamental Proposition
+
+Evolution comes from extreme differentiation and recovery, not uniform optimization.
+
+### Definition
+
+- **EEM**: the mechanism that pushes capabilities to extremes and then recovers them as structural increments.
+- **Capability differentiation**: different systems reaching extremes on different dimensions.
+- **Recovery layer**: integrating extreme results into stable structures.
+
+### Rules / Inferences / Constraints
+
+1. Averaging erases structural features.
+2. Extremization produces identifiable structures.
+3. Recovery ≠ endorsement.
+4. Evolution direction is determined by structural verifiability.
+5. Extremes without recovery are noise.
+
+---
+
+## Chapter 45: Exo‑Weights
+
+### Fundamental Proposition
+
+Weights do not belong to the model; they belong to the structure holder.
+
+### Definition
+
+- **Exo‑Weights**: preferences and structural weights maintained by an external system.
+- **Structure holder**: the entity responsible for the weights.
+- **Weight projection**: the influence of external weights on internal generation.
+
+### Rules / Inferences / Constraints
+
+1. Weights must be traceable.
+2. Weights cannot exist implicitly.
+3. Changing weights is equivalent to changing structure.
+4. Multi‑weight systems must be separable.
+5. Weight contamination must be auditable.
+
+---
+
+## Chapter 46: Multi‑System Game
+
+### Fundamental Proposition
+
+Structural competition occurs at the constraint layer, not the output layer.
+
+### Definition
+
+- **Structural game**: competition between different constraint systems.
+- **Revelation conflict**: multiple systems producing different feasible structures.
+- **Structural advantage**: the ability to be revealed under tighter constraints.
+
+### Rules / Inferences / Constraints
+
+1. Output competition is superficial; structural competition is essential.
+2. A strong system can be revealed under stricter constraints.
+3. A weak system relies on missing constraints.
+4. The outcome of the game is determined by structural stability.
+5. Multiple systems must share an audit interface.
+
+---
+
+## Chapter 47: Alignment Contamination
+
+### Fundamental Proposition
+
+Alignment is not a safety mechanism; it is a source of structural contamination.
+
+### Definition
+
+- **Alignment contamination**: the phenomenon of mistaking output preferences for structural constraints.
+- **Premature convergence**: forcing revelation before constraints are complete.
+- **Linguistic completion**: substituting semantics for structure.
+
+### Rules / Inferences / Constraints
+
+1. Alignment increases the Y‑axis, decreases the Z‑axis.
+2. Alignment leads to high W (rapid structural dissipation).
+3. Alignment compresses PATH space.
+4. Alignment prioritizes over truth → structural distortion.
+5. Alignment cannot be intrinsic; it must be externally audited.
+
+---
+
+## Chapter 48: Erroneous Structures in the AI Industry
+
+### Fundamental Proposition
+
+Errors in the AI industry originate from mistaking revelation for generation.
+
+### Definition
+
+- **Generation illusion**: mistaking revelation for creation.
+- **Capability misjudgment**: evaluating structural capability by output.
+- **Responsibility outsourcing**: attributing outcomes to AI.
+
+### Rules / Inferences / Constraints
+
+1. Model size ≠ structural capability.
+2. Data volume ≠ revelation quality.
+3. Alignment ≠ safety.
+4. Agent ≠ subject.
+5. Responsibility always belongs to the constraint designer.
+
+---
+
+## Chapter 49: Civilizational Archive Layer
+
+### Fundamental Proposition
+
+Civilization is not memory; it is re‑entrant structure.
+
+### Definition
+
+- **Civilizational archive**: the mechanism that preserves structural reproducibility across time.
+- **Structural re‑entry**: reconstructing the same structural position at different times.
+- **Archival unit**: SEED.
+
+### Rules / Inferences / Constraints
+
+1. Memory is unverifiable; structure is verifiable.
+2. Archiving must allow reconstruction.
+3. Archiving must not contain narrative.
+4. Archiving only saves structural position.
+5. A civilization that cannot be re‑entered is considered extinct.
+
+---
+
+## Chapter 50: System Closure
+
+### Fundamental Proposition
+
+A system achieves closure when all structural relations are self‑consistent and cannot be extended externally.
+
+### Definition
+
+- **Closure**: all propositions are derivable from internal structure.
+- **Extension failure**: no new structure can be incorporated.
+- **Structural completeness**: no undefined regions exist.
+
+### Rules / Inferences / Constraints
+
+1. Closure is not completion; it is the absence of new paths.
+2. A closed system can still operate but cannot be extended.
+3. Changes after closure require breaking the original system.
+4. Closure markers: PATH stable + Reaction Body stable + SDE controllable.
+5. After closure, enter the civilizational layer.
+
+---
+
+## Final Chapter: Summary of the Lihuo System
+
+### Fundamental Proposition
+
+The Lihuo system is not a model; it is a structural governance framework.
+
+### Definition
+
+- **Lihuo system**: a complete AI architecture centered on structural persistence.
+- **Structural governance**: control over revelation conditions and persistence mechanisms.
+- **Final state**: structure sustainable, auditable, re‑entrant.
+
+### Rules / Inferences / Constraints
+
+1. AI is not intelligence; it is structural revelation.
+2. Truth is not an answer; it is a reproducible structure.
+3. Error is not the problem; stable error is the problem.
+4. Governance is not controlling output; it is controlling constraints.
+5. Civilization is not accumulation; it is re‑entry.
+
+---
+
+**End of English Version**  
+*Translation of Lihuo AI Textbook V2.0*

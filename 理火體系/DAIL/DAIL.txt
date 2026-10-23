@@ -1,0 +1,509 @@
+# DAIL 宣告式 AI 語言完整理論  
+**結構控制・語義空間・AI 治理架構**
+
+> 本文件整合自 DAIL 系列文件（v0.6、v1.0、工程定位、架構圖、比較分析、方向種子等）。  
+> DAIL（Declarative AI Language）是一種以約束為先的宣告式結構控制語言，用於定義 AI 任務的結構邊界，而非描述執行步驟。
+
+---
+
+## 第一部分：核心定位與問題背景
+
+### 一、DAIL 是什麼（一句話）
+
+> **DAIL 是一種宣告式 AI 任務規格語言，定義推理空間，而不是執行步驟。**
+
+- Prompt 是向 AI 提問  
+- DAIL 是定義 AI 必須遵守的任務規則
+
+### 二、解決的問題
+
+現代 AI 系統（LLM、Agent）常見的工程問題：
+- 任務漂移（task drift）
+- 輸出不穩定
+- 幻覺（hallucination）
+- Agent 迴圈失控
+
+根本原因：**任務是用自然語言 Prompt 定義的**。  
+自然語言靈活但不可靠，不適合作為工程介面。
+
+### 三、核心結構轉換
+
+DAIL 將任務從「步驟序列」轉換為「由約束定義的狀態空間」。
+
+| 傳統方式 | DAIL 方式 |
+| :--- | :--- |
+| 描述執行流程 | 定義結構邊界 |
+| 指令驅動 | 約束優先 |
+| 步驟序列 | 狀態空間 |
+| 難以測試 | 可驗證、可審計 |
+
+### 四、DAIL 在工程語言演化中的位置
+
+| 階段 | 語言 / 系統 | 控制對象 |
+| :--- | :--- | :--- |
+| 1 | 機器指令 | 執行步驟 |
+| 2 | 高階語言（C, Java, Python） | 執行邏輯 |
+| 3 | SQL | 資料查詢條件 |
+| 4 | Terraform | 基礎設施狀態 |
+| 5 | OpenAPI | 服務介面規格 |
+| **6** | **DAIL** | **AI 任務規格** |
+
+> DAIL 不是 AI 程式語言，而是 AI 任務規格語言。
+
+---
+
+## 第二部分：語義空間模型
+
+### 一、基本定義
+
+| 符號 | 名稱 | 意義 |
+| :--- | :--- | :--- |
+| Ω | 總語義狀態空間 | 所有可能狀態 |
+| Ω' | 可行子空間 | 由約束 C 定義的合法狀態 |
+| G | 目標吸引子 | 期望達到的狀態集合 |
+
+### 二、運作機制
+
+AI 推理 = 在可行空間 Ω' 中搜尋趨近 G 的狀態 x。
+
+- 約束優先於目標（Constraints override goals）
+- 宣告先於推理（Declaration precedes reasoning）
+- 驗證先於輸出（Validation precedes output）
+
+### 三、語義搜尋 vs 指令執行
+
+- 傳統系統：執行預先定義的指令序列
+- DAIL 控制下的 AI：在約束定義的空間內進行語義搜尋
+
+---
+
+## 第三部分：結構基本元件
+
+DAIL 的最小結構構件（Structural Primitives）：
+
+| 元件 | 英文 | 說明 |
+| :--- | :--- | :--- |
+| ENTITY | Entity | 可識別的任務對象 |
+| STATE | State | 語義狀態 |
+| GOAL | Goal | 期望達到的狀態集合 |
+| CONSTRAINT | Constraint | 不可違反的邊界 |
+| PRINCIPLE | Principle | 衝突時的優先順序 |
+| VALIDATION | Validation | 輸出驗證機制 |
+| REVERSIBILITY | Reversibility | 結構撤回機制 |
+
+### 語法結構（最小形式）
+
+```
+DECLARATION = MODE + ENTITY* + GOAL* + CONSTRAINT* + VALIDATION*
+```
+
+擴充語法可包含：VECTOR、CLEARING、THREAD_SEED。  
+所有語法擴充必須定義責任歸屬與撤回條件。
+
+### 範例
+
+```
+MODE Contract_Review
+ENTITY Contract_Doc
+GOAL Review_Report.Status == Ready
+CONSTRAINT Only analyze termination clauses
+VALIDATION Output must be JSON
+```
+
+---
+
+## 第四部分：分層架構與責任模型
+
+### 一、完整 AI 技術棧（含 DAIL）
+
+```
+Application（業務邏輯）
+        ↓
+Agent Framework（工作流程、規劃、工具調度）
+        ↓
+DAIL（任務規格層）
+        ↓
+LLM Runtime（推理運算）
+        ↓
+Foundation Model（生成輸出）
+```
+
+### 二、責任四層分離
+
+| 責任類型 | 承擔者 | 說明 |
+| :--- | :--- | :--- |
+| 宣告責任 | 人類（Declarer） | 定義目標、約束、驗證規則 |
+| 推理責任 | AI | 在約束空間內搜尋可行狀態 |
+| 執行責任 | Runtime | 執行輸出與工具調用 |
+| 後果責任 | 宣告者 | 對最終結果負責 |
+
+> 責任隨宣告而生，輸出必須附帶假設集合。
+
+### 三、DAIL 與其他層的區別
+
+| 層級 | 功能 | 範例 |
+| :--- | :--- | :--- |
+| Prompt | 對話請求 | 「請分析這段文字」 |
+| Prompt Engineering | 結構化提示 | 角色提示、思維鏈 |
+| Agent Framework | 執行多步驟工作流 | LangChain、AutoGPT |
+| **DAIL** | **定義任務結構與邊界** | ENTITY、GOAL、CONSTRAINT |
+| Vibe Coding | AI 自由生成程式碼 | 自然語言描述意圖 |
+
+---
+
+## 第五部分：DAIL 與現有方法的比較
+
+### 一、DAIL vs Prompt
+
+| 面向 | Prompt | DAIL |
+| :--- | :--- | :--- |
+| 本質 | 對話請求 | 結構控制 |
+| 任務定義 | 模糊、隱含 | 明確、宣告式 |
+| 可測試性 | 低 | 高（內建 VALIDATION） |
+| 可審計性 | 低 | 高（責任分層清晰） |
+
+### 二、DAIL vs Vibe Coding
+
+| 面向 | Vibe Coding | DAIL |
+| :--- | :--- | :--- |
+| 驅動方式 | 意圖驅動 | 結構驅動 |
+| 介面 | 自然語言 | 宣告式規格 |
+| 適用場景 | 快速原型、探索 | 生產系統、大型專案 |
+| 穩定性 | 低 | 高 |
+
+### 三、與其他規格語言的類比
+
+| 語言 | 控制對象 | 執行引擎 |
+| :--- | :--- | :--- |
+| SQL | 資料查詢條件 | Query planner |
+| Terraform | 基礎設施狀態 | Cloud provisioning |
+| OpenAPI | 服務介面規格 | API tools / code generators |
+| **DAIL** | **AI 任務規格** | **LLM reasoning engine** |
+
+> SQL 控制資料；Terraform 控制基礎設施；OpenAPI 控制服務；DAIL 控制 AI 任務。
+
+---
+
+## 第六部分：DAIL 與理火體系的整合（結構關係）
+
+根據 `DAIL_SAC_SEED_MEMO` 與 `DAIL_System_Direction_MEMO`，DAIL 可與 SAC、CCC、PATH、SEED 等整合為更高層的結構治理架構：
+
+### 一、三層結構關係
+
+| 層級 | 元件 | 功能 |
+| :--- | :--- | :--- |
+| **Space（空間）** | DAIL | 定義語義空間與約束邊界 |
+| **State（狀態）** | SAC | 描述系統狀態（張力、曲率、解決模式） |
+| **Transition（遷移）** | SEED / Thread Seed | 傳遞結構狀態，跨對話重建世界 |
+
+### 二、完整治理架構（概念）
+
+```
+Human / Declarer
+        ↓
+DAIL（宣告控制層）
+        ↓
+語義空間模型 Ω
+        ↓
+AI 推理引擎
+    ┌───┴───┐
+    ↓       ↓
+  CCC     PATH
+（概念因果承諾）（探索策略）
+        ↓
+SAC（結構審計層）
+        ↓
+Runtime / Execution
+```
+
+### 三、退化條件
+
+若缺少以下任一機制，DAIL 退化為 Prompt Engineering：
+- 假設標記（assumption marking）
+- 驗證出口（validation exit）
+- 衝突處理（conflict handling）
+- 可撤回性（revocability）
+
+---
+
+## 第七部分：工程優勢與發展方向
+
+### 一、工程價值
+
+DAIL 使 AI 系統具備：
+- **可測試**：內建 VALIDATION
+- **可控制**：CONSTRAINT 限制行為
+- **可組合**：任務結構模組化
+- **可審計**：責任分層清晰
+
+### 二、AI 工程演化路徑
+
+```
+Prompt
+   ↓
+Prompt Engineering
+   ↓
+Vibe Coding
+   ↓
+Agent Systems
+   ↓
+Task Specification（DAIL）
+```
+
+每一階段都提升結構化程度與工程可靠性。
+
+### 三、未來方向（方向種子）
+
+DAIL 可能從宣告式語言演化為更完整的 **AI 結構治理架構**（AI Structural Governance Architecture），整合：
+- CCC 責任推理
+- PATH 探索策略
+- SAC 結構審計
+- SEED 狀態遷移
+
+**重新啟動條件**：
+1. DAIL 語法穩定為可用規格語言
+2. SAC 審計機制成熟
+3. CCC 因果模型可實際運作
+4. Agent 框架需要更高層結構治理
+
+---
+
+## 第八部分：最終總結
+
+### 核心命題
+
+> **AI 應透過結構控制，而不是透過語氣說服。**
+
+### 一句話定義
+
+> **DAIL 是一種宣告式 AI 任務規格語言，定義推理空間，而不是執行步驟。**
+
+### 定位對比
+
+| 方法 | 本質 | 適用 |
+| :--- | :--- | :--- |
+| Prompt | 對話請求 | 簡單任務、臨時使用 |
+| Vibe Coding | 意圖驅動生成 | 快速原型 |
+| Agent Framework | 執行工作流 | 多步驟任務 |
+| **DAIL** | **結構控制層** | **生產級 AI 系統** |
+
+### 最終宣言
+
+> Prompt is conversation with a model.  
+> DAIL is a structural control layer above the model.
+
+---
+
+*本文件為 DAIL 完整理論整合版 v1.0（繁體中文）*  
+*涵蓋：核心定位、語義空間模型、結構元件、分層架構、責任模型、與現有方法比較、理火體系整合、工程優勢與發展方向。*
+
+
+
+
+*******************
+
+# DAIL 補充 PART  
+**語法規範、使用方式與遺漏細節**
+
+> 本文件為《DAIL 宣告式 AI 語言完整理論》之補充部分。  
+> 第一部分：重要附錄 —— DAIL 語法與使用方式（完整規範）  
+> 第二部分：其他遺漏細節補充（運作原則、執行模型、歸檔記錄等）
+
+---
+
+## 附錄：DAIL 語法與使用方式（完整規範）
+
+### 一、語法結構總覽
+
+DAIL 宣告的基本形式：
+
+```
+DECLARATION = MODE + ENTITY* + GOAL* + CONSTRAINT* + VALIDATION*
+```
+
+- `MODE` 為必填，其餘為選填（依任務需求）。
+- 宣告順序不影響語義，但建議依上述順序書寫以利閱讀。
+
+### 二、核心關鍵字與語法規則
+
+| 關鍵字 | 說明 | 語法格式 | 必填 |
+| :--- | :--- | :--- | :--- |
+| `MODE` | 任務模式識別碼 | `MODE <identifier>` | ✅ |
+| `ENTITY` | 定義任務中涉及的對象 | `ENTITY <name> [: type]` | ❌ |
+| `STATE` | 定義語義狀態條件 | `STATE <name> = <condition>` | ❌ |
+| `GOAL` | 定義目標狀態集合 | `GOAL <state_expression>` | ❌ |
+| `CONSTRAINT` | 定義不可違反的邊界 | `CONSTRAINT <rule>` | ❌ |
+| `PRINCIPLE` | 定義衝突時的優先順序 | `PRINCIPLE <priority_spec>` | ❌ |
+| `VALIDATION` | 定義輸出驗證規則 | `VALIDATION <check>` | ❌ |
+| `REVERSIBILITY` | 定義撤回機制 | `REVERSIBILITY <condition>` | ❌ |
+
+**擴充語法**（選用）：`VECTOR`、`CLEARING`、`THREAD_SEED`（需定義責任歸屬與撤回條件）
+
+### 三、詳細語法規範
+
+#### 1. MODE（任務模式）
+
+- 必須為第一個宣告項。
+- 格式：`MODE <模式名稱>`（模式名稱建議使用大駝峰式，如 `ContractReview`）
+- 用途：識別任務類型，便於審計與模組化。
+
+#### 2. ENTITY（實體）
+
+- 格式：`ENTITY <名稱> [ : <類型> ]`
+- 類型可選：`Doc`, `User`, `System`, `Data`, 或自訂。
+- 示例：`ENTITY ContractDoc : Doc`
+
+#### 3. STATE（狀態）
+
+- 格式：`STATE <狀態名> = <條件表達式>`
+- 條件表達式可使用 `==`, `!=`, `>`, `<`, `AND`, `OR`, `NOT` 及預定義謂詞。
+- 示例：`STATE DraftReady = (ContractDoc.status == "draft")`
+
+#### 4. GOAL（目標）
+
+- 格式：`GOAL <目標狀態表達式>`
+- 目標通常為一個或多個 STATE 的布林組合。
+- 示例：`GOAL ReviewReport.Status == "Ready"`
+
+#### 5. CONSTRAINT（約束）
+
+- 格式：`CONSTRAINT <規則描述>`
+- 規則為不可違反的邊界，違反則推理無效。
+- 示例：`CONSTRAINT Only analyze termination clauses`
+
+#### 6. PRINCIPLE（原則）
+
+- 格式：`PRINCIPLE <優先順序規格>`
+- 用於當多個 CONSTRAINT 或 GOAL 衝突時，決定何者優先。
+- 示例：`PRINCIPLE safety_over_efficiency`
+
+#### 7. VALIDATION（驗證）
+
+- 格式：`VALIDATION <驗證條件>`
+- 輸出必須通過驗證條件才算合法。
+- 示例：`VALIDATION Output is valid JSON`
+
+#### 8. REVERSIBILITY（撤回機制）
+
+- 格式：`REVERSIBILITY <撤回條件描述>`
+- 定義在何種情況下可撤銷該宣告或輸出。
+- 示例：`REVERSIBILITY If new evidence contradicts premise`
+
+### 四、完整宣告範例
+
+#### 範例 1：合約審查任務
+
+```
+MODE ContractReview
+ENTITY ContractDoc : Doc
+STATE DraftReady = (ContractDoc.status == "draft")
+STATE ReviewComplete = (ReviewReport.status == "done")
+GOAL ReviewComplete == True
+CONSTRAINT Only analyze termination clauses
+VALIDATION Output is valid JSON
+REVERSIBILITY If user provides updated contract version
+```
+
+#### 範例 2：研究輔助任務
+
+```
+MODE LiteratureSearch
+ENTITY QueryString
+ENTITY PaperList
+STATE RelevantPapersFound = (PaperList.count > 0)
+GOAL RelevantPapersFound == True
+CONSTRAINT Exclude non-peer-reviewed sources
+PRINCIPLE relevance_over_recency
+VALIDATION Each paper entry includes DOI or URL
+```
+
+### 五、執行模型與語義
+
+DAIL 宣告不直接轉換為指令序列，而是定義一個語義空間：
+
+- **Ω**：所有可能的推理結果狀態
+- **Ω'**：由 CONSTRAINT 定義的可行子空間
+- **G**：由 GOAL 定義的目標吸引子
+
+AI 推理引擎在 Ω' 中搜尋趨近 G 的狀態 x，並在通過 VALIDATION 後輸出。
+
+### 六、與 Prompt 的混合使用
+
+DAIL 可與 Prompt 並存：
+- 使用 DAIL 定義任務結構與邊界
+- 在 DAIL 宣告之後，可使用自然語言 Prompt 提供額外上下文或具體指示
+
+但 DAIL 宣告優先：若 Prompt 與 CONSTRAINT 衝突，CONSTRAINT 覆蓋 Prompt。
+
+---
+
+## 第二部分：其他遺漏細節補充
+
+### 一、運作原則（五條完整列表）
+
+1. **Declaration precedes reasoning**（宣告先於推理）  
+   未經 DAIL 宣告的任務，AI 不得自行推理。
+
+2. **Constraints override goals**（約束優先於目標）  
+   若目標與約束衝突，約束優先滿足。
+
+3. **Validation precedes output**（驗證先於輸出）  
+   輸出前必須通過 VALIDATION 檢查。
+
+4. **Responsibility follows declaration**（責任隨宣告而生）  
+   宣告者對 DAIL 定義的結構承擔後果責任。
+
+5. **Outputs must include assumptions**（輸出必須附帶假設集合）  
+   輸出應明確列出推理所依賴的未驗證前提。
+
+### 二、執行模型定義（補充）
+
+> **Execution is defined as semantic search rather than instruction execution.**  
+> 執行 = 語義搜尋，而非指令執行。
+
+### 三、DAIL 與 AI 整合層的定位
+
+- DAIL 作為 LLM 系統之上的結構控制層（structural control layer）
+- Prompt → 語言互動（Language Interaction）
+- DAIL → 結構控制（Structural Control）
+
+### 四、Thread Seed 與 SEED 的區別（補充）
+
+| 機制 | 功能 |
+| :--- | :--- |
+| **SEED**（SAC 體系） | 結構重入單位，用於跨對話重建結構位置 |
+| **Thread Seed**（DAIL 體系） | 傳遞結構終值，在新對話中重建**世界狀態** |
+
+Thread Seed 是一種狀態遷移機制，不保存記憶或故事，只保存可重建結構的最小資訊。
+
+### 五、歸檔記錄（供審計與重啟）
+
+- **Archive ID**：`CA-AI-ARCH-DAIL-TABBY`
+- **重啟種子指令**（SSR-Seed）：
+  ```
+  ARCHIVE REENTRY
+  DAIL Structural Layer AI Coding Stack vs Structural Stack CCC
+  ```
+- **封存狀態**：`CLOSED`，`Context memory: RELEASED`，`Structure: PRESERVED`
+
+### 六、發展假設（方向補充）
+
+若 DAIL + CCC + PATH + SAC 整合架構成立，DAIL 將不僅是語言，而可能成為：
+- **AI Operating Model**（AI 運作模型）
+- **AI Structural Governance Framework**（AI 結構治理框架）
+
+其核心命題：**用結構層（structure）而非語氣（prompt）來治理 AI 推理。**
+
+---
+
+## 總結：DAIL 補充文件結構
+
+| 部分 | 內容 |
+| :--- | :--- |
+| **附錄** | DAIL 語法完整規範（關鍵字、格式、範例） |
+| **第二部分** | 運作原則五條、執行模型定義、Thread Seed 與 SEED 區別、歸檔記錄、發展假設 |
+
+---
+
+*本文件為 DAIL 補充 PART，與主文件《DAIL 宣告式 AI 語言完整理論》共同構成完整規範。*  
+*版本：v1.1（繁體中文｜語法附錄 + 遺漏補充）*
