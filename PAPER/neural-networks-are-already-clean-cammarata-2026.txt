@@ -1,0 +1,176 @@
+============================================================
+LIHUO WEB CASE TXT PACKET
+============================================================
+PACKET_VERSION: 0.4
+SCHEMA_ID: LIHUO_WEB_CASE_TXT_V0_4
+ENCODING: UTF-8
+
+[00|PACKET]
+PACKET_ID: LIHUO-WEB-PAPER-20261023-ALREADY-CLEAN-001
+GENERATED_AT: 2026-10-23
+CASE_TYPE: GENERAL_PAPER_REVIEW
+REVIEW_ENGINE: LIHUO Paper Review System
+REVIEW_ENGINE_VERSION: 3.0-EXP-QS-R3.1
+REVIEW_MODE: REFERENCE_LEVEL_EVIDENCE_REVIEW_VISIBLE_R1_O9_R2_R3_NOT_FORMAL_RUNTIME
+EXPORT_ADAPTER_VERSION: 0.4
+
+[01|PAPER]
+SLUG: neural-networks-are-already-clean-cammarata-2026
+PRIMARY_DOMAIN: AI_COMPUTING
+SECONDARY_TAGS: MECHANISTIC_INTERPRETABILITY;NEURAL_NETWORKS;REPLICATION
+PAPER_TITLE_ORIGINAL: Neural Networks Are Already Clean
+PAPER_TITLE_ZH: 神經網路其實已經很乾淨
+PAPER_TITLE_EN: Neural Networks Are Already Clean
+PAPER_LANGUAGE: EN
+AUTHORS: Nick Cammarata
+AFFILIATIONS: Goodfire
+JOURNAL: NOT_APPLICABLE
+PUBLISHER: Goodfire
+PUBLICATION_YEAR: 2026
+PUBLICATION_DATE: 2026-10-15
+VOLUME: NOT_APPLICABLE
+ISSUE: NOT_APPLICABLE
+PAGES_OR_ARTICLE_NUMBER: NOT_APPLICABLE
+DOI: NOT_FOUND
+PMID: NOT_APPLICABLE
+PMCID: NOT_APPLICABLE
+ARXIV_ID: NOT_FOUND
+KEYWORDS: mechanistic interpretability; neuron legibility; polysemanticity; superposition; recursive generalization; replication
+
+[02|SOURCE]
+ORIGINAL_PAPER_URL: https://already-clean.goodfire.com/
+ORIGINAL_DOWNLOAD_URL: NOT_AVAILABLE
+DOWNLOAD_ACCESS_STATUS: OPEN_ACCESS
+AUTHOR_INFO_URL: https://already-clean.goodfire.com/
+SOURCE_PROVIDER: Goodfire / Nick Cammarata
+REVIEW_SOURCE_SCOPE: FULL_TEXT
+FULL_TEXT_USED_IN_REVIEW: TRUE
+SUPPLEMENT_USED_IN_REVIEW: FALSE
+SOURCE_SCOPE_NOTE: Public web essay and openly accessible critiques/replications compared. No independent large-model rerun. Original is a working hypothesis / research essay, not a verified peer-reviewed journal paper. The neuron gallery was consulted as illustration, not independent experimental verification.
+
+[03|AUTHOR]
+CORRESPONDING_AUTHOR_NAME: NOT_FOUND
+CORRESPONDING_AUTHOR_EMAIL: NOT_FOUND
+CORRESPONDING_AUTHOR_AFFILIATION: NOT_VERIFIED
+CORRESPONDING_AUTHOR_ORCID: NOT_FOUND
+AUTHOR_CONTACT_SOURCE: NOT_FOUND
+AUTHOR_CONTACT_VERIFICATION: NOT_FOUND
+
+[04|REVIEW_ZH]
+REVIEW_ZH_PROVENANCE: SAME_FINALIZED_LIHUO_REVIEW_STATE
+@@BEGIN:CASE_SUMMARY_ZH@@
+Nick Cammarata（Goodfire）的《Neural Networks Are Already Clean》提出神經元及其迴路遠比既有多義性／疊加敘事更容易理解的工作假說。本次來源型審查認為：原生神經元軸的特殊性及部分局部迴路的可解釋性具有正面證據；但大部分神經元僅一項主要功能、弱活化不重要、全模型機制已普遍乾淨等強主張，仍欠穩健陰性控制、跨活化區間預測與廣泛因果驗證。按一般實證研究投稿標準，審稿建議 MAJOR REVISION，非期刊正式決定。
+@@END:CASE_SUMMARY_ZH@@
+@@BEGIN:LIHUO_REVIEW_ZH@@
+【Q0｜主張邊界】
+此處 clean 意指神經元／迴路可讀性，不是無偏見、已對齊或安全完成驗證。
+C1 經典多義性案例可能曾被誤讀：局部重檢值得支持。
+C2 神經元軸相較隨機方向在部分測量下有特殊結構：部分支持。
+C3 約九成 Qwen3-32B 神經元極性一項工作：初步估計，對定義和方法敏感。
+C4 弱活化普遍不重要：跨模型與干預設定不穩健。
+C5 recursive generalization 全面取代 superposition：未充分實證。
+C6 大型網路機制普遍已理解或 AI 安全已被證明：超出證據。
+語義標籤可讀性，不等於完整活化預測，更不等於下游因果效應預測。
+
+【來源與相反證據】
+S1：Cammarata (2026-10-15), https://already-clean.goodfire.com/ 。作者的視覺／語言神經元案例、局部迴路干預與約九成一項工作估計。
+S3：leogao (2026-10-17), https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean 。質疑高峰標籤能否預測完整活化及因果作用。
+S4：IRSI (2026-10-18), https://irsi.ai/notes/already-clean/ 。對作者已發布解釋依不同判準重分類約 78.3% 一項工作，同時確認部分神經元軸與活化預測具有正面證據；非同行評審。
+S5：Andriy Batutin (2026-10-19), https://andriybatutin.substack.com/p/we-tried-to-confirm-neural-networks 。在小型 Qwen3 實驗中，隨機初始化神經元也有 84% 被標註一項工作，受訓神經元為 52%；在其標籤因果效應測試，0/50 超過配對對照。因模型規模與干預方法不同，不能當成原 32B 的直接反證。
+
+【理火參考級週期摘要】
+R1-REF：初步以作者來源重建三條候選 A「廣義 clean」、B「局部可讀／普遍性未證」、C「superposition／分散式機制仍可能重要」。A 對挑戰全面不可讀論述暫時領先。但 R1 是已接觸批評材料後的作者先行重建，並非盲態、獨立先行封存。
+O9-REF：辨認陰性控制不足、高活化抽樣偏差、標籤與因果混淆、局部到全局外推等暗區。此為文字觀察，不是真實 O9 燈態。
+I9：未取得合法觸發或執行憑證；未宣稱真實調燈。參考級重審僅把相反資料納入比較。
+R2-REF：移除原作者先發優勢，納入 S3/S4/S5 與可辨別的實驗標準，暫時領先由 A 轉為 B。
+R3-REF：因 R2 逆轉，再用作者局部因果示例和 S4 對神經元軸的正面重測挑戰 B；B 維持有限命題的最穩健支持。這不構成 Main 正式合格連勝。
+停止：本次截至 2026-10-23 的公開資料文字審查足以提出編輯性意見，但科學爭議未閉合；未取得 Main termination 或 Lighter Final Gate 收據。
+
+【必要修改】
+(1) 定義 clean／one job、抽樣母體、神經元正負極性、閾值及評分一致性。
+(2) 加入 random-init、random-direction、label-swap、explanation-swap 陰性控制。
+(3) 跨高、中、低活化區間及 held-out 範例進行模擬與反例測試。
+(4) 由神經元文字說明事先預測下游作用，經 ablation、amplification 和配對對照驗證。
+(5) 讓 recursive generalization 與 superposition 產生可區分的實驗預測。
+(6) 跨規模、層次及架構重現並公開失敗案例與工件。
+(7) 將局部可讀性與全模型機制、AI 安全性分開表述。
+
+【最終意見與法位】
+推薦 MAJOR REVISION（以實證論文標準衡量）。這是 T5 學習中的可見參考級審查，不是期刊或 Lighter 裁決，也不代表正式 Main／O9／I9／R2 週期曾在 Host 成立或執行。完整附篇：PAPER/neural-networks-are-already-clean-cammarata-2026-lihuo-cycle-report.md
+@@END:LIHUO_REVIEW_ZH@@
+REVIEW_VERDICT_ZH: MAJOR REVISION（大幅修訂）；局部可解釋性有支持，普遍性與強因果主張尚未證成；正式理火 Runtime 未驗證。
+
+[05|REVIEW_EN]
+REVIEW_EN_PROVENANCE: TRANSLATION_OF_SAME_LIHUO_REVIEW
+@@BEGIN:CASE_SUMMARY_EN@@
+Nick Cammarata's Goodfire essay "Neural Networks Are Already Clean" presents a working hypothesis that native neurons and circuits are far more legible than previous polysemanticity/superposition narratives suggested. The available evidence supports meaningful neuron-axis structure and some locally interpretable circuits, but does not yet establish that most neurons have one reliably identifiable function, that weak activations are broadly irrelevant, or that large models are generally clean in the causal sense. Recommendation if assessed as an empirical research paper: MAJOR REVISION, not an editorial decision by any journal.
+@@END:CASE_SUMMARY_EN@@
+@@BEGIN:LIHUO_REVIEW_EN@@
+【Scope and claims】
+Here, clean concerns neuron/circuit legibility, not bias elimination, alignment or safety proof. C1 localized reinterpretation of classic polysemanticity deserves investigation; C2 special neuron-axis structure is partially supported; C3 roughly 90% one-job Qwen3-32B neuron poles is a method-sensitive preliminary estimate; C4 weak activations broadly irrelevant is not robust; C5 recursive generalization displaces superposition as a general mechanism is not established; C6 most large models fully understood or safe is beyond current evidence.
+Readable labels are not necessarily accurate whole-distribution activation predictions or causal downstream effect predictions.
+
+【Source comparison】
+S1 Cammarata (2026-10-15): visual/language neuron examples, local causal circuits, preliminary one-job estimate (https://already-clean.goodfire.com/).
+S3 leogao (2026-10-17): critique of label-based functional inference (https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean).
+S4 IRSI (2026-10-18): approx 78.3% one-job under its operationalization of Goodfire texts, but positive evidence for native neuron axes and activation-prediction tasks; not peer reviewed (https://irsi.ai/notes/already-clean/).
+S5 Batutin (2026-10-19): small-Qwen negative controls found one-job tags on 84% random-init vs 52% trained neurons and 0/50 label-only downstream predictions above matched controls; not a direct replication of the original 32B (https://andriybatutin.substack.com/p/we-tried-to-confirm-neural-networks).
+
+【Visible reference-level LIHUO cycle】
+R1-REF: A broad clean-neuron optimism provisionally led an author-evidence-first reconstruction against B calibrated local interpretability and C remaining superposition/distributed mechanisms. R1 was reconstructed after seeing critiques, so it was not a separately sealed first round.
+O9-REF: identify high-activation selection, negative-control gaps, label-to-causal inference, and local-to-global extrapolation. Textual observation, not actual Main O9 telemetry.
+I9: no verified authorized trigger, intervention or machine receipt.
+R2-REF: recheck alternatives using independent challenges; B becomes the provisional evidence-backed leader.
+R3-REF: the R2 reversal prompted a re-challenge using strongest author circuit evidence and positive independent neuron-axis tests; B persists as the best bounded statement. No formally qualified two-round victory is claimed.
+Termination: this scoped public-source review may conclude, but the empirical mechanism debate remains open. No formal Main termination or Lighter release.
+
+【Required revision】
+Define operational labels/thresholds/sampling and inter-rater reliability; add random-init, random-axis and label-swap negative controls; test held-out activations across the activation distribution; pre-register label-derived predictions of downstream ablation/amplification effects; distinguish recursive generalization from superposition experimentally; replicate across sizes/architectures; release failures and methods; constrain all-model and safety extrapolation.
+
+【Decision】
+MAJOR REVISION as a reference-level editorial recommendation, not peer-review acceptance/rejection, and not a formal LIHUO Final Gate decision. The linked companion report preserves details and unverified execution stages: PAPER/neural-networks-are-already-clean-cammarata-2026-lihuo-cycle-report.md
+@@END:LIHUO_REVIEW_EN@@
+REVIEW_VERDICT_EN: MAJOR REVISION; partially supported local legibility, unsupported global clean-network and causal claims; formal runtime not verified.
+
+[06|REVIEW_STATE]
+EVIDENCE_BOUNDARY: PUBLIC_WEB_SOURCES_ONLY; NO_INDEPENDENT_LARGE_MODEL_REPLICATION; REFERENCE_CYCLE_NOT_FORMAL_RUNTIME
+MISSING_EVIDENCE: NEGATIVE_CONTROLS; FULL_ACTIVATION_PREDICTION; CROSS_MODEL_CAUSAL_TESTS; FORMAL_MAIN_LIGHTER_EXECUTION_RECEIPTS
+REQUIRED_REVISION: OPERATIONAL_DEFINITIONS; RANDOM_BASELINES; LABEL_SIMULATION; CAUSAL_INTERVENTION; CROSS_MODEL_REPLICATION; CLAIM_NARROWING
+STRUCTURAL_REVIEWABILITY: REVIEWABLE_WITH_DEFINED_SCOPE
+PREMISE_INTEGRITY: PARTIAL_WITH_SCOPE_GAPS_EXPOSED
+CLAIM_AUTHORITY: LOCAL_SUPPORT_GLOBAL_GENERALIZATION_UNPROVEN
+FORMAL_COMPLETENESS: REFERENCE_REVIEW_DOCUMENTED; FORMAL_RUNTIME_NOT_ESTABLISHED
+EMPIRICAL_SUPPORT: MIXED_LOCAL_POSITIVE_AND_GENERAL_UNDERDETERMINED
+ONTOLOGY_STATUS: WORKING_HYPOTHESIS
+ENGINEERING_TESTABILITY: HIGH_WITH_ADDITIONAL_CONTROLS
+FAILURE_BOUNDARY_QUALITY: PARTIAL_WITH_OPEN_NEGATIVE_CONTROLS
+REVIEW_COMPLETION: REFERENCE_REVIEW_COMPLETED; FORMAL_MAIN_CYCLE_NOT_VERIFIED
+MEDICAL_SECTION_APPLICABLE: FALSE
+PAPER_REVIEW_STATUS: MAJOR_REVISION_RECOMMENDED_REFERENCE_LEVEL
+MEDICAL_EVIDENCE_ADMISSIBILITY: NOT_APPLICABLE
+CLINICAL_USE_READINESS: NOT_APPLICABLE
+CLAIM_AUTHORITY_LEVEL: CONDITIONAL_LOCAL_ONLY
+EVIDENCE_GROUNDING_LEVEL: SOURCE_GROUNDED_PUBLIC_ARTICLES_NONREPLICATED
+CLINICAL_TRANSLATION_RISKS: NOT_APPLICABLE
+PATIENT_SAFETY_BOUNDARY: NOT_APPLICABLE
+EXTERNAL_VALIDATION_STATUS: MIXED_INDEPENDENT_PUBLIC_CHECKS_NOT_PEER_REVIEWED
+CALIBRATION_STATUS: INSUFFICIENT_LABELER_NEGATIVE_CONTROL_CALIBRATION
+SUBGROUP_VALIDATION_STATUS: NOT_APPLICABLE
+PROSPECTIVE_VALIDATION_STATUS: NOT_APPLICABLE
+REGULATORY_BOUNDARY: NOT_APPLICABLE
+EXPERT_REVIEW_REQUIRED: TRUE
+
+[07|PUBLICATION]
+IMPORT_AS_STATUS: DRAFT
+ROUTE_POLICY: BILINGUAL_SHARED_SLUG
+ZH_ROUTE: /zh/cases/neural-networks-are-already-clean-cammarata-2026
+EN_ROUTE: /en/cases/neural-networks-are-already-clean-cammarata-2026
+PUBLIC_SOURCE_LINK_DISPLAY: TRUE
+PUBLIC_DOWNLOAD_LINK_DISPLAY: FALSE
+PUBLIC_AUTHOR_INFO_DISPLAY: FALSE
+PUBLISH_READY: TRUE
+PUBLICATION_NOTE: Formatted as V0.4 bilingual DRAFT-import packet; GitHub upload does not itself establish website import/published route. Formal LIHUO runtime and release are not claimed. Companion audit report: https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/main/PAPER/neural-networks-are-already-clean-cammarata-2026-lihuo-cycle-report.md
+
+============================================================
+END LIHUO WEB CASE TXT PACKET
+============================================================
