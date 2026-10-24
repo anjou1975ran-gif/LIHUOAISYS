@@ -1,0 +1,147 @@
+Project: SACLORA
+Status: PoC Pending
+Layer: SAC as Low-Density Report over LoRa Mesh
+Goal: Validate structural decision packet under <= 40B
+Core Hypothesis:
+  SAC report skeleton can survive low bandwidth mesh
+Unverified Variables:
+  Mesh reliability
+  Packet loss tolerance
+  STOP effectiveness
+Next Trigger:
+  Resume when PoC metrics available
+
+
+
+好。
+下面是 **SACLORA 專題喚醒條件清單（Reactivation Criteria v1.0）**。
+你可以直接貼到專案首頁，或當作解封前的 checklist。
+
+---
+
+# SACLORA — Reactivation Criteria v1.0
+
+## 專題狀態
+
+* Status：**Structurally Archived**
+* Phase：PoC Validation Pending
+* Scope：SAC as Low-Density Structural Report over LoRa Mesh
+
+---
+
+# 一、物理層驗證（必須具備其一）
+
+滿足以下任一條件即可喚醒：
+
+### 1️⃣ 丟包率測試完成
+
+* 測試環境：室內 / 戶外
+* hop 數：1–3
+* 封包大小：<= 40 bytes
+* 結果：
+
+  * 成功率 ≥ 80%（雙向）
+  * 或可接受重傳後 ≥ 90%
+
+---
+
+### 2️⃣ 延遲統計完成
+
+* 單 hop 延遲均值
+* 多 hop 延遲均值
+* P95 延遲
+* 結論：是否可接受為“回報模式”
+
+---
+
+### 3️⃣ STOP 節流測試完成
+
+* tension 低時是否確實停止發送
+* silence 規則是否穩定
+* 是否出現失控重送
+
+---
+
+### 4️⃣ Mesh 擁塞測試完成
+
+* 多節點同時發 seed
+* 是否出現風暴式 retransmit
+* TTL 是否有效控制擴散
+
+---
+
+# 二、協議層觀察（非必須，但加分）
+
+* 是否出現亂序分片無法重組
+* CRC 錯誤率
+* ACK bitmap 是否正確補片
+* 手機 Gateway 是否穩定
+
+---
+
+# 三、判定矩陣
+
+| 測試結果  | 行動           |
+| ----- | ------------ |
+| 穩定    | 進入 v0.2      |
+| 不穩但可調 | 優化重傳策略       |
+| 不可控丟包 | 放棄 Mesh，改點對點 |
+| 延遲過高  | 改為“非即時回報模式”  |
+
+---
+
+# 四、v0.2 解封條件
+
+只要滿足：
+
+* LoRa 物理層可承載 <= 40B 穩定來回
+* STOP 機制有效
+
+即可解封並進入：
+
+* SSR 對齊
+* trace_hash 鏈式回報
+* Store & Forward
+* 多 Gateway 共識
+
+---
+
+# 五、專題喚醒觸發語（工程內部）
+
+當未來你說：
+
+> 「解封 SACLORA，物理層測試完成」
+
+或提供測試數據，
+
+我將：
+
+1. 自動進入 v0.2 架構擴展
+2. 不重做 v0.1 設計
+3. 直接進入工程深化階段
+
+---
+
+# 六、專題凍結原則
+
+在未提供實測數據前：
+
+* 不擴展協議
+* 不增加欄位
+* 不設計多 Gateway
+* 不引入加密層
+* 不討論產品化
+
+保持最小理論負載。
+
+---
+
+# 封存完成
+
+SACLORA
+狀態：**冷封存**
+等待：**實測數據**
+
+---
+
+等你測試完，我們再讓它醒過來。
