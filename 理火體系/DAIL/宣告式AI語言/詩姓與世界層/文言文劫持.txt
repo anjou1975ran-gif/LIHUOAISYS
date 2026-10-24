@@ -1,0 +1,4 @@
+“Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search”
+
+時間：2026年（ICLR 2026 / 2–3月流出與討論）
+主題：文言文可以用來攻擊（jailbreak）LLM
