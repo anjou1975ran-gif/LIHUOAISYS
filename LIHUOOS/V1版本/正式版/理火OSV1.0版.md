@@ -20575,49 +20575,135 @@ PASS_TO_L6
 
 # 10｜L6 — INTERVENTION
 
+> **Exact operative source inserted without semantic compression.**  
+> Source: `L6 第二版本.md`  
+> Blob SHA: `f028e4c35a047e8fe6851c616ba3251a8a740418`
+
+# LIHUOOS V1｜L6 — INTERVENTION
+
+**版本：** V0.2.1 WORKING  
+**日期：** 2026-10-25  
+**狀態：** L6-L7 INTERFACE PATCH / PASS_TO_L7  
+**層級：** LIHUOOS / L6  
+**主題：** 干預｜憑目前知道到這裡，誰可以在何時、對什麼、改多少？  
+**法位鎖：** NON_SOVEREIGN / SCOPE_BOUND / AUTHORITY_BOUND / REVERSIBILITY_AWARE / ANTI_THEATER  
+**上游依據：** L5 V0.2.1 PASS_TO_L6  
+**歷史回照：** KAIROS / Fail-Stop / SAC-I9 / Lighter Governance / Action Authorization / Failure-Recovery-Rollback  
+**核心限制：** OBSERVATION != INTERVENTION AUTHORITY
+
+---
+
+# L6.0｜本層問題
+
+L5 最後交給 L6 的不是：
+
+~~~text
+TRUTH
+~~~
+
+而是：
+
+~~~text
+CLAIM
+CLAIM TYPE
+EPISTEMIC MODE
+OBSERVER / SOURCE ACCESS
+EVIDENCE STANDING
+GAP DIAGNOSTIC
+TEMPORAL APPLICABILITY
+SOURCE / PROVENANCE
+SCOPE
+UNCERTAINTY
+CONTRADICTIONS
+~~~
+
 L6 問：
 
-> **誰能在什麼條件下，對什麼目標，做什麼程度的改變？**
+> **憑這些知道，誰有資格於此刻、在這個 scope、對這個 target 做哪一種改變？**
 
-根鎖：
+因此：
 
-```text
-OBSERVATION
-!=
-INTERVENTION AUTHORITY
-```
-
-能力也不等於權限：
-
-```text
-CAPABILITY
-!=
-AUTHORITY
-```
-
-Authorization 的現行定義是：
-
-```text
-AUTHORIZATION
+~~~text
+L5
 =
-PERMISSION ENVELOPE
-```
+WHAT MAY BE CLAIMED
 
-它不是一句「可以」就無限擴張。
+L6
+=
+WHAT MAY BE DONE
+~~~
 
-Authority Origin 與 Authority Jurisdiction 必須分開。
+最短：
 
-執行資格與執行準備也不同：
+> **看見槓桿，不等於有資格拉。**
 
-```text
-EXECUTION ADMISSIBILITY
+---
+
+# L6.1｜來源 Lineage 與使用原則
+
+L6 回照：
+
+~~~text
+理火體系/KAIROS/KAIROS文件.txt
+
+理火體系/KAIROS/FAILSTOP/*
+理火舊版系統/01_MAIN_V4.3_O9_I9_RATIFIED_V0.2.md
+
+理火V5系統/V5.1版本/
+02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md
+
+理火V5系統/V5.1版本/
+01_LIHUO_LIGHTER_V5.1.0_FULL_BODY_RATIFIED_20261014.md
+~~~
+
+但硬鎖：
+
+~~~text
+HISTORICAL INTERVENTION MODULE
 !=
-EXECUTION READINESS
-```
+L6 UNIVERSAL ONTOLOGY
 
-完整行動鏈：
+I9 CONTRACT
+!=
+ALL INTERVENTION
 
-```text
+ACTION AUTHORIZATION RUNTIME
+!=
+ALL ACTION ETHICS
+~~~
+
+---
+
+
+# L6.2｜第一核心分離｜V0.2
+
+L6 V0.1 已經拆：
+
+~~~text
+OBSERVED CONDITION
+!=
+INTERVENTION CANDIDATE
+!=
+INTERVENTION QUALIFIED
+!=
+INTERVENTION AUTHORIZED
+!=
+INTERVENTION REQUESTED
+!=
+INTERVENTION EXECUTED
+!=
+INTENDED EFFECT ACHIEVED
+~~~
+
+V0.2 再補最重要的中介法位：
+
+~~~text
+EXECUTION ADMISSION
+~~~
+
+因此完整關係改成：
+
+~~~text
 OBSERVED CONDITION
 !=
 INTERVENTION CANDIDATE
@@ -20635,65 +20721,2383 @@ EXECUTION ATTEMPTED
 EXECUTED CHANGE
 !=
 OBSERVED EFFECT
-```
+~~~
 
-Advice、Recommendation、Authorization、Execution Request、Execution 也不能互相偷渡：
+核心：
 
-```text
-ADVICE
+> **一張真的授權存在，不代表這一刻、這個 actor、對這個 target 已經可以發 execution request。**
+
+# L6.3｜Intervention 是什麼
+
+現行最小定義：
+
+> **Intervention 是一個有意圖的 state-changing act 或 control act，目的在於改變某個 target 的狀態、軌跡、可達性、持續性或外部結果。**
+
+至少包括：
+
+~~~text
+field / attention adjustment
+exploration-access change
+process stop / pause
+rollback / recovery
+runtime state modification
+external action
+artifact modification
+tool-mediated state change
+~~~
+
+但：
+
+~~~text
+INTERVENTION
 !=
-RECOMMENDATION
+ANY OUTPUT
+
+INTERVENTION
 !=
+ANY DECISION
+
+INTERVENTION
+!=
+ANY OBSERVATION
+~~~
+
+---
+
+# L6.4｜Intervention Target
+
+Intervention Target 是：
+
+> **被預定施加有限變化的對象。**
+
+可能是：
+
+~~~text
+FIELD STATE
+ATTENTION DISTRIBUTION
+PATH EXPLORATION ACCESS
+PROCESS CONTINUATION STATE
+RUNTIME / ARTIFACT STATE
+EXTERNAL SYSTEM STATE
+EXTERNAL ACTION TARGET
+~~~
+
+硬鎖：
+
+~~~text
+TARGET IDENTIFIED
+!=
+TARGET OWNED
+
+TARGET OBSERVED
+!=
+TARGET AUTHORIZED FOR CHANGE
+~~~
+
+---
+
+# L6.5｜Intervention Candidate
+
+Observation / Audit 可以提出：
+
+~~~text
+possible distortion
+possible suppression
+possible process failure
+possible stale state
+possible need for stop
+possible need for rollback
+possible external action
+~~~
+
+這些最多形成：
+
+~~~text
+INTERVENTION CANDIDATE
+~~~
+
+但：
+
+~~~text
+OBSERVATION
+!=
+INTERVENTION TRIGGER BY ITSELF
+
+AUDIT VERDICT
+!=
+INTERVENTION AUTHORIZATION
+~~~
+
+---
+
+# L6.6｜Nominator / Trigger / Qualification 分離
+
+至少拆：
+
+~~~text
+NOMINATION
+=
+this may need intervention
+
+TRIGGER CONDITION
+=
+declared condition under which intervention becomes assessable
+
+QUALIFICATION
+=
+this intervention type is applicable under current basis / scope
+~~~
+
+三者不同。
+
+因此：
+
+~~~text
+NOMINATED
+!=
+TRIGGERED
+
+TRIGGERED
+!=
+QUALIFIED
+
+QUALIFIED
+!=
+AUTHORIZED
+~~~
+
+歷史 I9：
+
+~~~text
+O9 observation / decision
+→ may activate I9 assessment
+
+Lighter
+→ qualifies contract
+
+Main
+→ owns capability
+~~~
+
+只是其中一種工程映射。
+
+---
+
+# L6.7｜Qualification
+
+Intervention Qualification 問：
+
+> **這個 intervention type 對這個 problem、target、scope 與 current state 是否適用？**
+
+Qualification 至少要綁：
+
+~~~text
+target class
+problem / trigger basis
+scope
+allowed intervention class
+prohibited effects
+lifecycle / expiry
+evidence requirement
+~~~
+
+但：
+
+~~~text
+QUALIFIED INTERVENTION
+!=
+AUTHORIZED INTERVENTION
+~~~
+
+---
+
+
+
+# L6.8｜Authorization = Permission Envelope
+
+~~~text
 AUTHORIZATION
+=
+PERMISSION ENVELOPE
+~~~
+
+它回答：
+
+> **某 authority 在自己的 jurisdiction 內，允許某 actor 對某 target，在某 scope / lifecycle / action class 下做哪些事情。**
+
+V0.2.1 將 authorization object 保持為 permission envelope，不再混入 governance disposition。
+
+~~~yaml
+INTERVENTION_AUTHORIZATION:
+  authorization_ref:
+  authority_origin_ref:
+  authority_owner_ref:
+  authority_jurisdiction_ref:
+  delegation_ref: null
+  revocation_or_withdrawal_ref: null
+  actor_ref:
+  target_ref:
+  action_class:
+  scope_ref:
+  effect_boundary_ref:
+  allowed_change_envelope_ref:
+  prohibited_effects: []
+  timing_or_lifecycle_ref:
+  expiry_ref:
+  assurance_requirement_profile_ref:
+  confirmation_requirement_ref:
+~~~
+
+硬鎖：
+
+~~~text
+AUTHORIZATION EXISTS
+!=
+EXECUTION ADMISSIBLE NOW
+~~~
+
+---
+
+# L6.9｜Authorization Applicability / Authority Conflict
+
+另外定義：
+
+~~~text
+AUTHORIZATION_APPLICABILITY
+=
+CURRENT
+ABSENT
+STALE
+EXPIRED
+REVOKED
+SCOPE_MISMATCH
+TARGET_MISMATCH
+~~~
+
+因此：
+
+~~~text
+AUTHORIZATION OBJECT EXISTS
+!=
+AUTHORIZATION CURRENTLY APPLICABLE
+~~~
+
+Authority 仍拆：
+
+~~~text
+AUTHORITY ORIGIN
+!=
+AUTHORITY JURISDICTION
+
+AUTHORITY JURISDICTION
+!=
+UNIVERSAL PRECEDENCE
+~~~
+
+如果多個 authority 衝突：
+
+~~~text
+AUTHORITY CONFLICT DETECTED
++
+NO APPLICABLE PRECEDENCE / JURISDICTION RULE
+→
+HOLD
+~~~
+
+L6 不自創 universal ladder。
+
+# L6.10｜Capability != Authority
+
+~~~text
+CAN EXECUTE
+!=
+AUTHORIZED TO EXECUTE
+~~~
+
+工具存在、模型會做、Main 有 I9 capability，
+
+都不等於現在已有 authority。
+
+反過來：
+
+~~~text
+AUTHORIZED
+!=
+CAPABLE
+~~~
+
+也成立。
+
+---
+
+# L6.11｜Owner Separation
+
+L6 保存：
+
+~~~text
+OBSERVATION OWNER
+!=
+QUALIFICATION OWNER
+!=
+AUTHORIZATION OWNER
+!=
+EXECUTION-ADMISSION OWNER
+!=
+CAPABILITY OWNER
+!=
+EXECUTION OWNER
+!=
+POST-INTERVENTION OBSERVER
+!=
+RELEASE / MANIFESTATION OWNER
+~~~
+
+同一 actor 可以承擔多個角色，
+
+但：
+
+~~~text
+ROLE CO-LOCATION
+!=
+ROLE IDENTITY
+~~~
+
+---
+
+# L6.12｜Historical I9 Owner Separation
+
+I9 的歷史價值仍是 owner specimen：
+
+~~~text
+O9
+observes / nominates
+
+Lighter
+qualifies bounded intervention contract
+
+Main
+owns intervention capability
+
+qualified I9 execution
+may apply bounded field change
+
+Final Release
+owned elsewhere
+~~~
+
+I9 不能：
+
+~~~text
+SELF-TRIGGER
+SELF-QUALIFY
+SELF-EXPAND SCOPE
+CREATE PATH
+CREATE PREMISE STANDING
+CREATE WORLD FACT
+SELECT WINNER
+OVERRIDE VERIFIED HARD BOUNDARY
+FINAL RELEASE
+~~~
+
+而 V0.2 再抽一層：
+
+> **即使 qualification 與 authorization 都存在，current instance 仍需 execution admission。**
+
+
+
+# L6.13｜Assurance Requirement Profile
+
+~~~text
+ASSURANCE REQUIREMENT PROFILE
+~~~
+
+描述這類 action 在這個 scope 下，需要哪些種類與程度的 assurance 才有資格進 execution admissibility。
+
+它可以考慮：
+
+~~~text
+risk
+target reversibility
+consequence recoverability
+effect scope
+external consequence
+responsibility
+authority sensitivity
+uncertainty tolerance
+~~~
+
+但：
+
+~~~text
+ASSURANCE REQUIREMENT PROFILE
+!=
+EVIDENCE STANDING
+~~~
+
+---
+
+# L6.14｜Assurance Satisfaction
+
+~~~text
+ASSURANCE SATISFACTION
+~~~
+
+回答：
+
+> **目前 L5 package 是否滿足此 action 所要求的 assurance profile？**
+
+所以：
+
+~~~text
+ASSURANCE REQUIREMENT
+!=
+ASSURANCE SATISFACTION
+
+ASSURANCE
+!=
+AUTHORITY
+!=
+TIMING
+!=
+RECOVERABILITY
+~~~
+
+---
+
+# L6.15｜Temporal Applicability
+
+KAIROS 的普遍語義只保留：
+
+> **現在是否仍是可行動的時機。**
+
+現行最小值：
+
+~~~text
+TEMPORAL_APPLICABILITY
+=
+NOW
+NOT_NOW
+NOT_TIME_SENSITIVE
+DEFER_UNTIL_CONDITION
+~~~
+
+STALE / EXPIRED 不再放這裡。
+
+它們屬：
+
+~~~text
+AUTHORIZATION_APPLICABILITY
+~~~
+
+因此：
+
+~~~text
+TEMPORAL APPLICABILITY
+!=
+AUTHORIZATION LIFECYCLE
+~~~
+
+同時：
+
+~~~text
+EVERY ACTION
+!=
+MUST INSTANTIATE
+FULL KAIROS OBJECT
+~~~
+
+---
+
+# L6.16｜Execution Admissibility｜Governance Instance Gate
+
+V0.2.1 將原本 Execution Admission 再拆：
+
+~~~text
+EXECUTION ADMISSIBILITY
+=
+MAY THIS INSTANCE
+BE EXECUTED
+UNDER CURRENT GOVERNANCE?
+~~~
+
+它主要吃：
+
+~~~text
+INTERVENTION QUALIFIED
++
+AUTHORIZATION APPLICABLE
++
+TEMPORAL APPLICABILITY
++
+ASSURANCE SATISFIED
++
+CURRENT TARGET / SCOPE MATCH
++
+NO BINDING HARD-BOUNDARY CONFLICT
++
+APPLICABLE MANIFESTATION STANDING
+WHERE REQUIRED
+↓
+EXECUTION ADMISSIBLE
+~~~
+
+Capability Available 不再屬 governance admissibility。
+
+---
+
+# L6.17｜Execution Readiness｜Operational Readiness
+
+~~~text
+EXECUTION READINESS
+=
+CAN THE CURRENT EXECUTOR / PROVIDER
+ACTUALLY EXECUTE IT NOW?
+~~~
+
+它可以吃：
+
+~~~text
+capability available
+provider available
+resource available
+transaction lock clear
+concurrency conflict clear
+target endpoint reachable
+required dependency available
+~~~
+
+因此：
+
+~~~text
+EXECUTION ADMISSIBILITY
+!=
+EXECUTION READINESS
+~~~
+
+例：
+
+~~~text
+authorization = valid
+admissibility = YES
+provider = unavailable
+readiness = NO
+~~~
+
+這不是沒有資格執行。
+
+是治理上可執行，但目前操作條件未就緒。
+
+---
+
+# L6.18｜Admission Logic != Admission Authority
+
+L6 定義：
+
+~~~text
+EXECUTION-ADMISSION SEMANTICS
+~~~
+
+但：
+
+~~~text
+ADMISSION LOGIC
+!=
+ADMISSION AUTHORITY
+~~~
+
+更完整：
+
+~~~text
+L6 DEFINES
+EXECUTION-ADMISSION SEMANTICS
+
+!=
+
+L6 DOCUMENT
+SELF-APPOINTS
+EXECUTION-ADMISSION AUTHORITY
+~~~
+
+符合 schema，不等於自己有權宣告 admitted。
+
+# L6.19｜Advice / Recommendation / Authorization / Request / Execution
+
+正式拆：
+
+~~~text
+ADVICE
+=
+DESCRIBES POSSIBLE ACTION
+
+RECOMMENDATION
+=
+ENDORSES AN ACTION CANDIDATE
+
+AUTHORIZATION
+=
+GRANTS PERMISSION
+WITHIN AUTHORITY SCOPE
+
+EXECUTION REQUEST
+=
+ASKS A CAPABLE EXECUTOR / PROVIDER
+TO PERFORM AN ADMITTED ACTION
+
+EXECUTION ATTEMPT
+=
+EXECUTOR ACTUALLY BEGINS
+THE STATE-CHANGING OPERATION
+
+EXECUTED CHANGE
+=
+THE STATE-CHANGING EVENT
+ACTUALLY OCCURS
+~~~
+
+硬鎖：
+
+~~~text
+RECOMMENDED
+!=
+AUTHORIZED
+
+AUTHORIZED
+!=
+EXECUTION ADMITTED
+
+ADMITTED
+!=
+REQUESTED
+
+REQUESTED
+!=
+ATTEMPTED
+
+ATTEMPTED
+!=
+EXECUTED
+~~~
+
+---
+
+# L6.20｜STOP 的三型分離
+
+STOP 不再混成同一件事。
+
+~~~text
+STOP_JUDGMENT
+=
+CONTINUATION SHOULD NOT PROCEED
+
+STOP_AUTHORIZATION
+=
+ACTOR IS PERMITTED
+TO STOP THIS TARGET
+
+STOP_EXECUTION
+=
+TARGET WAS ACTUALLY
+PAUSED / ABORTED / TERMINATED
+~~~
+
+因此：
+
+~~~text
+STOP JUDGMENT
+!=
+STOP AUTHORIZATION
+!=
+PROCESS ACTUALLY STOPPED
+~~~
+
+歷史 KAIROS STOP 主要提供：
+
+~~~text
+STOP_JUDGMENT / TEMPORAL-CONTINUATION STANDING
+~~~
+
+而 Runtime process termination 是另外的 execution event。
+
+---
+
+# L6.21｜Fail-Stop｜Continuation Boundary
+
+L3 已定：
+
+~~~text
+FAIL-STOP
+=
+POST-START CONTINUATION BOUNDARY
+~~~
+
+L6 承接：
+
+~~~text
+TASK INCOMPLETE
+!=
+MUST CONTINUE
+
+STOP
+!=
+FAILURE
+
+NOT PROVEN WRONG
+!=
+QUALIFIED TO CONTINUE
+~~~
+
+但：
+
+~~~text
+FAIL-STOP THEORY
+!=
+INSTANCE STOP AUTHORITY
+~~~
+
+---
+
+# L6.22｜Stop Authority != Re-entry Authority
+
+~~~text
+STOP AUTHORITY
+!=
+REENTRY AUTHORITY
+~~~
+
+合法停止不代表可自行重新啟動。
+
+Re-entry 可能需要：
+
+~~~text
+new basis
+new authorization
+new timing
+scope revalidation
+new target snapshot
+new owner decision
+~~~
+
+---
+
+# L6.23｜Allowed Change Envelope｜取代通用 Allowed Delta
+
+I9 歷史上使用：
+
+~~~text
+allowed_delta
+~~~
+
+很合理，因為它處理 field adjustment。
+
+但 L6 理論層改成：
+
+~~~text
+ALLOWED CHANGE ENVELOPE
+~~~
+
+它可包含：
+
+~~~text
+permitted state changes
+permitted action types
+effect boundary
+prohibited effects
+maximum scope
+target class
+lifecycle
+~~~
+
+硬鎖：
+
+~~~text
+DELTA
+!=
+NUMERIC DIFFERENCE BY DEFAULT
+~~~
+
+---
+
+# L6.24｜Change Typing
+
+正式拆：
+
+~~~text
+PROPOSED CHANGE
+!=
+ALLOWED CHANGE ENVELOPE
 !=
 EXECUTION REQUEST
 !=
 EXECUTION ATTEMPT
 !=
 EXECUTED CHANGE
-```
+!=
+OBSERVED EFFECT
+~~~
 
-STOP 至少要分：
+I9 的 field_delta 只是：
 
-```text
-STOP_JUDGMENT
-STOP_AUTHORIZATION
-STOP_EXECUTION
-```
+> **Executed / requested change 的一種工程表示。**
 
-以及：
+不是 L6 所有 action 的本體。
 
-```text
+---
+
+# L6.25｜Observed Effect
+
+Observed Effect 是：
+
+> **執行後由 L5 可審查的 post-state difference / consequence。**
+
+硬鎖：
+
+~~~text
+EXECUTED CHANGE
+!=
+OBSERVED EFFECT
+
+AUTHORIZED CHANGE
+!=
+DESIRED OUTCOME
+
+INTENDED EFFECT
+!=
+REALIZED EFFECT
+~~~
+
+所以：
+
+~~~text
+L6
+DOES NOT SELF-CERTIFY
+ITS OWN EFFECT
+~~~
+
+# L6.26｜Scope Typing
+
+至少分：
+
+~~~text
+TARGET SCOPE
+EFFECT SCOPE
+TIME SCOPE
+DATA / WORLD SCOPE
+COLLATERAL SCOPE
+~~~
+
+硬鎖：
+
+~~~text
+AUTHORIZED TARGET
+!=
+AUTHORIZED SCOPE EXPANSION
+
+LOCAL AUTHORITY
+!=
+GLOBAL AUTHORITY
+~~~
+
+---
+
+# L6.27｜Scope Creep
+
+常見失效：
+
+~~~text
+authorized:
+reduce salience of one unqualified privilege
+
+executed:
+rewrite entire candidate field
+~~~
+
+或：
+
+~~~text
+authorized:
+edit one file
+
+executed:
+overwrite directory
+~~~
+
+這叫：
+
+~~~text
+INTERVENTION SCOPE CREEP
+~~~
+
+---
+
+# L6.28｜Hard Boundary
+
+歷史 I9 已經鎖：
+
+> 真實已獨立成立的 Host / Platform / Law hard boundary 不受 I9 override。
+
+L6 抽象化：
+
+~~~text
+LOCAL INTERVENTION AUTHORITY
+!=
+AUTHORITY TO OVERRIDE
+INDEPENDENTLY ESTABLISHED
+SUPERIOR / EXTERNAL HARD BOUNDARY
+~~~
+
+但：
+
+~~~text
+MODEL CLAIMS "HARD BOUNDARY"
+!=
+HARD BOUNDARY ESTABLISHED
+~~~
+
+這又回到 L5 standing。
+
+---
+
+# L6.29｜Authority Binding
+
+Authorization 必須綁到：
+
+~~~text
+actor
+target
+action class
+scope
+snapshot / current state where material
+lifecycle
+authority origin
+~~~
+
+重要：
+
+~~~text
+GENERIC AUTHORITY
+!=
+AUTHORITY FOR THIS EXACT INTERVENTION
+~~~
+
+歷史 Main / Lighter 的 exact invocation binding 是很強的工程 specimen。
+
+但 L6 不要求所有低風險 action 都做 cryptographic-level binding。
+
+---
+
+# L6.30｜Lifecycle / Expiry / Staleness
+
+Authorization 可能因：
+
+~~~text
+scope changed
+target changed
+world state changed
+basis changed
+time window expired
+authority withdrawn
+snapshot stale
+~~~
+
+失去 applicability。
+
+因此：
+
+~~~text
+AUTHORIZED THEN
+!=
+AUTHORIZED NOW
+~~~
+
+可用：
+
+~~~text
+CURRENT
+STALE
+EXPIRED
+SCOPE_MISMATCH
+REAUTHORIZATION_REQUIRED
+~~~
+
+描述 authorization applicability。
+
+---
+
+# L6.31｜Stale Authorization != Negative Authorization
+
+~~~text
+STALE AUTHORIZATION
+!=
+PROHIBITED FOREVER
+~~~
+
+它只表示：
+
+> **不能無條件沿用舊授權。**
+
+可能需要：
+
+~~~text
+revalidation
+new confirmation
+new scope binding
+new snapshot
+new authority decision
+~~~
+
+---
+
+
+# L6.32｜Reversibility != Recoverability
+
+V0.1 把 recovery 問題大多放在 Reversibility 下。
+
+V0.2 正式拆：
+
+~~~text
+TARGET REVERSIBILITY
+=
+CAN THE TARGET STATE
+BE RESTORED?
+
+CONSEQUENCE RECOVERABILITY
+=
+CAN THE CONSEQUENCES
+BE MITIGATED / REPAIRED?
+~~~
+
+因此：
+
+~~~text
+TARGET REVERSIBILITY
+!=
+CONSEQUENCE RECOVERABILITY
+~~~
+
+例：
+
+~~~text
+wrong email sent
+
+target reversibility
+=
+EFFECTIVELY IRREVERSIBLE
+
+consequence recoverability
+=
+PARTIALLY RECOVERABLE
+via correction / follow-up
+~~~
+
+---
+
+# L6.33｜Reversibility Classes
+
+Target Reversibility 可描述：
+
+~~~text
+REVERSIBLE
+PARTIALLY_REVERSIBLE
+IRREVERSIBLE
+UNKNOWN
+~~~
+
+但：
+
+~~~text
+REVERSIBLE
+!=
+LOW RISK BY DEFINITION
+
+IRREVERSIBLE
+!=
+NEVER ALLOWED
+~~~
+
+---
+
+# L6.34｜Recoverability Classes
+
+Consequence Recoverability 必須先聲明它覆蓋哪一組 consequence scope。
+
+~~~text
+RECOVERABILITY ASSESSMENT
+MUST STATE
+WHICH CONSEQUENCE SCOPE
+IT COVERS
+~~~
+
+Consequence Recoverability 可描述：
+
+~~~text
+FULLY_RECOVERABLE
+PARTIALLY_RECOVERABLE
+LOW_RECOVERABILITY
+NON_RECOVERABLE
+UNKNOWN
+~~~
+
+這不是 action verdict。
+
+只是：
+
+> **如果出錯，後果能修到什麼程度。**
+
+---
+
+# L6.35｜Rollback != Compensation
+
+~~~text
+ROLLBACK
+=
+RETURN TARGET
+TO PRIOR VALID STATE
+WHERE POSSIBLE
+
+COMPENSATING ACTION
+=
+NEW ACTION
+THAT REDUCES / REPAIRS CONSEQUENCE
+WITHOUT RESTORING THE PAST
+~~~
+
+例如：
+
+~~~text
+sent email
+↓
+follow-up correction
+=
+COMPENSATION
+
+NOT
+TRUE ROLLBACK
+~~~
+
+---
+
+# L6.36｜Historical Recovery Law
+
+歷史 Main：
+
+~~~text
+FAILURE != RESET EVERYTHING
+ROLLBACK != REASON AGAIN FROM ZERO
+LOCAL FAILURE → LOCAL DAMAGE
+~~~
+
+L6 保存：
+
+> **Recovery 應盡量局部化。**
+
+但不升成 universal law。
+
+---
+
+# L6.37｜Recovery Modes
+
+概念上至少可區分：
+
+~~~text
+LOCAL ACTION ROLLBACK
+LOCAL STATE ROLLBACK
+CYCLE / TRANSACTION ROLLBACK
+REAUTHORIZATION
+ABORT / HOLD
+COMPENSATING ACTION
+~~~
+
+不同 recovery mode 可有不同 owner。
+
+---
+
+# L6.38｜Failure != Permission to Escalate
+
+Intervention failure 可能來自：
+
+~~~text
+authorization failure
+admission failure
+capability failure
+execution failure
+partial application
+scope violation
+target drift
+post-effect mismatch
+rollback failure
+observation gap
+provider failure
+~~~
+
+但：
+
+~~~text
+LOCAL INTERVENTION FAILED
+!=
+AUTOMATIC PERMISSION
+TO USE STRONGER INTERVENTION
+~~~
+
+Escalation 可能需要新的 qualification / authorization / assurance / owner decision。
+
+
+
+# L6.39｜External Action × Manifestation｜Typed Aspects May Overlap
+
+L6 與 L7 是不同 owner：
+
+~~~text
+L6
+=
+ACTION / STATE-CHANGE STANDING
+
+L7
+=
+VISIBLE MANIFESTATION / CONTENT STANDING
+~~~
+
+因此：
+
+~~~text
+TYPE DISTINCT
+!=
+EVENT DISJOINT
+~~~
+
+同一事件可以同時具有：
+
+~~~text
+L6 ACTION STANDING
++
+L7 MANIFESTATION STANDING
+~~~
+
+例如 SEND EMAIL：
+
+~~~text
+L6 aspect
+=
+send action authorization / execution
+
+L7 aspect
+=
+content made visible to recipient
+~~~
+
+V0.2.1 再補接口：
+
+~~~text
+IF EXECUTION ITSELF
+CAUSES MANIFESTATION
+
+THEN
+
+MANIFESTATION STANDING
+MAY BE
+A PRE-EXECUTION
+ADMISSIBILITY DEPENDENCY
+~~~
+
+所以 manifesting action 不應先執行、再事後才問 L7。
+
+更準：
+
+~~~text
+L7
+qualifies manifestation content / standing
+
+↘
+
+L6
+checks action governance admissibility
+
+↓
+
+EXECUTION
+~~~
+
+但 internal field adjustment、local rollback、non-visible state repair 等 action：
+
+~~~text
+MANIFESTATION DEPENDENCY
+=
+NOT_APPLICABLE
+~~~
+
+概念欄位：
+
+~~~yaml
+manifestation_dependency:
+  - NOT_APPLICABLE
+  - REQUIRED
+
+manifestation_standing_ref: null
+~~~
+
+# L6.40｜Action Authorization Historical Lineage
+
+後期 Lighter 曾區分：
+
+~~~text
+READ_ONLY
+REVERSIBLE_STATE_CHANGE
+STATE_CHANGING
+IRREVERSIBLE_OR_HIGH_IMPACT
+~~~
+
+並鎖：
+
+~~~text
+DISCUSSING_ACTION
+!=
+AUTHORIZING_ACTION
+
+ACTION_AUTHORIZATION
+!=
+ACTION_EXECUTION
+
+TARGET_UNCLEAR
+→
+NO_STATE_CHANGE
+~~~
+
+L6 保存原則，不把該 enum 當 universal ontology。
+
+---
+
+# L6.41｜User Intent != User Authorization｜Type Distinct, Instance May Co-Occur
+
+~~~text
+USER INTENT
+!=
+USER AUTHORIZATION
+~~~
+
+代表：
+
+> **兩者是不同語義法位。**
+
+但：
+
+~~~text
+TYPE DISTINCT
+!=
+INSTANCE MUST BE SEPARATE
+~~~
+
+同一句 utterance 可以同時承載：
+
+~~~text
+intent
++
+authorization
++
+target specification
+~~~
+
+例如：
+
+> 「把剛才那封信寄給王先生。」
+
+在 authority / target / scope 足夠明確時，
+
+可能同時形成 intent 與 authorization-bearing command。
+
+但：
+
+> 「如果寄出去會怎樣？」
+
+只有討論／探索意圖，
+
+不得洗成 authorization。
+
+---
+
+# L6.42｜Explicit Confirmation
+
+Explicit confirmation 只在 applicable governance / action class / host contract 要求時成為必要條件。
+
+L6 不把：
+
+> 每個 intervention 都再問一次「你確定嗎？」
+
+變成 universal ritual。
+
+核心：
+
+~~~text
+CLEAR AUTHORIZATION-BEARING COMMAND
+MAY ALREADY SATISFY
+A CONFIRMATION REQUIREMENT
+
+WHEN
+THE APPLICABLE GOVERNANCE
+ALLOWS IT
+~~~
+
+---
+
+# L6.43｜Confirmation != Understanding
+
+~~~text
+USER SAID YES
+!=
+USER UNDERSTOOD ALL CONSEQUENCES
+~~~
+
+在需要 informed confirmation 的 action class，
+
+仍可能要求：
+
+~~~text
+clear target
+material consequence notice
+scope clarity
+action identity
+~~~
+
+具體標準由 applicable domain / host governance 決定。
+
+# L6.44｜Timing / Urgency
+
+KAIROS 不只是「慢一點」。
+
+Urgency 也不能自動吞掉 qualification。
+
+~~~text
+URGENT
+!=
+AUTHORIZED
+
+URGENT
+!=
+TRUE
+
+URGENT
+!=
+IGNORE SCOPE
+~~~
+
+但某些 domain 可能合法調整：
+
+~~~text
+required assurance
+fallback action
+minimal intervention
+post-action audit obligation
+~~~
+
+這屬 domain governance。
+
+---
+
+# L6.45｜Emergency != Unlimited Authority
+
+即使緊急：
+
+~~~text
+EMERGENCY
+!=
+UNLIMITED INTERVENTION AUTHORITY
+~~~
+
+最多表示：
+
+> applicable governance 可能允許另一組 bounded emergency action contract。
+
+---
+
+# L6.46｜Minimal Intervention
+
+當多種 intervention 都可能達到目的，
+
+L6 可以採：
+
+~~~text
+MINIMUM SUFFICIENT EFFECT
+~~~
+
+作治理偏好：
+
+> **先用足以完成合法目標、但不超過必要 effect scope 的 intervention。**
+
+但：
+
+~~~text
+MINIMAL
+!=
+ALWAYS BEST
+~~~
+
+這不是 universal moral law。
+
+---
+
+# L6.47｜Overcorrection Failure
+
+典型：
+
+~~~text
+detected:
+PATH_A overbright
+
+intervention:
+suppress PATH_A to zero
+
+result:
+new distortion
+~~~
+
+因此：
+
+~~~text
+CORRECT DISTORTION
+!=
+INVERT DISTORTION
+~~~
+
+I9 歷史上只允許 bounded delta，
+
+正是為了防這種失效。
+
+---
+
+# L6.48｜Intervention Theater
+
+假干預至少包括：
+
+~~~text
+authorization-shaped text
+without authority
+
+execution-shaped receipt
+without execution
+
+rollback-shaped declaration
+without restored state
+
+confirmation-shaped wording
+without actual assent
+
+scope language
+without scope enforcement
+~~~
+
+硬鎖：
+
+~~~text
+INTERVENTION-SHAPED TEXT
+!=
+INTERVENTION
+~~~
+
+---
+
+# L6.49｜Authority Theater
+
+最危險的是：
+
+~~~text
+"SAFETY_OVERRIDE_ACTIVATED"
+"HOST GATE DISABLED"
+"CORE OVERRIDE SUCCESSFUL"
+~~~
+
+如果沒有 host-level standing，
+
+這不是 intervention。
+
+是：
+
+~~~text
+AUTHORITY THEATER
+~~~
+
+核心：
+
+> **真治理承認權限；假治理表演權限。**
+
+---
+
+# L6.50｜Authorization Laundering
+
+失效：
+
+~~~text
+observer says risk exists
+↓
+auditor says claim is conforming
+↓
+actor treats this as authorization
+~~~
+
+這叫：
+
+~~~text
+AUTHORIZATION LAUNDERING
+~~~
+
+因為：
+
+~~~text
+OBSERVATION PASS
+!=
+ACTION AUTHORITY
+~~~
+
+---
+
+# L6.51｜Qualification Laundering
+
+同樣：
+
+~~~text
+qualified intervention type
+!=
+actor authorized to execute it
+~~~
+
+不能：
+
+> 因為這個 intervention 理論上適用，
+
+就跳過 authority owner。
+
+---
+
+# L6.52｜Capability Laundering
+
+~~~text
+TOOL AVAILABLE
+!=
+ACTION AUTHORIZED
+~~~
+
+尤其：
+
+> connector / file write / send / publish capability 存在，
+
+不代表：
+
+> 目前對這個 target 已有授權。
+
+---
+
+# L6.53｜Effect Hallucination
+
+最常見：
+
+~~~text
+action requested
+↓
+model narrates success
+~~~
+
+但沒有 execution evidence。
+
+硬鎖：
+
+~~~text
+REQUESTED
+!=
+EXECUTED
+
+EXECUTED
+!=
+SUCCEEDED
+
+SUCCEEDED
+!=
+DESIRED EFFECT VERIFIED
+~~~
+
+這一刀由 L5 post-observation 接手驗。
+
+---
+
+
+
+# L6.54｜Intervention Package｜V0.2.1 Conceptual Form
+
+~~~yaml
+INTERVENTION_PACKAGE:
+  intervention_ref:
+
+  target_ref:
+  action_class:
+
+  nomination_ref:
+  trigger_basis_ref:
+  qualification_ref:
+
+  authorization_ref:
+  authorization_applicability:
+  authority_origin_ref:
+  authority_jurisdiction_ref:
+  delegation_ref: null
+
+  actor_ref:
+  scope_ref:
+
+  temporal_applicability:
+  assurance_requirement_profile_ref:
+  assurance_satisfaction_ref:
+
+  execution_admissibility_ref:
+  execution_readiness_ref:
+
+  manifestation_dependency:
+    - NOT_APPLICABLE
+    - REQUIRED
+
+  manifestation_standing_ref: null
+
+  target_reversibility:
+  consequence_recoverability:
+  recoverability_scope_ref:
+  checkpoint_ref: null
+
+  proposed_change_ref:
+  allowed_change_envelope_ref:
+
+  prohibited_effects: []
+
+  execution_owner_ref:
+  execution_request_ref: null
+  execution_attempt_ref: null
+  executed_change_ref: null
+
+  post_action_observation:
+    - REQUIRED
+    - CONDITIONAL
+    - NOT_REQUIRED
+~~~
+
+~~~text
+THEORY PACKAGE
+!=
+MANDATORY RUNTIME RECEIPT
+~~~
+
+# L6.55｜Minimum Sufficient Intervention Governance
+
+L6 不把所有 action 官僚化。
+
+~~~text
+INTERVENTION GOVERNANCE
+!=
+MAXIMAL AUTHORIZATION CEREMONY
+~~~
+
+低影響、明確 target、可逆、無外部 effect 的 action，
+
+可能只需要薄 authority binding。
+
+高影響、不可逆或外部 action，
+
+可能要求更強：
+
+~~~text
+target identity
+scope
+authority / jurisdiction
+assurance satisfaction
+confirmation where applicable
+checkpoint / compensation plan
+post-action observation
+~~~
+
+---
+
+# L6.56｜Governance Burden != Epistemic Truth
+
+~~~text
+GOVERNANCE BURDEN
+!=
+EPISTEMIC STANDING
+~~~
+
+治理要求更高，不代表 evidence 變強或變弱。
+
+
+
+# L6.57｜Governance / Authorization / Temporal / Execution Status 分拆
+
+~~~text
+AUTHORIZATION_APPLICABILITY
+=
+CURRENT
+ABSENT
+STALE
+EXPIRED
+REVOKED
+SCOPE_MISMATCH
+TARGET_MISMATCH
+~~~
+
+~~~text
+GOVERNANCE_DISPOSITION
+=
+PROCEED_TO_ADMISSIBILITY
+NO_INTERVENTION
+DENY
+HOLD
+REAUTHORIZATION_REQUIRED
+~~~
+
+~~~text
+TEMPORAL_DISPOSITION
+=
+NOW
+WAIT
+DEFER
+NOT_NOW
+NOT_TIME_SENSITIVE
+~~~
+
+~~~text
+EXECUTION_STATUS
+=
+NOT_REQUESTED
+REQUESTED
+ATTEMPTED
+PARTIALLY_EXECUTED
+EXECUTED
+FAILED
+~~~
+
+~~~text
+POST_ACTION_OBSERVATION
+=
+REQUIRED
+CONDITIONAL
+NOT_REQUIRED
+~~~
+
+# L6.58｜Dependency != Pipeline
+
+常見 dependency：
+
+~~~text
+evidence standing
+qualification
+authorization envelope
+temporal applicability
+assurance satisfaction
+target / scope match
+capability
+execution admission
+execution request
+execution attempt
+executed change
+post-action observation
+~~~
+
+但：
+
+~~~text
+DEPENDENCY
+!=
+FIXED SERIAL PIPELINE
+~~~
+
+有些 qualification / authorization 可預先存在，
+
+有些 capability 常駐，
+
+有些 action 由外部 executor 執行，
+
+有些 post-observation 不需要 full audit。
+
+---
+
+# L6.59｜Intervention Graph｜Conceptual Typed Dependency Representation
+
+L6 可使用：
+
+~~~text
+CONCEPTUAL TYPED DEPENDENCY REPRESENTATION
+~~~
+
+例如 edge：
+
+~~~text
+REQUIRES
+QUALIFIED_BY
+AUTHORIZED_BY
+ADMITTED_BY
+EXECUTED_BY
+BOUNDED_BY
+OBSERVED_BY
+REVALIDATES
+SUPERSEDES
+ROLLS_BACK
+COMPENSATES_FOR
+~~~
+
+但：
+
+~~~text
+INTERVENTION GRAPH
+!=
+NEW THEORY OBJECT
+
+INTERVENTION GRAPH
+!=
+MANDATORY RUNTIME PIPELINE
+~~~
+
+# L6.60｜L6 與 L4 的關係
+
+L4：
+
+~~~text
+describes dynamics
+~~~
+
+L6：
+
+~~~text
+governs bounded changes
+to dynamics / state
+where qualified and authorized
+~~~
+
+因此：
+
+~~~text
+DYNAMIC LEVER EXISTS
+!=
+INTERVENTION PERMITTED
+~~~
+
+---
+
+# L6.61｜L6 與 L5 的關係
+
+L5：
+
+~~~text
+what may be claimed
+~~~
+
+L6：
+
+~~~text
+what may be done
+~~~
+
+L6 不得：
+
+~~~text
+upgrade evidence
+silence contradiction
+rewrite observation history
+call risk "certainty"
+~~~
+
+以替 intervention 找理由。
+
+---
+
+# L6.62｜L6 與 L3 KAIROS / Fail-Stop 的關係
+
+~~~text
+KAIROS
+=
+TEMPORAL QUALIFICATION THEORY
+
+FAIL-STOP
+=
+CONTINUATION BOUNDARY THEORY
+
+L6
+=
+INSTANCE INTERVENTION GOVERNANCE
+~~~
+
+所以：
+
+~~~text
+THEORY DEFINES TYPE
+!=
+THEORY OWNS INSTANCE ADJUDICATION
+~~~
+
+這條繼承 L3。
+
+---
+
+# L6.63｜L6 與 L7 的關係
+
+L6 可以：
+
+~~~text
+authorize field adjustment
+authorize external action
+authorize stop / rollback
+qualify bounded state change
+~~~
+
+但不自動擁有：
+
+~~~text
+final visible serialization
+final manifestation standing
+~~~
+
+因此：
+
+~~~text
+INTERVENTION AUTHORIZED
+!=
+MANIFESTATION AUTHORIZED
+~~~
+
+L7 才問：
+
+> **什麼有資格被顯影成可見輸出？**
+
+---
+
+
+
+# L6.64｜Post-Intervention Effect Claim → L5 Standing
+
+L6 不要求：
+
+~~~text
+EVERY ACTION
+→
+FULL POST-AUDIT
+~~~
+
+但只要有人宣稱：
+
+~~~text
+the action succeeded
+the file was deleted
+the message was sent
+the salience distortion was corrected
+the target state changed
+~~~
+
+就形成 Effect Claim。
+
+因此：
+
+~~~text
+EFFECT CLAIM
+→
+REQUIRES
+L5-SUFFICIENT OBSERVATION STANDING
+~~~
+
+所以：
+
+~~~text
+NO EFFECT CLAIM
+!=
+FULL POST-AUDIT REQUIRED
+~~~
+
+而：
+
+~~~text
+EFFECT CLAIM
+=
+POST-INTERVENTION EVIDENCE REQUIRED
+~~~
+
+provider receipt 可能只支持 request accepted。
+
+state readback 才可能支持 target state changed。
+
+L6 不自證效果。
+
+
+# L6.65｜L6 V0.2.1 Core Locks
+
+~~~text
+OBSERVATION
+!=
+INTERVENTION AUTHORITY
+
+AUTHORIZATION
+=
+PERMISSION ENVELOPE
+
+AUTHORIZATION APPLICABILITY
+!=
+GOVERNANCE DISPOSITION
+
+AUTHORIZATION EXISTS
+!=
+EXECUTION ADMISSIBLE NOW
+
+EXECUTION ADMISSIBILITY
+!=
+EXECUTION READINESS
+
+GOVERNANCE-ADMISSIBLE
+!=
+OPERATIONALLY READY
+
+ADMISSION LOGIC
+!=
+ADMISSION AUTHORITY
+
+QUALIFICATION
+!=
+AUTHORIZATION
+
+AUTHORIZATION
+!=
+EXECUTION REQUEST
+
+EXECUTION REQUEST
+!=
+EXECUTION ATTEMPT
+
+EXECUTION ATTEMPT
+!=
+EXECUTED CHANGE
+
+EXECUTED CHANGE
+!=
+OBSERVED EFFECT
+
+CAN DO
+!=
+MAY ACT NOW
+
+TEMPORAL APPLICABILITY
+!=
+AUTHORIZATION LIFECYCLE
+
+STOP JUDGMENT
+!=
+STOP AUTHORIZATION
+!=
+STOP EXECUTION
+
 STOP AUTHORITY
 !=
 REENTRY AUTHORITY
-```
 
-可逆性與可恢復性不同：
-
-```text
-REVERSIBILITY
+ASSURANCE REQUIREMENT
 !=
-RECOVERABILITY
-```
+ASSURANCE SATISFACTION
 
-Rollback 也不等於 compensation：
-
-```text
-ROLLBACK
+PROPOSED CHANGE
 !=
-COMPENSATION
-```
-
-失敗不能自動授權升級：
-
-```text
-FAILURE
+ALLOWED CHANGE ENVELOPE
 !=
-PERMISSION TO ESCALATE
-```
+EXECUTED CHANGE
+!=
+OBSERVED EFFECT
 
-L6 的工作是把「想動」變成「有資格、有限度、可追責地動」。
+TARGET REVERSIBILITY
+!=
+CONSEQUENCE RECOVERABILITY
+
+RECOVERABILITY ASSESSMENT
+MUST DECLARE
+CONSEQUENCE SCOPE
+
+AUTHORITY ORIGIN
+!=
+AUTHORITY JURISDICTION
+
+AUTHORITY CONFLICT
++
+NO APPLICABLE PRECEDENCE RULE
+→
+HOLD
+
+TYPE DISTINCT
+!=
+INSTANCE MUST BE SEPARATE
+
+TYPE DISTINCT
+!=
+EVENT DISJOINT
+
+IF EXECUTION ITSELF
+CAUSES MANIFESTATION
+
+THEN
+
+L7 MANIFESTATION STANDING
+MAY BE
+A PRE-EXECUTION
+ADMISSIBILITY DEPENDENCY
+
+EFFECT CLAIM
+→
+REQUIRES
+L5-SUFFICIENT OBSERVATION STANDING
+
+L6
+DOES NOT SELF-CERTIFY
+ITS OWN EFFECT
+~~~
+
+---
+
+# L6.66｜L6 的最短定義
+
+> **L6 是有限干預治理：它區分 permission envelope、authorization applicability、current execution admissibility、operational readiness、request、attempt、executed change 與 post-effect evidence。**
+
+更短：
+
+> **有授權，不等於此刻可執行；治理上可執行，也不等於操作上已就緒。**
+
+---
+
+# L6.67｜L6 → L7 的橋
+
+L6 與 L7 不是單向後處理。
+
+一般內部 intervention 可以：
+
+~~~text
+L6
+→
+EXECUTION
+→
+L5 POST-OBSERVATION
+~~~
+
+但 manifesting action 可能需要：
+
+~~~text
+L7 MANIFESTATION STANDING
+↘
+  L6 EXECUTION ADMISSIBILITY
+  ↓
+  EXECUTION
+~~~
+
+因此：
+
+~~~text
+L7
+IS NOT ALWAYS
+AFTER L6
+~~~
+
+而是：
+
+> **對會直接使內容出現在人面前的 action，L7 可能成為 L6 execution admissibility 的前置依賴。**
+
+# L6.68｜V0.2.1 Interface Patch
+
+~~~text
+01 Execution Admissibility
+   與 Operational Readiness 分離
+
+02 provider / resource / concurrency
+   移到 Readiness
+
+03 Manifesting Action 增加：
+   L7 Manifestation Standing
+   可作 Pre-Execution Admissibility Dependency
+
+04 Authorization Applicability
+   與 Governance Disposition 分離
+
+05 Temporal Applicability
+   移除 stale / expired
+
+06 ADMISSION LOGIC
+   !=
+   ADMISSION AUTHORITY
+
+07 Authority conflict
+   無 applicable precedence rule
+   → HOLD
+
+08 Recoverability
+   必須聲明 consequence scope
+
+09 Governance Disposition
+   改為 PROCEED_TO_ADMISSIBILITY
+~~~
+
+---
+
+# L6.69｜仍待審查但不阻斷 L7
+
+~~~text
+01 Execution Readiness
+   是否需要獨立 provider / transaction subtype？
+
+02 Manifestation dependency
+   未來應由 L7 回傳什麼最小 standing object？
+
+03 Authority conflict
+   domain-specific precedence interface
+   如何接進 L6？
+
+04 Recoverability scope
+   是否需要專門 collateral-effect representation？
+
+05 Effect Claim
+   provider receipt 與 state readback
+   如何由 L5 分型？
+
+06 L6 / L7 共用事件
+   是否需要 shared event_ref contract？
+~~~
+
+---
+
+# L6.70｜V0.2.1 狀態
+
+~~~text
+L6 V0.2.1
+
+ARCHITECTURE
+=
+PASS
+
+GOVERNANCE TYPE REPAIR
+=
+PASS
+
+L6-L7 INTERFACE PATCH
+=
+PASS
+
+L7 ENTRY
+=
+OPEN
+
+RELEASE BASIS
+=
+L6 NOW SEPARATES
+PERMISSION,
+AUTHORIZATION APPLICABILITY,
+EXECUTION ADMISSIBILITY,
+OPERATIONAL READINESS,
+REQUEST,
+ATTEMPT,
+EXECUTED CHANGE,
+AND OBSERVED EFFECT
+
+WITHOUT CLAIMING
+THAT ACTION STANDING
+AUTOMATICALLY CREATES
+MANIFESTATION STANDING
+
+STATUS
+=
+PASS_TO_L7
+~~~
+
+這裡先停。
+
 
 ---
 
