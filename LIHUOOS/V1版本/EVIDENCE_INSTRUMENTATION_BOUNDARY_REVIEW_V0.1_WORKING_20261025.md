@@ -209,7 +209,7 @@ EVIDENCE_LICENSED_CLAIM_ENVELOPE:
 
   allowed_certainty_language: []
 
-  requires_corrobation_for: []
+  requires_corroboration_for: []
   requires_detectability_for: []
   requires_causal_identification_for: []
 
