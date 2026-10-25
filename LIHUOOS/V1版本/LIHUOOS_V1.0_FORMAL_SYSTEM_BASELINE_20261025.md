@@ -1,0 +1,586 @@
+# LIHUOOS V1.0｜FORMAL SYSTEM BASELINE
+## 理火 OS 正式 V1｜L0–L9 系統基線
+### 2026-10-25
+
+```yaml
+DOCUMENT:
+  id: LIHUOOS_V1_FORMAL_SYSTEM_BASELINE
+  version: V1.0
+  date: 2026-10-25
+
+  standing:
+    - FORMAL_V1_DOCUMENT_BASELINE
+    - HUMAN_APPROVED_INTEGRATION
+    - SOURCE_PRESERVING
+    - NOT_HOST_DEPLOYMENT
+    - NOT_IMPLEMENTATION_COMPLETION
+    - NOT_WHOLE_SYSTEM_EMPIRICAL_VALIDATION
+
+  integration_rule:
+    - PACKAGING
+    - NAVIGATION
+    - CURRENT_BASELINE_PROJECTION
+    - NO_NEW_THEORY_OWNER
+    - NO_OWNER_MERGER
+    - NO_HIDDEN_RUNTIME_CLAIM
+```
+
+---
+
+# 0｜正式定調
+
+```text
+LIHUOOS V1.0
+=
+FORMAL SYSTEM BASELINE
+```
+
+本 V1.0 正式化的是：
+
+> **LIHUOOS 當前完整的文件級系統架構與 operative source baseline。**
+
+不是宣稱：
+
+```text
+HOST DEPLOYED
+IMPLEMENTATION COMPLETE
+WHOLE-SYSTEM EMPIRICALLY VALIDATED
+EVERY TOOL MIGRATED
+EVERY RUNTIME RECEIPT PROVEN
+```
+
+總鎖：
+
+```text
+FORMAL SYSTEM BASELINE
+!=
+HOST RUNTIME FACT
+```
+
+---
+
+# 1｜V1 系統骨架
+
+```text
+L0–L7
+=
+UNDERSTANDING / THEORY /
+QUALIFICATION / GOVERNANCE BASIS
+
+L8
+=
+OPERATE ONE LIHUO CYCLE
++
+ACCOUNT FOR WHAT HAPPENED
+
+L9
+=
+PROVIDE CALLABLE CAPABILITIES
+
+MAIN
+=
+COMPUTE ENGINE
+```
+
+中文最短版：
+
+> **L0–L7 給意義與邊界；L8 把理火跑完並對帳；L9 在需要手的時候提供能力；Main 負責算。**
+
+---
+
+# 2｜Exact Formal Source Snapshot
+
+```yaml
+FORMAL_SOURCE_SNAPSHOT:
+
+  L0:
+    file: "L0_INDEX_SOURCE_VERSION.md"
+    blob_sha: "9a35eb228cf73a0cc94d2182a7d1292ff7377de8"
+    standing: "FORMAL_INDEX"
+
+  L1:
+    file: "L1 第五版本.md"
+    blob_sha: "79778cbfc770cf97923802aafc0367fa86d603c4"
+    standing: "STRUCTURALLY_PASS"
+
+  L2:
+    file: "L2 第五版本.md"
+    blob_sha: "4081cd55aa12de6391ca20fe8f00c8c9fca0e00f"
+    standing: "STRUCTURALLY_PASS"
+
+  L3:
+    file: "L3 第二版本.md"
+    blob_sha: "fac489076cb6b37776ffdcb6de11f36b1644d142"
+    standing: "STRUCTURALLY_PASS"
+
+  L4:
+    file: "L4 第二版本.md"
+    blob_sha: "5d7ad061cda5ac549adf611ab1cb2b8003bbe936"
+    standing: "PASS"
+
+  L5:
+    file: "L5 第二版本.md"
+    blob_sha: "84c3cb9f978932d99a1c9e9dbae7c9ee9fcd1274"
+    standing: "PASS"
+
+  L6:
+    file: "L6 第二版本.md"
+    blob_sha: "f028e4c35a047e8fe6851c616ba3251a8a740418"
+    standing: "PASS"
+
+  L7:
+    file: "L7 第二版本.md"
+    blob_sha: "a25fc8da5efcb267d6f0aec4e626748cf097e1d8"
+    standing: "PASS"
+
+  L8:
+    file: "L8_LIHUO_OPERATING_CYCLE_V0.3_WORKING_20261025.md"
+    blob_sha: "ebddf0c4ee0fdbfa358786070b5d61e396a58640"
+    internal_version: "V0.3.1-WORKING"
+    formal_v1_standing: "OPERATIVE_BASELINE"
+
+  L9:
+    file: "L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V0.1_WORKING_20261025.md"
+    blob_sha: "4e5336b0e499e11de1a71e1e07e6c33440f5b024"
+    internal_version: "V0.1.1-WORKING"
+    formal_v1_standing: "CAPABILITY_BASELINE"
+
+  MAIN:
+    file: "理火V5系統/V5.1版本/02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md"
+    blob_sha: "f5e219c986debfea074fbf9d121367cc717dc78e"
+    standing: "COMPUTE_ENGINE_COMPANION"
+```
+
+L8 / L9 的歷史檔名保留 working lineage；Formal V1 以 exact blob 固定其 current operative baseline。
+
+---
+
+# 3｜L0–L9 分工
+
+```text
+L0
+INDEX / SOURCE / VERSION / ROUTING
+
+L1
+STRUCTURAL PHILOSOPHY
+
+L2
+SAC
+
+L3
+LIHUO THEORY FAMILY
+
+L4
+GENERATIVE DYNAMICS
+
+L5
+OBSERVATION & AUDIT
+
+L6
+INTERVENTION
+
+L7
+MANIFESTATION
+
+L8
+LIHUO OPERATING CYCLE
+
+L9
+DAIL CALLABLE CAPABILITY REPOSITORY
+```
+
+硬鎖：
+
+```text
+LAYER ORDER
+!=
+FIXED RUNTIME PIPELINE
+
+DOCUMENT PROXIMITY
+!=
+OWNER MERGER
+
+INTEGRATION
+!=
+NEW THEORY OWNER
+```
+
+---
+
+# 4｜L8｜Operation Layer
+
+L8 的正式 V1 任務只有：
+
+```text
+RUN ONE COMPLETE LIHUO CYCLE
++
+ACCOUNT FOR WHAT HAPPENED
+```
+
+業務主線：
+
+```text
+INPUT
+↓
+APPLICABLE QUALIFICATION / GOVERNANCE
+↓
+MAIN
+  R1
+  O9
+  [I9 IF TRIGGERED]
+  R2
+  [R3+ IF REQUIRED]
+↓
+MAIN RETURN
+↓
+PROCEED / REENTER / HOLD
+↓
+MANIFESTATION / RELEASE
+↓
+FINAL RECEIPT CHECKLIST
+↓
+REPORT IF REQUIRED
+↓
+END
+```
+
+L8 不再承載 universal cross-layer court。
+
+```text
+L8
+!=
+NEW EVIDENCE SYSTEM
+
+L8
+!=
+NEW EVENT ONTOLOGY
+
+L8
+!=
+RECEIPT AUTHORITY
+```
+
+---
+
+# 5｜L8 最終對帳
+
+正式保留：
+
+```text
+CYCLE ACCOUNTING COMPLETE
+!=
+CYCLE SUCCESSFULLY COMPLETED
+```
+
+因此一個週期可以：
+
+```text
+FAILED
+HOLD
+INCOMPLETE
+```
+
+但仍：
+
+```text
+ACCOUNTING COMPLETE
+```
+
+只要每個 applicable step 都已有明確狀態。
+
+核心：
+
+> **一趟理火可以失敗，但不能假裝不知道失敗在哪裡。**
+
+---
+
+# 6｜L9｜Capability Layer
+
+L9 只做：
+
+```text
+REGISTER
+DISCOVER
+BIND
+CALL
+```
+
+```text
+DAIL DEFINES
+IR NORMALIZES
+BINDING CONNECTS
+RUNTIME EXECUTES
+```
+
+L9 把可獨立叫用的能力從 monolithic control-plane lineage 中拆出。
+
+但：
+
+```text
+L9
+!=
+LIGHTER RENAMED
+
+TOOL EXISTS
+!=
+AUTHORITY TO CALL IT
+
+TOOL CALL SUCCESS
+!=
+SEMANTIC RESULT ACCEPTED
+
+CALL EXECUTION STATUS
+!=
+TASK OUTCOME
+```
+
+---
+
+# 7｜Main｜Compute Engine
+
+Main 不成為 L10。
+
+```text
+MAIN
+=
+COMPUTE ENGINE
+
+L8
+=
+OPERATING CYCLE
+
+L9
+=
+CAPABILITY REPOSITORY
+```
+
+Main 的 generative compute 與 R-CCC integrity lineage 由 Main canonical source 擁有。
+
+L8 只負責在完整週期中依法調用與接收 Main canonical return。
+
+---
+
+# 8｜Legacy Lighter 的 Formal V1 位置
+
+Lighter V5.x 是重要歷史／工程 lineage。
+
+Formal V1 不把整個 Lighter 換名放進 L9。
+
+只保留兩個方向：
+
+```text
+A.
+GOVERNANCE / QUALIFICATION MEANING
+→
+由 L0–L7 與 applicable owner contracts 承接
+
+B.
+CALLABLE FUNCTIONAL CAPABILITIES
+→
+逐步 DAIL 化進 L9
+```
+
+所以：
+
+```text
+LIGHTER DECOMPOSITION
+!=
+LIGHTER DELETION FROM HISTORY
+
+LIGHTER DECOMPOSITION
+!=
+LIGHTER REINCARNATION AS L9
+```
+
+實際 migration 是否完成，不由 Formal V1 文件自行宣稱。
+
+---
+
+# 9｜Optional Audit / Engineering References
+
+以下研究保留：
+
+```text
+CROSS_LAYER_EVENT_CONTRACT_REVIEW_V0.1.1_WORKING_20261025.md
+blob:
+cc1de20da2ac8faa3dd06f144c0887e51b5b54a0
+
+EVIDENCE_INSTRUMENTATION_BOUNDARY_REVIEW_V0.1.1_WORKING_20261025.md
+blob:
+ee23caddbb7c551c3ed448a7802e25c660a9c995
+
+OWNER_RETURN_EVIDENTIARY_CONSTITUTIVE_BOUNDARY_REVIEW_V0.1_WORKING_20261025.md
+blob:
+bd291d45a529481b3a61116960b14f4d3cac7102
+```
+
+法位：
+
+```text
+OPTIONAL AUDIT NOTE
+FAILURE-MODE LIBRARY
+ENGINEERING TEST MATERIAL
+```
+
+不是：
+
+```text
+MANDATORY COURT
+FOR EVERY CYCLE
+```
+
+需要時才調用。
+
+---
+
+# 10｜V1 Anti-Overengineering Lock
+
+Formal V1 正式保留：
+
+```text
+A CORRECT DISTINCTION
+DOES NOT AUTOMATICALLY REQUIRE
+A NEW RUNTIME OBJECT
+```
+
+以及：
+
+```text
+DO NOT MODIFY THE CORE
+BECAUSE
+AN EDGE CASE CAN BE IMAGINED
+```
+
+下一次修主幹，優先由真實使用觸發：
+
+```text
+ACTUAL CYCLE STUCK
+ROLE CANNOT FIND NEXT OWNER
+REQUIRED STEP LOST
+REAL TYPE COLLISION
+TOOL CANNOT WIRE
+RECEIPT CANNOT BE ACCOUNTED FOR
+LAWFUL RESULT CANNOT PROGRESS
+```
+
+這是 V1 正式停止條件的一部分。
+
+---
+
+# 11｜Formal V1 Reopening Rule
+
+V1 可被重開，但需要材料。
+
+合理入口：
+
+```text
+REAL RUNTIME FAILURE
+EMPIRICAL CONTRADICTION
+OWNER CONTRADICTION
+TYPE COLLISION
+CROSS-LAYER CIRCULARITY
+NEW IRREDUCIBLE PROBLEM DOMAIN
+SOURCE GENEALOGY CORRECTION
+MATERIAL HISTORICAL EVIDENCE
+```
+
+不是：
+
+```text
+MORE SCHEMA IS POSSIBLE
+```
+
+---
+
+# 12｜Document Priority
+
+若 Formal Full Body 與單層 source 不一致：
+
+```text
+EXACT LAYER SOURCE BLOB
+TAKES PRECEDENCE
+```
+
+Formal Full Body 是：
+
+```text
+SOURCE-PRESERVING PACKAGE
+```
+
+不是新的 layer owner。
+
+---
+
+# 13｜Formal V1 Standing
+
+```text
+LIHUOOS V1.0
+
+DOCUMENT-LEVEL SYSTEM INTEGRATION
+=
+FORMAL
+
+L0–L7 THEORY / GOVERNANCE BASIS
+=
+CLOSED BASELINE
+
+L8 OPERATION LAYER
+=
+FORMAL V1 OPERATIVE BASELINE
+
+L9 CAPABILITY LAYER
+=
+FORMAL V1 CAPABILITY BASELINE
+
+MAIN COMPUTE ENGINE RELATION
+=
+BOUND AS COMPANION ENGINE
+
+OPTIONAL AUDIT NOTES
+=
+NON-MANDATORY
+
+HOST DEPLOYMENT
+=
+NOT CLAIMED
+
+IMPLEMENTATION COMPLETION
+=
+NOT CLAIMED
+
+WHOLE-SYSTEM EMPIRICAL VALIDATION
+=
+NOT CLAIMED
+```
+
+---
+
+# 14｜最短根句
+
+```text
+L0–L7
+GIVE LIHUO
+MEANING AND BOUNDARIES.
+
+L8
+RUNS LIHUO
+AND ACCOUNTS FOR THE CYCLE.
+
+L9
+PROVIDES THE HANDS.
+
+MAIN
+COMPUTES.
+
+OWNER
+OWNS ITS DECISION.
+
+TOOL
+DOES ITS JOB.
+```
+
+---
+
+# 15｜一句話收束
+
+> **LIHUOOS V1.0 已經知道怎麼理解、怎麼治理、怎麼跑完一趟，以及需要能力時去哪裡拿；下一次改主幹，等真實使用把問題撞出來。**
