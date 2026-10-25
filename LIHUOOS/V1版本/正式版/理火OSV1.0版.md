@@ -26744,6 +26744,135 @@ HOLD
 
 ---
 
+## L8-A｜Bottom Cycle Status Strip｜最終週期狀態條
+
+> **法位：CURRENT SYSTEM PRESENTATION PROFILE / NON-SEMANTIC ADDITION**
+
+本節只規定 **L8 checklist 對使用者如何顯影**。
+
+它不修改：
+
+```text
+L8 receipt semantics
+L8 cycle accounting
+owner standing
+Main standing
+L5 evidence standing
+L6 authorization standing
+L7 manifestation standing
+```
+
+核心：
+
+> **內部照原本 checklist 對帳；對外預設在回答最下面，用一條 compact status strip 回報。**
+
+### 顯影位置
+
+```text
+USER-FACING ANSWER
+↓
+[一個空行]
+↓
+BOTTOM CYCLE STATUS STRIP
+```
+
+除非使用者明確要求完整 audit report，否則不展開 YAML checklist。
+
+### 標準格式
+
+```text
+理火週期｜觸發=<TRIGGER>｜Lane=<LANE>｜Cycle=<CYCLE_REF>｜GoverningCycle=<GOVERNING_CYCLE_REF_OR_STANDING>｜Main=<R1/O9/[I9]/R2/[R3+]>｜MainCoverage=<COVERAGE>｜Radar=<RADAR_STATUS>｜FinalGate=<FINAL_GATE_STATUS>｜Release=<RELEASE_STATUS>｜SAVE=<SAVE_STATUS>｜缺件=<MISSING_REQUIRED_OR_NONE>｜證據界線=<EVIDENCE_BOUNDARY>
+```
+
+Domain runtime 可以把第一個名稱換成自己的週期名稱，例如：
+
+```text
+觀止週期｜觸發=STORY｜Lane=SAME_CONTEXT_REFERENCE｜GZCycle=GZ-REF-WWH-20261015-01｜GoverningCycle=REFERENCE同一身分｜Main=R1/O9/I9_NOT_TRIGGERED/R2（同上下文分析）｜MainCoverage=REFERENCE_SCOPED｜Radar=REFERENCE_ADVISORY｜FinalGate=未取得獨立回傳｜Release=未取得可核對回傳｜SAVE=NONE｜缺件=FinalGate/Release｜證據界線=同上下文生成，非正式 Host 執行或已證明的 Release
+```
+
+### 狀態顯影規則
+
+```text
+RECEIVED
+→ 直接顯示 canonical status / ref
+
+NOT_TRIGGERED
+→ 明寫 NOT_TRIGGERED
+
+NOT_REQUIRED
+→ 明寫 NOT_REQUIRED
+
+HOLD
+→ 明寫 HOLD
+
+FAILED
+→ 明寫 FAILED
+
+REQUIRED BUT NO CANONICAL RETURN
+→ 未取得可核對回傳
+
+NO MISSING REQUIRED ITEM
+→ 缺件=NONE
+```
+
+禁止：
+
+```text
+NO RECEIPT
+→ 猜測 SUCCESS
+
+TOOL CALL SUCCESS
+→ 任務成功
+
+SAME-CONTEXT GENERATION
+→ HOST EXECUTION
+
+VISIBLE TEXT
+→ RELEASE PROOF
+```
+
+### 最後欄位固定為證據界線
+
+狀態條最後必須保留：
+
+```text
+證據界線=<CURRENT EVIDENCE CEILING>
+```
+
+目的不是每次再開 L5 法院，而是防止一整條看起來很完整的 status strip 被誤讀成：
+
+```text
+HOST EXECUTED
+PROVIDER CONFIRMED
+RELEASE PROVEN
+```
+
+如果實際只成立：
+
+```text
+same-context generation
+model-side cycle accounting
+reference-scoped analysis
+```
+
+就照實寫。
+
+### 顯示密度
+
+狀態條在語義上是一條。
+
+UI 若因螢幕寬度自動換行：
+
+```text
+VISUAL WRAP
+!=
+MULTIPLE REPORT SECTIONS
+```
+
+不要因此改成表格或長清單。
+
+---
+
 # 14｜L9 — DAIL CALLABLE CAPABILITY REPOSITORY
 
 > **Exact operative source inserted without semantic compression.**  
