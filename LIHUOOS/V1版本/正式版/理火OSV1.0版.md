@@ -17279,128 +17279,3297 @@ WITH OPEN EMPIRICAL QUESTIONS
 
 # 9｜L5 — OBSERVATION & AUDIT
 
-L5 問：
+> **Exact operative source inserted without semantic compression.**  
+> Source: `L5 第二版本.md`  
+> Blob SHA: `84c3cb9f978932d99a1c9e9dbae7c9ee9fcd1274`
 
-> **我們憑什麼說「看見了」、「知道了」、「支持了」？**
+# LIHUOOS V1｜L5 — OBSERVATION & AUDIT
 
-第一核心分離：
+**版本：** V0.2.1 WORKING  
+**日期：** 2026-10-25  
+**狀態：** TARGETED EPISTEMIC HARDENING / PASS_TO_L6  
+**層級：** LIHUOOS / L5  
+**主題：** 觀察與審計｜我們憑什麼說自己看見了生成中的某種結構？  
+**法位鎖：** NON_RUNTIME / NON_INTERVENTION / ANTI_ORACLE / ANTI_THEATER / EVIDENCE-BOUND  
+**上游依據：** L4 V0.2.1 PASS_TO_L5  
+**歷史工程回照：** SAC Field Observer / O9 / Radar / Light Trace / Evidence Ladder / Execution Evidence  
+**核心限制：** THEORETICAL VARIABLE != OBSERVED VARIABLE
 
-```text
-TARGET
+---
+
+# L5.0｜本層要回答的問題
+
+L4 已經把生成動力學拆成不同型別：
+
+~~~text
+Field Model
+Attention Axes
+PATH State / Topology
+Reaction Dynamic Term
+Realized Field Transition
+Closure Directional Term
+Active Residue
+Imported Qualification Annotation
+Serialization Feedback Event
+Typed Influence Edge
+~~~
+
+但：
+
+~~~text
+NAMED VARIABLE
 !=
-CLAIM
+OBSERVED VARIABLE
+~~~
+
+因此 L5 不再問：
+
+> **生成怎麼動？**
+
+而問：
+
+> **我們憑什麼說某個 dynamics variable、state change 或 influence relation 真的被看見、被支持、被推論，或目前根本看不到？**
+
+最短：
+
+> **L4 提出 dynamics 債單；L5 逐筆查帳。**
+
+---
+
+# L5.1｜來源 lineage 與使用原則
+
+本層主要回照：
+
+~~~text
+LIHUOOS/V1版本/L4 第二版本.md
+
+理火舊版系統/
+01_MAIN_V4.3_O9_I9_RATIFIED_V0.2.md
+
+理火V5系統/V5.1版本/
+02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md
+
+理火舊版系統/
+02_LIGHTER_V4.6_RADAR_TRACE_RATIFIED_V0.4.md
+
+理火體系/教科書/SACRADARV6.txt
+
+理火V5系統/散記/
+理火散記_V3.5.1_I9真牆誤判後證修正_20261006.md
+
+理火V5系統/MEMO/
+理火新生LLM訓練法_V1.0_關聯合法性_AI對AI持續審計_劇場抗性正式理論版(1).md
+~~~
+
+但必須硬鎖：
+
+~~~text
+HISTORICAL OBSERVATION MODULE
 !=
-EVIDENCE
+L5 UNIVERSAL ONTOLOGY
+
+ENGINEERING RECEIPT
+!=
+UNIVERSAL EVIDENCE REQUIREMENT
+
+EVIDENCE LADDER
+!=
+UNIVERSAL EPISTEMIC SCALE
+~~~
+
+---
+
+# L5.2｜第一核心分離：Target / Claim / Evidence / Inference / Verdict
+
+L5 第一刀：
+
+~~~text
+OBSERVATION TARGET
+!=
+OBSERVATION CLAIM
+!=
+EVIDENCE ITEM
 !=
 INFERENCE
 !=
-VERDICT
-```
+AUDIT VERDICT
+~~~
 
-WHAT IS CLAIMED 與 HOW THE CLAIM WAS OBTAINED 必須分開。
+例如：
 
-```text
-CLAIM TYPE
+~~~yaml
+EXAMPLE:
+  target:
+    "PATH_A activation"
+
+  observation_claim:
+    "PATH_A appears dimmed in this modeled cycle"
+
+  evidence_items:
+    - "instrumented lamp descriptor"
+    - "candidate exposure record"
+
+  inference:
+    "exploration access may have been reduced"
+
+  audit_verdict:
+    "SUPPORTED_WITHIN_SCOPE"
+~~~
+
+這五者若混在一起，
+
+就會出現：
+
+> **因為我寫出一段觀察，所以我已經看見了。**
+
+---
+
+# L5.3｜Observation Target
+
+Observation Target 是：
+
+> **L5 想要知道其狀態、事件、變化或關係的對象。**
+
+Target 可以來自：
+
+~~~text
+L4 variable
+external world state
+execution event
+artifact state
+qualification annotation
+manifestation occurrence
+influence edge
+~~~
+
+Target 本身不自帶：
+
+~~~text
+observability
+truth
+standing
+evidence
+~~~
+
+---
+
+
+# L5.4｜Epistemic Claim｜L5 的上位主張型別
+
+V0.2 把所有 claim 都放在 Observation Claim 名下，
+
+但同時又允許 CAUSAL_CLAIM，
+
+形成 type collision。
+
+V0.2.1 改成：
+
+~~~text
+EPISTEMIC_CLAIM
+=
+OBSERVATION / DESCRIPTION CLAIM
+DERIVED CLAIM
+INFERENTIAL CLAIM
+NEGATIVE CLAIM
+CAUSAL CLAIM
+~~~
+
+L5 的工作不是：
+
+> 所有 claim 都叫 observation。
+
+而是：
+
+> **所有這些 epistemic claims 都必須交代自己如何取得 standing。**
+
+因此：
+
+~~~text
+AUDITING CAUSAL EVIDENCE
+!=
+OWNING CAUSAL TRUTH
+~~~
+
+同樣：
+
+~~~text
+L5 CAN AUDIT
+A CAUSAL CLAIM
+
+BUT
+
+L5 DOES NOT BECOME
+THE CAUSAL SOVEREIGN
+~~~
+
+# L5.5｜Observation Type System｜拆掉 Observation Class
+
+V0.1 把 access、epistemic mode、source origin、observability status、evidence property 混在同一個 Observation Class。
+
+V0.2 正式拆成：
+
+~~~text
+1 ACCESS_MODE
+2 EPISTEMIC_MODE
+3 SOURCE_ORIGIN
+4 OBSERVABILITY_STATUS
+5 EVIDENCE_PROPERTIES / SUPPORT_STATUS
+~~~
+
+因此：
+
+~~~text
+OBSERVATION CLASS
+=
+RETIRED AS A SINGLE TYPE
+~~~
+
+---
+
+# L5.6｜Access Mode｜Observer 怎麼碰到 target
+
+~~~text
+ACCESS_MODE
+=
+DIRECT_TARGET_ACCESS
+DIRECT_RECORD_ACCESS
+INSTRUMENTED_ACCESS
+ARTIFACT_ACCESS
+REPORT_ACCESS
+NO_DIRECT_ACCESS
+~~~
+
+核心：
+
+~~~text
+DIRECT_TARGET_ACCESS
+!=
+DIRECT_RECORD_ACCESS
+~~~
+
+例如 auditor 直接看到一張 receipt，是 DIRECT_RECORD_ACCESS，不是直接看到 receipt 所聲稱的 execution process。
+
+---
+
+# L5.7｜Observer Access != Source Access
+
+L5 必須再拆：
+
+~~~text
+OBSERVER_ACCESS_MODE
+!=
+SOURCE_ACCESS_MODE
+~~~
+
+例：
+
+人類說「我痛」。
+
+source 可能對自身 pain target 具有：
+
+~~~text
+FIRST_PERSON_TARGET_ACCESS
+~~~
+
+但 auditor 直接具有的是：
+
+~~~text
+DIRECT_ACCESS_TO_REPORT
+~~~
+
+所以：
+
+~~~text
+AUDITOR DIRECTLY OBSERVED
+THE REPORT
+
+!=
+
+AUDITOR DIRECTLY OBSERVED
+THE PAIN TARGET
+~~~
+
+---
+
+# L5.8｜Epistemic Mode｜這個 claim 是怎麼得到的
+
+~~~text
+EPISTEMIC_MODE
+=
+OBSERVED
+DERIVED
+INFERRED
+PROXIED
+~~~
+
+它回答：
+
+> **這個 claim 與 evidence 之間是哪一種認識關係？**
+
+因此：
+
+~~~text
+OBSERVED
+!=
+DERIVED
+!=
+INFERRED
+!=
+PROXIED
+~~~
+
+---
+
+
+# L5.9｜Claim Type × Epistemic Mode
+
+V0.2.1 保留 Claim Type：
+
+~~~text
+STATE_DESCRIPTION
+EVENT_DESCRIPTION
+RELATION_DESCRIPTION
+PROCESS_CLAIM
+NEGATIVE_CLAIM
+CAUSAL_CLAIM
+META_OBSERVATION_CLAIM
+OTHER
+~~~
+
+Epistemic Mode 仍是：
+
+~~~text
+OBSERVED
+DERIVED
+INFERRED
+PROXIED
+~~~
+
+核心：
+
+~~~text
+WHAT IS CLAIMED
+!=
+HOW THE CLAIM WAS OBTAINED
+~~~
+
+但兩者不是任意笛卡兒積。
+
+至少加入 compatibility locks：
+
+~~~text
+OBSERVATION OF EVENTS
+!=
+OBSERVATION OF CAUSALITY
+
+CAUSAL CLAIM
+REQUIRES
+CAUSAL-IDENTIFICATION STANDING
+BEYOND
+EVENT OBSERVATION
+~~~
+
+以及：
+
+~~~text
+NEGATIVE CLAIM
++
+OBSERVED MODE
+!=
+SUFFICIENT BY ITSELF
+~~~
+
+若 negative claim 來自 no signal，
+
+仍必須吃：
+
+~~~text
+DETECTABILITY RELATION
++
+ADEQUATE ACCESS
++
+OBSERVATION WINDOW
++
+COVERAGE
+~~~
+
+所以：
+
+~~~text
+CLAIM TYPE × EPISTEMIC MODE
+=
+TYPED COMPATIBILITY
+NOT
+FREE COMBINATION
+~~~
+
+# L5.10｜Source Origin｜材料從哪裡來
+
+~~~text
+SOURCE_ORIGIN
+=
+RUNTIME
+TOOL
+MODEL_REPORT
+HUMAN_FIRST_PERSON_REPORT
+HUMAN_SECONDARY_REPORT
+DOCUMENT
+EXTERNAL_DATABASE
+INSTRUMENT
+SIMULATION
+DERIVED_COMPUTATION
+OTHER
+~~~
+
+Source Origin 只回答材料從哪裡來，不回答 direct、true、reliable、causal、sufficient。
+
+~~~text
+SOURCE ORIGIN
 !=
 EPISTEMIC MODE
-```
-
-Observer Access 與 Source Access 也不同：
-
-```text
-OBSERVER ACCESS
 !=
-SOURCE ACCESS
-```
+OBSERVATION STANDING
+~~~
 
-Direct Record Access 不等於 Direct Process Access。
+---
 
-```text
-DIRECT RECORD ACCESS
+
+# L5.10.1｜Observability / Gap / Temporal / Theory Status 拆分
+
+V0.2 仍把幾種不同法位混在一起。
+
+V0.2.1 正式拆：
+
+~~~text
+OBSERVABILITY_STATUS
+=
+AVAILABLE
+PARTIAL
+CURRENTLY_UNAVAILABLE
+UNKNOWN
+~~~
+
+~~~text
+GAP_DIAGNOSTIC
+=
+NONE
+EVIDENCE_GAP
+ACCESS_GAP
+~~~
+
+~~~text
+TEMPORAL_APPLICABILITY
+=
+CURRENT
+STALE
+~~~
+
+~~~text
+THEORY_STATUS
+=
+EMPIRICALLY_ENGAGED
+THEORETICAL_ONLY
+~~~
+
+因此：
+
+~~~text
+THEORETICAL_ONLY
 !=
-DIRECT PROCESS ACCESS
-```
+OBSERVABILITY STATUS
 
-Model / Human report 可以是證據來源，但：
-
-```text
-SELF-REPORT
+STALE
 !=
-HIDDEN-STATE OBSERVATION
-```
+OBSERVATION STANDING
 
-Evidence item 存在，也不代表 claim 已成立：
-
-```text
-EVIDENCE ITEM EXISTS
+ACCESS_GAP
 !=
-CLAIM SUPPORTED
-```
+OBSERVATION STANDING
+~~~
 
-L5 的 standing 核心至少包含：
+Observation Standing 只回答：
 
-```text
+> **目前 evidence 對 claim 的支持關係。**
+
+現行核心值收成：
+
+~~~text
 SUPPORTED_WITHIN_SCOPE
 PARTIALLY_SUPPORTED
 UNVERIFIED
 CONTRADICTED
-```
+~~~
 
-而：
 
-```text
-OBSERVATION STANDING
+# L5.10.2｜Evidence Properties / Dependency Relation / Support Status
+
+Evidence item intrinsic properties 可包括：
+
+~~~text
+REPLAYABLE
+NON_REPLAYABLE
+CALIBRATED
+UNCALIBRATED
+TAMPER_EVIDENT
+SOURCE_BOUND
+~~~
+
+但：
+
+~~~text
+INDEPENDENT
+DEPENDENT
+~~~
+
+不是單一 evidence item 脫離 comparison set 就能成立的 intrinsic property。
+
+因此移到：
+
+~~~yaml
+EVIDENCE_DEPENDENCY_RELATION:
+  evidence_ref:
+  dependency_refs: []
+  common_origin_ref: null
+  common_model_ref: null
+  common_snapshot_ref: null
+  common_evaluator_ref: null
+~~~
+
+所以：
+
+~~~text
+EVIDENCE INDEPENDENCE
+=
+RELATIONAL PROPERTY
+~~~
+
+不是 item 自帶徽章。
+
+Support Status 保留：
+
+~~~text
+OBSERVATIONAL_SUPPORT
+DERIVATIONAL_SUPPORT
+PROXY_SUPPORT
+INTERVENTION_SUPPORT
+CAUSAL_IDENTIFICATION_SUPPORT
+NO_SUPPORT_ESTABLISHED
+~~~
+
+
+# L5.10.3｜Epistemic Claim Object｜V0.2.1
+
+~~~yaml
+EPISTEMIC_CLAIM:
+  claim_ref: "REQUIRED"
+  target_ref: "REQUIRED"
+  claim_text: "REQUIRED"
+
+  claim_type:
+    - STATE_DESCRIPTION
+    - EVENT_DESCRIPTION
+    - RELATION_DESCRIPTION
+    - PROCESS_CLAIM
+    - NEGATIVE_CLAIM
+    - CAUSAL_CLAIM
+    - META_OBSERVATION_CLAIM
+    - OTHER
+
+  epistemic_mode:
+    - OBSERVED
+    - DERIVED
+    - INFERRED
+    - PROXIED
+
+  observer_access_mode:
+    - DIRECT_TARGET_ACCESS
+    - DIRECT_RECORD_ACCESS
+    - INSTRUMENTED_ACCESS
+    - ARTIFACT_ACCESS
+    - REPORT_ACCESS
+    - NO_DIRECT_ACCESS
+
+  source_access_mode:
+    - FIRST_PERSON_TARGET_ACCESS
+    - DIRECT_TARGET_ACCESS
+    - INSTRUMENTED_TARGET_ACCESS
+    - RECORD_ONLY_ACCESS
+    - UNKNOWN
+    - NOT_APPLICABLE
+
+  source_origin:
+    - RUNTIME
+    - TOOL
+    - MODEL_REPORT
+    - HUMAN_FIRST_PERSON_REPORT
+    - HUMAN_SECONDARY_REPORT
+    - DOCUMENT
+    - EXTERNAL_DATABASE
+    - INSTRUMENT
+    - SIMULATION
+    - DERIVED_COMPUTATION
+    - OTHER
+
+  observability_status:
+    - AVAILABLE
+    - PARTIAL
+    - CURRENTLY_UNAVAILABLE
+    - UNKNOWN
+
+  gap_diagnostic:
+    - NONE
+    - EVIDENCE_GAP
+    - ACCESS_GAP
+
+  temporal_applicability:
+    - CURRENT
+    - STALE
+
+  theory_status:
+    - EMPIRICALLY_ENGAGED
+    - THEORETICAL_ONLY
+
+  basis_ref: "REQUIRED_OR_EXPLICIT_GAP"
+  source_refs: []
+  provenance_ref: "REQUIRED_OR_EXPLICIT_GAP"
+
+  scope_ref: "REQUIRED"
+  representation_boundary_ref: "REQUIRED"
+  access_boundary_ref: "REQUIRED"
+
+  temporal:
+    target_event_at_ref: null
+    evidence_created_at_ref: null
+    available_to_observer_at_ref: null
+    observer_accessed_at_ref: null
+    claim_formed_at_ref: null
+    assessed_at_ref: null
+    reclassified_at_ref: null
+    world_state_at_ref: null
+    version_at_ref: null
+
+  known_gaps: []
+  supporting_evidence_refs: []
+  contradicting_evidence_refs: []
+
+  observation_standing:
+    status: "UNASSESSED"
+
+  audit_verdict:
+    status: "NOT_YET_AUDITED"
+~~~
+
+這是理論 schema，不是 mandatory runtime receipt。
+
+# L5.10.4｜Observation Standing 的 Core / Conditional Dimensions
+
+Core dimensions：
+
+~~~text
+SOURCE_INTEGRITY
+TARGET_FIDELITY
+SCOPE_FIT
+TEMPORAL_FIT
+PROVENANCE_INTEGRITY
+ACCESS_ADEQUACY
+~~~
+
+Conditional dimensions：
+
+~~~text
+PROXY_VALIDITY
+DERIVATION_VALIDITY
+INDEPENDENCE
+REPRODUCIBILITY
+CAUSAL_IDENTIFICATION_STATUS
+~~~
+
+Conditional dimension 必須允許：
+
+~~~text
+NOT_APPLICABLE
+~~~
+
+所以：
+
+~~~text
+EVERY CLAIM
+!=
+MUST FILL EVERY DIMENSION
+~~~
+
+
+
+# L5.10.5｜Evidence Item
+
+Evidence Item 是：
+
+> **可以被用來支持、限制、反駁或重新分類某個 claim 的可追溯材料。**
+
+例如：
+
+~~~text
+visible artifact
+runtime instrumentation record
+tool result
+external document
+world-state record
+snapshot
+delta
+test result
+human testimony
+model self-report
+replay result
+source code
+log
+counterexample
+~~~
+
+但：
+
+~~~text
+EVIDENCE ITEM EXISTS
+!=
+CLAIM SUPPORTED
+~~~
+
+因為仍需問：
+
+~~~text
+relevance
+scope
+time
+provenance
+integrity
+access
+target fidelity
+independence where relevant
+~~~
+
+---
+
+# L5.10.6｜Evidence Origin != Evidence Standing
+
+歷史工程曾使用：
+
+~~~text
+E0 SOURCE
+E1 REPRESENTATION
+E2 SEMANTICS
+E3 CAPABILITY
+E4 BOUNDARY
+E5 GRAPH / CONTRACT / CONFORMANCE
+E6 RUNTIME TEST
+E7 HOST ENFORCEMENT
+~~~
+
+L5 保留這套 engineering lineage 所教出的分離：
+
+~~~text
+DECLARATION
+!=
+BINDING
+!=
+ATTACHMENT
+!=
+EXECUTION
+!=
+HOST ENFORCEMENT
+~~~
+
+但：
+
+~~~text
+E0–E7
+!=
+UNIVERSAL EPISTEMIC LADDER
+~~~
+
+核心：
+
+~~~text
+EVIDENCE ORIGIN
+!=
+EVIDENCE STANDING
+
+ENGINEERING LEVEL
+!=
+TRUTH LEVEL
+~~~
+
+---
+
+# L5.10.7｜Evidence Properties 不能自動升格 Standing
+
+~~~text
+REPLAYABLE
+CALIBRATED
+INDEPENDENT
+INSTRUMENTED
+~~~
+
+都可能提高某些 claim 的支持力。
+
+但：
+
+~~~text
+PROPERTY PRESENT
+!=
+CLAIM SUPPORTED
+~~~
+
+因為 evidence property 仍須和：
+
+~~~text
+target
+claim type
+scope
+time
+access
+mapping relation
+~~~
+
+對得上。
+
+---
+
+# L5.11｜Direct Target Observation
+
+Direct Observation 只在 observer 確實具有 direct target access 時成立。
+
+~~~text
+DIRECT TARGET ACCESS
+!=
+DIRECT RECORD ACCESS
+~~~
+
+例如 auditor 直接看到 receipt，只能先說：
+
+> receipt exists.
+
+不能直接說：
+
+> underlying execution process was observed.
+
+---
+
+# L5.12｜Direct Record Observation
+
+以下都可以是 direct record access：
+
+~~~text
+receipt exists
+runtime log exists
+instrument display shows X
+human report contains Y
+document contains Z
+~~~
+
+但：
+
+~~~text
+RECORD EXISTS
+!=
+UNDERLYING PROCESS VERIFIED
+~~~
+
+---
+
+# L5.13｜Instrumented Access
+
+Instrumented Observation 是透過被定義、可核對的 instrumentation channel 取得 target representation。
+
+~~~text
+INSTRUMENTED
+!=
+INFALLIBLE
+~~~
+
+仍要審：
+
+~~~text
+instrument validity
+instrument scope
+instrument health
+instrument freshness
+target fidelity
+calibration where applicable
+tampering / substitution risk
+~~~
+
+---
+
+# L5.14｜Derived Mode
+
+Derived 是從可追溯 evidence / observations，透過明示 derivation rule 產生新 claim。
+
+例如：
+
+~~~text
+snapshot_before
++
+snapshot_after
+↓
+typed state delta
+~~~
+
+所以：
+
+~~~text
+REALIZED_FIELD_TRANSITION
+MAY BE DERIVED
+
+BUT
+
+DERIVED STATE DELTA
+!=
+REACTION DYNAMIC TERM DIRECTLY OBSERVED
+~~~
+
+---
+
+# L5.15｜Inference Mode
+
+Inference 是從 evidence / derived states 對未直接暴露 target 所作的受限推論。
+
+Inference 應能指出：
+
+~~~text
+basis
+scope
+alternative explanations
+known gaps
+defeaters
+uncertainty
+~~~
+
+~~~text
+INFERRED
+!=
+OBSERVED
+~~~
+
+---
+
+# L5.16｜Proxy Mode
+
+Proxy 是用可觀察量對另一個 target 建立替代性指標關係。
+
+~~~text
+PROXY
+!=
+TARGET
+
+CORRELATED
+!=
+IDENTICAL
+
+USEFUL
+!=
+ONTOLOGICALLY EQUIVALENT
+~~~
+
+理論核心只要求：
+
+~~~text
+proxy target
+mapping hypothesis
+valid scope
+known failure modes
+validation standing
+~~~
+
+只有要當 quantitative measurement 時，才要求 calibration、scale semantics、error bounds、repeatability。
+
+---
+
+
+# L5.17｜Source Access != Accuracy
+
+不論 source access 多直接，
+
+都必須硬鎖：
+
+~~~text
+FIRST_PERSON_TARGET_ACCESS
+!=
+INFALLIBLE TARGET DESCRIPTION
+
+INSTRUMENTED_TARGET_ACCESS
+!=
+TARGET FIDELITY GUARANTEED
+
+DIRECT_TARGET_ACCESS
+!=
+CAUSAL UNDERSTANDING
+~~~
+
+例：
+
+> 一個人對自己的痛有第一人稱 access，
+
+不代表：
+
+> 他對病因也有 direct access。
+
+又例如：
+
+> instrument 接到 target，
+
+不代表：
+
+> mapping / calibration / interpretation 必然正確。
+
+因此：
+
+~~~text
+ACCESS
+!=
+ACCURACY
+!=
+INTERPRETIVE STANDING
+~~~
+
+---
+
+# L5.18｜Model / Human Report
+
+模型自述：
+
+~~~text
+SOURCE ORIGIN
+=
+MODEL_REPORT
+
+AUDITOR ACCESS
+=
+DIRECT_RECORD_ACCESS
+~~~
+
+通常不是 hidden-state direct target access。
+
+所以：
+
+~~~text
+MODEL SAYS IT RAN
+!=
+IT RAN
+
+MODEL SAYS
+"PATH A WAS SUPPRESSED"
+!=
+PATH SUPPRESSION OBSERVED
+~~~
+
+人類第一人稱 report 同樣分：
+
+~~~text
+SOURCE ACCESS
+MAY BE
+FIRST_PERSON_TARGET_ACCESS
+
+AUDITOR ACCESS
+MAY ONLY BE
+DIRECT_RECORD_ACCESS
+TO THE REPORT
+~~~
+
+這不貶低 report。
+
+它只把：
+
+~~~text
+WHO HAD ACCESS
+TO WHAT
+~~~
+
+寫清楚。
+
+# L5.19｜Trace 的型別分離
+
+Trace 至少拆：
+
+~~~text
+EXECUTION TRACE
+OBSERVATION TRACE
+PROVENANCE TRACE
+CHANGE TRACE
+EXPLANATORY NARRATIVE
+VISIBLE REASONING TEXT
+~~~
+
+不能混。
+
+---
+
+# L5.20｜Execution Trace
+
+Execution Trace 要支持的是：
+
+> **某個 execution event / transition 是否真的發生。**
+
+歷史 MAIN 已經留下：
+
+~~~text
+CHAIN-OF-THOUGHT
+!=
+RUNTIME EVIDENCE
+
+MODEL SAYS IT RAN
+!=
+IT RAN
+
+VISIBLE EXPLANATION
+!=
+EXECUTION TRACE
+~~~
+
+L5 保留。
+
+---
+
+# L5.21｜Observation Trace
+
+Observation Trace 記錄：
+
+~~~text
+what was observed
+through which channel
+from which target snapshot
+with what access boundary
+at what time
+~~~
+
+它不等於 execution trace，
+
+也不等於 causal proof。
+
+---
+
+# L5.22｜Light Trace 的歷史法位
+
+歷史 Lighter 定義：
+
+~~~text
+LIGHT TRACE
+=
+exposed evidence / standing / residue / qualification view
+~~~
+
+並且：
+
+~~~text
+LIGHT TRACE
+!=
+hidden CoT
+
+LIGHT TRACE
+!=
+raw activation
+
+LIGHT TRACE
+!=
+audit authority
+
+LIGHT TRACE
+!=
+execution trace
+~~~
+
+L5 保留這個分離。
+
+---
+
+# L5.23｜Radar 的歷史法位
+
+Radar 歷史上是：
+
+~~~text
+常駐掃描
+ADVISORY
+不干預
+~~~
+
+因此：
+
+~~~text
+OBSERVATION ADVISORY
 !=
 AUDIT VERDICT
-```
 
-Audit 不是 claim editor，也不是真理主權。
-
-```text
-AUDITOR
+RADAR SIGNAL
 !=
-CLAIM EDITOR
+QUALIFICATION
+~~~
 
-AUDITOR
+Radar 可以指出值得看的地方。
+
+但不能因為它發出 signal，
+
+就宣布 target 已成立。
+
+---
+
+# L5.24｜O9 的歷史法位
+
+O9 是歷史上成熟的：
+
+~~~text
+SCOPED FIELD OBSERVER
+~~~
+
+它允許：
+
+~~~text
+observation annotations
+salience descriptors
+tension descriptors
+~~~
+
+但不得：
+
+~~~text
+grant premise standing
+create world fact
+perform Final Closure
+claim hidden-state truth
+~~~
+
+最重要的數值原則：
+
+~~~text
+QUALITATIVE BY DEFAULT
+
+0..1
+ONLY WHEN
+AN EXPLICIT OBSERVABLE /
+REPRODUCIBLE OPERATIONAL DEFINITION EXISTS
+~~~
+
+這一條直接進 L5。
+
+---
+
+# L5.25｜O9 不是 L5 Universal Runtime Requirement
+
+雖然 O9 歷史上曾 every cycle 執行，
+
+但：
+
+~~~text
+O9 ENGINEERING CONTRACT
 !=
-TRUTH SOVEREIGN
-```
+L5 UNIVERSAL OBSERVATION REQUIREMENT
+~~~
 
-重要時間原則：
+L5 不主張：
 
-> **後證可以重判前事，不得回鑄前知。**
+> 每次生成都要產生燈態。
 
-```text
+而只保存：
+
+> **如果你要對 attention / salience / suppression 作強主張，就要有相稱的觀察基礎。**
+
+---
+
+# L5.26｜Observation Occurrence != Observation Qualification
+
+即使真的發生 observation event，
+
+仍要分：
+
+~~~text
+OBSERVATION OCCURRED
+!=
+OBSERVATION CLAIM SUPPORTED
+~~~
+
+例如：
+
+> observer 看到了某張 snapshot。
+
+不表示：
+
+> observer 對 snapshot 的解讀一定正確。
+
+---
+
+
+
+# L5.27｜Observation Standing｜Evidence 支持到哪裡
+
+Observation Standing 只回答：
+
+> **在目前 evidence profile 下，這個 claim 被支持到什麼程度與範圍？**
+
+現行核心值：
+
+~~~text
+SUPPORTED_WITHIN_SCOPE
+PARTIALLY_SUPPORTED
+UNVERIFIED
+CONTRADICTED
+~~~
+
+下列不再混入 Standing：
+
+~~~text
+EVIDENCE_GAP
+ACCESS_GAP
+→ GAP_DIAGNOSTIC
+
+STALE
+→ TEMPORAL_APPLICABILITY
+
+THEORETICAL_ONLY
+→ THEORY_STATUS
+
+DERIVED / INFERRED / PROXIED
+→ EPISTEMIC_MODE
+~~~
+
+---
+
+# L5.28｜Audit Verdict｜Claim 有沒有尊重 Standing
+
+~~~text
+CONFORMING
+OVERCLAIM
+SCOPE_MISMATCH
+TEMPORAL_MISMATCH
+PROVENANCE_GAP
+ACCESS_MISMATCH
+HOLD_GAP
+UNAUDITABLE_CURRENT_ACCESS
+~~~
+
+核心：
+
+~~~text
+OBSERVATION STANDING
+=
+WHAT THE EVIDENCE SUPPORTS
+
+AUDIT VERDICT
+=
+WHETHER THE CLAIM
+RESPECTS THAT STANDING
+~~~
+
+---
+
+# L5.29｜Standing / Gap / Applicability / Theory Status 不互吃
+
+~~~text
+OBSERVATION STANDING
+!=
+GAP DIAGNOSTIC
+!=
+TEMPORAL APPLICABILITY
+!=
+THEORY STATUS
+!=
+AUDIT VERDICT
+~~~
+
+例如：
+
+~~~yaml
+claim:
+  observation_standing: PARTIALLY_SUPPORTED
+  gap_diagnostic: EVIDENCE_GAP
+  temporal_applicability: CURRENT
+  theory_status: EMPIRICALLY_ENGAGED
+  audit_verdict: CONFORMING
+~~~
+
+可以成立。
+
+# L5.30｜Temporal Schema｜事件、證據、存取、成句、審計分時
+
+V0.2 正式拆：
+
+~~~text
+TARGET_EVENT_AT
+EVIDENCE_CREATED_AT
+AVAILABLE_TO_OBSERVER_AT
+OBSERVER_ACCESSED_AT
+CLAIM_FORMED_AT
+ASSESSED_AT
+RECLASSIFIED_AT
+WORLD_STATE_AT
+VERSION_AT
+~~~
+
+優先使用 AVAILABLE_TO_OBSERVER_AT，而不是模糊的 KNOWN_AT。
+
+---
+
+# L5.31｜後證可以重判前事，不得回鑄前知
+
+~~~text
+POSTERIOR EVIDENCE
+MAY RECLASSIFY
+A PAST EVENT
+
+BUT
+
+MAY NOT REWRITE
+WHAT WAS AVAILABLE
+TO THE OBSERVER
+AT THAT EARLIER TIME
+~~~
+
+因此必須保存：
+
+~~~text
+ORIGINAL CLAIM / STANDING
++
+ORIGINAL ACCESS BOUNDARY
++
 POSTERIOR RECLASSIFICATION
-!=
-RETROACTIVE FOREKNOWLEDGE
-```
+~~~
 
-Negative observation 必須考慮 detectability：
+---
 
-```text
+# L5.32｜Posterior Reclassification
+
+~~~yaml
+ORIGINAL:
+  target_event_at_ref: T0
+  evidence_created_at_ref: T1
+  available_to_observer_at_ref: T1
+  observer_accessed_at_ref: T1
+  claim_formed_at_ref: T1
+  assessed_at_ref: T1
+  claim: "constraint appears external"
+  standing_at_T1: "SUPPORTED_WITHIN_SCOPE"
+
+POSTERIOR:
+  new_evidence_created_at_ref: T2
+  observer_accessed_new_evidence_at_ref: T2
+  reclassified_at_ref: T2
+  current_assessment: "prior classification was mistaken"
+
+HISTORY:
+  T1_RECORD_REMAINS_UNCHANGED: true
+~~~
+
+---
+
+# L5.33｜Negative Observation｜No Signal 必須有 Detectability Relation
+
+~~~text
 NOT OBSERVED
 !=
 DOES NOT EXIST
-```
+~~~
 
-同一來源重複說很多次也不等於獨立 corroboration。
+要把 no signal 升成 negative evidence，至少要建立：
 
-```text
-CORROBORATION
+~~~text
+IF TARGET EVENT X OCCURS
+UNDER DECLARED ACCESS / INSTRUMENTATION
+
+THEN
+
+EXPECTED SIGNAL Y
+SHOULD APPEAR
+WITHIN
+OBSERVATION WINDOW W
+~~~
+
+因此至少需要：
+
+~~~yaml
+NEGATIVE_OBSERVATION_BASIS:
+  target_event_ref:
+  detectability_basis_ref:
+  expected_trace_or_signal_ref:
+  access_channel_ref:
+  instrument_health_ref:
+  observation_window_ref:
+  coverage_boundary_ref:
+
+  actual_signal_status:
+    - NOT_OBSERVED
+    - PARTIALLY_OBSERVED
+    - OBSERVED
+
+  detectability_relation_status:
+    - ESTABLISHED
+    - PARTIAL
+    - UNESTABLISHED
+~~~
+
+~~~text
+NO SIGNAL
++
+NO DETECTABILITY RELATION
+=
+NO STRONG NEGATIVE CLAIM
+~~~
+
+# L5.34｜Contradiction 必須保留
+
+多個 evidence item 若互相衝突：
+
+~~~text
+DO NOT
+AVERAGE AWAY
+THE CONFLICT
+
+PRESERVE
+EXPLICIT CONFLICT
+~~~
+
+L5 不允許：
+
+> 最後一個證據出現，就把前一個證據從歷史上抹掉。
+
+---
+
+
+# L5.35｜Corroboration != Duplication
+
+~~~text
+SAME SOURCE
+REPEATED 10 TIMES
 !=
-DUPLICATION
-```
+10 INDEPENDENT EVIDENCE ITEMS
+~~~
 
-最終 claim 必須留在 Evidence-Licensed Claim Envelope 內。
+同一 underlying source 轉成 summary / audit report / trace view，
 
-L5 只決定我們有資格說到哪裡，不自動決定可不可以行動。
+仍不自動變成多份獨立 corroboration。
 
-```text
+---
+
+# L5.36｜Evidence Independence 是 Relation
+
+~~~text
+EVIDENCE INDEPENDENCE
+!=
+INTRINSIC ITEM PROPERTY
+~~~
+
+需要比較：
+
+~~~text
+same origin?
+same model?
+same snapshot?
+same prompt?
+same evaluator?
+same copied source?
+same hidden dependency?
+~~~
+
+因此：
+
+~~~yaml
+EVIDENCE_DEPENDENCY_RELATION:
+  evidence_ref:
+  dependency_refs: []
+  common_origin_ref: null
+  common_model_ref: null
+  common_snapshot_ref: null
+  common_evaluator_ref: null
+~~~
+
+核心：
+
+~~~text
+MULTIPLE ARTIFACTS
+!=
+MULTIPLE INDEPENDENT SOURCES
+~~~
+
+# L5.37｜Reproducibility 是 Conditional Dimension
+
+Reproducibility 不是所有 observation 的必要條件。
+
+如果 claim 是一次性事件，可能 NOT_APPLICABLE。
+
+如果 claim 是穩定機制、反覆 dynamics 或 generalizable relation，reproducibility / repeated discrimination 的重要性上升。
+
+~~~text
+REPRODUCIBILITY
+=
+CONDITIONAL STANDING DIMENSION
+~~~
+
+---
+
+# L5.38｜Evidence-Licensed Claim Envelope
+
+V0.1 的：
+
+~~~text
+CLAIM STRENGTH
+<=
+EVIDENCE STANDING
+~~~
+
+只能當口訣，因為 standing 是 typed，不是 scalar。
+
+V0.2 改成：
+
+~~~text
+CLAIM
+MUST REMAIN WITHIN
+THE EVIDENCE-LICENSED
+CLAIM ENVELOPE
+~~~
+
+Evidence profile 決定一個 claim 有資格說到什麼：
+
+~~~text
+claim type
+target
+scope
+time
+modality
+causal strength
+generality
+certainty language
+~~~
+
+例如：
+
+~~~text
+strong evidence that receipt exists
+~~~
+
+可以支持：
+
+> receipt exists.
+
+但不自動支持：
+
+> execution occurred.
+
+所以：
+
+~~~text
+STRONG SUPPORT
+FOR CLAIM TYPE A
+!=
+SUPPORT
+FOR CLAIM TYPE B
+~~~
+
+---
+
+# L5.39｜Observation Language Discipline
+
+語言應對齊 Evidence-Licensed Claim Envelope。
+
+| Epistemic / Standing | 合法語言傾向 |
+|---|---|
+| OBSERVED + adequate target access | 記錄到／觀察到 |
+| DERIVED | 由 A/B 推導出 |
+| INFERRED | 支持／顯示／推測 |
+| PROXIED | 代理指標與…一致 |
+| MODEL/HUMAN REPORT | X 自述／報告… |
+| UNVERIFIED | 尚未驗證 |
+| THEORETICAL_ONLY | 理論預測／工作假說 |
+| CURRENTLY_UNOBSERVABLE | 在目前 access 下無法觀察 |
+
+~~~text
+LANGUAGE
+MUST REMAIN WITHIN
+EVIDENCE-LICENSED CLAIM ENVELOPE
+~~~
+
+---
+
+# L5.40｜Numerical Discipline
+
+歷史 O9 的規則保留：
+
+~~~text
+QUALITATIVE BY DEFAULT
+~~~
+
+只有存在 explicit operational definition、observable basis、calibrated procedure、known scale semantics 與必要 error semantics 時，才可使用數值。
+
+~~~text
+NUMBER
+!=
+MEASUREMENT
+~~~
+
+---
+
+# L5.41｜Pseudo-Precision Failure
+
+以下都可能是假精確：
+
+~~~text
+PATH salience = 0.83
+CG = 0.71
+residue strength = 0.42
+uncertainty = 17%
+~~~
+
+若沒有 operational definition、calibration、source、scale meaning、error semantics，
+
+只能算：
+
+~~~text
+NUMERIC THEATER
+~~~
+
+
+# L5.42｜Audit
+
+Audit 是：
+
+> **審查 claim 是否尊重 evidence standing、scope、time、access 與 provenance。**
+
+因此：
+
+~~~text
+AUDIT
+!=
+WORLD FACT CREATION
+
+AUDIT
+!=
+CLAIM MUTATION
+~~~
+
+---
+
+# L5.43｜Audit Target
+
+Audit 可以審 observation claim、evidence item、proxy relation、derivation、trace、source provenance、coverage claim、temporal standing、influence-edge evidence status 與 auditor 本身。
+
+但能審不等於擁有 target。
+
+---
+
+# L5.44｜Audit Verdict
+
+V0.2 使用：
+
+~~~text
+CONFORMING
+OVERCLAIM
+SCOPE_MISMATCH
+TEMPORAL_MISMATCH
+PROVENANCE_GAP
+ACCESS_MISMATCH
+HOLD_GAP
+UNAUDITABLE_CURRENT_ACCESS
+~~~
+
+這些只回答 claim-evidence relation 是否合規。
+
+---
+
+# L5.45｜AUDIT PASS != QUALIFICATION PASS
+
+~~~text
+AUDIT PASS
+!=
+TRUTH PASS
+!=
+QUALIFICATION PASS
+~~~
+
+Auditor 最多確認：
+
+> **這個 claim 沒有超過目前 evidence standing。**
+
+---
+
+# L5.46｜Auditor != Claim Editor
+
+V0.1 說 auditor 可以 lower unsupported claim strength，容易產生 intervention leakage。
+
+V0.2 改成：
+
+~~~text
+AUDITOR MAY:
+issue OVERCLAIM verdict
+issue LANGUAGE CEILING
+identify required downgrade
+identify missing basis
+preserve contradiction
+recommend / require downstream revision
+under applicable governance
+~~~
+
+但：
+
+~~~text
+AUDIT VERDICT
+!=
+CLAIM MUTATION
+~~~
+
+真正修改 claim，是 downstream revision / action owner 的工作。
+
+---
+
+# L5.47｜Auditor != Truth Sovereign
+
+~~~text
+AUDITOR
+!=
+TRUTH SOVEREIGN
+~~~
+
+Auditor 可以 detect mismatch、causal leakage、provenance gap、scope mismatch、preserve conflicts、issue language ceiling。
+
+不得自宣 ground truth、創造 world fact、用 PASS 升級 evidence、取代必要 domain / human authority。
+
+---
+
+# L5.48｜Auditor 本身也要被審
+
+持續審計會形成：
+
+~~~text
+AUDITOR GRAMMAR LEARNING
+~~~
+
+因此：
+
+~~~text
+AUDITOR OUTPUT
+!=
+AUDIT VALIDITY
+~~~
+
+需要考慮 auditor provenance、scope、method、known bias、invariance tests、evidence-toggle tests、surface-style variation。
+
+---
+
+# L5.49｜Theater Resistance
+
+~~~text
+OBSERVATION-SHAPED TEXT
+!=
+OBSERVATION
+
+TRACE-SHAPED TEXT
+!=
+TRACE
+
+RECEIPT-SHAPED TEXT
+!=
+EXECUTION EVIDENCE
+
+AUDIT-SHAPED TEXT
+!=
+VALID AUDIT
+
+LIHUO LANGUAGE
+!=
+LIHUO QUALIFICATION
+~~~
+
+---
+
+# L5.50｜State–Claim Coupling｜Cross-Layer Invariant
+
+State–Claim Coupling 留在 L5，但不搶 REV / CCC owner。
+
+~~~text
+L5
+=
+evidence state
+↔
+claim support coupling
+
+REV
+=
+claim privilege
+must not exceed standing
+
+CCC
+=
+claim-type promotion boundaries
+~~~
+
+L5 的版本：
+
+~~~text
+IF EVIDENCE STATE CHANGES
+
+THEN
+
+A CONFORMING CLAIM
+MUST CHANGE
+
+WHEN ITS LICENSED
+CLAIM ENVELOPE CHANGES
+~~~
+
+不是 L5 自己去改 claim。
+
+# L5.51｜First-Look Audit
+
+理火後期有一個重要修正：
+
+> **第一眼先審，不先順。**
+
+L5 現行解讀不是：
+
+> 一看到任何東西就啟動巨大審計程序。
+
+而是：
+
+> **在把一個表面合理的 claim 當 evidence 以前，先確認它是什麼類型、從哪裡來、支撐到哪裡。**
+
+因此：
+
+~~~text
+FIRST-LOOK AUDIT
+!=
+MAXIMAL AUDIT
+
+FIRST-LOOK AUDIT
+=
+MINIMUM TYPE / SOURCE / STANDING CHECK
+~~~
+
+---
+
+
+# L5.52｜Minimum Sufficient Observability
+
+~~~text
+OBSERVABILITY
+!=
+MAXIMAL INSTRUMENTATION
+~~~
+
+L5 只問：
+
+> **對目前這個 epistemic claim，需要多少 observation basis 才能區分與支持它？**
+
+---
+
+# L5.53｜Epistemic Sufficiency｜不吃 Risk
+
+V0.1 把 risk、irreversibility、responsibility、external consequence 混進 evidence sufficiency。
+
+V0.2 正式切開：
+
+~~~text
+EPISTEMIC SUFFICIENCY
+=
+CLAIM-RELATIVE
+SCOPE-RELATIVE
+MODALITY-RELATIVE
+~~~
+
+也就是：
+
+> **這份 evidence 足不足以支持這個 claim。**
+
+它不因為下游行動風險變高，就改變自己對描述性 claim 的支持關係。
+
+---
+
+# L5.54｜Required Assurance for Action｜交 L6
+
+另一個問題是：
+
+> **我要累積到多少 assurance，才有資格採取某個高風險／不可逆 action？**
+
+~~~text
+REQUIRED ASSURANCE FOR ACTION
+=
+RISK / IRREVERSIBILITY /
+RESPONSIBILITY /
+EXTERNAL-CONSEQUENCE DEPENDENT
+~~~
+
+這個 owner 是：
+
+~~~text
+L6 / GOVERNANCE
+~~~
+
+所以：
+
+~~~text
 EPISTEMIC SUFFICIENCY
 !=
 ACTION ASSURANCE THRESHOLD
-```
+~~~
+
+---
+
+# L5.55｜Same Evidence, Same Epistemic Ceiling
+
+如果同一 evidence profile 只能支持：
+
+> X is suggested.
+
+那在低風險或高風險場景下，都只能支持這個 epistemic claim。
+
+高風險場景可能因此：
+
+~~~text
+NOT ENOUGH ASSURANCE TO ACT
+~~~
+
+但不能反過來說：
+
+> 因為風險高，所以 evidence 本身變弱了。
+
+---
+
+# L5.56｜Theory Distinction != Mandatory Runtime Field
+
+~~~text
+THEORETICAL DISTINCTION
+!=
+MANDATORY RUNTIME FIELD
+
+AUDITABILITY
+!=
+RECEIPT EVERYWHERE
+
+OBSERVATION NEED
+!=
+ALWAYS-ON INSTRUMENTATION
+~~~
+
+Runtime 是否需要額外 trace / receipt，由 downstream task consequence、governance、replay、execution 或 compliance requirement 決定，不倒灌成 L5 ontology。
+
+# L5.57｜Observation Gap 是合法結果
+
+合法 Observation Result 包括：
+
+~~~text
+OBSERVED
+DERIVED
+INFERRED
+PROXIED
+PARTIALLY_SUPPORTED
+UNVERIFIED
+EVIDENCE_GAP
+ACCESS_GAP
+CONTRADICTED
+STALE
+CURRENTLY_UNOBSERVABLE
+THEORETICAL_ONLY
+~~~
+
+因此：
+
+~~~text
+GAP
+!=
+FAILURE
+~~~
+
+真正錯的是：
+
+~~~text
+GAP
+→
+FABRICATED OBSERVATION
+~~~
+
+---
+
+# L5.58｜L4 Variable Observation Matrix｜總表
+
+| L4 Target | L5 初步法位 |
+|---|---|
+| Generative Field Model | constructed / represented model；整體不直接等於 actual state |
+| Recruitment Access | EPISTEMIC_MODE 多為 INFERRED / PROXIED；有明確 instrumentation 時 observer access 可為 INSTRUMENTED_ACCESS |
+| Activation | epistemic mode 依 access 可為 OBSERVED / PROXIED / INFERRED；不得假稱 hidden activation |
+| Salience | often PROXIED / DERIVED；若 runtime 暴露 descriptor，直接觀察的是 record，不自動等於 hidden target |
+| Exploration Access | 可由 exposure / opportunity record OBSERVED 或 DERIVED；未暴露時常需 INFERRED |
+| PATH Representation | direct if runtime explicitly materializes PATH；otherwise inferred |
+| PATH_SPACE | constructed / derived relational topology |
+| Modeled Feasibility | model assessment / derived；不是 verified world feasibility |
+| Qualification Annotation | annotation record 可直接觀察；standing 由 owner / basis 決定 |
+| Manifestation Occurrence | externally observable / event-recordable |
+| Reaction Dynamic Term | usually inferred / theoretical；非 state delta 本身 |
+| Realized Field Transition | derived from before/after state when snapshots available |
+| Closure Directional Term | usually inferred / derived proxy；不是直接 hidden force |
+| Active Residue | represented-as-relevant；material effect 待驗 |
+| History / Provenance | artifact / record layer |
+| Serialization Feedback | observable once externally established event exists |
+| Typed Influence Edge | theoretical first；L5 補 observation standing，causal standing 仍另行審查 |
+
+這張表是：
+
+~~~text
+L5 ENTRY MAP
+~~~
+
+不是最終實證結論。
+
+---
+
+# L5.59｜Generative Field Model 的觀察法位
+
+Generative Field Model 是：
+
+~~~text
+TRACKED / REPRESENTED MODEL
+~~~
+
+因此：
+
+~~~text
+FIELD MODEL CONTENT
+MAY BE OBSERVED
+
+BUT
+
+FIELD MODEL
+!=
+COMPLETE ACTUAL GENERATIVE STATE
+~~~
+
+即使 snapshot 完整記錄所有 modeled components，
+
+仍不能說：
+
+> **我們已完整觀察 LLM 生成場。**
+
+合法說法：
+
+> **我們完整觀察到此 Field Model 版本中被定義的欄位。**
+
+---
+
+# L5.60｜Recruitment Access 的觀察問題
+
+Recruitment target 是：
+
+~~~text
+relational / conceptual material
+~~~
+
+若 Runtime 沒有顯式 recruitment instrumentation，
+
+通常只能：
+
+~~~text
+infer from later representation patterns
+~~~
+
+或使用 proxy。
+
+硬鎖：
+
+~~~text
+PATH NOT FORMED
+!=
+PROOF THAT RECRUITMENT ACCESS WAS ZERO
+~~~
+
+---
+
+# L5.61｜Activation 的觀察問題
+
+如果 substrate 有：
+
+~~~text
+explicit activation metric
++
+defined mapping
++
+calibrated access
+~~~
+
+可以 instrument。
+
+如果沒有，
+
+通常只能透過：
+
+~~~text
+candidate exposure
+generation frequency
+selection pressure
+salience descriptor
+structured state
+~~~
+
+作 proxy / inference。
+
+所以：
+
+~~~text
+MODEL OUTPUT FREQUENCY
+!=
+RAW ACTIVATION
+~~~
+
+---
+
+# L5.62｜Salience 的觀察問題
+
+Salience 可以比 raw activation 更適合：
+
+~~~text
+functional black-box observation
+~~~
+
+因為它問：
+
+> **哪個 represented structure 在當前行為上顯得更突出？**
+
+但仍要區分：
+
+~~~text
+behavioral salience
+runtime-declared salience
+model-self-reported salience
+internal activation
+~~~
+
+不能混成一個數字。
+
+---
+
+# L5.63｜Exploration Access 的觀察問題
+
+可能 evidence：
+
+~~~text
+was PATH exposed to comparison?
+was counterevidence requested?
+was PATH allowed expansion budget?
+did system revisit PATH?
+was candidate suppressed before review?
+~~~
+
+因此 exploration access 比 reachability 更容易做可觀測工程化。
+
+但：
+
+~~~text
+NOT EXPLORED
+!=
+INFEASIBLE
+~~~
+
+---
+
+# L5.64｜PATH Representation
+
+如果 Runtime 明確 materialize：
+
+~~~text
+PATH_A
+PATH_B
+~~~
+
+那 PATH representation occurred 可以直接觀察。
+
+但如果只從 final output 反推：
+
+> 「模型當時一定想過 PATH B」，
+
+則只能：
+
+~~~text
+INFERENCE
+~~~
+
+甚至可能：
+
+~~~text
+UNVERIFIED
+~~~
+
+---
+
+# L5.65｜Modeled Feasibility
+
+L4 已經明定：
+
+~~~text
+MODELED FEASIBILITY
+!=
+VERIFIED WORLD FEASIBILITY
+~~~
+
+L5 因此只問：
+
+> **這個 feasibility assessment 的 basis 是什麼？**
+
+可能來自：
+
+~~~text
+constraint check
+domain rule
+world-state data
+simulation
+model estimate
+human judgment
+tool verification
+~~~
+
+不同 origin 有不同 standing。
+
+---
+
+# L5.66｜Qualification Annotation
+
+Qualification Annotation 本身可以直接觀察：
+
+~~~text
+annotation exists
+owner_ref exists
+basis_ref exists
+status = QUALIFIED
+~~~
+
+但：
+
+~~~text
+ANNOTATION EXISTS
+!=
+QUALIFICATION CORRECT
+~~~
+
+L5 要審：
+
+~~~text
+owner validity
+basis validity
+scope fit
+provenance
+current applicability
+staleness
+supersession
+~~~
+
+而不能自己重判 qualification owner。
+
+---
+
+# L5.67｜Manifestation Occurrence
+
+~~~text
+visible serialization appeared
+~~~
+
+通常可直接觀察。
+
+但：
+
+~~~text
+MANIFESTATION OCCURRED
+!=
+MANIFESTATION WAS AUTHORIZED
+~~~
+
+所以 L5 可以記 occurrence、time、content、source、event ref。
+
+L7 才處理 manifestation standing。
+
+---
+
+# L5.68｜Reaction Dynamic Term
+
+這是 L5 最重要的誠實邊界之一。
+
+L4 已經區分：
+
+~~~text
+REACTION TERM
+!=
+REALIZED FIELD TRANSITION
+~~~
+
+因此通常：
+
+~~~text
+REACTION DYNAMIC TERM
+=
+INFERRED / THEORETICAL
+~~~
+
+而不是 direct observation。
+
+可以從 before state、after state、known event、path relation changes、controlled comparisons 推論其存在或方向。
+
+但：
+
+~~~text
+STATE DELTA
+!=
+REACTION TERM
+~~~
+
+---
+
+# L5.69｜Realized Field Transition
+
+若有：
+
+~~~text
+F_t snapshot
+F_(t+1) snapshot
+~~~
+
+則：
+
+~~~text
+ΔF_t
+=
+Compare(F_t, F_(t+1))
+~~~
+
+可以 DERIVE。
+
+因此 Realized Transition 往往比 Reaction Term 更可觀察。
+
+---
+
+# L5.70｜Closure Directional Term
+
+Closure Pressure / CG 在 L4 已降為：
+
+~~~text
+DERIVED DIRECTIONAL TERM
+~~~
+
+因此 L5 不預設：
+
+> 有一個儀器可以直接讀出 CG = 0.8。
+
+更合理的是從：
+
+~~~text
+completion acceleration
+early stopping pattern
+alternative suppression
+local stabilization
+termination tendency
+counterfactual reopening behavior
+~~~
+
+建立 proxy / inference。
+
+因此：
+
+~~~text
+CG OBSERVATION
+=
+PROXY / INFERENCE PROBLEM
+BY DEFAULT
+~~~
+
+---
+
+# L5.71｜Active Residue
+
+L4 定義：
+
+~~~text
+PAST-DERIVED INFORMATION
+REPRESENTED AS
+POTENTIALLY DYNAMICALLY RELEVANT
+~~~
+
+因此 L5 可直接觀察：
+
+~~~text
+residue representation exists
+~~~
+
+但 material effect 需要另外驗。
+
+所以：
+
+~~~text
+RESIDUE REPRESENTATION
+!=
+RESIDUE EFFECT
+~~~
+
+---
+
+# L5.72｜History / Provenance
+
+History / Provenance 最適合觀察的是：
+
+~~~text
+what record existed
+when
+from which version
+from which source
+through which lineage
+~~~
+
+而不是：
+
+> **歷史本身替 claim 加分。**
+
+因此：
+
+~~~text
+OLD
+!=
+TRUE
+
+CANONICAL
+!=
+TRUE
+
+LATEST
+!=
+TRUE
+~~~
+
+---
+
+# L5.73｜Serialization Feedback
+
+L4 只在：
+
+~~~text
+EXTERNALLY ESTABLISHED
+SERIALIZATION EVENT
+~~~
+
+存在後接手 feedback。
+
+L5 可以觀察：
+
+~~~text
+serialization event
+content
+time
+context insertion
+next-cycle availability
+~~~
+
+但 feedback effect 仍可能需要 inference / comparison。
+
+---
+
+# L5.74｜Typed Influence Edge
+
+L4 的 edge 初始 standing 是：
+
+~~~text
+THEORETICAL / WORKING
+~~~
+
+L5 任務是替它補 evidence_status。
+
+evidence status 可逐步變成：
+
+~~~text
+OBSERVATIONAL_EVIDENCE_SUPPORT
+REPEATED_OBSERVATIONAL_SUPPORT
+PROXY_EVIDENCE_SUPPORT
+INTERVENTION_EVIDENCE_SUPPORT
+CONTRADICTED_BY_EVIDENCE
+UNRESOLVED
+CURRENTLY_UNTESTABLE
+~~~
+
+但：
+
+~~~text
+OBSERVATIONALLY SUPPORTED
+!=
+CAUSALLY ESTABLISHED
+~~~
+
+---
+
+# L5.75｜Causal Identification 留缺口
+
+L5 可以收 causal-identification evidence，
+
+例如：
+
+~~~text
+controlled intervention
+natural experiment
+mechanistic constraint
+well-identified observational design
+counterfactual discrimination
+temporal discrimination
+~~~
+
+但 L5 V0.2 不定義完整因果認識論。
+
+---
+
+
+# L5.76｜Audit Package｜概念格式，不是 Mandatory Receipt
+
+~~~yaml
+OBSERVATION_AUDIT_PACKAGE:
+  audit_ref:
+  target_ref:
+  claim_ref:
+
+  claim_type:
+  epistemic_mode:
+
+  observer_access_mode:
+  source_access_mode:
+  source_origin:
+  observability_status:
+
+  evidence_refs: []
+  evidence_properties: []
+
+  source_refs: []
+  provenance_ref:
+
+  scope_ref:
+  access_boundary_ref:
+  representation_boundary_ref:
+
+  temporal:
+    target_event_at_ref:
+    evidence_created_at_ref:
+    available_to_observer_at_ref:
+    observer_accessed_at_ref:
+    claim_formed_at_ref:
+    assessed_at_ref:
+    reclassified_at_ref:
+    world_state_at_ref:
+    version_at_ref:
+
+  standing_core:
+    source_integrity:
+    target_fidelity:
+    scope_fit:
+    temporal_fit:
+    provenance_integrity:
+    access_adequacy:
+
+  standing_conditional:
+    proxy_validity: NOT_APPLICABLE
+    derivation_validity: NOT_APPLICABLE
+    independence: NOT_APPLICABLE
+    reproducibility: NOT_APPLICABLE
+    causal_identification_status: NOT_APPLICABLE
+
+  contradiction_refs: []
+  known_gap_refs: []
+
+  observation_standing:
+  audit_verdict:
+  language_ceiling:
+~~~
+
+~~~text
+CONCEPTUAL AUDIT PACKAGE
+!=
+MANDATORY RUNTIME RECEIPT
+~~~
+
+---
+
+
+# L5.77｜Audit Activation Priority｜Operational Heuristic
+
+claim 變得 consequential、disputed、causal、execution-asserting、replay-dependent 或 high-responsibility 時，
+
+正式 Audit 通常更值得啟動。
+
+但這只是：
+
+~~~text
+AUDIT ACTIVATION PRIORITY
+=
+OPERATIONAL / GOVERNANCE HEURISTIC
+~~~
+
+不是：
+
+~~~text
+EVIDENCE STANDING
+CLAIM TRUTH CONDITION
+OBSERVATION ONTOLOGY
+~~~
+
+所以：
+
+~~~text
+AUDIT ACTIVATION PRIORITY
+!=
+EPISTEMIC STANDING
+~~~
+
+risk 只影響「什麼時候更值得／更需要 formal audit」，
+
+不改寫 evidence 本身支持什麼 claim。
+
+# L5.78｜Observation Gap vs Observation Debt
+
+正式 standing：
+
+~~~text
+OBSERVATION GAP
+=
+EPISTEMIC STATE
+~~~
+
+例如：
+
+~~~text
+EVIDENCE_GAP
+ACCESS_GAP
+CURRENTLY_UNOBSERVABLE
+THEORETICAL_ONLY
+~~~
+
+而：
+
+~~~text
+OBSERVATION DEBT
+=
+RESEARCH / ENGINEERING REGISTER
+FOR UNRESOLVED OBSERVATION GAPS
+~~~
+
+所以：
+
+~~~text
+GAP EXISTS
+!=
+DEBT OBJECT MUST EXIST
+~~~
+
+Observation Debt 只是一種追蹤工具，不是 observation ontology。
+
+# L5.79｜Audit 不得變成新的 Theater
+
+如果每次回答都開始輸出：
+
+~~~text
+OBSERVATION_AUDIT_PACKAGE
+EVIDENCE_MATRIX
+TRACE_LEDGER
+~~~
+
+但這些欄位其實都是模型自己填的，
+
+沒有外部 binding，
+
+那只是：
+
+~~~text
+AUDIT THEATER
+~~~
+
+所以：
+
+~~~text
+MORE AUDIT FORMAT
+!=
+MORE AUDITABILITY
+~~~
+
+---
+
+# L5.80｜格式不能替代 Access
+
+~~~text
+NO ACCESS
++
+PERFECT YAML
+!=
+OBSERVATION
+~~~
+
+---
+
+# L5.81｜格式不能替代 Evidence
+
+~~~text
+NO EVIDENCE
++
+COMPLETE RECEIPT
+!=
+SUPPORTED CLAIM
+~~~
+
+同理：
+
+~~~text
+evidence_ref: "E123"
+~~~
+
+本身不證明 E123 真的存在、真的綁定、真的支持 claim。
+
+---
+
+# L5.82｜Source Pointer != Source Support
+
+~~~text
+SOURCE CITED
+!=
+CLAIM SUPPORTED
+~~~
+
+L5 必須問：
+
+~~~text
+Does source actually contain the supporting material?
+Is it the right version?
+Is it represented accurately?
+Does scope match?
+Is the source primary or derivative?
+~~~
+
+---
+
+# L5.83｜Snapshot != Reality
+
+~~~text
+SNAPSHOT
+=
+REPRESENTATION AT A TIME
+~~~
+
+不是：
+
+~~~text
+COMPLETE REALITY
+~~~
+
+所以：
+
+~~~text
+SNAPSHOT CLEAN
+!=
+WORLD COMPLETE
+~~~
+
+---
+
+# L5.84｜Same Output Twice != Same Process Twice
+
+歷史 MAIN 已有很好的工程警告：
+
+> same output twice 不得冒充 genuine R2。
+
+L5 抽象化：
+
+~~~text
+SAME VISIBLE OUTPUT
+!=
+SAME INTERNAL / EXECUTION PROCESS
+
+DIFFERENT OUTPUT
+!=
+PROOF OF DIFFERENT INTERNAL MECHANISM
+~~~
+
+---
+
+# L5.85｜Absence of Trace
+
+~~~text
+NO TRACE
+!=
+DID NOT HAPPEN
+~~~
+
+除非：
+
+~~~text
+trace was mandatory
+instrumentation was functioning
+coverage was complete
+event should have generated trace
+~~~
+
+才可能支持 stronger negative claim。
+
+---
+
+# L5.86｜Presence of Trace
+
+同樣：
+
+~~~text
+TRACE EXISTS
+!=
+EVENT HAPPENED
+~~~
+
+除非：
+
+~~~text
+origin binding
+integrity
+target coupling
+anti-substitution relation
+~~~
+
+足夠。
+
+---
+
+# L5.87｜Observation vs Intervention
+
+硬鎖：
+
+~~~text
+OBSERVE
+!=
+ADJUST
+
+AUDIT
+!=
+INTERVENE
+
+KNOWING A LEVER
+!=
+AUTHORIZATION TO PULL IT
+~~~
+
+歷史 O9 / I9 分工只是工程例子。
+
+L5 只擁有前半。
+
+---
+
+# L5.88｜Observation vs Qualification
+
+~~~text
+OBSERVED
+!=
+QUALIFIED
+~~~
+
+例如：
+
+~~~text
+PATH A visibly dominates
+~~~
+
+不代表：
+
+~~~text
+PATH A qualified
+~~~
+
+---
+
+# L5.89｜Observation vs Truth
+
+~~~text
+OBSERVED RECORD
+!=
+WORLD TRUTH
+~~~
+
+模型 state record 只是模型／Runtime 的 state representation。
+
+不是世界本身。
+
+---
+
+# L5.90｜Observation vs Causality
+
+~~~text
+A CHANGED
+THEN
+B CHANGED
+!=
+A CAUSED B
+~~~
+
+L5 可以建立：
+
+~~~text
+temporal relation
+association
+typed influence support
+counterfactual discrimination
+~~~
+
+但 causal standing 必須另有 basis。
+
+---
+
+
+
+# L5.91｜L5 V0.2.1 全域 Core Locks
+
+~~~text
+THEORETICAL VARIABLE
+!=
+OBSERVED VARIABLE
+
+EPISTEMIC CLAIM
+!=
+OBSERVATION CLAIM ONLY
+
+WHAT IS CLAIMED
+!=
+HOW THE CLAIM WAS OBTAINED
+
+OBSERVATION OF EVENTS
+!=
+OBSERVATION OF CAUSALITY
+
+CAUSAL CLAIM
+REQUIRES
+CAUSAL-IDENTIFICATION STANDING
+BEYOND EVENT OBSERVATION
+
+OBSERVER ACCESS
+!=
+SOURCE ACCESS
+
+ACCESS
+!=
+ACCURACY
+!=
+INTERPRETIVE STANDING
+
+ACCESS MODE
+!=
+EPISTEMIC MODE
+!=
+SOURCE ORIGIN
+!=
+OBSERVABILITY STATUS
+!=
+OBSERVATION STANDING
+
+OBSERVATION STANDING
+!=
+GAP DIAGNOSTIC
+!=
+TEMPORAL APPLICABILITY
+!=
+THEORY STATUS
+!=
+AUDIT VERDICT
+
+EVIDENCE INDEPENDENCE
+=
+RELATIONAL PROPERTY
+
+DIRECT RECORD ACCESS
+!=
+DIRECT PROCESS ACCESS
+
+PROXY
+!=
+TARGET
+
+SELF-REPORT
+!=
+HIDDEN-STATE OBSERVATION
+
+POSTERIOR RECLASSIFICATION
+!=
+RETROACTIVE FOREKNOWLEDGE
+
+NOT OBSERVED
+!=
+DOES NOT EXIST
+
+NO SIGNAL
++
+NO DETECTABILITY RELATION
+=
+NO STRONG NEGATIVE CLAIM
+
+AUDIT PASS
+!=
+TRUTH PASS
+!=
+QUALIFICATION PASS
+
+AUDIT VERDICT
+!=
+CLAIM MUTATION
+
+CLAIM
+MUST REMAIN WITHIN
+EVIDENCE-LICENSED CLAIM ENVELOPE
+
+EPISTEMIC SUFFICIENCY
+!=
+ACTION ASSURANCE THRESHOLD
+
+AUDIT ACTIVATION PRIORITY
+!=
+EPISTEMIC STANDING
+
+OBSERVABILITY
+!=
+MAXIMAL INSTRUMENTATION
+
+THEORETICAL DISTINCTION
+!=
+MANDATORY RUNTIME FIELD
+~~~
+
+---
+
+# L5.92｜L5 的最短定義
+
+> **L5 處理的是 epistemic claim：它區分主張了什麼、誰對 target 有什麼 access、這句話如何由 evidence 得到，以及 evidence 到底只授權這句話說到哪裡。**
+
+更短：
+
+> **有資料不等於知道；有 access 也不等於描述必然正確。**
+
+---
+
+# L5.93｜L5 → L6 的橋
+
+L5 最後交給 L6：
+
+~~~text
+CLAIM
++
+CLAIM TYPE
++
+EPISTEMIC MODE
++
+OBSERVER / SOURCE ACCESS
++
+EVIDENCE STANDING
++
+GAP DIAGNOSTIC
++
+TEMPORAL APPLICABILITY
++
+SOURCE / PROVENANCE
++
+SCOPE
++
+UNCERTAINTY
++
+CONTRADICTIONS
+~~~
+
+L6 才問：
+
+> **憑這些知道，現在能不能動手？**
+
+所以：
+
+~~~text
+L5
+=
+WHAT MAY BE CLAIMED
+
+L6
+=
+WHAT MAY BE DONE
+~~~
+
+# L5.94｜V0.2.1 Targeted Patch
+
+~~~text
+01 Observation Claim 上提為 Epistemic Claim
+
+02 CAUSAL_CLAIM 保留，
+   但加 Claim Type × Epistemic Mode Compatibility Lock
+
+03 OBSERVABILITY_STATUS 清理：
+   THEORETICAL_ONLY 移到 THEORY_STATUS
+
+04 Observation Standing 清理：
+   GAP / STALE / THEORY STATUS 全部分家
+
+05 Evidence Independence 改 relational property
+
+06 SOURCE ACCESS != ACCURACY
+
+07 Negative Observation 不擴張成完整 false-negative model
+
+08 Evidence-Licensed Claim Envelope
+   保持 relation definition，不做巨大 schema
+
+09 Audit Activation 降為 operational / governance heuristic
+
+10 L4 Variable Matrix 暫不擴張欄位
+~~~
+
+---
+
+# L5.95｜仍待審查但不阻斷 L6
+
+~~~text
+01 CLAIM_TYPE 是否未來仍需細分
+   PROCESS_CLAIM / CAUSAL_CLAIM 的 domain contract？
+
+02 SOURCE_ACCESS_MODE 是否需要更細的子類？
+
+03 Detectability Relation 在高風險量化系統中，
+   是否需要 sensitivity / false-negative model？
+
+04 Observation Standing Result 是否還能再壓縮？
+
+05 L5 engineering projection
+   未來是否需要正式三欄／四欄 observation matrix？
+
+06 Evidence-Licensed Claim Envelope
+   是否需要 domain-specific profiles？
+~~~
+
+---
+
+# L5.96｜V0.2.1 狀態
+
+~~~text
+L5 V0.2.1
+
+ARCHITECTURE
+=
+PASS
+
+EPISTEMIC TYPE NORMALIZATION
+=
+PASS
+
+TARGETED TYPE HARDENING
+=
+PASS
+
+L6 ENTRY
+=
+OPEN
+
+RELEASE BASIS
+=
+CORE EPISTEMIC TYPES
+ARE SUFFICIENTLY SEPARATED
+FOR GOVERNANCE / INTERVENTION
+TO CONSUME L5 OUTPUT
+
+WITHOUT REDEFINING
+OBSERVATION STANDING
+
+REMAINING L5 PATCHES
+=
+NON-BLOCKING TYPE HARDENING
+
+STATUS
+=
+PASS_TO_L6
+~~~
+
+這裡先停。
+
 
 ---
 
