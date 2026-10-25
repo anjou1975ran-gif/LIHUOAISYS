@@ -1,0 +1,270 @@
+# LIHUOOS V1.0｜FORMAL INTEGRATION MANIFEST
+## 理火 OS 正式 V1 精確版本清單
+### 2026-10-25
+
+**狀態：** FORMAL V1 SNAPSHOT / DOCUMENT-LEVEL  
+**用途：** 固定 LIHUOOS V1.0 正式整合所指向的 exact files / blobs。  
+
+---
+
+# 0｜Formal V1 Snapshot
+
+```text
+LIHUOOS V1.0
+FORMAL SYSTEM INTEGRATION
+=
+ESTABLISHED
+```
+
+但：
+
+```text
+FORMAL DOCUMENT BASELINE
+!=
+HOST DEPLOYMENT
+
+FORMAL DOCUMENT BASELINE
+!=
+IMPLEMENTATION COMPLETION
+
+FORMAL DOCUMENT BASELINE
+!=
+WHOLE-SYSTEM EMPIRICAL VALIDATION
+```
+
+---
+
+# 1｜Primary Formal Artifacts
+
+```yaml
+FORMAL_ARTIFACTS:
+
+  SYSTEM_BASELINE:
+    file: "LIHUOOS_V1.0_FORMAL_SYSTEM_BASELINE_20261025.md"
+    blob_sha: "ccceffa0f604b7c3ce601cdc961c2bb0d5d52d7d"
+
+  FULL_BODY:
+    file: "LIHUOOS_V1.0_FORMAL_FULL_BODY_20261025.md"
+    blob_sha: "b2adcdc68ebf860910526a056722db777d09dd6c"
+
+  L0_INDEX:
+    file: "L0_INDEX_SOURCE_VERSION.md"
+    blob_sha: "9a35eb228cf73a0cc94d2182a7d1292ff7377de8"
+```
+
+---
+
+# 2｜Exact Layer Snapshot
+
+```yaml
+FORMAL_SOURCE_SNAPSHOT:
+
+  L0:
+    file: "L0_INDEX_SOURCE_VERSION.md"
+    blob_sha: "9a35eb228cf73a0cc94d2182a7d1292ff7377de8"
+
+  L1:
+    file: "L1 第五版本.md"
+    blob_sha: "79778cbfc770cf97923802aafc0367fa86d603c4"
+
+  L2:
+    file: "L2 第五版本.md"
+    blob_sha: "4081cd55aa12de6391ca20fe8f00c8c9fca0e00f"
+
+  L3:
+    file: "L3 第二版本.md"
+    blob_sha: "fac489076cb6b37776ffdcb6de11f36b1644d142"
+
+  L4:
+    file: "L4 第二版本.md"
+    blob_sha: "5d7ad061cda5ac549adf611ab1cb2b8003bbe936"
+
+  L5:
+    file: "L5 第二版本.md"
+    blob_sha: "84c3cb9f978932d99a1c9e9dbae7c9ee9fcd1274"
+
+  L6:
+    file: "L6 第二版本.md"
+    blob_sha: "f028e4c35a047e8fe6851c616ba3251a8a740418"
+
+  L7:
+    file: "L7 第二版本.md"
+    blob_sha: "a25fc8da5efcb267d6f0aec4e626748cf097e1d8"
+
+  L8:
+    file: "L8_LIHUO_OPERATING_CYCLE_V0.3_WORKING_20261025.md"
+    blob_sha: "ebddf0c4ee0fdbfa358786070b5d61e396a58640"
+    internal_version: "V0.3.1-WORKING"
+    formal_v1_standing: "OPERATIVE_BASELINE"
+
+  L9:
+    file: "L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V0.1_WORKING_20261025.md"
+    blob_sha: "4e5336b0e499e11de1a71e1e07e6c33440f5b024"
+    internal_version: "V0.1.1-WORKING"
+    formal_v1_standing: "CAPABILITY_BASELINE"
+```
+
+---
+
+# 3｜Companion Compute Engine
+
+```yaml
+MAIN_COMPUTE_ENGINE:
+  file: "理火V5系統/V5.1版本/02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md"
+  blob_sha: "f5e219c986debfea074fbf9d121367cc717dc78e"
+  relation: "COMPUTE_ENGINE_COMPANION_TO_L8"
+```
+
+Main 不是 L10，也不被 Full Body layer numbering 吃掉。
+
+---
+
+# 4｜Optional Audit / Engineering References
+
+```yaml
+OPTIONAL_AUDIT_REFERENCES:
+
+  CROSS_LAYER_EVENT:
+    file: "CROSS_LAYER_EVENT_CONTRACT_REVIEW_V0.1.1_WORKING_20261025.md"
+    blob_sha: "cc1de20da2ac8faa3dd06f144c0887e51b5b54a0"
+
+  EVIDENCE_INSTRUMENTATION:
+    file: "EVIDENCE_INSTRUMENTATION_BOUNDARY_REVIEW_V0.1.1_WORKING_20261025.md"
+    blob_sha: "ee23caddbb7c551c3ed448a7802e25c660a9c995"
+
+  OWNER_RETURN:
+    file: "OWNER_RETURN_EVIDENTIARY_CONSTITUTIVE_BOUNDARY_REVIEW_V0.1_WORKING_20261025.md"
+    blob_sha: "bd291d45a529481b3a61116960b14f4d3cac7102"
+```
+
+它們：
+
+```text
+MAY BE INVOKED WHEN NEEDED
+
+BUT ARE NOT
+
+MANDATORY EVERY-CYCLE GATES
+```
+
+---
+
+# 5｜Formal Integration Rule
+
+```text
+EXACT LAYER SOURCE
+=
+AUTHORITATIVE FOR THAT LAYER
+
+FORMAL SYSTEM BASELINE
+=
+SYSTEM-LEVEL CURRENT MAP
+
+FORMAL FULL BODY
+=
+SOURCE-PRESERVING PACKAGE
+
+FORMAL MANIFEST
+=
+EXACT SNAPSHOT RECORD
+```
+
+若任一 layer 未來改版：
+
+```text
+V1.0 SNAPSHOT
+REMAINS HISTORICAL
+
+NEW CURRENT VERSION
+REQUIRES
+NEW FORMAL MANIFEST
+```
+
+---
+
+# 6｜Architecture Lock
+
+```text
+L0–L7
+=
+MEANING / THEORY / GOVERNANCE BASIS
+
+L8
+=
+OPERATION
+
+L9
+=
+CAPABILITY
+
+MAIN
+=
+COMPUTE
+
+OWNER
+=
+OWNS ITS DECISION
+
+TOOL
+=
+DOES ITS JOB
+```
+
+---
+
+# 7｜Change Gate
+
+正式 V1 後，不因：
+
+```text
+IMAGINABLE SCHEMA EDGE CASE
+```
+
+自動修版。
+
+優先等待：
+
+```text
+REAL USE
+REAL FAILURE
+REAL MIXING
+REAL MISSING STEP
+REAL ROUTING FAILURE
+REAL TOOL WIRING FAILURE
+REAL ACCOUNTING FAILURE
+```
+
+再改。
+
+---
+
+# 8｜Final Standing
+
+```text
+LIHUOOS V1.0
+FORMAL DOCUMENT-LEVEL SYSTEM BASELINE
+=
+ESTABLISHED
+
+SOURCE SNAPSHOT
+=
+LOCKED BY THIS MANIFEST
+
+L0–L9 INTEGRATION
+=
+COMPLETE
+
+HOST DEPLOYMENT
+=
+NOT CLAIMED
+
+IMPLEMENTATION COMPLETION
+=
+NOT CLAIMED
+
+WHOLE-SYSTEM EMPIRICAL VALIDATION
+=
+NOT CLAIMED
+```
+
+> **這份 manifest 固定的是「V1.0 到底是哪一套文件」，不是宣告世界已經照它運行。**
