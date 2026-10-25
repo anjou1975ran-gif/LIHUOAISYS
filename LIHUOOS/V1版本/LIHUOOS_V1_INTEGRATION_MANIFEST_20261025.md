@@ -1,0 +1,116 @@
+# LIHUOOS V1｜INTEGRATION MANIFEST
+
+**日期：** 2026-10-25  
+**狀態：** INTEGRATION SNAPSHOT / NON_RUNTIME  
+**用途：** 固定第一次 LIHUOOS V1 Full Body 整合所使用的 L0-L7 與 closure baseline 版本。
+
+---
+
+# 0｜Integration Snapshot
+
+~~~text
+LIHUOOS V1
+INTEGRATED FULL BODY
+=
+CREATED
+~~~
+
+但：
+
+~~~text
+INTEGRATED
+!=
+RUNTIME RATIFIED
+
+INTEGRATED
+!=
+HOST DEPLOYED
+
+INTEGRATED
+!=
+EMPIRICALLY VALIDATED
+~~~
+
+---
+
+# 1｜Primary Integrated Artifact
+
+**文件：** LIHUOOS_V1_INTEGRATED_FULL_BODY_20261025.md  
+**Blob SHA：** 39201187c52116747d9182404dbf4bfa25ab2c5b
+
+---
+
+# 2｜L0 Index Artifact
+
+**文件：** L0_INDEX_SOURCE_VERSION.md  
+**Blob SHA：** 335f3acb0da27ad9c2737e4e166ed68b939000f8
+
+---
+
+# 3｜Structural Closure Baseline
+
+**文件：** LIHUOOS_V1_FULL_STRUCTURAL_CLOSURE_BASELINE_20261025.md  
+**Blob SHA：** 051fe8a93136412d4000aa6e5f93f19ce533a767
+
+---
+
+# 4｜Layer Source Snapshot
+
+~~~yaml
+SOURCE_SNAPSHOT:
+  L0: "335f3acb0da27ad9c2737e4e166ed68b939000f8"
+  L1: "79778cbfc770cf97923802aafc0367fa86d603c4"
+  L2: "4081cd55aa12de6391ca20fe8f00c8c9fca0e00f"
+  L3: "fac489076cb6b37776ffdcb6de11f36b1644d142"
+  L4: "5d7ad061cda5ac549adf611ab1cb2b8003bbe936"
+  L5: "84c3cb9f978932d99a1c9e9dbae7c9ee9fcd1274"
+  L6: "f028e4c35a047e8fe6851c616ba3251a8a740418"
+  L7: "a25fc8da5efcb267d6f0aec4e626748cf097e1d8"
+~~~
+
+---
+
+# 5｜Integration Rule
+
+~~~text
+LAYER BASELINE FILE
+=
+AUTHORITATIVE SOURCE FOR THAT LAYER
+
+INTEGRATED FULL BODY
+=
+SOURCE-PRESERVING PACKAGE
+
+INTEGRATION MANIFEST
+=
+SNAPSHOT RECORD
+~~~
+
+若未來任一 layer 改版：
+
+~~~text
+OLD FULL BODY
+REMAINS HISTORICAL SNAPSHOT
+
+NEW FULL BODY
+REQUIRES
+NEW INTEGRATION MANIFEST
+~~~
+
+---
+
+# 6｜Global Lock
+
+~~~text
+STRUCTURAL CLOSURE
+!=
+RUNTIME COMPLETION
+
+INTEGRATION
+!=
+RATIFICATION
+
+PACKAGING
+!=
+OWNER MERGER
+~~~
