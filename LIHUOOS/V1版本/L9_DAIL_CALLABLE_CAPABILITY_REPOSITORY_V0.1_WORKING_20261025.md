@@ -1,11 +1,11 @@
-# LIHUOOS V1｜L9 DAIL CALLABLE CAPABILITY REPOSITORY V0.1-WORKING
+# LIHUOOS V1｜L9 DAIL CALLABLE CAPABILITY REPOSITORY V0.1.1-WORKING
 ## 理火可調用能力倉｜DAIL-Defined Modules × Tool Registry × Runtime Binding
 ### 2026-10-25
 
 ```yaml
 DOCUMENT:
   id: LIHUOOS_L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY
-  version: V0.1-WORKING
+  version: V0.1.1-WORKING
   date: 2026-10-25
 
   status:
@@ -540,7 +540,7 @@ L9_CAPABILITY_RETURN:
 
   result_ref: REQUIRED_OR_NONE
 
-  execution_status:
+  call_execution_status:
     - SUCCESS
     - PARTIAL
     - FAILED
@@ -554,11 +554,23 @@ L9_CAPABILITY_RETURN:
 
 這個 return 只回答：
 
-> **這次 tool call 發生了什麼結果？**
+> **這次 tool call 的 implementation execution 結果是什麼？**
 
-不自動回答：
+硬鎖：
 
-> **上層應不應該相信、採用、發布。**
+```text
+TOOL CALL SUCCESS
+!=
+SEMANTIC RESULT ACCEPTED
+
+CALL EXECUTION STATUS
+!=
+TASK OUTCOME
+```
+
+所以它不自動回答：
+
+> **上層應不應該相信、採用、發布，或整體任務是否成功。**
 
 ---
 
@@ -938,7 +950,7 @@ DECIDES WHAT THE RESULT MEANS.
 # 26｜Working Standing
 
 ```text
-L9 DAIL CALLABLE CAPABILITY REPOSITORY V0.1-WORKING
+L9 DAIL CALLABLE CAPABILITY REPOSITORY V0.1.1-WORKING
 
 IDENTITY
 =
