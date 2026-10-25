@@ -1,11 +1,11 @@
-# LIHUOOS V1｜L8 LIHUO OPERATING CYCLE V0.3-WORKING
+# LIHUOOS V1｜L8 LIHUO OPERATING CYCLE V0.3.1-WORKING
 ## 理火完整業務週期｜Run One Full LIHUO Cycle + Final Receipt Checklist
 ### 2026-10-25
 
 ```yaml
 DOCUMENT:
   id: LIHUOOS_L8_LIHUO_OPERATING_CYCLE
-  version: V0.3-WORKING
+  version: V0.3.1-WORKING
   date: 2026-10-25
 
   status:
@@ -536,7 +536,8 @@ L8_FINAL_RECEIPT_CHECKLIST:
       receipt_or_return_ref: REF_OR_NONE
 
     - step_ref: MAIN_RETURN
-      requirement: REQUIRED_WHEN_MAIN_RETURNED
+      requirement: REQUIRED_WHEN_MAIN_EXECUTION_REACHED_RETURN_OBLIGATION
+      canonical_condition_ref: MAIN_EXECUTION_WAS_REACHED_ENOUGH_TO_RETURN_STATE
       status: RECEIVED | MISSING | FAILED
       receipt_or_return_ref: REF_OR_NONE
 
@@ -600,24 +601,73 @@ L8 不修 Main。
 
 ---
 
-# 14｜Cycle Complete 的最低條件
+# 14｜Cycle Accounting Complete != Cycle Successfully Completed
+
+先拆兩件事：
 
 ```text
-CYCLE COMPLETE
+CYCLE ACCOUNTING COMPLETE
+!=
+CYCLE SUCCESSFULLY COMPLETED
 ```
 
-不是：
+`CYCLE ACCOUNTING COMPLETE` 只表示：
 
 ```text
-EVERY POSSIBLE MODULE RAN
+EVERY APPLICABLE STEP
+HAS AN EXPLICIT ACCOUNTING STATE
 ```
 
-而是：
+例如：
+
+```text
+RECEIVED
+NOT_REQUIRED
+NOT_TRIGGERED
+MISSING
+FAILED
+HOLD
+CLOSED_UNRELEASED
+```
+
+所以失敗的週期也可以：
+
+```text
+ACCOUNTING COMPLETE
+=
+YES
+```
+
+但：
+
+```text
+CYCLE OUTCOME
+!=
+COMPLETED
+```
+
+最小結果分離：
+
+```yaml
+L8_CYCLE_ACCOUNTING_AND_OUTCOME:
+  accounting_status:
+    - ACCOUNTING_COMPLETE
+    - ACCOUNTING_INCOMPLETE
+
+  cycle_outcome:
+    - COMPLETED
+    - HOLD
+    - FAILED
+    - ABORTED
+    - INCOMPLETE
+```
+
+`COMPLETED` 的最低條件是：
 
 ```text
 ALL REQUIRED STEPS
 FOR THIS ACTUAL CYCLE
-HAVE A CANONICAL RESULT
+HAVE A NON-FAILURE CANONICAL RESULT
 
 AND
 
@@ -628,16 +678,21 @@ OR
 LAWFULLY NOT REQUIRED / NOT TRIGGERED
 ```
 
-若有 required item 缺失：
+若 required item 缺失：
 
 ```text
 CYCLE REPORTABLE
 =
 YES
 
-CYCLE COMPLETE
+ACCOUNTING MAY STILL BE COMPLETE
+IF THE MISSING STATE IS EXPLICITLY RECORDED
+
+BUT
+
+CYCLE OUTCOME
 =
-NO
+INCOMPLETE
 ```
 
 L8 仍然要能回報。
@@ -674,13 +729,16 @@ L8_CYCLE_REPORT:
 
   unresolved_refs: []
 
-  report_status:
-    - COMPLETE
-    - COMPLETE_WITH_NON_REQUIRED_SKIPS
-    - INCOMPLETE_MISSING_RECEIPTS
+  accounting_status:
+    - ACCOUNTING_COMPLETE
+    - ACCOUNTING_INCOMPLETE
+
+  cycle_outcome:
+    - COMPLETED
     - HOLD
     - FAILED
     - ABORTED
+    - INCOMPLETE
 ```
 
 如果使用者只要一般答案，不要求 audit report：
@@ -824,7 +882,7 @@ WHERE IT DID NOT.
 # 20｜Working Standing
 
 ```text
-L8 LIHUO OPERATING CYCLE V0.3-WORKING
+L8 LIHUO OPERATING CYCLE V0.3.1-WORKING
 
 IDENTITY
 =
@@ -851,6 +909,10 @@ FINAL ACCOUNTABILITY
 RECEIPT CHECKLIST
 +
 MISSING / FAILED / HOLD LIST
+
+ACCOUNTING COMPLETE
+!=
+SUCCESSFUL COMPLETION
 
 L0–L7 RELATION
 =
