@@ -1,31 +1,21 @@
-# LIHUOOS V1｜L0 — INDEX / SOURCE / VERSION
+# LIHUOOS V1｜L0 — INDEX / SOURCE / VERSION / ROUTING
 
-**版本：** V1.0-L0  
+**版本：** V1.0-L0.1  
 **日期：** 2026-10-25  
-**狀態：** BASELINE INDEX / SOURCE ROUTING / VERSION CONTROL  
+**狀態：** FORMAL V1 INDEX / SOURCE ROUTING / VERSION CONTROL  
 **層級：** LIHUOOS / L0  
 **法位鎖：** NON_THEORY / NON_RUNTIME / NON_NORMATIVE / NON_QUALIFICATION_AUTHORITY / NON_EXECUTION_AUTHORITY  
-**上位 baseline：** LIHUOOS_V1_FULL_STRUCTURAL_CLOSURE_BASELINE_20261025.md
+**Formal V1 Root：** LIHUOOS_V1.0_FORMAL_SYSTEM_BASELINE_20261025.md
 
 ---
 
 # L0.0｜L0 是什麼
 
-L0 不回答：
-
-> 什麼是結構？  
-> AI 如何生成？  
-> 哪個 claim 成立？  
-> 哪個 action 可執行？  
-> 哪個內容可顯影？
-
 L0 只回答：
 
-> **現在這套 LIHUOOS V1 到底由哪些文件構成、來源從哪裡來、版本關係如何、問題應該往哪一層找。**
+> **現在這套 LIHUOOS V1 由哪些文件構成、哪一份是 current source、問題應該往哪裡找、文件彼此是什麼關係。**
 
-因此：
-
-~~~text
+```text
 L0
 =
 INDEX
@@ -37,142 +27,121 @@ VERSION
 DOCUMENT RELATION
 +
 ROUTING
-~~~
+```
 
-硬鎖：
+L0 不回答理論、資格、執行或顯影本身。
 
-~~~text
-L0
+```text
+INDEX
 !=
-THEORY LAYER
-
-L0
-!=
-RUNTIME
-
-L0
-!=
-QUALIFICATION AUTHORITY
-
-L0
-!=
-EXECUTION AUTHORITY
-
-L0
-!=
-MANIFESTATION AUTHORITY
-~~~
+OWNER
+```
 
 ---
 
-# L0.1｜現行 LIHUOOS V1 總架構
+# L0.1｜LIHUOOS V1 正式總架構
 
-~~~text
-L0｜INDEX / SOURCE / VERSION
-資料、來源、版本、文件關係、路由
-
-↓
+```text
+L0｜INDEX / SOURCE / VERSION / ROUTING
+哪份文件、哪個版本、哪個問題往哪裡找
 
 L1｜STRUCTURAL PHILOSOPHY
-什麼結構有資格成立？
-
-↓
+什麼結構有資格成立
 
 L2｜SAC
-結構如何第一次變得可觀察、可描述、可形式化？
-
-↓
+結構如何變得可觀察、可描述、可形式化
 
 L3｜LIHUO THEORY FAMILY
-看見結構之後，理火分化出哪些獨立理論？
-
-↓
+問題如何分化成不同理論
 
 L4｜GENERATIVE DYNAMICS
-生成如何動？
-
-↓
+生成如何動
 
 L5｜OBSERVATION & AUDIT
-我們憑什麼說自己看見／知道？
-
-↓
+我們憑什麼說看見／知道
 
 L6｜INTERVENTION
-憑這些知道，誰有資格在何時對何物做有限改變？
-
-↓
+誰能在何時對何物做有限改變
 
 L7｜MANIFESTATION
-什麼內容有資格被指定 recipient 取得、接收或處理？
-這一 instance 現在能不能 release？
-~~~
+什麼內容能以什麼方式進入 recipient 世界
+
+L8｜LIHUO OPERATING CYCLE
+把一次理火完整跑完，並在最後對帳
+
+L9｜DAIL CALLABLE CAPABILITY REPOSITORY
+需要能力時，提供可尋址、可替換、可調用的工具與模組
+```
+
+最短讀法：
+
+```text
+L0–L7
+=
+UNDERSTANDING / THEORY /
+QUALIFICATION / GOVERNANCE BASIS
+
+L8
+=
+OPERATE ONE LIHUO CYCLE
++
+ACCOUNT FOR WHAT HAPPENED
+
+L9
+=
+PROVIDE CALLABLE CAPABILITIES
+```
 
 注意：
 
-~~~text
-THE ABOVE
+```text
+LAYER ORDER
 !=
 FIXED RUNTIME PIPELINE
-~~~
-
-它是：
-
-~~~text
-THEORY / RESPONSIBILITY / STANDING MAP
-~~~
+```
 
 ---
 
-# L0.2｜LIHUOOS Layer Number != Historical LIHUO Theory Generation Number
+# L0.2｜Main 的位置
 
-永久區分：
+Main 不新增為另一層。
 
-~~~text
-LIHUOOS L0-L7
-!=
-理火 1.0 / 2.0 / 3.0 / 4.0
-~~~
-
-例如：
-
-~~~text
-LIHUOOS L4
+```text
+MAIN
 =
-GENERATIVE DYNAMICS
+COMPUTE ENGINE
+USED BY L8 OPERATING CYCLE
+```
 
-但歷史
-理火 2.0
+所以：
+
+```text
+L8
 =
-生成動力學
-~~~
+OPERATING CYCLE
 
-兩者有 genealogy 關係，
+MAIN
+=
+COMPUTE
 
-但：
+L9
+=
+CAPABILITY REPOSITORY
+```
 
-~~~text
-SYSTEM LAYER NUMBER
-!=
-HISTORICAL THEORY GENERATION NUMBER
-~~~
-
-同理：
-
-~~~text
-歷史場性智能論中的 "L7"
-!=
-現行 LIHUOOS L7 MANIFESTATION
-~~~
+不得混型。
 
 ---
 
-# L0.3｜V1 Current Baseline Files
+# L0.3｜Formal V1 Current Source Snapshot
 
-目前 V1 closure baseline 所指向的七層：
+```yaml
+LIHUOOS_V1_FORMAL_SOURCE_SNAPSHOT:
 
-~~~yaml
-LIHUOOS_V1_BASELINE:
+  L0:
+    file: "L0_INDEX_SOURCE_VERSION.md"
+    standing: "FORMAL_INDEX"
+
   L1:
     file: "L1 第五版本.md"
     blob_sha: "79778cbfc770cf97923802aafc0367fa86d603c4"
@@ -207,547 +176,361 @@ LIHUOOS_V1_BASELINE:
     file: "L7 第二版本.md"
     blob_sha: "a25fc8da5efcb267d6f0aec4e626748cf097e1d8"
     standing: "PASS"
-~~~
 
-L0 不改寫這七層內容。
+  L8:
+    file: "L8_LIHUO_OPERATING_CYCLE_V0.3_WORKING_20261025.md"
+    blob_sha: "ebddf0c4ee0fdbfa358786070b5d61e396a58640"
+    internal_version: "V0.3.1-WORKING"
+    standing: "FORMAL_V1_OPERATIVE_BASELINE"
 
-L0 只記錄：
+  L9:
+    file: "L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V0.1_WORKING_20261025.md"
+    blob_sha: "4e5336b0e499e11de1a71e1e07e6c33440f5b024"
+    internal_version: "V0.1.1-WORKING"
+    standing: "FORMAL_V1_CAPABILITY_BASELINE"
+```
 
-> **哪一份文件在本 baseline 中代表哪一層。**
+L8 / L9 原始檔名保留歷史版本名稱；Formal V1 以 exact blob 固定其 operative source。
 
 ---
 
-# L0.4｜Full Structural Closure Baseline
+# L0.4｜Formal V1 Integration Rule
 
-Closure baseline：
-
-~~~text
-LIHUOOS_V1_FULL_STRUCTURAL_CLOSURE_BASELINE_20261025.md
-~~~
-
-核心法位：
-
-~~~text
-LIHUOOS V1
-FULL STRUCTURAL CLOSURE
+```text
+LAYER BASELINE FILE
 =
-PASS
-~~~
+AUTHORITATIVE SOURCE FOR THAT LAYER
+
+FORMAL SYSTEM BASELINE
+=
+CURRENT SYSTEM MAP
+
+FORMAL FULL BODY
+=
+SOURCE-PRESERVING PACKAGE
+
+INTEGRATION MANIFEST
+=
+EXACT SNAPSHOT RECORD
+```
+
+以及：
+
+```text
+INTEGRATION
+=
+PACKAGING
++
+NAVIGATION
++
+BASELINE PROJECTION
+
+NOT
+NEW THEORY OWNER
+```
+
+---
+
+# L0.5｜L8 的正式定位
+
+L8 只有一個核心工作：
+
+> **完整跑一趟理火；需要回報時完整回報；最後列出該收到但沒收到的 receipt / return。**
+
+```text
+L8
+DOES NOT INVENT LIHUO
+
+L8
+RUNS LIHUO
+```
+
+它不建立新 evidence system、新 event ontology、新 cross-layer court。
+
+---
+
+# L0.6｜L9 的正式定位
+
+L9 只做：
+
+```text
+REGISTER
+DISCOVER
+BIND
+CALL
+```
+
+它把可獨立叫用的功能能力從舊式 monolithic control plane 拆出來，以 DAIL 定義並綁到 implementation。
+
+```text
+L9
+CAN PROVIDE HANDS
+
+L9
+CANNOT BECOME
+THE BRAIN OR THE JUDGE
+```
+
+---
+
+# L0.7｜Routing
+
+```text
+STRUCTURE / ELIGIBILITY
+→ L1
+
+STRUCTURAL OBSERVATION / SAC
+→ L2
+
+THEORY DIFFERENTIATION
+→ L3
+
+GENERATIVE DYNAMICS
+→ L4
+
+EVIDENCE / OBSERVATION / AUDIT
+→ L5
+
+ACTION / AUTHORIZATION / INTERVENTION
+→ L6
+
+MANIFESTATION / RELEASE SEMANTICS
+→ L7
+
+RUN ONE COMPLETE LIHUO CYCLE /
+REENTRY / FINAL ACCOUNTING
+→ L8
+
+TOOLS / MODULES / PROVIDERS /
+RETRIEVAL / EXECUTION CAPABILITIES
+→ L9
+```
+
+---
+
+# L0.8｜Owner Separation
+
+```text
+STRUCTURE
+!=
+OBSERVATION
+!=
+THEORY
+!=
+DYNAMICS
+!=
+EPISTEMIC STANDING
+!=
+ACTION STANDING
+!=
+MANIFESTATION STANDING
+!=
+OPERATING CYCLE
+!=
+CAPABILITY REPOSITORY
+```
+
+以及：
+
+```text
+MAIN
+=
+COMPUTE
+
+OWNER
+=
+OWNS ITS DECISION
+
+TOOL
+=
+DOES ITS JOB
+
+L8
+=
+RUNS AND ACCOUNTS FOR THE CYCLE
+```
+
+---
+
+# L0.9｜Audit / Engineering References
+
+下列文件保留其研究價值，但不屬每次 L8 cycle 必跑程序：
+
+```text
+CROSS_LAYER_EVENT_CONTRACT_REVIEW_V0.1.1_WORKING_20261025.md
+
+EVIDENCE_INSTRUMENTATION_BOUNDARY_REVIEW_V0.1.1_WORKING_20261025.md
+
+OWNER_RETURN_EVIDENTIARY_CONSTITUTIVE_BOUNDARY_REVIEW_V0.1_WORKING_20261025.md
+```
+
+法位：
+
+```text
+OPTIONAL AUDIT NOTE
+/
+FAILURE-MODE LIBRARY
+/
+ENGINEERING TEST MATERIAL
+```
+
+可在：
+
+```text
+dispute
+external execution
+high-responsibility claim
+provider receipt ambiguity
+host evidence ambiguity
+real runtime failure
+```
+
+時調用。
 
 但：
 
-~~~text
-PASS
-=
-DOCUMENT / THEORY-ARCHITECTURE
-STRUCTURAL CLOSURE
-
+```text
 NOT
-RATIFIED RUNTIME
-NOT
-HOST DEPLOYED
-NOT
-IMPLEMENTATION COMPLETE
-NOT
-EMPIRICALLY VALIDATED AS A WHOLE
-~~~
-
-總鎖：
-
-~~~text
-STRUCTURAL CLOSURE
-!=
-RUNTIME COMPLETION
-~~~
+MANDATORY COURT
+FOR EVERY LIHUO CYCLE
+```
 
 ---
 
-# L0.5｜Source Priority
+# L0.10｜Source Priority
 
-V1 理論重建與未來修訂，來源優先級：
+V1 理論與 genealogy 來源仍遵守：
 
-~~~text
-1.
-理火體系/
-分科原典庫
+```text
+1. 理火體系 / 分科原典庫
+2. 理火總體系早期大型整合
+3. LIHUO-AI-SYS V2.3 理論接線與 SAC 中心架構
+4. V3.x / 後續成熟工程版
+5. 理火 2.0 / 3.0 / 4.0 後代理論回照
+```
 
-↓
+原則：
 
-2.
-理火總體系
-早期大型整合
-
-↓
-
-3.
-LIHUO-AI-SYS V2.3
-理論接線與 SAC 中心架構
-
-↓
-
-4.
-V3.x / 後續成熟工程版
-邊界修正與工程投影
-
-↓
-
-5.
-理火 2.0 / 3.0 / 4.0 後代理論
-作回照與現行邊界修正
-~~~
-
-核心原則：
-
-> **回原典找第一次真正看見的問題。**
-
-> **後代理論回照，但不倒灌。**
+> **回原典找第一次真正看見的問題；後代理論回照，但不倒灌。**
 
 ---
 
-# L0.6｜Source Standing
+# L0.11｜Version / Document Semantics
 
-來源狀態至少分：
-
-~~~text
-SOURCE EXISTS
-
-SOURCE NOT YET REVIEWED
-
-SOURCE NOT YET LOCATED
-
-INDEPENDENT THEORY STANDING
-NOT ESTABLISHED
-~~~
-
-並硬鎖：
-
-~~~text
-NOT FOUND IN COMPENDIUM
-!=
-NO ORIGINAL SOURCE
-~~~
-
-歷史 fragment 曾因整合完成而被刪除，
-
-不代表：
-
-> 理論沒有原始生成來源。
-
----
-
-# L0.7｜Document Classes
-
-LIHUOOS 文件至少分：
-
-~~~text
-ORIGINAL SOURCE
-歷史原典／早期理論文本
-
-HISTORICAL INTEGRATION
-舊總體系／舊主系統／成熟工程版
-
-WORKPLAN / MEMO
-施工計畫／待審問題／跨層定位
-
-LAYER BASELINE
-L1-L7 現行理論層文件
-
-CLOSURE BASELINE
-固定 full structural closure 指涉版本
-
-INTEGRATED FULL BODY
-將 L0-L7 現行 baseline 封裝成一份可讀主體
-
-ENGINEERING PROJECTION
-Runtime card / receipt / event bus /
-provider adapter / implementation schema
-
-RUNTIME RATIFICATION
-若未來真正完成 Runtime 對接後，
-另行取得的工程法位
-~~~
-
-核心：
-
-~~~text
-DOCUMENT CLASS
-!=
-THEORY STANDING
-~~~
-
----
-
-# L0.8｜Version Semantics
-
-版本名稱不得單靠：
-
-~~~text
-V0.2
-V1.0
-FINAL
-RATIFIED
-~~~
-
-自行取得 authority。
-
-必須看：
-
-~~~text
-document class
-status field
-baseline relation
-owner
-scope
-date
-source relation
-exact file identity
-~~~
-
-因此：
-
-~~~text
+```text
 VERSION LABEL
 !=
 RUNTIME AUTHORITY
 
-"FINAL"
+DOCUMENT PASS
 !=
-HOST DEPLOYED
+HOST ENFORCEMENT
 
-"RATIFIED"
-IN HISTORICAL FILE
+SCHEMA
 !=
-CURRENT LIHUOOS RATIFICATION
-~~~
-
----
-
-# L0.9｜Historical File Status vs Current Standing
-
-舊文件可以寫：
-
-~~~text
-RATIFIED
-FULL BODY
-CORE
 EXECUTION
-FINAL
-~~~
 
-這些詞先表示：
-
-> **該歷史文件在其當時系統中的法位。**
-
-不自動等於：
-
-~~~text
-CURRENT LIHUOOS V1 OWNER
-~~~
-
-因此：
-
-~~~text
-HISTORICAL OWNER
+FORMAL V1
 !=
-CURRENT OWNER
-~~~
+WHOLE-SYSTEM EMPIRICAL VALIDATION
+```
 
-以及：
+Formal V1 表示：
 
-~~~text
-HISTORICAL RUNTIME OBJECT
-!=
-CURRENT THEORY ONTOLOGY
-~~~
+> **當前 LIHUOOS 的 document-level system baseline 已整合完成。**
+
+不表示 host 已經照文件運行。
 
 ---
 
-# L0.10｜Layer Routing｜問題往哪裡找
+# L0.12｜正式版後的修版門檻
 
-若問題是：
+V1 不再因：
 
-~~~text
-什麼是結構？
-結構最低資格是什麼？
-關係、限制、穩定、合法性怎麼分？
-~~~
+```text
+"I CAN IMAGINE AN EDGE CASE"
+```
 
-→ L1
+而自動修版。
 
-若問題是：
+合理重開入口以真實使用為優先：
 
-~~~text
-如何描述／觀察結構運動？
-SAC 的歷史法位是什麼？
-Direction / Tension / Attraction / Resolution 是什麼？
-~~~
+```text
+ACTUAL CYCLE GETS STUCK
 
-→ L2
+ROLE CANNOT FIND THE NEXT OWNER
 
-若問題是：
+REQUIRED STEP IS LOST
 
-~~~text
-PATH / KAIROS / CCC / REV / SEED / SDE
-各自處理什麼問題？
-哪個只是 concept、哪個是 theory？
-~~~
+REAL TYPE COLLISION OCCURS
 
-→ L3
+TOOL CANNOT BE WIRED
 
-若問題是：
+RECEIPT CANNOT BE ACCOUNTED FOR
 
-~~~text
-Attention / PATH / Reaction Body / CG /
-Residue / History 如何共同形成生成動力？
-~~~
+A LAWFUL RESULT CANNOT PROGRESS
+```
 
-→ L4
+另保留：
 
-若問題是：
-
-~~~text
-我們真的看見了嗎？
-這是 observed / derived / inferred / proxied？
-證據支持到哪裡？
-~~~
-
-→ L5
-
-若問題是：
-
-~~~text
-誰可以改？
-現在能不能改？
-有授權嗎？
-可執行嗎？
-可回復嗎？
-~~~
-
-→ L6
-
-若問題是：
-
-~~~text
-這內容能不能顯影？
-給誰？
-透過什麼 channel？
-可不可以 release？
-release 跟 delivery 怎麼分？
-~~~
-
-→ L7
-
----
-
-# L0.11｜Cross-Layer Routing Locks
-
-~~~text
-L1 STRUCTURE
-!=
-L2 OBSERVATION
-
-L2 OBSERVATION
-!=
-L3 THEORY OWNER
-
-L3 THEORY
-!=
-L4 DYNAMICS EVENT
-
-L4 DYNAMICS
-!=
-L5 EVIDENCE
-
-L5 EPISTEMIC STANDING
-!=
-L6 ACTION STANDING
-
-L6 ACTION STANDING
-!=
-L7 MANIFESTATION STANDING
-~~~
-
-L0 的功能是：
-
-> **把問題送到正確 owner。**
-
-不是：
-
-> **替 owner 作答。**
-
----
-
-# L0.12｜Current Integration Rule
-
-V1 Full Body 整合必須：
-
-~~~text
-PRESERVE
-CURRENT LAYER TEXT
-
-PRESERVE
-LAYER BOUNDARIES
-
-PRESERVE
-OWNER SEPARATION
-
-PRESERVE
-HISTORICAL / CURRENT DISTINCTION
-
-PRESERVE
-NON-RUNTIME STATUS
-~~~
-
-禁止：
-
-~~~text
-SUMMARY REPLACES LAYER
-
-INTEGRATION REWRITES THEORY
-
-INTEGRATION CREATES NEW OWNER
-
-INTEGRATION TURNS
-L0-L7
-INTO FIXED RUNTIME PIPELINE
-~~~
-
----
-
-# L0.13｜Integrated Full Body Relationship
-
-現行整合關係：
-
-~~~text
-L0 INDEX / SOURCE / VERSION
-+
-L1-L7 CURRENT BASELINE TEXTS
-+
-FULL STRUCTURAL CLOSURE STATUS
-↓
-LIHUOOS V1 INTEGRATED FULL BODY
-~~~
-
-但：
-
-~~~text
-INTEGRATED FULL BODY
-!=
-NEW THEORY VERSION BY ITSELF
-~~~
-
-若 layer text 沒改，
-
-整合只是：
-
-~~~text
-PACKAGING / NAVIGATION / BASELINE PROJECTION
-~~~
-
----
-
-# L0.14｜Future Engineering Relationship
-
-後續可能建立：
-
-~~~text
-runtime cards
-cross-layer event contracts
-receipts
-provider adapters
-qualification engines
-execution admission objects
-release evaluation objects
-shared event refs
-host bindings
-~~~
-
-這些是：
-
-~~~text
-ENGINEERING PROJECTION
-~~~
-
-硬鎖：
-
-~~~text
-IMPLEMENTATION CONVENIENCE
-MUST NOT
-RETROACTIVELY REDEFINE
-V1 LAYER OWNERS
-~~~
-
----
-
-# L0.15｜Baseline Reopening Conditions
-
-V1 theory baseline 不因：
-
-~~~text
-工程不好做
-schema 太麻煩
-runtime 想簡化
-provider 不支援
-~~~
-
-自動重開。
-
-合理重開入口包括：
-
-~~~text
+```text
 empirical contradiction
 owner contradiction
-type collision
 cross-layer circularity
 new irreducible problem domain
 source genealogy correction
 material historical evidence
-~~~
+```
 
-因此：
+核心：
 
-~~~text
+```text
+RUNTIME FIRST
+
 ENGINEERING FRICTION
+ALONE
 !=
 THEORY FALSIFICATION
-~~~
-
-但：
-
-~~~text
-REPEATED ENGINEERING FAILURE
-MAY BECOME
-EVIDENCE REQUIRING REVIEW
-~~~
-
-前提是先經 L5 式證據審查。
+```
 
 ---
 
-# L0.16｜L0 的最短定義
+# L0.13｜Overengineering Lock
 
-> **L0 是 LIHUOOS 的地圖，不是理論的皇帝。**
+```text
+A CORRECT DISTINCTION
+DOES NOT AUTOMATICALLY REQUIRE
+A NEW RUNTIME OBJECT
+```
 
-它回答：
+以及：
 
-> **哪份文件、哪個版本、哪個來源、哪個問題，應該往哪裡找。**
+```text
+ENGINEERING GUARDRAILS
+SHOULD APPEAR
+WHERE THE SYSTEM ACTUALLY HITS A WALL
 
-總鎖：
+NOT
+TURN THE ENTIRE ROAD
+INTO GUARDRAILS
+```
 
-~~~text
-INDEX
-!=
-OWNER
+---
 
-SOURCE MAP
-!=
-TRUTH
+# L0.14｜Formal V1 最短定義
 
-VERSION MAP
-!=
-AUTHORITY
+> **L0–L7 給理火意義與邊界；L8 把理火跑完並對帳；L9 在需要手的時候提供可調用能力。**
 
-L0
-!=
-L1-L7
-~~~
+```text
+L0–L7
+UNDERSTAND / QUALIFY / GOVERN
+
+L8
+OPERATE
+
+L9
+PROVIDE CAPABILITY
+```
+
+L0 只負責指出這些東西在哪裡。
+
