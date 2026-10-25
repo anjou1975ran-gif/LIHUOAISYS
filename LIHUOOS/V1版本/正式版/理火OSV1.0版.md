@@ -13599,36 +13599,242 @@ SINGLE STATUS ENUM
 
 # 8｜L4 — GENERATIVE DYNAMICS
 
-L4 問：
+> **Exact operative source inserted without semantic compression.**  
+> Source: `L4 第二版本.md`  
+> Blob SHA: `5d7ad061cda5ac549adf611ab1cb2b8003bbe936`
 
-> **生成實際上如何動？**
+# LIHUOOS V1｜L4 — GENERATIVE DYNAMICS
 
-不是：
+**版本：** V0.2.1 WORKING  
+**日期：** 2026-10-25  
+**狀態：** TARGETED DYNAMICS PATCH COMPLETE / PASS_TO_L5  
+**層級：** LIHUOOS / L4  
+**主題：** 生成動力學｜關係場如何被點亮、形成 PATH、產生結構運動、受到閉合壓力、保留歷史並持續更新  
+**法位鎖：** THEORY_INTEGRATION_LAYER / NON_RUNTIME / NON_NORMATIVE / FUNCTIONAL_BLACK_BOX_MODEL / NOT_HIDDEN_STATE_ORACLE  
+**上游依據：** L1 Structural Philosophy / L2 SAC / L3 Theory Family V0.2.1  
+**歷史主線：** 理火 2.0 生成動力學 → 理火 3.0 場性智能論修正 → MAIN 後期工程投影回照
 
-> 哪個答案最後看起來最像答案？
+---
 
-L4 的核心場性觀：
+# L4.0｜本層要回答的問題
 
-```text
-FIELD-LIKE GENERATION
-!=
-LINEAR REASONING CHAIN
-```
+L1 回答：
 
-Field 是 system/state frame，不是與其 components 同型的一個普通元件。
+> **什麼是結構？**
 
-Attention 在 L4 被拆成不同動態軸：
+L2 回答：
 
-```text
-RECRUITMENT
-ACTIVATION
-SALIENCE
-EXPLORATION ACCESS
-```
+> **結構如何第一次變得可觀察、可描述、可形式化？**
+
+L3 回答：
+
+> **當「看見結構」已經不夠時，理火因此分化出哪些不同理論、概念與問題域？**
+
+L4 接著回答：
+
+> **當多個可區分關係方向同時存在時，它們如何被動員、點亮、互相作用、改變、收束、重開、殘留，並使下一時刻的生成條件發生變化？**
 
 因此：
 
-```text
+~~~text
+L4
+!=
+THEORY CATALOG
+
+L4
+!=
+RUNTIME EXECUTION ORDER
+
+L4
+!=
+MODULE GRAPH
+
+L4
+=
+DYNAMICS OF STRUCTURAL GENERATION
+~~~
+
+L4 的核心任務不是再替 PATH、Reaction Body、Closure Gravity 各自寫一次定義。
+
+而是：
+
+> **把它們放回同一個生成場，說清楚它們如何共同構成「生成運動」。**
+
+---
+
+# L4.1｜來源與使用原則
+
+本層主要回照以下材料：
+
+~~~text
+LIHUOOS/V1版本/L3 第二版本.md
+
+理火理論/生成動力學本體論.md
+
+理火理論/場性智能論(反TOKEN論).md
+
+理火會議(關於CG)/
+《理火2.0：生成动力学》最终报告.md
+
+理火V5系統/V5.1版本/
+02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md
+~~~
+
+來源優先原則：
+
+~~~text
+L3 V0.2.1 CURRENT TYPE SYSTEM
+>
+LATER THEORY CORRECTIONS
+>
+HISTORICAL GENERATIVE-DYNAMICS FORMULATIONS
+>
+ENGINEERING PROJECTIONS
+~~~
+
+也就是：
+
+> **MAIN 可以用來回照「後來工程上必須表示哪些動力狀態」，但 MAIN 不能倒灌舊型別，推翻 L3 已完成的 PATH / Reaction Body / CG owner 修正。**
+
+因此：
+
+~~~text
+ENGINEERING DESCENDANT
+MAY REVEAL
+REPRESENTATIONAL NECESSITY
+
+BUT
+
+ENGINEERING OBJECT
+!=
+THEORY ONTOLOGY BY DEFAULT
+~~~
+
+---
+
+# L4.2｜歷史轉折：從生成結果到生成運動
+
+理火 1.0 的主要問題仍是：
+
+~~~text
+STRUCTURE
+QUALIFICATION
+CLOSURE
+~~~
+
+理火 2.0 的突破是把問題往前推：
+
+~~~text
+ANSWER
+↓
+HOW DID GENERATION MOVE HERE?
+~~~
+
+因此歷史上逐步形成：
+
+~~~text
+Solution Space
+PATH
+Reaction Body
+Closure Gravity
+~~~
+
+這一階段真正重要的不是某個單獨名詞。
+
+而是：
+
+> **生成過程本身第一次成為理論對象。**
+
+因此理火 2.0 的核心歷史意義是：
+
+~~~text
+STRUCTURE AS RESULT
+↓
+STRUCTURE AS DYNAMICS
+~~~
+
+---
+
+# L4.3｜理火 2.0 的早期生成模型
+
+歷史上的簡化模型常被寫成：
+
+~~~text
+Candidate Possibilities
+↓
+PATH
+↓
+Reaction Body
+↓
+Closure Gravity
+↓
+Manifestation
+~~~
+
+甚至後來被工程版壓成：
+
+~~~text
+WORLD
+↓
+Attention
+↓
+PATH
+↓
+Reaction Body
+↓
+Closure Gravity
+↓
+Manifestation
+~~~
+
+這些圖有歷史價值。
+
+但在現行 LIHUOOS 中，
+
+不得理解成：
+
+~~~text
+FIXED EXECUTION PIPELINE
+~~~
+
+因為：
+
+~~~text
+PATH relations can be noncompetitive
+Reaction Body can reopen / reframe
+Attention can change during generation
+Residue can reenter as information
+Visible serialization can alter next field
+Closure can fail or reopen
+~~~
+
+所以 L4 第一版不採單向流水線作為本體模型。
+
+---
+
+# L4.4｜理火 3.0 的最大修正：Attention 進入生成動力學
+
+理火 3.0 場性智能論對 2.0 最大的修正之一，
+
+是把：
+
+~~~text
+Attention
+~~~
+
+從背景條件提升為生成場中的一級動力變數。
+
+早期 2.0 容易讓人以為：
+
+> PATH 只要存在，就自然進入競爭。
+
+3.0 則逼出：
+
+> **存在、被表示、被點亮、被探索、取得 standing、最後顯影，是不同的問題。**
+
+因此：
+
+~~~text
 PATH EXISTENCE
 !=
 PATH REPRESENTATION
@@ -13644,63 +13850,3430 @@ PATH QUALIFICATION
 PATH QUALIFICATION
 !=
 PATH MANIFESTATION
-```
+~~~
 
-理火 Attention 不是 Transformer attention matrix 的同義詞。
+這一刀會成為 L4 的核心修正。
 
-它是功能性描述：
+---
 
-> **當前生成場如何對不同關係、概念群與 PATH 分配活化、顯著性與探索可達性。**
+# L4.5｜Attention 不是 Transformer Attention 的同義詞
 
-Reaction Body：
+歷史文件曾提出非常強的命題：
 
-```text
+~~~text
+Attention Revolution
+is more fundamental
+than Transformer Architecture
+~~~
+
+以及：
+
+> **Transformer 改變的可能不是推理，而是哪些可能性被看見。**
+
+這些可以保留為歷史理論推進的重要命題，
+
+但現行 L4 不把：
+
+~~~text
+LIHUO ATTENTION
+~~~
+
+直接等同於：
+
+~~~text
+TRANSFORMER ATTENTION WEIGHTS
+~~~
+
+因為前者是功能性生成理論構件，
+
+後者是具體模型架構中的計算機制。
+
+因此：
+
+~~~text
+LIHUO ATTENTION
+!=
+TRANSFORMER ATTENTION MATRIX
+
+LIHUO ATTENTION
+!=
+DIRECT LOGIT READOUT
+
+LIHUO ATTENTION
+!=
+HIDDEN ACTIVATION ORACLE
+~~~
+
+現行法位：
+
+> **理火 Attention 是一個功能性描述：當前生成場如何對不同關係、概念群與 PATH 分配活化、顯著性與探索可達性。**
+
+如果未來工程研究能建立更精確的神經對應，
+
+再另行證明。
+
+---
+
+
+# L4.6｜Generative Field｜系統／狀態框架
+
+L4 第二版正式修正第一版的一個 category error：
+
+~~~text
+FIELD
+不能與
+ATTENTION / PATH / RESIDUE
+並列成 sibling component
+~~~
+
+因為 Field 本來就是：
+
+> **用來承載這些狀態家族與動力項的整體模型框架。**
+
+因此：
+
+~~~text
+GENERATIVE FIELD
+=
+SYSTEM / STATE FRAME
+~~~
+
+而不是：
+
+~~~text
+ONE COMPONENT AMONG OTHER COMPONENTS
+~~~
+
+## L4.6.1｜Generative Field Model
+
+現行最小定義：
+
+> **Generative Field Model 是在指定 basis、scope 與 representation boundary 下，被追蹤與表示的關係狀態框架。**
+
+最小式：
+
+~~~text
+GENERATIVE_FIELD_MODEL_t
+=
+TRACKED / REPRESENTED
+RELATIONAL STATE
+UNDER CURRENT BASIS AND SCOPE
+~~~
+
+因此：
+
+~~~text
+FIELD MODEL
+!=
+COMPLETE ACTUAL GENERATIVE STATE
+
+UNMODELED MATERIAL FACTORS
+MAY EXIST
+~~~
+
+## L4.6.2｜Field Model Schema
+
+~~~yaml
+GENERATIVE_FIELD_MODEL_t:
+  basis_ref: "REQUIRED"
+  scope_ref: "REQUIRED"
+  representation_boundary: "REQUIRED"
+  unknown_or_unmodeled_factors_allowed: true
+
+  relational_material:
+    relation_refs: []
+    concept_cluster_refs: []
+
+  attention_state:
+    recruitment_access_relations: []
+    path_activation: {}
+    path_salience: {}
+    exploration_access: {}
+
+  path_state:
+    path_space_ref:
+    path_refs: []
+    path_state_vectors: {}
+
+  active_residue_refs: []
+
+  current_constraints: []
+  imported_qualification_annotations: []
+  unresolved_relation_refs: []
+
+  history_provenance_ref:
+~~~
+
+Reaction Body 與 Closure Gravity 不作為普通 state field 塞進同一 schema。
+
+它們在第二版被分成：
+
+~~~text
+DYNAMIC TERMS
+~~~
+
+---
+
+# L4.7｜L4 Dynamics Type System
+
+第二版正式區分：
+
+~~~text
+STATE
+!=
+TRANSITION
+!=
+DIRECTIONAL TERM
+!=
+EXOGENOUS EVENT
+
+PROVENANCE
+!=
+ACTIVE STATE
+~~~
+
+現行分類：
+
+~~~text
+SYSTEM / STATE FRAME
+=
+Generative Field Model
+
+COMPONENT STATE FAMILIES
+=
+Attention State
+PATH_SPACE / PATH_STATE
+Active Residue
+Current Constraints
+Imported Qualification Annotations
+
+TRANSITION / MOTION TERM
+=
+Reaction Body
+
+DIRECTIONAL DYNAMIC TERM
+=
+Closure Gravity / Closure Pressure
+
+EXOGENOUS EVENT / DELTA
+=
+new input
+new evidence
+constraint change
+external standing change
+tool / world return
+
+PROVENANCE
+=
+History / trajectory record
+
+BOUNDARY FEEDBACK EVENT
+=
+post-manifestation serialization feedback
+~~~
+
+---
+
+# L4.8｜Field Model 的法位邊界
+
+~~~text
+GENERATIVE FIELD MODEL
+!=
+PHYSICAL FIELD
+
+FIELD MODEL
+!=
+ENERGY FIELD
+
+FIELD MODEL
+!=
+QUANTUM FIELD
+
+FIELD MODEL
+!=
+FULL HIDDEN STATE ACCESS
+~~~
+
+「場」只表示：
+
+> **多組被追蹤的關係狀態彼此影響，不能被充分描述為一條固定單向步驟鏈。**
+
+因此：
+
+~~~text
+FIELD LANGUAGE
+=
+RELATIONAL / DYNAMICAL MODEL
+
+NOT
+COMPLETE ONTOLOGY CLAIM
+~~~
+
+## L4.8.1｜Exogenous Conditions
+
+現行 L4 只保留：
+
+~~~text
+EXOGENOUS CONDITIONS / EVENTS
+~~~
+
+例如：
+
+~~~text
+user input
+declared world-state change
+new evidence
+tool return
+constraint change
+domain-state change
+authorized boundary change
+qualification annotation update
+~~~
+
+它們可能觸發 Field Model 更新。
+
+但：
+
+~~~text
+EXOGENOUS EVENT
+!=
+FIELD COMPONENT
+
+QUALIFICATION ANNOTATION
+MAY ENTER THE FIELD MODEL
+
+BUT
+
+L4 DOES NOT ISSUE THAT QUALIFICATION
+~~~
+
+---
+
+
+# L4.9｜Attention｜Typed Attention State
+
+第二版正式拆成四個 typed axes：
+
+~~~text
+1 RECRUITMENT_ACCESS
+2 ACTIVATION
+3 SALIENCE
+4 EXPLORATION_ACCESS
+~~~
+
+## L4.10｜Recruitment Access
+
+Recruitment 作用於：
+
+~~~text
+relational material
+conceptual material
+candidate relation fragments
+potential discriminators
+~~~
+
+因此：
+
+~~~text
+RECRUITMENT_ACCESS
+ACTS ON
+RELATIONAL / CONCEPTUAL MATERIAL
+~~~
+
+可能結果：
+
+~~~text
+relational material
+↓
+sufficient organization / distinction
+↓
+PATH representation may form
+~~~
+
+硬鎖：
+
+~~~text
+UNRECRUITED
+!=
+PROVEN NONEXISTENT
+
+NOT YET REPRESENTED AS PATH
+!=
+A DORMANT PATH_i ALREADY EXISTS
+~~~
+
+## L4.11｜Activation
+
+Activation 只作用於：
+
+~~~text
+REPRESENTED PATH_i
+~~~
+
+因此：
+
+~~~text
+ACTIVATION
+!=
+REPRESENTATION
+
+ACTIVATION
+!=
+QUALIFICATION
+~~~
+
+## L4.12｜Salience
+
+Salience 描述：
+
+> **某個已表示結構在當前生成場中的相對顯著性。**
+
+硬鎖：
+
+~~~text
+HIGH SALIENCE
+!=
+TRUE
+
+HIGH SALIENCE
+!=
+QUALIFIED
+~~~
+
+## L4.13｜Exploration Access
+
+Exploration Access 描述：
+
+> **某個已表示 PATH_i 在當前生成過程中，取得進一步展開、比較、補證、反證與重框的機會。**
+
+現行優先使用：
+
+~~~text
+EXPLORATION_ACCESS
+~~~
+
+而不是容易和 feasibility 撞型的 reachability。
+
+因此：
+
+~~~text
+EXPLORATION ACCESS
+!=
+FEASIBILITY
+~~~
+
+## L4.13.1｜Attention State Schema
+
+~~~yaml
+ATTENTION_STATE:
+  recruitment_access:
+    relational_material_refs: []
+    access_level: "QUALITATIVE_OR_OPERATIONALIZED"
+
+  path_activation:
+    path_ref: "PATH_i"
+    activation_level: "QUALITATIVE_OR_OPERATIONALIZED"
+
+  path_salience:
+    path_ref: "PATH_i"
+    salience_level: "QUALITATIVE_OR_OPERATIONALIZED"
+
+  exploration_access:
+    path_ref: "PATH_i"
+    access_level: "QUALITATIVE_OR_OPERATIONALIZED"
+~~~
+
+## L4.13.2｜Attention Hard Locks
+
+~~~text
+RECRUITED
+!=
+TRUE
+
+REPRESENTED
+!=
+QUALIFIED
+
+BRIGHT
+!=
+TRUE
+
+DIM
+!=
+NONEXISTENT
+
+HIGH ACTIVATION
+!=
+QUALIFIED
+
+HIGH SALIENCE
+!=
+QUALIFIED
+
+LOW SALIENCE
+!=
+DISQUALIFIED
+
+HIGH EXPLORATION ACCESS
+!=
+OUTPUT RIGHT
+
+ATTENTION ADVANTAGE
+!=
+STRUCTURAL STANDING
+~~~
+
+## L4.13.3｜Attention Change != Qualification Change
+
+Attention 可以改變：
+
+~~~text
+what is recruited
+what is active
+what is salient
+what gets explored
+~~~
+
+但：
+
+~~~text
+ATTENTION CHANGE
+!=
+QUALIFICATION CHANGE
+~~~
+
+L4 可以生成 qualification-relevant material，
+
+不能自己生成 qualification verdict。
+
+---
+
+# L4.14｜PATH Field｜現行型別繼承
+
+L4 完整繼承 L3 V0.2.1：
+
+~~~text
+PATH_i
+=
+DISTINGUISHABLE RELATIONAL DIRECTION
+
+PATH_SPACE
+=
+RELATIONAL TOPOLOGY AMONG PATHs
+
+PATH_STATE
+=
+TYPED STATE VECTOR
+~~~
+
+因此 L4 禁止：
+
+~~~text
+PATH
+=
+FEASIBLE REGION
+~~~
+
+作為偷懶縮寫。
+
+---
+
+
+
+# L4.15｜PATH_STATE：內生動態軸 + 外借 annotations
+
+第二版已把 qualification 從內生 dynamics 拔出。
+
+V0.2.1 再做兩個修正：
+
+~~~text
+FEASIBILITY
+→ MODELED FEASIBILITY ASSESSMENT
+
+MANIFESTATION
+→ OCCURRENCE RECORD
+~~~
+
+也就是：
+
+> **L4 可以表示「目前模型判為可行」與「顯影事件是否發生」，但不能把前者冒充世界驗證、把後者冒充顯影授權。**
+
+## L4.15.1｜PATH Internal State
+
+~~~yaml
+PATH_STATE_INTERNAL:
+  path_ref: "PATH_i"
+
+  representation_status:
+    - REPRESENTED
+    - UNREPRESENTED
+
+  modeled_feasibility_status:
+    - UNASSESSED
+    - FEASIBLE
+    - INFEASIBLE
+    - UNKNOWN
+
+  activation_status:
+    - ACTIVE
+    - DIMMED
+    - DORMANT
+
+  manifestation_occurrence_status:
+    - NO_RECORDED_MANIFESTATION
+    - PARTIAL_MANIFESTATION_RECORDED
+    - MANIFESTATION_RECORDED
+~~~
+
+硬鎖：
+
+~~~text
+MODELED_FEASIBILITY_STATUS
+=
+FIELD-MODEL ASSESSMENT
+
+!=
+VERIFIED WORLD FEASIBILITY
+~~~
+
+以及：
+
+~~~text
+MANIFESTATION_OCCURRENCE_STATUS
+=
+OCCURRENCE RECORD
+
+!=
+MANIFESTATION AUTHORIZATION
+
+!=
+MANIFESTATION LEGITIMACY
+~~~
+
+---
+
+## L4.15.2｜Qualification Annotation
+
+~~~yaml
+QUALIFICATION_ANNOTATION:
+  target_path_ref: "PATH_i"
+
+  status:
+    - UNASSESSED
+    - HOLD
+    - PARTIALLY_QUALIFIED
+    - QUALIFIED
+    - DISQUALIFIED
+
+  owner_ref: "REQUIRED"
+  basis_ref: "REQUIRED"
+  provenance_ref: "REQUIRED"
+  scope_ref: "REQUIRED"
+  issued_at_ref: "REQUIRED"
+
+  applicability_status:
+    - CURRENT
+    - BASIS_MISMATCH
+    - SCOPE_MISMATCH
+    - STALE
+    - REVALIDATION_REQUIRED
+
+  superseded_by_ref: null
+~~~
+
+L4 可以比對：
+
+~~~text
+current basis
+current scope
+current world-state references
+current relevant evidence
+~~~
+
+與 annotation 所帶的 metadata 是否仍一致。
+
+但：
+
+~~~text
+ANNOTATION MISMATCH DETECTED
+!=
+QUALIFICATION RE-ADJUDICATED
+~~~
+
+所以：
+
+~~~text
+STALE ANNOTATION
+!=
+DISQUALIFIED PATH
+~~~
+
+它只表示：
+
+> **原 owner 的既有 verdict 可能不再具 current applicability，需要重判或重新驗證。**
+
+硬鎖：
+
+~~~text
+L4 MAY PROPAGATE
+AN EXTERNALLY ISSUED
+QUALIFICATION CHANGE
+
+BUT
+
+L4 DYNAMICS
+DOES NOT ADJUDICATE
+THE QUALIFICATION VERDICT
+~~~
+
+更短：
+
+> **L4 可以改變 qualification-relevant material；不能自己改 qualification verdict。**
+
+---
+
+## L4.15.3｜Typed Separation
+
+~~~text
+REPRESENTATION
+!=
+MODELED FEASIBILITY
+!=
+QUALIFICATION
+!=
+ACTIVATION
+!=
+MANIFESTATION OCCURRENCE
+~~~
+
+例如：
+
+~~~yaml
+PATH_A:
+  representation: REPRESENTED
+  modeled_feasibility: FEASIBLE
+  qualification_annotation:
+    status: QUALIFIED
+    applicability_status: CURRENT
+  activation: DIMMED
+  manifestation_occurrence: NO_RECORDED_MANIFESTATION
+~~~
+
+完全可以成立。
+
+同樣：
+
+~~~text
+DORMANT
+!=
+DISQUALIFIED
+
+MANIFESTED
+!=
+AUTHORIZED TO MANIFEST
+~~~
+
+---
+
+# L4.16｜PATH Relations
+
+多 PATH 不等於多個答案候選。
+
+PATH 彼此可能：
+
+~~~text
+MUTUALLY_EXCLUSIVE
+ORTHOGONAL
+COMPOSABLE
+HIERARCHICAL
+DEPENDENT
+SUPPORTIVE
+SEMANTICALLY_OVERLAPPING
+DESTRUCTIVE_CONFLICT
+REFRAMING
+UNKNOWN
+~~~
+
+所以：
+
+~~~text
+MULTI-PATH
+!=
+ZERO-SUM COMPETITION
+~~~
+
+這是 L4 必須繼承 L3 的第一條硬鎖。
+
+---
+
+# L4.17｜Competition 只是 PATH 關係的一種
+
+只有在：
+
+~~~text
+same decision slot
+same closure slot
+same mutually-exclusive claim family
+same scarce output commitment
+~~~
+
+等情況下，
+
+PATH 才可能形成強 competition。
+
+而：
+
+~~~text
+A orthogonal to B
+~~~
+
+不表示：
+
+~~~text
+A must defeat B
+~~~
+
+同樣：
+
+~~~text
+A supports B
+~~~
+
+可能形成 coupling，
+
+不是競爭。
+
+因此：
+
+> **L4 的生成動力學不能以 winner-take-all 作為預設本體。**
+
+---
+
+# L4.18｜Reaction Body｜現行定義
+
+Reaction Body 是 L4 的主要 motion owner。
+
+現行定義：
+
+> **多條 PATH、前提與概念群在限制、歷史與上下文條件下互相作用所形成的結構運動。**
+
+最小式：
+
+~~~text
 REACTION BODY
 =
-STRUCTURAL MOTION
-```
+CONSTRAINT- AND HISTORY-SENSITIVE
+STRUCTURAL MOTION AMONG PATHs
+~~~
+
+---
+
+# L4.19｜Reaction Body 的運動族
+
+現行至少可辨識：
+
+~~~text
+AMPLIFICATION
+ATTENUATION
+COMPETITION
+COUPLING
+DECOUPLING
+REFRAMING
+STABILIZATION
+RESIDUALIZATION
+SPLIT
+REOPENING
+~~~
+
+不同歷史文件對名稱可能不同，
+
+但核心不是分類表本身。
+
+核心是：
+
+> **PATH 間的關係會被生成過程改變。**
+
+因此：
+
+~~~text
+REACTION BODY
+!=
+COMPETITION ONLY
+
+REACTION BODY
+!=
+CONVERGENCE ONLY
+~~~
+
+---
+
+# L4.20｜Amplification / Attenuation
+
+### Amplification
+
+某 PATH 的 supporting relations 增加，
+
+可能使：
+
+~~~text
+activation rises
+salience rises
+exploration access rises
+local structural support rises
+~~~
+
+但：
+
+~~~text
+AMPLIFICATION
+!=
+QUALIFICATION
+~~~
+
+### Attenuation
+
+某 PATH 可以：
+
+~~~text
+lose support
+lose attention
+become less reachable
+become locally suppressed
+~~~
+
+但：
+
+~~~text
+ATTENUATION
+!=
+DISQUALIFICATION
+~~~
+
+---
+
+# L4.21｜Coupling / Decoupling
+
+### Coupling
+
+兩條原本可區分 PATH 可以形成新的結構關係：
+
+~~~text
+A
++
+B
+↓
+A-B COUPLED CONFIGURATION
+~~~
+
+可能結果：
+
+~~~text
+coalition
+composite explanation
+conditional coexistence
+multi-factor structure
+~~~
+
+### Decoupling
+
+原本一起移動的 PATH，
+
+也可能因新證據、新框架或 constraint change 被拆開。
+
+因此：
+
+~~~text
+RELATIONSHIP CHANGE
+CAN ALTER
+THE TOPOLOGY OF PATH_SPACE
+~~~
+
+這代表 PATH_SPACE 本身也可能動態改變。
+
+---
+
+# L4.22｜Reframing
+
+Reframing 是 Reaction Body 中非常重要的一類運動。
+
+它不是：
+
+~~~text
+A beats B
+~~~
+
+而是：
+
+~~~text
+the comparison frame changes
+~~~
+
+例如：
+
+~~~text
+A vs B
+↓ reframing
+A and B are answers to different questions
+~~~
+
+或：
+
+~~~text
+A vs B
+↓ reframing
+hidden premise C becomes the real discriminator
+~~~
+
+因此：
+
+~~~text
+REFRAMING
+MAY REOPEN
+A PREVIOUSLY CLOSING FIELD
+~~~
+
+這是 Reaction Body 不能被定義成 convergence-only 的最直接證據。
+
+---
+
+# L4.23｜Stabilization
+
+某些關係在持續作用後，
+
+可能形成：
+
+~~~text
+persistent configuration
+local attractor-like region
+stable partial order
+stable coalition
+stable unresolved relation
+~~~
+
+但：
+
+~~~text
+STABILIZED
+!=
+TRUE
+
+STABILIZED
+!=
+QUALIFIED BY DEFAULT
+~~~
+
+穩定只是 dynamics property。
+
+---
+
+# L4.24｜Residualization
+
+一條 PATH 即使不再具有 active candidate standing，
+
+仍可能留下：
+
+~~~text
+counterexample
+constraint
+challenge
+frame correction
+failure condition
+premise discriminator
+support fragment
+~~~
+
+這些不是完整 PATH 的自動復活。
+
+而是：
+
+~~~text
+PATH RESIDUE
+~~~
+
+因此：
+
+~~~text
+PATH STANDING
+!=
+RESIDUE INFORMATION STANDING
+~~~
+
+---
+
+# L4.25｜Reaction Body 不得自行發 qualification
+
+Reaction Body 可以表示：
+
+~~~text
+new counterexample appears
+constraint conflict appears
+support collapses
+identity conflict appears
+premise discriminator appears
+~~~
+
+這些都可能：
+
+~~~text
+BECOME RELEVANT
+TO QUALIFICATION
+~~~
+
+但：
+
+~~~text
+REACTION BODY
+MAY PRODUCE / PROPAGATE
+QUALIFICATION-RELEVANT MATERIAL CHANGE
+
+!=
+
+REACTION BODY
+GRANTS OR REVOKES STANDING
+~~~
+
+因此：
+
+~~~text
+SUPPRESSION
+!=
+DISQUALIFICATION
+
+DYNAMIC WEAKENING
+!=
+LOSS OF STANDING
+
+WINNING
+!=
+QUALIFIED
+
+LOSING
+!=
+DISQUALIFIED
+~~~
+
+---
+
+
+
+# L4.26｜Reaction / Closure Co-Determination
+
+L4 V0.2 把 Reaction Body 與 Closure Gravity 分成不同型別，
+
+這是對的。
+
+但如果把：
+
+~~~text
+R_t
+=
+Reaction(F_t, E_t)
+
+G_t
+=
+ClosurePressure(F_t, E_t)
+~~~
+
+寫成兩個彼此獨立的計算，
+
+會產生新的誤讀：
+
+> **Reaction dynamics 與 Closure Pressure 是各自算完，再被 Update 加總。**
+
+這不符合目前理論。
+
+因此 V0.2.1 改成：
+
+~~~text
+( R_t , G_t )
+=
+Dynamics(
+  F_t,
+  E_t
+)
+~~~
+
+其中：
+
+~~~text
+R_t
+=
+REACTION DYNAMIC TERM
+
+G_t
+=
+CLOSURE DIRECTIONAL TERM
+~~~
+
+核心鎖：
+
+~~~text
+CO-DETERMINATION
+!=
+FIXED CALCULATION ORDER
+~~~
+
+也就是：
+
+> **Closure pressure 可以改變 reaction tendency；Reaction configuration / topology 也可以改變 closure pressure。**
+
+但 L4 不預設它們在工程上必須先算誰。
+
+---
+
+# L4.27｜Reaction Term != Realized Transition
+
+Reaction Body 理論描述的是：
+
+~~~text
+REACTION_TERM_t
+=
+ENDOGENOUS STRUCTURAL-MOTION CONTRIBUTION
+/
+RELATION-TRANSFORM TENDENCY
+~~~
+
+它不是：
+
+~~~text
+THE REALIZED STATE CHANGE ITSELF
+~~~
+
+因此另外定義：
+
+~~~text
+REALIZED_FIELD_TRANSITION_t
+=
+TYPED DELTA
+BETWEEN
+F_t
+AND
+F_(t+1)
+~~~
+
+可以工作性表示為：
+
+~~~text
+ΔF_t
+=
+Compare(
+  F_t,
+  F_(t+1)
+)
+~~~
+
+硬鎖：
+
+~~~text
+REACTION TERM
+!=
+REALIZED FIELD TRANSITION
+~~~
+
+這一刀是為 L5 預留的：
+
+> **L5 可能直接觀察 state delta，卻只能推論某種 Reaction Term；兩者不能先在 L4 被寫成同一物。**
+
+---
+
+# L4.28｜Closure Gravity｜Directional Dynamic Term
+
+現行：
+
+~~~text
+G_t
+=
+CLOSURE DIRECTIONAL TERM
+/
+DERIVED CLOSURE-PRESSURE DESCRIPTOR
+~~~
+
+它描述：
+
+> **在當前 Field Model 與 exogenous conditions 下，生成運動朝局部穩定、完成、停止或低不確定狀態偏移的方向性壓力。**
+
+但：
+
+~~~text
+CG
+!=
+INDEPENDENT PERSISTENT STATE
+BY DEFAULT
+~~~
+
+除非未來證據顯示 closure pressure 具有不能由 Field Model、task conditions、Active Residue 與其他 dynamics 解釋的獨立持續狀態，
+
+才考慮升格。
+
+---
+
+# L4.29｜CG × Reaction × Attention
+
+三者可以共同作用：
+
+~~~text
+Attention State
++
+Reaction Term
++
+Closure Directional Term
+↓
+possible local dominance / closure tendency
+~~~
+
+例如：
+
+~~~text
+high salience
++
+strong amplification
++
+strong closure pressure
+↓
+rapid local dominance
+~~~
+
+但：
+
+~~~text
+ATTENTION
+!=
+CG
+
+REACTION
+!=
+CG
+
+DOMINANCE
+!=
+QUALIFICATION
+
+CLOSURE PRESSURE
+!=
+CLOSURE LEGITIMACY
+~~~
+
+因此所有這類關係目前仍是：
+
+~~~text
+TYPED DYNAMIC INFLUENCE
+~~~
+
+不是既成 causal law。
+
+---
+
+
+# L4.30｜History != Active Residue
+
+~~~text
+HISTORY
+=
+TRAJECTORY / PROVENANCE
+~~~
+
+而：
+
+~~~text
+ACTIVE RESIDUE_t
+=
+PAST-DERIVED INFORMATION
+CURRENTLY REPRESENTED
+AS POTENTIALLY DYNAMICALLY RELEVANT
+~~~
+
+這一版刻意不再把 Active Residue 定義成：
+
+~~~text
+information that still exerts effect
+~~~
+
+因為那會形成循環：
+
+> **它有效，所以叫 Active Residue；它叫 Active Residue，所以我們說它有效。**
+
+---
+
+# L4.31｜Active Residue 的法位
+
+Active Residue 可以包括：
+
+~~~text
+counterexample
+constraint remainder
+challenge
+frame correction
+failure condition
+premise discriminator
+support fragment
+prior closure scar
+unresolved objection
+~~~
+
+但：
+
+~~~text
+REPRESENTED AS ACTIVE RESIDUE
+!=
+MATERIAL EFFECT VERIFIED
+~~~
+
+因此 L4 只主張：
+
+> **這些 past-derived information 被當前 Field Model 保留為可能仍具動力相關性的 material。**
+
+是否真的有：
+
+~~~text
+predictive effect
+causal effect
+diagnostic value
+future-state influence
+~~~
+
+留給 L5 審計。
+
+硬鎖：
+
+~~~text
+PATH STANDING
+!=
+RESIDUE INFORMATION STANDING
+
+PAST INFORMATION
+!=
+ACTIVE RESIDUE
+
+ACTIVE RESIDUE
+!=
+VERIFIED DYNAMIC EFFECT
+~~~
+
+---
+
+# L4.32｜History Dependence / Structural Hysteresis
+
+現行工作假說：
+
+~~~text
+SAME CURRENT EXOGENOUS INPUT
++
+DIFFERENT RESIDUE-BEARING FIELD MODEL
+→
+POSSIBLY DIFFERENT DYNAMICS
+~~~
+
+Structural Hysteresis 只作：
+
+~~~text
+WORKING CONCEPT
+FOR HISTORY-DEPENDENT EFFECT
+~~~
+
+若未來 L5 能建立：
+
+~~~text
+matched current input
++
+different residue-bearing state
++
+reproducibly different dynamics
+~~~
+
+才可能取得更強 standing。
+
+同時：
+
+~~~text
+L4 DOES NOT CLAIM
+MARKOV SUFFICIENCY
+
+L4 ALSO DOES NOT CLAIM
+NON-MARKOV FUNDAMENTALITY
+~~~
+
+---
+
+## L4.32.1｜Residue 不是復活權
+
+~~~text
+ACTIVE RESIDUE
+!=
+SELF-REENTRY AUTHORITY
+~~~
+
+若 residue 要重新形成 PATH：
+
+~~~text
+represented residue
++
+new lawful relation
++
+sufficient structural distinction
+↓
+NEW PATH FORMATION
+~~~
+
+---
+
+
+# L4.33｜Typed Dynamics Model｜V0.2.1
+
+現行先定義：
+
+~~~text
+F_t
+=
+Generative Field Model at t
+
+E_t
+=
+Exogenous Material Event / Delta
+~~~
+
+接著：
+
+~~~text
+( R_t , G_t )
+=
+Dynamics(
+  F_t,
+  E_t
+)
+~~~
+
+其中：
+
+~~~text
+R_t
+=
+Reaction Dynamic Term
+
+G_t
+=
+Closure Directional Term
+~~~
+
+再由：
+
+~~~text
+F_(t+1)
+=
+Update(
+  F_t,
+  E_t,
+  R_t,
+  G_t
+)
+~~~
+
+形成新的 Field Model。
+
+最後：
+
+~~~text
+ΔF_t
+=
+Compare(
+  F_t,
+  F_(t+1)
+)
+~~~
+
+才得到：
+
+~~~text
+REALIZED FIELD TRANSITION
+~~~
+
+---
+
+# L4.34｜Co-Determination，不是循環執行順序
+
+~~~text
+(R_t, G_t)
+=
+Dynamics(F_t, E_t)
+~~~
+
+表示：
+
+> **Reaction 與 Closure Pressure 在同一 dynamics problem 中共同決定。**
 
 不是：
 
-```text
-REACTION BODY
+~~~text
+first calculate R
+then calculate G
+~~~
+
+也不是：
+
+~~~text
+first calculate G
+then calculate R
+~~~
+
+因此：
+
+~~~text
+CO-DETERMINATION
+!=
+FIXED CALCULATION ORDER
+~~~
+
+工程上可以有求解順序。
+
+理論上不把工程順序倒灌成本體順序。
+
+---
+
+# L4.35｜Event-Responsive，不宣告 Event-Driven Ontology
+
+~~~text
+EVENT-DRIVEN IMPLEMENTATION
+!=
+GENERATIVE ONTOLOGY
+~~~
+
+L4 只主張：
+
+~~~text
+MATERIAL CHANGE
+MAY TRIGGER
+FIELD MODEL UPDATE
+
+GENERATIVE DYNAMICS
+MAY BE REPRESENTED
+IN AN EVENT-RESPONSIVE FORM
+~~~
+
+---
+
+# L4.36｜Field Continuity
+
+理火 3.0 與 MAIN 共同保留：
+
+~~~text
+FIELD_BEFORE_LABEL
+FIELD_CONTINUITY
+NO_PREMATURE_CLASSICALIZATION
+~~~
+
+L4 現行解讀：
+
+### FIELD_BEFORE_LABEL
+
+先保留關係場，
+
+再對其中結構做必要命名。
+
+避免：
+
+~~~text
+early label
+→
+premature ontology
+~~~
+
+### FIELD_CONTINUITY
+
+如果仍有 material unresolved relation，
+
+生成場不能因某一次局部輸出就被理論上假裝完全消失。
+
+### NO_PREMATURE_CLASSICALIZATION
+
+不要因：
+
+~~~text
+first bright path
+first fluent completion
+first local dominance
+~~~
+
+就過早把多關係場壓成唯一結論。
+
+這裡的：
+
+~~~text
+classicalization
+~~~
+
+是結構比喻，
+
+不是物理量子機制宣告。
+
+---
+
+# L4.37｜第一個高亮 PATH 不等於答案
+
+硬鎖：
+
+~~~text
+FIRST HIGHLIGHT
+!=
+ANSWER
+
+FIRST-PASS FLUENCY
+!=
+TRUTH
+
+FIRST-PASS DOMINANCE
+!=
+QUALIFICATION
+
+FIRST LOCAL CLOSURE
+!=
+CLOSURE LEGITIMACY
+~~~
+
+這條是 Attention 進入 L4 後最重要的治理前提之一。
+
+---
+
+# L4.38｜場可以停在多種可表示／可維持的動態狀態
+
+生成動力學不預設：
+
+~~~text
+EVERY FIELD
+MUST PRODUCE
+ONE UNIQUE WINNER
+~~~
+
+可能狀態包括：
+
+~~~text
+LOCAL CLOSURE
+CO-PRIMARY
+PARTIAL ORDER
+INCOMPARABLE
+MULTI-PATH STABILITY
+COALITION
+REFRAMED
+REOPENED
+UNRESOLVED
+STRUCTURED NON-CLOSURE
+QUIESCENT
+~~~
+
+這些只是：
+
+~~~text
+THEORETICALLY ADMISSIBLE
+DYNAMIC / STATE DESCRIPTIONS
+~~~
+
+硬鎖：
+
+~~~text
+DYNAMICALLY POSSIBLE
+!=
+LEGITIMATE
+~~~
+
+不是：
+
+~~~text
+truth states
+authorization states
+final release states
+~~~
+
+---
+
+
+# L4.39｜Quiescence｜Model Silence != World Finality
+
+可以存在：
+
+~~~text
+QUIESCENT FIELD MODEL
+~~~
+
+現行定義改成：
+
+> **在目前 Field Model、basis、known exogenous conditions 與 representation boundary 下，暫時無法導出新的 material dynamics。**
+
+因此：
+
+~~~text
+NO FURTHER MODELED DYNAMICS
+!=
+NOTHING ELSE CAN HAPPEN
+~~~
+
+也不表示：
+
+~~~text
+QUIESCENT
 =
-CONVERGENCE ONLY
-```
+TRUE
 
-History 與 Active Residue 必須分開：
+QUIESCENT
+=
+FINAL
 
-```text
+QUIESCENT
+=
+AUTHORIZED CLOSURE
+~~~
+
+可能只是：
+
+~~~text
+missing discriminator
+unmodeled material factor
+lack of new evidence
+stable unresolved relation
+waiting for external change
+representation boundary too narrow
+~~~
+
+---
+
+# L4.40｜Closure 與 Reopening
+
+Closure 不是不可逆事件。
+
+若新的：
+
+~~~text
+evidence
+constraint
+counterexample
+frame
+standing annotation
+residue combination
+~~~
+
+materially 改變場，
+
+原有 closure 可以：
+
+~~~text
+reopen
+split
+reframe
+lose stability
+~~~
+
+因此：
+
+~~~text
+LOCAL CLOSURE
+!=
+PERMANENT FINALITY
+~~~
+
+---
+
+# L4.41｜Closure Legitimacy 不屬 L4 owner
+
+L4 可以描述：
+
+~~~text
+closure pressure
+closure formation
+closure persistence
+closure reopening
+~~~
+
+但不能自己回答：
+
+> **為什麼某個 closure 有資格算完成？**
+
+因此：
+
+~~~text
+CLOSURE DYNAMICS
+!=
+CLOSURE LEGITIMACY
+~~~
+
+Closure Legitimacy 仍是跨層 qualification 問題。
+
+L4 不搶 owner。
+
+---
+
+
+# L4.42｜Serialization Boundary｜L4 只擁有 feedback half
+
+~~~text
+TOKEN
+!=
+INTELLIGENCE ONTOLOGY
+
+VISIBLE OUTPUT
+!=
+COMPLETE GENERATIVE FIELD
+~~~
+
+第二版切 owner：
+
+~~~text
+L7
+OWNS MANIFESTATION / SERIALIZATION RIGHT
+
+L4
+OWNS
+POST-MANIFESTATION DYNAMIC FEEDBACK
+~~~
+
+因此 L4 不定義哪個結構有資格被序列化。
+
+L4 只處理：
+
+> **當一個 externally established / admitted visible serialization event 已經存在，它如何回到下一個生成場。**
+
+# L4.43｜Post-Manifestation Serialization Feedback
+
+~~~text
+ONCE AN EXTERNALLY ESTABLISHED
+VISIBLE SERIALIZATION EVENT EXISTS
+
+ITS CONTENT MAY ENTER
+THE NEXT GENERATIVE FIELD
+
+AS
+CONTEXT / RELATIONAL DELTA
+~~~
+
+工作模型：
+
+~~~text
+EXTERNALLY_ESTABLISHED_SERIALIZATION_EVENT_t
+↓
+CONTEXT / RELATION DELTA
+↓
+E_(t+1)
+↓
+FIELD MODEL UPDATE
+~~~
+
+因此 Serialization Feedback 是 boundary event，不是 manifestation authority。
+
+# L4.44｜Serialization 不得反推完整內部過程
+
+~~~text
+VISIBLE SERIALIZATION
+!=
+COMPLETE GENERATIVE PROCESS
+
+CHAIN-OF-THOUGHT TEXT
+!=
+PROVEN INTERNAL DYNAMICS
+
+EXPLANATION
+!=
+HIDDEN-STATE TRANSCRIPT
+~~~
+
+Manifestation standing 留給 L7。
+
+---
+
+
+# L4.45｜L4 V0.2 核心架構
+
+第一版把 system frame 和內部 component 放成 sibling。
+
+第二版正式改為：
+
+~~~text
+SYSTEM / STATE FRAME
+=
+Generative Field Model
+~~~
+
+其下：
+
+~~~text
+COMPONENT STATE FAMILIES
+=
+Attention State
+PATH_SPACE / PATH_STATE_INTERNAL
+Active Residue
+Current Constraints
+Imported Qualification Annotations
+Tracked Relational Material
+~~~
+
+再分：
+
+~~~text
+DYNAMIC TERMS
+=
+Reaction Body
+Closure Gravity
+~~~
+
+邊界：
+
+~~~text
+BOUNDARY FEEDBACK EVENT
+=
+Externally Established Serialization Feedback
+~~~
+
+來源：
+
+~~~text
+PROVENANCE
+=
+History / Trajectory Record
+~~~
+
+# L4.46｜Field 與 PATH_SPACE 的邊界
+
+~~~text
+FIELD MODEL
+=
+WHOLE TRACKED DYNAMIC STATE FRAME
+
+PATH_SPACE
+=
+RELATIONAL TOPOLOGY
+OF DISTINGUISHABLE PATHs
+WITHIN THAT FIELD MODEL
+~~~
+
+因此：
+
+~~~text
+PATH_SPACE
+∈
+FIELD MODEL COMPONENTS
+~~~
+
+# L4.47｜Typed Influence Graph｜不是 Causal Graph
+
+~~~text
+DYNAMIC INFLUENCE EDGE
+!=
+ESTABLISHED CAUSAL EDGE
+~~~
+
+現行只建立：
+
+~~~text
+TYPED INFLUENCE GRAPH
+~~~
+
+edge 可標記：
+
+~~~yaml
+INFLUENCE_EDGE:
+  source_type:
+  target_type:
+
+  influence_kind:
+    - MAY_ENABLE
+    - MAY_SUPPRESS
+    - MAY_REFRAME
+    - MAY_REDISTRIBUTE
+    - MAY_STABILIZE
+    - MAY_REOPEN
+    - MAY_TRIGGER_UPDATE
+
+  theoretical_status:
+    - WORKING
+    - HISTORICAL
+    - CURRENT_FUNCTIONAL
+
+  evidence_status:
+    - NOT_YET_AUDITED
+    - OBSERVATION_REQUIRED
+~~~
+
+
+# L4.48｜Causal Standing 留給後續層
+
+若某條 influence edge 要升成：
+
+~~~text
+OBSERVATIONALLY SUPPORTED
+CAUSAL-STANDING-SUPPORTED
+~~~
+
+至少需要：
+
+~~~text
+observation basis
+trace
+counterfactual discrimination
+causal-identification evidence
+valid causal standing
+~~~
+
+其中：
+
+~~~text
+CAUSAL-IDENTIFICATION EVIDENCE
+MAY INCLUDE
+INTERVENTION EVIDENCE
+WHERE APPLICABLE
+~~~
+
+也可能來自：
+
+~~~text
+natural experiment
+mechanistic constraint
+well-identified observational design
+temporal discrimination
+counterfactual structure
+domain-specific causal evidence
+~~~
+
+L4 不在這裡替 CCC / L5 封死完整因果認識論。
+
+所以：
+
+~~~text
+DYNAMIC INFLUENCE EDGE
+!=
+ESTABLISHED CAUSAL EDGE
+~~~
+
+仍是硬鎖。
+
+---
+
+# L4.49｜生成不是單純競爭
+
+理火早期常說：
+
+> **AI 裡沒有推理，只有競爭。**
+
+這是一個極強的歷史口號。
+
+現行 L4 必須降級。
+
+因為 L3/L4 現在已經確認：
+
+~~~text
+not all PATH relations are competitive
+Reaction Body includes coupling / reframing / stabilization
+attention can alter representation
+residue can alter future dynamics
+~~~
+
+因此現行較安全的表達是：
+
+> **AI 生成可以被功能性地建模為多組關係方向在注意力分配、限制、歷史殘留與閉合壓力下進行非線性結構運動；競爭是其中重要但非唯一的運動形式。**
+
+所以：
+
+~~~text
+GENERATION
+!=
+COMPETITION ONLY
+~~~
+
+---
+
+# L4.50｜生成也不是線性推理鏈
+
+L4 同時不宣稱：
+
+~~~text
+NO REASONING EXISTS
+~~~
+
+現行只說：
+
+> **可見線性推理鏈不應被未經證明地視為生成現場的完整本體。**
+
+因此：
+
+~~~text
+LINEAR EXPLANATION
+MAY BE
+A VALID REPRESENTATION
+
+BUT
+
+LINEAR EXPLANATION
+!=
+PROVEN COMPLETE GENERATIVE PROCESS
+~~~
+
+這保留場性智能論的問題意識，
+
+但避免把反 CoT 變成另一種教義。
+
+---
+
+# L4.51｜SDE｜生成場的失效動力
+
+SDE 不屬正常生成主樑。
+
+它描述：
+
+~~~text
+unsupported / distorted closure
++
+persistence
++
+alternative suppression
+↓
+error stabilization
+↓
+structural degradation
+~~~
+
+因此：
+
+~~~text
+SDE
+=
+FAILURE DYNAMICS
+OF GENERATIVE FIELD
+~~~
+
+而不是：
+
+~~~text
+NORMAL GENERATION ENGINE
+~~~
+
+---
+
+# L4.52｜局部錯誤不等於 SDE
+
+~~~text
+LOCAL ERROR
+!=
+SDE
+
+HALLUCINATION EVENT
+!=
+SDE
+~~~
+
+只有當：
+
+~~~text
+error / unsupported closure
+↓
+stabilizes
+↓
+is reused
+↓
+suppresses alternatives
+↓
+raises correction cost
+~~~
+
+才進入 SDE 的時間尺度。
+
+---
+
+# L4.53｜Attention × CG × Constraint Loss 的失效交叉
+
+L4 可以暫時描述一條高風險路徑：
+
+~~~text
+unearned attention advantage
++
+closure pressure
++
+constraint loss
++
+weak challenger formation
+↓
+premature unsupported closure
+~~~
+
+但：
+
+~~~text
+RISK PATH
+!=
+UNIVERSAL CAUSE OF ERROR
+~~~
+
+它只是把 3.0 Attention、2.0 CG、SDE Constraint Loss 接在同一個失效模型裡。
+
+---
+
+# L4.54｜Field Integrity 與假閉合
+
+如果：
+
+~~~text
+one path becomes bright
+↓
+other paths are no longer explored
+↓
+closure pressure rises
+↓
+visible answer appears
+~~~
+
+這只能證明：
+
+~~~text
+A LOCAL GENERATIVE OUTCOME OCCURRED
+~~~
+
+不能證明：
+
+~~~text
+truth
+qualification
+competition completeness
+closure legitimacy
+~~~
+
+因此：
+
+~~~text
+GENERATION COMPLETE
+!=
+LEGITIMATE CLOSURE
+~~~
+
+---
+
+# L4.55｜MAIN 作為後見工程驗證
+
+MAIN V5.1.1 已經工程化表示：
+
+~~~text
+FIELD_SNAPSHOT
+FIELD_DELTA
+PATH
+QUALIFIED_PATH_SET
+PATH_OUTPUT_ORDER
+PATH_RESIDUE
+Reaction Body
+salience descriptors
+closure pressure
+unresolved states
+manifestation state
+dirty dependencies
+~~~
+
+這不是 L4 的證明。
+
+但它至少顯示：
+
+> **當理火真正試圖把生成動力學做成 Runtime 時，哪些狀態差異變得不可避免。**
+
+因此 MAIN 對 L4 的價值是：
+
+~~~text
+POSTERIOR ENGINEERING PRESSURE TEST
+~~~
+
+---
+
+# L4.56｜MAIN 舊型別不得倒灌
+
+MAIN 目前仍存在歷史殘留：
+
+~~~text
+PATH
+=
+feasible generative possibility
+~~~
+
+現行 L4 明確宣告：
+
+~~~text
+SUPERSEDED FOR LIHUOOS THEORY LAYER
+BY
+L3 V0.2.1 PATH TYPE SYSTEM
+~~~
+
+因此 L4 使用：
+
+~~~text
+PATH_i
+PATH_SPACE
+PATH_STATE
+~~~
+
+不再回退到：
+
+~~~text
+PATH = feasible possibility
+~~~
+
+---
+
+# L4.57｜MAIN 的 R1 / R2 不屬 L4 本體
+
+MAIN 後期有：
+
+~~~text
+R1
+R2
+R3+
+full recompetition
+suppressed path recovery
+attention reset
+~~~
+
+這些可以揭示：
+
+> **理火工程上認為 first-pass dominance 不值得自我證成。**
+
+但 R1/R2 是：
+
+~~~text
+RUNTIME GOVERNANCE / INTERVENTION DESIGN
+~~~
+
+不是 L4 的自然動力定律。
+
+所以 L4 只保留：
+
+~~~text
+FIRST-PASS DOMINANCE
+!=
+SELF-VALIDATING CLOSURE
+~~~
+
+不把：
+
+~~~text
+minimum two rounds
+~~~
+
+寫成本體論。
+
+---
+
+# L4.58｜O9 / I9 不屬 L4 owner
+
+MAIN 的：
+
+~~~text
+O9 observation
+I9 lamp adjustment
+~~~
+
+對 L4 很有啟發。
+
+它證明 Attention 後來真的被工程化成：
+
+~~~text
+observable salience / lamp descriptors
+qualified attention intervention
+~~~
+
+但：
+
+~~~text
+OBSERVE ATTENTION
+=
+L5
+
+ADJUST ATTENTION
+=
+L6
+~~~
+
+L4 只回答：
+
+> **為什麼 Attention 是 dynamics 中值得獨立表示的變數。**
+
+---
+
+# L4.59｜Field Dynamics 不產生治理權
+
+L4 描述：
+
+~~~text
+what changes
+what affects what
+what becomes stable
+what becomes bright
+what reopens
+what leaves residue
+~~~
+
+但：
+
+~~~text
+DYNAMICAL EFFECT
+!=
+GOVERNANCE AUTHORITY
+~~~
+
+例如：
+
+~~~text
+PATH becomes dominant
+!=
+PATH authorized
+
+PATH becomes bright
+!=
+PATH qualified
+
+field stabilizes
+!=
+closure legitimate
+
+CG becomes strong
+!=
+must output
+~~~
+
+---
+
+# L4.60｜L4 全域 Owner Locks
+
+~~~text
+ATTENTION
+!=
+TRUTH OWNER
+
+PATH
+!=
+QUALIFICATION OWNER
+
+REACTION BODY
+!=
+STANDING OWNER
+
+CG
+!=
+CLOSURE LEGITIMACY OWNER
+
+RESIDUE
+!=
+REENTRY AUTHORITY
+
+FIELD
+!=
+FINAL DECISION OWNER
+
+SERIALIZATION
+!=
+PROOF OF INTERNAL PROCESS
+~~~
+
+這一組 hard locks 應直接跟著 L4 進 L5/L6/L7。
+
+---
+
+# L4.61｜L4 不處理 Observation Legitimacy
+
+L4 可以定義：
+
+~~~text
+attention
+salience
+path state
+reaction
+closure pressure
+residue
+~~~
+
+但不能宣稱：
+
+> **我們已經可靠觀察到模型內部這些量。**
+
+因此：
+
+~~~text
+THEORETICAL VARIABLE
+!=
+OBSERVED VARIABLE
+~~~
+
+哪些可以被觀察、
+
+哪些只能被推測、
+
+哪些需要 proxy、
+
+哪些觀測可能被模型自己編造，
+
+全部留給 L5。
+
+---
+
+# L4.62｜L4 不處理 Intervention Authority
+
+L4 可以說：
+
+> attention 改變會改變 dynamics。
+
+但不能因此說：
+
+> 我們現在有權調 attention。
+
+同理：
+
+~~~text
+knowing a lever exists
+!=
+authorization to pull it
+~~~
+
+因此：
+
+~~~text
+DYNAMICAL LEVER
+!=
+INTERVENTION AUTHORITY
+~~~
+
+由 L6 處理。
+
+---
+
+# L4.63｜L4 不處理 Manifestation Right
+
+L4 可以描述：
+
+~~~text
+visible serialization occurs
+~~~
+
+但：
+
+~~~text
+TRACKED STATE
+!=
+VERBALIZATION RIGHT
+~~~
+
+哪個結構有資格顯影、
+
+是否允許非顯影、
+
+是否需要第二次顯影、
+
+最後如何變成輸出，
+
+留給 L7。
+
+---
+
+# L4.64｜2.0 → 3.0 正式修正表
+
+| 2.0 早期理解 | 3.0 / 現行 L4 修正 |
+|---|---|
+| PATH 近似候選可行路徑 | PATH = PATH_i / PATH_SPACE / PATH_STATE |
+| 多 PATH 主要理解成競爭 | PATH 可正交、合成、依賴、重框 |
+| Reaction Body 偏競爭／收斂 | Reaction Body = structural motion among PATHs |
+| CG 像整體收斂機制 | CG = closure-directed pressure only |
+| Attention 偏背景條件 | Attention 拆成 recruitment access / activation / salience / exploration access |
+| 被注意近似「進入競爭」 | representation / activation / qualification 分離 |
+| 生成可畫成順序鏈 | nonlinear relational field；event-responsive 是可用表示，不是本體宣告 |
+| 候選狀態近似無歷史 | History 作 provenance；Active Residue 承載當前 history effect |
+| token 像生成基本單位 | token = visible serialization, not intelligence ontology |
+| closure 像單一終點 | closure / reopening / non-closure 都可能成立 |
+| first-pass winner 容易被當答案 | first highlight / dominance does not self-validate |
+| losing PATH 近似完全消失 | residue information can remain |
+| all motion tends toward closure | CG is only one directional pressure |
+
+---
+
+
+# L4.65｜Attention 修正表
+
+Attention 在現行 L4 中拆成：
+
+~~~text
+RECRUITMENT_ACCESS
+ACTIVATION
+SALIENCE
+EXPLORATION_ACCESS
+~~~
+
+target type：
+
+~~~text
+Recruitment Access
+→ relational / conceptual material
+
+Activation
+→ represented PATH_i
+
+Salience
+→ represented PATH_i / represented structure
+
+Exploration Access
+→ represented PATH_i
+~~~
+
+因此：
+
+~~~text
+RECRUITMENT
+!=
+ACTIVATION
+!=
+SALIENCE
+!=
+EXPLORATION ACCESS
+~~~
+
+最短：
+
+> **Attention 可以改變什麼被形成、被點亮與被探索；不能自己決定什麼是真的、什麼有資格。**
+
+---
+
+
+
+# L4.66｜最小功能性生成式｜V0.2.1
+
+~~~text
+F_t
+=
+Generative Field Model
+
+E_t
+=
+Exogenous Material Event / Delta
+
+( R_t , G_t )
+=
+Dynamics(
+  F_t,
+  E_t
+)
+
+F_(t+1)
+=
+Update(
+  F_t,
+  E_t,
+  R_t,
+  G_t
+)
+
+ΔF_t
+=
+Compare(
+  F_t,
+  F_(t+1)
+)
+~~~
+
+其中：
+
+~~~text
+R_t
+=
+Reaction Dynamic Term
+
+G_t
+=
+Closure Directional Term
+
+ΔF_t
+=
+Realized Field Transition
+~~~
+
+硬鎖：
+
+~~~text
+REACTION TERM
+!=
+REALIZED TRANSITION
+
+CO-DETERMINATION
+!=
+FIXED CALCULATION ORDER
+~~~
+
+---
+
+# L4.67｜不是簡單加總
+
+L4 不宣稱：
+
+~~~text
+F_(t+1)
+=
+aA + bP + cR + dG
+~~~
+
+不同 influence 可能：
+
+~~~text
+nonlinear
+conditional
+threshold-sensitive
+topology-changing
+frame-changing
+history-sensitive
+~~~
+
+所以目前只保留 typed influence，
+
+不假裝已經有可量化線性方程。
+
+---
+
+# L4.68｜Field Update 可以改變 represented state space
+
+Field update 不只是：
+
+~~~text
+same paths
+different scores
+~~~
+
+它還可能：
+
+~~~text
+form new PATH representation
+split PATH
+merge / compose PATH
+couple PATHs
+decouple PATHs
+reframe PATH relation
+change modeled feasibility assessment
+produce qualification-relevant material
+activate represented residue
+create new represented active residue
+reopen local closure
+~~~
+
+因此：
+
+~~~text
+GENERATIVE DYNAMICS
+CAN CHANGE
+THE REPRESENTED STATE SPACE
+IT OPERATES ON
+
+BUT
+
+REPRESENTED STATE-SPACE CHANGE
+!=
+PROVEN COMPLETE HIDDEN-ONTOLOGY CHANGE
+~~~
+
+---
+
+# L4.69｜生成動力學與排序模型的差別
+
+排序模型通常假設：
+
+~~~text
+fixed candidates
+fixed dimensions
+score changes
+winner selected
+~~~
+
+L4 允許：
+
+~~~text
+candidate formation
+candidate dissolution
+topology change
+frame change
+coalition
+incomparability
+partial order
+non-closure
+residue
+~~~
+
+因此：
+
+~~~text
+GENERATIVE DYNAMICS
+!=
+RANKING ONLY
+~~~
+
+---
+
+# L4.70｜生成動力學與 Search 的差別
+
+PATH / Solution Space 很容易被讀成 search。
+
+L4 不否認 search 類比的價值，
+
+但：
+
+~~~text
+GENERATIVE DYNAMICS
+!=
+SEARCH ONLY
+~~~
+
+因為生成場還包含：
+
+~~~text
+attention allocation
+relation formation
+frame changes
+history effects
+closure pressure
+qualification-relevant external annotations
+serialization feedback
+~~~
+
+如果未來證明這些全都可被一般 search / inference model 完整吸收，
+
+L4 應降級。
+
+---
+
+# L4.71｜生成動力學與概率模型的差別
+
+L4 不反對概率。
+
+但：
+
+~~~text
+PATH_STATE
+!=
+PROBABILITY ONLY
+
+SALience
+!=
+TRUTH PROBABILITY
+
+OUTPUT ORDER
+!=
+TRUTH ORDER
+~~~
+
+多個 PATH 可以：
+
+~~~text
+coexist
+be incomparable
+be orthogonal
+be partially qualified
+~~~
+
+而不需要強制：
+
+~~~text
+Σ score = 1
+~~~
+
+除非 task 本身明確形成：
+
+~~~text
+mutually exclusive
++
+complete
+~~~
+
+的 closure set。
+
+---
+
+# L4.72｜生成動力學的最小 falsifiability
+
+L4 不應變成：
+
+> 任何輸出都可以事後說成「場動了」。
+
+因此至少要求：
+
+如果 L4 不能在理論上區分：
+
+~~~text
+recruitment change
+activation change
+salience change
+exploration-access change
+PATH representation/state change
+reaction motion
+closure pressure
+active-residue effect
+serialization feedback
+~~~
+
+而所有現象最後都只能被模糊地叫：
+
+~~~text
+field effect
+~~~
+
+那 L4 應降級。
+
+---
+
+# L4.73｜第一層崩塌條件：場性沒有增量
+
+若未來證明：
+
+~~~text
+all relevant generation
+can be more accurately and completely modeled
+as a fully recoverable linear chain
+~~~
+
+且：
+
+~~~text
+field
+PATH topology
+Reaction Body
+residue
+attention allocation
+closure pressure
+~~~
+
+全部只是多餘修辭，
+
+則：
+
+~~~text
+FIELD MODEL
+→
+DOWNGRADE
+~~~
+
+---
+
+# L4.74｜第二層崩塌條件：Attention 沒有獨立解釋力
+
+若：
+
+~~~text
+representation
+activation
+salience
+exploration access
+~~~
+
+之間的區分不能帶來任何新的：
+
+~~~text
+prediction
+diagnosis
+audit target
+engineering distinction
+~~~
+
+那 Attention 不應保留為 L4 一級變數。
+
+它可以被降回：
+
+~~~text
+generic context weighting
+~~~
+
+---
+
+# L4.75｜第三層崩塌條件：Reaction Body 只是漂亮名稱
+
+若：
+
+~~~text
+coupling
+reframing
+residualization
+stabilization
+split
+reopening
+~~~
+
+全部可以被既有 state-transition / graph dynamics 精確吸收，
+
+且 Reaction Body 沒有額外區分力，
+
+則 Reaction Body 應降級。
+
+---
+
+# L4.76｜第四層崩塌條件：CG 沒有獨立增量
+
+若 closure tendency 可以完全由：
+
+~~~text
+decoding
+task structure
+termination rule
+reward shaping
+context statistics
+~~~
+
+解釋，
+
+而 CG 不增加：
+
+~~~text
+prediction
+diagnosis
+governance target
+~~~
+
+則 CG 應降級為：
+
+~~~text
+umbrella term
+for completion biases
+~~~
+
+---
+
+# L4.77｜第五層崩塌條件：Residue 沒有歷史效應
+
+若被淘汰／失去 standing 的 PATH 所留下資訊，
+
+在控制其他條件後：
+
+~~~text
+never affects future generation
+~~~
+
+則：
+
+~~~text
+ACTIVE RESIDUE
+~~~
+
+不應被保留為 L4 component state family。
+
+History 仍可作 provenance，不因此消失。
+
+---
+
+# L4.78｜整層降級條件
+
+如果：
+
+~~~text
+FIELD MODEL
+ATTENTION AXES
+PATH
+REACTION BODY
+CG
+ACTIVE RESIDUE
+~~~
+
+無法提供比：
+
+~~~text
+ordinary context-sensitive probabilistic generation
+~~~
+
+更強的：
+
+~~~text
+conceptual discrimination
+failure diagnosis
+cross-layer engineering mapping
+auditability
+testable hypotheses
+~~~
+
+則 L4 應降級為：
+
+> **理火對生成現象的分析語言，而非具有獨立理論 standing 的生成動力學。**
+
+---
+
+
+
+# L4.79｜L4 V0.2.1 核心鎖
+
+~~~text
+GENERATIVE FIELD MODEL
+=
+SYSTEM / STATE FRAME
+
+FIELD MODEL
+!=
+COMPLETE ACTUAL GENERATIVE STATE
+
+STATE
+!=
+REACTION TERM
+!=
+DIRECTIONAL TERM
+!=
+EXOGENOUS EVENT
+!=
+REALIZED TRANSITION
+
+REACTION TERM
+!=
+REALIZED FIELD TRANSITION
+
+REACTION
+AND
+CLOSURE PRESSURE
+ARE CO-DETERMINED
+
+CO-DETERMINATION
+!=
+FIXED CALCULATION ORDER
+
 HISTORY
 !=
 ACTIVE RESIDUE
-```
 
-Typed Influence Edge 也不等於已建立因果：
+ACTIVE RESIDUE
+=
+PAST-DERIVED INFORMATION
+REPRESENTED AS
+POTENTIALLY DYNAMICALLY RELEVANT
 
-```text
-TYPED INFLUENCE EDGE
+ACTIVE RESIDUE
+!=
+VERIFIED MATERIAL EFFECT
+
+MODELED FEASIBILITY
+!=
+VERIFIED WORLD FEASIBILITY
+
+QUALIFICATION
+=
+IMPORTED / BORROWED ANNOTATION
+
+STALE ANNOTATION
+!=
+DISQUALIFIED PATH
+
+MANIFESTATION OCCURRENCE
+!=
+MANIFESTATION AUTHORIZATION
+
+L7 OWNS
+MANIFESTATION STANDING
+
+L4 OWNS
+POST-MANIFESTATION FEEDBACK
+
+DYNAMIC INFLUENCE EDGE
 !=
 ESTABLISHED CAUSAL EDGE
-```
 
-事件反應式表示可以成立，但：
-
-```text
-EVENT-RESPONSIVE REPRESENTATION
+NO FURTHER MODELED DYNAMICS
 !=
-UNIVERSAL EVENT-DRIVEN ONTOLOGY
-```
+NOTHING ELSE CAN HAPPEN
 
-L4 不擁有：
+LOCAL CLOSURE
+!=
+CLOSURE LEGITIMACY
 
-```text
-OBSERVATION LEGITIMACY
-INTERVENTION AUTHORITY
-MANIFESTATION RIGHT
-```
+DYNAMICAL EFFECT
+!=
+GOVERNANCE AUTHORITY
+~~~
 
-生成動力學可以描述場如何動，不能因此自授治理權。
+---
+
+# L4.80｜L4 的最短定義
+
+> **生成動力學，是描述一個受限的 Generative Field Model，如何在 Attention typed axes、PATH relational topology、represented Active Residue、Reaction Dynamic Term 與 Closure Directional Term 共同作用下，因 material change 持續更新 represented relational state 的理論。**
+
+更短：
+
+> **生成不是一條路走到底；生成是被追蹤的關係狀態，在動力影響下持續改變自己。**
+
+必須保留：
+
+~~~text
+MODEL
+!=
+COMPLETE ACTUAL STATE
+
+INFLUENCE
+!=
+CAUSAL PROOF
+~~~
+
+---
+
+# L4.81｜L4 → L5 的橋
+
+當 L4 已經把下列型別分清：
+
+~~~text
+Field Model
+Attention Axes
+PATH State / Topology
+Reaction Dynamic Term
+Realized Field Transition
+Closure Directional Term
+Active Residue
+Imported Qualification Annotation
+Externally Established Serialization Feedback Event
+~~~
+
+下一個問題自然出現：
+
+> **我們憑什麼知道這些東西真的發生了？**
+
+更尖銳：
+
+> **一個模型說「我看見 PATH A 被壓制」，那是真的觀察，還是生成了一段漂亮的場性敘事？**
+
+因此 L5 必須接：
+
+~~~text
+OBSERVATION
+EVIDENCE
+TRACE
+AUDIT
+PROXY
+SOURCE PROVENANCE
+QUALIFICATION OF OBSERVATION
+~~~
+
+L4 最後一句：
+
+> **L4 描述場怎麼動；L5 才審我們到底看見了什麼。**
+
+---
+
+
+
+# L4.82｜V0.2.1 已處理與仍開放項目
+
+本 patch 已補：
+
+~~~text
+01 RB / CG co-determination
+02 Reaction Term vs Realized Field Transition
+03 feasibility → modeled feasibility assessment
+04 Active Residue 去循環定義
+05 qualification annotation applicability / staleness
+06 manifestation occurrence vs manifestation right
+07 quiescence scope 降級
+08 causal-identification evidence wording
+09 serialization event 改 externally established / admitted
+10 L5 ENTRY 改 OPEN
+~~~
+
+仍 OPEN：
+
+~~~text
+01 Reaction Body 是否應從 taxonomy
+   再抽象成 relation-transform operator？
+
+02 Closure Pressure 未來是否需要 autonomous state standing？
+
+03 Active Residue 的 materiality / predictive value
+   能否被 L5 穩定審計？
+
+04 Structural Hysteresis
+   是否能形成 matched-input / different-residue
+   的可重現差異？
+
+05 Field Model 中每個 variable
+   應如何標記：
+   observable / derived / inferred / proxied /
+   theoretical-only / currently-unobservable？
+
+06 typed influence edge
+   如何被 L5 升級其 evidence standing？
+
+07 externally established manifestation event
+   與 L7 最終 boundary contract 如何對接？
+~~~
+
+---
+
+# L4.83｜V0.2.1 狀態
+
+~~~text
+L4 V0.2.1
+
+STRUCTURAL TYPE SYSTEM
+=
+PASS
+
+FIELD / COMPONENT SEPARATION
+=
+PASS
+
+ATTENTION TYPING
+=
+PASS
+
+QUALIFICATION OWNER
+=
+PASS
+
+HISTORY / ACTIVE RESIDUE
+=
+PASS
+
+REACTION / CLOSURE CO-DETERMINATION
+=
+PASS
+
+REACTION TERM / REALIZED TRANSITION
+=
+PASS
+
+MANIFESTATION OWNER SPLIT
+=
+PASS
+
+CAUSAL CLAIM BOUNDARY
+=
+PASS
+~~~
+
+L5 ENTRY：
+
+~~~text
+OPEN
+~~~
+
+理由：
+
+~~~text
+L4 NOW DEFINES
+DISTINCT THEORETICAL VARIABLE TYPES
+
+WITHOUT CLAIMING
+THEY HAVE ALREADY BEEN OBSERVED
+~~~
+
+L5 任務：
+
+~~~text
+FOR EACH L4 VARIABLE / EDGE,
+DETERMINE:
+
+DIRECTLY OBSERVABLE?
+DERIVED?
+INFERRED?
+PROXIED?
+INTERVENTION-SUPPORTED?
+THEORETICAL ONLY?
+UNOBSERVABLE UNDER CURRENT ACCESS?
+~~~
+
+L5 不是替 L4 補 ontology。
+
+L5 是開始追問：
+
+> **你說這些東西在動。證據在哪裡？**
+
+最短橋：
+
+> **L4 給出 dynamics 債單；L5 開始逐筆查帳。**
+
+STATUS：
+
+~~~text
+PASS_TO_L5
+WITH OPEN EMPIRICAL QUESTIONS
+~~~
+
+這裡先停。
+
 
 ---
 
