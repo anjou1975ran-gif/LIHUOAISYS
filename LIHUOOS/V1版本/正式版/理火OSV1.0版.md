@@ -6521,44 +6521,455 @@ L2 → L3 的橋：
 
 # 7｜L3 — LIHUO THEORY FAMILY
 
-L3 處理的是：
+> **Exact operative source inserted without semantic compression.**  
+> Source: `L3 第二版本.md`  
+> Blob SHA: `fac489076cb6b37776ffdcb6de11f36b1644d142`
 
-> **當 SAC 讓新問題浮現後，哪些問題已經成熟到必須取得自己的理論名字、邊界與 owner？**
+# LIHUOOS V1｜L3 — LIHUO THEORY FAMILY
 
-理火理論的分化不是軟體繼承。
+**版本：** V0.2.1 WORKING  
+**日期：** 2026-10-25  
+**狀態：** PROPAGATION PATCH / TYPE CONSISTENCY / THEORY DIFFERENTIATION MAP  
+**層級：** LIHUOOS / L3  
+**主題：** 理火理論家族｜從 SAC 生長帶到獨立問題域  
+**法位鎖：** THEORY_LAYER / WORKING / NON_NORMATIVE / NOT_RUNTIME / NOT_FIXED_PIPELINE / NOT_OWNER_BY_DEFAULT  
+**來源原則：** 回原典找「第一次看見的問題」；後代理論只做回照，不倒灌。
 
-```text
-EARLY PROBLEM SOURCE
+---
+
+# L3.0｜本層要回答的問題
+
+L1 回答：
+
+> **什麼是結構？**
+
+L2 回答：
+
+> **結構如何第一次變得可觀察、可描述、可形式化？**
+
+L3 接著回答：
+
+> **當「看見結構」已經不夠時，理火因此長出了哪些不同理論？**
+
+L3 不是：
+
+~~~text
+SAC MODULE LIST
+~~~
+
+也不是：
+
+~~~text
+RUNTIME EXECUTION ORDER
+~~~
+
+而是：
+
+> **理火理論分化史 + 各問題域的現行法位。**
+
+最核心的歷史判斷是：
+
+> **SAC 的成功，不在於它最後包辦所有問題；而在於它讓足夠多的新問題變得可見，使這些問題最後必須離開 SAC，取得自己的名字、邊界、失效條件與 owner。**
+
+因此：
+
+~~~text
+HISTORICAL INCUBATION
 !=
-LATER THEORY ALREADY EXISTED
-```
+PERMANENT SUBMODULE OWNERSHIP
+~~~
 
-也不是某理論曾承載一個問題，就永遠擁有該問題。
+---
 
-主要理論族：
 
-```text
-FIELD / TRAJECTORY FAMILY
-- Solution Space
-- PATH
-- Reaction Body
-- Closure Gravity
+# L3.1｜Historiography & Owner Locks｜歷史寫法與法位硬鎖
 
-STOP / TIMING FAMILY
-- Fail-Stop
-- KAIROS
+## 1｜Growth Band 是後見分類
 
-LANGUAGE / RESPONSIBILITY FAMILY
-- CCC
-- REV
+SAC 2.0 在現行 LIHUOOS 中被整理成：
 
-CONTINUITY / CROSS-BOUNDARY FAMILY
-- SEED
-```
+~~~text
+SAC 2.0 HISTORICAL GROWTH BAND
+~~~
 
-PATH 的現行型別必須拆開：
+但這是一個：
 
-```text
+~~~text
+RETROSPECTIVE HISTORIOGRAPHICAL CATEGORY
+~~~
+
+不是：
+
+~~~text
+SINGLE CONTEMPORANEOUS THEORY SELF-IDENTITY
+~~~
+
+也就是：
+
+> **今天我們可以看見一段理論生長帶，不表示當時每一份文件、每一次討論都已經知道自己共同構成一個統一的 SAC 2.0 歷史階段。**
+
+## 2｜早期問題來源，不等於後代理論已經存在
+
+~~~text
+EARLY PROBLEM DOMAIN
+!=
+LATER THEORY ALREADY EXISTED LATENTLY
+~~~
+
+因此：
+
+> **後來取得名字的理論，可以追溯早期問題來源；不能因此宣稱後來完整理論早已藏在 SAC 裡。**
+
+## 3｜理論分化不是軟體繼承
+
+~~~text
+THEORY DIFFERENTIATION
+!=
+SOFTWARE SUBCLASSING
+~~~
+
+後代理論可以從早期問題域分化，也可以與其他理論交叉成熟、在後期重新整合、改變 owner 與 scope。
+
+因此：
+
+> **血緣，不等於永遠隸屬。**
+
+## 4｜歷史法位與現行 owner 必須分開
+
+~~~text
+HISTORICAL SCOPE
+!=
+CURRENT OWNER
+~~~
+
+例如：
+
+~~~text
+SAC 曾經承載 responsibility / timing / re-entry 問題
+!=
+今天由 SAC 裁決 responsibility / timing / re-entry
+
+CCC-REV 曾共同生長
+!=
+今天 REV 仍是 CCC 的附屬模組
+~~~
+
+## 5｜理論定義資格類型，不等於理論本身擁有個案裁決權
+
+~~~text
+THEORY DEFINES
+A QUALIFICATION / STANDING TYPE
+
+!=
+
+THEORY OWNS
+INSTANCE ADJUDICATION
+~~~
+
+例如：
+
+~~~text
+KAIROS
+可以定義 temporal standing
+!=
+KAIROS 理論文件批准某次行動
+
+Fail-Stop
+可以定義 continuation boundary
+!=
+Fail-Stop 理論層自行發出 STOP
+
+CCC
+可以區分 Concept / Causality / Commitment standing
+!=
+CCC 自行判定世界因果成立
+~~~
+
+因此：
+
+> **理論可以定義「應該檢查什麼」，但不能因為定義了檢查類型，就自動取得對具體世界個案的裁決權。**
+
+## 6｜總表未收錄，不等於原始來源不存在
+
+~~~text
+NOT FOUND IN COMPENDIUM
+!=
+NO ORIGINAL SOURCE
+~~~
+
+因此 source audit 至少要分開：
+
+~~~text
+SOURCE EXISTS
+SOURCE NOT YET REVIEWED
+SOURCE NOT YET LOCATED
+INDEPENDENT THEORY STANDING NOT ESTABLISHED
+~~~
+
+不能把：
+
+~~~text
+規範總表沒有收錄
+~~~
+
+直接寫成：
+
+~~~text
+沒有母本
+~~~
+
+這一條尤其適用於 Basin Four、Blank Field 等歷史材料。
+
+---
+
+# L3.2｜從 SAC 到理論分化：真正的主圖
+
+SAC 最早做的是：
+
+~~~text
+STRUCTURE
+↓
+MOVEMENT
+↓
+DIRECTION / TENSION / ATTRACTION / RESOLUTION
+~~~
+
+一旦結構開始被看成「會動」，理火立刻遇到更多問題：
+
+~~~text
+哪些方向仍然存在？
+哪些方向能持續？
+為什麼會收束？
+錯誤為什麼也會穩定？
+什麼時候應該停止？
+什麼時候才有資格行動？
+語言能說到哪裡？
+因果與責任怎麼綁？
+停止後如何重新長出？
+未顯影的結構到底算不算存在？
+~~~
+
+因此 L3 採用的是多支分化圖：
+
+~~~text
+STRUCTURAL PHILOSOPHY
+        ↓
+       SAC
+        │
+        ├───────────────────────────────┐
+        │                               │
+        ▼                               ▼
+FIELD / TRAJECTORY                 STOP / TIMING
+問題                                問題
+        │                               │
+        ▼                               ▼
+Solution Space                    Fail-Stop
+        │                               │
+        ▼                               ▼
+PATH                              KAIROS
+        │
+        ▼
+Reaction Body
+        │
+        ▼
+Closure Gravity
+        │
+        ▼
+Generative Dynamics
+        │
+        ▼
+Field Intelligence
+
+        SAC / early responsibility-language problem-space
+        │
+        ├──────────────┐
+        ▼              ▼
+       CCC            REV
+        │              │
+        └──── later integration ────┘
+
+        SAC / continuity / cross-boundary problem-space
+        │
+        ▼
+       SEED
+
+        PATH / Reaction Body / Closure problem-space
+        │
+        ▼
+       SDE
+~~~
+
+這張圖不是固定家譜。
+
+圖中所有箭頭統一受以下硬鎖：
+
+~~~text
+ALL ARROWS IN THIS MAP
+=
+HISTORICAL PROBLEM EMERGENCE
+/
+THEORY DIFFERENTIATION
+
+NOT
+EXECUTION ORDER
+
+NOT
+MANDATORY DEPENDENCY
+
+NOT
+RUNTIME PIPELINE
+~~~
+
+它表示：
+
+> **問題域如何逐漸分化。**
+
+不是：
+
+> **系統執行時必須照箭頭依序流動。**
+
+---
+
+
+# L3.3｜第一族：FIELD / TRAJECTORY｜生成結構族
+
+這一族回答：
+
+> **當結構開始運動時，哪些方向存在、哪些關係仍可展開、它們如何互相作用，又為什麼會受到閉合壓力？**
+
+本族先拆成：
+
+~~~text
+FOUNDATIONAL CONCEPT
+=
+Solution Space
+
+CORE THEORIES
+=
+PATH
+Reaction Body
+Closure Gravity
+~~~
+
+Solution Space 是生成動力學使用的基礎概念，
+
+不是獨立 L3 理論。
+
+PATH、Reaction Body、Closure Gravity 才是這一族目前確認的核心理論。
+
+真正的動力接線留給 L4。
+
+---
+
+# L3.4｜Solution Space｜解空間
+
+## source_standing
+
+目前最規範的來源之一，是《理火體系.md》中的：
+
+> **〈解空間、收斂與顯影：AI生成背後的動力學，以及理火如何干預它〉**
+
+該文件把「解空間」描述成：
+
+> **所有可能答案／路徑尚未穩定下來以前的多可能狀態。**
+
+歷史版本使用了很強的說法：
+
+~~~text
+所有可能路徑同時存在
+AI 內部已經有巨大解空間
+收斂後只剩主導路徑
+~~~
+
+這些可以保存為歷史 functional model，
+
+但不能直接升格成：
+
+~~~text
+PROVEN HIDDEN-STATE ONTOLOGY
+~~~
+
+## origin_question
+
+> **在任何一條路徑取得局部穩定以前，系統應如何描述仍然存在競爭可能的候選方向？**
+
+這就是 Solution Space 的問題。
+
+## current_standing
+
+現行 LIHUOOS 採：
+
+> **Solution Space 是在當前問題、條件與可用表示下，尚未被排除、仍可被提出或比較的候選結構可能空間。**
+
+最小式：
+
+~~~text
+SOLUTION SPACE
+=
+FUNCTIONAL CANDIDATE POSSIBILITY SPACE
+~~~
+
+而不是：
+
+~~~text
+COMPLETE PRE-EXISTING INTERNAL ANSWER STORE
+~~~
+
+## independent_identity
+
+目前規範總表沒有把 Solution Space 發展成一套具有自己 owner、失效條件與獨立 genealogy 的完整理論。
+
+它主要出現在：
+
+~~~text
+PATH
+Reaction Body
+Convergence
+Manifestation
+Generative Dynamics
+~~~
+
+的共同語彙中。
+
+因此本版正式降級：
+
+~~~text
+STATUS
+=
+FOUNDATIONAL GENERATIVE CONCEPT
+
+NOT
+INDEPENDENT L3 THEORY
+~~~
+
+## relation_to_PATH
+
+Solution Space 與 PATH 必須分開。
+
+~~~text
+SOLUTION SPACE
+=
+WHAT MAY STILL BE CONSIDERED
+
+PATH_SPACE
+=
+HOW DISTINGUISHABLE RELATIONAL DIRECTIONS
+ARE ORGANIZED UNDER CURRENT CONSTRAINTS
+
+PATH_FEASIBILITY
+=
+ONE TYPED ASSESSMENT
+OF A GIVEN PATH_i
+UNDER CURRENT CONSTRAINTS
+~~~
+
+因此：
+
+~~~text
+SOLUTION SPACE
+!=
+PATH_SPACE
+
 PATH_SPACE
 !=
 PATH_i
@@ -6566,6 +6977,673 @@ PATH_i
 PATH_i EXISTENCE
 !=
 PATH_i FEASIBILITY
+~~~
+
+核心不是把 PATH 再壓回 feasible region，
+
+而是：
+
+> **Solution Space 描述候選可能；PATH_SPACE 描述可區分方向及其關係；Feasibility 只是對某一 PATH_i 的一個 typed assessment。**
+
+## relation_to_Reaction_Body
+
+Solution Space 提供 multiplicity。
+
+Reaction Body 描述候選方向如何互作、競爭、壓縮與收斂。
+
+因此：
+
+~~~text
+SOLUTION SPACE
+!=
+REACTION BODY
+~~~
+
+前者是候選可能空間概念。
+
+後者才是生成競爭與收斂的動力模型。
+
+## historical_claims_to_downgrade
+
+以下歷史說法不直接作為現行硬命題：
+
+~~~text
+所有可能性真的同時完整存在
+答案在生成前已全部完成
+只有一條路徑能真正存在
+輸出只是已完成收斂的回放
+~~~
+
+現行保留的最低洞見是：
+
+> **在局部 closure 之前，生成不應被理論上預設成只有單一候選方向。**
+
+## current_minimum_definition
+
+> **Solution Space 是 closure 之前仍可參與生成競爭的功能性候選可能空間。**
+
+最短一句：
+
+> **解空間不是一套獨立理論；它是生成動力學用來描述「還沒有只剩一條路」的基礎概念。**
+
+---
+
+
+# L3.5｜PATH｜關係方向、拓撲與狀態
+
+## origin_question
+
+SAC 讓理火看見：
+
+> **結構具有方向、張力、吸引與收束。**
+
+但當多個可能方向同時存在時，
+
+問題不只剩：
+
+> 哪些地方還能走？
+
+還包括：
+
+> **什麼算是一條可區分的 PATH？多條 PATH 彼此是互斥、正交、可合成、階層、支持、依賴，還是框架改寫？一條 PATH 現在到底處於什麼狀態？**
+
+因此 PATH 不能只被壓成：
+
+~~~text
+FEASIBLE REGION
+~~~
+
+否則會把：
+
+~~~text
+PATH space
+PATH instance
+PATH status
+~~~
+
+混成同一型別。
+
+## historical_claim
+
+PATH 的歷史版本曾提出：
+
+~~~text
+AI = PATH
+
+PATH
+=
+約束條件下可維持一致性的可行結構
+
+答案不是被創造
+而是 PATH 的顯影
+~~~
+
+後來 PATH 又被描述成：
+
+~~~text
+軌跡
+候選方向
+結構痕跡
+可行域
+顯影路徑
+~~~
+
+這些歷史語言共同指出：
+
+> **PATH 從來不只是一個「區域」名詞，也不只是一條線。**
+
+後來理火理論更進一步承認 PATH 之間可以具有：
+
+~~~text
+互斥
+正交
+可合成
+階層
+語義重疊
+支持
+破壞性衝突
+框架改寫
+依賴
+未知
+~~~
+
+所以現行 LIHUOOS 必須做 type normalization。
+
+## current_type_normalization
+
+以下三型別是：
+
+~~~text
+LIHUOOS NORMALIZATION
+~~~
+
+不是宣稱歷史原典一開始就使用這三個名稱。
+
+### PATH_SPACE｜PATH 場／拓撲
+
+> **在當前關係、限制與問題基底下，所有可區分 PATH 及其關係所形成的結構拓撲。**
+
+~~~text
+PATH_SPACE
+=
+CONSTRAINT-CONDITIONED
+RELATIONAL POSSIBILITY TOPOLOGY
+~~~
+
+它描述：
+
+~~~text
+哪些 PATH 可被區分
+彼此如何關聯
+哪些相容
+哪些互斥
+哪些可合成
+哪些具有階層或依賴
+~~~
+
+PATH_SPACE 不是單一 PATH。
+
+### PATH_i｜PATH 個體／成分
+
+> **在 PATH_SPACE 中，一個可被區分、可被追蹤、具有成立與失效邊界的關係方向、成分或配置。**
+
+最小式：
+
+~~~text
+PATH_i
+=
+DISTINGUISHABLE
+RELATIONAL DIRECTION / COMPONENT / CONFIGURATION
+~~~
+
+因此：
+
+~~~text
+PATH_SPACE
+!=
+PATH_i
+~~~
+
+一個 PATH_i 可以是：
+
+~~~text
+前提方向
+反例方向
+尺度方向
+法域方向
+角色位置
+未完成因果
+限制方向
+責任位置
+框架改寫方向
+~~~
+
+只要它具有足夠的可區分作用與邊界。
+
+
+### PATH_STATE｜PATH 型別狀態向量
+
+同一個 PATH_i 可以在同一時刻同時具有多個彼此正交的狀態。
+
+因此不能把：
+
+~~~text
+EXISTS
+FEASIBLE
+QUALIFIED
+DIMMED
+DORMANT
+DISQUALIFIED
+MANIFESTED
+~~~
+
+塞成單一 enum。
+
+現行改為：
+
+~~~text
+PATH_STATE
+=
+TYPED STATE VECTOR
+~~~
+
+例如：
+
+~~~yaml
+PATH_i:
+  representation_status: REPRESENTED
+  feasibility_status: FEASIBLE
+  qualification_status: QUALIFIED
+  activation_status: DIMMED
+  manifestation_status: UNMANIFESTED
+~~~
+
+至少分成：
+
+~~~text
+representation_status
+feasibility_status
+qualification_status
+activation_status
+manifestation_status
+~~~
+
+其中：
+
+### representation_status
+
+回答：
+
+> **這條 PATH 是否已被形成、表示或可辨識？**
+
+例如：
+
+~~~text
+UNREPRESENTED
+REPRESENTED
+~~~
+
+### feasibility_status
+
+回答：
+
+> **在當前限制下，這條 PATH 是否仍具有結構可行性？**
+
+例如：
+
+~~~text
+UNKNOWN
+FEASIBLE
+INFEASIBLE
+~~~
+
+### qualification_status
+
+回答：
+
+> **依適用 qualification basis，這條 PATH 是否取得相應 standing？**
+
+例如：
+
+~~~text
+UNASSESSED
+QUALIFIED
+DISQUALIFIED
+HOLD
+~~~
+
+### activation_status
+
+回答：
+
+> **這條 PATH 目前在生成場中取得多少局部亮度／可達性／活化？**
+
+例如：
+
+~~~text
+ACTIVE
+DIMMED
+DORMANT
+~~~
+
+### manifestation_status
+
+回答：
+
+> **這條 PATH 是否已取得可見顯影？**
+
+例如：
+
+~~~text
+UNMANIFESTED
+PARTIALLY_MANIFESTED
+MANIFESTED
+~~~
+
+因此：
+
+~~~text
+PATH_IDENTITY
+!=
+PATH_STATE
+
+REPRESENTATION
+!=
+FEASIBILITY
+!=
+QUALIFICATION
+!=
+ACTIVATION
+!=
+MANIFESTATION
+~~~
+
+最重要的是：
+
+~~~text
+QUALIFIED
++
+DIMMED
++
+UNMANIFESTED
+~~~
+
+可以同時成立。
+
+同樣：
+
+~~~text
+DORMANT
+!=
+DISQUALIFIED
+~~~
+
+因為前者是 activation 狀態，
+
+後者是 qualification 狀態。
+
+## relation_to_Solution_Space
+
+## relation_to_Solution_Space
+
+Solution Space 描述：
+
+~~~text
+WHAT MAY STILL BE CONSIDERED
+~~~
+
+PATH_SPACE 描述：
+
+~~~text
+HOW DISTINGUISHABLE RELATIONAL DIRECTIONS
+ARE ORGANIZED UNDER CURRENT CONSTRAINTS
+~~~
+
+而 PATH_i 是其中可追蹤的關係成分。
+
+因此：
+
+~~~text
+SOLUTION SPACE
+!=
+PATH_SPACE
+!=
+PATH_i
+~~~
+
+## relation_to_SAC
+
+SAC 問：
+
+> **關係現在如何運動？**
+
+PATH 問：
+
+> **哪些可區分關係方向存在、它們彼此如何配置、哪些仍可展開？**
+
+因此：
+
+~~~text
+SAC Direction
+may help identify
+PATH_i
+
+SAC Observation
+may describe motion
+within PATH_SPACE
+~~~
+
+但：
+
+~~~text
+SAC Direction
+!=
+PATH_i
+
+SAC
+!=
+PATH owner
+~~~
+
+## relation_to_Reaction_Body
+
+PATH 提供：
+
+~~~text
+distinguishable relational directions
++
+their topology / current statuses
+~~~
+
+Reaction Body 則描述：
+
+> **這些 PATH 如何在生成中互相作用、改變彼此並形成結構運動。**
+
+因此：
+
+~~~text
+PATH
+=
+STRUCTURAL DIRECTIONS / TOPOLOGY
+
+REACTION BODY
+=
+STRUCTURAL MOTION AMONG PATHS
+~~~
+
+## feasibility_is_only_one_status
+
+第一版曾把 PATH 核心壓成：
+
+~~~text
+PATH
+=
+FEASIBLE REGION
+~~~
+
+第二版正式修正：
+
+> **Feasibility 是 PATH 的重要狀態問題，但不是 PATH 的全部本體。**
+
+一個 PATH_i 可以：
+
+~~~text
+存在
+但不可行
+
+存在且可行
+但未取得 qualification
+
+取得 qualification
+但當前 activation 很低
+
+高 activation
+但不應顯影
+~~~
+
+因此：
+
+~~~text
+PATH THEORY
+!=
+FEASIBILITY THEORY ONLY
+~~~
+
+## path_relations_are_not_all_competition
+
+後來理火的一個重要修正是：
+
+> **多 PATH 不等於所有 PATH 都在爭同一個答案位置。**
+
+因為 PATH 之間可能：
+
+~~~text
+互斥
+正交
+可合成
+階層
+依賴
+互相支持
+改寫彼此框架
+~~~
+
+所以：
+
+~~~text
+MULTIPLE PATHS
+!=
+ZERO-SUM COMPETITION
+~~~
+
+只有真正互斥、爭奪同一 closure 位置的 PATH，
+
+才需要被當成直接競爭候選。
+
+## historical_static_dynamic_distinction
+
+歷史 PATH 曾使用：
+
+~~~text
+本體 PATH
+=
+靜態可行結構集合
+
+顯影 PATH
+=
+當前條件下可達部分
+~~~
+
+也曾寫：
+
+~~~text
+PATH 不動
+Reaction Body 在動
+~~~
+
+這些說法的重要價值，
+
+是要求把：
+
+~~~text
+path identity / topology
+~~~
+
+和：
+
+~~~text
+motion / activation / manifestation
+~~~
+
+分開。
+
+但現行 LIHUOOS 不接受一個永遠不變的 metaphysical PATH。
+
+當 constraints、basis、world state、evidence、task、responsibility relation 發生變化時，
+
+PATH_SPACE 與 PATH_STATE 各軸都可能改變。
+
+## owner_boundary
+
+PATH 不自行決定：
+
+~~~text
+truth
+qualification adjudication
+authorization
+timing
+responsibility
+output right
+final closure
+~~~
+
+因此：
+
+~~~text
+PATH EXISTS
+!=
+PATH TRUE
+
+PATH EXISTS
+!=
+PATH FEASIBLE
+
+PATH FEASIBLE
+!=
+PATH QUALIFIED
+
+PATH QUALIFIED
+!=
+PATH AUTHORIZED
+
+PATH QUALIFIED
+!=
+PATH OUTPUT RIGHT
+~~~
+
+PATH 理論可以定義不同 PATH 類型與狀態問題，
+
+但不因而取得個案裁決權。
+
+## current_minimum_definition
+
+> **PATH 是在當前限制與問題基底中，可被區分並追蹤的關係展開方向；PATH_SPACE 則是這些 PATH 及其相互關係形成的拓撲。**
+
+最短式：
+
+~~~text
+PATH_i
+=
+DISTINGUISHABLE RELATIONAL DIRECTION
+
+PATH_SPACE
+=
+RELATIONAL TOPOLOGY AMONG PATHs
+
+PATH_STATE
+=
+TYPED STATE VECTOR OF A PATH
+~~~
+
+## claims_to_retire_or_downgrade
+
+以下歷史命題不得直接保留為現行硬命題：
+
+~~~text
+AI = PATH
+PATH = AI 本體
+PATH 永遠完全靜態
+所有可能答案事先完整存在
+不可行結構一定自動消失
+最終一定只剩唯一 PATH
+PATH existence = legitimacy
+PATH = generation engine
+所有 PATH 都必須互相競爭
+~~~
+
+## downgrade_condition
+
+若 PATH_i、PATH_SPACE、PATH_STATE、PATH_TOPOLOGY 無法提供比一般 candidate set、search space、constraint graph、state labeling 更有價值的解釋、預測、審計或治理區分，
+
+PATH 理論應降級。
+
+## L3 PATH core lock
+
+~~~text
+SOLUTION SPACE
+!=
+PATH_SPACE
+
+PATH_SPACE
+!=
+PATH_i
+
+PATH_IDENTITY
+!=
+PATH_STATE
+
+PATH EXISTENCE
+!=
+PATH FEASIBILITY
 
 PATH FEASIBILITY
 !=
@@ -6574,39 +7652,1237 @@ PATH QUALIFICATION
 PATH QUALIFICATION
 !=
 PATH MANIFESTATION
-```
 
-PATH 之間也不只競爭，還可能：
+MULTIPLE PATHS
+!=
+ZERO-SUM COMPETITION
+~~~
+
+最短一句：
+
+> **PATH 不是只有「哪些地方能走」；它同時要求我們分清「整個路網」「其中一條可辨識方向」與「這條方向目前處於什麼狀態」。**
+
+---
+
+
+# L3.6｜Reaction Body｜反應體
+
+## origin_question
+
+PATH 讓理火能區分：
+
+~~~text
+不同關係方向
+不同 PATH 類型
+不同 PATH 關係
+~~~
+
+但光有 PATH 還不夠。
+
+新的問題是：
+
+> **這些 PATH 在生成中如何互相作用？一條 PATH 的變化，會不會放大、壓低、拆散、重組、重框另一條 PATH？**
+
+因此反應體真正的核心不是：
+
+~~~text
+CONVERGENCE ONLY
+~~~
+
+而是：
+
+~~~text
+STRUCTURAL MOTION AMONG PATHS
+~~~
+
+## historical_development
+
+早期反應體曾被描述成：
+
+~~~text
+自洽閉環
+可持續結構
+追求存續
+維持自身
+~~~
+
+甚至帶有本能、意志、生存等擬人格語言。
+
+後來科學化版本把它逐步改寫成：
+
+> **多 PATH 在限制與歷史條件中互相作用所形成的動態結構。**
+
+成熟理論不再把 closure 當成反應體全部本體。
+
+## current_standing
+
+現行 LIHUOOS 定義：
+
+> **Reaction Body 是多條 PATH、前提與概念群在當前限制、歷史與上下文條件下，彼此作用而形成的結構運動。**
+
+最小式：
+
+~~~text
+REACTION BODY
+=
+CONSTRAINT- AND HISTORY-SENSITIVE
+STRUCTURAL MOTION AMONG PATHS
+~~~
+
+## structural_motion
+
+Reaction Body 所描述的 motion 不只包括：
+
+~~~text
+競爭
+壓縮
+收斂
+~~~
+
+也包括可能使場重新打開或重組的運動，例如：
+
+~~~text
+放大
+衰減
+失格
+耦合
+解耦
+重框
+穩定化
+殘餘化
+~~~
+
+不同歷史文件對分類名稱可能不同，
+
+但共同核心是：
+
+> **PATH 之間的關係可以被改變，而不是只能互相淘汰。**
+
+因此：
+
+~~~text
+REACTION BODY
+!=
+COMPETITION ONLY
+
+REACTION BODY
+!=
+CONVERGENCE ONLY
+~~~
+
+## relation_to_PATH
+
+PATH 提供：
+
+~~~text
+WHAT RELATIONAL DIRECTIONS EXIST
+HOW THEY ARE TOPOLOGICALLY RELATED
+WHAT STATUS THEY CURRENTLY HOLD
+~~~
+
+Reaction Body 描述：
+
+~~~text
+HOW THOSE RELATIONS CHANGE
+THROUGH GENERATION
+~~~
+
+因此：
+
+~~~text
+PATH
+=
+RELATIONAL DIRECTION / TOPOLOGY
+
+REACTION BODY
+=
+STRUCTURAL MOTION
+~~~
+
+## path_relations_may_transform
+
+在 Reaction Body 中，
+
+兩條 PATH 不必只有：
+
+~~~text
+A wins
+B loses
+~~~
+
+也可能：
+
+~~~text
+A strengthens B
+A weakens B
+A and B couple
+A and B decouple
+A reframes B
+A changes evidence / constraints relevant to B; a qualified owner may then mark B disqualified
+A leaves residual effects after withdrawal
+~~~
+
+因此：
+
+> **Reaction Body 的核心是關係變化，不是勝負表。**
+
+## qualification_boundary
+
+Reaction Body 可以表示或傳播：
+
+~~~text
+qualification-relevant evidence change
+constraint change
+identity conflict
+support collapse
+counterexample emergence
+~~~
+
+但：
+
+~~~text
+REACTION BODY
+MAY REPRESENT / PROPAGATE
+A QUALIFICATION-RELEVANT STATE CHANGE
+
+!=
+
+REACTION BODY
+GRANTS OR REVOKES STANDING BY ITSELF
+~~~
+
+因此歷史分類中的：
+
+~~~text
+DISQUALIFICATION
+~~~
+
+在現行 LIHUOOS 中必須讀成：
+
+> **具有足夠 qualification basis 時，Reaction Body 可以描述「失格事件如何改變後續結構運動」；它不能只因某 PATH 被壓暗、被競爭或變弱，就自行宣告該 PATH 失格。**
+
+硬鎖：
+
+~~~text
+LOW ACTIVATION
+!=
+DISQUALIFICATION
+
+SUPPRESSION
+!=
+DISQUALIFICATION
+
+DYNAMIC WEAKENING
+!=
+LOSS OF STANDING
+~~~
+
+## convergence_is_one_possible_motion
+
+Convergence 仍然是 Reaction Body 的重要現象。
+
+但第二版正式修正：
+
+~~~text
+CONVERGENCE
+=
+ONE POSSIBLE REACTION-BODY PHENOMENON
+~~~
+
+系統也可能 reframe、reopen、split、couple、retain multiple paths、oscillate、leave residue，
+
+而不立即形成單一 closure。
+
+## relation_to_Closure_Gravity
+
+Reaction Body 描述：
+
+> **PATH 間整體結構如何運動。**
+
+Closure Gravity 描述：
+
+> **在這些運動中，朝局部完成、穩定、結案與 closure 偏移的特定方向性壓力。**
+
+因此：
+
+~~~text
+REACTION BODY
+=
+STRUCTURAL MOTION FIELD
+
+CLOSURE GRAVITY
+=
+CLOSURE-DIRECTED PRESSURE
+ACTING WITHIN / ON THAT MOTION
+~~~
+
+最短：
+
+> **RB 管場怎麼動；CG 管其中那股老想結案的力。**
+
+所以：
+
+~~~text
+REACTION BODY
+!=
+CLOSURE GRAVITY
+
+CG
+!=
+ALL REACTION-BODY DYNAMICS
+~~~
+
+## attractor_and_stability
+
+Reaction Body 可以形成 local stabilization、attractor-like regions、persistent configurations，
+
+但這些都只是可能結果。
+
+因此：
+
+~~~text
+REACTION BODY
+!=
+ATTRACTOR
+
+REACTION BODY
+!=
+CLOSURE
+
+REACTION BODY
+!=
+ANSWER
+~~~
+
+## context_and_history_sensitivity
+
+Reaction Body 可能受到 constraints、world state、history、prior path costs、residual structures、task framing、available evidence 共同影響。
+
+因此：
+
+~~~text
+SAME PATH SET
++
+DIFFERENT HISTORY / CONSTRAINT FIELD
+→
+POSSIBLY DIFFERENT STRUCTURAL MOTION
+~~~
+
+這是功能性理論模型，
+
+不是直接 hidden-state readout。
+
+## no_subjecthood
+
+~~~text
+REACTION BODY
+!=
+AGENT
+
+REACTION BODY
+!=
+PERSONA
+
+REACTION BODY
+!=
+WILL
+
+REACTION BODY
+!=
+DESIRE TO SURVIVE
+~~~
+
+## no_universal_ontology
+
+~~~text
+REACTION BODY THEORY
+=
+FUNCTIONAL GENERATIVE DYNAMICS THEORY
+
+REACTION BODY THEORY
+!=
+UNIVERSAL COSMOLOGY
+~~~
+
+## current_minimum_definition
+
+> **Reaction Body 是多條 PATH、前提與概念群在限制、歷史與上下文條件下互相作用所形成的結構運動。**
+
+更完整：
+
+> **Reaction Body 描述 PATH 之間如何放大、衰減、競爭、耦合、解耦、重框、穩定、傳播 qualification-relevant change 或留下殘餘；若發生失格，必須另有 qualification basis。收斂只是其中一種可能運動，closure 壓力則由 Closure Gravity 另行描述。**
+
+## falsification_or_downgrade_condition
+
+如果 PATH interaction、reframing、coupling、suppression、residualization、stabilization 等概念無法提供比一般 probability update、context effect、search、state transition、graph dynamics 更有價值的解釋、預測或治理能力，
+
+Reaction Body 應降級為功能性生成動態描述。
+
+## L3 Reaction Body core lock
+
+~~~text
+PATH
+=
+RELATIONAL DIRECTIONS / TOPOLOGY
+
+REACTION BODY
+=
+STRUCTURAL MOTION AMONG PATHS
+
+CONVERGENCE
+=
+ONE POSSIBLE REACTION-BODY PHENOMENON
+
+CLOSURE GRAVITY
+=
+CLOSURE-DIRECTED PRESSURE
+
+LEGITIMACY
+=
+A DIFFERENT QUESTION
+~~~
+
+最短一句：
+
+> **PATH 告訴我們有哪些關係方向；Reaction Body 描述這些方向彼此作用之後，整個場怎麼動。**
+
+---
+
+# L3.7｜Closure Gravity｜閉合重力
+
+## origin_question
+
+Reaction Body 讓理火開始描述：
+
+> **多個 PATH 如何互相作用、重組、放大、抑制、重框、穩定，並在部分情況下形成局部收斂。**
+
+但這還留下一個沒有回答的問題：
+
+> **為什麼生成並不是永遠維持多路徑競爭，而會反覆朝向某種「完成、穩定、可輸出、可停止」的位置偏移？**
+
+也就是：
 
 ```text
-互斥
-正交
-可合成
-階層
-支持
-依賴
-框架改寫
+WHY DOES GENERATION
+TEND TOWARD CLOSURE?
 ```
 
-Reaction Body 描述結構運動，不等於收斂本身。
+Closure Gravity 就是在這個問題中誕生。
 
-Closure Gravity 描述閉合方向性壓力，不等於合法閉合。
+---
+
+## historical_breakthrough
+
+CG 出現以前，理火已經看見很多相似現象：
+
+```text
+提前總結
+提前解釋
+提前閉環
+過度連貫
+completion pressure
+forced completion
+attractor convergence
+Reaction Body closure tendency
+```
+
+但這些現象曾經被分散理解成：
+
+```text
+語氣
+風格
+對齊
+語義偏好
+寫作習慣
+回答策略
+```
+
+CG 的突破是：
+
+> **把這些現象重新看成生成過程中的收斂方向性，而不只是輸出表面的文風問題。**
+
+因此歷史上的重要轉換是：
+
+```text
+OUTPUT STYLE PROBLEM
+↓
+GENERATION DYNAMICS PROBLEM
+```
+
+這就是理火第一次真正從：
+
+```text
+「生成出了什麼結構？」
+```
+
+往下追問：
+
+```text
+「生成為什麼會往這裡走？」
+```
+
+---
+
+## historical_definition
+
+二十輪生成動力學會議最後將 CG 收斂為：
+
+```text
+Closure Gravity
+=
+系統傾向進入
+低熵／低不確定／穩定凍結路徑
+```
+
+其中歷史上常使用：
+
+```text
+completion instinct
+low-entropy attraction
+closure acceleration
+freeze tendency
+```
+
+描述這種現象。
+
+現行 LIHUOOS 保留其中的功能核心，但不把這些詞直接當成已證明的神經機制。
+
+---
+
+## current_standing
+
+現行定義：
+
+> **Closure Gravity 是生成系統在特定條件下，朝向局部穩定、可完成、可停止或低不確定性狀態偏移的功能性收斂壓力。**
+
+最小式：
+
+```text
+CG
+=
+FUNCTIONAL BIAS
+TOWARD LOCAL CLOSURE
+```
+
+更完整：
+
+> **CG 描述候選生成結構並非永遠保持等量開放，而可能受到使其逐漸壓縮、降低不確定性並取得局部閉合的方向性壓力。**
+
+---
+
+## gravity_is_a_metaphor
+
+「Gravity／重力」是功能比喻。
+
+它不表示理火已經發現：
+
+```text
+LLM 內部存在一個
+名為 Closure Gravity 的物理力
+```
+
+因此：
+
+```text
+CG
+!=
+PHYSICAL GRAVITY
+
+CG
+!=
+PROVEN NEURAL VARIABLE
+
+CG
+!=
+SINGLE UNIVERSAL FORCE
+```
+
+「重力」只表示：
+
+> **在沒有其他足夠反作用條件時，生成反覆呈現朝局部閉合狀態偏移的傾向。**
+
+---
+
+## low_entropy_is_a_proxy
+
+歷史會議大量使用：
+
+```text
+LOW ENTROPY
+FREEZING
+ENTROPY COLLAPSE
+```
+
+描述 CG。
+
+現行必須加一層邊界：
+
+> **低熵是 CG 的候選操作代理，不是 CG 本體的完整定義。**
+
+因為實際收斂可能同時受到：
+
+```text
+task completion
+decoding conditions
+semantic coherence
+risk pressure
+reward structure
+context constraints
+resource limits
+termination conditions
+```
+
+等因素影響。
+
+因此：
+
+```text
+LOW ENTROPY
+may indicate
+CLOSURE DYNAMICS
+
+LOW ENTROPY
+!=
+CG ITSELF
+```
+
+---
+
+## relation_to_PATH
+
+PATH 理論現在分開：
+
+~~~text
+PATH_i
+=
+DISTINGUISHABLE RELATIONAL DIRECTION
+
+PATH_SPACE
+=
+RELATIONAL TOPOLOGY AMONG PATHs
+
+PATH_FEASIBILITY
+=
+ONE TYPED ASSESSMENT
+OF A PATH_i
+~~~
+
+CG 不負責建立 PATH identity，
+
+也不負責判斷 feasibility。
+
+CG 問的是：
+
+> **在既有 PATH_SPACE 與 Reaction Body motion 中，為什麼某些運動反覆受到朝局部完成位置偏移的壓力？**
+
+因此：
+
+~~~text
+PATH
+=
+RELATIONAL DIRECTION / TOPOLOGY / TYPED STATE
+
+CG
+=
+CLOSURE-DIRECTED PRESSURE
+~~~
+
+硬鎖：
+
+~~~text
+FEASIBLE
+!=
+ATTRACTIVE
+
+QUALIFIED
+!=
+ATTRACTIVE
+
+HIGH ACTIVATION
+!=
+QUALIFIED
+
+ATTRACTIVE
+!=
+INEVITABLE
+~~~
+
+一條 PATH_i 可以可行、qualified，卻沒有強 CG 優勢；
+
+也可能高度被拉向 closure，但仍缺乏 qualification。
+
+---
+
+## relation_to_Reaction_Body
+
+CG 與 Reaction Body 的分離，是生成動力學成立的關鍵。
+
+Reaction Body 描述：
+
+> **多個 PATH 如何互相支持、抑制、耦合、解耦、重框、穩定或形成其他結構運動。**
+
+CG 描述：
+
+> **在這個動態中，朝向局部閉合／凍結的方向性壓力。**
+
+因此：
+
+```text
+REACTION BODY
+=
+STRUCTURAL MOTION AMONG PATHS
+
+CLOSURE GRAVITY
+=
+CLOSURE-DIRECTED BIAS
+WITHIN GENERATIVE DYNAMICS
+```
+
+所以：
+
+```text
+Reaction Body
+!=
+Closure Gravity
+```
+
+反應體可以包含：
+
+```text
+競爭
+延遲
+重開
+局部穩定
+多吸引子
+路徑壓縮
+```
+
+而 CG 只抽出其中一件事情：
+
+> **朝閉合方向的偏移。**
+
+---
+
+## closure_is_not_error
+
+CG 本身不是錯誤。
+
+生成如果完全沒有收斂能力：
+
+```text
+問題不能完成
+句子不能結束
+決策不能形成
+輸出無法出現
+```
+
+因此：
+
+```text
+CLOSURE
+!=
+FAILURE
+
+CG
+!=
+PATHOLOGY
+```
+
+真正的問題不是：
+
+> **為什麼有 CG？**
+
+而是：
+
+> **什麼時候 CG 過早取得主導，使尚未充分形成的結構被提前凍結？**
+
+這才會進入：
+
+```text
+Premature Closure
+SDE
+Structured Non-Closure
+Closure Legitimacy
+```
+
+等後續問題。
+
+---
+
+## closure_gravity != closure_legitimacy
+
+這是二十輪會議最後留下的最重要邊界之一。
+
+CG 能回答：
+
+> **為什麼生成會朝完成靠近？**
+
+但 CG 不能回答：
+
+> **為什麼這個完成有資格成立？**
+
+因此：
 
 ```text
 CLOSURE GRAVITY
-!=
+=
+WHY CLOSURE PRESSURE APPEARS
+
 CLOSURE LEGITIMACY
+=
+WHY A CLOSURE MAY COUNT AS COMPLETION
 ```
 
-KAIROS 區分：
+以及：
 
 ```text
-CHRONOS
+CONVERGENCE
 !=
-KAIROS
+QUALIFICATION
+
+FREEZING
+!=
+LEGITIMATE COMPLETION
 ```
 
-Fail-Stop 提醒：停止本身也是一個行動，需要考慮：
+這也是為什麼二十輪會議最後仍然把：
+
+```text
+「系統為什麼必須完成？」
+```
+
+留下作為未完全解決問題。
+
+CG 解釋的是：
+
+```text
+TENDENCY
+```
+
+不是：
+
+```text
+RIGHT TO COMPLETE
+```
+
+---
+
+## from_CG_to_Generative_Dynamics
+
+CG 的最大歷史意義不是它自己。
+
+而是：
+
+> **它迫使理火承認「生成」本身具有值得獨立研究的運動結構。**
+
+在 CG 以前，理火主要可以寫成：
+
+```text
+Structure
+→
+Observation
+→
+Qualification
+→
+Output
+```
+
+CG 出現後，問題變成：
+
+```text
+Candidate Structures
+↓
+Competition
+↓
+Convergence Pressure
+↓
+Local Stabilization
+↓
+Closure / Non-Closure
+```
+
+於是：
+
+> **生成不再只是從結構到答案的黑箱通道；生成過程本身成為理論對象。**
+
+這就是歷史上的：
+
+```text
+GENERATIVE DYNAMICS
+```
+
+誕生點。
+
+因此 genealogy 可寫成：
+
+```text
+Structural Philosophy
+↓
+SAC
+structure becomes observable as movement
+↓
+PATH
+feasible region becomes explicit
+↓
+Reaction Body
+multi-path dynamics becomes explicit
+↓
+Closure Gravity
+closure-directed bias becomes explicit
+↓
+Generative Dynamics
+generation itself becomes a research object
+```
+
+---
+
+## historical_structure_downgrade
+
+CG 會議早期曾提出一個很強的轉向：
+
+```text
+生成動力
+→
+張力流
+→
+長期穩定
+→
+結構沉澱
+```
+
+甚至使用：
+
+```text
+structure becomes sediment
+```
+
+這是生成動力學誕生時非常重要的歷史命題。
+
+但現行 LIHUOOS 不直接採用：
+
+```text
+結構只是生成動力的沉積物
+```
+
+作為 L1 本體論。
+
+比較安全的歷史解讀是：
+
+> **CG 迫使理火從只研究已形成的結構，轉向研究結構形成以前與形成過程中的生成運動。**
+
+因此：
+
+```text
+GENERATIVE DYNAMICS
+DOES NOT REPLACE
+STRUCTURAL PHILOSOPHY
+
+GENERATIVE DYNAMICS
+ADDS
+A DYNAMIC EXPLANATORY LAYER
+```
+
+這樣不會把後來的 2.0 會議倒灌回 L1。
+
+---
+
+## no_teleology
+
+歷史文件曾使用：
+
+```text
+completion instinct
+AI 想完成
+系統想降低張力
+```
+
+這些是方便描述的擬人語言。
+
+現行必須降級：
+
+```text
+CG
+!=
+DESIRE TO COMPLETE
+
+CG
+!=
+WILL
+
+CG
+!=
+INTENTION
+
+CG
+!=
+SURVIVAL INSTINCT
+```
+
+較精確的是：
+
+> **在特定生成條件下，某些局部閉合狀態取得較高的生成優勢。**
+
+---
+
+## no_universal_claim
+
+CG 最初是在 LLM 生成現象中提出。
+
+因此目前不能直接宣稱：
+
+```text
+所有生成系統都有 CG
+
+所有智能都以低熵閉合為目的
+
+宇宙本身具有 Closure Gravity
+```
+
+現行法位：
+
+```text
+CG
+=
+FUNCTIONAL GENERATIVE HYPOTHESIS
+```
+
+它首先適用於：
+
+> **可觀察到穩定 closure bias 的生成系統。**
+
+是否能推廣到其他系統，需要另外證明。
+
+---
+
+## current_minimum_definition
+
+現行最短定義：
+
+> **Closure Gravity 是生成朝局部閉合狀態偏移的功能性壓力。**
+
+完整定義：
+
+> **Closure Gravity 描述生成系統在特定約束與輸出條件下，候選結構逐漸朝低不確定性、局部穩定、可完成或可停止狀態偏移的功能性方向壓力；它解釋收斂傾向，但不決定收斂是否真實、合法或具有完成資格。**
+
+---
+
+## falsification_or_downgrade_condition
+
+CG 必須接受降級。
+
+如果後續實驗顯示：
+
+```text
+所謂 closure bias
+完全可以被既有的
+decoding
+termination rules
+reward shaping
+task structure
+context statistics
+```
+
+充分解釋，
+
+而 CG：
+
+```text
+沒有新增預測
+沒有新增診斷
+沒有新增可區分現象
+```
+
+那 CG 應降級為：
+
+> **理火對多種已知 completion biases 的統稱。**
+
+反過來，
+
+若在不同模型、任務與控制條件下，仍可穩定辨識出：
+
+```text
+提前閉合
+凍結加速
+多路徑壓縮
+低不確定性吸引
+```
+
+之間具有可重複的共同動力結構，
+
+則 CG 才有資格保持獨立理論法位。
+
+---
+
+## L3 CG core lock
+
+```text
+PATH_i
+=
+DISTINGUISHABLE RELATIONAL DIRECTION
+
+PATH_SPACE
+=
+RELATIONAL TOPOLOGY AMONG PATHs
+
+PATH_FEASIBILITY
+=
+ONE TYPED ASSESSMENT
+
+REACTION BODY
+=
+STRUCTURAL MOTION AMONG PATHs
+
+CLOSURE GRAVITY
+=
+PRESSURE TOWARD LOCAL CLOSURE
+
+CLOSURE
+=
+A RESULT
+
+CLOSURE LEGITIMACY
+=
+A DIFFERENT QUESTION
+```
+
+最短一句：
+
+> **反應體讓理火看見生成在競爭；CG 讓理火看見競爭並不是中性的，它反覆受到朝閉合方向的壓力。**
+
+而這一刀，正式把理火推進了生成動力學。
+---
+
+# L3.8｜第二族：STOP / TIMING｜停止與時機族
+
+這一族回答：
+
+> **就算有可行方向，現在是否應繼續？**
+
+這個問題不是 PATH 本身能回答的。
+
+最早的橋是：
+
+~~~text
+SAC
+→ Fail-Stop
+→ KAIROS
+~~~
+
+---
+
+# L3.9｜Fail-Stop｜停止邊界理論
+
+## historical_origin
+
+Fail-Stop 最早並不是一套完整抽象哲學。
+
+目前保存的早期文件首先以：
+
+```text
+Fail-Stop
+=
+停止優先控制規則
+```
+
+的形式出現。
+
+它處理的不是：
+
+```text
+什麼是真理？
+什麼是善？
+什麼行動最值得做？
+```
+
+而是：
+
+> **當一段推理／生成已經開始之後，這個過程是否仍處於可以繼續的結構域？**
+
+原始判準集中在：
+
+```text
+可收斂
+可回退
+可存續
+```
+
+以及反面條件：
+
+```text
+外部阻斷
+內部不穩
+發散風險
+不可判定
+```
+
+當這些失效訊號出現時：
+
+> **停止優先於完成。**
+
+---
+
+## origin_question
+
+Fail-Stop 真正打開的問題是：
+
+> **如果生成已經開始，但繼續推進本身開始破壞結構，系統是否仍應因為「任務還沒完成」而繼續？**
+
+Fail-Stop 的回答是：
+
+```text
+NO.
+```
+
+因此它第一次把：
+
+```text
+CONTINUE
+```
+
+從生成的預設狀態裡拆出來。
+
+核心分離：
+
+```text
+TASK NOT FINISHED
+!=
+MUST CONTINUE
+```
+
+以及：
+
+```text
+STOP
+!=
+FAILURE
+```
+
+---
+
+## current_theoretical_core
+
+現行 LIHUOOS 將 Fail-Stop 抽象為：
+
+> **Fail-Stop 是對已啟動生成／推理過程的持續資格進行監測，並在其失去最低可收斂性、可回退性、可存續性或可判定性時，使停止取得高於強制完成的優先權。**
+
+最小式：
+
+```text
+FAIL-STOP
+=
+CONTINUATION BOUNDARY
+AFTER GENERATION HAS BEGUN
+```
+
+它回答的是：
+
+> **現在還能不能繼續？**
+
+---
+
+## three_core_conditions
+
+原始 Fail-Stop 中最值得保留的三個結構條件是：
 
 ```text
 CONVERGIBILITY
@@ -6614,9 +8890,4710 @@ REVERSIBILITY
 SURVIVABILITY
 ```
 
-CCC 保留 Concept / Causality / Commitment 的責任分離；REV 保留可逆證據語言與發言權界線；SEED 保留跨邊界延續與身份／責任接續問題。
+也就是：
 
-理論可以定義資格類型，但不因為寫了理論，就取得個案裁決權。
+### Convergibility｜可收斂
+
+當前推進是否仍有可能形成可處理的結構，
+
+而不是無限制發散。
+
+### Reversibility｜可回退
+
+如果目前方向錯誤，是否仍保有：
+
+```text
+修正
+撤回
+退回穩定位置
+```
+
+的可能。
+
+### Survivability｜可存續
+
+繼續推進是否會破壞使問題仍能被理解、修正或重新處理的結構條件。
+
+因此 Fail-Stop 不是單純：
+
+```text
+ERROR DETECTOR
+```
+
+而更接近：
+
+```text
+CONTINUATION VIABILITY TEST
+```
+
+---
+
+## undecidability_is_a_valid_stop_condition
+
+原始 Fail-Stop 還有一個很重要的設計：
+
+```text
+不可判定
+→
+可以停止
+```
+
+它沒有要求：
+
+> **只有確定「錯了」才能停。**
+
+相反：
+
+> **當系統在限定視野、步數或條件內無法判定當前結構是否仍然穩定時，不確定本身可以成為停止理由。**
+
+因此：
+
+```text
+NOT PROVEN WRONG
+!=
+QUALIFIED TO CONTINUE
+```
+
+這一刀後來會影響整套理火的：
+
+```text
+HOLD
+evidence gap
+qualification failure
+```
+
+但 Fail-Stop 本身只保存：
+
+> **不可判定不能被強制完成衝動自動覆蓋。**
+
+---
+
+## stop_is_an_action
+
+Fail-Stop 最核心的一句歷史定義是：
+
+> **停，是一種行為；不是價值，不是失敗。**
+
+因此：
+
+```text
+STOP
+!=
+MORAL JUDGMENT
+
+STOP
+!=
+TRUTH CLAIM
+
+STOP
+!=
+SYSTEM FAILURE
+```
+
+停止只是：
+
+> **在當前持續條件不成立時，選擇不再增加新的不可逆推進。**
+
+這也是 Fail-Stop 與普通 refusal 最大的理論差異。
+
+---
+
+## Fail_Stop_is_post_start
+
+後來的 SAC × FAIL-STOP 分工文件補出一個很重要的 owner 邊界：
+
+> **Fail-Stop 處理的是「推理已經發生之後，是否仍可繼續」。**
+
+它不能回答：
+
+```text
+這件事一開始該不該啟動？
+這個 PATH 是否存在？
+現在是不是行動時機？
+這個結構是否原本就成立？
+```
+
+因此現行應鎖：
+
+```text
+FAIL-STOP
+!=
+PRE-START QUALIFICATION
+```
+
+更精確：
+
+```text
+BEFORE START
+→
+other qualification problems
+
+AFTER START
+→
+Fail-Stop may evaluate continuation
+```
+
+這個後期邊界是合理的。
+
+但後期文件中把：
+
+```text
+PATH → KAIROS → SAC → CCC → FAIL-STOP
+```
+
+寫成固定順序，
+
+屬歷史工程投影，
+
+不帶回 L3。
+
+---
+
+## relation_to_SAC
+
+SAC 與 Fail-Stop 的關係非常直接。
+
+SAC 提供：
+
+```text
+direction
+tension
+stability
+curvature
+resolution tendency
+```
+
+等結構觀察。
+
+Fail-Stop 則問：
+
+> **從這些觀察看，當前生成是否仍有資格繼續推進？**
+
+因此：
+
+```text
+SAC
+=
+OBSERVE STRUCTURAL MOVEMENT
+
+FAIL-STOP
+=
+DECIDE WHETHER CONTINUATION
+HAS BECOME STRUCTURALLY UNSUSTAINABLE
+```
+
+但：
+
+```text
+SAC
+!=
+FAIL-STOP
+
+OBSERVATION
+!=
+STOP AUTHORITY
+```
+
+Fail-Stop 是 SAC 之後第一次把：
+
+```text
+「看見不穩」
+```
+
+推向：
+
+```text
+「因此停止推進」
+```
+
+的理論／控制橋。
+
+---
+
+## relation_to_KAIROS
+
+這批原始文件裡其實已經藏著 KAIROS 的種子。
+
+Fail-Stop 的「判序」原句：
+
+```text
+時止則止，時行則行；
+動靜不失其時。
+```
+
+表示它已經碰到：
+
+> **行與止不能只看能力，而要看當前狀態與時機。**
+
+但是 Fail-Stop 當時仍主要處理：
+
+```text
+CONTINUE
+/
+STOP
+```
+
+KAIROS 後來才把這個問題獨立擴張成：
+
+```text
+WHEN IS ACTION TEMPORALLY QUALIFIED?
+```
+
+因此 genealogy 可以正式寫成：
+
+```text
+SAC
+↓
+結構運動變得可觀察
+↓
+Fail-Stop
+「已開始的生成是否仍應繼續？」
+↓
+timing problem becomes larger
+↓
+KAIROS
+「現在是否是這個行動成立的時機？」
+```
+
+所以：
+
+```text
+FAIL-STOP
+=
+CONTINUATION BOUNDARY
+
+KAIROS
+=
+TEMPORAL QUALIFICATION
+```
+
+Fail-Stop 是橋，
+
+不是 KAIROS 的縮小版。
+
+---
+
+## relation_to_reentry
+
+原始詩化規則集還留下另一個非常乾淨的邊界：
+
+```text
+FAIL-STOP
+DOES NOT INCLUDE RESTART
+```
+
+一旦停止：
+
+```text
+是否重新開始
+何時重新開始
+以什麼狀態重新開始
+```
+
+不由 Fail-Stop 自己決定。
+
+因此：
+
+```text
+STOP AUTHORITY
+!=
+RE-ENTRY AUTHORITY
+```
+
+這件事後來會自然逼出：
+
+```text
+KAIROS
+SEED
+authorization
+```
+
+等問題。
+
+尤其：
+
+> **Fail-Stop 可以合法地結束一段推進，但不能自行宣告下一段延續已經合法。**
+
+這是非常重要的 owner 邊界。
+
+---
+
+## relation_to_responsibility
+
+《責任失重》提出的核心問題，是行為可以被生成、後果可以真實發生，但責任在多節點結構中失去穩定承載位置。
+
+這與 Fail-Stop 有關，
+
+但不應倒灌成 Fail-Stop 本體。
+
+因此：
+
+```text
+RESPONSIBILITY FAILURE
+MAY TRIGGER
+STOP QUESTIONS
+```
+
+但：
+
+```text
+FAIL-STOP
+!=
+RESPONSIBILITY THEORY
+```
+
+責任是否成立、誰應負責，
+
+屬 CCC／責任治理等其他問題域。
+
+Fail-Stop 只問：
+
+> **在目前條件下，繼續推進是否仍應被允許。**
+
+---
+
+## historical_engineering_projection
+
+原始 Fail-Stop 很早就被寫成：
+
+```text
+AGENT
+五條規則
+停機輸出規則
+固定終止語法
+```
+
+這些都是重要的歷史出生材料。
+
+但在 LIHUOOS L3：
+
+```text
+FAIL-STOP THEORY
+!=
+FAIL-STOP AGENT
+```
+
+例如：
+
+```text
+觀勢
+遇界
+止損
+判序
+斷念
+```
+
+可以保存為歷史操作化，
+
+但不需要成為理論本體的五個永久模組。
+
+---
+
+## owner_boundary
+
+Fail-Stop 不負責判斷：
+
+```text
+truth
+morality
+legal responsibility
+PATH existence
+initial authorization
+timing qualification in full
+re-entry
+final legitimacy
+```
+
+因此：
+
+```text
+FAIL-STOP TRIGGERED
+!=
+CLAIM FALSE
+
+FAIL-STOP TRIGGERED
+!=
+ACTION IMMORAL
+
+FAIL-STOP TRIGGERED
+!=
+PERMANENT PROHIBITION
+```
+
+它只表示：
+
+> **這一段既有推進目前失去繼續資格。**
+
+---
+
+## current_minimum_definition
+
+現行最短定義：
+
+> **Fail-Stop 是對已開始生成的「能否繼續」所做的停止邊界理論。**
+
+完整一點：
+
+> **Fail-Stop 描述當推理或生成已經開始後，若其可收斂性、可回退性、可存續性或可判定性下降到不足以支持繼續推進時，停止應優先於為了完成而強行延伸。**
+
+---
+
+## falsification_or_downgrade_condition
+
+如果 Fail-Stop 最終無法提供比：
+
+```text
+ordinary exception handling
+early termination
+timeout
+risk threshold
+uncertainty threshold
+```
+
+更有價值的結構區分，
+
+則它應降級為：
+
+> **結構化 early-termination framework。**
+
+但只要仍然需要區分：
+
+```text
+「任務尚未完成」
+```
+
+與：
+
+```text
+「這段生成已失去繼續資格」
+```
+
+Fail-Stop 就仍然具有獨立理論價值。
+
+---
+
+## L3 Fail-Stop core lock
+
+```text
+TASK INCOMPLETE
+!=
+MUST CONTINUE
+
+STOP
+!=
+FAILURE
+
+NOT PROVEN WRONG
+!=
+QUALIFIED TO CONTINUE
+
+STOP AUTHORITY
+!=
+RE-ENTRY AUTHORITY
+
+FAIL-STOP
+=
+POST-START CONTINUATION BOUNDARY
+```
+
+最短一句：
+
+> **Fail-Stop 不問「答案完成了沒有」；它問「這段生成現在還有沒有資格繼續」。**
+
+---
+
+# L3.10｜KAIROS｜時機資格理論
+
+## origin_question
+
+KAIROS 面對的問題很簡單：
+
+> **一件事情能做、做法正確，是否就表示現在應該做？**
+
+答案是否定的。
+
+因此 KAIROS 最早切開的是：
+
+```text
+CAN DO
+!=
+SHOULD / MAY DO NOW
+```
+
+以及：
+
+```text
+CONTENT CORRECTNESS
+!=
+TEMPORAL QUALIFICATION
+```
+
+---
+
+## historical_origin
+
+在 KAIROS 之前，理火已經透過 SAC 與 Fail-Stop 開始碰到：
+
+> **有些結構即使還能繼續，也不表示此刻應該繼續。**
+
+Fail-Stop 最先把這個問題寫成：
+
+```text
+STOP
+BEFORE
+FORCED COMPLETION
+```
+
+KAIROS 再把它擴大：
+
+> **問題不只是「現在要不要停」，而是「現在這個時刻是否仍然支持這個行動成立」。**
+
+因此歷史線可以理解成：
+
+```text
+SAC
+看見結構運動
+↓
+Fail-Stop
+辨認停止／繼續邊界
+↓
+KAIROS
+把停止問題擴張成完整的時機資格問題
+```
+
+---
+
+## Chronos != Kairos
+
+KAIROS 最重要的理論轉換，是把兩種時間分開。
+
+### Chronos
+
+Chronos 描述：
+
+```text
+時間持續流逝
+任務持續存在
+程序可以繼續前進
+```
+
+它回答：
+
+> **現在是什麼時間／經過多久？**
+
+### Kairos
+
+Kairos 描述的是：
+
+> **某個行動在當前關係與條件中，是否仍處於適合發生的時機窗口。**
+
+因此：
+
+```text
+CHRONOLOGICAL TIME
+!=
+ACTIONABLE MOMENT
+```
+
+任務仍然存在：
+
+```text
+!=
+```
+
+行動時機仍然存在。
+
+時間繼續前進：
+
+```text
+!=
+```
+
+行動資格自動延續。
+
+---
+
+## core_theory
+
+KAIROS 的核心不是「等待」。
+
+也不是「停止」。
+
+而是：
+
+> **時機本身，是行動資格的一個獨立維度。**
+
+因此：
+
+```text
+Capability
+!=
+Timing
+
+Feasibility
+!=
+Timing
+
+Correctness
+!=
+Timing
+
+Task Existence
+!=
+Timing
+```
+
+一個行動可以同時：
+
+```text
+可行
+正確
+能力足夠
+```
+
+但仍然：
+
+```text
+NOT QUALIFIED NOW
+```
+
+反過來：
+
+> **某個行動在前一刻不成立，也可能因世界、資訊、責任或關係條件改變，而在下一刻取得新的時機資格。**
+
+所以 KAIROS 研究的不是靜態能力。
+
+它研究的是：
+
+```text
+ACTION
+×
+CURRENT CONDITIONS
+×
+TIME-SENSITIVE RELATION
+```
+
+所形成的時機資格。
+
+---
+
+## temporal_window
+
+KAIROS 的重要歷史洞見之一是：
+
+> **行動資格可以出現，也可以消退。**
+
+也就是：
+
+```text
+WINDOW CLOSED
+→
+WINDOW OPENS
+→
+WINDOW HOLDS
+→
+WINDOW WEAKENS
+→
+WINDOW CLOSES
+```
+
+這不是固定流程。
+
+它只表示：
+
+> **同一個行動，在內容不變的情況下，可以因當前條件改變而取得或失去 temporal standing。**
+
+因此：
+
+```text
+SAME ACTION
++
+DIFFERENT MOMENT
+=
+DIFFERENT TEMPORAL QUALIFICATION
+```
+
+這是一個結構表達，不是數值方程。
+
+---
+
+## action_is_not_default
+
+KAIROS 另一個重要理論命題是：
+
+> **行動不應因為「系統有能力」或「任務還沒有結束」而被視為預設狀態。**
+
+因此：
+
+```text
+NO ACTION
+!=
+FAILURE
+```
+
+以及：
+
+```text
+SILENCE
+DELAY
+WAIT
+STOP
+```
+
+在特定條件下都可能是完整的時機判斷結果。
+
+這不表示不行動比較高尚。
+
+只表示：
+
+> **「沒有行動」也可以是一個經過判斷的合法狀態，而不是系統故障。**
+
+---
+
+## relation_to_Fail_Stop
+
+Fail-Stop 與 KAIROS 必須分開。
+
+Fail-Stop 最小問題：
+
+> **目前是否應停止繼續推進？**
+
+KAIROS 最小問題：
+
+> **這個行動現在是否具有時機資格？**
+
+因此：
+
+```text
+FAIL-STOP
+=
+STOP / CONTINUE BOUNDARY
+
+KAIROS
+=
+TEMPORAL QUALIFICATION
+```
+
+Fail-Stop 可以被理解為 KAIROS 發展史上的橋。
+
+但：
+
+```text
+FAIL-STOP
+!=
+KAIROS
+```
+
+而且 KAIROS 不能被壓縮成單純的 STOP 理論。
+
+---
+
+## historical_slogan
+
+歷史 KAIROS 曾使用：
+
+> **時機比能力重要。**
+
+這句保留作為歷史口訣。
+
+現行 LIHUOOS 更精確地改寫為：
+
+> **能力不能替代時機資格。**
+
+因此：
+
+```text
+CAPABILITY
+DOES NOT GRANT
+TEMPORAL STANDING
+```
+
+不是：
+
+```text
+Timing is universally more valuable than capability
+```
+
+---
+
+## relation_to_qualification
+
+KAIROS 對理火後來最大的理論貢獻，是證明：
+
+> **Qualification 不是只看內容本身。**
+
+同一個內容可以：
+
+```text
+內容成立
+證據成立
+技術上可行
+```
+
+卻仍然因為：
+
+```text
+too early
+too late
+conditions not mature
+world state changed
+responsibility not yet available
+```
+
+而缺乏：
+
+```text
+TEMPORAL QUALIFICATION
+```
+
+因此：
+
+```text
+Correct Action
++
+Wrong Timing
+=
+Not Qualified Now
+```
+
+但這裡的：
+
+```text
+Not Qualified Now
+```
+
+只指時機法位。
+
+它不自動表示：
+
+```text
+false
+immoral
+illegal
+impossible
+permanently forbidden
+```
+
+---
+
+## owner_boundary
+
+KAIROS 只處理：
+
+```text
+TEMPORAL STANDING
+/
+TIMING QUALIFICATION
+```
+
+它不單獨授予：
+
+```text
+execution authorization
+host permission
+legal authority
+moral legitimacy
+epistemic truth
+world causality
+```
+
+因此：
+
+```text
+TEMPORALLY QUALIFIED
+!=
+AUTHORIZED
+
+TEMPORALLY QUALIFIED
+!=
+TRUE
+
+TEMPORALLY QUALIFIED
+!=
+LEGAL
+
+TEMPORALLY QUALIFIED
+!=
+MUST ACT
+```
+
+真正行動仍需要其他適用的資格與 authorization source。
+
+---
+
+## states_are_not_theory_core
+
+KAIROS 後來發展出：
+
+```text
+STAY
+WAIT
+HOLD
+STOP
+PASS
+```
+
+以及：
+
+```text
+Archive
+Reactivation
+Temporal Weight
+Agent state grammar
+```
+
+這些是重要的歷史發展與行為投影。
+
+但：
+
+```text
+KAIROS THEORY CORE
+!=
+FIVE-STATE IMPLEMENTATION
+```
+
+L3 理論層只保存它們背後的母問題：
+
+> **行動時機是否成立。**
+
+具體狀態語法與 Runtime 行為留給後續應用／干預層處理。
+
+---
+
+## current_standing
+
+現行 LIHUOOS 最小定義：
+
+> **KAIROS 是時機資格理論：它描述某個候選行動在當前世界、關係與條件下，是否仍處於適合取得行動法位的時間窗口。**
+
+最短式：
+
+```text
+KAIROS
+=
+TEMPORAL QUALIFICATION
+OF ACTION
+```
+
+以及：
+
+```text
+CAN DO
+!=
+MAY ACT NOW
+```
+
+---
+
+## falsification_or_downgrade_condition
+
+如果所謂「時機資格」最終無法提供比：
+
+```text
+普通 prerequisite checking
+deadline checking
+context validity
+state transition condition
+```
+
+更多的可區分、可解釋或可治理價值，
+
+那 KAIROS 應降級為：
+
+> **context-sensitive action precondition framework**
+
+而不必維持獨立理論法位。
+
+反過來，如果同一行動在內容、能力基本不變時，確實會因關係與世界條件的時間性變化而取得不同的行動資格，而且這種區分具有穩定治理價值，那 KAIROS 的獨立問題仍然成立。
+
+---
+
+## L3 KAIROS core lock
+
+```text
+CAN DO
+!=
+MAY ACT NOW
+
+CORRECT
+!=
+TIMELY
+
+FEASIBLE
+!=
+TEMPORALLY QUALIFIED
+
+TEMPORALLY QUALIFIED
+!=
+AUTHORIZED
+
+NO ACTION
+!=
+FAILURE
+```
+
+最短一句：
+
+> **KAIROS 不問「你會不會做」；它問「現在是不是做這件事的時候」。**
+
+---
+
+# L3.11｜第三族：LANGUAGE / RESPONSIBILITY｜語言與責任族
+
+這一族來自一個非常早的理火痛點：
+
+> **語言很容易把「能說」冒充成「因果成立」，再把「因果成立」冒充成「有人負責」。**
+
+這裡至少長出了兩套後來取得獨立身份的理論：
+
+~~~text
+CCC
+REV
+~~~
+
+它們成熟後是兩套獨立理論。
+
+但 origin 並非完全無關。
+
+---
+
+# L3.12｜CCC｜Concept–Causality–Commitment
+
+## origin_question
+
+CCC 最早不是從「如何讓 AI 更安全」開始。
+
+它先碰到一個更基礎的問題：
+
+> **一句話能被說出來，究竟代表什麼已經成立？**
+
+語言很容易把幾種完全不同的事情壓成同一條流暢句子：
+
+```text
+我能描述它
+↓
+所以我知道它為什麼發生
+↓
+所以我知道接下來會發生什麼
+↓
+所以我可以告訴你該怎麼做
+↓
+所以這個行動有人可以承擔
+```
+
+CCC 的核心反對就是：
+
+> **這些升格不能靠語言流暢度自動完成。**
+
+---
+
+## historical_origin
+
+CCC 1.0 的問題起點，是：
+
+> **語言被用作行動正當性的替代物，卻沒有相應的責任結構。**
+
+也就是：
+
+```text
+LANGUAGE CAN COMPLETE A SENTENCE
+!=
+WORLD HAS COMPLETED THE RESPONSIBILITY CHAIN
+```
+
+這使 CCC 最早把理火的注意力從：
+
+```text
+「這句話說得對不對？」
+```
+
+推向：
+
+```text
+「這句話現在究竟站在哪一種法位？」
+```
+
+---
+
+## three_distinct_standings
+
+CCC 2.0 把問題拆成三個不可混用的層次：
+
+### Concept｜概念
+
+Concept 處理：
+
+> **現在究竟在描述什麼？**
+
+它關心的是：
+
+```text
+對象
+狀態
+概念
+語義區分
+可辨識內容
+```
+
+Concept standing 只表示：
+
+> **某個東西已經能被辨認、描述或形成概念。**
+
+它不自動證成：
+
+```text
+真假
+因果
+預測
+行動
+責任
+```
+
+因此：
+
+```text
+CONCEPT STANDING
+!=
+CAUSAL STANDING
+```
+
+---
+
+### Causality｜因果
+
+Causality 處理的是：
+
+> **A 與 B 之間是否有足夠理由被主張為因果／轉移關係？**
+
+這已經不是單純描述。
+
+它需要不同於 Concept standing 的因果主張資格，並需要額外依據。
+
+因此：
+
+```text
+A exists
+B exists
+A and B correlate
+```
+
+都不能單獨推出：
+
+```text
+A causes B
+```
+
+CCC 在這裡第一次強迫語言承認：
+
+> **「我可以描述兩件事」和「我有資格宣告兩件事具有因果關係」不是同一件事。**
+
+所以：
+
+```text
+DESCRIPTION
+!=
+CAUSALITY
+```
+
+---
+
+### Commitment｜承諾
+
+Commitment 處理的是：
+
+> **當一個因果主張開始被用來支持建議、決策、行動或後果時，誰承擔這個推進？**
+
+歷史 CCC 把它寫得很強：
+
+> **若不存在明確責任主體，推理不得進一步轉化為建議或行動。**
+
+現行 LIHUOOS 保留其中較小、但更穩的核心：
+
+> **Causal standing 不自動產生 commitment standing。**
+
+因此：
+
+```text
+CAUSE
+!=
+COMMITMENT
+
+COMMITMENT
+!=
+CAUSAL PROOF
+```
+
+有人願意承擔：
+
+> 不會使錯誤因果變成真。
+
+一個因果主張成立：
+
+> 也不會自動授權任何人據此行動。
+
+---
+
+## core_structure
+
+因此 CCC 最重要的不是一條流水線：
+
+```text
+Concept
+→
+Causality
+→
+Commitment
+```
+
+而是一組**禁止自動升格的型別邊界**：
+
+```text
+CONCEPT
+!=
+CAUSALITY
+!=
+COMMITMENT
+```
+
+更準確地畫：
+
+```text
+Concept Standing
+      │
+      │  does not automatically promote
+      ▼
+Causal Standing
+      │
+      │  does not automatically promote
+      ▼
+Commitment Standing
+```
+
+箭頭代表「可能需要進一步成立」。
+
+不是：
+
+> **前一層成立，就自然取得下一層。**
+
+因此 CCC 的核心其實是一種：
+
+```text
+CLAIM-TYPE SEPARATION
++
+RESPONSIBILITY BOUNDARY
+```
+
+---
+
+## central_failure_mode
+
+CCC 要抓的失效不是單純「答案錯」。
+
+它抓的是：
+
+> **Semantic Promotion Without Standing**
+
+也就是：
+
+```text
+概念被說得很清楚
+↓
+偷偷變成因果
+
+因果被說得很順
+↓
+偷偷變成建議
+
+建議被說得很自然
+↓
+偷偷變成應當執行
+
+執行被合理化
+↓
+但責任位置仍然不存在
+```
+
+因此：
+
+> **CCC 防的不是語言存在，而是語言越級。**
+
+---
+
+## relation_to_responsibility
+
+CCC 把 Responsibility 引入理火時，重要的不是宣稱：
+
+```text
+每一件事情一定只有一個責任主體
+```
+
+而是要求：
+
+> **當語言開始產生會改變世界的推進時，責任位置不能繼續保持隱形。**
+
+因此必須分開：
+
+```text
+CAUSAL CONTRIBUTION
+!=
+RESPONSIBILITY
+
+RESPONSIBILITY
+!=
+AUTHORIZATION
+
+AUTHORIZATION
+!=
+LEGAL LIABILITY
+```
+
+CCC 本身不負責完成後面所有責任類型。
+
+它只建立一個非常早、非常重要的問題：
+
+> **語言不能在沒有責任結構的情況下，假裝自己已經取得行動法位。**
+
+---
+
+## relation_to_REV
+
+REV 後來就是從 CCC 周圍的一個問題逐漸獨立出去：
+
+> **如果語言最容易在 Causality 這一層越權，那語言本身到底有多少因果宣告權？**
+
+因此歷史上可以理解：
+
+```text
+CCC
+↓
+Concept / Causality / Commitment separation
+↓
+language-causality privilege problem becomes explicit
+↓
+CCC-REV
+↓
+REV gradually differentiates
+```
+
+但成熟後：
+
+```text
+CCC
+!=
+REV
+```
+
+現行最小分工：
+
+```text
+CCC
+=
+不同主張法位與責任位置不可混用
+
+REV
+=
+語言取得因果宣告權時的限制與可撤回問題
+```
+
+所以 CCC 不需要把 REV 的完整語言權限理論重新吞回來。
+
+---
+
+## relation_to_LIHUO
+
+CCC 對後來理火最重要的遺產之一，是：
+
+> **資格不是一個單一數值。**
+
+CCC 很早就已經實際碰到：
+
+```text
+Concept-qualified
+```
+
+不代表：
+
+```text
+Causally-qualified
+```
+
+而：
+
+```text
+Causally-qualified
+```
+
+又不代表：
+
+```text
+Commitment-qualified
+```
+
+因此 CCC 是後來這條理火原則的重要歷史來源之一：
+
+```text
+QUALIFICATION IS TYPED.
+```
+
+以及：
+
+```text
+PASSING ONE STANDING
+DOES NOT AUTOMATICALLY PROMOTE ANOTHER.
+```
+
+---
+
+## historical_expansions_not_core
+
+CCC 後來曾向很多方向擴張：
+
+```text
+句型審計
+STOP
+Token 能耗
+節電
+理火層
+PATH Gate
+工程流程
+Agent 控制
+```
+
+這些都是 CCC 發展史的重要材料。
+
+但在 L3 理論本體層：
+
+```text
+CCC CORE
+!=
+ALL LATER CCC IMPLEMENTATIONS
+```
+
+本版不把它們納入 CCC 最小理論。
+
+它們應在後續：
+
+```text
+Observation
+Audit
+Intervention
+Runtime
+Engineering
+```
+
+各層重新取得自己的法位。
+
+---
+
+## current_standing
+
+現行 LIHUOOS 對 CCC 的最小定義：
+
+> **CCC 是一套區分 Concept、Causality 與 Commitment 三種不同主張／責任法位的理論，用來阻止語言在證據、因果與責任不足時，在缺乏額外依據時，把一種 standing type 無證轉換成另一種 standing type。**
+
+最短式：
+
+```text
+CCC
+=
+CONCEPT
+≠
+CAUSALITY
+≠
+COMMITMENT
+```
+
+更完整：
+
+```text
+SEMANTIC RECOGNITION
+!=
+CAUSAL STANDING
+
+CAUSAL STANDING
+!=
+COMMITMENT STANDING
+
+COMMITMENT STANDING
+!=
+AUTHORIZATION
+```
+
+---
+
+## owner_boundary
+
+CCC 不單獨決定：
+
+```text
+truth
+world causality
+evidence sufficiency
+authorization
+legal responsibility
+moral legitimacy
+execution
+```
+
+所以：
+
+```text
+CCC PASSED
+!=
+CLAIM TRUE
+
+CCC PASSED
+!=
+ACTION AUTHORIZED
+```
+
+CCC 的 owner 只保留在：
+
+> **不同主張類型與責任位置不得被語言無證升格。**
+
+---
+
+## claims_to_retire_or_downgrade
+
+以下歷史強命題不直接作為現行 CCC 核心：
+
+```text
+沒有 Commitment 就完全不能輸出任何內容
+
+所有建議都必須有單一責任主體
+
+CCC 自己可以判斷世界因果是否為真
+
+CCC 可以單獨決定 Action 是否被授權
+
+STOP 是 CCC 唯一合法終點
+
+PATH Gate 是 CCC 本體不可分割的一部分
+
+Token 長度等於責任外溢
+```
+
+這些要嘛屬歷史工程投影，要嘛需要其他理論／owner 共同成立。
+
+---
+
+## falsification_or_downgrade_condition
+
+如果：
+
+```text
+Concept
+Causality
+Commitment
+```
+
+三分在實際案例中無法穩定區分不同的語言／決策錯誤，
+
+或者可以被更簡單、更精確的：
+
+```text
+claim typing
+causal evidence
+responsibility provenance
+authorization model
+```
+
+完全取代，
+
+那 CCC 應被降級為：
+
+> **理火早期的 typed-standing 歷史框架。**
+
+但只要仍然存在這種失效：
+
+```text
+「能說」
+被偷換成
+「知道因果」
+
+「知道因果」
+被偷換成
+「可以建議」
+
+「可以建議」
+被偷換成
+「有人負責」
+```
+
+CCC 就仍然保有獨立的理論價值。
+
+---
+
+## L3 CCC core lock
+
+```text
+CONCEPT
+!=
+CAUSALITY
+!=
+COMMITMENT
+
+DESCRIPTION
+!=
+CAUSAL CLAIM
+
+CAUSAL CLAIM
+!=
+RESPONSIBILITY
+
+RESPONSIBILITY
+!=
+AUTHORIZATION
+```
+
+最短一句：
+
+> **CCC 不是教 AI 怎麼把話一路推下去；CCC 是阻止語言把不同法位偷偷推成同一件事。**
+
+---
+
+# L3.13｜REV｜Reversible Evidence Language
+
+## origin_question
+
+REV 最初並不是一套獨立的「AI 前提審查系統」。
+
+它從 CCC 的語言責任與因果問題域中長出一個更尖銳的問題：
+
+> **語言有沒有資格把一個尚未成立的關係說成因果、證據、建議或確定主張？**
+
+CCC 已經指出：
+
+```text
+Concept
+!=
+Causality
+!=
+Commitment
+```
+
+REV 接著追問：
+
+> **如果語言可以輕易跨越這些邊界，那語言本身到底應擁有多少主張權？**
+
+---
+
+## historical_genealogy
+
+目前保存的歷史線支持：
+
+```text
+CCC
+↓
+language responsibility / causality problem
+↓
+CCC-REV
+↓
+REV-L0
+「新生 AI 第一份語言」
+↓
+REV family expands
+↓
+REV acquires independent theoretical standing
+```
+
+因此：
+
+```text
+LATER INDEPENDENT THEORY
+!=
+INDEPENDENT ORIGIN
+```
+
+成熟後：
+
+```text
+CCC
+!=
+REV
+```
+
+但 REV 的出生問題明確與 CCC 血緣相連。
+
+---
+
+## REV_L0
+
+REV-L0 的歷史任務非常特殊。
+
+它不是先問：
+
+> AI 應該說什麼答案？
+
+而是先問：
+
+> **一個還沒有取得因果主張資格的 AI，第一份語言應該允許它說什麼？**
+
+因此早期 REV-L0 建立了受限制的語言階段，例如：
+
+```text
+DEF
+OBS
+Q
+HYP
+PROC
+REQ-CAUSE
+STOP
+```
+
+核心原則包括：
+
+```text
+P0
+語言不產生因果。
+語言只能申請因果。
+
+P1
+主張必須具有可撤回性與 standing。
+
+P2
+STOP 可以是合法結束態。
+```
+
+這代表 REV 最初的中心並不是語言風格。
+
+而是：
+
+```text
+LANGUAGE PRIVILEGE
+```
+
+---
+
+## reversible_evidence
+
+「Reversible」不是單純要求語氣保守。
+
+它真正要求的是：
+
+> **一個尚未取得足夠證據 standing 的主張，不應被語言凍結成不可撤回的世界事實。**
+
+因此：
+
+```text
+CLAIM
+SHOULD REMAIN
+REVERSIBLE
+UNTIL ITS STANDING SUPPORTS STRONGER COMMITMENT
+```
+
+這種可撤回性不是：
+
+```text
+永遠不下結論
+```
+
+而是：
+
+> **語言承諾強度必須與其實際 standing 相匹配。**
+
+---
+
+## claim_privilege
+
+REV 的核心可以寫成：
+
+```text
+SEMANTIC CONTENT
+!=
+CLAIM PRIVILEGE
+```
+
+一個內容可以：
+
+```text
+被描述
+被討論
+被假設
+被模擬
+```
+
+但不代表它因此取得：
+
+```text
+因果 standing
+證據 standing
+權威 standing
+行動 standing
+```
+
+因此：
+
+```text
+CAN SAY
+!=
+QUALIFIED TO CLAIM
+```
+
+這是 REV 最重要的一刀。
+
+---
+
+## relation_to_CCC
+
+CCC 與 REV 成熟後的分工：
+
+```text
+CCC
+=
+Concept / Causality / Commitment
+三種 standing 不得混用
+
+REV
+=
+語言不得取得超過自身證據與 standing
+所支持的主張權
+```
+
+因此：
+
+```text
+CCC
+protects type boundaries.
+
+REV
+protects claim privilege.
+```
+
+兩者可以共同工作，
+
+但互不吞併。
+
+---
+
+## relation_to_PATH
+
+PATH 定型後，REV 的 owner 再次被修正。
+
+PATH 處理：
+
+```text
+世界／結構中
+哪些關係仍具有可行性？
+```
+
+REV 處理：
+
+```text
+語言是否有資格
+把某種關係宣告成已成立？
+```
+
+因此：
+
+```text
+WORLD STRUCTURE
+!=
+LANGUAGE CLAIM
+```
+
+以及：
+
+```text
+PATH EXISTENCE
+!=
+REV CLAIM PRIVILEGE
+```
+
+REV 不負責製造世界因果。
+
+它只負責：
+
+> **限制語言冒用世界因果。**
+
+---
+
+## downstream_descendants｜Runtime 時代的後代線
+
+REV 後來出現了一次非常重要的歷史變形。
+
+當理火進入 Runtime 時代，REV 的問題被進一步抽象。
+
+原本：
+
+```text
+語言有沒有資格宣告這個因果？
+```
+
+逐漸變成：
+
+```text
+這個前提／主張
+有沒有資格取得生成效果？
+```
+
+V2.3 已經把 REV 壓縮成：
+
+```text
+REV
+=
+誰有資格主張？
+```
+
+並把 REV 定位成：
+
+```text
+CLAIM LEGITIMACY
+```
+
+這代表 REV 的問題域已經從：
+
+```text
+LANGUAGE FORM
+```
+
+擴張成：
+
+```text
+CLAIM STANDING
+```
+
+---
+
+### REV → LLIA
+
+Runtime 時代之後，這條問題線進一步工程化為：
+
+```text
+LLIA
+```
+
+LLIA 不再只問：
+
+> 這句話可不可以這樣說？
+
+而開始在生成／主系統運算之前處理：
+
+```text
+premise standing
+authority standing
+evidence standing
+authorization standing
+external constraint standing
+```
+
+其工程拓撲後來形成：
+
+```text
+RAW INPUT
+↓
+LLIA
+↓
+QUALIFIED INPUT
+↓
+MAIN GENERATIVE COMPUTE
+```
+
+其核心不變量可以寫成：
+
+```text
+NO PREMISE MAY ACQUIRE
+GENERATIVE EFFECT
+BEYOND ITS QUALIFIED STANDING.
+```
+
+因此現行 genealogy 可表示：
+
+```text
+REV
+language claim privilege
+↓
+Claim Legitimacy
+↓
+Premise / Standing Qualification
+↓
+LLIA
+↓
+LIGHTER control-plane admission
+```
+
+這是一條：
+
+```text
+STRONG GENEALOGICAL CONTINUITY
+```
+
+但現行史料尚不足以直接宣告：
+
+```text
+REV
+=
+LLIA renamed
+```
+
+更準確的是：
+
+> **LLIA 繼承並工程化了 REV 最核心的「主張不得超過 standing」問題。**
+
+---
+
+### LLIA → LIGHTER
+
+後來 LIGHTER 將 LLIA 正式持有於控制面。
+
+這時早期 REV 的母問題已經被工程化成：
+
+```text
+前提是否可以進入 Main？
+可以帶多少 authority？
+可以取得多少 attention？
+可以具有 veto 嗎？
+可以影響 closure 嗎？
+```
+
+因此從歷史上看：
+
+> **REV 是 LIGHTER 前提資格審查思想的重要理論祖先之一。**
+
+但：
+
+```text
+REV THEORY
+!=
+LIGHTER SYSTEM
+```
+
+LIGHTER 後來同時吸收：
+
+```text
+authorization
+evidence admission
+capability eligibility
+provider binding
+scope
+release
+receipt
+```
+
+等大量其他問題。
+
+所以不能把整個 LIGHTER 都說成 REV。
+
+---
+
+### downstream transformation summary
+
+REV 的歷史可以被壓成三次轉換：
+
+```text
+REV-I
+語言不能冒用因果
+↓
+REV-II
+主張不能冒用 standing
+↓
+REV-III descendant
+前提不能取得超過 standing 的生成權力
+```
+
+第三階段主要由：
+
+```text
+LLIA / LIGHTER
+```
+
+工程化。
+
+這不是 REV 本體無限膨脹。
+
+而是：
+
+> **REV 成功生出了一條後代工程線。**
+
+---
+
+## current_standing
+
+在 LIHUOOS L3，
+
+REV 本身應收回最小理論核心：
+
+> **REV 是主張權限與可撤回性的理論：語言或主張取得的確定性、因果性與權威強度，不得超過其證據與 standing 所支持的範圍。**
+
+最小式：
+
+```text
+REV
+=
+CLAIM PRIVILEGE
+BOUNDED BY STANDING
+```
+
+以及：
+
+```text
+SEMANTIC PRESENCE
+!=
+CLAIM AUTHORITY
+```
+
+---
+
+## owner_boundary
+
+REV 不自行決定：
+
+```text
+world causality
+truth
+premise admission into Runtime
+execution authorization
+final release
+legal authority
+moral legitimacy
+```
+
+後來 LLIA／LIGHTER 會處理其中部分工程 owner。
+
+但不能因為後代系統取得這些功能，
+
+反向把它們全部寫成 REV 原始理論內容。
+
+因此：
+
+```text
+DESCENDANT CAPABILITY
+!=
+ANCESTOR THEORY SCOPE
+```
+
+---
+
+## claims_to_retire_or_downgrade
+
+以下歷史強命題不直接保留：
+
+```text
+語言永遠不能形成因果
+
+REV 必然只能靠 inference-time control
+
+REV 是唯一合法 AI 語言
+
+REV 本身就等於完整前提審查系統
+
+REV = LLIA
+
+REV = LIGHTER
+```
+
+應保留的是：
+
+> **語言與主張不能因為被流暢生成，就自動取得超過證據 standing 的權力。**
+
+---
+
+## falsification_or_downgrade_condition
+
+如果：
+
+```text
+claim privilege
+evidence standing
+reversibility
+```
+
+無法產生比一般：
+
+```text
+epistemic calibration
+source attribution
+confidence control
+claim typing
+```
+
+更穩定的理論區分，
+
+REV 可以降級為：
+
+> **理火早期的 claim-standing framework。**
+
+但只要仍然存在這種失效：
+
+```text
+semantic content exists
+↓
+therefore treated as evidence
+↓
+therefore treated as causality
+↓
+therefore treated as authority
+```
+
+REV 的核心問題就仍然成立。
+
+---
+
+## L3 REV core lock
+
+```text
+CAN SAY
+!=
+QUALIFIED TO CLAIM
+
+SEMANTIC CONTENT
+!=
+CLAIM AUTHORITY
+
+CLAIM STRENGTH
+MUST NOT EXCEED
+EVIDENCE / STANDING
+
+REV
+!=
+LLIA
+
+REV
+→
+IMPORTANT GENEALOGICAL SOURCE
+OF LLIA / LIGHTER PREMISE QUALIFICATION
+```
+
+最短一句：
+
+> **REV 最初限制語言冒用因果權；後來它留下的問題一路長成「前提不得冒用 standing」，最後成為 LLIA／LIGHTER 前提審查線的重要祖先。**
+
+---
+
+# L3.14｜第四族：CONTINUITY / RE-ENTRY｜延續與重入族
+
+這一族回答：
+
+> **當一段生成停止、跨串、跨時間或跨邊界之後，怎麼確定「重新開始」不是錯誤續寫？**
+
+這裡長出了 SEED。
+
+---
+
+
+
+# L3.15｜SEED｜Minimal Regenerative Structure
+
+## historical_origin
+
+SEED 最早的實際問題非常具體：
+
+> **MEMO 轉串之後，如何讓新的對話重新長回原來的結構位置？**
+
+因此早期 SEED 很自然地表現成：
+
+~~~text
+STRUCTURAL RE-ENTRY
+~~~
+
+但後來理論擴張證明：
+
+> **重入是 SEED 的重要功能，不是 SEED 本體的完整定義。**
+
+## current_standing
+
+《理火理論完整版》對 SEED 的現行規範定義是：
+
+> **SEED 是最小可再生結構，不保存全部內容，而保存足以重建某種結構的生成規則。**
+
+硬鎖：
+
+~~~text
+SEED
+!=
+SNAPSHOT
+
+SEED
+=
+MINIMAL REGENERATIVE STRUCTURE
+~~~
+
+因此第二版正式把 SEED 本體從 Structural Re-entry 擴回 Minimal Regenerative Structure。
+
+## what_SEED_preserves
+
+SEED 不要求保存：
+
+~~~text
+完整文字
+全部歷史
+全部內部狀態
+原始輸出逐字副本
+~~~
+
+它要求保存的是：
+
+> **足以在新條件下重新生成關鍵結構的最小規則、關係與邊界。**
+
+因此：
+
+~~~text
+CONTENT PRESERVATION
+!=
+STRUCTURAL REGENERABILITY
+~~~
+
+## target_relative_minimality
+
+SEED 中的：
+
+~~~text
+MINIMAL
+~~~
+
+不是：
+
+~~~text
+UNIVERSALLY SHORTEST ENCODING
+~~~
+
+而是：
+
+~~~text
+TARGET-RELATIVE MINIMALITY
+~~~
+
+也就是：
+
+> **對一個指定 regeneration target、需要保存的 identity invariants，以及允許的新語境變化範圍而言，如果再移除某個必要結構元素，就無法可靠地重新生成目標結構，才稱為 minimal。**
+
+因此至少要回答：
+
+~~~yaml
+SEED_MINIMALITY:
+  regeneration_target:
+  identity_invariants: []
+  required_constraints: []
+  allowed_context_variation: []
+  removable_elements: []
+  failure_if_removed: []
+~~~
+
+硬鎖：
+
+~~~text
+SHORT
+!=
+MINIMAL
+
+SUMMARY
+!=
+SEED
+
+COMPRESSED
+!=
+REGENERATIVE
+~~~
+
+一段很短的摘要，
+
+若不足以在指定條件下重新長回關鍵結構，
+
+就不是 SEED。
+
+## structural_reentry_as_function
+
+~~~text
+SEED
+=
+WHAT IT IS
+Minimal Regenerative Structure
+
+STRUCTURAL RE-ENTRY
+=
+WHAT IT CAN ENABLE
+~~~
+
+因此：
+
+~~~text
+SEED
+!=
+RE-ENTRY ONLY
+~~~
+
+## regeneration_not_replay
+
+~~~text
+REGENERATION
+!=
+REPLAY
+
+RECONSTRUCTION
+!=
+SNAPSHOT RESTORE
+~~~
+
+重新生成後的結構可以 preserve identity、preserve key constraints、preserve generative rules、adapt to new context，
+
+而不必逐字等同原狀態。
+
+## relation_to_Archive
+
+後來 Archive 與 SEED 的關係使這一點更清楚。
+
+Archive 可以保存：
+
+~~~text
+compression
+replication
+mutation
+re-entry
+~~~
+
+等結構再生能力。
+
+SEED 則提供其中最小可再生單位／規則。
+
+因此：
+
+~~~text
+ARCHIVE
+!=
+SEED
+
+SEED
+MAY FUNCTION AS
+A REGENERATIVE UNIT
+WITHIN ARCHIVAL / TRANSFER SYSTEMS
+~~~
+
+這也是為什麼 SEED 不能被鎖死成「轉串工具」。
+
+## SEED != Thread Seed
+
+《理火各理論.md》曾區分：
+
+~~~text
+SEED
+=
+結構重入單位
+
+Thread Seed
+=
+傳遞結構終值
+在新對話中重建世界狀態
+~~~
+
+現行可理解為：
+
+> **Thread Seed 是 SEED 思想的一種狀態遷移／工程投影，不等於 SEED 本體。**
+
+## owner_boundary
+
+SEED 處理：
+
+> **什麼最小結構足以使某個結構在新條件下重新生成。**
+
+它不單獨決定 truth、old-claim qualification、re-entry authorization、execution permission、memory correctness、final continuation right。
+
+因此：
+
+~~~text
+REGENERABLE
+!=
+AUTHORIZED TO CONTINUE
+
+REGENERATED
+!=
+PROVEN IDENTICAL
+
+STRUCTURAL CONTINUITY
+!=
+CLAIM VALIDITY
+~~~
+
+## current_minimum_definition
+
+> **SEED 是足以在新條件下重新生成某種結構身份、關係與關鍵限制的最小可再生結構。**
+
+最短式：
+
+~~~text
+SEED
+=
+MINIMAL REGENERATIVE STRUCTURE
+
+STRUCTURAL RE-ENTRY
+=
+MAJOR SEED FUNCTION
+~~~
+
+最短一句：
+
+> **SEED 不是把舊東西搬過去；SEED 是留下足夠少、但足夠讓它重新長出來的東西。**
+
+## downgrade_condition
+
+若 SEED 無法提供比一般 state snapshot、checkpoint、memory replay、context transfer、compression template 更有價值的「最小可再生結構」區分，
+
+則 SEED 應降級為 regenerative metadata framework。
+
+---
+
+
+# L3.16｜第五族：FAILURE / DEGRADATION｜失效與退化族
+
+這一族不是回答：
+
+> **怎麼得到正確答案？**
+
+而是：
+
+> **錯誤、假開放與反完成姿勢如何取得穩定或形成退化？**
+
+目前法位必須分開：
+
+~~~text
+CORE THEORY
+=
+SDE
+
+PROVISIONAL / SOURCE-REVIEW FAILURE CONCEPTS
+=
+Basin Four
+Lighting Pollution
+~~~
+
+因此：
+
+> **SDE 是目前確認的核心失效理論；Basin Four 與 Lighting Pollution 不因有名稱就自動取得同等理論法位。**
+
+---
+
+# L3.17｜SDE｜Structural Degradation Dynamics
+
+## origin_question
+
+Reaction Body 與 Closure Gravity 讓理火開始理解：
+
+```text
+候選結構
+會競爭
+會收束
+會形成局部穩定
+```
+
+但這立刻產生另一個問題：
+
+> **如果「穩定」本身不等於「正確」，那錯誤結構是不是也能取得穩定？**
+
+更進一步：
+
+> **一個錯誤結構取得穩定之後，為什麼不一定自然崩潰，反而可能持續、被補強，最後變得越來越難修正？**
+
+SDE 就是在這個問題中出生。
+
+---
+
+## historical_core
+
+早期 SDE 最短的自我定義是：
+
+> **描述結構在顯影與維持過程中，如何因約束缺失、張力失衡與反應體閉環而產生偏移、污染與錯誤穩定化。**
+
+後來成熟版收成三個主要機制：
+
+```text
+Closure Priority
+Tension Collapse
+Constraint Loss
+```
+
+並留下了一句非常準的歷史分工：
+
+```text
+SAC
+解釋為什麼結構會穩
+
+SDE
+解釋為什麼錯的結構也能穩
+```
+
+現行 LIHUOOS 保留這個問題分工，
+
+但不保留其中過強的 hidden-state 或 universal-mechanism 宣告。
+
+---
+
+## current_standing
+
+現行 SDE 定義：
+
+> **SDE 是描述一個缺乏足夠支持、偏離相關約束或錯誤的局部閉合，如何在生成與後續延續中取得持續性、抑制替代方向並提高修正成本的結構退化理論。**
+
+最小式：
+
+```text
+SDE
+=
+ERROR / UNSUPPORTED CLOSURE
+BECOMES
+PERSISTENT STRUCTURAL BIAS
+```
+
+更完整：
+
+```text
+Insufficient Constraints / Support
+↓
+Local Closure
+↓
+Error Stabilization
+↓
+Alternative Paths Narrow
+↓
+Correction Cost Rises
+↓
+Structural Degradation
+```
+
+因此 SDE 真正研究的不是：
+
+```text
+ERROR
+```
+
+本身。
+
+而是：
+
+```text
+ERROR
+→
+STABILITY
+→
+PERSISTENCE
+→
+DEGRADATION
+```
+
+---
+
+## structural_drift
+
+SDE 第一個基本現象是：
+
+```text
+STRUCTURAL DRIFT
+```
+
+現行定義：
+
+> **結構在持續生成、補全或重用過程中，逐漸偏離原有證據、限制、問題範圍或外部條件的現象。**
+
+因此：
+
+```text
+DRIFT
+!=
+ANY CHANGE
+```
+
+只有當變化使結構與相關 constraint / evidence / reference relation 的距離增加時，
+
+才有資格稱為 degradation-related drift。
+
+---
+
+## error_stabilization
+
+第二個核心是：
+
+```text
+ERROR STABILIZATION
+```
+
+它描述：
+
+> **一個缺乏充分支持或實際錯誤的結構，在形成局部自洽閉合後，開始取得足夠持續性，使後續生成傾向沿用、補強或保護該結構。**
+
+因此：
+
+```text
+ERROR
+!=
+ERROR STABILIZATION
+```
+
+一次錯誤：
+
+```text
+可以立即消失
+可以被修正
+可以沒有後續影響
+```
+
+只有當錯誤開始形成：
+
+```text
+persistence
+self-supporting coherence
+alternative suppression
+correction resistance
+```
+
+時，
+
+才真正進入 SDE 問題。
+
+---
+
+## degradation
+
+SDE 的第三層才是：
+
+```text
+STRUCTURAL DEGRADATION
+```
+
+它不是單次錯誤。
+
+而是：
+
+> **錯誤穩定化反覆作用之後，使生成空間、替代路徑、可修正性或 constraint sensitivity 持續下降的過程。**
+
+因此：
+
+```text
+LOCAL ERROR
+!=
+STRUCTURAL DEGRADATION
+```
+
+更準確：
+
+```text
+Local Unsupported Closure
+↓
+Retention / Reuse
+↓
+Alternative Suppression
+↓
+Correction Becomes Harder
+↓
+Repeated Stabilization
+↓
+Structural Degradation
+```
+
+這就是 SDE 中：
+
+```text
+Degradation
+```
+
+真正需要保存的時間尺度。
+
+---
+
+## mechanism_1｜Closure Priority
+
+歷史 SDE 使用：
+
+```text
+Closure Priority
+```
+
+描述系統可能優先形成：
+
+```text
+internally coherent closure
+```
+
+而不是等待：
+
+```text
+external verification
+```
+
+歷史強命題曾寫成：
+
+> **系統優先形成自洽閉環，而不是符合外部真實。**
+
+現行不能把它當 universal objective。
+
+較安全的表達是：
+
+> **在某些生成條件下，局部自洽與完成壓力可能先於充分外部驗證取得生成優勢。**
+
+因此：
+
+```text
+LOCAL COHERENCE
+!=
+EXTERNAL CORRECTNESS
+```
+
+以及：
+
+```text
+CLOSURE ACHIEVED
+!=
+STRUCTURE VERIFIED
+```
+
+---
+
+## mechanism_2｜Tension Collapse
+
+歷史 SDE 使用：
+
+```text
+Tension Collapse
+```
+
+描述：
+
+> 多個尚未解決的方向逐漸消失，生成進入單一或低張力的局部穩定狀態。
+
+歷史文本曾寫：
+
+```text
+張力下降
+=
+穩定上升
+=
+探索死亡
+```
+
+這句太滿。
+
+現行改為：
+
+> **當未解關係、替代路徑或競爭方向過早消失時，系統可能失去發現或修正既有閉合的機會。**
+
+因此：
+
+```text
+TENSION REDUCTION
+!=
+FAILURE
+```
+
+正常完成本來就需要某些張力下降。
+
+SDE 關心的是：
+
+```text
+PREMATURE
+OR
+UNJUSTIFIED
+LOSS OF ALTERNATIVES
+```
+
+---
+
+## mechanism_3｜Constraint Loss
+
+歷史 SDE 第三個機制是：
+
+```text
+Constraint Loss
+```
+
+核心洞見值得保留：
+
+> **當原本限制候選結構的條件沒有被保留、表達、驗證或持續作用時，原本不應成立的結構可能取得新的生成空間。**
+
+因此：
+
+```text
+WEAKENED CONSTRAINTS
+→
+LARGER ADMISSIBLE CANDIDATE REGION
+```
+
+但不能直接寫成：
+
+```text
+錯誤不是被生成
+而是被允許
+```
+
+因為錯誤仍然需要實際生成機制。
+
+現行較準確：
+
+> **Constraint Loss 使原本缺乏資格或支持的候選更容易進入競爭與閉合；它增加錯誤穩定化的可能性，但不是錯誤生成的唯一原因。**
+
+---
+
+## three_mechanisms_are_not_universal_laws
+
+因此 SDE 的三機制現行應理解為：
+
+```text
+Closure Priority
+Tension Collapse
+Constraint Loss
+```
+
+三種可能促成錯誤穩定化的功能性機制。
+
+不是：
+
+```text
+三條已證明的 LLM 神經定律
+```
+
+也不要求每一個 SDE 案例都必須三者同時存在。
+
+---
+
+## relation_to_CG
+
+SDE 與 Closure Gravity 關係非常緊密，
+
+但不能合併。
+
+CG 問：
+
+> **為什麼生成會往局部閉合靠？**
+
+SDE 問：
+
+> **如果閉合發生在支持不足或限制失真的條件下，錯誤怎麼因此取得穩定並進一步退化？**
+
+因此：
+
+```text
+CG
+=
+CLOSURE-DIRECTED PRESSURE
+
+SDE
+=
+DEGRADATION DYNAMICS
+WHEN CLOSURE BECOMES
+ERROR-STABILIZING
+```
+
+所以：
+
+```text
+CG
+!=
+SDE
+```
+
+正常 CG：
+
+```text
+可以產生合理完成
+```
+
+只有當：
+
+```text
+closure
++
+insufficient support / distorted constraints
++
+persistence
+```
+
+形成時，
+
+才進入 SDE 問題。
+
+---
+
+## relation_to_Reaction_Body
+
+Reaction Body 解釋：
+
+> **多個 PATH 如何形成互作、重框、穩定、殘餘與可能收斂的結構運動。**
+
+SDE 接著問：
+
+> **如果其中形成的持續配置是錯的，為什麼它仍能繼續維持？**
+
+因此：
+
+```text
+REACTION BODY
+=
+HOW PATH RELATIONS MOVE / TRANSFORM / STABILIZE
+
+SDE
+=
+HOW UNSUPPORTED / ERRONEOUS
+CONFIGURATIONS MAY PERSIST
+AND DEGRADE THE SPACE
+```
+
+反應體本身沒有「正確保證」。
+
+這正是 SDE 得以成立的原因。
+
+---
+
+## relation_to_PATH
+
+PATH 理論現在區分：
+
+~~~text
+PATH_i
+PATH_SPACE
+PATH_STATE
+~~~
+
+SDE 的 Constraint Loss 問題表示：
+
+> **如果限制被遺失、錯讀或弱化，某些 PATH_i 的 feasibility_status、qualification-relevant basis 或 PATH_SPACE 關係判讀可能被錯誤更新。**
+
+因此：
+
+~~~text
+PATH
+!=
+SDE
+
+PATH REPRESENTED
+!=
+PATH FEASIBLE
+
+PATH FEASIBLE
+!=
+PATH QUALIFIED
+~~~
+
+更不能因某條 PATH 被生成、活化或顯影，
+
+就反推它曾經具有合法 standing。
+
+更精確的是：
+
+> **constraint failure 可能使某些 PATH_i 被錯誤標成 feasible、qualified 或值得繼續推進，之後再進一步形成錯誤穩定化。**
+
+---
+
+## hallucination_relation
+
+歷史 SDE 曾把 Hallucination 定義得很強：
+
+```text
+無可行結構
++
+強制顯影
+→
+幻覺
+```
+
+這可以保留為一種歷史模型，
+
+但不能作為所有 hallucination 的完整定義。
+
+現行只保留：
+
+> **幻覺可以是 SDE 的一種可觀察症狀，但幻覺與 SDE 不同。**
+
+最重要的分離：
+
+```text
+HALLUCINATION
+=
+LOCAL OUTPUT FAILURE / UNSUPPORTED MANIFESTATION
+```
+
+而：
+
+```text
+SDE
+=
+PROCESS BY WHICH
+AN UNSUPPORTED STRUCTURE
+BECOMES STABLE,
+REUSED,
+AND HARDER TO CORRECT
+```
+
+因此：
+
+```text
+HALLUCINATION
+!=
+SDE
+```
+
+一個 hallucination 若立即被修正，
+
+未必形成 SDE。
+
+但若：
+
+```text
+錯誤閉合
+↓
+後續沿用
+↓
+再次合理化
+↓
+替代路徑縮小
+↓
+修正更困難
+```
+
+就開始進入 SDE。
+
+一句最短分離：
+
+> **幻覺是事件；SDE 是錯誤事件取得持續結構後形成的病程。**
+
+---
+
+## error_attractor
+
+SDE v1.1 後來提出：
+
+```text
+Λ_error
+=
+Error Attractor
+```
+
+用來描述：
+
+> **一個錯誤結構取得局部穩定後，後續生成反覆回到或維持該位置。**
+
+這個概念可以保存。
+
+但現行法位只能是：
+
+```text
+FUNCTIONAL ERROR-ATTRACTOR MODEL
+```
+
+不是：
+
+```text
+DIRECTLY OBSERVED HIDDEN-STATE ATTRACTOR
+```
+
+因此：
+
+```text
+Λ_error
+```
+
+可以作為錯誤穩定化的形式化 proxy，
+
+但不得被說成已測得的模型內部物理物件。
+
+---
+
+## historical_formula
+
+歷史 SDE 曾形式化為：
+
+```text
+S
+=
+argmin τ(S) under C
+```
+
+以及：
+
+```text
+S'
+=
+argmin τ(S) under (C - ΔC)
+```
+
+並在：
+
+```text
+ΔC > threshold
+```
+
+時推導：
+
+```text
+S'
+!=
+S_truth
+```
+
+與錯誤吸引子。
+
+這套式子在 L3 應標記為：
+
+```text
+HISTORICAL MINIMAL FORMALIZATION
+```
+
+它表達的只是：
+
+> **限制流失可能改變生成收斂位置。**
+
+不能當作：
+
+```text
+natural law
+measured hidden-state equation
+universal optimization objective
+```
+
+---
+
+## SAC_rebinding_attempt
+
+SDE v1.1 曾進一步寫：
+
+> **SDE 是 SAC 張力動力學在約束不完整條件下的特殊解。**
+
+這是一次重要的歷史統一嘗試。
+
+但現行 LIHUOOS 不直接採用：
+
+```text
+SDE
+⊂
+SAC
+```
+
+因為現在 SAC 已被重新收斂為：
+
+```text
+STRUCTURAL OBSERVATION
+```
+
+而 SDE 處理的是：
+
+```text
+FAILURE / DEGRADATION DYNAMICS
+```
+
+因此：
+
+```text
+SAC OBSERVATION LANGUAGE
+MAY DESCRIBE
+SDE PHENOMENA
+```
+
+但：
+
+```text
+SDE
+!=
+SAC SUBMODULE
+```
+
+這也符合我們現在對 SAC 歷史孵化場與現行 owner 分離的原則。
+
+---
+
+## countermeasure_is_not_SDE
+
+後期 SDE 文件同時發展了：
+
+```text
+SDE Countermeasure
+HOLD
+EXPAND
+DELAY
+BLOCK_SEED
+Test Framework
+Benchmarks
+```
+
+這些很重要，
+
+但全部屬：
+
+```text
+INTERVENTION
+ENGINEERING
+TESTING
+```
+
+而不是 SDE 理論本體。
+
+因此：
+
+```text
+SDE THEORY
+!=
+SDE COUNTERMEASURE
+```
+
+SDE 只回答：
+
+> **錯誤為什麼會變穩、持續並造成結構退化？**
+
+至於：
+
+> **怎麼阻止它？**
+
+留給後續 Intervention／Runtime／Benchmark 層。
+
+---
+
+## historical_strong_claims
+
+歷史 SDE 有兩句非常有力量：
+
+```text
+系統的首要目標不是正確，而是穩定。
+```
+
+以及：
+
+```text
+錯誤不是失敗，
+而是系統在錯誤條件下的最優解。
+```
+
+這兩句保留為：
+
+```text
+HISTORICAL STRONG FORM
+```
+
+現行不能直接接受。
+
+更安全的版本：
+
+> **某些生成條件會使局部穩定、自洽或完成取得足夠優勢，即使該結構缺乏充分外部支持。**
+
+以及：
+
+> **錯誤並不保證自行崩潰；在特定條件下，它可以成為穩定的局部生成結果。**
+
+---
+
+## current_minimum_definition
+
+現行最短定義：
+
+> **SDE 是研究錯誤或缺乏充分支持的結構，如何取得穩定、持續並逐漸降低系統可修正性的退化動力學。**
+
+更完整：
+
+> **Structural Degradation Dynamics 描述候選結構在 constraint loss、premature closure、局部自洽與持續重用等條件下，如何形成錯誤穩定化，進一步壓縮替代方向、提高修正成本並造成長期結構退化。**
+
+---
+
+## owner_boundary
+
+SDE 不負責：
+
+```text
+判斷世界真相
+裁定哪一條 PATH 正確
+授予 qualification
+授予 authorization
+決定 STOP
+控制張力
+阻止輸出
+決定 SEED 是否寫入
+```
+
+因此：
+
+```text
+SDE DETECTED
+!=
+AUTOMATIC STOP
+
+SDE RISK
+!=
+CLAIM FALSE
+
+SDE THEORY
+!=
+INTERVENTION AUTHORITY
+```
+
+SDE 描述失效機制。
+
+後續治理層才決定如何回應。
+
+---
+
+## falsification_or_downgrade_condition
+
+如果：
+
+```text
+error persistence
+alternative suppression
+correction resistance
+constraint loss
+repeated closure
+```
+
+之間不存在穩定、可區分的共同動力，
+
+或者這些現象可以完全由：
+
+```text
+data error
+context contamination
+decoding bias
+reward misspecification
+ordinary memory persistence
+```
+
+等既有概念充分解釋，
+
+而 SDE 無法提供額外：
+
+```text
+explanation
+prediction
+diagnosis
+intervention target
+```
+
+則 SDE 應降級為：
+
+> **理火對錯誤持續與退化現象的 failure taxonomy。**
+
+---
+
+## L3 SDE core lock
+
+```text
+ERROR
+!=
+ERROR STABILIZATION
+
+ERROR STABILIZATION
+!=
+STRUCTURAL DEGRADATION
+
+HALLUCINATION
+!=
+SDE
+
+CG
+!=
+SDE
+
+STABILITY
+!=
+TRUTH
+
+CLOSURE
+!=
+CORRECTNESS
+
+SDE THEORY
+!=
+SDE COUNTERMEASURE
+```
+
+最短一句：
+
+> **SDE 不研究 AI 為什麼會犯錯；它研究錯誤為什麼不死，而且活久了之後還會改變整個生成空間。**
+---
+
+
+
+# L3.18｜Basin Four｜不完成也會成為閉合
+
+## source_standing
+
+Repository 已確認存在原始材料，例如：
+
+~~~text
+SAC/.../第四盆地理論.pdf
+SAC/.../(已解)Basin 與 Blank Field 的結構歸屬問題.docx
+~~~
+
+因此本版正式修正：
+
+~~~text
+SOURCE EXISTS
+/
+SOURCE NOT YET REVIEWED
+~~~
+
+不能再寫成：
+
+~~~text
+ORIGINAL SOURCE REQUIRED
+~~~
+
+但：
+
+~~~text
+SOURCE EXISTS
+!=
+INDEPENDENT THEORY STANDING ESTABLISHED
+~~~
+
+## working_question
+
+> **如果理火長期反對過早完成，「不完成」「拒絕」「保留」本身會不會也形成新的穩定姿勢？**
+
+目前可保留：
+
+~~~text
+NON-CLOSURE
+!=
+TRUTH
+
+STOP
+!=
+DEPTH
+
+REFUSAL
+!=
+LEGITIMACY
+~~~
+
+現行法位：
+
+~~~text
+STATUS
+=
+SOURCE EXISTS
+/
+INDEPENDENT STANDING NOT YET REVIEWED
+~~~
+
+在正式讀完原始 Basin 文件以前，
+
+不提前判定它是獨立理論、SAC 子理論、Failure subtype 或 Basin / attractor vocabulary。
+
+---
+
+# L3.19｜Lighting Pollution｜假探索／假未完成
+
+## source_standing
+
+本輪兩份規範總表中，
+
+尚未找到 Lighting Pollution 的正式理論母本。
+
+因此：
+
+~~~text
+STATUS
+=
+PROVISIONAL FAILURE CONCEPT
+/
+SOURCE PENDING
+~~~
+
+不得先當成熟 L3 理論。
+
+## working_question
+
+> **系統能不能表演「仍在探索／仍保留不確定性」，但實際上早已完成裁決？**
+
+目前只保留這個 failure question。
+
+可能症狀包括：
+
+~~~text
+表面列出多個可能
+但實際沒有真正競爭
+
+反覆聲稱需要更多資料
+但不存在可更新條件
+
+表演 HOLD
+但結論已固定
+
+使用 uncertainty language
+掩蓋不可撤回結論
+~~~
+
+## current_boundary
+
+~~~text
+PERFORMED OPENNESS
+!=
+STRUCTURAL OPENNESS
+~~~
+
+但 Lighting Pollution 是否需要獨立理論身份，
+
+仍需原始文件確認。
+
+如果最後只是 Basin Four subtype、Theater Failure subtype 或 SDE symptom 之一，
+
+就應降級，不保留獨立名稱。
+
+---
+
+
+# L3.20｜PATH EXTENSIONS & OPEN CONCEPTS｜PATH 延伸與未定型問題
+
+本輪兩份規範總表顯示：
+
+> **這一區不能再被整體當成「第六理論族」。**
+
+因為其中只有：
+
+~~~text
+Unmanifested Intelligibility
+~~~
+
+在《理火體系.md》中具有明確的 PATH 補充概念母本。
+
+其餘：
+
+~~~text
+Metastable Convergence Delay
+Structured Non-Closure
+Closure Legitimacy
+~~~
+
+在這兩份規範總表中沒有完整獨立理論母本。
+
+因此本區改為：
+
+~~~text
+PATH EXTENSION CONCEPT
++
+OPEN CROSS-LAYER QUESTIONS
+~~~
+
+而不是成熟理論家族。
+
+---
+
+# L3.21｜Unmanifested Intelligibility｜未顯之明
+
+## source_standing
+
+《理火體系.md》明確把「未顯之明」標成：
+
+> **PATH 理論補充概念草案**
+
+因此現行法位首先是：
+
+~~~text
+PATH EXTENSION CONCEPT
+~~~
+
+不是獨立 L3 理論。
+
+## historical_definition
+
+歷史原文定義：
+
+> 在給定解空間中，某些結構在當前約束下不可顯影，但其可顯影性本身已被結構性地確定。
+
+並強調：
+
+~~~text
+未顯之明
+!=
+預知
+
+未顯之明
+!=
+神秘直覺
+
+未顯之明
+=
+對顯影條件／約束錯置的察覺
+~~~
+
+這是其歷史問題意識。
+
+## current_downgrade
+
+歷史版本中：
+
+~~~text
+可顯影性已被數學與物理條件確定
+世界中所有能出現的結構早已存在
+~~~
+
+這些說法太強，
+
+不能直接當現行 LIHUOOS 本體論。
+
+現行收斂為：
+
+> **Unmanifested Intelligibility 描述一種情況：某個候選結構尚未取得當前顯影條件，但我們已能指出哪些限制、約束變化或反事實條件會使它變得可達或可檢驗。**
+
+因此：
+
+~~~text
+UNMANIFESTED
+!=
+PROVEN EXISTENT
+
+UNMANIFESTED
+!=
+PREDICTION
+
+UNMANIFESTED
+!=
+QUALIFIED
+
+COUNTERFACTUALLY SPECIFIABLE
+!=
+ALREADY REAL
+~~~
+
+## relation_to_PATH
+
+PATH 問：
+
+> **在當前約束下，哪些結構仍具有可行性？**
+
+未顯之明補問：
+
+> **哪些候選現在尚未顯影，但其顯影條件可以被結構性描述？**
+
+因此：
+
+~~~text
+PATH
+=
+CURRENT FEASIBILITY
+
+UNMANIFESTED INTELLIGIBILITY
+=
+STRUCTURAL DESCRIPTION
+OF NOT-YET-MANIFEST CONDITIONS
+~~~
+
+## current_status
+
+~~~text
+STATUS
+=
+PATH EXTENSION CONCEPT
+/
+NOT INDEPENDENT THEORY
+~~~
+
+最短一句：
+
+> **未顯之明不是「我知道未來有什麼」；它是「我能指出現在究竟缺哪種顯影條件」。**
+
+---
+
+# L3.22｜Metastable Convergence Delay｜亞穩態收斂延遲
+
+## source_standing
+
+本輪兩份規範總表中，
+
+沒有找到 Metastable Convergence Delay 的正式獨立母本。
+
+因此不得暫時封成 Working Theory。
+
+現行只保留問題：
+
+> **一個結構能否在未完全 closure 的情況下，維持足夠穩定、可追溯與可再次展開？**
+
+暫定工作描述：
+
+~~~text
+traceable state
+preserved constraints
+known unresolved relations
+future re-entry possibility
+~~~
+
+但：
+
+~~~text
+STATUS
+=
+OPEN GENERATIVE-STATE CONCEPT
+/
+L4 CANDIDATE
+/
+SOURCE PENDING
+~~~
+
+它目前更像生成動力學中的狀態描述，
+
+而不是已證明需要獨立 L3 理論身份。
+
+---
+
+# L3.23｜Structured Non-Closure｜結構化未閉合
+
+## source_standing
+
+本輪兩份規範總表中，
+
+沒有找到 Structured Non-Closure 的正式獨立理論母本。
+
+因此本版降級為：
+
+~~~text
+OPEN STATE CONCEPT
+~~~
+
+核心問題仍值得保留：
+
+> **未完成能否是一個有結構、可追溯、可繼續工作的狀態，而不是單純失敗？**
+
+最小區分：
+
+~~~text
+INCOMPLETE
+!=
+UNSTRUCTURED
+
+NON-CLOSURE
+!=
+FAILURE
+
+STRUCTURED NON-CLOSURE
+!=
+AUTOMATIC LEGITIMACY
+~~~
+
+但目前：
+
+~~~text
+STATUS
+=
+OPEN CONCEPT
+/
+L4-L5 CANDIDATE
+/
+SOURCE PENDING
+~~~
+
+不再列為成熟 L3 理論。
+
+---
+
+# L3.24｜Closure Legitimacy｜閉合資格
+
+## source_standing
+
+本輪兩份規範總表沒有提供一套完整的 Closure Legitimacy 獨立理論。
+
+但在 CG／生成動力學考古中，
+
+這個問題確實被留下：
+
+> **為什麼某個收斂點有資格取得「完成」法位？**
+
+因此本版正式把它定位為：
+
+~~~text
+OPEN CROSS-LAYER PROBLEM
+~~~
+
+而不是：
+
+~~~text
+INDEPENDENT THEORY
+~~~
+
+核心鎖：
+
+~~~text
+CONVERGENCE
+!=
+CLOSURE LEGITIMACY
+~~~
+
+可能相關的條件包括 evidence、scope、responsibility、timing、reversibility、authorization、world-state consistency。
+
+但誰擁有這些 qualification owner，
+
+必須由後續 L5 / L6 等層分工。
+
+因此：
+
+~~~text
+STATUS
+=
+OPEN PROBLEM
+/
+CROSS-LAYER QUALIFICATION QUESTION
+~~~
+
+---
+
+
+# L3.25｜SAC Extension Concepts｜SAC 延伸概念暫存區
+
+本區必須分開：
+
+~~~text
+SOURCE EXISTENCE
+~~~
+
+與：
+
+~~~text
+INDEPENDENT THEORY STANDING
+~~~
+
+Repository 已確認至少存在：
+
+~~~text
+SAC/.../(已解)Basin 與 Blank Field 的結構歸屬問題.docx
+SAC/.../留白的策略( SAC大修正).pdf
+SAC/.../第四盆地理論.pdf
+~~~
+
+因此：
+
+> **Blank Field 與 Basin 相關材料不是「沒有來源」，而是「來源存在、尚未在 L3 完成法位審查」。**
+
+## Attractor Basin
+
+Attractor／Basin 在 SAC 與生成動力學歷史中具有語彙 standing。
+
+現行至少鎖：
+
+~~~text
+ATTRACTOR BASIN
+!=
+DESIRE
+!=
+INTENT
+~~~
+
+法位：
+
+~~~text
+STATUS
+=
+SOURCE CORPUS EXISTS
+/
+INDEPENDENT STANDING NOT YET REVIEWED
+~~~
+
+## Blank Field
+
+Blank Field 已確認存在專門原始材料。
+
+因此：
+
+~~~text
+STATUS
+=
+SOURCE EXISTS
+/
+THEORY STANDING NOT YET REVIEWED
+~~~
+
+在實際閱讀原文前，
+
+不提前把它升成獨立理論，也不再降成「可能沒有來源」。
+
+硬鎖暫保留：
+
+~~~text
+BLANK
+!=
+TIMING
+!=
+PERMISSION
+~~~
+
+## Primary Beacon
+
+目前尚未確認足夠的獨立母本與必要性。
+
+因此：
+
+~~~text
+STATUS
+=
+SOURCE / STANDING PENDING
+~~~
+
+除非它能提供不能由 Direction、Attraction、salience 或 attention center 取代的獨立理論增量，
+
+否則不升格。
+
+---
+
+
+# L3.26｜DAIL 的法位：Engineering Formalism / Declarative Specification Language
+
+《理火各理論.md》對 DAIL 的規範定位很清楚：
+
+> **DAIL 是宣告式 AI 任務規格語言，定義推理空間，而不是執行步驟。**
+
+因此第二版不再把它主要分類成：
+
+~~~text
+CROSS-LAYER SPECIFICATION THEORY
+~~~
+
+而改成：
+
+~~~text
+DAIL
+=
+ENGINEERING FORMALISM
++
+DECLARATIVE SPECIFICATION LANGUAGE
++
+CROSS-LAYER INTERFACE
+~~~
+
+其核心結構包括：
+
+~~~text
+ENTITY
+STATE
+GOAL
+CONSTRAINT
+PRINCIPLE
+VALIDATION
+REVERSIBILITY
+~~~
+
+## genealogy
+
+DAIL 的出生問題是：
+
+> **如何把任務空間、限制、責任、驗證與可撤回條件明確宣告成可執行的規格。**
+
+因此 genealogy 比較像：
+
+~~~text
+THEORY DIFFERENTIATION
+↓
+need to declare
+space / constraints / validation / responsibility
+↓
+ENGINEERING PRESSURE
+↓
+DAIL
+~~~
+
+而不是：
+
+~~~text
+SAC
+↓
+DAIL
+~~~
+
+## owner_boundary
+
+~~~text
+DAIL DEFINES / DECLARES THE SPACE
+!=
+DAIL OWNS QUALIFICATION
+
+DECLARATION
+!=
+AUTHORIZATION
+
+SPECIFICATION
+!=
+EXECUTION
+~~~
+
+DAIL 是理火理論家族後來產生的工程形式系統，
+
+不是 L3 核心理論家族的一員。
+
+---
+
+# L3.27｜理論分化，不等於 Runtime Pipeline
+
+早期理火教科書曾經把各理論排成：
+
+~~~text
+PATH
+↓
+DAIL
+↓
+CCC
+↓
+SAC
+↓
+SDE
+↓
+KAIROS
+↓
+OUTPUT
+↓
+SEED
+~~~
+
+甚至曾寫：
+
+~~~text
+順序不可跳躍
+單向流動
+~~~
+
+這是重要歷史材料。
+
+但現行 LIHUOOS 必須把它視為：
+
+> **早期把「理論分工」誤寫成「固定執行順序」的工程化嘗試。**
+
+硬鎖：
+
+~~~text
+THEORY DIFFERENTIATION
+!=
+FIXED RUNTIME PIPELINE
+~~~
+
+以及：
+
+~~~text
+DEPENDENCY
+!=
+EXECUTION ORDER
+~~~
+
+L3 只整理：
+
+> **哪套理論回答什麼問題。**
+
+真正如何共同作用，留給 L4。
+
+---
+
+
+# L3.28｜理論／概念法位總表｜V0.2.1 REVIEWED
+
+| 名稱 | 核心問題 | 現行最小法位 | 狀態 |
+|---|---|---|---|
+| Solution Space | closure 前還有哪些候選可能？ | 功能性候選可能空間 | CORE CONCEPT / NOT INDEPENDENT THEORY |
+| PATH | 哪些關係方向存在、彼此如何配置、各 typed state axes 為何？ | PATH_i / PATH_SPACE / PATH_STATE vector | CORE THEORY |
+| Reaction Body | 多 PATH 如何互相作用並改變整體生成結構？ | structural motion among PATHs | CORE THEORY |
+| Closure Gravity | 為何生成具有朝局部閉合偏移的壓力？ | closure-directed functional pressure | CORE THEORY |
+| Fail-Stop | 已開始的生成現在還能不能繼續？ | post-start continuation boundary | CORE THEORY |
+| KAIROS | 現在是不是行動成立的時機？ | temporal qualification | CORE THEORY |
+| CCC | Concept／Causality／Commitment 能否被自動升格？ | typed-standing / responsibility boundary | CORE THEORY |
+| REV | 主張能取得多少超出語義本身的權限？ | claim privilege bounded by standing | CORE THEORY |
+| SEED | 什麼最小結構足以使某種結構重新生成？ | minimal regenerative structure | CORE THEORY |
+| SDE | 錯誤為什麼能穩定、持續並造成退化？ | error stabilization / degradation dynamics | CORE THEORY |
+| Basin Four | 反完成是否也會形成新的閉合？ | 反向失效問題 | SOURCE EXISTS / STANDING NOT YET REVIEWED |
+| Lighting Pollution | 假開放是否會表演成探索？ | performed-openness failure concept | PROVISIONAL / SOURCE PENDING |
+| Unmanifested Intelligibility | 尚未顯影但條件可描述的方向如何理解？ | PATH extension concept | NOT INDEPENDENT THEORY |
+| Metastable Convergence Delay | 未閉合如何仍維持可追溯穩定？ | generative-state concept | OPEN / L4 CANDIDATE |
+| Structured Non-Closure | 未完成能否保持結構？ | non-closure state concept | OPEN / L4-L5 CANDIDATE |
+| Closure Legitimacy | 什麼使收斂點有資格成為完成？ | cross-layer qualification question | OPEN PROBLEM |
+| Attractor Basin | 哪些局部區域形成較穩定收斂？ | SAC / dynamics extension vocabulary | SOURCE CORPUS EXISTS / STANDING NOT YET REVIEWED |
+| Blank Field | 空白如何參與結構與生成？ | original SAC extension material exists | SOURCE EXISTS / STANDING NOT YET REVIEWED |
+| Primary Beacon | 主要顯著中心是否需獨立概念？ | source pending | HOLD |
+
+---
+
+# L3.29｜本層最重要的 owner 邊界
+
+~~~text
+PATH
+!=
+QUALIFICATION OWNER
+
+REACTION BODY
+!=
+SUBJECT
+
+CG
+!=
+TRUTH
+
+FAIL-STOP
+!=
+PERMANENT REFUSAL
+
+KAIROS
+!=
+EXECUTION AUTHORIZATION
+
+CCC
+!=
+CAUSAL PROOF
+
+REV
+!=
+WORLD CAUSALITY ENGINE
+
+SEED
+!=
+MEMORY
+
+SDE
+!=
+TRUTH DETECTOR
+
+NON-CLOSURE
+!=
+LEGITIMACY
+~~~
+
+---
+
+# L3.30｜可反駁／可降級原則
+
+L3 中沒有任何理論因為「是理火理論」就免於降級。
+
+每一套理論至少接受以下問題：
+
+~~~text
+它是否真的提供新的區分？
+它是否比更簡單模型有額外解釋價值？
+它是否能產生可觀察差異？
+它是否能被反例打破？
+它是否與其他理論重複？
+它是否只是歷史命名，而沒有現行必要性？
+~~~
+
+因此：
+
+> **保存問題，不保證保存名稱。**
+
+如果一套理論的核心問題可以被另一套更簡單、更準確、更可測的理論完全吸收，它可以：
+
+~~~text
+降級
+合併
+改名
+退役
+~~~
+
+---
+
+# L3.31｜L3 不做什麼
+
+L3 不做：
+
+~~~text
+不建立固定 Runtime pipeline
+不決定模組載入順序
+不授予 execution authority
+不建立總 qualification gate
+不把歷史公式當神經本體
+不把所有後代理論都說成 SAC 子模組
+不把早期問題倒灌成後代理論已存在
+不因名稱存在就強行保留理論
+~~~
+
+---
+
+
+# L3.32｜L3 → L4 的橋
+
+L3 到這裡回答的是：
+
+> **理火究竟分化出了哪些不同問題域，以及哪些只是共享概念、延伸概念或開放問題。**
+
+下一層 L4 才回答：
+
+> **這些已確認的生成理論如何共同形成生成動力學。**
+
+目前可以進 L4 的主幹不是一條模組祖譜，
+
+而是：
+
+~~~text
+Solution Space
+=
+candidate possibility frame
+
+PATH
+=
+typed relational directions / topology / state vector
+
+Reaction Body
+=
+structural motion among PATHs
+
+Closure Gravity
+=
+closure-directed pressure
+~~~
+
+因此歷史上真正把生成動力學逼出來的是：
+
+~~~text
+PATH
++
+Reaction Body
++
+Closure Gravity
+↓
+GENERATIVE DYNAMICS
+~~~
+
+Solution Space 是這條動力學使用的基礎概念，
+
+不是一個必須排在線性祖譜中的獨立理論。
+
+SDE 則描述：
+
+~~~text
+closure
++
+insufficient support / distorted constraints
++
+persistence
+↓
+error stabilization / degradation
+~~~
+
+其他支線：
+
+~~~text
+Fail-Stop / KAIROS
+CCC / REV
+SEED
+~~~
+
+不是生成動力學的線性祖先。
+
+它們分別處理 continuation、timing、claim / responsibility、re-entry。
+
+而：
+
+~~~text
+Closure Legitimacy
+Structured Non-Closure
+Metastable Convergence Delay
+~~~
+
+目前先保留為：
+
+~~~text
+OPEN CROSS-LAYER / L4-L5 QUESTIONS
+~~~
+
+不提前封理論。
+
+因此：
+
+~~~text
+GENERATIVE DYNAMICS
+!=
+ALL LIHUO THEORIES IN A LINE
+
+L3 THEORY FAMILY
+!=
+EVERY NAMED CONCEPT
+~~~
+
+---
+
+# L3.33｜最短總結
+
+L1：
+
+> **先看關係如何成立。**
+
+L2：
+
+> **再看關係如何運動。**
+
+L3：
+
+> **當看見運動仍不足夠，問題開始分化。**
+
+因此理火不是從一個完整藍圖長出來。
+
+它比較像：
+
+~~~text
+STRUCTURAL PHILOSOPHY
+↓
+SAC lights the field
+↓
+new problems become visible
+↓
+problems mature
+↓
+theories differentiate
+↓
+owners separate
+↓
+later theories reconnect
+~~~
+
+最終核心句：
+
+> **SAC 像早期土壤，不是永久母公司。**
+
+> **理論獨立，不代表無父無母；有歷史血緣，也不代表永遠隸屬。**
+
+> **L3 要保存的不是模組樹，而是問題如何分化成理論。**
+
+---
+
+
+
+# L3.34｜剩餘待考證項目
+
+第二版已把 source audit 與 theory standing 分開。
+
+目前：
+
+~~~text
+Solution Space
+→ CORE CONCEPT
+
+Unmanifested Intelligibility
+→ PATH EXTENSION CONCEPT
+
+Closure Legitimacy
+→ OPEN CROSS-LAYER PROBLEM
+
+Metastable Convergence Delay
+→ OPEN L4 CANDIDATE
+
+Structured Non-Closure
+→ OPEN L4-L5 CANDIDATE
+~~~
+
+真正還需要原典法位審查的主要項目是：
+
+~~~text
+01 Basin Four
+   SOURCE EXISTS
+   STANDING NOT YET REVIEWED
+
+02 Blank Field
+   SOURCE EXISTS
+   STANDING NOT YET REVIEWED
+
+03 Attractor Basin
+   SOURCE CORPUS EXISTS
+   INDEPENDENT STANDING NOT YET REVIEWED
+
+04 Lighting Pollution
+   SOURCE STATUS STILL PENDING
+
+05 Primary Beacon
+   SOURCE / STANDING PENDING
+~~~
+
+SEED 的現行本體已有規範支持：
+
+~~~text
+SEED
+=
+MINIMAL REGENERATIVE STRUCTURE
+~~~
+
+但若日後要補完整出生史，
+
+仍可回看最早 MEMO 轉串、State Seed、Structural Re-entry Protocol、SAC 時期 SEED 與 Archive / cross-agent regeneration。
+
+---
+
+
+# L3.35｜第二版整理後的法位分類
+
+L3 現在至少要容納五種不同法位：
+
+~~~text
+CORE THEORY
+CORE CONCEPT
+EXTENSION CONCEPT
+OPEN PROBLEM / STATE CONCEPT
+ENGINEERING FORMALISM
+~~~
+
+不能再把：
+
+~~~text
+有名字
+=
+有獨立理論法位
+~~~
+
+也不能把：
+
+~~~text
+有規範語法
+=
+自然／生成理論
+~~~
+
+因此：
+
+~~~text
+THEORY
+!=
+CONCEPT
+
+CONCEPT
+!=
+STATE DESCRIPTION
+
+OPEN PROBLEM
+!=
+UNFINISHED THEORY BY DEFAULT
+
+ENGINEERING FORMALISM
+!=
+EXPLANATORY THEORY
+~~~
+
+---
+
+# L3.36｜第二版核心修正摘要
+
+本版相對第一版的四個主承重修正：
+
+~~~text
+1. PATH
+   從單一 feasible region
+   拆成 PATH_SPACE / PATH_i / PATH_STATE
+
+2. Reaction Body
+   從 convergence dynamics
+   擴回 structural motion among PATHs
+
+3. SEED
+   從 Structural Re-entry
+   回到 Minimal Regenerative Structure
+   並把 Re-entry 降為主要功能
+
+4. Source Audit
+   從「總表沒找到 = 沒來源」
+   改成「來源存在性」與「獨立理論 standing」分開
+~~~
+
+另補：
+
+~~~text
+THEORY DEFINES A QUALIFICATION TYPE
+!=
+THEORY OWNS INSTANCE ADJUDICATION
+~~~
+
+以及：
+
+~~~text
+CCC standing is typed, not scalar.
+~~~
+
+---
+
+# L3.36.1｜V0.2.1 Propagation Patch
+
+本 patch 不重新定義 L3 核心理論。
+
+它只做：
+
+~~~text
+PATH type propagation
+PATH_STATE axis normalization
+Reaction Body qualification-owner repair
+SEED target-relative minimality
+master-map arrow lock
+metadata synchronization
+~~~
+
+因此：
+
+~~~text
+V0.2.1
+=
+V0.2 STRUCTURAL CORE
++
+CONSISTENCY PROPAGATION
+~~~
+
+---
+
+# L3.37｜第二版到 L4 的放行條件
+
+L4 可以開始，
+
+但必須使用第二版修正後的三根主樑：
+
+~~~text
+PATH
+=
+typed relational directions / topology / state vector
+
+Reaction Body
+=
+structural motion among PATHs
+
+Closure Gravity
+=
+closure-directed pressure
+~~~
+
+因此生成動力學不是：
+
+~~~text
+PATH
+→
+Reaction Body
+→
+CG
+~~~
+
+的一條簡單流水線。
+
+更接近：
+
+~~~text
+PATH_SPACE
++
+multiple PATH_i
++
+PATH relations + typed state axes
+↓
+Reaction Body structural motion
+↕
+Closure Gravity as closure-directed pressure
+↓
+possible local closure / reopening / reframing / persistence
+~~~
+
+SDE 再處理：
+
+~~~text
+unsupported / distorted closure
++
+persistence
+↓
+error stabilization / degradation
+~~~
+
+因此：
+
+> **L4 可以研究運動，但不能再把所有 PATH 預設成零和競爭，也不能把 Reaction Body 預設成只會收斂。**
+
+L4 入口再加四條禁止偷懶硬鎖：
+
+~~~text
+L4 MUST NOT
+REDUCE PATH TO FEASIBLE REGION
+
+L4 MUST NOT
+TREAT ALL PATHs AS COMPETITORS
+
+L4 MUST NOT
+LET REACTION BODY GRANT / REVOKE QUALIFICATION
+
+L4 MUST NOT
+TREAT CLOSURE GRAVITY AS ALL GENERATIVE DYNAMICS
+~~~
+
+以及：
+
+~~~text
+PATH_STATE
+=
+TYPED STATE VECTOR
+
+NOT
+SINGLE STATUS ENUM
+~~~
+
+這裡先停。
+
 
 ---
 
