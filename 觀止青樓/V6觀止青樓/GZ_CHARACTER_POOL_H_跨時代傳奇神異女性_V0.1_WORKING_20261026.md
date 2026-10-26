@@ -1414,7 +1414,7 @@ CHARACTER_BASE:
 ## 固定身份、來源層與法位
 
 ```yaml
-SUPPLEMENTAL_CHARACTER_043:
+CHARACTER_BASE:
   name: "關盼盼"
   aliases:
     - "盼盼"
@@ -1654,7 +1654,7 @@ HARD_LOCKS:
 ## 固定身份、命名來源與法位
 
 ```yaml
-SUPPLEMENTAL_CHARACTER_044:
+CHARACTER_BASE:
   name: "夏蓮／趙姬"
   persona_type: "HISTORICAL_EMPRESS_DOWAGER + FORMER DANCER/COURTESAN DONOR / DANCE_CORE_CHARACTER"
   adult_status: "CONFIRMED_ADULT"
