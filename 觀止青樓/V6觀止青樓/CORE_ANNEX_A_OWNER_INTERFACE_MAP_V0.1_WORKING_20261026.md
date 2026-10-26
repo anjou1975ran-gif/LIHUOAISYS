@@ -23,7 +23,7 @@
 | 理火 OS L0 V1.1 | `LIHUOOS/V1版本/L0_INDEX_SOURCE_VERSION_V1.1.md`；L0–L7 意義／治理、L8 運行、L9 能力、Main 計算，Legacy Lighter 非現行控制層。 |
 | 理火 OS L8 | `LIHUOOS/V1版本/L8_LIHUO_OPERATING_CYCLE_V0.3_WORKING_20261025.md`；一次完整業務週期、不重造 owner 定義。注意該來源檔內標記 WORKING；不能把個別草稿視為額外批准的獨立執行模組。 |
 | 理火 OS L9 V1.1 | `LIHUOOS/V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.1_20261026.md`；RADAR_V6、工具能力與治理資格分離。 |
-| WORLD V3.0.0 | `觀止青樓/V6觀止青樓/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md`；世界規則與人文敘事語義另存，CORE 不二次著述。 |
+| WORLD V3.0.0 | `觀止青樓/V6觀止青樓/V3.0.0/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md`；世界規則與人文敘事語義另存，CORE 不二次著述。 |
 
 **狀態聲明：** OS V1.1 在文件層已 ratified current，但來源明示未完成 Host 部署與全系統實證；不得把文件級 CURRENT 當成外部 Host 執行收據。反過來，也不得因 Host 缺席，無端阻斷 Chat 中可以正常完成的敘事工作。
 
