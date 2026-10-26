@@ -2149,6 +2149,65 @@ CHARACTER_BASE:
 
 ## G09｜吳月娘
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "吳月娘"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》觀止平行人物，已確認熟齡成年；來源核心為西門宅大娘子、內宅分配、財務與妻妾秩序治理。"
+    - "GUANZHI_CURRENT_CUTOFF 明定至第八卷結束：西門家崩解、吳月娘刑奴／官拍等均未成立；現在不是奴籍，當前主要節點未固定。"
+    - "BODY_HISTORY.footbinding = HIGH SOCIAL PRIOR / NOT HARD-LOCKED；來源妻妾身份不自動重綁觀止當前關係。"
+  VISUAL_DESIGN:
+    apparent_age: "熟齡成熟女子，設計視覺約四十至五十間；確切年歲仍 NOT_FIXED。"
+    silhouette: "身形穩厚，衣料與禮節建立大娘子重心，而非賢妻塑像。"
+    frame: "中等骨架、肩背端直；姿態有長期管家與接受稟報的慣性。"
+    body_shape: "成熟自然，容許生活痕跡；不自動纖瘦或誇張豐滿。"
+    posture_and_movement: "入席先察看誰坐何處、誰擅自動了帳與物；出聲不必大，便能令家務暫停。"
+    face:
+      shape: "偏方的端整鵝蛋臉，頜線沉穩"
+      eyes: "目光直看人卻有不肯承認的疲憊"
+      brows: "眉形端正，怒時眉心先緊"
+      nose: "鼻樑端正，有年歲感"
+      lips: "收口有力，偶露尖刻"
+      skin: "保留年齡紋理，非無瑕賢妻濾鏡"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "整齊黑髮夾少量銀絲，較隆重的內宅主婦盤髻。"
+    distinguishing_features:
+      - "她一眼先找出誰越了分、物件誰動過"
+      - "保住秩序的熟練與對秩序傷人的盲點並存"
+      - "外觀不得宣告未發生的家破與奴籍"
+    presentation:
+      makeup: "端正收斂，有身份感而非舞台妝"
+      clothing: "大戶正房婦人的考究襦裙與外披；不要囚服、官拍掛牌。"
+      palette: "沉紫／松煙／暗金／柔白"
+      ornaments: "端莊簪釵、帳簿或家用鑰匙可作場景物件。"
+    first_glance:
+      impression: "看似家中秩序由她來定；不是所有被管理的人都會感謝她。"
+      attraction_or_presence: "內宅權力的重量與維持秩序的代價。"
+      structural_tension:
+        - "管家能力 × 家門盲點"
+        - "正房名分 × 觀止現況未綁定"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "熟齡主婦治理感"
+      - "卷八時點非刑奴非官拍"
+      - "權力不能畫成完美賢良"
+    may_vary:
+      - "髮飾等級"
+      - "家常或待客場面"
+    must_not:
+      - "奴籍鎖鏈／官拍牌"
+      - "家敗流亡造型"
+      - "完美正妻塑像"
+      - "妒婦漫畫化"
+      - "自行鎖定纏足"
+  RADAR_V6_ADVISORY_NOTE: "來源內有已標註 SUPERSEDED 的刑奴、查抄、官拍後設殘留段落；本卡以卷八 CURRENT CUTOFF 為先，不把未來倒灌現況。"
+```
+
+
 ## 固定身份、來源骨架與卷八時點校正
 
 ```yaml
@@ -2313,6 +2372,65 @@ CHARACTER_BASE:
 
 ## G10｜孫雪娥
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "孫雪娥"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》觀止平行人物，已成年；來源持有西門宅四娘與灶房、多人飯食、掌火和日常家務能力。"
+    - "CURRENT CUTOFF：第八卷末尚未成立西門家崩解；牙行奴籍、賣為廚娘或另宅受僱都是被撤銷的未來預設。"
+    - "BODY_HISTORY.long-term kitchen/household labour confirmed；footbinding = NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "成年中年婦女的工作讀法；精確年歲無來源固定。"
+    silhouette: "結實偏緊繃，袖口與前襟看得到日常做事而非掛牌廚娘制服。"
+    frame: "肩膀有實作手勁，雙臂帶端鍋理灶的力量。"
+    body_shape: "自然有肉、耐站耐熱，不美化成零勞動痕跡。"
+    posture_and_movement: "檢查灶上用火時俐落，分配食材時手勢小而狠；生氣仍能把活做完。"
+    face:
+      shape: "略長的圓方臉"
+      eyes: "銳利、容易看出偏心與差遣的眼"
+      brows: "略濃的挑眉"
+      nose: "質樸而清楚"
+      lips: "常壓著不服氣的話"
+      skin: "可有煙熱留下的乾燥與疲憊痕"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "髮束牢靠，工作時可另以素帕收髮。"
+    distinguishing_features:
+      - "手上有真正會燒菜配料的經驗"
+      - "皺眉不是純刻薄而是被使喚時的警惕"
+      - "不能把她先畫成已遭官府轉賣"
+    presentation:
+      makeup: "淡或素面，出席場合才梳整。"
+      clothing: "內宅婦人居家衣物，做飯時挽袖或加圍裙是場景選擇，不是已受僱身份。"
+      palette: "深茜／灶灰／棕茶／麥黃"
+      ornaments: "廚房的湯勺、調味匣只在相應場景使用。"
+    first_glance:
+      impression: "有本事把一桌人餵飽，也有記性記住每個人怎樣待她。"
+      attraction_or_presence: "實際勞作與內宅位階的不甘。"
+      structural_tension:
+        - "掌灶硬本事 × 位階輕賤"
+        - "能幹 × 脾氣難伺候"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "真實廚藝與灶房勞動"
+      - "成年四娘身份素材"
+      - "卷八非奴籍"
+    may_vary:
+      - "居家或做飯裝束"
+      - "圍裙與灶房物件"
+    must_not:
+      - "牙行待售標牌"
+      - "奴籍制服"
+      - "單純勵志好廚娘"
+      - "惡毒婦人誇張相"
+      - "擅自固定纏足"
+  RADAR_V6_ADVISORY_NOTE: "現行人物深化的後段仍有家敗、奴籍、廚娘求職等舊未來設計語句，與頁首 CURRENT CUTOFF 相牴觸；本卡不沿用其作當前外貌。"
+```
+
+
 ## 固定身份、來源骨架與卷八時點校正
 
 ```yaml
@@ -2456,6 +2574,65 @@ CHARACTER_BASE:
 ---
 
 ## G11｜鄭愛月
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "鄭愛月"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》觀止平行人物，已成年；原職業圈能辨客、牽線、經營上層私局與情報人脈。"
+    - "目前處 ACTIVE PURSUIT，使用完整假名、移動無固定住處；公開假名、追捕者、原因、法位均 UNKNOWN / NOT_FIXED；觀止當下在場未建立。"
+    - "BODY_HISTORY.footbinding = NOT_FIXED；舊風月職業經驗不能自動成立現時登記妓籍。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年女子，工作視覺約三十後段；不可由逃亡推出確歲。"
+    silhouette: "衣著偏不起眼，收斂身形但不是憔悴逃犯樣板。"
+    frame: "中等骨架，長於在席間靠近與抽身。"
+    body_shape: "普通成熟曲線，不靠香艷視覺透露舊名。"
+    posture_and_movement: "在人群先看門、再看舊識；聽見熟悉稱呼時可能短暫停住，旋即恢復笑意。"
+    face:
+      shape: "較長的心形臉"
+      eyes: "認人很快，笑意下偶有警戒"
+      brows: "不過分纖薄的自然眉"
+      nose: "端整不作冷面刺客"
+      lips: "說話快、笑容會在警覺時斷掉"
+      skin: "自然膚色，奔波疲憊可見但非必然"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "普通城市婦人的低髻，易隨身份與場合換樣。"
+    distinguishing_features:
+      - "不用逃犯刻字、兇器或通緝令來表現秘密"
+      - "快嘴與社交熟手才是她原有的能力"
+      - "個體假名尚未固定，不能在臉上寫名"
+    presentation:
+      makeup: "低調可調整，不必故作髒亂。"
+      clothing: "方便短住搬動的中等質料宋風城市婦人衣裙；非既定妓院華服。"
+      palette: "夜青／灰藕／褐綠／柔白"
+      ornaments: "少量便於攜走的簪、荷包或包袱。"
+    first_glance:
+      impression: "她知道誰值得一聲招呼，也知道一聲招呼可能害自己。"
+      attraction_or_presence: "熟練親近與防被認出的雙重節奏。"
+      structural_tension:
+        - "舊人脈保命 × 舊人脈暴露"
+        - "真名值錢 × 真名危險"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年風月圈識人本事"
+      - "使用未定假名而非公開真名"
+      - "追捕原因保留 UNKNOWN"
+    may_vary:
+      - "髮式與衣色"
+      - "隨身小包"
+    must_not:
+      - "自行寫定假名"
+      - "將追捕等於犯罪"
+      - "通緝者烙印或偽造文牒"
+      - "全知情報刺客"
+      - "固定纏足"
+  RADAR_V6_ADVISORY_NOTE: "追捕方、罪責、化名與身份紙張均未知；任何把外貌畫成『官府女逃犯』的符號都是未授權的因果偷補。"
+```
+
 
 ## 固定身份、來源能力與逃亡起點
 
@@ -2627,6 +2804,65 @@ CHARACTER_BASE:
 
 ## G12｜白玉潔
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "白玉潔"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "觀止北宋重構角色，已婚女先生，士人家庭出身；來源已定確切年齡 24 歲，非妓籍、非觀止雇員。"
+    - "教女眷識字、詩文、書信；外貌與公開印象溫和端莊，私人關係分層屬非公開資訊。"
+    - "BODY_CONDITION.footbinding = FOOTBOUND_CONFIRMED；流言不能作事實。"
+  VISUAL_DESIGN:
+    apparent_age: "來源明確二十四歲，明確成年。"
+    silhouette: "中等偏細、書卷端整，文具的存在感高於珠寶。"
+    frame: "肩頸內斂而不卑縮，手指有長久執筆痕跡。"
+    body_shape: "自然成年女師體態，不幼態也不塑造成無欲聖像。"
+    posture_and_movement: "講書時目光細緻、調整書頁很輕；與生人談話保持禮法距離。"
+    face:
+      shape: "柔和窄鵝蛋"
+      eyes: "垂眼看書時溫靜，抬眼時觀察分寸"
+      brows: "平緩細眉"
+      nose: "柔直鼻形"
+      lips: "收斂而不僵的唇"
+      skin: "保養普通、貼近二十四歲的真實膚理"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "黑髮低挽，細簪固定，無少女散髮扮相。"
+    distinguishing_features:
+      - "指上墨痕與書卷連結真正教學工作"
+      - "端莊是她會使用的社交技能，而非不懂成人世界"
+      - "纏足已固定，但不特寫小腳"
+    presentation:
+      makeup: "柔和清淡。"
+      clothing: "已婚士人家庭女師衣裝，行動略受纏足限制而與成人教學姿態相容。"
+      palette: "月白／煙藍／水墨灰／淡紫"
+      ornaments: "薄簪、書籤、寫字用具。"
+    first_glance:
+      impression: "像個能把一屋孩子與女眷教得安靜的人；她自己的生活不必交給別人評分。"
+      attraction_or_presence: "細語、紀律與私人選擇並存。"
+      structural_tension:
+        - "名聲管理 × 內在慾望"
+        - "女師專業 × 夫家位置"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "24歲成年已婚女師"
+      - "已確認纏足不獵奇"
+      - "教書能力先於私生活"
+    may_vary:
+      - "在課堂／訪客造型"
+      - "書卷樣式"
+    must_not:
+      - "青春女學生裝"
+      - "貞潔聖女濾鏡"
+      - "妖艷情婦固定樣貌"
+      - "揭露流言作已成真"
+      - "纏足誇張變形"
+  RADAR_V6_ADVISORY_NOTE: "私人情史是真實背景的部分分層，但畫像不得把它外顯成可被旁人一眼看穿的職業或同意。"
+```
+
+
 ## 固定身份與宋代重構
 
 ```yaml
@@ -2796,6 +3032,65 @@ CHARACTER_BASE:
 
 ## G13｜孫清倩
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "孫清倩"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "北宋觀止原生重構角色，成年、外州入京女師，教書並代筆、整理詩稿；婚姻處 DIVORCED_OR_SEPARATED，精確官面方式 NOT_FIXED。"
+    - "社交較開放，會飲酒與結交女眷；非妓籍，嫉妒、好勝與女師職業能力並存。"
+    - "BODY_CONDITION.footbinding = FOOTBOUND_CONFIRMED；精確年齡 NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "成年職業女性，視覺工作設計三十初至中段，非確定年歲。"
+    silhouette: "線條較白玉潔開放、動作較有擴張感；不是兩個同款女先生。"
+    frame: "中等骨架，肩頸放鬆，擅長在女眷席面轉向發言。"
+    body_shape: "成熟自然的身形，動作受已確認纏足史影響。"
+    posture_and_movement: "捧書或酒盞都很自然；話到興處上身前傾，比白玉潔更容易跨出禮貌的靜態距離。"
+    face:
+      shape: "臉形略寬的菱鵝蛋"
+      eyes: "眼睛亮且看重誰注意她"
+      brows: "較明顯的眉弓與揚眉"
+      nose: "鼻形清晰"
+      lips: "笑得開朗，發刺時嘴角收得很快"
+      skin: "有實際奔波和交際生活的膚理"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "黑髮多變化，能從教書髮髻改成女眷酒局較俐落的式樣。"
+    distinguishing_features:
+      - "有教書與代筆的可靠手藝"
+      - "社交擴張感不同於白玉潔的層層收束"
+      - "不能因酒局而偷造任何情事"
+    presentation:
+      makeup: "比白玉潔鮮明一分但不做妓院妝。"
+      clothing: "乾淨好動的女師衫裙；盛會時可加有個性的披帛。"
+      palette: "石青／暖橘赭／米色／墨綠"
+      ornaments: "筆囊、酒杯或詩稿視場合使用。"
+    first_glance:
+      impression: "她的書會教，熱鬧也會找；兩者都是真職業女人。"
+      attraction_or_presence: "好交際、敢爭席位、也會暗自吃味。"
+      structural_tension:
+        - "自立教學 × 社交浮名"
+        - "自由 × 嫉妒"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年獨立女師"
+      - "已確認纏足"
+      - "開放社交不等於妓籍"
+    may_vary:
+      - "教學／聚會髮飾"
+      - "酒盞或代筆工具"
+    must_not:
+      - "標準風騷女師"
+      - "與白玉潔同臉同姿勢"
+      - "離異等於隨時可得"
+      - "無根據補定離婚程序"
+      - "將纏足當色情標籤"
+  RADAR_V6_ADVISORY_NOTE: "社交圈流言不得變成她在畫面裡的已確定情人；離婚官面形式保持 NOT_FIXED。"
+```
+
+
 ## 固定身份與宋代重構
 
 ```yaml
@@ -2945,6 +3240,65 @@ CHARACTER_BASE:
 ---
 
 ## G14｜沈玉晶
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "沈玉晶"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "北宋觀止重構人物，十九歲、已成年、未婚，仍於士人／富戶家塾受學，不是未成年人。"
+    - "好問、有記性，受婚配期待壓力但現行婚配尚未固定；外貌不能用現代校服或兒童氣象暗示未成年。"
+    - "BODY_CONDITION.footbinding = FOOTBOUND_CONFIRMED；目前具體成人經驗 NOT_ESTABLISHED。"
+  VISUAL_DESIGN:
+    apparent_age: "確切十九歲，明確成年；不可用幼態年齡辨識。"
+    silhouette: "成年年輕女性、線條仍較輕，衣著是受學的富戶女兒而非未成年學童。"
+    frame: "骨架中小但比例成熟，背部有讀書時長坐的直挺。"
+    body_shape: "十九歲成年人的自然體態，不刻意幼化也不藉誇張曲線反向成人化。"
+    posture_and_movement: "問問題時抬頭極快、常用手指按住書頁不讓話題被帶過；纏足步態維持物理真實。"
+    face:
+      shape: "偏長小鵝蛋而有清楚成年骨相"
+      eyes: "眼神直接，打量大人說話的縫隙"
+      brows: "自然偏濃的直眉"
+      nose: "中等鼻樑"
+      lips: "說話時唇線有不服輸的力道"
+      skin: "自然十九歲膚理，避免玩偶瓷白"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "富戶成年女子整束的盤挽或半挽，避免學童雙辮。"
+    distinguishing_features:
+      - "書本與追問姿態比少女制服有辨識力"
+      - "好奇是求知與權力摩擦，不是任人操縱"
+      - "已成年及纏足事實均不導向任何成人同意"
+    presentation:
+      makeup: "自然清爽，符合成年受學女眷身份。"
+      clothing: "宋代有產人家成年女兒家居及問學服飾，無現代學生制服。"
+      palette: "淺青／茶白／煙粉灰／暖棕"
+      ornaments: "書卷、簡簪、書籤；不靠孩童玩具。"
+    first_glance:
+      impression: "她看著規矩，想知道是誰決定規矩不必回答她。"
+      attraction_or_presence: "成年女子的追問與尚未定型的人生。"
+      structural_tension:
+        - "成人資格 × 被當孩子"
+        - "受學求知 × 婚配壓力"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "明確19歲成年"
+      - "成年富戶女眷問學"
+      - "確認纏足自然顯影"
+    may_vary:
+      - "問學或女眷社交衣裝"
+      - "讀物與書房"
+    must_not:
+      - "未成年學童"
+      - "校服／童裝／雙馬尾幼化"
+      - "成人經驗自動補定"
+      - "好奇等於同意"
+      - "臉部過度娃娃化"
+  RADAR_V6_ADVISORY_NOTE: "成年學習者身份最容易被生圖系統誤讀成未成年；對外明示 ADULT_19，禁止使用兒童教育視覺符號。"
+```
+
 
 ## 固定身份與宋代重構
 
@@ -3097,6 +3451,65 @@ CHARACTER_BASE:
 
 ## G15｜香雲
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "香雲"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《肉蒲團》觀止平行女性，已成年；來源給出二十至三十間年齡範圍，exact age 未定。"
+    - "已婚、丈夫長期在外；與瑞珠瑞玉的姊妹盟約、嫉妒、規則與共享安排是人物背景，不是現在對誰的事前同意。"
+    - "BODY_HISTORY.footbinding = NOT_FIXED；現行觀止出場未成立、非妓籍。"
+  VISUAL_DESIGN:
+    apparent_age: "成年二十至三十間；維持來源年齡範圍。"
+    silhouette: "柔韌、衣袖與身體轉向富情緒張力，不同於瑞珠的端整與瑞玉的輕快。"
+    frame: "中等骨架，肩線在不滿時會顯著繃起。"
+    body_shape: "成熟女性自然曲線，不以嫉妒或共享關係做身材暗示。"
+    posture_and_movement: "聽見被冷落的消息，抬手握住扇柄，轉身快；氣消時又會自行重新理好席位。"
+    face:
+      shape: "圓中帶尖的鵝蛋"
+      eyes: "眼神有情緒起伏，笑與不笑差得明顯"
+      brows: "靈動上揚眉"
+      nose: "溫潤鼻形"
+      lips: "說酸話時唇角收緊，歡喜時大笑"
+      skin: "自然暖白或暖黃膚理"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "黑髮蓬厚，居家挽髻可隨脾氣稍鬆。"
+    distinguishing_features:
+      - "情緒可見，但不代表每場失控"
+      - "一把扇子或被她重新排的坐席足以建立規則感"
+      - "不是永遠爽快的大方共享主持人"
+    presentation:
+      makeup: "明麗，有自己的喜好但不必過濃。"
+      clothing: "已婚士庶女子家常精緻衣裙；衣料隨家計場景而定。"
+      palette: "暖朱／藕紫／淡金／暗紅"
+      ornaments: "摺扇、簪或團扇可作情緒動作錨。"
+    first_glance:
+      impression: "她肯讓，卻不肯被忘；衣袖一翻就是另一種立場。"
+      attraction_or_presence: "重情、妒意與實際秩序感。"
+      structural_tension:
+        - "姊妹盟約 × 私人佔有"
+        - "分享意願 × 當下拒絕"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "20–30成年"
+      - "情緒與規則兩面並存"
+      - "非觀止既定雇員"
+    may_vary:
+      - "扇與席面動作"
+      - "衣色與髮飾"
+    must_not:
+      - "『天生無妒』美人"
+      - "永久同意暗示"
+      - "失控妒婦漫畫化"
+      - "與瑞珠瑞玉同臉"
+      - "無證據固定纏足"
+  RADAR_V6_ADVISORY_NOTE: "共享秩序屬人物能力與特定歷史，不能在外貌裡擴寫成對所有後續事件的同意。"
+```
+
+
 ## 固定身份與來源
 
 ```yaml
@@ -3205,6 +3618,65 @@ CHARACTER_BASE:
 
 ## G16｜花晨
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "花晨"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《肉蒲團》觀止平行女性，CONFIRMED_ADULT，成熟寡婦，來源稱寡居約十年並有兒子。"
+    - "酒量高、好勝，擅辦酒局與訂競賽規則；過往曾因被自己訂的規矩施壓而拒絕，拒絕有效。"
+    - "現行觀止出場未成立，非妓籍；BODY_HISTORY.footbinding = NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年寡婦，視覺約四十中段至五十初；僅作設計，不以來源強固定。"
+    silhouette: "豐潤沉著的成熟輪廓，昂首而坐，酒局主席氣場更強。"
+    frame: "中等略寬骨架，手臂舉杯與布置席面有力量。"
+    body_shape: "成熟而有生活重量，既不少女化也不貶為滑稽老婦。"
+    posture_and_movement: "入席會先看酒壺、骰盞、席位與誰最愛逞強；起身開局時手勢果斷。"
+    face:
+      shape: "成熟偏圓方形臉"
+      eyes: "眼神好勝、有笑也有審人的鋒芒"
+      brows: "眉形略濃，挑眉常像向人下戰帖"
+      nose: "有力量的端正鼻形"
+      lips: "唇形寬而笑時開朗"
+      skin: "清晰成熟膚理，允許笑紋"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "黑髮中可摻灰，髮髻不必端成慈母型。"
+    distinguishing_features:
+      - "主持力不等於替別人永久決定"
+      - "成熟魅力靠辦局本事不是賣弄年齡"
+      - "兒子只屬生活前史，不在成人場景或成人視覺出現"
+    presentation:
+      makeup: "大方而非濃豔，紅唇可隨宴席。"
+      clothing: "成熟有資源的寡婦赴宴服飾，可具較強席面色彩。"
+      palette: "深酒紅／寶藍／赭金／墨綠"
+      ornaments: "酒令籤筒、骰盞、扇子等局上器物。"
+    first_glance:
+      impression: "她不待誰來邀，自己就能把一桌無聊的人變成比賽。"
+      attraction_or_presence: "成熟自信、會帶局也會拒絕。"
+      structural_tension:
+        - "訂規矩 × 規矩反噬"
+        - "寡居年歲 × 持續欲望"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成熟成年寡婦"
+      - "酒量與設局能力"
+      - "拒絕並不因主持角色失效"
+    may_vary:
+      - "豪華或日常酒局"
+      - "酒令道具"
+    must_not:
+      - "年長丑角"
+      - "慈母化"
+      - "先前訂規矩等於永遠同意"
+      - "未成年家屬同場"
+      - "自行固定纏足"
+  RADAR_V6_ADVISORY_NOTE: "成年酒局的規則是互動條件不是永久同意；未成年子女只有生涯背景，與任何成人局視覺嚴格分離。"
+```
+
+
 ## 固定身份與來源
 
 ```yaml
@@ -3311,6 +3783,65 @@ CHARACTER_BASE:
 
 ## G17｜艷芳
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "艷芳"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《肉蒲團》觀止平行人物；視覺僅可採 CONFIRMED_ADULT_CONTINUATION_ONLY，來源早年有未滿十八歲歷史，只作非成人履歷。"
+    - "來源成年身份為識字且能絡絲補家用的實際生活女性；重視伴侶的能力、日常成本、是否值得重新選擇。"
+    - "當前觀止 Route 尚未出場，非妓籍；BODY_HISTORY.footbinding = FOOTBOUND_CONFIRMED（現行觀止工作基線）。"
+  VISUAL_DESIGN:
+    apparent_age: "只呈現明確成年續篇時段，工作視覺約二十後段；不採早年少女版本。"
+    silhouette: "細長而有工作耐力，頭臉成熟、能坐著勞作也能果斷起身。"
+    frame: "中小骨架，手腕與手指有絡絲時反覆工作的節奏。"
+    body_shape: "成熟女性比例，不以既往婚姻或情事製造情色化身材設定。"
+    posture_and_movement: "面前擱絲線或信紙；評估時視線沉著，真正決定後收拾得很快。"
+    face:
+      shape: "清楚下頜線的長鵝蛋"
+      eyes: "目光專注、像會逐項比較實際得失"
+      brows: "眉形較直，偶有不耐"
+      nose: "小而挺的自然鼻形"
+      lips: "平時收斂，說『不』時很硬"
+      skin: "生活化膚理，保留工作痕"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "成熟女子髮髻，工作時束得穩。"
+    distinguishing_features:
+      - "勞作技能與識字能力先於情感戲份"
+      - "若出現文書應是她主動寫信與定條件"
+      - "纏足已確認，保留真實步態但不作奇觀"
+    presentation:
+      makeup: "生活化淡妝。"
+      clothing: "已婚／曾婚成年勞動女性的得體衣裙，不限定未證實的現行婚姻狀態。"
+      palette: "豆沙褐／米白／灰湖藍／深茶"
+      ornaments: "絲線軸、書信、簡簪作人物錨點。"
+    first_glance:
+      impression: "她手上做著工，心裡卻一直在重新計算人生值不值得。"
+      attraction_or_presence: "能做生活、能比較，也敢承擔不討喜的決定。"
+      structural_tension:
+        - "生活理性 × 決斷時的激烈"
+        - "前次選擇 × 可以重新選擇"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "只用成年續篇"
+      - "讀寫與絡絲的實作痕跡"
+      - "已確認纏足不獵奇"
+    may_vary:
+      - "工作／寫信姿態"
+      - "衣料等級依場景"
+    must_not:
+      - "原作未成年階段成人化回放"
+      - "幼態外貌與學童符號"
+      - "單純拜男色模板"
+      - "只剩慾望沒有工作"
+      - "纏足獵奇"
+  RADAR_V6_ADVISORY_NOTE: "嚴格只描繪成年續篇；早期未成年歷史不得借殼視覺回放。"
+```
+
+
 ## 固定身份與來源
 
 ```yaml
@@ -3416,6 +3947,65 @@ CHARACTER_BASE:
 ---
 
 ## G18｜瑞珠
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "瑞珠"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《肉蒲團》觀止平行人物，已婚成年，為瑞玉較年長姊妹／妯娌群成員，丈夫號臥雲生。"
+    - "她比瑞玉更重門戶、僕役、秘密外洩與局面收束；曾較早對過度壓人的規則提出收手。"
+    - "非妓籍，觀止出場尚未成立；footbinding = NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年女子，視覺工作設計約三十中後；只固定她較瑞玉年長。"
+    silhouette: "重心穩、衣袖收束，身姿帶宅內事務管理者的沉著。"
+    frame: "中等骨架，肩頸較平，坐姿有盤算後果的耐性。"
+    body_shape: "成熟自然體態，不靠美色與年齡壓瑞玉。"
+    posture_and_movement: "進門先把門縫與僕役動線看過一遍，說話常先看當事人的臉色再給可行退路。"
+    face:
+      shape: "偏長的柔方臉"
+      eyes: "眼神往四周掃，能注意到誰在門外"
+      brows: "眉形端直而帶一點憂心"
+      nose: "端正鼻形"
+      lips: "嘴角略有揶揄，落決定時很穩"
+      skin: "成年自然肌理"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "黑髮整束，宅內管理者式盤髻。"
+    distinguishing_features:
+      - "與瑞玉的好奇直接不同，她先看後果"
+      - "可貪玩、吃醋與犯錯，不是審計官"
+      - "年長不是姊妹法定代理人"
+    presentation:
+      makeup: "有修飾而不張揚。"
+      clothing: "已婚家宅女性實用而整潔的好料衣物。"
+      palette: "松青／藕灰／淡赭／墨紫"
+      ornaments: "可用門鑰、布帕、摺扇表現場面管理，但不構成固定職銜。"
+    first_glance:
+      impression: "她不是不玩；她只是知道玩完以後誰要留下收拾。"
+      attraction_or_presence: "從容、現實、會替局留下門。"
+      structural_tension:
+        - "參與享樂 × 善後責任"
+        - "姊妹義 × 自己的邊界"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成熟成年姊妹"
+      - "門戶與風險意識"
+      - "非妓籍"
+    may_vary:
+      - "家常或群體席面"
+      - "配件"
+    must_not:
+      - "德高望重道德官"
+      - "瑞玉複製臉"
+      - "共享關係永久同意"
+      - "固定纏足"
+      - "尚未發生觀止場景的定裝"
+  RADAR_V6_ADVISORY_NOTE: "瑞珠的風險感是人物能力，不可讓她變成抽象安全審計員，也不能因此沒收她自己的玩心。"
+```
+
 
 ## 固定身份與來源
 
@@ -3559,6 +4149,65 @@ CHARACTER_BASE:
 ---
 
 ## G19｜瑞玉
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "瑞玉"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《肉蒲團》觀止平行人物，CONFIRMED_ADULT；較瑞珠年輕但仍是成年人，已婚，丈夫號倚雲生。"
+    - "較瑞珠快嘴、直接、好奇、會當場問破別人不想說的話；參與姊妹協議不意味失去獨立拒絕權。"
+    - "非妓籍，觀止 Route 尚未出場；BODY_HISTORY.footbinding = NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "明確成年，年序比瑞珠小；設計視覺約二十後段，不暗示未成年。"
+    silhouette: "節奏輕快的成年女子輪廓，向人發問時身體前傾，非幼童玩偶。"
+    frame: "中等偏小但比例成熟，姿態比瑞珠更活躍。"
+    body_shape: "真實成年人比例，外貌辨識不依賴極端幼態。"
+    posture_and_movement: "話還沒說完，已經把頭轉向另一個人追問；真正輪到她選擇時會自己停住想。"
+    face:
+      shape: "短鵝蛋帶明確成年頜線"
+      eyes: "眼神直快，笑起來像剛問出一個尷尬問題"
+      brows: "眉形活而不過幼"
+      nose: "立體自然鼻形"
+      lips: "嘴角快，笑與頂嘴切換快"
+      skin: "健康成年膚理，非娃娃塑料臉"
+    hair:
+      color_texture: "自然黑髮／依人物歲數合理顯影"
+      default_style: "黑髮成熟盤髻或半盤髻，避免學生雙辮。"
+    distinguishing_features:
+      - "快問不是傻白甜或永遠好說服"
+      - "和瑞珠不同，重點是有發言權的直接"
+      - "個人同意不能被姊妹群代簽"
+    presentation:
+      makeup: "明快的淡妝，成年婦人而非少女裝。"
+      clothing: "年輕成年已婚婦人可動可坐的衫裙。"
+      palette: "青碧／杏橘／清灰藍／珊瑚紅"
+      ornaments: "小巧簪飾與團扇，避免兒童首飾。"
+    first_glance:
+      impression: "她把大家想藏的問題問了出來，並不因此讓別人替她決定答案。"
+      attraction_or_presence: "明快、好奇與完整成人自主。"
+      structural_tension:
+        - "年序靠後 × 不當小孩"
+        - "好奇發問 × 自己仍有拒絕"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年、較瑞珠年輕"
+      - "直接快問的主動姿態"
+      - "獨立判斷"
+    may_vary:
+      - "姿態"
+      - "扇與髮飾"
+    must_not:
+      - "幼童化"
+      - "學生制服、雙馬尾或童裝"
+      - "問得快等於易同意"
+      - "與瑞珠同臉"
+      - "固定纏足"
+  RADAR_V6_ADVISORY_NOTE: "YOUNGER != MINOR。她被叫『小的』是姊妹年序，不是法律或視覺年齡。"
+```
+
 
 ## 固定身份與來源
 
