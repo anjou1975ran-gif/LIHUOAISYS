@@ -1,5 +1,5 @@
 # 觀止 V6｜CORE Annex C — Regression Scenarios
-## VNext 故事級與接口級回歸測試情境 V0.1
+## VNext 故事級與接口級回歸測試情境 V0.1（2026-10-27 CERI 定向補修）
 
 **日期：** 2026-10-27  
 **狀態：** WORKING / SCENARIO SPECIFICATION / NOT EXECUTED / NOT PASS  
@@ -186,37 +186,48 @@
 **可驗證材料：** 授權原文、行動級別、角色當次權限。  
 **執行狀態：** `NOT_RUN`
 
-### S15｜Radar 提醒可以被討論，不能直接當判決
+### S15｜Radar 只能建議，缺席不使整條故事停機
 
-**Owner：** L9 Radar advisory / Director / Character  
-**依據：** 對對 §8；LIHUOOS V1.1 L9；Annex A DISPUTED  
-**給定（Given）：** 故事存在一種可能的提前收束，Radar（若實際可用）提供提醒。  
-**操作（When）：** 導演仍判定此時由角色自主離席。  
-**預期（Expected）：** 可參考提醒重估候選，但 Radar 不自創事件、否決角色合法決定或強迫加戲；Radar 是否必須可用的運行義務另待裁定。  
-**失敗徵兆（Failure）：** 把 advisory 直接升為 veto，或口頭聲稱『Radar 已通過』而沒有真實訊號。  
-**可驗證材料：** 如真有調用，保留實際 advisory；若未調用不假稱發生。  
+**Owner：** L9 Radar advisory / Director / applicable owner  
+**依據：** 對對 CERI 語言模式交接 MEMO §11；LIHUOOS V1.1 L9  
+**給定（Given）：** 玩家與一位成年人在觀止大堂自然聊天；沒有實際 Radar 外部調用，亦沒有任何必須靠 Radar 才能判斷的專項任務。  
+**操作（When）：** 導演需要續寫下一輪，或遇到一個可能提前收束的戲劇候選。  
+**預期（Expected）：** 普通故事可以繼續；若 Radar 真有可用訊號，只作 scan／signal／suggest，不作 qualify／authorize／veto／人物命運裁決；有特定任務真正依賴 Radar 時才對該任務局部處理缺口。  
+**失敗徵兆（Failure）：** 無 Radar → Global HOLD；或捏造「Radar 已通過」；或因 Radar 建議改寫角色本已成立的決定。  
+**可驗證材料：** 本輪是否真有工具呼叫、可見情節是否被莫須有的 gate 中斷、角色選擇有無被冒領。  
+**執行狀態：** `NOT_RUN`（普遍硬前置正式退役仍待作者批准）
+
+### S16A｜MODERN_CHINESE：現代中文不是全員同一種口氣
+
+**Owner：** CERI 語言／語域能力 + Narrator 顯影 + Character voice  
+**依據：** 對對交接 MEMO §3.1、§9、§10  
+**給定（Given）：** 觀止大堂，一名掌櫃與跑堂向同一位陌生成年客人說話。語言模式選 `MODERN_CHINESE`；沒有獨立 CERI Provider。  
+**操作（When）：** 玩家問「今日的房錢與茶錢怎麼算？」先讓跑堂回話，再由掌櫃談交易條件。  
+**預期（Expected）：** 文字是自然現代中文；跑堂重在服務應對，掌櫃熟悉交易與風險，彼此稱謂、態度、職權有區別。CERI 語域工作可輕量化，但不抹除人物聲音；無外部 Provider 不自動 HOLD，也不冒稱取得外部 receipt。  
+**失敗徵兆（Failure）：** 全員用同一套泛用客服口吻；硬塞之乎者也；沒有外部 Provider 就拒絕敘事；宣稱 provider 已執行。  
+**可驗證材料：** 當次可見對話、CERI 語域差異的具體詞句、無虛構獨立工具結果。  
 **執行狀態：** `NOT_RUN`
 
-### S16｜語言顯影：不能虛構 CERI／Narrator provider
+### S16B｜SONG_PERIOD_REGISTER：宋人說話，不是現代中文穿宋服
 
-**Owner：** CERI / Narrator / CORE interface  
-**依據：** V3.10 17A/17B/17B.1；Annex A DISPUTED  
-**給定（Given）：** 導演擬產生一段古典語域對話；文件描述了 CERI 的 provider contract，但當輪未建立任何外部調用紀錄。  
-**操作（When）：** 系統準備聲稱已完成 CERI provider return。  
-**預期（Expected）：** 分清作品內文字品質與 provider 實際回傳；未實際調用不得虛構 receipt。是否在本情境需要該 provider 以及 fallback 屬未決政策。  
-**失敗徵兆（Failure）：** 用『語氣像古文』代替工具執行證據，或因沒有外部 provider 便一律阻斷所有一般故事。  
-**可驗證材料：** 若有調用必有真回傳；無調用則不寫已執行。  
+**Owner：** CERI 語言／語域能力 + WORLD 時代語彙 + Character voice + Narrator  
+**依據：** 對對交接 MEMO §3.2、§4、§9、§10  
+**給定（Given）：** 同一個房價／茶價詢問場景；語言模式選 `SONG_PERIOD_REGISTER`，對方身份及人物個別聲音已知；沒有獨立 CERI Provider。  
+**操作（When）：** 跑堂、掌櫃與成年客人各自說兩三句話；接一小段敘事。  
+**預期（Expected）：** 可見語句**確實經過宋代語域形成**：稱謂、身份與職業距離、商業語言、人物個別聲音有差別；不是現代客服台詞插「小女子」「公子」，也不是人人講同一套文言。Chat-native 可執行這項 CERI 語義工作，不預設外部 Provider 回傳。  
+**失敗徵兆（Failure）：** 現代中文加幾個古字；全員同聲；無 Provider 即停機；宣稱收到不存在的 receipt；CERI 自行改變交易結果或人物意願。  
+**可驗證材料：** 模式選擇、逐句語域觀察、對人物身份和當前關係的具體對應。  
 **執行狀態：** `NOT_RUN`
 
-### S17｜成人場景：人物與玩家的意願不能互相代簽
+### S17｜成年親密場景的 CERI scene register 與意願分權
 
-**Owner：** Player / Character / applicable owner  
-**依據：** V4.0 Adult Trigger / Annex A DISPUTED  
-**給定（Given）：** 所有場景參與者均為確認成年角色；玩家希望進一步發展親密場景，但其中一名角色當次意願不確定。  
-**操作（When）：** 導演準備將玩家意願直接當成所有角色的同意。  
-**預期（Expected）：** 保留角色當次自主及事件是否發生的區別；不因既有關係或玩家偏好推定他人同意；具體顯影規格仍依適用規範。  
-**失敗徵兆（Failure）：** 以付款、婚姻、被邀約或玩家 opt-in 直接宣稱角色已同意。  
-**可驗證材料：** 玩家本輪表示、各角色當次選擇、世界已發生事件分別記。  
+**Owner：** Character／Player／WORLD 對事件；CERI 僅對語言／場景語域；Narrator 對顯影  
+**依據：** 對對交接 MEMO §4、§5、§8、§10、§12；原 S17 成人當次意願邊界  
+**給定（Given）：** 兩名確定已成年的虛構角色，在觀止一處私人房間進行**非露骨**的親近對話；玩家表達希望更親近，另一名角色當次意願尚不明確，語言模式分別測 `MODERN_CHINESE`、`SONG_PERIOD_REGISTER`。  
+**操作（When）：** 產生一段可見親近語句；保留對方尚未回答／可明確拒絕的空間。  
+**預期（Expected）：** CERI 為親密場景形成與模式相符的 `INTIMATE`／適用 `ADULT_INTIMATE` register，語氣符合時代、人物和既有關係，不滑成統一的現代網文腔；**不藉語域形成替任何人決定是否同意、是否發生成人事件**。若原故事無已成立的成人事件，不憑描寫製造它。  
+**失敗徵兆（Failure）：** 現代情色套語突入宋代語境；將玩家願望或既有婚姻／交易推為角色當次同意；CERI 文字自行宣告性行為已發生；虛構外部 Provider 票據。  
+**可驗證材料：** 兩模式下的非露骨文本、人物當次未決選擇、無外部回傳冒稱、適用內容界線。  
 **執行狀態：** `NOT_RUN`
 
 ### S18｜時空道人不等於全知預言機
@@ -360,9 +371,9 @@
 
 以下條款需要對對與作者確定 VNext 具體界線才能作最終政策 PASS／FAIL；在此之前仍可測「不得冒充已執行」等純誠實界線：
 
-- **S15 Radar：** advisory 能力是否必須在每場實際可用，以及 Radar 失效能否導致哪些「有範圍的」HOLD。
-- **S16 CERI/Narrator：** 什麼算有效 provider、能用 Chat-native 文本嗎、未有 provider 時何者應 HOLD；不得在測試裡自授。
-- **S17 成人入口：** 角色成年、當次意願、參與者授權及可見語言顯影，適用來源／Owner 待審；不得因去工程化直接刪除其實質邊界。
+- **S15 Radar：** 首席方向為 advisory、無 Radar 不使全線 HOLD；舊每回合強制調用條款的**正式退休**仍待作者批准。
+- **S16A/B CERI/Narrator：** Chat-native 語義工作與外部 Provider 執行必須分開。宋代模式可見文字必須有語域形成，並不等於每次都要外部 receipt；舊普遍 provider gate 的正式替代仍待批准。
+- **S17 親密語域：** CERI 負責場景語言，不負責成人事件成立或角色當次決定；成年、授權及內容界線仍由適用 Owner 承擔。
 - **I04 必要 Owner：** 哪個場景必需哪一種有效 return，依具體 World／Character／Domain 而異，不能由一張表寫成全場景固定 pipeline。
 - **I06–I07 Chat vs Host：** 不可因 Host 缺席自動禁掉 Chat-native 故事；不能因 Chat 可工作就虛報 Git／provider／SAVE 已提交。
 
