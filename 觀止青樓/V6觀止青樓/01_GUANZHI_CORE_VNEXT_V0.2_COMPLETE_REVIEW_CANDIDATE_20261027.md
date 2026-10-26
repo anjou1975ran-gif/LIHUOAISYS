@@ -1,5 +1,8 @@
 # 觀止青樓｜CORE VNext
-## 本地故事運行核心 V0.2｜完整重構審查候選版
+## 本地故事運行核心 V0.2｜前期架構留存
+
+> 2026-10-27 校正：本 V0.2 雖曾標示完整候選，實際是職責與接口架構稿，不是完整運行 CORE。可逐回合操作的新正文見 `01_GUANZHI_RUNTIME_CORE_VNEXT_V0.3_OPERATIVE_BODY_WORKING_20261027.md`。
+
 
 **日期：** 2026-10-27  
 **狀態：** COMPLETE_REFACTOR_CANDIDATE / REVIEW_READY / NOT_RATIFIED / NOT_CURRENT / NOT_DEPLOYED  
