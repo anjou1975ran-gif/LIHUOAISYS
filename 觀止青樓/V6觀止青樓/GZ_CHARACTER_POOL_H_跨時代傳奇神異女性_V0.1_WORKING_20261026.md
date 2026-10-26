@@ -439,7 +439,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS: 
     - "北宋李清照之觀止平行續寫，已成年，詞人、酒與文學人物；曾自行返回原時代後又自主再訪，非觀止常住員工亦非妓女。"
     - "由酒、詞、友人與文事驅動到場；某玩家線婚姻提案、詞局輸贏與關係不得倒灌。"
-    - "BODY_HISTORY.footbinding = FOOTBOUND_CONFIRMED（觀止現行個體基線）；確切年齡 NOT_FIXED。"
+    - "GUANZHI WORLD V3.0.0 第 1.5 節明定李清照未纏足；此處以 NOT_FOOTBOUND 為觀止人物身體基線，確切年齡 NOT_FIXED。"
   VISUAL_DESIGN: 
     apparent_age: "成熟成年詞人，設計視覺三十至四十多，當線時點另查，不固定生平年齡"
     silhouette: "骨架中等、衣裝有行旅塵與書卷，不是舞台才女或少女詩仙"
@@ -459,7 +459,7 @@ VISUAL_MANIFESTATION_BASE:
     distinguishing_features: 
       - "詩才在眼神與紙頁上，不用文學光環"
       - "喝酒不是醉態永久制服"
-      - "足部依既成纏足史自然呈現"
+      - "足部保留非纏足的正常外形與自然步態，旅途疲勞按當前行動而非小腳預設"
     presentation: 
       makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
       clothing: "宋代成年文人女性的整潔衫裙，旅裝可帶路塵"
@@ -475,7 +475,7 @@ VISUAL_MANIFESTATION_BASE:
     must_keep: 
       - "成年詞人非妓女"
       - "可來可走"
-      - "FOOTBOUND_CONFIRMED但不獵奇"
+      - "NOT_FOOTBOUND / 未纏足"
     may_vary: 
       - "酒桌或詞局"
       - "旅衣或常服"
@@ -484,8 +484,8 @@ VISUAL_MANIFESTATION_BASE:
       - "只會吟詩的文化聖女"
       - "文會必須陪客"
       - "沒根據的永久友情"
-      - "纏足誇張畸形"
-  RADAR_V6_ADVISORY_NOTE: "文名不是全部人格；玩家線輸贏及關係不得生成跨線『固定姿態』。"
+      - "纏足鞋履、三寸金蓮足形或以纏足限制作人物步態"
+  RADAR_V6_ADVISORY_NOTE: "文名不是全部人格；玩家線輸贏及關係不得生成跨線『固定姿態』。舊池 FOOTBOUND_CONFIRMED 與 WORLD V3.0.0 第 1.5 節相衝突，現已按人類明示校正為 NOT_FOOTBOUND；不得從一般宋代階級先驗反向覆蓋個體身體史。"
 ```
 
 
@@ -670,9 +670,9 @@ CHARACTER_BASE:
     core: "李清照／易安居士；她的歷史背景就是背景，不需要編一套妓籍第二生命。"
     performance: "她可以讓人知道自己是詞人、嗜酒、懂金石，也可以懶得替陌生客人講完整人生。"
   BODY_HISTORY:
-    footbinding: "FOOTBOUND_CONFIRMED"
-    authority: "LCAPG V3.0 / WORLD CLASS RULE"
-    note: "行走與流離仍可發生，但應計入足部疲勞、鞋履與長途成本。"
+    footbinding: "NOT_FOOTBOUND"
+    authority: "GUANZHI WORLD V3.0.0 §1.5 / HUMAN_CORRECTION_20261026"
+    note: "李清照未纏足；行旅仍有一般體力、鞋履與路程成本，不套用纏足的步態和足部限制。"
   BASE_AMBITION:
     primary:
       - "讓自己的文字、收藏記憶與判斷留下，而不是只留下『才女／寡婦／亂世女人』三個標籤。"
