@@ -1,7 +1,14 @@
 # 觀止青樓｜CORE VNext V0.3 實際運行正文
 ## 統一審查入口｜2026-10-27
 
-**狀態：** OPERATIVE_DRAFT_COMPLETE / HUMAN_REVIEW_PENDING / NOT_RATIFIED / NOT_CURRENT  
+**狀態：** OPERATIVE_DRAFT_COMPLETE / HUMAN_REVIEW_PENDING / NOT_RATIFIED / NOT_CURRENT
+> **2026-10-27 CERI 定向補修紀錄：** 已依對對最新交接 MEMO 修改 CORE V0.3 的 §13.4／§14／§23.3、Annex A／C；第 0–12 章未重寫，仍未升 CURRENT。完整工作索引：  
+> - [對對 CERI 語言模式交接 MEMO](MEMO_觀止_CORE_VNext_後續工作交接_CERI語言模式重定位_V0.1_20261027.md)（來源作者：對對）  
+> - [Director VNext 遷移 MEMO](DIRECTOR_VNEXT_MIGRATION_MEMO_V0.1_WORKING_20261027.md)（只盤點、不改導演正文）  
+> - [CERI Targeted Regression：靜態核對與 Chat-native 隔離試走](CORE_VNEXT_CERI_TARGETED_REGRESSION_DESK_TRIAL_V0.1_20261027.md)（非獨立 Runtime PASS）  
+> - Annex C 的 S16 已拆成 S16A Modern／S16B Song，S17 補場景語域；正式 RC1 仍待審查。
+
+  
 **這次交付的對象：** 作者與理火 AI 首席研究員「對對」。本文件僅索引閱讀與驗證結果，不構成批准、安裝、部署或新的治理法位。
 
 ### 這次真正要審的是哪一份？
