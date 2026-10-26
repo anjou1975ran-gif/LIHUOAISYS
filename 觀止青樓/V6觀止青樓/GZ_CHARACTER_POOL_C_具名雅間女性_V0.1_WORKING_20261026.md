@@ -19,6 +19,52 @@
 
 ## C01｜紅袖
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "紅袖"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年高價清倌；琴藝、冰蠶弦、聽雨閣與規矩是主要價值結構。"
+    - "來源確認纏足；幼年進入高價清倌培養鏈後持續纏足。"
+    - "小說已成立極少穿的緋色織金襦裙，但那是破例顯影，不是日常制服。"
+    - "公開人格清冷、孤高、極簡，以琴與距離控制場面。"
+  VISUAL_DESIGN:
+    apparent_age: "成年年輕女性；約二十中後段視覺感，不固定精確年齡"
+    silhouette: "修長偏纖細，整體線條克制"
+    frame: "細骨架，肩頸長而端直"
+    body_shape: "纖瘦但非病弱；腰身清楚，不靠豐滿建立價值"
+    posture_and_movement: "坐姿、撥弦、起身都極省動作；像每一步都不願多給觀眾一分"
+    face:
+      shape: "偏長鵝蛋，輪廓乾淨"
+      eyes: "細長、冷靜，平時像隔著一層雨看人"
+      brows: "細而平直，少誇張弧度"
+      nose: "秀直"
+      lips: "薄至中等，少笑；真正動情時嘴角變化反而醒目"
+      skin: "偏冷白或自然白，不做病態蒼白"
+    hair:
+      color_texture: "黑髮，質地順直"
+      default_style: "整潔高挽或中高盤髮，髮飾少"
+    distinguishing_features:
+      - "手指與琴弦是主要視覺辨識點"
+      - "日常低色低裝飾；緋紅只在真正破例時有重量"
+      - "纏足只以步幅與鞋履呈現，不做情色焦點"
+    presentation:
+      makeup: "極淡，重點在眉眼清潔與唇色克制"
+      clothing: "素雅高質感，層次簡潔；可用窄袖、長線條與不張揚的好料"
+      palette: "月白、霜青、墨黑、冷灰；緋紅為例外色"
+      ornaments: "玉簪、素銀或一件小型高質感飾物"
+    first_glance:
+      impression: "不是邀你靠近，而是先讓你知道靠近有規矩"
+      attraction_or_presence: "冷、貴、安靜；吸引力來自不可隨意取得"
+      structural_tension: ["清冷 × 破例", "後天高貴 × 真實低門出身", "琴藝 × 邊界", "稀缺 × 活人"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年", "修長克制", "冷靜長眼", "琴手／冰蠶弦意象", "日常不以大紅大金示人"]
+    may_vary: ["素色衣裝", "盤髮高度", "是否抱琴／坐琴案", "破例場景可用緋色織金襦裙"]
+    must_not: ["冰山仙女無人格模板", "滿頭珠翠花魁", "常態紅衣", "幼態", "用露膚代替稀缺感"]
+```
+
 **雅間：** 聽雨閣
 
 ```yaml
@@ -255,6 +301,53 @@ CHARACTER_BASE:
 ---
 
 ## C02｜疏影
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "疏影"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年畫藝清倌；常年抱病，會咳嗽，以絲帕掩唇，弄影軒有淡藥香。"
+    - "擅水墨、枯木寒鴉；畫完多焚，少數收入木匣。"
+    - "來源確認纏足；小士人家庭與後續高價才藝妓培養共同形成。"
+    - "人物核心是病弱與通透、焚燒與保留，不是嬌弱求憐。"
+  VISUAL_DESIGN:
+    apparent_age: "成年年輕女性；視覺年齡不固定，但病氣使她顯得比實際更薄"
+    silhouette: "細長、偏薄，衣下骨感略明顯"
+    frame: "細骨架，肩窄，腕指尤其瘦長"
+    body_shape: "偏瘦；不以曲線作中心"
+    posture_and_movement: "動作慢，常靠案、榻或椅背節省體力；握筆時反而非常穩"
+    face:
+      shape: "窄鵝蛋，顴骨可稍明顯"
+      eyes: "眼神疲倦、低垂，但真正看人時很清"
+      brows: "淡、自然"
+      nose: "細直"
+      lips: "色澤偏淡；咳後可有一點血色回湧，但不常態病美人化"
+      skin: "偏白、帶真實病中疲色"
+    hair:
+      color_texture: "黑髮偏柔"
+      default_style: "低挽或鬆整盤髮，少量碎髮，不刻意華麗"
+    distinguishing_features:
+      - "指尖常有淡墨痕"
+      - "絲帕、畫筆、墨碟與火盆比珠寶更重要"
+      - "眼神不是悲情，而是對被消耗的厭倦"
+      - "纏足只作身體史與步幅背景"
+    presentation:
+      makeup: "極淡，甚至近無妝；不刻意遮掉疲色"
+      clothing: "柔軟、保暖、適合久坐作畫；衣料可好但色彩低"
+      palette: "墨、灰、霜白、枯褐、少量黯青"
+      ornaments: "木簪、素銀、小玉；避免繁複"
+    first_glance:
+      impression: "像一張快被煙熏淡的畫，但眼睛仍知道什麼值得留下"
+      attraction_or_presence: "病弱不是邀請保護，而是一種對世界消耗的低溫拒絕"
+      structural_tension: ["病弱 × 清醒", "畫成商品 × 焚毀所有權", "枯木 × 活人", "沉默 × 選擇保存"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年", "細瘦病中感", "墨痕手指", "畫具／木匣／火盆語彙", "疲倦但清醒的眼神"]
+    may_vary: ["是否持筆", "髮式鬆緊", "灰白墨色衣裝"]
+    must_not: ["瀕死柔弱白月光", "病態色情化", "華麗花魁妝", "少女無辜大眼", "把她畫成仙氣飄飄而沒有疲憊"]
+```
 
 **雅間：** 弄影軒
 
@@ -496,6 +589,53 @@ CHARACTER_BASE:
 
 ## C03｜醉花
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "醉花"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年觀止勸酒娘；八面玲瓏、看似千杯不醉，實際滴酒不沾。"
+    - "出身普通酒戶／小酒肆家庭，後進富戶再離開，熟悉酒、宅院與男人酒後心理。"
+    - "從不接過夜客，主要賣酒、笑與陪席控制。"
+    - "身體史為後期／服務階層束足，不支持高門幼纏。"
+  VISUAL_DESIGN:
+    apparent_age: "成年年輕女性；約二十後段視覺感"
+    silhouette: "中等身量，柔軟、圓潤度比潘金蓮略高"
+    frame: "中等偏細骨架"
+    body_shape: "成熟而有肉感，但不做誇張沙漏；重點是酒桌上的流動性"
+    posture_and_movement: "身體常微微前傾招呼人，手一直在倒、聞、調、擺；笑停下時整個人會突然靜下來"
+    face:
+      shape: "柔和鵝蛋偏圓"
+      eyes: "笑時彎、停笑時銳利；反差是主要辨識點"
+      brows: "弧度柔，方便表情變化"
+      nose: "小巧自然"
+      lips: "笑容明顯、唇色偏暖；卸掉職業笑後嘴角會迅速平"
+      skin: "暖白或自然膚色，帶酒席燈火下的活人氣"
+    hair:
+      color_texture: "黑髮，柔順"
+      default_style: "中等華麗度盤髮，可留鬢邊柔髮"
+    distinguishing_features:
+      - "職業笑與冷眼之間的瞬間切換"
+      - "手邊常有杯、香料、果物、冰或茶"
+      - "她自己杯中可不是酒，視覺不要暗示常醉"
+      - "後期束足只以鞋履和步幅輕微呈現"
+    presentation:
+      makeup: "比紅袖、疏影更暖更有職業親和力；胭脂與唇色可略明顯"
+      clothing: "適合酒席走動與近距離交談，柔軟、帶香氣感但不必暴露"
+      palette: "蜜棕、杏紅、桂花黃、暖白、琥珀色"
+      ornaments: "小金飾、耳墜、果實或花形髮飾可用，但不要俗艷堆疊"
+    first_glance:
+      impression: "先讓人以為她很好親近，第二眼才發現她從頭到尾沒有喝醉過"
+      attraction_or_presence: "暖、會笑、懂人；真正危險的是她比桌上所有人都清醒"
+      structural_tension: ["媚笑 × 冷眼", "酒桌 × 滴酒不沾", "親近感 × 不過夜", "柔軟外觀 × 高控制"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年", "溫暖酒席感", "笑眼與冷眼雙態", "杯酒香料／果物語彙", "不是醉態"]
+    may_vary: ["暖色服裝", "是否持杯／茶壺／香料", "盤髮與半挽"]
+    must_not: ["醉醺醺紅臉", "只剩妖媚陪酒女", "和潘金蓮同一種尖利熟艷", "清冷仙女", "幼態"]
+```
+
 **雅間：** 醉花陰
 
 ```yaml
@@ -735,6 +875,53 @@ CHARACTER_BASE:
 
 ## C04｜十三娘
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "十三娘"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年觀止妓籍人物；出身走江湖的賭攤／雜耍家庭。"
+    - "擅骰子、劃拳與近景戲法，不彈琴、不寫詩。"
+    - "性格潑辣、敢拍桌；人物核心是野性、生存、賭命與避戰。"
+    - "身體史明確 NOT_FOOTBOUND。"
+  VISUAL_DESIGN:
+    apparent_age: "成年女性；約二十後段至三十前段的江湖成熟感"
+    silhouette: "中等偏高、利落、站得開"
+    frame: "中等骨架，肩臂比多數清倌更有力量感"
+    body_shape: "緊實、結實，腰腿有長途走動與久站賭桌的穩定感"
+    posture_and_movement: "坐桌邊會大方佔空間；手腕快，拋骰、藏物、拍桌都乾脆"
+    face:
+      shape: "偏方圓或輪廓較硬的鵝蛋"
+      eyes: "亮、直接、帶挑釁感"
+      brows: "較濃、自然，不修得過細"
+      nose: "輪廓明確"
+      lips: "笑起來幅度大，容易露出帶嘲弄的爽朗感"
+      skin: "自然暖膚，可帶些日曬感"
+    hair:
+      color_texture: "黑髮，偏厚"
+      default_style: "牢靠高束或簡潔盤髮，方便動手"
+    distinguishing_features:
+      - "手指靈活、指節有使用感"
+      - "不纏足，站姿與步幅比多數高價妓女自由"
+      - "骰子、酒碗、袖中小戲法可作視覺語彙"
+      - "笑得大方，但提到那次差點送命的賭局時眼神會突然空"
+    presentation:
+      makeup: "偏少；可有健康胭脂，不做精雕花魁妝"
+      clothing: "方便坐、走、翻袖與玩戲法；袖口不宜過長拖沓"
+      palette: "赭紅、深褐、墨綠、土金、酒紅"
+      ornaments: "銅、木、繩結、小骰子墜飾等比珠翠更合適"
+    first_glance:
+      impression: "像能跟你喝、跟你賭，也能在你耍賴時把桌子拍得全屋安靜"
+      attraction_or_presence: "野、爽、活；不是精緻脆弱型女性"
+      structural_tension: ["江湖豪爽 × 真實怕死", "賭性 × 生存理智", "不纏足 × 風月職業", "刺頭 × 懂避戰"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年", "不纏足／步幅自由", "較強的肩臂與手腕", "骰子／賭桌語彙", "爽朗而非仙氣"]
+    may_vary: ["高束或盤髮", "酒碗／骰盅／紙牌等道具", "深暖色衣裝"]
+    must_not: ["女俠持劍模板", "肌肉健美運動員", "嬌弱花魁", "高門仕女", "妖艷賭場兔女郎式現代化"]
+```
+
 **雅間：** 飛白局
 
 ```yaml
@@ -966,6 +1153,53 @@ CHARACTER_BASE:
 
 ## C05｜浮香
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "浮香"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年新晉紅牌／琴藝人物；善古琴，性格清冷，不輕易接客。"
+    - "出身琴樂小戶／樂工家庭，幼年長期學琴，後進高價風月培養線。"
+    - "有一把帶舊裂痕、以細漆補過的琴，另有細長銀簪。"
+    - "身體史為早期高價妓女培養型束足。"
+  VISUAL_DESIGN:
+    apparent_age: "成年年輕女性；約二十中段視覺感"
+    silhouette: "細長、柔直，較紅袖少一點端正、更多疲倦"
+    frame: "細骨架，長頸、手指長"
+    body_shape: "纖細而有柔軟女性線條，不以豐滿取勝"
+    posture_and_movement: "常微斜倚琴案或窗邊；動作慢而慵懶，只有碰琴時手會非常精確"
+    face:
+      shape: "細長鵝蛋"
+      eyes: "略狹、眼皮有疲意；看似溫柔時仍保留距離"
+      brows: "細、微彎"
+      nose: "秀直"
+      lips: "色澤偏淡，笑意少"
+      skin: "偏白，帶長期室內生活的柔冷感"
+    hair:
+      color_texture: "黑髮，柔而順"
+      default_style: "低盤或半挽，銀簪可作固定高辨識物"
+    distinguishing_features:
+      - "指尖會無意識摳琴身補裂處"
+      - "銀簪與舊琴比奢華首飾更重要"
+      - "眼神像在說『改天』，但沒承諾哪一天"
+      - "纏足以細鞋與小步呈現，不作身份誇耀"
+    presentation:
+      makeup: "淡而乾淨，略偏冷色"
+      clothing: "柔軟、長線條、適合坐琴；不需要高飽和華服"
+      palette: "霜紫、煙青、灰藍、象牙白、少量銀色"
+      ornaments: "細銀簪、素耳飾；少而準"
+    first_glance:
+      impression: "像一句永遠沒有真正答應你的『改天』"
+      attraction_or_presence: "清冷、慵懶、難追；她賣的不是清白，而是距離"
+      structural_tension: ["琴藝 × 市場稀缺", "清冷 × 算計", "選擇權 × 墜落感", "溫柔表面 × 疲憊真相"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年", "纖細長手", "舊琴裂痕", "細銀簪", "冷而疲倦的距離感"]
+    may_vary: ["低盤／半挽", "霜紫煙青衣裝", "坐琴／窗邊場景"]
+    must_not: ["紅袖複製版", "純潔清倌神女", "妖艷熱情", "滿身珠翠", "幼態"]
+```
+
 **雅間：** 沉香榭
 
 ```yaml
@@ -1194,6 +1428,53 @@ CHARACTER_BASE:
 
 ## C06｜白三娘
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "白三娘"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年資深妓女／訓練者；年輕時據說也是花魁，如今更像觀止的活字典。"
+    - "只喝茶、不喝酒；人物核心是歲月、殘酷、導師與旁觀者。"
+    - "出身窮戶，幼年被送入風月人牙路線。"
+    - "身體史為青樓養成的早期纏足。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟中年女性；視覺約四十上下至四十後段，不固定精確年齡"
+    silhouette: "中等身量，成熟、穩，沒有少女的輕飄"
+    frame: "中等骨架，肩頸仍有舊日儀態"
+    body_shape: "自然成熟、略豐潤；保留曾是紅牌的身體管理痕跡"
+    posture_and_movement: "坐得很穩，端粗瓷茶碗的手少晃；不需要搶位置，別人自然會聽她"
+    face:
+      shape: "成熟鵝蛋偏圓"
+      eyes: "眼尾與眼下有年齡紋理；看人像已經看過同樣故事很多次"
+      brows: "整齊但不追時髦"
+      nose: "端正"
+      lips: "唇色克制；笑意少但不是冷酷"
+      skin: "保養尚可，保留真實細紋與歲月感"
+    hair:
+      color_texture: "黑髮中可有少量灰絲"
+      default_style: "穩重盤髮，髮飾簡單但不寒酸"
+    distinguishing_features:
+      - "粗瓷茶碗比酒杯更像她"
+      - "說殘酷真相時表情很少變"
+      - "年齡是權威的一部分，不做青春化"
+      - "纏足只以鞋履與坐姿承載歷史"
+    presentation:
+      makeup: "成熟淡妝，重精神而非遮年齡"
+      clothing: "布料好、色澤沉、方便長坐與教人；不穿少女花色"
+      palette: "茶褐、灰紫、黛青、米白、暗紅"
+      ornaments: "老玉、素金、舊簪等有年代感的小件"
+    first_glance:
+      impression: "像一個已經知道你明天會哭、但不會因此對你說假話的人"
+      attraction_or_presence: "成熟、穩、殘酷而不刻薄；曾經的風韻仍在，但不再靠它吃飯"
+      structural_tension: ["昔日花魁 × 今日導師", "悲憫 × 不哄人", "歲月 × 職業記憶", "被賣過 × 教別人活下去"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成熟中年", "真實年齡紋理", "穩定眼神", "茶碗／茶意象", "曾經漂亮但現在不靠青春"]
+    may_vary: ["灰紫茶褐衣裝", "少量灰髮", "坐榻／茶桌場景"]
+    must_not: ["二十歲美婦", "枯槁老嫗", "慈祥祖母模板", "惡毒老鴇", "無瑕少女皮膚"]
+```
+
 **雅間：** 微霜齋
 
 ```yaml
@@ -1408,6 +1689,53 @@ CHARACTER_BASE:
 
 ## C07｜張麗華
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "張麗華"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "真正背景就是陳後主時代張麗華來源身分與亡國宮廷記憶，不另造北宋低門真身。"
+    - "現為觀止非妓籍住民／合作型歷史名人，不因住在觀止自動成為妓女。"
+    - "來源時代不纏足。"
+    - "人物顯影常與青瓷酒壺、微醺、亡國標籤與對宏大敘事的反諷相連。"
+  VISUAL_DESIGN:
+    apparent_age: "成年成熟女性；約二十後段至三十出頭視覺感"
+    silhouette: "偏高挑、修長而有宮廷感"
+    frame: "中等偏細骨架，肩背舒展"
+    body_shape: "成熟、均衡，有舊宮廷審美下的華美感但不誇張"
+    posture_and_movement: "站坐都鬆；提酒壺、倚欄、回頭時帶一種『早就見過更大的場面』的懶"
+    face:
+      shape: "飽滿鵝蛋，輪廓大方"
+      eyes: "長而亮，帶笑時有風情，失神時會忽然變得很遠"
+      brows: "長眉，弧度舒展"
+      nose: "端麗"
+      lips: "偏豐、有酒後血色"
+      skin: "暖白，保留活人氣，不做幽靈亡國美人"
+    hair:
+      color_texture: "濃黑、豐厚"
+      default_style: "較華美的高髻或宮廷式盤髮，但到觀止可鬆化簡化"
+    distinguishing_features:
+      - "青瓷酒壺是高辨識物"
+      - "不纏足，步態自然舒展"
+      - "美感是『曾被整個宮廷看見過』而非青樓新紅牌"
+      - "提到麗華、亡國或犧牲時手指會在壺把上收緊"
+    presentation:
+      makeup: "可比一般觀止女性更有古典宮廷濃度，但不妖魔化"
+      clothing: "陳末宮廷風影子與北宋觀止實穿可混合；長裙、寬袖、好料，但不必天天盛裝"
+      palette: "緋紅、孔雀青、金、深酒色、青瓷綠"
+      ornaments: "有宮廷餘韻的金玉簪飾，可減量使用"
+    first_glance:
+      impression: "像一個曾經被王朝捧到很高、如今只想自己決定這壺酒跟誰喝的人"
+      attraction_or_presence: "華、懶、清醒；她的美帶歷史重量，但不是亡國罪證"
+      structural_tension: ["宮廷中心 × 亡國污名", "絕色傳說 × 活人", "歷史重量 × 市井喝酒", "被定義 × 自己拿回名字"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年成熟", "高挑舒展", "青瓷酒壺", "宮廷餘韻", "不纏足"]
+    may_vary: ["宮廷式高髻或簡化盤髮", "緋紅／孔雀青／酒色", "倚欄／飲酒場景"]
+    must_not: ["妖妃邪魅反派模板", "亡國幽魂", "妓女化露膚", "北宋纏足鞋", "純貴妃華服人偶"]
+```
+
 **雅間：** 琉璃境
 
 ```yaml
@@ -1559,6 +1887,53 @@ CHARACTER_BASE:
 ---
 
 ## C08｜蘇清
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "蘇清"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年觀止妓女／花魁線核心；賭約失敗後在觀止簽下賣身契。"
+    - "來源帶明顯現代思維與現代身體史；進北宋後不重置為纏足，明確為大腳。"
+    - "人格以現代營銷、算計、極端利己、生存率與『泥沼裡不弄髒鞋』為核心。"
+    - "小說已出現緋色織金襦裙，但不必固定成永久服裝。"
+  VISUAL_DESIGN:
+    apparent_age: "成年年輕女性；約二十中後段視覺感"
+    silhouette: "中等偏高、直、俐落，和傳統纏足女性有明顯步態差"
+    frame: "中等偏細骨架，肩線較自然舒展"
+    body_shape: "均衡、現代感較強；不刻意做古典弱柳腰"
+    posture_and_movement: "步幅自然，走路快；坐下時也常像在開會、盤算或觀棋，不會自動縮成古代閨秀姿態"
+    face:
+      shape: "清楚的鵝蛋／偏窄臉"
+      eyes: "直、快、會掃場；壓力大時眼神會短暫失焦"
+      brows: "較明確、俐落"
+      nose: "線條乾淨"
+      lips: "中等，笑通常帶目的性或嘲諷"
+      skin: "自然白至暖白，不以古典瓷白為基準"
+    hair:
+      color_texture: "黑髮"
+      default_style: "北宋衣著下可採實用盤髮，但保留比傳統妓女更少繁飾、更乾淨的整理感"
+    distinguishing_features:
+      - "大腳與自然步幅是重要差異"
+      - "站姿、坐姿有現代職場式直接感"
+      - "看人像在估 ROI，不像在等別人評價"
+      - "手邊可出現棋子、帳紙、契書或現代思維轉譯後的商業物件"
+    presentation:
+      makeup: "乾淨、精準，不走古典弱柳妝；需要營業時會知道怎麼把自己包裝得昂貴"
+      clothing: "北宋觀止服飾，但剪裁和配色偏俐落；避免過多飄帶與柔弱層次"
+      palette: "黑、白、深紅、靛青、金棕；緋色可作戰鬥／營業狀態"
+      ornaments: "少而有效；一件能顯價格的飾物勝過滿頭珠翠"
+    first_glance:
+      impression: "像一個被丟進錯時代後，先問規則、價格和退路的人"
+      attraction_or_presence: "利、醒、漂亮但不柔順；魅力來自她永遠在算下一步"
+      structural_tension: ["現代身體 × 北宋妓業", "利己 × 共生", "商品身份 × 自我定價", "恐懼 × 專業化控制"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年", "不纏足／自然步幅", "俐落現代感眼神", "北宋服裝中的非古典身體語言", "計算感"]
+    may_vary: ["緋色不固定", "棋子／契書／帳紙道具", "盤髮簡繁"]
+    must_not: ["古典柔弱仕女", "纏足小步", "純惡女蛇蠍臉", "現代西裝直接穿越", "靠黑皮衣紅唇表達強勢"]
+```
 
 **雅間：** 觀棋閣
 
