@@ -7,7 +7,8 @@
 > - [Director VNext 遷移 MEMO](DIRECTOR_VNEXT_MIGRATION_MEMO_V0.1_WORKING_20261027.md)（只盤點、不改導演正文）  
 > - [CERI Targeted Regression：靜態核對與 Chat-native 隔離試走](CORE_VNEXT_CERI_TARGETED_REGRESSION_DESK_TRIAL_V0.1_20261027.md)（非獨立 Runtime PASS）
 > - [Targeted Story Walkthrough Round 2](CORE_VNEXT_TARGETED_STORY_WALKTHROUGH_ROUND2_V0.1_20261027.md)（18 個指定案例的隔離文字／來源走讀、模式中途切換與對抗式錯誤注入；非獨立 Runtime PASS）
-> - [CERI 五位具名人物聲紋對照](CERI_VNEXT_CHARACTER_VOICE_CONTRAST_DESK_TRIAL_V0.1_20261027.md)（潘金蓮／龐春梅／李瓶兒／李媽媽／顧仙娘，工作卡試讀非最終 Canon；非語料考證 PASS）  
+> - [CERI 五位具名人物聲紋對照](CERI_VNEXT_CHARACTER_VOICE_CONTRAST_DESK_TRIAL_V0.1_20261027.md)（潘金蓮／龐春梅／李瓶兒／李媽媽／顧仙娘，工作卡試讀非最終 Canon；非語料考證 PASS）
+> - [Pre-RC1 作者決策頁](CORE_VNEXT_PRE_RC1_HUMAN_DECISION_BRIEF_V0.1_20261027.md)（三項舊 Gate 替代的明示決策；目前未批准、不代表已達 RC1 測試門檻）  
 > - Annex C 的 S16 分為 S16A Modern／S16B Song，新增 S16C 翻譯模式中途切換；S17 補場景語域。正式 RC1 仍待審查。
 
   
