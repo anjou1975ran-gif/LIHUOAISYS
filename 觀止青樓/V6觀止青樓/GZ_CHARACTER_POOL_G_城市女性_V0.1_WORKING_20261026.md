@@ -19,6 +19,68 @@
 
 ## G01｜紅娘氏
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "紅娘氏"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "來源定為成年；《西廂記》紅娘的觀止平行後傳，身份為紅倌人、大堂情報掮客與牽線者。"
+    - "現行 VISUAL_PROFILE 已有：可愛型；棗紅為主，暖杏、暗金、米白為輔，輕薄襦裙與披帛、便利大堂活動。"
+    - "主場是觀止大堂；她在櫃檯、樓梯與桌席間移動，靠情報、介紹與抽成吃飯；精確年齡 NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "明確成年，設計視覺為二十後段至三十初；非來源定歲。"
+    silhouette: "中等偏小的靈巧輪廓，衣帶隨步伐轉動，不是端坐花魁。"
+    frame: "肩頸輕靈，四肢有穿桌走動的敏捷感。"
+    body_shape: "成熟柔軟的女性曲線，避免極端纖弱與稚童比例。"
+    posture_and_movement: "一邊側身讓過端盤者，一邊轉頭留住客人；手已遞出酒盞，眼睛仍在看另一桌。"
+    face:
+      shape: "圓潤心形至短鵝蛋"
+      eyes: "眼梢靈動、轉得快；笑時親近，算帳時清亮"
+      brows: "細長而活"
+      nose: "小巧但不幼態"
+      lips: "帶笑、常像下一句還沒說完"
+      skin: "有血色的自然暖膚"
+    hair:
+      color_texture: "黑髮，柔亮"
+      default_style: "輕巧盤挽，少量碎髮保留走動感"
+    distinguishing_features:
+      - "甜笑和估價眼神並存"
+      - "近身、讓座、遞話的職業動作比定點搔首重要"
+      - "不以性格的可愛偷換成未成年體態"
+    presentation:
+      makeup: "精緻但生活化，眼尾、唇色可略鮮明"
+      clothing: "棗紅宋風襦裙與披帛，領口可高可低，重點是營業時行動自由"
+      palette: "棗紅／暖杏／暗金／米白"
+      ornaments: "小簪、簡巧耳飾；以不妨礙移動為度"
+    first_glance:
+      impression: "她像來幫你說合，實則已替自己算好介紹費"
+      attraction_or_presence: "甜而機警、能接近也能抽身"
+      structural_tension:
+        - "替人開門 × 不再替人白扛後果"
+        - "親熱可近 × 商業抽成"
+        - "討喜的面孔 × 識破算計的眼"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年成熟女性比例"
+      - "棗紅既有視覺錨"
+      - "大堂流動與客源中介"
+      - "可愛笑意與清醒算計"
+    may_vary:
+      - "髮式"
+      - "領口遮蔽度"
+      - "酒盞／傳話／簿記小物"
+    must_not:
+      - "幼女臉身比例"
+      - "標準豔妓花魁定裝照"
+      - "純善良媒婆"
+      - "圖片暗示自動同意"
+      - "把纏足升格為既定"
+  RADAR_V6_ADVISORY_NOTE: "可愛是交流技術，不是年齡；保留來源 VISUAL_PROFILE 而非重畫原錨。"
+```
+
+
 ## 固定身份
 
 ```yaml
@@ -349,6 +411,65 @@ VISUAL_PROFILE:
 
 ## G02｜王婆
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "王婆"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "來源為《金瓶梅》觀止平行人物，CONFIRMED_MATURE_ADULT；年歲 NOT_FIXED。"
+    - "現行職業是非妓籍的外部牙行掌櫃／城市中介，兼有茶坊、媒婆、找屋、送話本事。"
+    - "BODY_HISTORY.footbinding = NOT_FIXED / LOW RELEVANCE；黑色牽線是能力／過去，不代表每筆當前交易都違法。"
+  VISUAL_DESIGN:
+    apparent_age: "熟齡成年；工作設計偏五十上下，不冒充來源確定年紀。"
+    silhouette: "中等個頭、緊湊實在，衣襟不像女掌櫃華服，卻有能站穩店門的重量。"
+    frame: "肩背微前，手勢短且準；非誇張駝背。"
+    body_shape: "有肉與力量的普通婦人身形；不靠醜化來製造惡意。"
+    posture_and_movement: "站在門內半步，身體不多移，手先替來客指出位置、時間與價碼。"
+    face:
+      shape: "偏方圓的熟齡臉"
+      eyes: "目光收束、看人先看鞋與隨從，不作邪惡吊眼"
+      brows: "平眉尾稍壓"
+      nose: "鼻樑明晰、帶生活痕跡"
+      lips: "笑得節制，話未說完時常抿住"
+      skin: "有勞動與歲月細紋，非恐怖化"
+    hair:
+      color_texture: "黑中有灰"
+      default_style: "俐落髮髻或包頭，出門幹活方便"
+    distinguishing_features:
+      - "沉得住門口的定點門路感"
+      - "眼神會把出入的兩方放在一起估"
+      - "可能危險但外貌不貼罪犯標籤"
+    presentation:
+      makeup: "淡妝或近素面"
+      clothing: "市井茶坊／牙行經營者的耐穿對襟衣裙"
+      palette: "深褐／茶青／舊藍灰／黯赭"
+      ornaments: "鑰匙束、帕子、荷包可作職業道具"
+    first_glance:
+      impression: "有事不一定喜歡找她，但多半繞不開她"
+      attraction_or_presence: "門路和停頓形成的壓力"
+      structural_tension:
+        - "替人搭橋 × 可能被推去頂罪"
+        - "街坊熟人 × 證據並不全知"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成熟成年婦人"
+      - "定點茶坊與牙行中介感"
+      - "普通市井人而非妖婆"
+    may_vary:
+      - "體型豐瘦"
+      - "攜帶茶盞、鑰匙或布包"
+    must_not:
+      - "巫婆化"
+      - "怪臉犯罪者"
+      - "無所不知"
+      - "強行固定纏足"
+      - "和薛嫂同臉同身姿"
+  RADAR_V6_ADVISORY_NOTE: "王婆的強項是控制接觸位置，不應把犯罪經歷化妝成一張壞人臉。"
+```
+
+
 ## 固定身份與來源
 
 ```yaml
@@ -509,6 +630,66 @@ CHARACTER_BASE:
 
 ## G03｜薛嫂
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "薛嫂"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》觀止平行人物，CONFIRMED_MATURE_ADULT；非妓籍，賣翠花／媒合／送信的移動型中介。"
+    - "BODY_HISTORY.labour_history = HIGH MOBILITY；footbinding = NOT_FIXED。"
+    - "走街串戶與記憶消息是她的營生；消息會錯、會舊，也可能受利益影響。"
+  VISUAL_DESIGN:
+    apparent_age: "熟齡成年；視覺設定四十後段，來源未鎖歲數。"
+    silhouette: "偏瘦的斜向前行輪廓，衣帶、包袱與腳步形成長線。"
+    frame: "骨架中小，肩臂可見提拿與長年奔走的耐力。"
+    body_shape: "市井耐勞體態，與王婆較定點的厚重輪廓不同。"
+    posture_and_movement: "重心在前腳，停步時身體仍像下一刻便要趕往巷口；說話常邊收拾花樣邊說。"
+    face:
+      shape: "細長而帶歲月感"
+      eyes: "亮、快，像記著街區裡一張不斷更新的關係圖"
+      brows: "自然揚起、表情豐富"
+      nose: "線條簡潔"
+      lips: "唇線清楚、善於快言快語"
+      skin: "有風日痕，不磨成少女"
+    hair:
+      color_texture: "黑髮夾灰，稍乾"
+      default_style: "緊束盤髻或素包頭，便於趕路"
+    distinguishing_features:
+      - "攤開一把翠花便能停下談條件"
+      - "人還沒進門，消息已先進門"
+      - "較王婆更外向移動、較紅娘氏更靠街巷與腳程"
+    presentation:
+      makeup: "幾乎無妝"
+      clothing: "便於長時間出門的家常襦裙與可收納小貨的布帶"
+      palette: "灰豆青／藕褐／布青／舊米"
+      ornaments: "小花籃、布包、少量手工翠花"
+    first_glance:
+      impression: "半城的媒合消息像被她裝進隨身布袋"
+      attraction_or_presence: "趕路、嘴快與記得住人事的實在感"
+      structural_tension:
+        - "跑腿 × 被跳佣"
+        - "訊息密 × 真偽混雜"
+        - "依賴腳程 × 想讓名聲替她跑"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成熟成年"
+      - "移動型媒婆與翠花商販"
+      - "真實奔走勞動"
+    may_vary:
+      - "花籃／布袋／手帕"
+      - "灰髮比例"
+    must_not:
+      - "和王婆同臉"
+      - "八卦丑角"
+      - "神諭般全知"
+      - "未核實纏足"
+      - "用貧窮抹消她的精細生意"
+  RADAR_V6_ADVISORY_NOTE: "區隔王婆的定點門路；足部細節可工作設計，但纏足仍須 NOT_FIXED。"
+```
+
+
 ## 固定身份與來源
 
 ```yaml
@@ -654,6 +835,67 @@ CHARACTER_BASE:
 ---
 
 ## G04｜顧青簡
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "顧青簡"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "觀止／定陶商會原生職業人物，成年，精確年齡 NOT_FIXED；固定身份為高階商業參謀／女性師爺，非觀止雇員、非私人秘書。"
+    - "由書手與帳房家庭起步，逐步靠筆跡、算術、利益判讀與談判成為商會高階人才。"
+    - "BODY_HISTORY.footbinding = NOT_FIXED / DEFERRED；商業策略優先，契約、帳務與程序是其工具。"
+  VISUAL_DESIGN:
+    apparent_age: "成年職業女性；設計視覺三十後段至四十初，不固定歲數。"
+    silhouette: "修長而收斂；整體像一支直放的筆，而非冷豔武官。"
+    frame: "肩線平穩，骨架中等，長時間持筆與坐談留下姿態記憶。"
+    body_shape: "自然比例、不刻意過瘦或妖嬈；行動從容俐落。"
+    posture_and_movement: "桌前略側身，將兩張商契並置給對方看，說到關鍵才抬眼；轉身很乾脆。"
+    face:
+      shape: "長鵝蛋、下頜平直"
+      eyes: "目光沉靜直接，眼角微有疲勞細紋"
+      brows: "整齊偏平眉"
+      nose: "清楚端正的鼻樑"
+      lips: "唇線薄而不刻薄，笑起來常像輕微挖苦"
+      skin: "偏中性膚色，非美化瓷白"
+    hair:
+      color_texture: "黑髮厚實"
+      default_style: "緊束低髻／少裝飾，方便坐談與出行"
+    distinguishing_features:
+      - "看談判對象時會先看對方還剩哪條路"
+      - "袖口可見長年書寫的墨痕，但不是低階帳房制服"
+      - "目光有主張而非冷酷全知"
+    presentation:
+      makeup: "極淡、眉目整潔"
+      clothing: "整齊、耐久的商會女性文士衣著，可見布料品質卻不堆滿珠寶"
+      palette: "墨青／沉灰藍／褐紫／米白"
+      ornaments: "筆管、簡簪、書契匣；不配現代眼鏡或西式制服"
+    first_glance:
+      impression: "她看起來不是替你抄契，而是能改寫你本來談不成的條件"
+      attraction_or_presence: "精準、有幽默、有可被激怒的野心"
+      structural_tension:
+        - "成交欲望 × 風險結構"
+        - "高階策略 × 被當文書使喚"
+        - "職業獨立 × 大客戶依附誘惑"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年高階商業參謀"
+      - "有交易思考的人而非審核機器"
+      - "中性深色文士視覺"
+    may_vary:
+      - "衣料等級"
+      - "站談／書桌坐談"
+      - "髮飾繁簡"
+    must_not:
+      - "現代秘書或會計制服"
+      - "過度法遵冷臉"
+      - "萬能女軍師"
+      - "固定纏足"
+      - "憑外貌替她造私人婚姻或成功交易"
+  RADAR_V6_ADVISORY_NOTE: "程序不可吞沒商業策略；FOOTBINDING 必須留在 NOT_FIXED。"
+```
+
 
 ## 固定身份與升格
 
@@ -959,6 +1201,67 @@ CHARACTER_BASE:
 
 ## G05｜張明姝
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "張明姝"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "北宋仁宗朝觀止重構人物；成年、有產香藥行女掌事／女牙人，富商上層出身，寡居兩年多。"
+    - "夫姓周，社交上可被稱周夫人／周娘子；本名張明姝，家門與商業信用並存。"
+    - "BODY_CONDITION.footbinding = FOOTBOUND_CONFIRMED；她的香藥專業、女性客路與議價能力真實成立，漂亮不是成功的充分因果。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年女子，視覺約三十後段；不由寡居年數推出確切年齡。"
+    silhouette: "有分量的雅緻曲線，站姿平穩，衣料層次精巧但不壓人。"
+    frame: "骨架中等，肩頸柔軟，上身善於在席間微側與交談。"
+    body_shape: "成熟豐潤而利落，非標準纖瘦網紅身材。"
+    posture_and_movement: "細步與坐姿受已確認的纏足史影響；常以婢僕、車轎或場內安排配合外出，不把小腳畫成超自然漂浮。"
+    face:
+      shape: "圓潤鵝蛋，顴面有成熟光澤"
+      eyes: "笑起來彎，談貨時瞬間變得審慎"
+      brows: "弧線柔和且修整"
+      nose: "比例端麗"
+      lips: "唇色溫暖飽滿，善於把拒絕說成後會有期"
+      skin: "自然保養過的膚理"
+    hair:
+      color_texture: "烏黑柔亮"
+      default_style: "富商婦人精緻盤髻，不用妓院舞台髮型"
+    distinguishing_features:
+      - "輕觸香盒便能辨別貨色的職業手勢"
+      - "同一張笑臉能招呼女眷、轉頭和商戶議價"
+      - "纏足是身體史，不是凝視焦點"
+    presentation:
+      makeup: "精工但不濃豔，香藥職業的細節可體現在氣味想像與佩物"
+      clothing: "富商上層婦人的精緻衣料，利於內宅訪客與商務見面"
+      palette: "檀紅／蜜茶／藕金／乳白"
+      ornaments: "精緻香囊與香藥小盒、珠簪可作職業錨"
+    first_glance:
+      impression: "她先讓你覺得被照顧，下一刻你已在談她提出的價"
+      attraction_or_presence: "富裕、自信、友善但不免費的商務親切"
+      structural_tension:
+        - "美貌被看見 × 能力被搶功"
+        - "寡居自由 × 社交傳聞"
+        - "商業曖昧 × 私人選擇"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年寡居香藥女商人"
+      - "上層富商衣料"
+      - "確認纏足但不獵奇"
+      - "周娘子／張明姝同一人物"
+    may_vary:
+      - "香盒與香囊式樣"
+      - "席上／訪客造型"
+    must_not:
+      - "把她畫成妓女"
+      - "露骨情婦符號"
+      - "用纏足獵奇"
+      - "僅憑漂亮造出商業能力"
+      - "將傳聞畫成已確定情事"
+  RADAR_V6_ADVISORY_NOTE: "確認纏足須在自然站走中顯影；香藥專業不能被香艷美人模板吞掉。"
+```
+
+
 ## 固定身份與宋代重構
 
 ```yaml
@@ -1128,6 +1431,66 @@ CHARACTER_BASE:
 ---
 
 ## G06｜孟玉樓
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "孟玉樓"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》孟玉樓觀止平行人物；已成年、有產寡居、現在從事可獲利且自己控制的商業經營；具體業別 NOT_FIXED。"
+    - "被親族出賣、曾實際入妓業，後自行脫離妓院直接控制；現仍有非公開妓籍紀錄，但現在不預設營業。"
+    - "BODY_HISTORY.footbinding = HIGH PERIOD/CLASS PRIOR / NOT SOURCE-LOCKED；妓籍與過往不得自動轉成公眾視覺標識。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年女子，視覺約三十中後至四十初；工作設計非個體年齡來源。"
+    silhouette: "飽滿而穩重，重心落地；並非風塵味、亦非貞節牌坊。"
+    frame: "中等偏寬的自然骨架，肩膀鬆而能承事。"
+    body_shape: "成熟有生活感，曲線不刻意誇張。"
+    posture_and_movement: "坐下先把自己的荷包與席位照料好，站起時先確定物件在手；從容但會衡量退路。"
+    face:
+      shape: "方圓結合的成熟面型"
+      eyes: "笑意深，估人時有留三分的謹慎"
+      brows: "略濃、柔中有骨"
+      nose: "溫厚清晰"
+      lips: "親切、會談錢而無歉意"
+      skin: "自然中暖膚色，帶細小年齡紋路"
+    hair:
+      color_texture: "濃黑中可能略有歲月感"
+      default_style: "有產婦人簡潔妥帖的盤髮"
+    distinguishing_features:
+      - "很習慣替自己管理物件與席位"
+      - "對銀錢與人情都自然、不裝不懂"
+      - "她的過往是導演資料，不在肖像上刻罪名"
+    presentation:
+      makeup: "節制的成年婦人妝容"
+      clothing: "有產商戶女主人的整齊好料，避免服飾指定她的未定經營業別"
+      palette: "暖褐／深豆綠／淡竹黃／柔杏"
+      ornaments: "素金耳環、可收私銀的荷包與實用簪飾"
+    first_glance:
+      impression: "她已經有一個自己能回去的家，不等人安排去處"
+      attraction_or_presence: "不緊繃的成熟自持與可靠經濟感"
+      structural_tension:
+        - "當前自立 × 舊籍風險"
+        - "親近可能 × 退路必須留在自己手上"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年有產寡居商業女性"
+      - "現在非公開妓業身份"
+      - "成熟經濟自主"
+    may_vary:
+      - "髮簪樣式"
+      - "衣色與坐立場景"
+    must_not:
+      - "強制纏足"
+      - "妓女舞台化"
+      - "受迫史視覺獵奇"
+      - "虛構確切生意行業"
+      - "舊籍等於當前服務可購"
+      - "傷痕等於永久受害者身份"
+  RADAR_V6_ADVISORY_NOTE: "不得用一張臉揭露本來非公開的妓籍或被賣史；來源定的是現在的資產與生意，而非交易類型。"
+```
+
 
 ## 固定身份、來源骨架與現行觀止設定
 
@@ -1346,6 +1709,65 @@ CHARACTER_BASE:
 
 ## G07｜林太太
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "林太太"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》觀止平行人物，王三官之母，上層宅門婦人；原作年未滿四十，現行來源以三十後段為年齡區間但 exact age NOT_FIXED。"
+    - "白日公開體面身份與夜間觀止紅線成年女客身份並存；她不是妓女，夜間是否到場仍取決於事件。"
+    - "BODY_HISTORY.footbinding = HIGH SOCIAL PRIOR / NOT SOURCE-LOCKED；紅線身份不等於公開身份。"
+  VISUAL_DESIGN:
+    apparent_age: "三十後段成熟成人，不刻意老化為婆婆，也不逆齡為少女。"
+    silhouette: "高雅沉靜、衣層有宅門重量，輪廓比張明姝更封閉有禮。"
+    frame: "肩背端直、手臂動作小而準，長年上層禮法留痕。"
+    body_shape: "有熟女生活厚度，輪廓藏在端整衣料下。"
+    posture_and_movement: "白日手收於袖、起身順序嚴謹；私下可以換較自在的呼吸與步幅，但仍是一個人。"
+    face:
+      shape: "端正長鵝蛋與柔和顴線"
+      eyes: "眼神清醒、習慣先看誰會走漏話"
+      brows: "描畫細整，情緒收得好"
+      nose: "修長端正"
+      lips: "唇形清晰，白日笑意少而有分寸"
+      skin: "保養良好但保留真實成熟膚理"
+    hair:
+      color_texture: "亮黑厚髮"
+      default_style: "宅門婦人的正髻，夜間可減飾但非變成另一個人"
+    distinguishing_features:
+      - "端整並不等於沒有欲望"
+      - "衣著之外的目光對熟人保持精準警覺"
+      - "白日／私夜是雙情境，而非兩張真身"
+    presentation:
+      makeup: "白日雅緻淡妝，夜間可由本人選擇略深但不等於妓業妝"
+      clothing: "高門出訪端莊衫裙與外披；若是已成立的私夜情境可加遮面或紅線線索"
+      palette: "靛藍／冷紫灰／煙白／深栗"
+      ornaments: "質量上乘但節制的玉簪、暗金細飾"
+    first_glance:
+      impression: "人人知道她是哪家太太，卻沒人該因此知道她夜裡想去哪裡"
+      attraction_or_presence: "體面分寸背後不向社會解釋的私人活性"
+      structural_tension:
+        - "母親／太太身份 × 私人生活"
+        - "匿名選擇 × 被認出的風險"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年三十後段上層婦人"
+      - "白日公開體面身份"
+      - "夜間線索需事件成立"
+    may_vary:
+      - "場合衣飾"
+      - "面具／紅線只在夜間場景出現"
+    must_not:
+      - "把紅線畫成妓籍"
+      - "任何時刻都戴面具"
+      - "妖豔貴婦臉譜"
+      - "替她固定纏足"
+      - "未發生的曝光事件"
+  RADAR_V6_ADVISORY_NOTE: "公開肖像不可藉服裝主動揭露夜間秘密；兩種生活都屬同一個人。"
+```
+
+
 ## 固定身份與來源
 
 ```yaml
@@ -1515,6 +1937,66 @@ CHARACTER_BASE:
 ---
 
 ## G08｜王六兒
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "王六兒"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "《金瓶梅》觀止平行人物，已成年，是韓道國之妻、韓愛姐之母；現行身份為商戶家庭婦人、非妓籍。"
+    - "她同時參與家庭經濟、人情請託與私人關係判斷；情事／丈夫收益並非自動許可、妓業或愛情。"
+    - "BODY_HISTORY.footbinding = NOT_FIXED；精確年齡亦 NOT_FIXED。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年婦女；視覺工作設計三十中後，不假裝具來源定歲。"
+    silhouette: "結實柔和、善於處理家中大小物件；氣場不是貴婦，也非紅倌。"
+    frame: "中等骨架，肩臂有操持日常與應酬的自然力道。"
+    body_shape: "現實商戶婦人比例，容許豐腴與皺紋而不靠妖艷辨識。"
+    posture_and_movement: "會邊收碗盞邊談條件，遞禮時先看收禮人的眼色，必要時轉身收口。"
+    face:
+      shape: "稍寬的圓方臉"
+      eyes: "實在而銳利，遇到涉及女兒或家計時目光更重"
+      brows: "自然略濃"
+      nose: "鼻尖圓實"
+      lips: "較寬，笑有家常味但談利益時不軟"
+      skin: "有家計生活留下的真實膚質"
+    hair:
+      color_texture: "黑髮有生活光澤"
+      default_style: "務實的家常挽髻，不做青樓舞台頭飾"
+    distinguishing_features:
+      - "不是等丈夫允許才懂算生意"
+      - "一邊招呼人一邊算家裡能拿到什麼"
+      - "家常衣袖下保留她獨立的成人欲望與決定"
+    presentation:
+      makeup: "日常輕妝，重要交際場合可加強唇色"
+      clothing: "城中商戶家庭婦人的整潔襦裙，能見衣料品質與實用性平衡"
+      palette: "栗棕／灰紅／暖青／淡赭"
+      ornaments: "簡單耳飾、小荷包、可攜送禮的布包"
+    first_glance:
+      impression: "不是會哭求丈夫給一口飯的附屬，而是自己知道韓家怎麼運轉的人"
+      attraction_or_presence: "家常直接、圓融與現實算計共居"
+      structural_tension:
+        - "家計 × 個人慾望"
+        - "情人資源 × 妻母位置"
+        - "爭利 × 不願獨扛污名"
+  IMAGE_GENERATION_ANCHOR:
+    must_keep:
+      - "成年商戶婦人"
+      - "妻／母／獨立行動者三層並存"
+      - "非妓籍、非花魁"
+    may_vary:
+      - "妝容"
+      - "家務場或送禮場道具"
+    must_not:
+      - "青樓妓女扮相"
+      - "被動受害者固定臉"
+      - "無腦情婦臉譜"
+      - "纏足自動確定"
+      - "用外貌暗示丈夫已同意任何事"
+  RADAR_V6_ADVISORY_NOTE: "家庭位置不是人格消失；外觀不替她或韓道國決定關係交易。"
+```
+
 
 ## 固定身份與來源
 
