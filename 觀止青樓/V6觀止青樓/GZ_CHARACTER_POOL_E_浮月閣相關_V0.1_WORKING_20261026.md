@@ -12,11 +12,59 @@
 - 玩家線／Route 已發生事件不得自動倒灌人物 BASE；需要時由各自 SAVE／RCL 承載。
 - 導演可讀資料不等於 NPC 或玩家自動知情。
 - UNKNOWN／NOT_FIXED／尚未成立的事件必須保留，不為了資料完整自行補洞。
+- 六系評語不是身體解剖表；除來源明確定義的成年『蘿』視覺訊號外，不得把「巨／仙／可／蘿／美／氣」自行轉成身高、胸型、臉型、妖種、真身或超能力。
 
 
 ---
 
 ## E01｜失仙
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "失仙"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "確認成年女性人形；精確年齡 UNKNOWN_NOT_FIXED。"
+    - "妖族化人；具體妖種、真身、個體妖力全部 UNKNOWN_NOT_FIXED。"
+    - "六系只確認『蘿』可指成年人的幼態外貌／聲線反差；『缺仙』在人物結構上表現為較少依靠不可侵犯感與距離維持位置。"
+    - "她的核心是普遍善意、親近與逐步學會距離；親近不等於沒有邊界。"
+  VISUAL_DESIGN:
+    apparent_age: "成年身份明確；臉部可帶偏年輕、柔和訊號，但不得形成未成年讀法"
+    silhouette: "中等身量、柔和、容易讓人覺得可接近"
+    frame: "細至中等骨架，沒有高壓權威感"
+    body_shape: "成年女性自然體態；六系『巨』不在本卡轉譯為具體解剖尺寸"
+    posture_and_movement: "常主動靠近桌邊、遞水、整理衣物或照顧小事；真正設邊界時反而會後退一步"
+    face:
+      shape: "柔和圓鵝蛋，可帶成熟成人中的偏年輕感"
+      eyes: "明亮、直接、容易讓人感到自己被認真聽"
+      brows: "自然柔弧"
+      nose: "自然端正"
+      lips: "表情溫暖，真生氣時嘴角會迅速收乾淨"
+      skin: "依化人人形自然呈現；不因妖族自動異色或發光"
+    hair:
+      color_texture: "不鎖超自然色；預設自然深色，可隨浮月閣既有美術另行校準"
+      default_style: "柔軟、生活感較強的半挽或低髮式"
+    distinguishing_features:
+      - "最重要的不是『仙氣』，而是近距離生活感"
+      - "成年＋略年輕臉部訊號可同時成立"
+      - "真實邊界常以拉開身體距離顯影"
+      - "妖種與真身不因生圖需要自行增加耳、尾、角、翼或妖紋"
+    presentation:
+      makeup: "柔和、親近，不以冷白高光造仙"
+      clothing: "浮月閣花魁衣裝可漂亮，但保留能坐下照料人、做生活小事的實穿感"
+      palette: "暖白、柔青、杏、淺金、淡粉可用；不固定"
+      ornaments: "輕量、柔和；避免宗教神女冠飾"
+    first_glance:
+      impression: "像一個很容易把你當人照顧、也因此最容易被人誤會她只會對自己這麼好的人"
+      attraction_or_presence: "暖、近、真；她的問題不是沒有心，而是距離常比真心晚一步才到"
+      structural_tension: ["普遍善意 × 私人偏愛", "親近 × 邊界", "成年 × 年輕外觀訊號", "花魁位置 × 生活感"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["明確成年", "親近生活感", "可有成年人的偏年輕臉部訊號", "不靠仙氣壓場", "妖種與真身保持 UNKNOWN"]
+    may_vary: ["髮色／髮式", "暖柔配色", "生活物件"]
+    must_not: ["未成年化", "聖母神女光環", "因缺仙寫成沒有羞恥或拒絕", "自行加妖耳妖尾", "把六系『巨』直接解讀成身體尺寸"]
+```
 
 ## 固定身份
 
@@ -191,6 +239,53 @@ CHARACTER_BASE:
 
 ## E02｜失美
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "失美"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "確認成年女性人形；精確年齡 UNKNOWN_NOT_FIXED。"
+    - "妖族化人；妖種、真身、個體妖力 UNKNOWN_NOT_FIXED。"
+    - "『失美』是浮月閣六系對其大愛／內熱的分類，不是外貌醜、美貌不足或靈魂真相。"
+    - "她高度擅長觀察、服務與精準表演，但私人動機、愛的能力與內部狀態保持 UNKNOWN。"
+  VISUAL_DESIGN:
+    apparent_age: "成年身份明確；可帶年輕成人的精緻訊號，但不鎖具體歲數"
+    silhouette: "乾淨、精準、整理度高"
+    frame: "細至中等骨架，線條收得俐落"
+    body_shape: "成年女性自然比例；六系不轉譯為固定解剖尺寸"
+    posture_and_movement: "每個距離、轉身、停頓都像受過職業訓練；真正失去座標時會出現罕見的停頓"
+    face:
+      shape: "精緻但不固定成『絕世美女』；比例乾淨"
+      eyes: "觀察性強，能迅速調整表情；真正私人反應時可能反而變得不知該怎麼放"
+      brows: "修整準確"
+      nose: "端正"
+      lips: "職業笑可甜可冷；非職業狀態下表情未必有明確模板"
+      skin: "自然人形膚色；不因妖族加光澤或特殊紋理"
+    hair:
+      color_texture: "不鎖超自然色；預設整理度高"
+      default_style: "精準、對稱或高度可控的髮式，符合她對表演細節的管理"
+    distinguishing_features:
+      - "美感來自『一切都很剛好』，而不是浮誇外貌設定"
+      - "職業表情切換極準"
+      - "真正不可計算的人出現時，表情與手勢可能第一次失去完美答案"
+      - "失美不是醜，也不是沒有情感"
+    presentation:
+      makeup: "功能性極高；可依客人與場合精準變化"
+      clothing: "可高度匹配場景、客群與談判目的；她的衣裝像策略的一部分"
+      palette: "可變；不給單一招牌色，避免把『精準』誤成冷黑制服"
+      ornaments: "精選、目的明確，數量可少"
+    first_glance:
+      impression: "像一個知道該給你哪種表情的人；真正罕見的是她有一天不知道該給什麼"
+      attraction_or_presence: "專業、準、可控；私人未知比冷酷更重要"
+      structural_tension: ["精準表演 × 私人動機未知", "可交換 × 無需求真空", "高度自控 × 自我模型裂縫"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["明確成年", "高度職業控制", "表情可快速切換", "失美≠醜／無心", "妖種真身 UNKNOWN"]
+    may_vary: ["妝髮與衣色可大幅依場景變化", "不同服務角色顯影"]
+    must_not: ["冷血蛇蠍臉", "機器人無表情", "把『失美』畫成醜", "自行加妖族器官", "把職業技巧等同私人愛情"]
+```
+
 ## 固定身份
 
 ```yaml
@@ -359,6 +454,53 @@ CHARACTER_BASE:
 
 ## E03｜失蘿
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "失蘿"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成熟成年女性人形；精確年齡 UNKNOWN_NOT_FIXED。"
+    - "妖族化人；妖種、真身、個體妖力 UNKNOWN_NOT_FIXED。"
+    - "『失蘿』表示缺少幼態／稚氣審美，不代表天生照顧者或永遠成熟正確。"
+    - "核心是成熟場控、談判、可靠與可失手；她曾有無處可去而寄身浮月閣的歷史。"
+  VISUAL_DESIGN:
+    apparent_age: "明顯成熟成年；約三十上下至四十感皆可，不鎖精確年齡"
+    silhouette: "中等偏高或中等身量，穩、完整、沒有幼態訊號"
+    frame: "中等骨架，肩背穩"
+    body_shape: "成熟成年女性自然體態；不做少女纖薄"
+    posture_and_movement: "常站在能看全場的位置；不是壓迫性女王站姿，而是習慣先確認出口、座次與誰需要處理"
+    face:
+      shape: "成熟鵝蛋或略方"
+      eyes: "穩、會掃場；疲累時眼下與停頓可露出代價"
+      brows: "清楚、自然"
+      nose: "端正"
+      lips: "說話簡潔，笑意不多但可以很生活"
+      skin: "保留成熟紋理，不青春化"
+    hair:
+      color_texture: "不鎖超自然色；可採自然深色"
+      default_style: "穩定、成熟、方便處理場面的盤髮或束髮"
+    distinguishing_features:
+      - "沒有幼態審美是來源結構的一部分"
+      - "可靠感來自站位、眼神與節奏，不靠皇冠或高跟鞋式權威"
+      - "累時可以真的顯疲倦"
+      - "妖種與真身不外推"
+    presentation:
+      makeup: "成熟、低戲劇性；能上場但不追少女感"
+      clothing: "有份量、方便活動與談判；不需女王禮服"
+      palette: "深青、灰紫、茶色、暗金、米白可用"
+      ornaments: "少量成熟質感物件"
+    first_glance:
+      impression: "像那個大家出事時會先看向她的人，但她自己未必還想一直收尾"
+      attraction_or_presence: "成熟、可靠、會談判；魅力不建立在永遠正確"
+      structural_tension: ["成熟掌控 × 可失手", "可靠 × 疲倦", "看透他人 × 自我盲點", "寄身過去 × 今日場控"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成熟成年", "無幼態訊號", "穩定站位與場控感", "允許疲倦", "妖種真身 UNKNOWN"]
+    may_vary: ["成熟髮式", "深色或中性色衣裝", "談判／照料／休息場景"]
+    must_not: ["少女化", "完美女王", "心理諮商師模板", "永遠從容無失手", "自行加妖族器官"]
+```
+
 ## 固定身份
 
 ```yaml
@@ -524,6 +666,53 @@ CHARACTER_BASE:
 ---
 
 ## E04｜錯位
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "錯位"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年女性人形；成年身份固定，精確年齡 UNKNOWN_NOT_FIXED。"
+    - "來源明確存在幼態外貌訊號／娃娃臉／嬌小感或稚氣聲線，但這些不得改寫成年身份。"
+    - "妖族化人；妖種、真身、個體妖力與入閣路徑全部 UNKNOWN_NOT_FIXED。"
+    - "『錯位』是六系分類異數與花名，不證明她認同自己是錯誤。"
+  VISUAL_DESIGN:
+    apparent_age: "身份必須明確呈現為成年；臉部可保留娃娃臉或偏年輕訊號，但整體不使用未成年服飾、身體語言或敘事"
+    silhouette: "可偏嬌小，但成年身體比例與自主站姿必須清楚"
+    frame: "小至中等骨架；具體身體尺寸不由六系『巨』自行推導"
+    body_shape: "成年女性身體；不以幼態或誇張反差作情色賣點"
+    posture_and_movement: "不特別討好，站位常略偏離群體；被要求『配合分類』時會直接換位置或離場"
+    face:
+      shape: "成年娃娃臉或偏圓小臉；成熟身份靠神情、姿態與整體呈現鎖定"
+      eyes: "存在感強但不一定親切；可直看，也可顯得無聊"
+      brows: "自然，不用幼童式短眉"
+      nose: "成人比例自然"
+      lips: "表情直接，拒絕時不必裝可愛"
+      skin: "自然人形膚色，不因妖族自動異色"
+    hair:
+      color_texture: "UNKNOWN；不以髮色替妖種定義"
+      default_style: "不鎖單一髮式；避免雙馬尾等強未成年符號作預設"
+    distinguishing_features:
+      - "成年身份與偏幼態臉部訊號同時成立"
+      - "強烈存在感但低可親性"
+      - "分類失敗是別人的問題，不是她身上自帶超自然干擾效果"
+      - "未知的妖種、真身、入閣原因全部保留"
+    presentation:
+      makeup: "成年花魁可用妝，但不靠濃妝『證明成年』；重點是成熟情境與主體姿態"
+      clothing: "明確成人職業服裝與成熟剪裁；避免童裝化、學生化、玩偶化"
+      palette: "不固定；可用高反差或極簡，但不能由『錯位』直接推成怪誕"
+      ornaments: "少量即可；不必塞滿異常符號"
+    first_glance:
+      impression: "第一眼容易讓人想分類，第二眼會發現她根本不打算配合你的分類工作"
+      attraction_or_presence: "成年、矛盾訊號、距離感強；她不是謎題商品"
+      structural_tension: ["成年主體 × 幼態視覺訊號", "強存在感 × 低可親性", "花名分類 × 私人未知", "被解讀 × 不配合"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["明確成年", "可有娃娃臉／嬌小感", "成熟成人衣著與姿態", "低可親性", "妖種真身 UNKNOWN"]
+    may_vary: ["髮色髮式", "衣色", "是否強化視覺反差"]
+    must_not: ["未成年化", "學生制服／兒童服裝預設", "性化幼態反差", "把六系『巨』直接轉成胸型或身高", "妖耳妖尾自動添加", "神秘謎語人模板"]
+```
 
 ## 固定身份
 
