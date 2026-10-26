@@ -4,9 +4,9 @@
 **日期：** 2026-10-26  
 **狀態：** WORKING / OWNER REMAP CANDIDATE / NOT RATIFIED / NOT CORE SUCCESSOR  
 **文件用途：** 先對照舊 CORE V4.1.2 的有效責任，讓下一版主文可重寫而非繼承整包。本文是遷移架構意見，不對現行 CORE、理火 OS、WORLD 或人物池產生改寫效力。  
-**工作資料夾：** \`觀止青樓/V6觀止青樓/\`  
-**參閱原稿：** \`GUANZHI_CORE_VNEXT_REFACTOR_ARCHITECTURE_MEMO_V0.1_20261026.md\`  
-**參閱首席回應：** \`對對回應_MEMO_觀止_CORE_VNext_去過度工程化與LIHUOOS_V1.1接線重構_V0.1_20261026.md\`
+**工作資料夾：** `觀止青樓/V6觀止青樓/`  
+**參閱原稿：** `GUANZHI_CORE_VNEXT_REFACTOR_ARCHITECTURE_MEMO_V0.1_20261026.md`  
+**參閱首席回應：** `對對回應_MEMO_觀止_CORE_VNext_去過度工程化與LIHUOOS_V1.1接線重構_V0.1_20261026.md`
 
 ## 0｜為何先做這份 Annex
 
@@ -18,12 +18,12 @@
 
 | 來源 | 讀取內容與範圍 |
 |---|---|
-| 舊 CORE | \`觀止青樓/01_GUANZHI_RUNTIME_CORE_V4.1.2_MAIN511_REBIND_HUMAN_RATIFIED_FULL_20261015.md\`；本文引用其原有章節代號定位舊責任。 |
+| 舊 CORE | `觀止青樓/01_GUANZHI_RUNTIME_CORE_V4.1.2_MAIN511_REBIND_HUMAN_RATIFIED_FULL_20261015.md`；本文引用其原有章節代號定位舊責任。 |
 | 對對回應 | 首席研究員 V0.1：四項 CORE owner、兩類 lifecycle、退休 identity promotion、Chat-native 可工作、不改名重造 Lighter。 |
-| 理火 OS L0 V1.1 | \`LIHUOOS/V1版本/L0_INDEX_SOURCE_VERSION_V1.1.md\`；L0–L7 意義／治理、L8 運行、L9 能力、Main 計算，Legacy Lighter 非現行控制層。 |
-| 理火 OS L8 | \`LIHUOOS/V1版本/L8_LIHUO_OPERATING_CYCLE_V0.3_WORKING_20261025.md\`；一次完整業務週期、不重造 owner 定義。注意該來源檔內標記 WORKING；不能把個別草稿視為額外批准的獨立執行模組。 |
-| 理火 OS L9 V1.1 | \`LIHUOOS/V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.1_20261026.md\`；RADAR_V6、工具能力與治理資格分離。 |
-| WORLD V3.0.0 | \`觀止青樓/V6觀止青樓/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md\`；世界規則與人文敘事語義另存，CORE 不二次著述。 |
+| 理火 OS L0 V1.1 | `LIHUOOS/V1版本/L0_INDEX_SOURCE_VERSION_V1.1.md`；L0–L7 意義／治理、L8 運行、L9 能力、Main 計算，Legacy Lighter 非現行控制層。 |
+| 理火 OS L8 | `LIHUOOS/V1版本/L8_LIHUO_OPERATING_CYCLE_V0.3_WORKING_20261025.md`；一次完整業務週期、不重造 owner 定義。注意該來源檔內標記 WORKING；不能把個別草稿視為額外批准的獨立執行模組。 |
+| 理火 OS L9 V1.1 | `LIHUOOS/V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.1_20261026.md`；RADAR_V6、工具能力與治理資格分離。 |
+| WORLD V3.0.0 | `觀止青樓/V6觀止青樓/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md`；世界規則與人文敘事語義另存，CORE 不二次著述。 |
 
 **狀態聲明：** OS V1.1 在文件層已 ratified current，但來源明示未完成 Host 部署與全系統實證；不得把文件級 CURRENT 當成外部 Host 執行收據。反過來，也不得因 Host 缺席，無端阻斷 Chat 中可以正常完成的敘事工作。
 
@@ -36,10 +36,10 @@
 
 簡式：
 
-\`\`\`text
+```text
 CORE: WHICH STORY / WHERE NOW / WHAT ACTUALLY CHANGED / WHO NEEDS TO ACT NEXT
 NOT CORE: WHO THE CHARACTER MUST BECOME / WHAT WORLD FACTS MUST BE TRUE / HOW OS COMPUTES
-\`\`\`
+```
 
 **補充：** 上面第 4 項是「本地協調」責任，不是跨領域統一裁判權。四項 Owner 指對自己的工作內容負責，不能解讀成持有四種上位治理權。
 
@@ -58,7 +58,7 @@ NOT CORE: WHO THE CHARACTER MUST BECOME / WHAT WORLD FACTS MUST BE TRUE / HOW OS
 
 ## 4｜VNext 本地最小接口（資料建議，非新 API 法規）
 
-\`\`\`text
+```text
 GUANZHI_LOCAL_CONTEXT (conceptual)
   route_ref
   scene_ref
@@ -81,11 +81,11 @@ LOCAL_STORY_DELTA (conceptual)
   unresolved_candidates[]
   event_occurrence_refs[]
   persistence_candidate_ref_if_requested
-\`\`\`
+```
 
 它只是說明：CORE 需要能讀懂哪些資訊、回傳放在哪。**不是新造三套 canonical schema、必填 receipt、Host API，也不是說這些欄位在現行平台都已實作。**
 
-\`\`\`text
+```text
 GUANZHI_STORY_REF <-> LIHUO_CYCLE_REF
 CONTEXT BINDING, NOT IDENTITY PROMOTION
 
@@ -95,7 +95,7 @@ MAY SPAN MANY DISTINCT LIHUOS INVOCATIONS
 TOPOLOGY
 !=
 A MANDATORY LINEAR PIPELINE
-\`\`\`
+```
 
 ### 4.1 正常故事 dispatch 的必要責任
 
@@ -115,7 +115,7 @@ A MANDATORY LINEAR PIPELINE
 
 ## 5｜條款盤點的分類規則
 
-採對對建議十一類：\`CORE_OWNER\`、\`CORE_INTERFACE\`、\`WORLD_OWNER\`、\`CHARACTER_OWNER\`、\`DIRECTOR_OWNER\`、\`SAVE_OWNER\`、\`LIHUOS_OWNER\`、\`L9_CAPABILITY\`、\`ARCHIVE\`、\`REGRESSION_ONLY\`、\`DISPUTED\`。
+採對對建議十一類：`CORE_OWNER`、`CORE_INTERFACE`、`WORLD_OWNER`、`CHARACTER_OWNER`、`DIRECTOR_OWNER`、`SAVE_OWNER`、`LIHUOS_OWNER`、`L9_CAPABILITY`、`ARCHIVE`、`REGRESSION_ONLY`、`DISPUTED`。
 
 每條先標一個**首要遷移位置**；若一條同時涉及多 Owner，細節仍須另行拆分。不能用表格分類就宣稱另一個 Owner 已接收、已部署或已批准。
 
@@ -249,30 +249,30 @@ A MANDATORY LINEAR PIPELINE
 
 ## 9｜V3.10 內嵌語義的「有價值部分」：分送前不可遺失
 
-這部分佔據舊 CORE 中段的大型 \`PART B｜CANONICAL VERTICAL DAIL\` 與 \`PART C｜WIRING CONTRACT\`。它們不是「工程垃圾」，但已經不適合全文留在 CORE Main。
+這部分佔據舊 CORE 中段的大型 `PART B｜CANONICAL VERTICAL DAIL` 與 `PART C｜WIRING CONTRACT`。它們不是「工程垃圾」，但已經不適合全文留在 CORE Main。
 
 | 舊模組／節點 | 先定位 Owner | 本次保留的實質邊界 |
 |---|---|---|
-| \`CORE.SITUATIONAL_CONTEXT\`（1.1） | CORE cursor + WORLD/Domain | 場合、公私、在場者、誰能看到什麼；情境訊號不創造法律事件 |
-| \`GUANZHI.COST_CAUSALITY_ROOT\`（1.4） | WORLD/Domain + Director 用於張力 | 行動與選擇可能有時間／金錢／名聲／關係代價；候選成本不等於已發生 |
-| \`CORE.ACTOR_DRIVE_DYNAMICS\`（1.5） | Character + Director／Main | 人物野心可碰撞，不能變成預先強迫的固定決策 |
-| \`CORE.SCENE_FIELD_STATE_CONTINUITY\`（1.6） | CORE transient view + Character/Domain | 疲勞／餘波／注意力可能延續；場態不是同意，也不是 SAVE 事實 |
-| \`DOMAIN.EVENT_STATE_MACHINE\`（1.9） | WORLD／Domain | 計畫、開始、繼續、完成、未決必須區分；呈現不自動使事件完成 |
-| \`DOMAIN.REFERENT_SCOPED_KNOWLEDGE_PROVENANCE\`（1.10） | WORLD／Domain + SAVE | 某人知道／懷疑／聽聞一事不等於另一人也知道；流言不等於事實 |
-| \`CORE.PERSONA_SOVEREIGNTY_FIREWALL\`（1.11） | Character + Director／Narrator 忠實度 | 不把人物漂白成道德教師或自動療癒版本 |
-| \`CORE.PERFORMANCE_FRAME\`（1.12） | Character + Director | 公開演出與私人心意分離；分類不等於接受演出或同意親密 |
-| \`STORY.NO_NARRATIVE_JUDGE\`（1.14） | CORE 主權界線 + OS 不重複裁決 | 不造一個超越人物與世界的「敘事法官」 |
-| \`CORE.CHARACTER_ADAPTER\`（1.15） | CORE interface + Character | 人物基線能供場景引用，但基線不是當前決定 |
-| \`CORE.CAST_RELEVANCE_CANDIDATES\`（4） | Director + 本地檢索／L9 能力 | 候選人物不是已在場，也不能憑提名創造出場原因 |
-| \`CHARACTER.ACTOR_VIEW_LOCK / CAUSE_CONTINUITY / DECISION_AUTHORSHIP\`（5–8） | Character | 主觀知情視角、歷史因果、人物親自作決定 |
-| \`PLAYER.DELEGATED_CHARACTER_AUTHORITY\`（9） | 玩家授權 + Character/Director | 代理授權不等於無限替玩家行事 |
-| \`DOMAIN.SHARED_COLLISION\`（10） | WORLD／Domain + Character | 多股力量碰撞可以有結果，但結果由實際事件與選擇建立 |
-| \`ADULT.*\`（1.2–16 等） | 各適用成人／人物／世界／語言 Owner；具體接線待裁定 | 年齡、當次同意、行動範圍、事件完成與描寫語域不得互相代簽 |
-| \`STORY.CERI_SCOPE_AUTHORITY / STORY.CERI_VISIBLE_LANGUAGE_COVERAGE\`（17A/B） | 語言 Provider／現行 OS 接口待釐清 | 語域與顯影不能冒稱已執行 provider 回傳；不能把原流程直接複製 |
-| \`CORE.STORY_VISIBLE_RELEASE_ELIGIBILITY\`（17B.1） | CORE 本地 dispatch + 相關顯影 Owner；待裁定 | 保護顯影忠實性，但不得自創一個新 Lighter |
-| \`CORE.CONSTRAINT_ADMISSION_GATE\`（17-0） | LIHUOS／適用限制 Owner；待核 | 真正限制必須有來源；不能靠敘事偏好編造新硬牆 |
-| \`PART C｜WIRING CONTRACT\` | ARCHIVE / REGRESSION / 適用 OS／L9 | Normalized IR、Boot/Cast/Provider/Narrator wiring 不再由 CORE Main 常駐定義 |
-| \`成人互動觸發式補充協議 V0.2\` | 附件來源保留，適用法位待確認 | 人類選擇、人物成年與當次同意不可互代；不在此作協議新增或廢止 |
+| `CORE.SITUATIONAL_CONTEXT`（1.1） | CORE cursor + WORLD/Domain | 場合、公私、在場者、誰能看到什麼；情境訊號不創造法律事件 |
+| `GUANZHI.COST_CAUSALITY_ROOT`（1.4） | WORLD/Domain + Director 用於張力 | 行動與選擇可能有時間／金錢／名聲／關係代價；候選成本不等於已發生 |
+| `CORE.ACTOR_DRIVE_DYNAMICS`（1.5） | Character + Director／Main | 人物野心可碰撞，不能變成預先強迫的固定決策 |
+| `CORE.SCENE_FIELD_STATE_CONTINUITY`（1.6） | CORE transient view + Character/Domain | 疲勞／餘波／注意力可能延續；場態不是同意，也不是 SAVE 事實 |
+| `DOMAIN.EVENT_STATE_MACHINE`（1.9） | WORLD／Domain | 計畫、開始、繼續、完成、未決必須區分；呈現不自動使事件完成 |
+| `DOMAIN.REFERENT_SCOPED_KNOWLEDGE_PROVENANCE`（1.10） | WORLD／Domain + SAVE | 某人知道／懷疑／聽聞一事不等於另一人也知道；流言不等於事實 |
+| `CORE.PERSONA_SOVEREIGNTY_FIREWALL`（1.11） | Character + Director／Narrator 忠實度 | 不把人物漂白成道德教師或自動療癒版本 |
+| `CORE.PERFORMANCE_FRAME`（1.12） | Character + Director | 公開演出與私人心意分離；分類不等於接受演出或同意親密 |
+| `STORY.NO_NARRATIVE_JUDGE`（1.14） | CORE 主權界線 + OS 不重複裁決 | 不造一個超越人物與世界的「敘事法官」 |
+| `CORE.CHARACTER_ADAPTER`（1.15） | CORE interface + Character | 人物基線能供場景引用，但基線不是當前決定 |
+| `CORE.CAST_RELEVANCE_CANDIDATES`（4） | Director + 本地檢索／L9 能力 | 候選人物不是已在場，也不能憑提名創造出場原因 |
+| `CHARACTER.ACTOR_VIEW_LOCK / CAUSE_CONTINUITY / DECISION_AUTHORSHIP`（5–8） | Character | 主觀知情視角、歷史因果、人物親自作決定 |
+| `PLAYER.DELEGATED_CHARACTER_AUTHORITY`（9） | 玩家授權 + Character/Director | 代理授權不等於無限替玩家行事 |
+| `DOMAIN.SHARED_COLLISION`（10） | WORLD／Domain + Character | 多股力量碰撞可以有結果，但結果由實際事件與選擇建立 |
+| `ADULT.*`（1.2–16 等） | 各適用成人／人物／世界／語言 Owner；具體接線待裁定 | 年齡、當次同意、行動範圍、事件完成與描寫語域不得互相代簽 |
+| `STORY.CERI_SCOPE_AUTHORITY / STORY.CERI_VISIBLE_LANGUAGE_COVERAGE`（17A/B） | 語言 Provider／現行 OS 接口待釐清 | 語域與顯影不能冒稱已執行 provider 回傳；不能把原流程直接複製 |
+| `CORE.STORY_VISIBLE_RELEASE_ELIGIBILITY`（17B.1） | CORE 本地 dispatch + 相關顯影 Owner；待裁定 | 保護顯影忠實性，但不得自創一個新 Lighter |
+| `CORE.CONSTRAINT_ADMISSION_GATE`（17-0） | LIHUOS／適用限制 Owner；待核 | 真正限制必須有來源；不能靠敘事偏好編造新硬牆 |
+| `PART C｜WIRING CONTRACT` | ARCHIVE / REGRESSION / 適用 OS／L9 | Normalized IR、Boot/Cast/Provider/Narrator wiring 不再由 CORE Main 常駐定義 |
+| `成人互動觸發式補充協議 V0.2` | 附件來源保留，適用法位待確認 | 人類選擇、人物成年與當次同意不可互代；不在此作協議新增或廢止 |
 
 **此處為初步「遷移判斷」，不是對個別 provider／合同的法律效力裁定。** 牽涉安全、授權、身體史和當次同意的實質要求，必須完整保護；不採用「為了減少 Token，所以全部刪掉」的手法。
 
@@ -281,10 +281,10 @@ A MANDATORY LINEAR PIPELINE
 1. **Radar 依賴：** 舊 CORE 的「沒真正消費 Radar 就 HOLD」如何與 L9 advisory-only 及 Chat 介面相容？保留何種極薄本地責任？
 2. **CERI/Narrator 顯影依賴：** 現行是否存在可實際調用的獨立 provider／返回？若只具文件規格，應如何避免假執行與不必要的全場阻斷？
 3. **成人場景接口：** 既有成人觸發協議在 VNext 的適用性、持有 Owner、玩家選擇與角色當次自主如何寫得清楚但不變成每回合教條？
-4. **Domain 層：** 舊 CORE \`DOMAIN.EVENT_STATE_MACHINE\`、\`REFERENT_SCOPED_KNOWLEDGE_PROVENANCE\` 是移進 WORLD Annex、獨立 Domain，還是僅需各 Owner 維持實質邊界？
+4. **Domain 層：** 舊 CORE `DOMAIN.EVENT_STATE_MACHINE`、`REFERENT_SCOPED_KNOWLEDGE_PROVENANCE` 是移進 WORLD Annex、獨立 Domain，還是僅需各 Owner 維持實質邊界？
 5. **Story Dispatch：** 「必要 Owner 未完成不得冒充完成」是最低邊界；哪些必需結果存在，不能用這個簡句自行削除？
 6. **Time-space Daoist／關係式 Cast：** 這些世界／導演能力的具體調用分屬 WORLD、Director 或 L9 哪一塊？不能因 CORE 過度工程而把它們拔掉。
-7. **SAVE 技術責任：** CORE 是否只需 \`persistence candidate + actual disposition\` 兩個界面，還是當前持久化還有少量不可省略的材料？
+7. **SAVE 技術責任：** CORE 是否只需 `persistence candidate + actual disposition` 兩個界面，還是當前持久化還有少量不可省略的材料？
 8. **舊 V3.10 人物／關係語義：** 如何避免在拆檔後被新導演忽略，而不是重新把整套 DAIL 塞回 Main？
 
 ## 11｜新的回歸測試不應重新膨脹 MAIN
@@ -304,7 +304,7 @@ A MANDATORY LINEAR PIPELINE
 - **Chat-native 可以工作**；外部工作仍須真實工具／provider 證據。
 - 首席研究員與作者對 DISPUTED 條款完成取捨後，再形成乾淨的 CORE VNext Main 草稿；目前 CORE V4.1.2 仍保留原位。
 
-**建議下一工作檔：** \`CORE_ANNEX_B_LEGACY_MIGRATION_LOG_V0.1_WORKING_20261026.md\` 或 \`CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261026.md\`，順序由討論確定；**本次不先寫 VNext 正式 CORE**。
+**建議下一工作檔：** `CORE_ANNEX_B_LEGACY_MIGRATION_LOG_V0.1_WORKING_20261026.md` 或 `CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261026.md`，順序由討論確定；**本次不先寫 VNext 正式 CORE**。
 
 > **CORE 要接得到，不代表 CORE 要把對方整套搬進自己肚子裡。**
 
