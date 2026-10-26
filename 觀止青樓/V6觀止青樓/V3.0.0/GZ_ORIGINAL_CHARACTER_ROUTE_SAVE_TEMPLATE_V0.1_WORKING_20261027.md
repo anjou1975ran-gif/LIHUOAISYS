@@ -2,6 +2,7 @@
 
 **法位：** WORKING / FORMAT TEMPLATE / NOT_RUNTIME_SAVE / NOT_SHARED_CHARACTER_POOL
 **日期：** 2026-10-27
+**命名禁則補修：** 2026-10-27／人類明示：十姓禁用＋同一個新創名字中高頻警戒字最多一個；保留既有角色姓名，不宣稱此警戒字庫是統計排名。
 **目的：** 原生人物可以先只在某條故事線出現。SAVE 保存她已走過的事實，讓她逐步顯影，不必初登場就寫完姓名、八軸、性愛偏好、身世和未來命運。
 **建議實際位置：** 複製至 觀止青樓/SAVE/<實際故事線>/原生人物_SAVE.md；一線一份人物表或每人一檔皆可。原有 HOT／MASTER／人物履歷 RCL 仍各司其職，不由本模板自動取代。
 **保存限制：** 寫下這個模板不等於已有故事線 SAVE。只有具體事件與實際寫入經驗證，才能聲稱對應資料被持久化；不能假稱 Host 或 Runtime 已部署。
@@ -12,17 +13,30 @@
 
 ~~~yaml
 ORIGINAL_CHARACTER_NAMING_RULE:
-  forbidden_director_generated_surnames: ["沈", "顧", "柳"]
+  forbidden_director_generated_surnames: ["沈", "顧", "柳", "蘇", "林", "江", "陸", "葉", "蕭", "白"]
   applies_to: "由導演替全新純原生人物自行創造的姓名"
   exceptions:
     - "人類明示指定姓名或同意例外（記錄來源）"
     - "已存在的人物池與既有故事線正式姓名"
     - "真實歷史、文學 donor 和有來源依據的人物原名"
+  frequent_given_name_warning_chars: ["清", "晚", "若", "念", "知", "雪", "棠", "煙", "月", "汐", "瑤", "兮", "芷", "柔", "霜", "歌"]
+  max_warning_chars_per_new_given_name: 1
+  given_name_scope: "僅計名字（姓氏之後的名），適用導演自行新創人物；同一名字最多含一個警戒字"
+  count_rule: "按字的出現次數計；同字出現兩次亦為2個，不能以不同字才算2個"
+  examples:
+    - {candidate: "汐月", warning_char_hits: ["汐", "月"], count: 2, result: "REJECT"}
+    - {candidate: "汐婷", warning_char_hits: ["汐"], count: 1, result: "ALLOW"}
+    - {candidate: "桂枝", warning_char_hits: [], count: 0, result: "ALLOW"}
   further_bans: "只能由人類後續明示擴充"
-  note: "避免 AI 高頻姓氏與同質化雅字取名；命名前檢查重名、時代、家庭、職業與階級"
+  name_rule_note: "十姓屬人類硬禁；十六個名字警戒字屬本專案的防同質化工作字庫，不冒充經實測的AI真實字頻排名"
+  note: "避免AI高頻姓名模板；命名前檢查重名、時代、家庭、職業與階級"
 ~~~
 
-不強制每個人姓氏漂亮、身份神祕、性格清冷、出身名門、一定有黑歷史或愛情線。可以先用「西街挑水婦人」「當鋪新夥計」等臨時稱呼。此規則**不回頭改名**：例如人物池既有顧青簡、沈玉晶、柳如是等來源名字照舊保留。
+**規則判讀：** 先檢查新創原生人物的姓氏是否落入十姓禁用表，再檢查**名字（不含姓）**中十六個警戒字的出現次數。零個或一個可以；兩個以上必須重取。比如「汐月」因為包含「汐＋月」而不通過，「汐婷」只命中「汐」所以通過。這是**逐一姓名**的檢查，不是禁止一條故事線出現兩個名字各含一個不同警戒字。
+
+人類明示的原有人名、既有故事線、歷史文學原名不受本次禁則追溯；若人類明確指定例外，保留其指定並記錄來源，不自行改成合規新名。這些警戒字並非不能寫入人物的詩詞、對話或地名，限制僅作用於導演自行創作的人名。
+
+不強制每個人姓氏漂亮、身份神祕、性格清冷、出身名門、一定有黑歷史或愛情線。可以先用「西街挑水婦人」「當鋪新夥計」等臨時稱呼。此規則**不回頭改名**：例如人物池既有顧青簡、沈玉晶、柳如是、蘇清、白玉潔等來源名字照舊保留。
 
 ## 2｜第一次出場：只要最少四項
 
@@ -51,6 +65,7 @@ ORIGINAL_CHARACTER_ROUTE_SAVE:
     aliases: []
     naming_source: "UNKNOWN"
     surname_rule_checked: false
+    given_name_warning_char_rule_checked: false
   first_entry:
     scene: "UNKNOWN"
     time_precision: "UNKNOWN"
