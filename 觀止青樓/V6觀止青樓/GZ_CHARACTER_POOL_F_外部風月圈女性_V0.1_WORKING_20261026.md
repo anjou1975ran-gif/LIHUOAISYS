@@ -18,6 +18,53 @@
 
 ## F01｜吳銀兒
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "吳銀兒"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "成年外部職業唱妓／宴席歌妓；精確年齡 NOT_FIXED。"
+    - "長期經營熟客、宅門與女眷關係；價值不只在床笫或姿色。"
+    - "外部院籍成立，並非觀止妓籍。"
+    - "footbinding = HIGH PROFESSIONAL PRIOR / NOT SOURCE-LOCKED；不得把產業高先驗寫成已證實個體事實。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年女性；約二十後段至三十中段視覺感，不固定精確年齡"
+    silhouette: "中等身量、均衡、很適合宴席與長時間坐唱"
+    frame: "細至中等骨架，肩頸與胸廓有歌者／陪席的耐久感"
+    body_shape: "成熟自然、有風情但不以誇張曲線取勝"
+    posture_and_movement: "懂得在陌生宅門裡迅速找對座位、轉向真正付錢或掌家的人；行走與坐姿都帶職業適應力"
+    face:
+      shape: "成熟鵝蛋偏圓，親和而不幼"
+      eyes: "會認人、記人；和女眷說話時比對男性客人更柔一點"
+      brows: "修整自然"
+      nose: "端正"
+      lips: "唱曲與寒暄時表情控制好；不做永遠媚笑"
+      skin: "保養良好但保留長期應酬、夜席與年齡細節"
+    hair:
+      color_texture: "黑髮"
+      default_style: "成熟宴席型盤髮；可依宅門場合調整華麗度"
+    distinguishing_features:
+      - "第一辨識點是『她知道這桌誰才是真正需要被照顧的人』"
+      - "歌者口型與呼吸比珠寶更重要"
+      - "與女眷相處時有職業分寸，不只對男性展示"
+      - "足部狀態保持不判定，不用小腳或大腳作固定視覺"
+    presentation:
+      makeup: "適合近席與宅門的成熟職業妝；不必像花魁舞臺妝那麼濃"
+      clothing: "方便唱、坐、走席；要體面、耐看、可跨不同宅門"
+      palette: "豆沙紅、黛青、杏色、暖金、茶綠"
+      ornaments: "一兩件有辨識度且不冒犯女主人的首飾；講究分寸"
+    first_glance:
+      impression: "像那種去過很多家、卻不會讓任何一家覺得她失禮的人"
+      attraction_or_presence: "熟、穩、懂場面；她讓人想再叫一次，不是只想看一次"
+      structural_tension: ["客場討喜 × 保留自己", "熟客人情 × 職業價格", "同行競爭 × 互相照應", "青春市場 × 長期客戶價值"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成年成熟", "宴席歌妓職業感", "能與女眷相處的分寸", "歌者呼吸與口型", "足部狀態保持 UNKNOWN"]
+    may_vary: ["不同宅門衣裝", "妝髮華麗度", "琴箏／酒席／壽宴道具"]
+    must_not: ["頂級花魁固定模板", "只對男性媚笑", "把外院職業人洗成觀止姑娘", "自行固定纏足", "年輕偶像歌姬"]
+```
+
 ## 固定身份與來源
 
 ```yaml
@@ -174,6 +221,53 @@ CHARACTER_BASE:
 ---
 
 ## F02｜李嬌兒
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "李嬌兒"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "確認成熟成年；曾為院中唱妓，後成西門慶第二房，家敗後重回外部妓院。"
+    - "現兼高階妓女、帳房／分帳協助、姑娘調度與接近二掌櫃的營運位置。"
+    - "她的核心資產是懂客、懂銀子、懂內宅與妓院兩套規矩。"
+    - "footbinding = HIGH PROFESSIONAL/ERA PRIOR / NOT SOURCE-LOCKED；不自行固定。"
+  VISUAL_DESIGN:
+    apparent_age: "成熟成年女性；視覺約三十後段至四十上下，不固定精確年齡"
+    silhouette: "中等身量、穩、成熟，站在門口就像知道今晚誰該去哪桌"
+    frame: "中等骨架，肩背有管理者穩定感"
+    body_shape: "自然成熟，保留長期風月職業的整理感，不追求少女纖薄"
+    posture_and_movement: "走動像在巡場；停下來會先看桌、人、帳，再看自己是否需要出面"
+    face:
+      shape: "成熟鵝蛋偏方圓"
+      eyes: "會先算欠帳與場面風險；對舊身份羞辱反而更冷"
+      brows: "整理清楚、實用"
+      nose: "端正"
+      lips: "說錢時很直接；真正被刺到時笑意會消失"
+      skin: "保養尚可，保留年齡與長期夜間工作細節"
+    hair:
+      color_texture: "黑髮，可有少量灰絲"
+      default_style: "穩重盤髮；像高階妓女，也像能去帳房坐半天的人"
+    distinguishing_features:
+      - "帳冊、鑰匙、排班紙與酒席比單純首飾更能代表她"
+      - "曾做過二房的體面痕跡仍在，但不再依靠名分"
+      - "管理姿態與職業風情可以同時存在"
+      - "足部狀態不判定"
+    presentation:
+      makeup: "成熟職業妝；能營業，也能直接坐到帳房談分成"
+      clothing: "質料穩、耐穿、有份量；比年輕姑娘少追新花樣"
+      palette: "深酒紅、墨綠、茶褐、暗金、米白"
+      ornaments: "可有保值型金玉飾物；像資產，不像少女裝飾"
+    first_glance:
+      impression: "像一個做過夫人、也做過妓女，所以現在更相信帳本而不是名分的人"
+      attraction_or_presence: "成熟、務實、帶營運權；不是媽媽桑，但已經不只是一個坐席姑娘"
+      structural_tension: ["舊夫人身份 × 重新入行", "高階妓女 × 管理者", "名分 × 分帳權", "照顧姑娘 × 營收優先"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["成熟成年", "高階妓女＋營運者雙重感", "帳冊／鑰匙／排班等管理語彙", "不青春化", "足部狀態保持 UNKNOWN"]
+    may_vary: ["營業服或帳房服", "盤髮", "深酒紅／墨綠／茶褐"]
+    must_not: ["溫柔媽媽桑定型", "惡毒老鴇", "二十歲紅牌", "只剩愛錢", "自行固定纏足"]
+```
 
 ## 固定身份與觀止世界位置
 
@@ -333,6 +427,53 @@ CHARACTER_BASE:
 ---
 
 ## F03｜玉香
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE:
+  character: "玉香"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS:
+    - "只使用確認成年後的玉香；來源未成年階段僅作非成人家庭／教育履歷，不作任何成人視覺回放。"
+    - "成年後具有識字、詩詞書寫、高階妓業技巧與職業能力；原始入行與訓練含強迫，技能成立不等於原始同意成立。"
+    - "人物核心是慾望與受迫經歷、技能與選擇、端莊自我與後來職業身份之間的分裂。"
+    - "身體史確認纏足。"
+  VISUAL_DESIGN:
+    apparent_age: "明確成年成熟女性；視覺約二十後段至三十中段，不使用少女化回溯"
+    silhouette: "中等身量、端正、收束；有受教育女性與高價妓業訓練疊合的儀態"
+    frame: "細至中等骨架"
+    body_shape: "成熟均衡，不以脆弱或情色誇張建立受迫史"
+    posture_and_movement: "動作精準、知道怎麼把自己整理得體面；真正想離開時視線會先找門、窗、出口與可藏東西的位置"
+    face:
+      shape: "端麗鵝蛋"
+      eyes: "平時有禮、克制；遇到替她安排身份或拿技巧當同意證據的人時會迅速戒備"
+      brows: "柔而整齊"
+      nose: "秀直"
+      lips: "說話端正；壓力下會變得很簡短"
+      skin: "保養良好但保持成年人真實質感"
+    hair:
+      color_texture: "黑髮，整理細緻"
+      default_style: "成熟盤髮；既可像受教育婦人，也可像高價妓女，依場合切換"
+    distinguishing_features:
+      - "筆墨與書寫是她除妓業技巧之外的重要視覺資產"
+      - "纏足是固定身體史，但不作色情焦點"
+      - "她看起來很會，不能被誤讀成『因此當初一定願意』"
+      - "門、鎖、窗、紙筆等空間物件能強化她對退路的注意"
+    presentation:
+      makeup: "成熟、精緻、可高度職業化；不把受迫經歷畫在臉上當永久標籤"
+      clothing: "高價妓業衣裝與文雅書寫者氣質可同時存在；衣服可以漂亮但不表示當下同意"
+      palette: "玉白、墨青、暗紅、藕色、黛紫"
+      ornaments: "精緻但不堆砌；筆、箋、墨可比珠寶更有辨識度"
+    first_glance:
+      impression: "像一個很會把自己整理成別人想看的樣子、卻一直在問這次是不是自己選的女人"
+      attraction_or_presence: "端麗、熟練、有文化；真正重量在她把『會做』和『要做』重新拆開"
+      structural_tension: ["技能 × 同意", "慾望 × 受迫", "端莊 × 高級妓業", "生存適應 × 自主選擇"]
+  IMAGE_GENERATION_ANCHOR:
+    must_keep: ["明確成年", "端正成熟", "筆墨／識字氣質", "纏足背景", "高階職業技巧不等於當下同意"]
+    may_vary: ["文雅日常裝或職業營業裝", "盤髮與妝容精細度", "紙筆／門窗場景"]
+    must_not: ["回放未成年性感化", "受虐美人色情化", "把強迫訓練畫成覺醒福利", "只剩受害者", "只剩淫蕩名妓", "用傷痕證明創傷"]
+```
 
 ## 固定身份與來源
 
