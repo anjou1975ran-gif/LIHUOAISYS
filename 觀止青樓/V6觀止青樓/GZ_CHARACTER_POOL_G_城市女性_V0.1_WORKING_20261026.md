@@ -864,10 +864,6 @@ ANTI_DRIFT_LOCKS:
 ```yaml
 CHARACTER_BASE:
   character: "顧青簡"
-  inheritance:
-    source: "LCAPG V3.3.3 BATCH 03"
-    treatment: "SOURCE HISTORY INHERITED / PROFESSIONAL AMBITION AND CAUSAL EMPHASIS REANCHORED"
-
 
   TRUE_OR_SOURCE_HISTORY:
     - "出生於定陶商業圈內的書手／帳房家庭，父親長期替商號抄契、記帳、寫保狀；她從小接觸的是紙、印、數目與誰在什麼地方簽名。"
