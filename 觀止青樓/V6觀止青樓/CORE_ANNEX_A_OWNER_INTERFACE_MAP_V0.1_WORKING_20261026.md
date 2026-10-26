@@ -1,7 +1,7 @@
 # 觀止 V6｜CORE Annex A — Owner / Interface Map
 ## CORE VNext 角色拆分與舊條款盤點 V0.1
 
-**日期：** 2026-10-26  
+**日期：** 2026-10-26（2026-10-27 局部補修：CERI 語言模式與實作法位；原 Owner 表不整包重寫）  
 **狀態：** WORKING / OWNER REMAP CANDIDATE / NOT RATIFIED / NOT CORE SUCCESSOR  
 **文件用途：** 先對照舊 CORE V4.1.2 的有效責任，讓下一版主文可重寫而非繼承整包。本文是遷移架構意見，不對現行 CORE、理火 OS、WORLD 或人物池產生改寫效力。  
 **工作資料夾：** `觀止青樓/V6觀止青樓/`  
@@ -113,6 +113,31 @@ A MANDATORY LINEAR PIPELINE
 
 來源 OS L9 V1.1 將 Radar 列為 advisory capability（可 scan/signal/suggest，無 qualify/veto/authorize 權）。舊 CORE 以沒有 Radar occurrence/consumption 為故事整輪 HOLD 的機制，與新分工的接線仍需精確核查；**此 Annex 不擅自宣布它已全部退休，也不把它默默帶入新常駐前置。**
 
+## 4.4｜CERI 語言形成能力：兩種模式、兩種執行法位
+
+依對對 2026-10-27《CORE VNext 後續工作交接／CERI 語言模式重新定位》討論方向，CERI 的定位是 **LANGUAGE / REGISTER CAPABILITY**，不是 Story、World、Character、Adult Event 或 Release Owner。
+
+**輸入**：已成立／已取得顯影資格的故事語義、`MODERN_CHINESE` 或 `SONG_PERIOD_REGISTER`、當前場景語域、人物聲紋、關係與時代背景。  
+**輸出**：符合身份／場合／時代／關係的遣詞、語域指引或可見文字候選；**不輸出人物決定、世界事實或批准資格**。
+
+| 語言模式／場景 | CERI 工作責任 | 外部 Provider 要求 |
+|---|---|---|
+| `MODERN_CHINESE` 日常 | 語域形成可輕量；重大身份／交易／情感距離應保護人物聲紋 | 不預設 |
+| `SONG_PERIOD_REGISTER` | 可見對話與敘事**必須完成**語域形成；宋代稱謂、社會距離、行業、人物個別聲音不得只靠裝飾性古字 | 不預設 |
+| 親密／成人親密可見文字 | 適用 **INTIMATE／ADULT_INTIMATE scene register**；保護時代、人物、關係語感，**不授權成人事件** | 不預設；專項確有強制合同時按真實能力處理 |
+| 其他場合 | GENERAL／COMMERCIAL／OFFICIAL／CONFLICT／POETIC 等隨場景選取 | 按實際使用的能力 |
+
+| 執行方式 | 什麼算完成 | 不得宣稱 |
+|---|---|---|
+| `CHAT_NATIVE_CERI` | 同一 Chat／模型確實做了語言形成工作，並在文字中體現適用語域 | 獨立 provider 已執行、收到外部 receipt |
+| `BOUND_CERI_PROVIDER` | 有真正綁定、實際調用，且取得該次真實回傳 | 文件寫了 API／功能就等於實際呼叫 |
+
+責任關係：**已成立故事語義 → 語言模式＋場景語域 → CERI register formation → Narrator 可見顯影**。這不是對外部工具逐層呼叫的強制 Pipeline；CORE 只需傳遞最小的語言上下文，不新造 CERI Gate。
+
+**Radar 同理：** L9 advisory 只 scan／signal／suggest；沒有可用 Radar 不會成為整個故事的預設停機原因。某專門任務如確有實際 Radar 依賴，僅就該任務處理缺口，原全局前置仍需作者批准退役。
+
+**審議法位：** CERI 能力方向依首席交接已有明確建議；舊 CORE「每段 Story 可見語言須獨立 provider return」的正式退休仍需人類批准。不要把「方向已確定」寫成「已獲 ratification」。
+
 ## 5｜條款盤點的分類規則
 
 採對對建議十一類：`CORE_OWNER`、`CORE_INTERFACE`、`WORLD_OWNER`、`CHARACTER_OWNER`、`DIRECTOR_OWNER`、`SAVE_OWNER`、`LIHUOS_OWNER`、`L9_CAPABILITY`、`ARCHIVE`、`REGRESSION_ONLY`、`DISPUTED`。
@@ -214,7 +239,7 @@ A MANDATORY LINEAR PIPELINE
 | `R4-12` | 待裁定 | Radar direction advisory 不等於其調用硬前置；待 OS/L9 接線共同確認。 |
 | `R4-13` | 待裁定 | 成人場景入口、年齡與同意是必要保護，但原補充協議及現行適用範圍待核；不得默默撤掉。 |
 | `R4-14` | 導演心法 | 玩家可選語言語域；保持人物聲紋，不由 CORE 決定台詞。 |
-| `R4-15` | 待裁定 | CERI 先於 Narrator 的特殊依賴是否具新 OS 接口待核；不得用假回傳充數。 |
+| `R4-15` | 待裁定 | 語義方向：CERI 語域形成先於可見顯影（Chat-native 可內部完成）；舊獨立 Provider 必調普遍前置是否正式退休仍待作者批准。不可假造外部回傳。 |
 | `R4-16` | WORLD／領域真相 | 時空道人是世界人物與玩家接觸能力，不是 CORE oracle 權限。 |
 | `R4-17` | CORE 只接接口 | 只保留跨 owner 不偷造事實／不回鑄／UNKNOWN 原則。 |
 | `R4-18` | 歷史歸檔 | 舊 World/Director pointer repair 作遷移歷史。 |
@@ -230,7 +255,7 @@ A MANDATORY LINEAR PIPELINE
 | `RC2-4` | 歷史歸檔 | LIHUO cycle binding receipt 老設計退休。 |
 | `RC2-5` | 待裁定 | Constraint admission 的誰能實際設限仍須按現行 owner；不讓 CORE 重造裁決。 |
 | `RC2-6` | CORE 只接接口 | semantic owner 的結果可被引用，不由 CORE 簽發他人 return。 |
-| `RC2-7` | 待裁定 | CERI actual provider return lineage 待現行接線裁定。 |
+| `RC2-7` | 待裁定 | 外部 CERI provider return 只在確實綁定與實際調用時有來源；Chat-native 語域形成不需虛構外部 lineage。舊強制規則仍需正式處置。 |
 | `RC2-8` | 導演心法 | Narrator 文字顯影按實際可用能力處理，不冒充 provider 已執行。 |
 | `RC2-9` | CORE 自有 | 本地 story dispatch eligibility 概念可保留；舊大型 receipt schema 不保留。 |
 | `RC2-10` | SAVE 持久化 | SAVE disposition 由真正持久化結果判定。 |
@@ -268,7 +293,7 @@ A MANDATORY LINEAR PIPELINE
 | `PLAYER.DELEGATED_CHARACTER_AUTHORITY`（9） | 玩家授權 + Character/Director | 代理授權不等於無限替玩家行事 |
 | `DOMAIN.SHARED_COLLISION`（10） | WORLD／Domain + Character | 多股力量碰撞可以有結果，但結果由實際事件與選擇建立 |
 | `ADULT.*`（1.2–16 等） | 各適用成人／人物／世界／語言 Owner；具體接線待裁定 | 年齡、當次同意、行動範圍、事件完成與描寫語域不得互相代簽 |
-| `STORY.CERI_SCOPE_AUTHORITY / STORY.CERI_VISIBLE_LANGUAGE_COVERAGE`（17A/B） | 語言 Provider／現行 OS 接口待釐清 | 語域與顯影不能冒稱已執行 provider 回傳；不能把原流程直接複製 |
+| `STORY.CERI_SCOPE_AUTHORITY / STORY.CERI_VISIBLE_LANGUAGE_COVERAGE`（17A/B） | CERI 語言／語域能力；Chat-native／實際綁定 Provider 兩路 | 宋代模式及成人親密語域應實際形成語言風格；不創人物決定／世界事實／Release，也不虛構外部回傳 |
 | `CORE.STORY_VISIBLE_RELEASE_ELIGIBILITY`（17B.1） | CORE 本地 dispatch + 相關顯影 Owner；待裁定 | 保護顯影忠實性，但不得自創一個新 Lighter |
 | `CORE.CONSTRAINT_ADMISSION_GATE`（17-0） | LIHUOS／適用限制 Owner；待核 | 真正限制必須有來源；不能靠敘事偏好編造新硬牆 |
 | `PART C｜WIRING CONTRACT` | ARCHIVE / REGRESSION / 適用 OS／L9 | Normalized IR、Boot/Cast/Provider/Narrator wiring 不再由 CORE Main 常駐定義 |
@@ -279,7 +304,7 @@ A MANDATORY LINEAR PIPELINE
 ## 10｜對對需要再判的事項（DISPUTED）
 
 1. **Radar 依賴：** 舊 CORE 的「沒真正消費 Radar 就 HOLD」如何與 L9 advisory-only 及 Chat 介面相容？保留何種極薄本地責任？
-2. **CERI/Narrator 顯影依賴：** 現行是否存在可實際調用的獨立 provider／返回？若只具文件規格，應如何避免假執行與不必要的全場阻斷？
+2. **CERI/Narrator 舊 provider 前置（方向已修正；正式遷移待批准）：** CERI 是語言／語域能力，須區分 `CHAT_NATIVE_CERI` 與 `BOUND_CERI_PROVIDER`；宋代語言模式與成人親密可見語域須做語義工作，但不預設外部 Provider。仍待正式裁定的是舊 provider-mandatory 合同如何被明示替代，而不是 CERI 是否存在。
 3. **成人場景接口：** 既有成人觸發協議在 VNext 的適用性、持有 Owner、玩家選擇與角色當次自主如何寫得清楚但不變成每回合教條？
 4. **Domain 層：** 舊 CORE `DOMAIN.EVENT_STATE_MACHINE`、`REFERENT_SCOPED_KNOWLEDGE_PROVENANCE` 是移進 WORLD Annex、獨立 Domain，還是僅需各 Owner 維持實質邊界？
 5. **Story Dispatch：** 「必要 Owner 未完成不得冒充完成」是最低邊界；哪些必需結果存在，不能用這個簡句自行削除？
