@@ -19,6 +19,64 @@
 
 ## I01｜安舟
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "安舟"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "觀止原著成年男性客，汴梁識字小戶，靠抄契、抄書信與雜帳維生；半舊青衫、袖口墨痕是已有來源錨。"
+    - "固定人物動作：擺好窗邊蔫薄荷、摩挲杯沿、喝茶、不求姑娘為他表演笑；與醉花有尚未言明的共鳴，已婚但夫妻相處窒息。"
+    - "來源八軸部分邊界語法使用女性代詞，與男性身份不符；視覺按明確男性身份設計。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年男子，視覺工作設計三十中段至四十出頭，非定歲"
+    silhouette: "中等偏瘦、坐姿收斂，沒有把疲憊美化成清高仙風"
+    frame: "肩略垂、手指有常年書寫的熟練"
+    body_shape: "普通識字謀生男子，不用極端俊美或衣香"
+    posture_and_movement: "往往先安靜坐下、下意識整好薄荷葉；抬眼慢，摸杯沿更慢"
+    face: 
+      shape: "偏長清瘦臉"
+      eyes: "眼神看人卻不逼人回望"
+      brows: "自然偏平眉"
+      nose: "清瘦端正"
+      lips: "嘴角鬆而話少"
+      skin: "有奔波與操持留下的疲憊膚理"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "自然束髮、不華貴，少量亂髮可見"
+    distinguishing_features: 
+      - "半舊青衫袖口墨痕"
+      - "指腹習慣摩挲杯沿"
+      - "看見疲憊時不以慾望索取"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "半舊青衫、素面帶磨痕的衣袖；普通小戶書手"
+      palette: "舊青／灰褐／月白"
+      ornaments: "薄荷葉、茶盞、墨跡只在來源相容場景"
+    first_glance: 
+      impression: "他坐著像沒什麼想要，眼睛卻記得別人的勉強"
+      attraction_or_presence: "安靜、疲憊、非索取的關係方式"
+      structural_tension: 
+        - "婚姻無言 × 渴望被看見"
+        - "旁觀 × 真正在乎"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "男性書手客人"
+      - "半舊青衫墨痕"
+      - "薄荷與杯沿來源動作"
+    may_vary: 
+      - "在大堂／窗邊"
+      - "茶盞或手稿"
+    must_not: 
+      - "無憂聖人"
+      - "高冷貴公子"
+      - "預判離婚／戀愛結局"
+      - "照抄八軸誤植女性代詞"
+  RADAR_V6_ADVISORY_NOTE: "來源有性別代詞誤植與過度定型『覆寫只限醉花』語句；本卡只作男性外貌，不把角色未來封死。"
+```
+
+
 ```yaml
 PERSONA_8AXIS_CARD:
   name: 安舟
@@ -214,6 +272,64 @@ CHARACTER_BASE:
 
 ## I02｜汪鹽商
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "汪鹽商"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "觀止本傳兩淮鹽商男性客，財大氣粗，附庸風雅；曾在大堂以銀票與高價競標取得注意，拖欠款項遭蘇清等追討。"
+    - "已有動作錨：大拇指玉扳指，在被戳破不懂或催債時飛快轉動；他不懂琵琶的錯音卻冒稱古法。"
+    - "具已成立的炫富、賒欠與被追債史，不因此替他固定後續每局必敗或人格只能當獵物。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年中年商人，視覺四十前後；不立無據確歲"
+    silhouette: "較圓厚而壓場，用衣料與飾物擠滿視野，不等於真有底氣"
+    frame: "肩膀寬、坐姿愛攤開"
+    body_shape: "富態可見但非漫畫肥商"
+    posture_and_movement: "出銀票時手比腦子快，受質疑即轉動大拇指玉扳指"
+    face: 
+      shape: "圓方臉、下頜較厚"
+      eyes: "對吹捧易亮，對質疑閃動"
+      brows: "濃眉、偶作文人清雅狀"
+      nose: "厚實"
+      lips: "笑得大，急時聲量更大"
+      skin: "富商中年的自然膚理"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "整齊束髮，頭飾有商人炫耀"
+    distinguishing_features: 
+      - "玉扳指作已確定動作錨"
+      - "華服與真學識間有落差"
+      - "外貌不替帳務糾紛預定終局"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "兩淮鹽商華貴料子、偏滿的配飾，非朝官蟒袍"
+      palette: "醬紫／金褐／深紅／象牙"
+      ornaments: "玉扳指、銀票、香囊視情況使用"
+    first_glance: 
+      impression: "他最先讓人知道自己有錢，也最快怕人問錢到底付了沒有"
+      attraction_or_presence: "財力表演與心虛"
+      structural_tension: 
+        - "資本 × 風雅面具"
+        - "誇口 × 債務後果"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "兩淮鹽商"
+      - "玉扳指焦慮動作"
+      - "有錢與懂行不能畫成同一件事"
+    may_vary: 
+      - "珠玉配件數量"
+      - "胖瘦幅度"
+    must_not: 
+      - "漫畫式惡富商"
+      - "已必然破產的囚犯造型"
+      - "皇室官服"
+      - "把八軸『獵物』等同沒有自主性"
+  RADAR_V6_ADVISORY_NOTE: "固定奸惡、固定被絞殺都是敘事收束風險；先保留實際來源的財力、炫耀與欠款行為。"
+```
+
+
 ```yaml
 PERSONA_8AXIS_CARD:
   name: 汪鹽商
@@ -403,6 +519,64 @@ CHARACTER_BASE:
 ---
 
 ## I03｜趙受益
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "趙受益"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "趙受益／趙禎／宋仁宗，觀止已成年可再訪帝王男性客；皇帝身份和民生制度責任真實成立。"
+    - "能在帝王身份與普通市井玩笑之間切換；進觀止不自動清場、跪拜、取得治理權或他人親密權。"
+    - "特定玩家線的婚戀、茶約、朋友關係不倒灌其他線，年齡 NOT_FIXED_BY_POOL。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年成熟男性，視覺三十後段至四十多為工作設計；不同線可按時間另定"
+    silhouette: "平和而有權位重量，既非永遠穿龍袍也非永遠普通白衣"
+    frame: "中等骨架，站直時帝王禮制突然明顯"
+    body_shape: "自然成熟男子體型，不刻意高大英武"
+    posture_and_movement: "坐在酒席可笑得鬆，話觸軍政時肩背先站直，笑意才收"
+    face: 
+      shape: "端正中長臉"
+      eyes: "看人時帶好奇與臨場警惕"
+      brows: "整齊平眉"
+      nose: "中等挺直"
+      lips: "常能忍笑，正色時緊抿"
+      skin: "有歲月與操勞痕跡"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "端整束髮，冠帽隨帝王公開程度更換"
+    distinguishing_features: 
+      - "不靠真龍光環識別皇帝"
+      - "同一張臉能開玩笑與承責"
+      - "皇權不等於他人同意"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "可穿低調文士便服或經已成立的公開皇帝場景穿宋制天子衣冠"
+      palette: "深玄／藏藍／茶褐／正紅"
+      ornaments: "隨場景的杯盞與官帽，不把傳國玉璽掛身上"
+    first_glance: 
+      impression: "他笑時像個能被逗樂的男人，坐直時別人才想起他身後是朝廷"
+      attraction_or_presence: "責任與玩心同場"
+      structural_tension: 
+        - "帝王責任 × 私人風流"
+        - "制度成本 × 一時興致"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "宋仁宗成年男性"
+      - "高位與玩笑雙層"
+      - "便服／朝服依公開身份"
+    may_vary: 
+      - "冠帽、衣制取決於場景"
+      - "宴席或政務姿勢"
+    must_not: 
+      - "永遠清場萬人跪"
+      - "有錢有權就可取得任何人"
+      - "固定玩家線婚約"
+      - "完美聖君／庸俗昏君"
+  RADAR_V6_ADVISORY_NOTE: "身份存在不自動要求清場或創造私人關係；某路代付帳不得把他畫成某人的主人。"
+```
+
 
 ## 固定身份與升格
 
@@ -619,6 +793,64 @@ CHARACTER_BASE:
 
 ## I04｜高承義
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "高承義"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "觀止原生重構成年已婚男子，年齡 EARLY_TO_MID_40S；汴京私學／書院山長兼士紳、教席、薦書與官商人情中介。"
+    - "生活優裕、外表體面但並非現職高官；有真實辦事能力，也會利用人情控制距離。"
+    - "傳聞與曾有婚外關係需分層，不能依 donor 情節補定與觀止女性的關係。"
+  VISUAL_DESIGN: 
+    apparent_age: "四十初至中段成年男子（來源範圍）"
+    silhouette: "身形端正、略養尊處優，文化權威與中介的彎腰親近並存"
+    frame: "中等骨架，交談時肩背常向前微傾，像先替你把話接住"
+    body_shape: "略有富裕中年的肉感但非胖官員"
+    posture_and_movement: "雙手先把來人請入座、最後一張荐書暫不交出；不愉快時更客氣"
+    face: 
+      shape: "長方與微圓結合"
+      eyes: "笑眼有估價感"
+      brows: "修整過的濃眉"
+      nose: "端正"
+      lips: "對人熱絡，唇角有保留"
+      skin: "中年保養膚理"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "端整書院山長式束髮與巾帽"
+    distinguishing_features: 
+      - "真懂教席與薦書制度"
+      - "人情網不是官印本身"
+      - "外貌不揭露私密情史"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "富裕書院山長、士紳訪客的講究素色袍服"
+      palette: "茶褐／深青／砂白／棕紅"
+      ornaments: "薦書、禮帖、文囊"
+    first_glance: 
+      impression: "他說能替你辦事時，通常真的辦得到一些；所以更難知道哪一筆是免費的"
+      attraction_or_presence: "可信任的門路與人情成本"
+      structural_tension: 
+        - "辦事本領 × 人情控制"
+        - "山長體面 × 利益算計"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "四十初中段已婚山長"
+      - "真正士紳中介，不冒官位"
+      - "人情作為職業動作"
+    may_vary: 
+      - "書院／酒席裝束"
+      - "鬍鬚有無"
+    must_not: 
+      - "貪官官服"
+      - "情色惡人標籤"
+      - "預設與白玉潔等關係"
+      - "每次拒絕都報復"
+  RADAR_V6_ADVISORY_NOTE: "官場中介與王廷衡『有官位本身』不同，別替高承義穿王廷衡的衣服。"
+```
+
+
 ## 固定身份與宋代重構
 
 ```yaml
@@ -762,6 +994,64 @@ CHARACTER_BASE:
 
 ## I05｜李明遠
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "李明遠"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "宋代原生重構成年已婚男性，來源年齡三十多，靠小書院教席、抄書與代寫文書生活；收入不富裕。"
+    - "喜歡議論、蒐集風聞，有曾偷看或持有私信換取小利益的既成黑暗史，嚴重勒索／強迫仍 NOT_ESTABLISHED。"
+    - "不持真官權，外觀不可把貧窮讀成天生犯罪或色情丑角。"
+  VISUAL_DESIGN: 
+    apparent_age: "三十多歲成年男子，來源年齡範圍"
+    silhouette: "偏窄小的市井讀書人輪廓，手裡的書卷比衣裝新"
+    frame: "中小骨架、肩略內縮"
+    body_shape: "生活節儉，身形不必極瘦"
+    posture_and_movement: "抄書時坐得很近，酒席想被聽見時身子不自覺前探，被權貴看向就後縮"
+    face: 
+      shape: "偏窄長臉"
+      eyes: "眼神常偷看誰聽他說話"
+      brows: "眉稍散、表情多"
+      nose: "鼻形普通"
+      lips: "說話多，尷尬時乾笑"
+      skin: "有睡少與操勞痕跡"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "簡單束髮，略有不整"
+    distinguishing_features: 
+      - "抄寫技能是真正飯碗"
+      - "說得大聲不代表敢冒風險"
+      - "知道秘密不等於有能力控制任何人"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "平價青灰學塾先生袍，反覆補整的袖口"
+      palette: "石灰／褐藍／舊白"
+      ornaments: "筆紙、文囊、半舊書"
+    first_glance: 
+      impression: "他看起來只是普通窮先生，卻總希望桌上有人非聽他一句不可"
+      attraction_or_presence: "普通人的怯弱與資訊優勢"
+      structural_tension: 
+        - "低地位 × 渴望被敬畏"
+        - "有情報 × 沒有權力"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "三十多歲小書院教席"
+      - "簡樸文書工作"
+      - "秘密與傳聞分清"
+    may_vary: 
+      - "鬍鬚／袍色"
+      - "酒席或書案"
+    must_not: 
+      - "天生色魔或黑幫"
+      - "法定官員服"
+      - "已嚴重勒索的刑事標籤"
+      - "全知流言頭子"
+  RADAR_V6_ADVISORY_NOTE: "一樁確立的小利換信不能自動升格為已完成重大勒索；既成污點也不應洗掉。"
+```
+
+
 ## 固定身份與宋代重構
 
 ```yaml
@@ -895,6 +1185,65 @@ CHARACTER_BASE:
 ---
 
 ## I06｜王慎行
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "王慎行"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "宋代原生重構已婚成年男子，三十多歲，汴京布帛行副掌事／外務，常跑貨結帳陪席，家計屬安穩中層。"
+    - "不追求豪賭冒進，會羨慕闊氣場面；曾有婚外曖昧史但是否肉體關係 NOT_ESTABLISHED。"
+    - "他會穩定應付商戶人情，不等於永遠忠貞或永遠風流。"
+  VISUAL_DESIGN: 
+    apparent_age: "三十多歲成年男子（來源年齡段）"
+    silhouette: "平實中等、略厚實的商戶掌事輪廓，衣角乾淨有褶"
+    frame: "肩平穩、久跑貨的腿部耐力"
+    body_shape: "健康普通中年商戶身形"
+    posture_and_movement: "習慣先替客人結帳或核單，再悄悄看更熱鬧的桌"
+    face: 
+      shape: "端正圓方臉"
+      eyes: "眼神踏實卻會被奢華引走"
+      brows: "平直厚眉"
+      nose: "圓實端正"
+      lips: "笑起來客氣，羞時偏靦腆"
+      skin: "自然膚理與細紋"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "整齊束髮，不刻意風流"
+    distinguishing_features: 
+      - "衣料質地真正懂、會摸布估貨"
+      - "他的『穩』是職業選擇不是天生無欲"
+      - "和汪鹽商的闊氣形成真實對照"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "布帛行副掌事質料中等偏好的耐穿袍，料色配得實在"
+      palette: "藍灰／栗茶／象牙／淡赭"
+      ornaments: "布料小樣、帳札、打包繩"
+    first_glance: 
+      impression: "不像大人物，卻會是你真想把一批貨交給他時找的那種人"
+      attraction_or_presence: "可靠、平凡與羨慕好場面"
+      structural_tension: 
+        - "家計穩定 × 宴飲誘惑"
+        - "普通中層 × 想進大桌"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "三十多歲布帛副掌事"
+      - "已婚穩健中層"
+      - "職業與欲望分軸"
+    may_vary: 
+      - "鬍鬚"
+      - "布料色系"
+      - "商務或家居"
+    must_not: 
+      - "窮酸抄書人"
+      - "大鹽商炫富"
+      - "滑稽怕老婆臉"
+      - "曖昧等於性關係"
+  RADAR_V6_ADVISORY_NOTE: "王慎行的保守與李明遠的怯弱不同；前者有貨路與家計可失，不能抹成老好人。"
+```
+
 
 ## 固定身份與宋代重構
 
@@ -1030,6 +1379,64 @@ CHARACTER_BASE:
 ---
 
 ## I07｜王廷衡
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "王廷衡"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "北宋原生重構已婚中高位官員，來源年齡四十至五十多；有工程、人事、商務請託接口，精確官名 NOT_FIXED。"
+    - "既有行政辦事能力又確有收受超禮財物的史；是否足以朝廷刑事定罪要事件證據，並非每樁公事都腐敗。"
+    - "與高承義區分：本人具有官場位置，不只是外部中介；現無與指定女性的固定情人關係。"
+  VISUAL_DESIGN: 
+    apparent_age: "四十至五十多歲成年官員，來源給出的區間"
+    silhouette: "衣冠端整、分量內收，地位更多來自不必急著走動"
+    frame: "中等偏寬骨架，肩平而手部動作少"
+    body_shape: "成熟官員的自然體態、可有富態但不必肥胖"
+    posture_and_movement: "多在席上不先表態，抬指叫下人傳話；把話停在可否認的半句"
+    face: 
+      shape: "沉穩偏寬長方臉"
+      eyes: "目光會觀察有誰在旁作證"
+      brows: "眉厚而下壓"
+      nose: "鼻樑寬直"
+      lips: "口角不易透露真要求"
+      skin: "有年齡與官場疲勞痕"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "官員束髮，公務時依官位適制，具體官名未定不可亂配品級冠"
+    distinguishing_features: 
+      - "官面資歷是真本事"
+      - "回避留書不等於沒主張"
+      - "中高位而非皇帝、不是所有人都得聽"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "北宋官員出席私宴可選高品質便袍；官服只在官場場景按未定品級謹慎設計"
+      palette: "沉綠／墨黑／棕灰／暗赭"
+      ornaments: "小帖、私宴酒盞、印信不能無據確定形制"
+    first_glance: 
+      impression: "他讓人以為只說了幾句閒話，半城可能開始替他辦事"
+      attraction_or_presence: "官場權力的低聲調度與切割責任"
+      structural_tension: 
+        - "會辦事 × 受禮越界"
+        - "官位 × 個人退路"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "四五十歲官場資歷"
+      - "精確官名未定"
+      - "辦事與腐敗同時存在"
+    may_vary: 
+      - "私宴／公務"
+      - "冠飾不指向未定官階"
+    must_not: 
+      - "當成高承義的山長"
+      - "每一件事都是犯罪"
+      - "名定官位與品級袍"
+      - "官權自動壓服他人"
+  RADAR_V6_ADVISORY_NOTE: "不能靠衣冠虛構精確官階、章服與印信；他的行政能力亦不洗掉已確立的受禮史。"
+```
+
 
 ## 固定身份與宋代重構
 
@@ -1176,6 +1583,64 @@ CHARACTER_BASE:
 
 ## I08｜西門慶
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "西門慶"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "《金瓶梅》人物 donor ＋觀止卷二至卷八本傳；男性成年商業／官場權勢網經營者，有藥材商戶來源與幫閒社交能力。"
+    - "觀止卷八時點 NOT_DEFEATED / NOT_CONFISCATED；原著妻妾與家敗結果不能倒灌，與潘金蓮是當前利益角力，不預先寫成夫妻。"
+    - "已成立對蘇清的脅迫傷害與相關高價壓力不可洗白；但其商業能力也不能抹除。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年的成熟城市商人，具體歲數 NOT_FIXED"
+    silhouette: "挺身而帶商賈富貴，氣場危險卻不靠惡人刀疤"
+    frame: "骨架結實、肩頸有慣常支配場面的姿勢"
+    body_shape: "健康富裕成年男子體態，遊藝拳棒經驗可透出體力"
+    posture_and_movement: "先掂價格與人情，必要時手掌壓住桌沿逼對方看他"
+    face: 
+      shape: "偏寬的成熟臉"
+      eyes: "眼神會快速替人標價或判風險"
+      brows: "眉線明晰、微壓"
+      nose: "端正略寬鼻形"
+      lips: "笑帶壓力，發怒時反而更平"
+      skin: "自然富商與風月客膚質"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "整理得有資產感的束髮與巾帽"
+    distinguishing_features: 
+      - "能養人脈與做交易不是只會施暴"
+      - "曾造成傷害也不化成純漫畫反派"
+      - "身上沒有未發生的衰敗刑罰"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "高品質汴梁富商長袍，可略顯花俏但不穿帝王官服"
+      palette: "深紫褐／暗金／墨青／朱褐"
+      ornaments: "商契、酒盞、可見價值的玉佩但不虛造已屬他的特定物"
+    first_glance: 
+      impression: "他進來像是要談生意，讓人難受的常是他把人也當生意"
+      attraction_or_presence: "富商手腕、享樂與強制暴力的真實危險"
+      structural_tension: 
+        - "交易能力 × 控制欲"
+        - "市場人情 × 暴力權勢"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "本傳卷八尚未失勢"
+      - "成熟商人兼權勢人"
+      - "已成立傷害不可抹除"
+    may_vary: 
+      - "席面／商務服飾"
+      - "鬍鬚造型"
+    must_not: 
+      - "官府查抄囚徒"
+      - "原著妻妾譜當現行關係"
+      - "必敗漫畫惡棍"
+      - "來源財富等於所有權"
+  RADAR_V6_ADVISORY_NOTE: "西門慶 donor 的未來家敗與配偶譜不能冒充本傳當前；已成立傷害則必須留在結構而非漂白。"
+```
+
+
 ## 三層來源：原著人格 donor × 觀止本傳 current × 關係防倒灌
 
 ```yaml
@@ -1253,6 +1718,64 @@ BASE_AMBITION:
 
 ## I09｜應伯爵
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "應伯爵"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "《金瓶梅》人物骨架，成年男子；原綢緞商戶子弟，家道跌落後靠幫閒、陪席、笑話、介紹與富戶圈生存。"
+    - "與西門慶的原著熟交在觀止目前僅屬來源 echo，不能自動當當線固定友誼或忠誠。"
+    - "不靠大本金，會用在場、奉承、消息與飲宴位置維持生活；確切年齡未定。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年成熟男子，視覺工作設定三十中後至四十多"
+    silhouette: "較瘦、衣裝稍顯過往富商子弟的講究，卻不是真闊氣"
+    frame: "肩身靈活，能在人群中迅速換座"
+    body_shape: "普通中等身材，穿戴維持面子但物件可能舊"
+    posture_and_movement: "笑著側身替有錢客挪座，手裡一盞酒能多換幾次介紹"
+    face: 
+      shape: "帶精明笑紋的長臉"
+      eyes: "眼神敏捷地搜尋誰請下一攤"
+      brows: "眉形滑稽地活但不丑角"
+      nose: "微尖鼻"
+      lips: "很會笑，也會突然收笑"
+      skin: "生活風霜與應酬痕跡"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "理過又容易亂的束髮"
+    distinguishing_features: 
+      - "昂貴外觀與真正本金有差距"
+      - "懂笑話也懂看人出錢"
+      - "可能義氣不等於免費長期效忠"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "保留舊商戶子弟華服元素但略褪色、修補得體"
+      palette: "褐金／舊石青／赭紅"
+      ornaments: "酒盞、話帖、略磨損扇子"
+    first_glance: 
+      impression: "他沒有最大的錢袋，卻總能坐到最有錢的那桌旁邊"
+      attraction_or_presence: "社交寄生的機敏與怕被踢出圈子"
+      structural_tension: 
+        - "幽默 × 操弄"
+        - "沒本金 × 要一直在場"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "落魄前商戶子弟"
+      - "幫閒席間存在感"
+      - "來源友誼不自動重綁"
+    may_vary: 
+      - "鬍鬚"
+      - "席面與街巷"
+    must_not: 
+      - "固定小丑"
+      - "全知情報頭子"
+      - "西門慶永久附屬品"
+      - "和李明遠同一窮文人臉"
+  RADAR_V6_ADVISORY_NOTE: "社交依附不是毫無自尊；同源故事的朋友關係尚須觀止場內建立。"
+```
+
+
 ## 來源骨架
 
 ```yaml
@@ -1311,6 +1834,64 @@ BASE_AMBITION:
 ---
 
 ## I10｜高衙內
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "高衙內"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "觀止卷二本傳成人高門權勢男子，曾與西門慶一同施壓，對蘇清暴力傷害已成立。"
+    - "《水滸傳》林沖等關係僅來源檢索鉤，觀止尚未成立；與西門慶曾共同行動並非永久同盟。"
+    - "年歲 NOT_FIXED，但人物現行是成年權貴，不是未成年衙內。"
+  VISUAL_DESIGN: 
+    apparent_age: "確認成年男性；視覺工作設計二十後段至三十前段"
+    silhouette: "比西門慶更年輕、急躁而外放，昂貴衣料先於自身力量"
+    frame: "中等偏大骨架，姿勢靠隨從撐場"
+    body_shape: "活躍而富裕的成年男子體態"
+    posture_and_movement: "不耐等待，先指使護院挪人；被更強權威擋住時身體會短暫停住衡量"
+    face: 
+      shape: "較寬的年輕成人臉"
+      eyes: "眼神容易把阻擋理解為當面挑釁"
+      brows: "濃眉、眉尾常揚"
+      nose: "較挺的鼻形"
+      lips: "不耐煩的張口與命令姿態"
+      skin: "真實年輕成年皮膚，非少年娃娃臉"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "高門年輕成人束髮，冠飾顯身份但不等於自己任官"
+    distinguishing_features: 
+      - "家門權勢的後援感"
+      - "隨從位置構成他的權力影子"
+      - "不因財勢而保證所有人服從"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "年輕豪門男子的華貴北宋服飾，避免僭越未定官階"
+      palette: "緋赭／墨青／金褐"
+      ornaments: "貴重扇、隨從可作場面視覺，但不把護院長相寫成他的常態特徵"
+    first_glance: 
+      impression: "他最不願等，卻不是所有阻礙都能靠叫人解決"
+      attraction_or_presence: "借來的權勢與失面子焦慮"
+      structural_tension: 
+        - "家勢 × 本人能力"
+        - "欲望 × 他人拒絕"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "明確成年高門男子"
+      - "卷二傷害史不抹除"
+      - "與西門慶合作有限"
+    may_vary: 
+      - "鬍鬚與冠飾"
+      - "隨從是否同場"
+    must_not: 
+      - "少年學生外觀"
+      - "林沖事件已在觀止發生"
+      - "永久同盟"
+      - "憑氣勢必能壓服所有人"
+  RADAR_V6_ADVISORY_NOTE: "高衙內的來源鉤不是觀止既成事件；外貌可有權勢，但不能把越界行動美化成浪漫霸道。"
+```
+
 
 ## 現行錨與來源缺口
 
@@ -1378,6 +1959,64 @@ BASE_AMBITION:
 
 ## I11｜陳敬濟
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "陳敬濟"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "《金瓶梅》原著角色的觀止成年改編，才智快、會管工程、掌鑰匙、帳務、文書、陪客與遊藝。"
+    - "原著西門家女婿與姻親身份僅留歷史來源，觀止當前關係不自動成立；能幹也不等於忠誠或已經背叛。"
+    - "精確年歲 NOT_FIXED，人物比西門慶更偏年輕機敏與內部實作能力。"
+  VISUAL_DESIGN: 
+    apparent_age: "確認成年，視覺工作設計二十後段至三十多"
+    silhouette: "年輕成人文商兼備的精幹輪廓，不是小童跟班"
+    frame: "中等較精瘦骨架，手部敏捷"
+    body_shape: "真實成人比例、常走場與管店留下的輕快"
+    posture_and_movement: "從長輩手中接過鑰匙時姿態恭順，轉身核帳時立刻俐落；目光會看可用的空隙"
+    face: 
+      shape: "清晰狹長成年頜線"
+      eyes: "眼神精明、有時過於自信"
+      brows: "眉型利落"
+      nose: "挺直"
+      lips: "對上位者笑得得體，私下顯露機巧"
+      skin: "自然年輕成年膚理"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "年輕商業內務男子整束髮"
+    distinguishing_features: 
+      - "鑰匙與帳簿是能力不是已得權柄"
+      - "恭順中確有實力"
+      - "機會主義尚非必然背叛"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "得體但不越階的年輕商戶內務袍服"
+      palette: "青灰／栗褐／象牙白／淡赤"
+      ornaments: "鑰匙串、帳本、書柬"
+    first_glance: 
+      impression: "看上去最能幹的那個後生，恰好也是最不能當成無害的那個"
+      attraction_or_presence: "專業值得信任 × 信任可能被利用"
+      structural_tension: 
+        - "內務能力 × 私慾失手"
+        - "恭順 × 想自立"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "成年精幹內務人才"
+      - "鑰匙文書職業錨"
+      - "原著姻親不自動當現行"
+    may_vary: 
+      - "髮冠"
+      - "帳房或酒席"
+    must_not: 
+      - "永遠忠僕"
+      - "預定背叛奸人"
+      - "未成年書童"
+      - "西門慶既定女婿"
+  RADAR_V6_ADVISORY_NOTE: "來源『綿裡之針』是風險，不能直接把容貌畫成會背叛的惡相。"
+```
+
+
 ## 來源骨架與關係拆層
 
 ```yaml
@@ -1438,6 +2077,65 @@ BASE_AMBITION:
 ---
 
 ## I12｜朱懷玉
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "朱懷玉"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "觀止跨線提煉人物，男性，來源精確年齡 36，自由商人／獨立牙人，汴梁流動商業網絡。"
+    - "目前規劃由大糧商自主發行可交易遠期交糧契約，朱懷玉想撮合市場，仍未成立金主、發行人、清算機制與實際交易所。"
+    - "原玩家線已發生的個人事件仍由該線 SAVE 承載，轉為 NPC 不得將玩家財力或人脈直接複製跨線。"
+  VISUAL_DESIGN: 
+    apparent_age: "確定36歲成年男子"
+    silhouette: "中等身材、行腳商人而非財閥創辦人，身上東西少而攜帶方便"
+    frame: "中等骨架，動作比中年士大夫更接近街巷牙人"
+    body_shape: "普通三十六歲成年人體態，容許奔波疲態"
+    posture_and_movement: "常在茶攤坐到半側身，聽報價先觀察雙方反應，筆記放在自己能收回的位置"
+    face: 
+      shape: "中等偏長帶明確成人頜線"
+      eyes: "眼神尋找價格落差，也會玩笑"
+      brows: "自然濃淡的直眉"
+      nose: "端正"
+      lips: "嘴角容易露出試探笑"
+      skin: "奔波與旅途造成的自然膚感"
+    hair: 
+      color_texture: "依角色歲數、地域與生活職業保留自然髮質"
+      default_style: "簡單束髮，實用而無昂貴冠飾"
+    distinguishing_features: 
+      - "小本而大市場想像"
+      - "他是設計交易舞台的人不是默認保證人"
+      - "三十六歲的生活樂趣不能被金融夢想吞掉"
+    presentation: 
+      makeup: "不強制妝飾；以人物身份、時代及場景決定"
+      clothing: "汴梁中等商人便於外出訪客的衣袍，料子耐用而不華麗"
+      palette: "土青／茶褐／淡灰／米色"
+      ornaments: "契紙草稿、糧價便箋、包袱，但不得畫正式交易所招牌"
+    first_glance: 
+      impression: "他聽見兩種不同的價錢，腦中已想到第三種買賣"
+      attraction_or_presence: "牙人機敏、低本金與市場野心"
+      structural_tension: 
+        - "低本金 × 大交易"
+        - "可想像的市場 × 尚未成立的信用"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "36歲男性商業牙人"
+      - "遠期糧契只是構想"
+      - "玩家線與跨線隔離"
+    may_vary: 
+      - "茶館／碼頭／商鋪"
+      - "髮飾與工具"
+    must_not: 
+      - "已開業期貨交易所"
+      - "他是糧契法定發行者"
+      - "既有金主與保證人"
+      - "現代金融西裝"
+      - "把玩家線資產偷搬成 NPC 資產"
+  RADAR_V6_ADVISORY_NOTE: "最容易被圖像偷完成的是『期貨交易所已成立』，任何招牌、交易大廳與正式交易席皆需要另外的世界事件。"
+```
+
 
 ### 身份與入池理由
 
