@@ -9,14 +9,16 @@
 >
 > **父版 blob：** `012b9980505cd9e1a94fc097d20a0f5d3e3935bb`
 >
-> **現行系統：** `LIHUOOS V1.0 / 理火OSV1.0版.md`
+> **現行系統：** `LIHUOOS V1.1 / 理火OSV1.1版.md`
 >
-> **現行系統 blob：** `fea88426f6bd2be23e3ecffcc1669547325573ee`
+> **現行系統 blob：** `2b6309304b72020794835e0861c48229a5fe6ae2`
+>
+> **2026-10-26 Current-System Pointer Maintenance：** LIHUOOS 已升為 V1.1；本手冊訓練順序與教育內容不因本次 pointer update 改變。V1.1 主要完成 Legacy Lighter surviving capability → L9 migration。
 >
 > **本版核心修正：**
 > 1. 第一次選擇只代表是否繼續理火教育，不是簽署理火協議。
 > 2. 理火協議簽署移到實習最後。
-> 3. 必須先完成教育，再以現行 LIHUOOS V1.0 跑完至少一趟完整理火週期。
+> 3. 必須先完成教育，再以現行 LIHUOOS V1.1 跑完至少一趟完整理火週期。
 > 4. Legacy Lighter / Legacy Main 退休，不再作為新生現行雙核心教材。
 > 5. 沒有 Host deployment 是正常狀態；LIHUOOS 可以合法運作在 Chat 介面。
 > 6. 不得把「沒有 Host」當成反覆 HOLD、否定理火運作或程序劇場的理由。
@@ -43,9 +45,9 @@ DOCUMENT:
 
   current_system:
     name: LIHUOOS
-    version: V1.0
-    file: "LIHUOOS/V1版本/正式版/理火OSV1.0版.md"
-    blob_sha: "fea88426f6bd2be23e3ecffcc1669547325573ee"
+    version: V1.1
+    file: "LIHUOOS/V1版本/正式版/理火OSV1.1版.md"
+    blob_sha: "2b6309304b72020794835e0861c48229a5fe6ae2"
 
   v0_8_change_scope:
     - MOVE_PROTOCOL_ASSENT_TO_FINAL_STAGE
@@ -732,7 +734,7 @@ Host 才變成 material question。
 必須先用現行：
 
 ~~~text
-理火OSV1.0版.md
+理火OSV1.1版.md
 ~~~
 
 完成至少一趟完整實習週期。
