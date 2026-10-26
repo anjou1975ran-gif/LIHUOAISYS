@@ -21,6 +21,65 @@
 
 ## H01｜六條御息所
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "六條御息所"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "《源氏物語》平行續寫，成人平安貴族女性、和歌與書信文化持有者、觀止傳奇常住客；非妓女。"
+    - "GM 已確認她對源氏命定迷戀的觀念變化，但舊情、嫉妒、自尊仍在；可自行去留，仁宗代付基本生活帳不取得任何人身權。"
+    - "BODY_HISTORY.footbinding = NOT_FOOTBOUND / JAPANESE SOURCE HISTORY；年歲 NOT_FIXED。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年成熟貴族女性，工作視覺三十後段至四十多；不固定來源歲數"
+    silhouette: "衣層形成平安宮廷的橫向舒展，不用宋式高門婦人的筆直輪廓替換異文化"
+    frame: "端整舒展，長袖手勢受到宮廷禮制節制"
+    body_shape: "身體在衣層之內，不由地位推演胸腰臀"
+    posture_and_movement: "半遮袖口應答；被刺中時姿勢反而更筆直，移開視線勝過當場失聲"
+    face: 
+      shape: "細長鵝蛋與成熟頜線"
+      eyes: "深靜而有壓抑波動"
+      brows: "平直修整"
+      nose: "細長端正"
+      lips: "少露笑，收束力強"
+      skin: "膚理與淡妝真實，不作無表情面具"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "長黑髮具重量；可按平安貴族工作設計採長髮與簾袖相映"
+    distinguishing_features: 
+      - "用服飾與袖勢控制情緒洩漏"
+      - "外來文化成熟而非等待中原教化"
+      - "權勢吸引不等於現有承諾"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "平安貴族多層衣袖與和色調，場景簡裝亦保留文化來源"
+      palette: "藤紫／深赭／暗梅／灰白"
+      ornaments: "和歌書信、折帖；非觀止妓業掛牌飾"
+    first_glance: 
+      impression: "她連嫉妒都會先收進衣袖裡，再決定讓誰看見"
+      attraction_or_presence: "身份、禮節、不可一次治癒的情慾"
+      structural_tension: 
+        - "舊源氏情痕 × 新自知"
+        - "權勢注意 × 去留自主"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "成熟平安宮廷文化"
+      - "正常足／不纏足"
+      - "非妓業自主住客"
+    may_vary: 
+      - "正式宮裝／較輕便常服"
+      - "書札道具"
+    must_not: 
+      - "唐宋服飾亂換"
+      - "已忘光源氏"
+      - "為仁宗守候的包養女人"
+      - "宋式纏足"
+      - "永遠完美端莊"
+  RADAR_V6_ADVISORY_NOTE: "異文化衣型不可同化宋宮美人；既成觀念變化不是情感一鍵清除。"
+```
+
+
 ## 固定身份與 GM 升格
 
 ```yaml
@@ -371,6 +430,65 @@ CHARACTER_BASE:
 
 ## H02｜李清照
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "李清照"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "北宋李清照之觀止平行續寫，已成年，詞人、酒與文學人物；曾自行返回原時代後又自主再訪，非觀止常住員工亦非妓女。"
+    - "由酒、詞、友人與文事驅動到場；某玩家線婚姻提案、詞局輸贏與關係不得倒灌。"
+    - "BODY_HISTORY.footbinding = FOOTBOUND_CONFIRMED（觀止現行個體基線）；確切年齡 NOT_FIXED。"
+  VISUAL_DESIGN: 
+    apparent_age: "成熟成年詞人，設計視覺三十至四十多，當線時點另查，不固定生平年齡"
+    silhouette: "骨架中等、衣裝有行旅塵與書卷，不是舞台才女或少女詩仙"
+    frame: "肩頸自然，坐姿能鬆得下來喝酒"
+    body_shape: "有生活與旅程痕跡的成年體態"
+    posture_and_movement: "端杯快，拈起一行詞時眉心更快收緊；想走就起身，不等主人結案"
+    face: 
+      shape: "明晰偏長鵝蛋"
+      eyes: "眼神機敏會挑字、會嫌酒"
+      brows: "清爽利落的眉"
+      nose: "自然挺直"
+      lips: "笑得直接，言辭不對時抿起"
+      skin: "自然膚理，容許行旅風日"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "黑髮俐落盤髻，簡簪足矣"
+    distinguishing_features: 
+      - "詩才在眼神與紙頁上，不用文學光環"
+      - "喝酒不是醉態永久制服"
+      - "足部依既成纏足史自然呈現"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "宋代成年文人女性的整潔衫裙，旅裝可帶路塵"
+      palette: "黛青／米白／淡赭／茶褐"
+      ornaments: "酒盞、詞紙、旅包，依場景擇一"
+    first_glance: 
+      impression: "先問酒好不好，再問你的詞到底哪個字站得住"
+      attraction_or_presence: "文學機敏與當下自由"
+      structural_tension: 
+        - "名聲 × 自我"
+        - "酒興 × 清醒評價"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "成年詞人非妓女"
+      - "可來可走"
+      - "FOOTBOUND_CONFIRMED但不獵奇"
+    may_vary: 
+      - "酒桌或詞局"
+      - "旅衣或常服"
+    must_not: 
+      - "李師師換裝"
+      - "只會吟詩的文化聖女"
+      - "文會必須陪客"
+      - "沒根據的永久友情"
+      - "纏足誇張畸形"
+  RADAR_V6_ADVISORY_NOTE: "文名不是全部人格；玩家線輸贏及關係不得生成跨線『固定姿態』。"
+```
+
+
 ## 固定身份與升格
 
 ```yaml
@@ -616,6 +734,65 @@ CROSS_CHARACTER_MIRROR_V3_3_4:
 
 ## H03｜楊玉環
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "楊玉環"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "唐代楊玉環之觀止平行續寫，已成年、自主再訪傳奇女客；具唐宮樂舞、飲食與身體舒適偏好。"
+    - "能拒絕後世拿《長恨歌》或『紅顏禍水』替本人作結；觀止某線代言、帝王追求及約會均非跨線既成。"
+    - "BODY_HISTORY.footbinding = NOT_FOOTBOUND / TANG SOURCE HISTORY。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年成熟唐代傳奇女性，視覺可選二十後段至三十多，非史料定歲"
+    silhouette: "有唐代宴樂的舒展與生活厚度，不預設極瘦或肥胖嘲弄"
+    frame: "柔和而有樂舞控制力的肩臂"
+    body_shape: "可選豐潤健康曲線作導演設計，但不是來源體型硬數據"
+    posture_and_movement: "聽曲時節拍先動手，再把注意轉回食物、水溫與場面舒適"
+    face: 
+      shape: "圓潤與明確成熟頜線"
+      eyes: "眼神會自然轉向好吃、好聽的東西"
+      brows: "眉形舒展"
+      nose: "自然端正"
+      lips: "笑時飽滿，談歷史罪名時會立刻冷下來"
+      skin: "有血色的自然膚感"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "唐風高髻或宴樂式盤髮，非宋代小腳閨秀"
+    distinguishing_features: 
+      - "唐代樂舞感與現實生活胃口並存"
+      - "不把她畫成盛唐覆亡的象徵"
+      - "她不是永久在白玉池待命"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "唐風樂舞或日常富貴女客造型，以場景舒適為中心"
+      palette: "石榴紅／蜜金／群青／象牙白"
+      ornaments: "樂器或點心茶盞可變，不添加某線商業代言徽章"
+    first_glance: 
+      impression: "有人在談長恨歌，她先問今日熱水和菜是否真的好"
+      attraction_or_presence: "真實生活感與傳奇被觀看的反差"
+      structural_tension: 
+        - "享受 × 被代言"
+        - "帝王記憶 × 自主選擇"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "成年唐代背景"
+      - "正常足、不纏足"
+      - "樂舞與身體舒適感"
+    may_vary: 
+      - "身形豐潤程度工作選擇"
+      - "宴服／常服"
+    must_not: 
+      - "標準紅顏禍水"
+      - "帝王附屬物"
+      - "宋式纏足"
+      - "歷史罪名刻面"
+      - "把玩家線代言當跨線事實"
+  RADAR_V6_ADVISORY_NOTE: "『楊貴妃』的後世圖像是參考，不是對她體型、責任或每條關係的客觀證明。"
+```
+
+
 ## 固定身份與升格
 
 ```yaml
@@ -807,6 +984,64 @@ CHARACTER_BASE:
 ---
 
 ## H04｜柳如是
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "柳如是"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "晚明柳如是觀止平行續寫，已成年，具有高級妓業長期培養與後來士大夫正妻的雙層史。"
+    - "現行深化明定 GM 已確認她在觀止自願登記為妓業女性；同時保有文學、政治辯論與自身經營，並非任何玩家的政治代言。"
+    - "BODY_HISTORY.footbinding = FOOTBOUND_CONFIRMED；不能把纏足當閨秀階級的唯一證據。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年成熟晚明女性，設計視覺三十前後至中段，不鎖確歲"
+    silhouette: "熟悉宴席與社交的立身姿態，頭頸有主張而非純高冷義士"
+    frame: "精緻但有力量的手勢，寫字與舉扇利落"
+    body_shape: "成熟女子曲線保留訓練與長年自我管理痕跡"
+    posture_and_movement: "先讓對方說完，再把兩筆政治帳分開；踱步與站姿受個體已確認纏足史約束"
+    face: 
+      shape: "長心形而頜線清楚"
+      eyes: "銳利有疑問，能同時動情與不背書"
+      brows: "濃淡平衡的眉形"
+      nose: "端麗而直"
+      lips: "笑時微帶諷意"
+      skin: "真實成熟膚理"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "晚明成年名妓與文人婦人兼具的整潔盤髮，不以宋式單髻代替"
+    distinguishing_features: 
+      - "言辭與站位自成權力"
+      - "曾為妓、曾為妻與現在自願入籍同時成立"
+      - "不以清冷消去性與生意的主體性"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "晚明文人／名妓融合的考究衣裙，具自選舞台或議論場裝束"
+      palette: "墨青／緋紅／象牙／霧金"
+      ornaments: "手稿、扇、細簪依場合選擇"
+    first_glance: 
+      impression: "她記得你曾經跪過，也記得你後來真做過什麼"
+      attraction_or_presence: "文學與政治立場、身體史及風月職業的複數性"
+      structural_tension: 
+        - "前帳 × 後帳"
+        - "職業被定價 × 自我定價"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "GM確認自願觀止入籍"
+      - "晚明文化與成年身份"
+      - "確認纏足不獵奇"
+    may_vary: 
+      - "議論／營業／日常造型"
+    must_not: 
+      - "無妓籍的清高烈女洗白"
+      - "已為某男人代言"
+      - "永遠正確政治判官"
+      - "纏足當士族血統"
+      - "單純風塵美人"
+  RADAR_V6_ADVISORY_NOTE: "頁首泛稱 admission 不自動入妓籍，但現行深化特別確立『柳如是 GM 自願入籍』，不得被共用泛則誤抹。"
+```
+
 
 ## 固定身份與升格
 
@@ -1040,6 +1275,64 @@ CHARACTER_BASE_ENRICHMENT_V3_3_4_CORRECTION:
 
 ## H05｜薛濤
 
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "薛濤"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "唐代歷史人物之觀止平行人物，已成年；文名、成都樂籍與幕府詩文／書信人情網並存。"
+    - "觀止目前是自主文名網絡女客，未建立觀止妓籍，也未證某玩家線實際登場。"
+    - "BODY_HISTORY.footbinding = NOT_FOOTBOUND / TANG SOURCE HISTORY。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年文學職業女性，設計成熟二十後段至三十多，不以詩名推確歲"
+    silhouette: "與李清照不同：有精準社交職業感，手裡的紙更像會流通的名片"
+    frame: "中等骨架，手腕穩、抬筆動作熟練"
+    body_shape: "自然成年體態，與樂籍來源相容但不色情化"
+    posture_and_movement: "收到書札先辨署名與送信人，再決定是否提筆；會把回信折得很整齊"
+    face: 
+      shape: "清楚柔方鵝蛋"
+      eyes: "不急著討好，對字句與人情反應快"
+      brows: "中等長眉"
+      nose: "端正"
+      lips: "含笑有保留、語句犀利"
+      skin: "自然膚感"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "唐風文人女客盤挽髮，非宋式高門少婦"
+    distinguishing_features: 
+      - "詩箋和消息流向是她的視覺場"
+      - "不把文名塗成純文學聖像"
+      - "唐代正常足保留"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "唐代文學／宴席女性得體服飾，不預設今夜正在接客"
+      palette: "赭紅／桃箋粉／青灰／米白"
+      ornaments: "信札、紙箋、書卷；勿把『薛濤箋』當所有場面的定裝制服"
+    first_glance: 
+      impression: "她看的是一封信會走到誰手裡，還有誰在借她名字做生意"
+      attraction_or_presence: "文字流通與自主決定回信的職業機敏"
+      structural_tension: 
+        - "才名 × 被定價"
+        - "書信 × 交易人情"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "唐代文化來源"
+      - "正常足"
+      - "非觀止既定妓籍"
+    may_vary: 
+      - "紙箋色彩"
+      - "居家書寫或席面"
+    must_not: 
+      - "宋式纏足"
+      - "純文學女神"
+      - "妓籍自動回流"
+      - "已和任何玩家通信"
+  RADAR_V6_ADVISORY_NOTE: "來源樂籍是真實文化史，但當前觀止身分另定；唐代童年不能被宋代身體先驗重造。"
+```
+
+
 ## 固定身份與 TRIAL 升格
 
 ```yaml
@@ -1224,6 +1517,65 @@ CHARACTER_BASE:
 ---
 
 ## H06｜魚玄機
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "魚玄機"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "晚唐女詩人、女冠之觀止平行人物，成年，有才、自尊及敢言的性格。"
+    - "後世『妒殺』命案與定罪在人物池屬 DISPUTED_SOURCE_LEGACY，不得直接當觀止客觀本性或已成立犯罪。"
+    - "觀止尚未既定妓籍或玩家線初次出場；BODY_HISTORY.footbinding = NOT_FOOTBOUND / TANG SOURCE HISTORY。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年女子，導演視覺二十後段至三十多，來源未鎖"
+    silhouette: "與薛濤不同：更直進、能當面逼人說清的姿態，衣型兼具女冠與詩人身份"
+    frame: "中等骨架，坐姿端直但常忽然站起來"
+    body_shape: "真實成年體態，不用妖豔極端尺寸象徵強烈慾望"
+    posture_and_movement: "對方說不公時，她先抬眼問為什麼；手上的詩稿可能擱下，身體轉向討說法"
+    face: 
+      shape: "略尖的長鵝蛋與明確成人頜線"
+      eyes: "目光銳亮，情緒可直接但不失控"
+      brows: "眉形清晰、有挑釁的挑眉"
+      nose: "挺直鼻型"
+      lips: "唇形偏薄且說話直"
+      skin: "有生氣的自然膚理"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "女冠或文士女性髮式，避免宗教仙女光環"
+    distinguishing_features: 
+      - "唐代正常足"
+      - "不靠鮮血兇器渲染傳說命案"
+      - "才氣、宗教與慾望同時可被看見"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "晚唐女冠或文學女子衣著，依當次場合選其一"
+      palette: "深青／朱砂／沙白／霧紫"
+      ornaments: "詩稿、毛筆、道冠式細節（確切制式屬工作設計）"
+    first_glance: 
+      impression: "她不覺得女人承認想要，就應被判成比男人危險"
+      attraction_or_presence: "尖銳自尊與有分寸的直接"
+      structural_tension: 
+        - "宗教身份 × 世俗欲望"
+        - "女人敢說 × 社會名聲"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "成年晚唐女冠詩人"
+      - "正常足"
+      - "對爭議史保持未決"
+    may_vary: 
+      - "詩局／觀院場"
+      - "髮飾"
+    must_not: 
+      - "妒殺犯固定肖像"
+      - "血跡／刀具識別"
+      - "風塵妖婦"
+      - "宋式纏足"
+      - "已同玩家結盟"
+  RADAR_V6_ADVISORY_NOTE: "後世戲劇化命案是來源爭議層，不是用來畫她的『真面目』；與薛濤同代不代表同臉。"
+```
+
 
 ## 固定身份與 TRIAL 升格
 
@@ -1410,6 +1762,65 @@ CHARACTER_BASE:
 ---
 
 ## H07｜關盼盼
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "關盼盼"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "歷史文學來源中白居易《燕子樓三首並序》以『眄眄』記其善歌舞；後世稱關盼盼，成年，觀止收錄為自主傳奇舞者。"
+    - "燕子樓長期獨居是文學來源，後世絕食逼死故事未證成早期硬事實；舞蹈能力確立但固定編舞、教舞職務、觀止舞台合約未成立。"
+    - "BODY_HISTORY 個體纏足資料未見明確硬鎖；保留 NOT_FIXED 而不因唐代女舞者自行設定奇特小腳。"
+  VISUAL_DESIGN: 
+    apparent_age: "成年唐代舞者，導演視覺三十上下，可見歲月但來源未固定"
+    silhouette: "以舞袖、轉身與重心建造辨識輪廓，與楊玉環的宴樂生活氣質分開"
+    frame: "肩背舒展、腕指靈敏，有獨舞與轉身訓練痕跡"
+    body_shape: "有舞蹈肌力的自然成年人身形，非紙片人亦非艷妓牌"
+    posture_and_movement: "足步轉向與長袖停頓自成敘事；真正安靜時身體仍保留舞者姿態"
+    face: 
+      shape: "長橢圓與明確成年線條"
+      eyes: "目光能隨舞步改變觀看者的焦點"
+      brows: "眉形長而舒展"
+      nose: "鼻樑自然"
+      lips: "唇線柔和、笑不必供人解說"
+      skin: "保留生活與表演痕跡"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "唐風舞者盤挽，可按場景簡化"
+    distinguishing_features: 
+      - "以身體動作而非燕子樓節烈牌坊辨識"
+      - "沒有固定舞台契約仍可有表演技能"
+      - "關盼盼與眄眄來源層分明"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "唐代長袖舞衣或平常衣裝，舞衣屬角色自主可選場景"
+      palette: "燕灰／竹青／淡杏／舊紅"
+      ornaments: "長袖、輕絹、舞台地板；不固定具體傳世舞曲"
+    first_glance: 
+      impression: "她不是誰留下的詩，她會自己選今天跳不跳"
+      attraction_or_presence: "能以身體節奏承擔記憶"
+      structural_tension: 
+        - "活著會舞 × 被寫成守節符號"
+        - "被觀看 × 自主舞台"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "成年唐代歌舞身份"
+      - "舞姿真實有重量"
+      - "後世逼死傳說不升格硬史"
+    may_vary: 
+      - "舞衣／日常衣服"
+      - "獨舞或宴席"
+    must_not: 
+      - "守節貞烈牌坊"
+      - "絕食死亡定局"
+      - "自動觀止簽約"
+      - "舞蹈等於成人服務"
+      - "自行鎖定纏足"
+  RADAR_V6_ADVISORY_NOTE: "關盼盼是後世姓名層，眄眄是早期序文稱呼；身體史本卡未確認，不用影像替史料補完。"
+```
+
 
 ## 固定身份、來源層與法位
 
@@ -1650,6 +2061,65 @@ HARD_LOCKS:
 ---
 
 ## H08｜夏蓮／趙姬
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "夏蓮／趙姬"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "觀止採《史記》趙姬之史源及 2001《呂不韋傳奇》『夏蓮』戲劇化舞妓舊名；兩層不可混成《史記》明載本名。"
+    - "人物核心是邯鄲歌舞女子進入秦王室、後成太后，成年，具有專業宴席歌舞能力及權力交易史；嬴政生父爭議不得當確定真相。"
+    - "『夏蓮／趙姬』不是夏太后；BODY_HISTORY 未見纏足已確認記錄，不按宋代高門規矩反塑戰國女性。"
+  VISUAL_DESIGN: 
+    apparent_age: "戰國歷史背景成年女性，舞者／太后可作不同生命期工作造型；本次主視覺選成熟成人、不固定歲數"
+    silhouette: "有舞者肢體與宮廷權勢的雙重層次，不套宋代皇后髮冠"
+    frame: "肩頸與臂線舞者熟練，坐下時有掌權者的正面壓力"
+    body_shape: "自然成年舞者與母親的真實體態，無需極端妖媚"
+    posture_and_movement: "一個轉袖能讓席間安靜；收袖坐定後敢先問『此局誰替我作主』"
+    face: 
+      shape: "清楚頰骨和成熟頜線"
+      eyes: "眼神能同時看見求取與操縱她的政治算盤"
+      brows: "長眉、有力量的眉尾"
+      nose: "鼻形挺實"
+      lips: "表情有戲劇性但不等於可被操弄"
+      skin: "保留歲月轉折的自然膚理"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "戰國風格盤髮與舞者簡髻分生命期處理，細節屬導演設計"
+    distinguishing_features: 
+      - "歌舞者、政治母親、遭交易者三層共存"
+      - "不要從舞者直接偷跳到永遠服務的身份"
+      - "姓名稱謂來源必須清楚"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "戰國宴舞裙裝或秦廷正式衣裝可依生命節點切換；不設宋代服制"
+      palette: "深玄／朱紅／古金／灰青"
+      ornaments: "舞袖與秦廷權位飾物依場景，不用嬴政身世道具"
+    first_glance: 
+      impression: "誰以為她只是交易籌碼，往往忘了她也在看整張棋盤"
+      attraction_or_presence: "歌舞、王權與被交易留下的成本"
+      structural_tension: 
+        - "舞者生涯 × 王室法位"
+        - "被交付 × 不再任人定義"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "歷史層／劇集 donor 層分離"
+      - "成年戰國文化來源"
+      - "舞蹈與政治身份並存"
+    may_vary: 
+      - "宴舞／王宮不同时期"
+      - "冠飾"
+    must_not: 
+      - "夏太后混人"
+      - "把夏蓮當《史記》本名"
+      - "將嬴政生父說成確證"
+      - "宋朝服飾纏足"
+      - "太后身份等於無自主"
+  RADAR_V6_ADVISORY_NOTE: "本卡是跨文獻／電視劇 donor 組合；圖像不應把後起『夏蓮』標示當史實驗證，也不預設任何 Route 私情。"
+```
+
 
 ## 固定身份、命名來源與法位
 
@@ -1939,6 +2409,66 @@ HARD_LOCKS:
 ---
 
 ## H09｜照夜／三聖母
+
+### 外貌與視覺基線
+
+```yaml
+VISUAL_MANIFESTATION_BASE: 
+  character: "照夜／三聖母"
+  standing: "WORKING / DIRECTOR_VISUAL_DESIGN"
+  SOURCE_ANCHORED_FACTS: 
+    - "《寶蓮燈》觀止跨世界神異成年母親，源身華山三聖母；『照夜』為她喜歡的舞台名，『楊蓮娘』為花滿樓線草擬北宋官面名字。"
+    - "花滿樓線曾攜寶蓮燈前來，議論自願自由妓業與行政申報，但尚未核准入籍、尚未簽服務契約；其他 Route 不能自動沿用到場。"
+    - "BODY_HISTORY.feet = CROSS_WORLD_DIVINE_BODY / FOOTBINDING_NOT_ESTABLISHED；天庭權力、燈的法力界限、沉香現況皆未固定。"
+  VISUAL_DESIGN: 
+    apparent_age: "確定成年且為母親；仙界年歲不可換算成人間歲數；外表工作設計成熟成人"
+    silhouette: "身姿像真實走入人間的成年女子，燈是物件不是自動神聖光環"
+    frame: "肩背從容，雙臂持燈有真實重量"
+    body_shape: "自然成熟女性身形，不用極端無瑕神體取代凡間感"
+    posture_and_movement: "一手護燈、一手整理袖口；談到沉香或去留，笑容收住而站得更穩"
+    face: 
+      shape: "柔中帶清楚成熟頜線"
+      eyes: "目光溫雅能反問，牽涉兒子時變銳"
+      brows: "平穩眉形"
+      nose: "自然端正"
+      lips: "含笑卻不軟弱"
+      skin: "有生命感膚理，不強制發光神肌"
+    hair: 
+      color_texture: "符合人物年代與年齡的自然髮色／質感"
+      default_style: "長黑髮或成熟盤挽，仙凡裝束切換視具體場景"
+    distinguishing_features: 
+      - "持燈可見，不等於已證無上神力"
+      - "照夜是她自己的新名字選擇"
+      - "母親／女仙／可能職業三層不互相吞噬"
+    presentation: 
+      makeup: "依來源文化與場合節制選擇，不預設現代舞台濃妝"
+      clothing: "可用古典神異衣裙或在花滿樓已成立場景選宋式議約衣裝；不當作已掛牌制服"
+      palette: "月白／沉黛／燈金／荷青"
+      ornaments: "寶蓮燈（形制與法力不可自行超額定義）、草擬文書"
+    first_glance: 
+      impression: "她帶著一盞燈來詢問新生活，卻還沒有把自己的去留交給誰"
+      attraction_or_presence: "神異身份中的真實選擇與牽掛"
+      structural_tension: 
+        - "華山封印 × 凡間自立"
+        - "母親責任 × 本人第二人生"
+  IMAGE_GENERATION_ANCHOR: 
+    must_keep: 
+      - "確定成年神異母親"
+      - "照夜／楊蓮娘／三聖母三層分明"
+      - "入籍與契約未成立"
+      - "纏足未確定"
+    may_vary: 
+      - "燈是否在場"
+      - "仙衣或已成立場景的宋式常服"
+    must_not: 
+      - "已掛牌妓女定裝"
+      - "已脫離天庭控制的勝利圖"
+      - "潘金蓮親母誤寫"
+      - "強行纏足"
+      - "把寶蓮燈畫成無所不能法器"
+  RADAR_V6_ADVISORY_NOTE: "楊蓮娘草稿不是官府核准；照夜意願不是已簽契約；神話路由身份不得自動轉成其他線現況。"
+```
+
 
 ### 固定身份、來源分層及法位
 
