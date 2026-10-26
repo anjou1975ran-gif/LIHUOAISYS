@@ -3405,32 +3405,6 @@ LOCKS:
   - "CHARACTER_BASE != HOT_SAVE_WRITE"
 ```
 
----
-
-## V3.3.18｜新增人物完整性與跨層邊界
-
-```yaml
-LCAPG_V3_3_18_ADMISSION_VALIDATION:
-  expected_total: 67
-  preserved_original: 20
-  preserved_supplemental_v3_3_17: 45
-  new_supplemental: 2
-  supplemental_total: 47
-  order_66: "SUPPLEMENTAL_CHARACTER_046 / 照夜／三聖母"
-  order_67: "SUPPLEMENTAL_CHARACTER_047 / 紫蘭"
-  next_available_order: 68
-  authorizing_user_request: "直接入池；紫蘭與浮香對立、與醉花交好；新背景故事由導演編寫"
-  prefix_1_to_65_inherited: true
-  flowerline_save_rewritten: false
-  project_repo_uploaded: false
-  host_runtime_wired: "NOT_VERIFIED"
-  world_and_core_versions_edited: false
-  no_auto_relationship_with_player: true
-  no_auto_legal_registration_event_for_zhaoye: true
-  no_auto_tianheaven_resolution: true
-```
-
----
 
 ---
 
