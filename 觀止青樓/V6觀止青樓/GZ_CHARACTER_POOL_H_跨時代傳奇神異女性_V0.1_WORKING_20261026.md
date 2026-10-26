@@ -485,7 +485,7 @@ VISUAL_MANIFESTATION_BASE:
       - "文會必須陪客"
       - "沒根據的永久友情"
       - "纏足鞋履、三寸金蓮足形或以纏足限制作人物步態"
-  RADAR_V6_ADVISORY_NOTE: "文名不是全部人格；玩家線輸贏及關係不得生成跨線『固定姿態』。舊池 FOOTBOUND_CONFIRMED 與 WORLD V3.0.0 第 1.5 節相衝突，現已按人類明示校正為 NOT_FOOTBOUND；不得從一般宋代階級先驗反向覆蓋個體身體史。"
+  RADAR_V6_ADVISORY_NOTE: "文名不是全部人格；玩家線輸贏及關係不得生成跨線『固定姿態』。李清照未纏足；不可把宋代一般先驗當作她的身體事實。"
 ```
 
 
