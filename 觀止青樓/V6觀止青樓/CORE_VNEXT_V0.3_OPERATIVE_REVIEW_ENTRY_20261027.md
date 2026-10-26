@@ -5,8 +5,9 @@
 > **2026-10-27 CERI 定向補修紀錄：** 已依對對最新交接 MEMO 修改 CORE V0.3 的 §13.4／§14／§23.3、Annex A／C；第 0–12 章未重寫，仍未升 CURRENT。完整工作索引：  
 > - [對對 CERI 語言模式交接 MEMO](MEMO_觀止_CORE_VNext_後續工作交接_CERI語言模式重定位_V0.1_20261027.md)（來源作者：對對）  
 > - [Director VNext 遷移 MEMO](DIRECTOR_VNEXT_MIGRATION_MEMO_V0.1_WORKING_20261027.md)（只盤點、不改導演正文）  
-> - [CERI Targeted Regression：靜態核對與 Chat-native 隔離試走](CORE_VNEXT_CERI_TARGETED_REGRESSION_DESK_TRIAL_V0.1_20261027.md)（非獨立 Runtime PASS）  
-> - Annex C 的 S16 已拆成 S16A Modern／S16B Song，S17 補場景語域；正式 RC1 仍待審查。
+> - [CERI Targeted Regression：靜態核對與 Chat-native 隔離試走](CORE_VNEXT_CERI_TARGETED_REGRESSION_DESK_TRIAL_V0.1_20261027.md)（非獨立 Runtime PASS）
+> - [Targeted Story Walkthrough Round 2](CORE_VNEXT_TARGETED_STORY_WALKTHROUGH_ROUND2_V0.1_20261027.md)（18 個指定案例的隔離文字／來源走讀、模式中途切換與對抗式錯誤注入；非獨立 Runtime PASS）  
+> - Annex C 的 S16 分為 S16A Modern／S16B Song，新增 S16C 翻譯模式中途切換；S17 補場景語域。正式 RC1 仍待審查。
 
   
 **這次交付的對象：** 作者與理火 AI 首席研究員「對對」。本文件僅索引閱讀與驗證結果，不構成批准、安裝、部署或新的治理法位。
@@ -37,7 +38,7 @@
 - **V0.1、V0.2 主文：** 舊前置架構方案。V0.2 曾被誤稱為「CORE 完整重構」，實際只是責任和接口的設計框架；它不是這輪新的 CORE 本體。
 - **[Annex A｜Owner Map](CORE_ANNEX_A_OWNER_INTERFACE_MAP_V0.1_WORKING_20261026.md)**：舊 CORE 逐條主權與接口定位。追爭議時才讀。
 - **[Annex B｜Legacy Migration](CORE_ANNEX_B_LEGACY_MIGRATION_LOG_V0.1_WORKING_20261027.md)**：保留歷版接線與退役史。故事運行時不必常駐。
-- **[Annex C｜Regression Scenarios](CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md)**：20 個故事案例、8 個接口案例與 6 組舊工程檢查，**尚未逐項執行**。
+- **[Annex C｜Regression Scenarios](CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md)**：22 個故事案例（含 S16A／B／C）、8 個接口案例與 6 組舊工程檢查，**尚未逐項執行**。
 - 舊 `觀止青樓/01_GUANZHI_RUNTIME_CORE_V4.1.2_MAIN511_REBIND_HUMAN_RATIFIED_FULL_20261015.md` 保留原位；V0.3 候選不能使其自動退位。
 
 ### 來源核對
