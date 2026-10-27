@@ -180,7 +180,26 @@ CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SAL
 | LIHUO L8 | 只有真正需要理火週期時才作唯一 operating cycle、Owner 呼叫／結果及 final receipt/missing checklist |
 | L9 Radar | Advisory only，未收到不自動導致全局 HOLD |
 
-**法位區分：** CORE V0.5、成人外掛 V0.1 仍 `WORKING / NOT_CURRENT`。獨立 L8 原始檔標 `V0.3.1-WORKING`，但現行理火 V1.1 L0 已給予 `PRESERVED_V1_0_OPERATIVE_BASELINE`，**L8 有文件層的現行 operation standing**；這不構成 Host 部署、實作完成或獨立 L8 instance 實跑。舊 CORE／Director V4.1.2 的正式後繼仍需版本處理，但作者不必重答單週期問題。
+**法位區分（V1.2 後更新）：** CORE V0.5、成人外掛 V0.1 仍 `WORKING / NOT_CURRENT`；理火 OS V1.2 的 L8 與 L9 已有 `RATIFIED_CURRENT_OPERATIVE_LAYER`／`RATIFIED_CURRENT_CAPABILITY_LAYER` 的**文件法位**。V1.1 的 `PRESERVED_V1_0_OPERATIVE_BASELINE` 和更早 `V0.3.1-WORKING` 屬歷史來源，不是現行指針。仍無 Host 部署／實作完成／真實獨立執行證據。舊 CORE／Director V4.1.2 的正式後繼仍需版本處理，但作者不必重答單週期問題。
+
+## 4.7｜2026-10-27 後續版本接線：LIHUO OS V1.2 光軌回報進入唯一 L8
+
+**現行版本取用必須從 V1.2 L0 出發：** `LIHUOOS/V1版本/L0_INDEX_SOURCE_VERSION_V1.2.md`；L8 current `L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md`；L9 current `L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md`。前面的 V1.1／V0.3.1-WORKING 論述**只保留 predecessor 法位**，不能再拿舊來源當 V1.2 現行操作規格；V1.2 current 是文件法位，仍不等於 Host deployed。
+
+**本 Annex 不增加光軌 Owner：**
+
+| 既有層 | V1.2 真正的責任 | 觀止不能做的事 |
+|---|---|---|
+| L8 | 唯一完整理火週期；決定何時調光軌、把 qualified trace ref 交給下一輪；最後對帳 | 不為觀止再開 `GZ_CYCLE`／`ADULT_CYCLE` |
+| Main | R1／R2／條件式 R3+ compute；R2 消費 T1，後續 material round 消費 latest trace | 不由光軌挑勝者 |
+| L9 | `LIGHT_TRACE_RENDERER`，回報 T1／T2／T3+／TM／必要時 TFINAL 的可觀測材料 | 不取得 qualification／release／intervention authority |
+| Adult Plugin | 在 L8 的 manifestation candidate 位置完成成人專門方法與內接 CERI，留下可見文本和局部工作紀錄 | 不產生 competition trace、不自裁 TM、不發另一套 release |
+| Original Owner | Character／WORLD／Player 只判未成立的新 material proposal；已成立之事不重簽 | 不做逐場 approval theater |
+
+**成人性愛專門生成強制真實完整 L8 V1.2，日常故事節拍不強制顯式週期。** `R1/O9/[I9] → T1 → R2(T1) → T2 → [R3+ → T3+n] → Main return → governance → Adult Plugin/CERI manifestation candidate → TM → release → [TFINAL only if material semantic transformation] → final checklist/outcome`。這是一次 L8 業務，而非新的觀止流程。T1／T2／T3+ 必須整理已存在的 qualified observable competition material，不讀 hidden CoT；TM 對照競爭與顯影有無 **material drift**，只有觀測權，沒有 veto、選勝、代人同意或改寫 Main 的資格。
+
+**收據紀律：** `CERI_WORK_RECORD != PROVIDER_RECEIPT != L9 LIGHT_TRACE REF != L8 CYCLE OUTCOME`。L8 V1.2 的 `ACCOUNTING_COMPLETE` 也不能推出 `cycle_outcome=COMPLETED`。必要 trace 或 Main／治理結果沒真返回，按 L8 法位回報缺口；不因缺外部 CERI／Radar 票據就創造獨立的全局 HOLD。VNext 仍 `NOT_CURRENT`，這不是宣稱 Host 或獨立 L8 真跑。
+
 
 ## 5｜條款盤點的分類規則
 
