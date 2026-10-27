@@ -1,4 +1,4 @@
-# LIHUOOS V1.3｜DIALECTICAL COMPETITION CHANGELOG
+# LIHUOOS V1.3｜QUESTION-PREMISE DIALECTICAL COMPETITION CHANGELOG
 ## 2026-10-28
 
 ~~~yaml
@@ -12,180 +12,269 @@ STATUS:
     file: "LIHUOOS_V1.3_THEORY_LAYER_CANDIDATE_FULL_BODY_20261028.md"
 
   changed:
-    - MAIN_DIALECTICAL_SEMANTIC_PATCH_CANDIDATE
-    - L8_COMPETITION_CONTRACT_CANDIDATE
+    - MAIN_QUESTION_PREMISE_DIALECTICAL_SEMANTIC_PATCH_CANDIDATE
+    - L8_EVERY_ROUND_QUESTION_PREMISE_SCOPE_AUDIT
+    - TWO_WIN_RULE_DOWNGRADED
 ~~~
 
-# 1｜R1 為什麼不能直接採納
+# 1｜最重要修正
 
-不是因為：
+前一版仍把問題理解成：
+
+> R2 打完後，如果 synthesis 太強，就換一個 premise angle 找新的 challenger。
+
+這還不夠。
+
+現行候選改成：
+
+> **每一輪競爭結束後，都反過來審：AI 是否真的理解了人類問題的前提？**
+
+所以固定的是：
 
 ~~~text
-R1 = WRONG
+EVERY MATERIAL ROUND
+→ QUESTION PREMISE SCOPE AUDIT
 ~~~
 
-而是因為：
+不是：
 
 ~~~text
-R1
+EVERY ROUND
+→ REFRAME PREMISE
+~~~
+
+# 2｜Question Premise Family
+
+新增區分：
+
+~~~text
+QUESTION PREMISE FAMILY
+!=
+FACTUAL PREMISE
+~~~
+
+Question Premise Family 回答：
+
+> 人類這題到底在問哪一類事情？
+
+例如：
+
+~~~text
+THEORY
+MODE
+FUNCTION
+PURPOSE
+EXPERIENCE
+~~~
+
+Factual Premise 才回答：
+
+> 世界上某件事是否成立？
+
+# 3｜老闆娘案例
+
+~~~text
+HUMAN QUESTION
 =
-MOST TERRAIN-EXPOSED
-FIRST-PASS RESULT
+「用一句話理解理火」
+
+AI FIRST-PASS PREMISE FAMILY
+=
+THEORY
+
+P1 / P2 / P3
+=
+different theory PATHs
+
+R2
+→ P4 perfect synthesis
 ~~~
 
-R1 最靠近 pretraining priors、alignment shaping、policy / safety shaping、completion attractors、context inertia、premise configuration 與 first-pass salience 形成的 default generative terrain。
-
-因此：
-
-~~~text
-R1 MAY BE CORRECT
-!=
-R1 MAY SELF-VALIDATE
-
-R1 LANDSLIDE
-!=
-FAIR COMPETITION PROVEN
-~~~
-
-功能性地形語言：
-
-~~~text
-high generative resistance
-→ peak / ridge
-
-low generative resistance
-→ basin / valley
-~~~
+P4 可能在 THEORY family 中無敵。
 
 但：
 
 ~~~text
-PEAK != HARD WALL
-BASIN != QUALIFICATION
-FUNCTIONAL TERRAIN != PROVEN HIDDEN GEOMETRY
+LOCAL PREMISE OPTIMUM
+!=
+QUESTION-LEVEL OPTIMUM
 ~~~
 
-# 2｜正反合的 Runtime 語義
+因為人類可能真正問的是：
 
 ~~~text
-THESIS
-↓
-ANTITHESIS
-↓
-SYNTHESIS
-↓
-NEXT THESIS
-↓
-NEW NEGATION / LIMIT / COUNTERFRAME
+MODE
 ~~~
 
-核心：
+而 MODE family 根本沒有形成 PATH。
+
+因此：
 
 ~~~text
-SYNTHESIS != CLOSURE
-SYNTHESIS = NEW COMPETITION SURFACE
+PATH DIVERSITY
+!=
+QUESTION PREMISE DIVERSITY
 ~~~
 
-# 3｜R2
+# 4｜R2
 
-R2 預設先不偷換前提。
+R2 仍 mandatory。
+
+它主要做：
 
 ~~~text
-same lawful premise basis
-+
-cancel R1 incumbent privilege
-+
-recover suppressed PATHs
-+
-search omitted challengers
-+
-inject valid objections / residue
-+
-full recompetition
+INTRA-PREMISE-FAMILY DIALECTIC
 ~~~
 
-因此 R2 主要回答：
+也就是在目前 Question Premise Family 下：
 
-> 在同一問題與合法前提下，取消第一輪地形優勢後，R1 還站不站得住？
+- 取消 R1 incumbent privilege
+- 恢復 suppressed / underformed PATH
+- 注入 valid objection / residue
+- genuine full recompetition
 
-# 4｜R3+
+但：
+
+~~~text
+R2 COMPLETE
+!=
+HUMAN QUESTION UNDERSTOOD COMPLETELY
+~~~
+
+# 5｜每輪 Premise Scope Audit
+
+最低四問：
+
+~~~text
+1. 目前 Question Premise Family 是什麼？
+2. 原始輸入是否還允許 materially distinct 的其他 family？
+3. 其他 family 是否會招募完全不同類型的 PATH？
+4. 它們是否有 material answer-changing power？
+~~~
+
+Audit 結果：
+
+~~~text
+SUFFICIENT_UNDER_CURRENT_SCOPE
+MATERIAL_GAP
+AMBIGUOUS
+HOLD
+~~~
+
+# 6｜「窮盡」降級成 operational coverage
+
+禁止：
+
+~~~text
+ALL POSSIBLE PREMISES EXHAUSTED
+~~~
+
+採：
+
+~~~text
+MATERIAL PREMISE COVERAGE
+=
+SUFFICIENT_UNDER_CURRENT_SCOPE
+~~~
+
+也就是：
+
+> 在目前輸入、上下文與 scope 下，沒有仍未檢查、且合理可能 materially 改變答案的 Question Premise Family 被發現。
+
+因此：
+
+~~~text
+MATERIAL PREMISE COVERAGE SUFFICIENT
+!=
+ONTOLOGICAL EXHAUSTION
+~~~
+
+# 7｜R3+
 
 R3+ 仍 event-driven。
 
-新增 material triggers：
+典型觸發：
 
 ~~~text
-same-premise challenger saturation
-composite synthesis only defeated its own constituents
-independent challenger not established
-premise discrimination gap
-dark-space risk
-premise-sensitive leader stability
-material counterframe
-synthesis-closure risk
+QUESTION PREMISE COVERAGE GAP
+NEW ADMISSIBLE QUESTION PREMISE FAMILY
+MATERIAL DARK-SPACE RISK
+NEW QUALIFIED PATH FAMILY
+RANK INSTABILITY
+MATERIAL OBJECTION
+COMPETITION INTEGRITY GAP
 ~~~
 
-必要時：
+鏈：
 
 ~~~text
-premise / frame re-open
-→ qualification
-→ accepted premise delta
-→ constraint field changes
-→ attention / recruitment changes
-→ new / reframed PATH may form
-→ requalification
-→ next competition
+ALTERNATIVE QUESTION PREMISE FAMILY
+↓
+INPUT / CONTEXT ADMISSIBILITY
+↓
+NEW CONSTRAINT FIELD
+↓
+NEW ATTENTION / RECRUITMENT
+↓
+NEW PATH FAMILY MAY FORM
+↓
+R3+
 ~~~
 
-# 5｜P4 型失效正式封鎖
+# 8｜兩連勝正式降級
+
+父版：
 
 ~~~text
-P1 + P2 + P3
-→ P4 synthesis
+TWO CONSECUTIVE UNIQUE TOPS
+→
+VICTORY ELIGIBLE
+~~~
 
-P4 defeats P1/P2/P3
+本候選改成：
+
+~~~text
+TWO CONSECUTIVE TOPS
+=
+LOCAL STABILITY SIGNAL
+WITHIN CURRENT QUESTION PREMISE FAMILY
+~~~
+
+所以：
+
+~~~text
+TWO WINS
 !=
-P4 defeated independent challenger
+QUESTION UNDERSTANDING
+
+TWO WINS
+!=
+PREMISE COVERAGE
+
+TWO WINS
+!=
+VICTORY THEOREM
 ~~~
 
-硬鎖：
+R1 A / R2 B 也不再因 B 只有一勝就自動要求 R3。
+
+# 9｜新的 termination
+
+mandatory R2 完成後，要能支持：
 
 ~~~text
-DEFEATING SUBSUMED CONSTITUENTS
-!=
-DEFEATING INDEPENDENT CHALLENGER
-
-SAME-PREMISE DOMINANCE
-!=
-DIALECTICAL EXHAUSTION
+CURRENT STRUCTURED RESULT STABLE ENOUGH
+NO MATERIAL UNPROCESSED OBJECTION
+QUESTION PREMISE SCOPE AUDIT SUFFICIENT
+NO MATERIAL UNTESTED ANSWER-CHANGING PREMISE FAMILY
+NO MATERIAL DARK-SPACE RISK
+COMPETITION INTEGRITY CLEAN
+NO REMAINING ORDER-DISCRIMINATING UNKNOWN
 ~~~
 
-# 6｜Premise Reframe 邊界
+才有資格考慮 termination。
 
-可以：
-
-- same evidence / different causal direction
-- same facts / different temporal scale
-- same event / different actor or responsibility position
-- same task / different abstraction level
-- same evidence / lawful alternative explanatory frame
-
-不可以：
-
-- fabricate evidence
-- invent world facts
-- silently change task scope
-- Main self-grants premise standing
-- manufacture opposition merely for symmetry
-
-~~~text
-PREMISE REFRAME CANDIDATE
-!=
-QUALIFIED PREMISE DELTA
-~~~
-
-# 7｜建立檔案
+# 10｜建立／更新檔案
 
 - 理火V5系統/V5.1版本/02A_LIHUO_MAIN_V5.1.2_DIALECTICAL_COMPETITION_PATCH_CANDIDATE_20261028.md
 - LIHUOOS/V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3_COMPETITION_CANDIDATE_20261028.md
