@@ -82,9 +82,9 @@ CORE VNext V0.3 已回到本地故事：辨認 Route、守住時間與局面、�
 1. 已成立的角色／世界語義決定什麼事情有資格進場。Director 不因自己的創作慣性替人物增加同意或將未決寫成完成。
 2. 場景真正涉及成人親密方法時，**先把適用場景交給成人外掛作專門呈現**，而非一般 Narrator 先把成人語義抽空再作外掛後處理。普通宋代對話仍由一般 CERI／Narrator 語域工作即可。
 3. 成人外掛內部 CERI 必須真做、查當輪紀錄和 receipt，未收到就明記；Radar 始終只是建議。Director 不能自行宣布「少一張收據，所以整個故事 HOLD」。
-4. 外掛回傳的是候選語言、可見敘事及可觀察 delta；人物與 WORLD 確認其實際成立與否；L8（若實際適用且啟動）接收實際 return 作唯一週期對帳，不要求 `DIRECTOR_CYCLE / GZ_ADULT_CYCLE / CERI_RELEASE`。
+4. 外掛回傳候選語言與可見敘事；**只有提議尚未成立的新 material delta 時，才交回適用 Character／WORLD 等原 Owner**，既成決定不重簽。L8（只有真正需要理火工作才啟動）接收實際 return 作唯一週期對帳；一般故事節拍不用建立顯式 L8 Cycle Object，不設 `DIRECTOR_CYCLE / GZ_ADULT_CYCLE / CERI_RELEASE`。
 
-**界線：** 本指引沒有取代舊 Director V4.1.2 的正式文件法位，也沒有宣稱 L8 WORKING 文件已 Host 部署。對真實適用的內容限制仍遵守；不能以「模型自稱有牆」自授任意禁止，也不能以「疑似假牆」否定真正的規範。
+**界線：** 本指引沒有取代舊 Director V4.1.2 的正式文件法位。獨立 L8 檔案雖標 WORKING，理火 OS V1.1 L0 仍賦予 L8 現行 operative baseline 的文件法位；**不可因此宣稱 Host 部署或外部實例已運作**。同模型 CERI 工作紀錄不叫獨立 Provider receipt。對真實適用的內容限制仍遵守；不能以「模型自稱有牆」自授任意禁止，也不能以「疑似假牆」否定真正的規範。
 
 # 6｜審查前仍須明示的問題
 
