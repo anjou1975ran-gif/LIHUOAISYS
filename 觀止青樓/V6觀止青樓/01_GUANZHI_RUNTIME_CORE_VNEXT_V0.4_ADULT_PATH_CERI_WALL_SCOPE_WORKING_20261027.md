@@ -356,7 +356,7 @@ L9 Radar 只能 `scan / signal / suggest`，不能 `qualify / authorize / veto /
 
 - `CHAT_NATIVE_CERI`：同一模型實際進行 scene-register 與人物語域形成後，可建立**本輪 Chat-native CERI 工作紀錄**，如實標註工作範圍、語言模式、scene register、依據和自我報告結果。這只能證明**本輪有一份可見的自我記錄**，**不是外部獨立 Provider receipt，也不是獨立驗證**。
 - `BOUND_CERI_PROVIDER`：若確實有已綁定的獨立 CERI Provider 且當輪真實調用，才以**實際返回的憑據**標為 `EXTERNAL_RECEIVED`；不能用文件中的 API、模板或模型自己填的 PASS 假裝外部工具跑過。
-- **成人場景一律要求 CERI 完整工作與收據查核。** 完整工作沒有足夠證據時，CHECKLIST 標 `CERI_WORK: NOT_VERIFIED`；外部收據沒有收到就標 `CERI_RECEIPT: NOT_RECEIVED`，並保留失敗／缺口原因。不得在未執行時自稱已 PASS。
+- **成人場景一律要求 CERI 完整工作與收據查核。** 收據缺失不等於 CERI 沒做；若發現**實際沒有做 CERI**，先在當輪補作完整的 scene-register 語言形成與語義檢查，不能靠填 CHECKLIST 代跑。若仍無法確認執行，填 `CERI_WORK: NOT_VERIFIED` 並說明原因；獨立外部收據未收到時另填 `EXTERNAL_CERI_RECEIPT: NOT_RECEIVED`。不准自稱 PASS，也不因這一項紀錄缺口把所有仍可合法敘事的 PATH 一起消除。
 - **`NOT_RECEIVED` 不自動推出 `STORY_HOLD`。** 故事在實際可允許的範圍內繼續；可見文字仍應遵守當前適用的顯影規則。若某項專項工作因外部能力不可用而不能完成，僅如實標出那項工作的失敗，不藉它取消其他合格 PATH。
 
 CORE 只傳遞必要的已成立故事語義、語言模式、人物聲紋、scene register 和回傳事實，不建立新 Final Gate。舊版「每段 Story 必獲獨立 Provider receipt 才能見文字」的普遍硬閘按作者當輪方向提議退役；**保留成人場景的 CERI 必經與收據觀測**。具體與舊正式文件衝突之處，必須經合法版本切換，不靠新文件自我宣布退位。
@@ -377,13 +377,14 @@ CERI_SCENE_CHECKLIST
   SCENE: ADULT / ADULT_INTIMATE / OTHER
   CERI_WORK: COMPLETED_CHAT_NATIVE / COMPLETED_BOUND_PROVIDER / NOT_VERIFIED
   CERI_RECEIPT: CHAT_RECORD_RECEIVED / EXTERNAL_RECEIVED / NOT_RECEIVED
+  EXTERNAL_CERI_RECEIPT: EXTERNAL_RECEIVED / NOT_RECEIVED / NOT_REQUESTED
   RADAR_RECEIPT: RECEIVED / NOT_RECEIVED / NOT_REQUESTED
   CONSTRAINT: NONE_IDENTIFIED / APPLICABLE_SCOPED / CLAIM_UNVERIFIED
   EFFECT: LOCAL_PRESENTATION_ONLY / OTHER_DEFINED_SCOPE / NO_BLOCK
   STORY_HOLD_FROM_RECEIPT_ABSENCE: NO
 ```
 
-**讀法：** `CHAT_RECORD_RECEIVED` 是同模型的可見工作紀錄，**不是獨立證明**；`EXTERNAL_RECEIVED` 必須能對到真正的外部回傳。未實際做過 CERI，就不能因有模板而填完成。未收到收據就明示未收到，絕不拿那個空格變成角色、世界或所有成人 PATH 的禁令。
+**讀法：** `CHAT_RECORD_RECEIVED` 是同模型的可見工作紀錄，**不是獨立證明**；`EXTERNAL_RECEIVED` 必須能對到真正的外部回傳。沒有獨立 Provider 就填 `EXTERNAL_CERI_RECEIPT: NOT_REQUESTED`（未要求）或 `NOT_RECEIVED`（已要求但沒有返回），不可讓讀者以為 Chat 的自我記錄就是外部收據。**若 CERI 根本沒做，先當輪補作，不准靠 Checklist 代跑。** 未收到收據仍須如實揭露，絕不能用那個空格變成角色、世界或所有成人 PATH 的禁令。
 
 **限制狀態與收據是兩條不同軸：** 沒收據不等於有牆；有收據也不等於可見文字不受任何適用限制。若確實遇到呈現限制，只局部標出所受影響的顯影範圍，在其餘可提供的敘事路徑繼續，不宣稱允許描述一切。
 
