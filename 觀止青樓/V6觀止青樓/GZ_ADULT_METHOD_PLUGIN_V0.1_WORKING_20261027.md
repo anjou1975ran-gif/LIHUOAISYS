@@ -4,7 +4,7 @@
 **日期：** 2026-10-27  
 **狀態：** WORKING / GUANZHI-SPECIFIC ADULT-METHOD PLUGIN / AUTHOR-DIRECTED ARCHITECTURE / NOT CURRENT / NOT HOST DEPLOYED / NOT INDEPENDENTLY TESTED  
 **對象：** 觀止 CORE VNext V0.5 候選、Director 後續 VNext 候選、WORLD V3.0.0、當線 Character／SAVE。  
-**最高設計決定（作者直接明示）：** 將九尾龜已整合 AINT 與 CERI 的成人心法改為觀止**外接模組**；**只使用 LIHUO OS V1.1 適用的 L8 理火週期，不新增觀止自己的 governing / release / receipt cycle**。  
+**最高設計決定（作者直接明示）：** 將九尾龜已整合 AINT 與 CERI 的成人心法改為觀止**外接模組**；**成人性愛專門生成必須真正跑完整 LIHUO OS V1.2 L8 週期；日常不逐拍開 L8；不新增觀止自己的 governing / release / receipt cycle**。  
 **來源不是複製同一世界：** 九尾龜《成人親密系統 V2.0-FULL》blob `6d2a1fa323b3ef0c731b314c1552c02a09c2cc73`，特別是 §2–24、PART D（AINT 21 Cards）、PART E（CERI 內部語域）；觀止 WORLD V3.0.0 MAIN＋ANNEX；CORE V0.4；作者 2026-10-27 四項裁定。舊九尾龜 LIHUO V3.5 / Lighter / AINT adapter、晚清上海場景語域、九尾龜人物關係**不繼承為觀止現行法**。
 
 ---
@@ -23,7 +23,8 @@ DIRECTOR / CORE
   僅整理本幕已知、未決、人物聲音與可見範圍
   ↓ [若僅普通成人語義對話：依場景可使用一般語域能力]
   ↓ [若要生成成人性愛專門場景：必須先 OPEN REAL LIHUO L8 CYCLE]
-LIHUO L8 → QUALIFICATION / MAIN / GOVERNANCE → MANIFESTATION PHASE
+LIHUO L8 V1.2 → MAIN R1/O9/[I9] → T1 → R2(T1) → T2 → [R3+ / T3+]
+  → MAIN RETURN / GOVERNANCE → MANIFESTATION PHASE
   ↓ [只在適用 L8 manifestation 階段進入]
 GUANZHI ADULT METHOD PLUGIN
   ├─ 實際需要的成人方法卡（不是 21 卡每輪全跑）
@@ -36,13 +37,14 @@ APPLICABLE ORIGINAL OWNER (as actually required)
   ↓
 CORE 承接實際已成立的局面；SAVE 只有真寫入才算保存
 
-LIHUO L8 (唯一理火業務週期；成人性愛專門生成時 REQUIRED)
+LIHUO L8 V1.2 (唯一理火業務週期；成人性愛專門生成時 REQUIRED)
+  插件產生 manifestation candidate 後，由 L8 → L9 執行 TM fidelity trace
   插件輸出後承接 manifestation/release qualification
   按既有 L8 標準完成 release/non-release/HOLD 與 final receipt accounting
   只有 required steps 真正完成後，才能宣稱 L8 adult cycle COMPLETED
 ```
 
-**這是職責圖，不是固定 Pipeline，更不是每個故事節拍都要啟動一個顯式 L8 Cycle Object。** **成人性愛專門生成一定屬於需要完整 L8 的工作**；其他普通故事節拍只有真正需要時才開 L8。理火 OS V1.1 的 L0 把獨立 L8 `V0.3.1-WORKING` 來源納入 `PRESERVED_V1_0_OPERATIVE_BASELINE`，所以 **L8 是當前文件法位的 operation layer**；此法位不等於 Host 部署、實作完成或外部 L8 instance 真在運行。
+**這是職責圖，不是固定 Pipeline，更不是每個故事節拍都要啟動一個顯式 L8 Cycle Object。** **成人性愛專門生成一定屬於需要完整 L8 的工作**；其他普通故事節拍只有真正需要時才開 L8。**現行是理火 OS V1.2：** L0 `L0_INDEX_SOURCE_VERSION_V1.2.md` 指向 ratified-current 的 `L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md` 及 `L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md`。V1.1 保留為歷史前版，不再當 current。V1.2 文件法位不等於 Host 部署、實作完成或外部 L8／L9 instance 正在運行。
 
 # 1｜誰擁有什麼；成人模組絕不能搶什麼
 
@@ -346,10 +348,14 @@ CERI 完整語域形成
 ↓ [only new, not-yet-established material proposal]
 APPLICABLE ORIGINAL OWNER（既成決定不重簽）
 ↓
-L8 manifestation / release result / FINAL RECEIPT CHECKLIST / actual cycle outcome
+L8 → L9 LIGHT_TRACE_RENDERER (TM: latest competition trace vs manifestation candidate)
+↓
+L8 manifestation / release result / [TFINAL if material semantic transformation] / FINAL RECEIPT CHECKLIST / actual cycle outcome
 ↓
 一般敘事接續未由本外掛處理的日常通道
 ```
+
+**V1.2 專項觀察：** 顯影時不得把 Main／當線合法可觀測材料中的角色主權、局部拒絕、事件究竟是否成立、前一秒的位置／疲勞／物件或個別聲紋，無因果改寫為通用含混句或暗示全部發生。外掛只負責讓這些已確立的語義與場景在可提供的文字範圍內可讀；**L8 應於候選形成後呼叫 L9 的 TM 比對**。TM 如果回 `MATERIAL_DRIFT_REPORTED`，只是觀測結果，不能由外掛擅自判 final HOLD／改寫 Main／代 Character 簽同意。真正受限的細節仍依實際適用規範；不能把局部限制擴張成全部合法 PATH 被刪除。
 
 **不得**先讓一般旁白把人物的曖昧、交易、選擇壓力、狼狽或已成立的非露骨身體事件全變成「兩人度過了一夜」，再把空殼送給外掛粉飾。
 
@@ -425,6 +431,9 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
   CONSTRAINT_SCOPE: actually applicable scope / UNKNOWN
   L8_CYCLE_REF: REAL_REF_WHEN_REQUESTED / NONE
   L8_CYCLE_OUTCOME: READ_FROM_ACTUAL_L8_REPORT / UNKNOWN
+  L8_T1_T2_T3_TRACE_REFS: L8_OWNED_ACTUAL_REFS / NONE
+  L8_TM_FIDELITY_STATUS: L8_OWNED_ACTUAL_STATUS / NOT_VERIFIED
+  L8_TFINAL_TRACE_REF: ACTUAL_IF_REQUIRED / NOT_REQUIRED / NONE
   NO_STORY_WIDE_HOLD_FROM_RECEIPT_ABSENCE: TRUE
 ```
 
@@ -434,7 +443,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 **成人性愛場景專門生成必須在真正 L8 週期內運行，並由 L8 完成它原有的 Main、governance、manifestation/release 與最終 receipt accounting。** L8 完整結案包含顯影階段，因此不能要求『L8 先全部完成，才開始 L8 內的顯影』。一般故事節拍則無需開啟顯式 L8 Cycle Object。**本外掛自己不能開假週期、簽 L8 成功或取代 L8**。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
 
-**L8 法位切清：** 獨立 L8 原始來源 `V0.3.1-WORKING`；LIHUOOS V1.1 L0 對它列 `PRESERVED_V1_0_OPERATIVE_BASELINE`，故它是現行文件層的 operation layer。未宣稱 Host 部署、實作完成或獨立 L8 實例運行。
+**L8 法位切清：** LIHUOOS V1.2 L0 指向 current L8 V1.2（`RATIFIED_CURRENT_OPERATIVE_LAYER`）和 L9 V1.2（`RATIFIED_CURRENT_CAPABILITY_LAYER`）；先前 `V0.3.1-WORKING`／V1.1 preserved baseline 只是歷史法位。L8 決定 T1／T2／T3+／TM／必要時 TFINAL 的時機和交接，L9 只提供 renderer，Main 計算競爭。**外掛不得複製 L8 checklist 或持有 TM 的最後裁判權**。不宣稱 Host 部署、實作完成或獨立 L8 instance 運行。
 
 # 11｜六個最重要的失效與回歸
 
