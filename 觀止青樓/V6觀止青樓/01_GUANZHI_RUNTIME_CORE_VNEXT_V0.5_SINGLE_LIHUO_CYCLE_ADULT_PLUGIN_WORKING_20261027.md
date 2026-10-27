@@ -300,13 +300,13 @@ CORE 只維護本地因果與局部未決，不自稱 Host 判官；Renderer 受
 
 一條 Route 可持續很多日與許多回合；`route_id`／`scene_id`／本地時間和狀態是**故事辨識與連續性**，不是 Guanzhi Governing Cycle 或 LIHUO Primary。不能把 Story ID 升格 OS Primary，也不能把理火一次工作拆成所謂「觀止 Admission → 觀止 Release」的第二套流程。
 
-**唯一業務週期：適用的 LIHUO OS L8 Operating Cycle。** 在 L8 的單一工作過程裡，WORLD、Character、CORE、Director、成人外掛與 CERI 各交回自己的實際結果；只有 L8／適用治理 Owner 負責其週期資格、Main 轉接、結果與 receipt checklist。CORE 不建立 Guanzhi Cycle、外掛不建立 Adult Cycle。
+**只有真正需要理火 governing／operating cycle 的工作，才由 LIHUO OS L8 作為唯一該類週期。** **每個觀止故事節拍並不需要建立一個顯式 L8 Cycle Object。** 一般喝茶、招呼、普通對話或已成立的場景續接不因此啟動中央審計。真正適用 L8 時，由 L8／其適用治理 Owner 負責業務週期、Main 轉接、結果和最終 receipt accounting；CORE 不建 Guanzhi Cycle，外掛不建 Adult Cycle。
 
 ## 13.2｜交給現行理火 L8；不再替觀止寫第二套 Main／Release
 
 需要一趟理火工作時，依 **LIHUO OS V1.1 當前適用的 L8 與 Owner**，交出本幕必要的 Route／場景狀態、實際玩家輸入、已成立與未決事實、所需成人外掛能力及當次可觀察 delta。L8 負責完整的業務週期與 receipt/missing 對帳；CORE 不自行逐一重跑 `R1 → O9 → R2`，也不另建 coverage ledger、reentry 對帳、Final Gate、Final Release。
 
-**L8 有治理結果時照真實結果承接。** 沒有實際 Main／Host／Provider 返回，就不能在故事中宣稱已完成 L8。獨立的 L8 V0.3.1 來源文件仍列 `WORKING / NOT_RATIFIED / NOT_HOST_DEPLOYED`；本候選不藉引用它取得不存在的部署證據。
+**L8 有真實結果才如實承接，沒有回傳不得冒稱已執行。** 來源法位需分清：獨立 L8 `V0.3.1-WORKING` 原始檔仍帶工作標記，但理火 OS V1.1 L0 已將它列為 `PRESERVED_V1_0_OPERATIVE_BASELINE`；故 L8 **具有現行文件層 operation standing**，不是『因 WORKING 而沒有現行法位』。不可據此宣稱 Host 已部署、實作完成或獨立 L8 instance 正在運行。
 
 **收據缺席 ≠ 全部故事 HOLD** 是作者關於故事分支的裁定；若 L8 自己某個真正必需的 governance/compute 項目缺失，L8 仍可依自身現行規則如實報 `INCOMPLETE / HOLD / FAILED`。不得把「不因 CERI receipt 停故事」曲解成「OS 的所有必要步驟都可以假報通過」。
 
@@ -320,7 +320,7 @@ L9 Radar 只能 `scan / signal / suggest`，不能 `qualify / authorize / veto /
 
 觀止語言呈現依 WORLD V3.0.0 §1.6：`MODERN_CHINESE` 與 `SONG_PERIOD_REGISTER`，玩家可以在當線中途切換；只改後續可見呈現，不改人物所知、原生語言、已成立台詞與事件。一般現代對話可用必要的輕量語域形成；**宋代模式的所有可見文字都必須真正注意人物時代、階級、職業、身份、場合與獨有聲紋**，不能人人套文言模板。
 
-**成人或成人語義真正進入當輪時，調用 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md` 的適用路由**。該外掛內接成人 CERI 子工作，完整執行 register / scene register / semantic fidelity，並回報 Chat-native 工作紀錄或真正 Provider receipt 的到達／缺失。**不再由 CORE 重寫成人語域方法、21 張心法或成人 CERI 票據合同。**
+**成人或成人語義真正進入當輪時，調用 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md` 的適用路由**。成人 CERI 必須完成適用的 register / scene register / semantic fidelity 工作；同模型只產生 `CERI_WORK_RECORD`，外部 Provider 真有回傳才產生 `PROVIDER_RECEIPT`。未取得獨立收據照實標缺失，但**不把 self-record 稱作 receipt**。**不再由 CORE 重寫成人語域方法、21 張心法或 CERI 回傳 schema。**
 
 CERI 始終**只有語言法位**：不替人物決定、同意、創造事件或更動 SAVE；外掛也沒有 Character／WORLD／OS 權力。非成人宋代語域仍可由一般 CERI 形成，不必為每句說書、買茶或官式招呼載入完整成人模組。
 
@@ -333,11 +333,11 @@ L9 能力倉可註冊工具，但有註冊不等於已有綁定、當輪可用�
 
 ## 13.6｜只有一份理火週期 CHECKLIST；外掛回傳不是第二份最終對帳
 
-外掛可以回傳當次 `CERI_WORK`、`CERI_WORK_RECORD`、`CERI_EXTERNAL_RECEIPT`、`RADAR` 與 `NOT_VERIFIED / NOT_RECEIVED`，讓實際讀取者知道「做了什麼／沒收到什麼」。這是**局部能力回傳**，不是 Guanzhi/Adult Final Checklist。
+外掛在**實際調用**時可回傳 `CERI_WORK.status: COMPLETED / NOT_COMPLETED / NOT_VERIFIED`、`CERI_WORK_RECORD.type: CHAT_NATIVE_RECORD / TOOL_TRACE / OTHER_TRACEABLE_RECORD`、`CERI_EXTERNAL_RECEIPT.status: RECEIVED / NOT_RECEIVED / NOT_APPLICABLE`，並僅在真外部回傳時附 `PROVIDER_RECEIPT.ref`。這是**局部工作結果與證據狀態**，不是 Guanzhi/Adult Final Checklist，也不等於獨立驗證。
 
-真正啟動 L8 時，**唯一整趟業務 CHECKLIST** 採用 L8 的最終 receipt accounting；成人外掛的結果在其實際適用時作為一個來源，不能要求再通過 `GZ_FINAL_RELEASE`、`ADULT_RELEASE`、`CERI_RELEASE`。玩家只問故事時不必在角色台詞中展示工程表；要檢查來源或遇缺失時，如實提供可見狀態，不編造 Host 執行。
+**只有 L8 真正適用且啟動時**，該次理火週期才由 L8 作最終 receipt accounting；成人外掛在當輪實際適用時提供局部 return。不需每個故事節拍創建 L8 object，也不要求通過 `GZ_FINAL_RELEASE`、`ADULT_RELEASE`、`CERI_RELEASE`。玩家只問故事時不必在角色台詞中展示工程表；要檢查來源或遇缺失時，如實提供可見狀態，不編造 Host 執行。
 
-作者已裁定：**只有缺 CERI／Radar 的外部收據，不會自動封死整個觀止與成人 PATH。** 若 CERI 完整工作本身沒做，要在當輪補作；無證據不可聲稱完成。實際適用內容限制仍需遵守。
+作者已裁定：**缺 CERI／Radar 外部收據，不會自動封死整個觀止與成人 PATH。** CERI 若未做要當輪補作，否則如實列未完成／未驗證，不得靠自填記錄造假。**外掛輸出若沒有提出新的未成立 material delta，已成立的 Character choice／WORLD condition 不重簽**；有新 material proposal 才回原 Owner。實際適用的內容限制仍須遵守。
 
 # 14｜每場該給玩家看什麼
 
