@@ -42,6 +42,18 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 - 沒有將新的外掛寫進正式 CURRENT Index、替換舊 CORE V4.1.2／Director V4.1.2 的 ratified source、覆寫 WORLD／Character／SAVE。
 - 沒有獨立跑完 39 項（27+12）完整 Regression，也不把靜態回讀自稱 Runtime PASS。
 
+## 對對四項修正的已執行核對（2026-10-27）
+
+**27／27 項跨檔靜態／來源斷言通過。** 已從 GitHub 回讀 CORE V0.5、外掛 V0.1、Annex A/C、Director 遷移說明與作者裁定紀錄；其中核對 CORE 第 1–11 章與 V0.4 一致、外掛 21 張方法卡保留、CERI 三種工作與收據狀態確實分軸、L8 只在需要時啟動、原 Owner 只有遇新 material delta 才回交、L8 文件法位與未部署事實不混淆。
+
+**四個高價值情境的預期分支，已對應 Annex C 現有規格（不另外增長一套 Gate）：**
+
+1. 普通茶席／一輪閒聊：保留同一 Route、沒有新治理需求，**不顯式建立 L8 Cycle Object**（I11）。
+2. 真有 Chat-native CERI 工作、沒有要求外部 Provider：`CERI_WORK_RECORD.type=CHAT_NATIVE_RECORD`，`CERI_EXTERNAL_RECEIPT.status=NOT_APPLICABLE`，沒有 `PROVIDER_RECEIPT`；若已要求而無回傳才填 `NOT_RECEIVED`（S25／I12）。
+3. 外掛只是忠實寫出已成立的拒絕：**不回 Character 重簽**；外掛另提出尚未成立的重大承諾，才保留候選、找原 Owner（S25／I12）。
+4. 真正啟動 L8 的工作有 required Main／治理結果缺失：L8 自己如實 `MISSING / INCOMPLETE / HOLD`，不因外掛的 no-global-HOLD 原則就造假完成（I12）。
+
+**證據等級：** 上述四項是規格推演與可檢查的分支預期，並非已執行獨立導演／Main／Host／Provider。Annex C 原有 **27 story + 12 interface** 全部仍 `NOT_RUN`，本輪**不升 RC1／CURRENT**。真正的多回合受測運行需要獨立 runner 與真實工具結果；不能用自己寫的例子稱作通過。
 ## 人類真正需要介入的下一道審查
 
 作者已批准**設計方向**；仍待證據的是：
