@@ -23,7 +23,7 @@ WORLD / CHARACTER           僅新且未成立的 material delta 才回原 Owner
 LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ```
 
-**這不是多個必須依序取得不同 release 的 Gate。** 成人外掛按場景需要參與，非成人日常不必跑成人 21 Cards；L8 若被真正啟動，就按其有效規格跑當輪適用業務與收據對帳。Route 可以跨很多次 L8 工作，它自己不因此成為第二個週期。
+**這不是多個必須依序取得不同 release 的 Gate。** 成人外掛按場景需要參與，非成人日常不必跑成人 21 Cards；L8 若被真正啟動，就按其有效規格跑當輪適用業務與收據對帳。Route 可以跨多次真正需要的 L8 工作，本身不構成第二週期。**普通故事節拍不必顯式建立 L8 Cycle Object。**
 
 ## 另外更新的協作材料
 
@@ -36,7 +36,7 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ## 本次沒有聲稱的事情
 
 - 沒有 Host / 真正獨立 CERI Provider 的實際部署與真 receipt。
-- 沒有宣稱 **L8 V0.3.1-WORKING** 已批准；本稿引用的 L8 獨立文檔本身仍標 `NOT_RATIFIED / NOT_HOST_DEPLOYED`。
+- 獨立 L8 原始檔標 `V0.3.1-WORKING`，但 LIHUOOS V1.1 L0 已列為 `PRESERVED_V1_0_OPERATIVE_BASELINE`，故 L8 有現行文件層 operation standing；**不代表 Host 部署、實作完成或外部實例運行**。
 - 沒有將新的外掛寫進正式 CURRENT Index、替換舊 CORE V4.1.2／Director V4.1.2 的 ratified source、覆寫 WORLD／Character／SAVE。
 - 沒有獨立跑完 39 項（27+12）完整 Regression，也不把靜態回讀自稱 Runtime PASS。
 
