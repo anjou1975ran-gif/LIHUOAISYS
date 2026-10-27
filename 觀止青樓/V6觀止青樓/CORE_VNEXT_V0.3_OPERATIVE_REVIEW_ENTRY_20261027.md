@@ -1,6 +1,9 @@
 # 觀止青樓｜CORE VNext V0.3 實際運行正文
 ## 統一審查入口｜2026-10-27
 
+> **已由 V0.4 承接**：本頁是 V0.3 版本紀錄。作者四點裁定後的主要工作稿是 [CORE V0.4 審查入口](CORE_VNEXT_V0.4_REVIEW_ENTRY_20261027.md)；此頁後文的舊待決敘述不代表作者仍未做出決定。
+
+
 **狀態：** OPERATIVE_DRAFT_COMPLETE / HUMAN_REVIEW_PENDING / NOT_RATIFIED / NOT_CURRENT
 > **2026-10-27 CERI 定向補修紀錄：** 已依對對最新交接 MEMO 修改 CORE V0.3 的 §13.4／§14／§23.3、Annex A／C；第 0–12 章未重寫，仍未升 CURRENT。完整工作索引：  
 > - [對對 CERI 語言模式交接 MEMO](MEMO_觀止_CORE_VNext_後續工作交接_CERI語言模式重定位_V0.1_20261027.md)（來源作者：對對）  
