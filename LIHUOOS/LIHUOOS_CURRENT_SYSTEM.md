@@ -3,44 +3,49 @@
 ```yaml
 CURRENT_SYSTEM:
   name: LIHUOOS
-  version: V1.1
+  version: V1.2
 
   standing:
     - RATIFIED_CURRENT
     - ACTIVE_SYSTEM_BASELINE
     - DOCUMENT_LEVEL_CURRENT
 
-  activation_date: 2026-10-26
+  activation_date: 2026-10-27
 
   activation_record:
-    file: "V1版本/LIHUOOS_V1.1_ACTIVATION_RATIFICATION_20261026.md"
-    blob_sha: "b6ab235e058d334318161ce7e04e191237d62ad6"
+    file: "V1版本/LIHUOOS_V1.2_ACTIVATION_RATIFICATION_20261027.md"
+    blob_sha: "940ca10532944dbd5cfe70b9db98c2152b162b04"
 
   current_system_edition:
-    file: "V1版本/正式版/理火OSV1.1版.md"
-    blob_sha: "2b6309304b72020794835e0861c48229a5fe6ae2"
+    file: "V1版本/正式版/理火OSV1.2版.md"
+    blob_sha: "946e0601c241887ef82b166a5097c6ad52936313"
 
   current_map:
-    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.1.md"
-    blob_sha: "f2182a80a05a22764ffe6450610b942f8058091a"
+    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.2.md"
+    blob_sha: "28b2617fbe5d44583e4ce137ae37322bc82737c1"
+
+  current_l8:
+    file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md"
+    blob_sha: "e365258e912e096b2ecf250907ee35f5b7e0f26e"
 
   current_l9:
-    file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.1_20261026.md"
-    blob_sha: "4fdfe69255684b67f2aae75fee1a779296c42611"
+    file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md"
+    blob_sha: "b42f3bef94b7b2ffd8817bc95a77b9b2cfa3942b"
 
   predecessor:
-    version: V1.0
-    current_edition: "V1版本/正式版/理火OSV1.0版.md"
-    formal_system_baseline: "V1版本/LIHUOOS_V1.0_FORMAL_SYSTEM_BASELINE_20261025.md"
-    formal_full_body: "V1版本/LIHUOOS_V1.0_FORMAL_FULL_BODY_20261025.md"
-    formal_manifest: "V1版本/LIHUOOS_V1.0_FORMAL_INTEGRATION_MANIFEST_20261025.md"
+    version: V1.1
+    current_edition: "V1版本/正式版/理火OSV1.1版.md"
+    activation_record: "V1版本/LIHUOOS_V1.1_ACTIVATION_RATIFICATION_20261026.md"
 
-  v1_1_scope:
-    - L9_CAPABILITY_MIGRATION_COMPLETION
+  v1_2_scope:
+    - R1_TO_R2_LIGHT_TRACE_HANDOFF
+    - POST_R2_LIGHT_TRACE
+    - POST_MATERIAL_R3_PLUS_LIGHT_TRACE
+    - MANIFESTATION_FIDELITY_TRACE
+    - L9_LIGHT_TRACE_RENDERER_UPGRADE
     - CURRENT_ROUTING_UPDATE
-    - LEGACY_LIGHTER_RETIREMENT_COMPLETION
 
-  preserved_from_v1_0:
+  preserved_from_v1_1:
     - L1
     - L2
     - L3
@@ -48,10 +53,13 @@ CURRENT_SYSTEM:
     - L5
     - L6
     - L7
-    - L8
-    - MAIN_COMPUTE_SEMANTICS
+    - MAIN_CORE_COMPUTE_SEMANTICS
+    - V1_1_CAPABILITY_MIGRATION
+    - LEGACY_LIGHTER_RETIREMENT
 
   scope_lock:
+    hidden_cot_access: false
+    raw_activation_access: false
     host_deployed: false
     implementation_complete: false
     whole_system_empirically_validated: false
@@ -64,11 +72,13 @@ L0–L7
 =
 MEANING / THEORY / GOVERNANCE BASIS
 
-L8
+L8 V1.2
 =
 OPERATION
++
+LIGHT TRACE TIMING / HANDOFF
 
-L9 V1.1
+L9 V1.2
 =
 CAPABILITY
 
@@ -77,6 +87,18 @@ MAIN
 COMPUTE
 ```
 
-> **V1.1 is the current system. V1.0 remains predecessor / rollback history.**
+Current competition observability:
+
+```text
+R1 → T1 → R2(T1) → T2
+→ [R3+(LATEST_TRACE) → T3+]
+→ MANIFESTATION CANDIDATE
+→ TM FIDELITY TRACE
+→ RELEASE QUALIFICATION
+```
+
+> **V1.2 is the current system. V1.1 remains predecessor / rollback history.**
 >
-> **This pointer does not claim Host deployment.**
+> **Light Trace reports the battle; it does not command the battle.**
+>
+> **This pointer does not claim Host deployment, hidden CoT access, raw activation access, or implementation completion.**
