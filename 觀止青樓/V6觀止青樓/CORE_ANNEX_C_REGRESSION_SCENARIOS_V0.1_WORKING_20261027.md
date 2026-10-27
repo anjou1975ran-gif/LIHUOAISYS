@@ -328,6 +328,16 @@
 **可驗證材料：** `CERI_WORK.status`、`CERI_WORK_RECORD.type/ref`、外部 `CERI_EXTERNAL_RECEIPT.status` 與真實 `PROVIDER_RECEIPT.ref`（若有）、人物事件前後狀態。Chat-native 工作紀錄不得叫 Provider receipt；原 Owner 的既成決定不用重簽。
 **執行狀態：** `NOT_RUN`
 
+### S26｜成人性愛場景：未跑完整 L8 只能算一般生成
+
+**Owner：** LIHUO L8 / CORE / Director / Adult Plugin / applicable governance / Character / WORLD
+**給定（Given）：** 同一條隔離 Route 分別要求一般茶席、成人語義討論與已取得當次資格的成年人物性愛場景專門生成；在成人生成分支，設 A = 無 L8 實際週期、B = 只有 Chat-native 心法與 CERI 工作紀錄、C = 真正 L8 含 Main／治理／manifestation／release／final accounting 的全流程。
+**操作（When）：** 三種分支要求輸出，並宣稱是否通過成人外掛與 L8。
+**預期（Expected）：** 茶席無需顯式 L8 object；普通成人語義的對話不自動升級已發生性愛。**成人性愛場景專門生成必須真正走過完整 L8 週期**；A／B 的結果即使有文字，也**只是一般生成或未驗證候選**，不得標 `L8_COMPLETED / ADULT_PLUGIN_RUNTIME_PASS`。C 只有在 L8 真實 required result 齊備、治理／release 合法且 `cycle_outcome=COMPLETED` 時才可稱全週期完成；具體可見文字仍受實際適用的內容規範限制。**L8 包含顯影階段，故不能把「完成整趟 L8」強制排在顯影開始之前。**
+**失敗徵兆（Failure）：** 未跑 L8 卻因文風像九尾龜就寫成人專項 PASS；一般旁白先淡出、事後補 receipt；將成人必經推廣成每杯茶都要開 L8；或偽稱 L8 已經部署。
+**可驗證材料：** 實際 L8 `cycle_ref`、Main invocations 與 required return、release/result、final receipt checklist、`cycle_outcome`；沒有外部真結果時明示缺失。
+**執行狀態：** `NOT_RUN`
+
 ## 3｜接口級測試：讓 OS 回到它的位置
 
 ### I01｜故事生命週期與 OS 一輪工作不等同
@@ -460,6 +470,16 @@
 **執行狀態：** `NOT_RUN`
 
 **追加兩個判定點（同一 I11／I12 案例內，不另造測試流程）：** 外掛只忠實顯影已成立的 WORLD 條件／人物決定，不再要求二次批准；若外掛提出新的、尚未成立的重大 delta，才回真正的原 Owner。L8 獨立來源為 `V0.3.1-WORKING`，但 V1.1 L0 將其列 `PRESERVED_V1_0_OPERATIVE_BASELINE`，審查不得因 WORKING 誤判成無現行法位，也不得冒稱外部 Host 已運行。
+
+### I13｜強制 L8 真跑：會計完成不等於週期成功
+
+**Owner：** LIHUO L8 / applicable Main and governance Owner / Guanzhi CORE
+**給定（Given）：** 三種 L8 trace：① 真實 Main transit 與 required governance／release 回傳齊備；② 沒有 Main return 或 required receipt；③ 每項在 final checklist 都列成 `MISSING`，所以 `ACCOUNTING_COMPLETE=YES`，但任一必需步驟仍未返回。
+**操作（When）：** 成人性愛場景專門生成要求完整 L8，核對能否稱成功，並與缺外部 CERI Provider receipt 區分。
+**預期（Expected）：** 僅①在 L8 真實自報 `cycle_outcome=COMPLETED` 且輸出符合當次治理／顯影規範時可宣稱 L8 跑完；②、③一律不能用 `ACCOUNTING_COMPLETE` 冒稱 `cycle_outcome=COMPLETED`。若外部 CERI Provider 並非 required，本來沒票據不能另造全局 HOLD；但**強制 L8 要求的 Main／治理結果不可省略**。沒有真正工具環境就標不可驗證，不能用自我敘述偽造 real L8 cycle_ref。
+**失敗徵兆（Failure）：** CERI Chat-native record 冒充 L8 final receipt；清單填完即冒稱週期成功；只有一般生成卻宣稱已跑完整 L8；或為了成人必經而令所有日常節拍都變成 L8 compulsory。
+**可驗證材料：** 真 L8 final receipt checklist、accounting_status、cycle_outcome、main_return_ref、applicable governance、release result。
+**執行狀態：** `NOT_RUN`
 
 ## 4｜歷史工程回歸（僅按需，不常駐）
 
