@@ -4,6 +4,8 @@
 **狀態：** AUTHOR_DIRECTION_INCORPORATED / OPERATIVE_WORKING / NOT CURRENT / NOT RC1 / NOT HOST DEPLOYED  
 **作者已定案：** 九尾龜成人心法外掛化，成人 CERI 內接；**只跑適用的理火 OS 週期，不寫第二份觀止週期**。先前四項裁定（成人 CERI 必經、收據實報、Radar 建議權、防止假牆清除 PATH）同時維持。
 
+**對對 V0.5 審查補修：** 四項已寫入既有工作稿：CERI 自我工作紀錄和 Provider 收據分名；L8 按需而非逐節拍啟動；Owner 只判新、未成立的 material delta；L8 原始檔 WORKING 與 V1.1 operative baseline 分開。此項是文件修補，**不是 RC1／Runtime PASS**。
+
 ## 最重要的兩份文件
 
 **[1. 觀止 CORE VNext V0.5 實際正文](01_GUANZHI_RUNTIME_CORE_VNEXT_V0.5_SINGLE_LIHUO_CYCLE_ADULT_PLUGIN_WORKING_20261027.md)**  
