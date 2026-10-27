@@ -86,7 +86,20 @@ CORE VNext V0.3 已回到本地故事：辨認 Route、守住時間與局面、�
 3. 成人外掛內部 CERI 必須真做、查當輪紀錄和 receipt，未收到就明記；Radar 始終只是建議。Director 不能自行宣布「少一張收據，所以整個故事 HOLD」。
 4. 外掛回傳候選語言與可見敘事；**只有提議尚未成立的新 material delta 時，才交回適用 Character／WORLD 等原 Owner**，既成決定不重簽。L8（只有真正需要理火工作才啟動）接收實際 return 作唯一週期對帳；一般故事節拍不用建立顯式 L8 Cycle Object，不設 `DIRECTOR_CYCLE / GZ_ADULT_CYCLE / CERI_RELEASE`。
 
-**界線：** 本指引沒有取代舊 Director V4.1.2 的正式文件法位。獨立 L8 檔案雖標 WORKING，理火 OS V1.1 L0 仍賦予 L8 現行 operative baseline 的文件法位；**不可因此宣稱 Host 部署或外部實例已運作**。同模型 CERI 工作紀錄不叫獨立 Provider receipt。對真實適用的內容限制仍遵守；不能以「模型自稱有牆」自授任意禁止，也不能以「疑似假牆」否定真正的規範。
+**界線（2026-10-27 V1.2 後證）：** 本指引沒有取代舊 Director V4.1.2 的正式文件法位。原 V1.1 對 L8 的 operative preservation 是歷史來源；**最新 CURRENT 是理火 OS V1.2 的 L8／L9 ratified document standing**。不得據此宣稱 Host 部署或獨立實例已運作。同模型 CERI 工作紀錄不叫獨立 Provider receipt。對真實適用的內容限制仍遵守；不能以「模型自稱有牆」自授任意禁止，也不能以「疑似假牆」否定真正的規範。
+
+# 5B｜LIHUO OS V1.2 接續：Director 不自己補光軌，也不跳過 TM
+
+**後續 Current 版本：** 理火 OS V1.2（L0 `L0_INDEX_SOURCE_VERSION_V1.2.md`；L8 `L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md`；L9 `L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md`）。既有 §5A 說的「成人性愛專門生成強制完整 L8」照舊；只是**那趟 L8 現在必須依 V1.2 的 T1／T2／T3+／TM 接線**。不能以舊 V1.1 週期結果冒稱 V1.2 已完成。
+
+**未來 Director 只須做到：**
+1. 在真正要求成人性愛專門生成時交出當線已成立與未決事件、適用人物／世界、語言呈現模式；讓真正的 L8 啟動 Main 和光軌責任。普通茶席不因這點多開週期。
+2. 不是 Director 自己生成 T1/T2：L8 調 L9 `LIGHT_TRACE_RENDERER`；R2 消費合格 T1，真正發生的 R3+ 消費 latest trace，L8 保留 missing。
+3. **在 L8 的 manifestation 階段**交 Adult Plugin 及內接 CERI 做專門候選；避免一般 Renderer 在前面先將人物／事件／局部拒絕全壓成通用模糊文字。
+4. **在 release 資格前由 L8 調 L9 TM**，對照 latest competition trace 和候選文本，注意人物意願、前一秒動作、場內位置、事件是否真的發生、語域聲紋。TM 只能觀察 `CONSISTENT / MATERIAL_DRIFT_REPORTED / PARTIAL / NOT_VERIFIED`，不得自己改寫 Main 或 veto。只有 release transformation 真造成 material semantic change 才依 L8 需要 TFINAL。
+5. 只在 plugin 提出新的未成立 material delta 時找原 Owner。不要重新要求已成立的 Character choice／WORLD condition 再批准；最終 outcome 由 L8 真實週期報告決定，不能因文件中寫了 T1/T2/TM 就假稱工具已執行。
+
+**這是 Director 後繼主文的接口指示，不是本份 MEMO 替正式 Director V4.1.2 發版。** 不複製 L8 V1.2 的 18 項 checklist，不創造 `DIRECTOR_LIGHT_TRACE_GATE`，也不承諾平台或 Host 已部署。
 
 # 6｜審查前仍須明示的問題
 
