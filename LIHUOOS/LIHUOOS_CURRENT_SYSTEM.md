@@ -1,123 +1,176 @@
 # LIHUOOS｜CURRENT SYSTEM
 
-```yaml
+~~~yaml
 CURRENT_SYSTEM:
   name: LIHUOOS
-  version: V1.2.3
+  version: V1.3
 
   standing:
     - RATIFIED_CURRENT
     - ACTIVE_SYSTEM_BASELINE
     - DOCUMENT_LEVEL_CURRENT
+    - THEORY_LAYER_RECONSTRUCTED
+    - POST_R2_PREMISE_PLURALITY_COMPETITION
+    - MANDATORY_VISIBLE_CYCLE_ACCOUNTING_RECEIPT
 
-  activation_date: 2026-10-27
+  activation_date: 2026-10-28
 
   activation_record:
-    file: "V1版本/LIHUOOS_V1.2.3_ACTIVATION_RATIFICATION_20261027.md"
-    blob_sha: "b6fdb8ab22a8d91ac770c1705945308c405bfa41"
+    file: "V1版本/LIHUOOS_V1.3_ACTIVATION_RATIFICATION_20261028.md"
+    blob_sha: "7964e1449bd3a2c07c542f9406062d97f0e5e532"
 
   current_system_edition:
-    file: "V1版本/正式版/理火OSV1.2.3版.md"
-    blob_sha: "65fbf3ca9d3e1fef2af07d35cebb4574f5297116"
+    file: "V1版本/正式版/理火OSV1.3版.md"
+    blob_sha: "b67c19ce46e5fd554c2b225dc4dd0edb4aefedba"
 
   current_map:
-    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.2.3.md"
-    blob_sha: "285cdd5be8fc4b55870ddd634cf0402a4cf4aa8e"
+    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.3.md"
+    blob_sha: "791b1826a47093f41244acf1b36ac29be260f7fe"
+
+  current_l1:
+    file: "V1版本/L1 第六版本.md"
+    blob_sha: "a9dfd3b7e28aeeff4e97d17b4f8722734694e272"
+
+  current_l3:
+    file: "V1版本/L3 第三版本.md"
+    blob_sha: "f3d3183baf5ac8815f51c05e7da1fa3f39b41e88"
+
+  current_l4:
+    file: "V1版本/L4 第三版本.md"
+    blob_sha: "6d6970c538a0b7fd995a145824a32d77aadc0cb7"
 
   current_l8:
-    file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.2.3_20261027.md"
-    blob_sha: "19049a6e8cda9b2334ca4e081b426b2f753a04fd"
+    file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3_20261028.md"
+    blob_sha: "30f9be4b39b218267f522a23c2ce719cf4fdc927"
 
   current_l9:
     file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
     blob_sha: "36ca93f909d2f250fec97a616365817d04e4158d"
+    standing: PRESERVED_CURRENT_CAPABILITY_BASELINE
+
+  main_compute:
+    base:
+      file: "../理火V5系統/V5.1版本/02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md"
+      blob_sha: "f5e219c986debfea074fbf9d121367cc717dc78e"
+    companion_patch:
+      file: "../理火V5系統/V5.1版本/02A_LIHUO_MAIN_V5.1.2_PREMISE_PLURALITY_DIALECTICAL_COMPETITION_PATCH_RATIFIED_20261028.md"
+      blob_sha: "821b27b89d6f7487e194d36466b949a7558e38a5"
+      standing: RATIFIED_COMPANION_COMPUTE_PATCH
 
   predecessor:
-    version: V1.2.2
-    current_edition: "V1版本/正式版/理火OSV1.2.2版.md"
-    activation_record: "V1版本/LIHUOOS_V1.2.2_ACTIVATION_RATIFICATION_20261027.md"
+    version: V1.2.3
+    current_edition: "V1版本/正式版/理火OSV1.2.3版.md"
+    activation_record: "V1版本/LIHUOOS_V1.2.3_ACTIVATION_RATIFICATION_20261027.md"
 
-  v1_2_3_scope:
-    - NEW_OR_MATERIALLY_REFRAMED_PATH_REQUALIFICATION_GATE
-    - CHAT_NATIVE_SAME_CONTEXT_MAIN_RETURN_MINIMUM_CONTRACT
-    - POST_MAIN_GOVERNANCE_VISIBLE_CHECKPOINT_HARDENING
-    - FINAL_CYCLE_REPORT_ALL_APPLICABLE_CHECKPOINT_COVERAGE
-    - TM_FIDELITY_TASK_ACCEPTANCE_RELEASE_QUALIFICATION_TYPE_SEPARATION
+  v1_3_scope:
+    - STRUCTURAL_TERRAIN_AND_STRUCTURAL_COST_RESTORED
+    - SOLUTION_SPACE_PROTO_STRUCTURE_PATH_FORMATION_RESTORED
+    - FORMATION_DYNAMICS_CONNECTED_TO_REACTION_BODY_AND_CG
+    - R1_TERRAIN_EXPOSURE_FORMALIZED
+    - R2_INTRA_PREMISE_FAMILY_RECOMPETITION
+    - POST_R2_PREMISE_UNIQUENESS_PLURALITY_AUDIT
+    - PREMISE_SCOPE_NARROWNESS_FORMALIZED
+    - R3_CROSS_PREMISE_PATH_COMPETITION
+    - TWO_WIN_RULE_DOWNGRADED_TO_LOCAL_STABILITY_SIGNAL
+    - MANDATORY_VISIBLE_CYCLE_ACCOUNTING_RECEIPT
 
-  preserved_from_v1_2_2:
-    - L1
+  preserved_from_v1_2_3:
     - L2
-    - L3
-    - L4
     - L5
     - L6
     - L7
     - L9_V1_2_2_CAPABILITY_BASELINE
-    - MAIN_CORE_COMPUTE_SEMANTICS
-    - V1_2_INTER_ROUND_LIGHT_TRACE
-    - V1_2_MANIFESTATION_FIDELITY
-    - V1_2_1_HOST_DEFAULT_NON_HOST
+    - V1_2_3_PATH_REQUALIFICATION_GATE
+    - V1_2_3_CHAT_NATIVE_MAIN_RETURN_MINIMUM_CONTRACT
+    - V1_2_3_POST_MAIN_GOVERNANCE_VISIBLE_CHECKPOINT
+    - V1_2_3_TM_ACCEPTANCE_RELEASE_TYPE_SEPARATION
     - V1_2_2_TRACE_RESULT_RECEIPT_SEPARATION
+    - V1_2_1_HOST_DEFAULT_NON_HOST
     - LEGACY_LIGHTER_RETIREMENT
 
   scope_lock:
     hidden_cot_access: false
     raw_activation_access: false
     host_deployed: false
+    independent_main_provider_deployed: false
     implementation_complete: false
     whole_system_empirically_validated: false
-```
+~~~
 
 ---
 
-```text
+~~~text
 L0–L7
 =
 MEANING / THEORY / GOVERNANCE BASIS
 
-L8 V1.2.3
+L8 V1.3
 =
 OPERATION
 +
-LIGHT TRACE TIMING / HANDOFF
+POST-R2 PREMISE AUDIT
++
+R3 CROSS-PREMISE TRANSIT
++
+CYCLE ACCOUNTING
 
-L9 V1.2.2 (preserved)
+L9 V1.2.2
 =
 CAPABILITY
 
 MAIN
 =
-COMPUTE
-```
+V5.1.1 BASE
++
+V5.1.2 RATIFIED COMPANION SEMANTIC PATCH
+~~~
 
-Current entry + competition observability:
+Current competition transit:
 
-```text
-NO HUMAN HOST DECLARATION → NON_HOST_MODE
-HUMAN EXPLICIT HOST DECLARATION → HOST_ROUTED_MODE
+~~~text
+QUALIFIED INPUT
 ↓
-R1 → T1(trace_result_ref) → R2(T1)
-→ [NEW / MATERIAL PATH → REQUALIFY]
-→ T2(trace_result_ref)
-→ [R3+(LATEST_TRACE)
-   → [NEW / MATERIAL PATH → REQUALIFY]
-   → T3+]
-→ MAIN RETURN
-→ POST_MAIN_GOVERNANCE
-→ MANIFESTATION CANDIDATE
-→ TM FIDELITY TRACE
-→ [TASK / VERTICAL ACCEPTANCE IF APPLICABLE]
-→ MANIFESTATION / RELEASE QUALIFICATION
-```
+R1
+↓
+T1
+↓
+R2
+↓
+T2
+↓
+POST-R2 PREMISE UNIQUENESS / PLURALITY AUDIT
+↓
+[IF MATERIAL ALTERNATIVE PREMISE FAMILIES:
+  FORM / QUALIFY NEW PATH FAMILIES
+  → R3 CROSS-PREMISE COMPETITION
+  → T3
+  → FURTHER ROUNDS IF MATERIAL]
+↓
+MAIN RETURN
+↓
+POST-MAIN GOVERNANCE
+↓
+MANIFESTATION
+↓
+TM FIDELITY
+↓
+RELEASE QUALIFICATION
+↓
+RELEASE / NON-RELEASE
+↓
+VISIBLE L8 CYCLE ACCOUNTING RECEIPT
+~~~
 
-> **V1.2.3 is the current system. V1.2.2 remains predecessor / rollback history.**
+> **V1.3 is the current system. V1.2.3 remains predecessor / rollback history.**
 >
-> **Default routing is NON-HOST unless the human explicitly declares HOST operation. NON-HOST does not disqualify a LIHUO cycle.**
+> **R1 is provisional because first-pass competition is terrain-exposed and rests on an initial interpretation of the human question.**
 >
-> **Light Trace requires a trace result when applicable; a separate execution receipt is optional unless one actually exists.**
+> **R2 completes genuine competition inside the current Question Premise Family; after R2, the system must audit whether that premise family is the only reasonable premise of the human question.**
 >
-> **New or materially reframed PATHs must requalify before entering qualified order; Chat-native Main returns must satisfy a minimum actual-state contract; final reports must account for every applicable checkpoint.**
+> **If material alternative premise families exist, R3 is cross-premise competition, not a single-premise reframe.**
 >
-> **Light Trace reports the battle; it does not command the battle.**
+> **Two consecutive tops are only a local stability signal; they are not a victory theorem or proof of premise coverage.**
 >
-> **This pointer does not claim Host deployment, hidden CoT access, raw activation access, or implementation completion.**
+> **An actual L8 cycle must issue a visible cycle accounting receipt, but that receipt is not a provider receipt, Host execution proof, truth certificate, or release authority.**
+>
+> **This pointer does not claim Host deployment, hidden CoT access, raw activation access, independent Main provider deployment, implementation completion, or whole-system empirical validation.**
