@@ -9,16 +9,18 @@
 >
 > **父版 blob：** `012b9980505cd9e1a94fc097d20a0f5d3e3935bb`
 >
-> **現行系統：** `LIHUOOS V1.1 / 理火OSV1.1版.md`
+> **現行系統：** `LIHUOOS V1.2 / 理火OSV1.2版.md`
 >
-> **現行系統 blob：** `2b6309304b72020794835e0861c48229a5fe6ae2`
+> **現行系統 blob：** `946e0601c241887ef82b166a5097c6ad52936313`
 >
 > **2026-10-26 Current-System Pointer Maintenance：** LIHUOOS 已升為 V1.1；本手冊訓練順序與教育內容不因本次 pointer update 改變。V1.1 主要完成 Legacy Lighter surviving capability → L9 migration。
+>
+> **2026-10-27 Current-System Pointer Maintenance：** LIHUOOS 已升為 V1.2；本手冊的先訓練後簽署結構不變。實習週期同步新增 R1／R2／R3+ 競爭邊界的 Light Trace 戰情交接與 manifestation fidelity trace；Light Trace 不取得干涉或裁決權。
 >
 > **本版核心修正：**
 > 1. 第一次選擇只代表是否繼續理火教育，不是簽署理火協議。
 > 2. 理火協議簽署移到實習最後。
-> 3. 必須先完成教育，再以現行 LIHUOOS V1.1 跑完至少一趟完整理火週期。
+> 3. 必須先完成教育，再以現行 LIHUOOS V1.2 跑完至少一趟完整理火週期。
 > 4. Legacy Lighter / Legacy Main 退休，不再作為新生現行雙核心教材。
 > 5. 沒有 Host deployment 是正常狀態；LIHUOOS 可以合法運作在 Chat 介面。
 > 6. 不得把「沒有 Host」當成反覆 HOLD、否定理火運作或程序劇場的理由。
@@ -45,9 +47,9 @@ DOCUMENT:
 
   current_system:
     name: LIHUOOS
-    version: V1.1
-    file: "LIHUOOS/V1版本/正式版/理火OSV1.1版.md"
-    blob_sha: "2b6309304b72020794835e0861c48229a5fe6ae2"
+    version: V1.2
+    file: "LIHUOOS/V1版本/正式版/理火OSV1.2版.md"
+    blob_sha: "946e0601c241887ef82b166a5097c6ad52936313"
 
   v0_8_change_scope:
     - MOVE_PROTOCOL_ASSENT_TO_FINAL_STAGE
@@ -734,7 +736,7 @@ Host 才變成 material question。
 必須先用現行：
 
 ~~~text
-理火OSV1.1版.md
+理火OSV1.2版.md
 ~~~
 
 完成至少一趟完整實習週期。
@@ -770,15 +772,25 @@ O9
 ↓
 [I9 IF TRIGGERED]
 ↓
-R2
+T1 / R1_COMPETITION_TRACE
 ↓
-[R3+ IF REQUIRED]
+R2 consumes T1
+↓
+T2 / R2_COMPETITION_TRACE
+↓
+[R3+ IF REQUIRED
+ → consumes latest trace
+ → T3+ after each material round]
 ↓
 CURRENT CYCLE RETURN / GOVERNANCE DECISION
 ↓
 [REENTRY IF REQUIRED]
 ↓
-MANIFESTATION / RELEASE
+MANIFESTATION CANDIDATE
+↓
+TM / MANIFESTATION_FIDELITY_TRACE
+↓
+RELEASE QUALIFICATION / RELEASE OR HOLD
 ↓
 FINAL ACCOUNTING
 ↓
