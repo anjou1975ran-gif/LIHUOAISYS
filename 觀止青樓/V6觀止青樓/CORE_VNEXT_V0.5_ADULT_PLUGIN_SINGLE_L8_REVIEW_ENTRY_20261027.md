@@ -25,6 +25,8 @@ WORLD / CHARACTER           僅新且未成立的 material delta 才回原 Owner
 LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ```
 
+**作者 2026-10-27 再次釐清：成人性愛場景的專門生成必須真正跑完整的理火 L8；沒跑過的只是一般生成，不得自報成人外掛與 L8 驗收通過。普通茶席／日常節拍仍不必建立 L8 Cycle Object。** 完整 L8 在自己既有的 manifestation 階段調用成人外掛和 CERI，並完成後續 release 與 Final Receipt Checklist；**不能要求 L8 在顯影之前先完成整趟週期**。未得到真實 required results 即記 `MISSING / INCOMPLETE / HOLD / FAILED`，不創造 receipt 或 Host 部署證據。這不是新的成人週期或第二道 Release。
+
 **這不是多個必須依序取得不同 release 的 Gate。** 成人外掛按場景需要參與，非成人日常不必跑成人 21 Cards；L8 若被真正啟動，就按其有效規格跑當輪適用業務與收據對帳。Route 可以跨多次真正需要的 L8 工作，本身不構成第二週期。**普通故事節拍不必顯式建立 L8 Cycle Object。**
 
 ## 另外更新的協作材料
