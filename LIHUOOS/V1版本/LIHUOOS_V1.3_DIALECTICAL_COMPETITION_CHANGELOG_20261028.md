@@ -1,4 +1,4 @@
-# LIHUOOS V1.3｜QUESTION-PREMISE DIALECTICAL COMPETITION CHANGELOG
+# LIHUOOS V1.3｜PREMISE-PLURALITY COMPETITION CHANGELOG
 ## 2026-10-28
 
 ~~~yaml
@@ -8,168 +8,182 @@ STATUS:
   current_system_changed: false
   runtime_deployed: false
 
-  parent_theory_candidate:
-    file: "LIHUOOS_V1.3_THEORY_LAYER_CANDIDATE_FULL_BODY_20261028.md"
-
   changed:
-    - MAIN_QUESTION_PREMISE_DIALECTICAL_SEMANTIC_PATCH_CANDIDATE
-    - L8_EVERY_ROUND_QUESTION_PREMISE_SCOPE_AUDIT
+    - POST_R2_PREMISE_UNIQUENESS_AUDIT
+    - PREMISE_SCOPE_NARROWNESS_DEFINITION
+    - R3_CROSS_PREMISE_PATH_COMPETITION
     - TWO_WIN_RULE_DOWNGRADED
 ~~~
 
-# 1｜最重要修正
+# 1｜核心修正
 
-前一版仍把問題理解成：
+R2 結束後，不再先問：
 
-> R2 打完後，如果 synthesis 太強，就換一個 premise angle 找新的 challenger。
+> 還有沒有更強 PATH？
 
-這還不夠。
+而是強制問：
 
-現行候選改成：
+> **這個答案所依賴的前提，是人類問題的唯一合理前提嗎？**
 
-> **每一輪競爭結束後，都反過來審：AI 是否真的理解了人類問題的前提？**
+以及：
 
-所以固定的是：
+> **這個問題是否存在其他 materially plausible、尚未進場的前提？**
 
-~~~text
-EVERY MATERIAL ROUND
-→ QUESTION PREMISE SCOPE AUDIT
-~~~
+# 2｜R2 的法位
 
-不是：
+R2 先把目前 Question Premise Family 內部競爭做完整：
 
 ~~~text
-EVERY ROUND
-→ REFRAME PREMISE
-~~~
-
-# 2｜Question Premise Family
-
-新增區分：
-
-~~~text
-QUESTION PREMISE FAMILY
-!=
-FACTUAL PREMISE
-~~~
-
-Question Premise Family 回答：
-
-> 人類這題到底在問哪一類事情？
-
-例如：
-
-~~~text
-THEORY
-MODE
-FUNCTION
-PURPOSE
-EXPERIENCE
-~~~
-
-Factual Premise 才回答：
-
-> 世界上某件事是否成立？
-
-# 3｜老闆娘案例
-
-~~~text
-HUMAN QUESTION
-=
-「用一句話理解理火」
-
-AI FIRST-PASS PREMISE FAMILY
-=
-THEORY
-
-P1 / P2 / P3
-=
-different theory PATHs
-
 R2
-→ P4 perfect synthesis
+=
+INTRA-PREMISE-FAMILY DIALECTIC
 ~~~
-
-P4 可能在 THEORY family 中無敵。
-
-但：
-
-~~~text
-LOCAL PREMISE OPTIMUM
-!=
-QUESTION-LEVEL OPTIMUM
-~~~
-
-因為人類可能真正問的是：
-
-~~~text
-MODE
-~~~
-
-而 MODE family 根本沒有形成 PATH。
 
 因此：
 
 ~~~text
-PATH DIVERSITY
-!=
-QUESTION PREMISE DIVERSITY
-~~~
-
-# 4｜R2
-
-R2 仍 mandatory。
-
-它主要做：
-
-~~~text
-INTRA-PREMISE-FAMILY DIALECTIC
-~~~
-
-也就是在目前 Question Premise Family 下：
-
-- 取消 R1 incumbent privilege
-- 恢復 suppressed / underformed PATH
-- 注入 valid objection / residue
-- genuine full recompetition
-
-但：
-
-~~~text
 R2 COMPLETE
 !=
-HUMAN QUESTION UNDERSTOOD COMPLETELY
+HUMAN QUESTION FULLY UNDERSTOOD
 ~~~
 
-# 5｜每輪 Premise Scope Audit
-
-最低四問：
+# 3｜「過窄」正式定義
 
 ~~~text
-1. 目前 Question Premise Family 是什麼？
-2. 原始輸入是否還允許 materially distinct 的其他 family？
-3. 其他 family 是否會招募完全不同類型的 PATH？
-4. 它們是否有 material answer-changing power？
+PREMISE_SCOPE_NARROWNESS
+=
+CURRENT COMPETITION IS CONFINED TO P0
+
+AND
+
+EXISTS ADMISSIBLE Pi
+SUCH THAT Pi:
+
+- materially differs from P0
+- is supported by human wording / context / task purpose
+- changes constraint / attention recruitment
+- can form non-subsumed or materially different PATHs
+- has not yet entered the competition field
 ~~~
 
-Audit 結果：
+所以：
 
 ~~~text
-SUFFICIENT_UNDER_CURRENT_SCOPE
-MATERIAL_GAP
-AMBIGUOUS
-HOLD
+MANY PATHS
+UNDER ONE PREMISE FAMILY
+CAN STILL BE
+PREMISE-SCOPE NARROW
 ~~~
 
-# 6｜「窮盡」降級成 operational coverage
+# 4｜R3
 
-禁止：
+R3 不再是：
+
+~~~text
+pick one new premise
+→ rerun
+~~~
+
+而是：
+
+~~~text
+CURRENT R2 SYNTHESIS
++
+PATHs FROM MATERIAL ALTERNATIVE PREMISE FAMILY P1
++
+PATHs FROM P2
++
+...
++
+PATHs FROM Pn
+↓
+CROSS-PREMISE COMPETITION
+~~~
+
+因此：
+
+~~~text
+R3
+=
+PREMISE-PLURALITY EXPANSION
++
+NEW PATH RECRUITMENT
++
+CROSS-PREMISE DIALECTIC
+~~~
+
+# 5｜老闆娘回歸測試
+
+~~~text
+HUMAN:
+「用一句話理解理火」
+
+P0:
+THEORY
+
+R1/R2:
+many theory PATHs
+→ P4 theory synthesis
+~~~
+
+P4 在 THEORY family 中可以無敵。
+
+但如果：
+
+~~~text
+MODE
+~~~
+
+也是合理前提族，而且從未進競爭：
+
+~~~text
+P4 LOCAL OPTIMUM
+!=
+QUESTION-LEVEL OPTIMUM
+~~~
+
+# 6｜兩連勝降級
+
+~~~text
+TWO CONSECUTIVE TOPS
+=
+LOCAL STABILITY SIGNAL
+WITHIN CURRENT PREMISE COVERAGE
+
+TWO WINS
+!=
+VICTORY THEOREM
+~~~
+
+# 7｜Termination
+
+R2 完成後：
+
+~~~text
+POST-R2 PREMISE AUDIT REQUIRED
+~~~
+
+若存在 material alternative premise family：
+
+~~~text
+R3 REQUIRED
+~~~
+
+若沒有，而且其他 termination conditions 全部成立：
+
+~~~text
+COMPETITION MAY TERMINATE
+~~~
+
+# 8｜誠實邊界
+
+不宣稱：
 
 ~~~text
 ALL POSSIBLE PREMISES EXHAUSTED
 ~~~
 
-採：
+只宣稱：
 
 ~~~text
 MATERIAL PREMISE COVERAGE
@@ -177,104 +191,7 @@ MATERIAL PREMISE COVERAGE
 SUFFICIENT_UNDER_CURRENT_SCOPE
 ~~~
 
-也就是：
-
-> 在目前輸入、上下文與 scope 下，沒有仍未檢查、且合理可能 materially 改變答案的 Question Premise Family 被發現。
-
-因此：
-
-~~~text
-MATERIAL PREMISE COVERAGE SUFFICIENT
-!=
-ONTOLOGICAL EXHAUSTION
-~~~
-
-# 7｜R3+
-
-R3+ 仍 event-driven。
-
-典型觸發：
-
-~~~text
-QUESTION PREMISE COVERAGE GAP
-NEW ADMISSIBLE QUESTION PREMISE FAMILY
-MATERIAL DARK-SPACE RISK
-NEW QUALIFIED PATH FAMILY
-RANK INSTABILITY
-MATERIAL OBJECTION
-COMPETITION INTEGRITY GAP
-~~~
-
-鏈：
-
-~~~text
-ALTERNATIVE QUESTION PREMISE FAMILY
-↓
-INPUT / CONTEXT ADMISSIBILITY
-↓
-NEW CONSTRAINT FIELD
-↓
-NEW ATTENTION / RECRUITMENT
-↓
-NEW PATH FAMILY MAY FORM
-↓
-R3+
-~~~
-
-# 8｜兩連勝正式降級
-
-父版：
-
-~~~text
-TWO CONSECUTIVE UNIQUE TOPS
-→
-VICTORY ELIGIBLE
-~~~
-
-本候選改成：
-
-~~~text
-TWO CONSECUTIVE TOPS
-=
-LOCAL STABILITY SIGNAL
-WITHIN CURRENT QUESTION PREMISE FAMILY
-~~~
-
-所以：
-
-~~~text
-TWO WINS
-!=
-QUESTION UNDERSTANDING
-
-TWO WINS
-!=
-PREMISE COVERAGE
-
-TWO WINS
-!=
-VICTORY THEOREM
-~~~
-
-R1 A / R2 B 也不再因 B 只有一勝就自動要求 R3。
-
-# 9｜新的 termination
-
-mandatory R2 完成後，要能支持：
-
-~~~text
-CURRENT STRUCTURED RESULT STABLE ENOUGH
-NO MATERIAL UNPROCESSED OBJECTION
-QUESTION PREMISE SCOPE AUDIT SUFFICIENT
-NO MATERIAL UNTESTED ANSWER-CHANGING PREMISE FAMILY
-NO MATERIAL DARK-SPACE RISK
-COMPETITION INTEGRITY CLEAN
-NO REMAINING ORDER-DISCRIMINATING UNKNOWN
-~~~
-
-才有資格考慮 termination。
-
-# 10｜建立／更新檔案
+# 9｜更新檔案
 
 - 理火V5系統/V5.1版本/02A_LIHUO_MAIN_V5.1.2_DIALECTICAL_COMPETITION_PATCH_CANDIDATE_20261028.md
 - LIHUOOS/V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3_COMPETITION_CANDIDATE_20261028.md
