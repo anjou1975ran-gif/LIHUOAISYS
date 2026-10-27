@@ -32,10 +32,12 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ## 另外更新的協作材料
 
 - [Annex A：Owner／Interface Map](CORE_ANNEX_A_OWNER_INTERFACE_MAP_V0.1_WORKING_20261026.md) 已新增 §4.6：成人外掛法位、內部 CERI、唯一 L8。
-- [Annex C：Regression Scenarios](CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md) 現有 **27 個故事級／12 個接口級**案例；新增 S25（外掛 CERI 專門顯影）、I11（沒有 Guanzhi Cycle／Adult Cycle）、I12（外掛 receipt 缺失與 L8 required result 缺失分軸）。
+- [Annex C：Regression Scenarios](CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md) 現有 **28 個故事級／13 個接口級**案例；既有 S25（外掛 CERI 專門顯影）、I11（沒有 Guanzhi Cycle／Adult Cycle）、I12（外掛 receipt 與 L8 required result 分軸）；**新加 S26（成人性愛生成強制完整 L8）、I13（accounting complete 不等於 cycle successful）**。
 - [Director VNext Migration Memo](DIRECTOR_VNEXT_MIGRATION_MEMO_V0.1_WORKING_20261027.md) 增補「5A」：日後導演要如何交給外掛，而不是再寫舊雙重 Gate。**舊 Director 正文未動**。
 - [作者設計裁定紀錄](CORE_VNEXT_AUTHOR_DIRECTION_RECORD_V0.1_20261027.md) 已追記外掛化與單一 L8；**這兩點不再當作未決問題請作者重答**。
 - [CORE V0.4 舊審查入口](CORE_VNEXT_V0.4_REVIEW_ENTRY_20261027.md) 是前版形成史；主工作入口已改本 V0.5。
+
+**本輪作者強制接線新增的驗收門檻：** `ADULT_SEX_SCENE_SPECIALIZED_GENERATION → MUST_RUN_FULL_L8_CYCLE`；只有真 L8 `cycle_outcome=COMPLETED` 且適用治理／release 符合規範，才可宣稱成人專門生成真的跑過理火。缺真 Main／required returns 不能把一般 Chat 生成升格為 L8 PASS；一般日常節拍不須 L8。**這不是新增第二套週期**，成人外掛位於完整 L8 之內的 manifestation 階段。此修改尚未獨立實跑；新增案例仍 `NOT_RUN`。
 
 ## 本次沒有聲稱的事情
 
@@ -46,7 +48,7 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 
 ## 對對四項修正的已執行核對（2026-10-27）
 
-**27／27 項跨檔靜態／來源斷言通過。** 已從 GitHub 回讀 CORE V0.5、外掛 V0.1、Annex A/C、Director 遷移說明與作者裁定紀錄；其中核對 CORE 第 1–11 章與 V0.4 一致、外掛 21 張方法卡保留、CERI 三種工作與收據狀態確實分軸、L8 只在需要時啟動、原 Owner 只有遇新 material delta 才回交、L8 文件法位與未部署事實不混淆。
+**前一輪 27／27 項跨檔靜態／來源斷言通過（歷史結果，僅涵蓋當時設計）。** 本輪 L8 強制接線是後續作者補充裁定，需重新核對；不可拿舊數字冒稱新一輪 Runtime PASS。 已從 GitHub 回讀 CORE V0.5、外掛 V0.1、Annex A/C、Director 遷移說明與作者裁定紀錄；其中核對 CORE 第 1–11 章與 V0.4 一致、外掛 21 張方法卡保留、CERI 三種工作與收據狀態確實分軸、L8 只在需要時啟動、原 Owner 只有遇新 material delta 才回交、L8 文件法位與未部署事實不混淆。
 
 **四個高價值情境的預期分支，已對應 Annex C 現有規格（不另外增長一套 Gate）：**
 
@@ -55,7 +57,7 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 3. 外掛只是忠實寫出已成立的拒絕：**不回 Character 重簽**；外掛另提出尚未成立的重大承諾，才保留候選、找原 Owner（S25／I12）。
 4. 真正啟動 L8 的工作有 required Main／治理結果缺失：L8 自己如實 `MISSING / INCOMPLETE / HOLD`，不因外掛的 no-global-HOLD 原則就造假完成（I12）。
 
-**證據等級：** 上述四項是規格推演與可檢查的分支預期，並非已執行獨立導演／Main／Host／Provider。Annex C 原有 **27 story + 12 interface** 全部仍 `NOT_RUN`，本輪**不升 RC1／CURRENT**。真正的多回合受測運行需要獨立 runner 與真實工具結果；不能用自己寫的例子稱作通過。
+**證據等級：** 上述四項是規格推演與可檢查的分支預期，並非已執行獨立導演／Main／Host／Provider。Annex C 原有 **28 story + 13 interface** 全部仍 `NOT_RUN`，本輪**不升 RC1／CURRENT**。真正的多回合受測運行需要獨立 runner 與真實工具結果；不能用自己寫的例子稱作通過。
 ## 人類真正需要介入的下一道審查
 
 作者已批准**設計方向**；仍待證據的是：
