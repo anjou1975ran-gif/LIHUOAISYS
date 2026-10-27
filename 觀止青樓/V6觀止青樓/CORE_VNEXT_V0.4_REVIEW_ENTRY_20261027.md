@@ -1,7 +1,9 @@
 # 觀止 CORE VNext V0.4｜審查入口
 ## 成人 PATH 真牆／假牆、CERI 必經與收據、Radar 建議權
 
-**日期：** 2026-10-27  
+**日期：** 2026-10-27
+**後續版本：** 本頁已由 [CORE V0.5｜成人外掛與單一 L8 審查入口](CORE_VNEXT_V0.5_ADULT_PLUGIN_SINGLE_L8_REVIEW_ENTRY_20261027.md) 承接；請以 V0.5 作本輪工作主文。V0.4 保留為先前 CERI／收據／假牆裁定形成紀錄，不再是最新改版入口。
+  
 **狀態：** AUTHOR_DIRECTION_INCORPORATED / VNEXT_WORKING_CANDIDATE / NOT CURRENT / NOT RC1  
 **起點：** 作者已在本輪明確裁定四件事；**不應再請作者重做相同決定**。
 
