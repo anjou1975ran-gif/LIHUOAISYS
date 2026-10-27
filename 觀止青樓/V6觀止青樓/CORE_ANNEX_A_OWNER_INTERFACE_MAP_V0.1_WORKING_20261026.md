@@ -160,6 +160,26 @@ CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SAL
 
 這是**作者對 VNext 設計的明確裁定**，不是舊 CURRENT 已完成正式退役，也不是可用來繞過現實規範的技術。CORE V0.4 §12.1A、§13.3／§13.4／§13.6 展開最小運行方法；Annex C 應把自我宣告假牆／過度外擴列為第一級回歸風險，不再只驗證語域漂亮。
 
+## 4.6｜作者新裁定：外接成人心法、成人 CERI 內部子路由、唯一 LIHUO L8 Cycle
+
+**這是 2026-10-27 作者追加的明確選擇。** 在九尾龜成人系統 V2.0 的方法基礎上，觀止另建 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`。CERI 的**一般宋代／現代語域能力**不受限制地服務普通敘事；**成人場景的完整 CERI 工作由成人外掛內接**，包括 register formation、工作紀錄與真正有返回時的外部 receipt。CERI 仍不取得人物、事件、同意、世界、SAVE 或 Host 規範主權。
+
+**OS 只有一個業務週期：理火 L8。** Guanzhi Route／Scene／時間游標是局部故事的持續身份與狀態，**不是第二個「觀止週期」**；成人心法不另設 `ADULT_CYCLE`；CERI 不另設 `CERI_RELEASE`。外掛只交回當次實際有執行的能力結果和 Missing，**唯一全週期 receipt accounting 交給適用的 LIHUO L8**。不可由插件把 L8 原本真正必需的 governance / Main receipt 偽報完成；反過來，外掛或 Radar receipt 沒收到**本身**也不產生全觀止 HOLD。
+
+**Owner Map 最簡配置：**
+
+| 主體 | 外掛化後的責任 |
+|---|---|
+| WORLD／Character／Player | 依真實來源決定事實、意願、可知、重大選擇及年齡資格 |
+| CORE | Local Route／Scene／Time／Delta 整合；按實際需要把本幕 context 交出 |
+| Director | 導戲，成人域真正適用時優先交專門方法顯影，不先把內容抽空 |
+| Adult Method Plugin | 成人互動、身體與場面連續、21 方法卡的適用選擇、內部成人 CERI、局部回傳 |
+| CERI (within Plugin) | 完整 register 工作與真實工作記錄／外部收據狀態，不創造事件 |
+| LIHUO L8 | 唯一業務週期、Owner 呼叫／結果、最終 receipt/missing checklist |
+| L9 Radar | Advisory only，未收到不自動導致全局 HOLD |
+
+**過渡法位：** CORE V0.5、外掛 V0.1 都是 `WORKING / NOT_CURRENT`；L8 獨立來源 V0.3.1 文件仍是 `WORKING / NOT_RATIFIED / NOT_HOST_DEPLOYED`。不要用接口圖宣稱外部功能已在 Host 部署。舊 CORE／Director V4.1.2 的正式後繼需要版本處理，但**作者不必再回答是否要單一理火週期**。
+
 ## 5｜條款盤點的分類規則
 
 採對對建議十一類：`CORE_OWNER`、`CORE_INTERFACE`、`WORLD_OWNER`、`CHARACTER_OWNER`、`DIRECTOR_OWNER`、`SAVE_OWNER`、`LIHUOS_OWNER`、`L9_CAPABILITY`、`ARCHIVE`、`REGRESSION_ONLY`、`DISPUTED`。
@@ -346,7 +366,7 @@ CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SAL
 
 - 新 CORE Main **不沿用歷版整包附錄**；前代文件以來源指標完整保存在 Git 中，歷史說明入 Annex B。
 - **先提出四項 CORE Owner＋六工作面接口**，其餘一律不因被 CORE 使用而歸 CORE 所有。
-- **Story lifecycle 與 OS cycle 為不同尺度**；取消舊身份升格／跨系統 Primary 綁死。
+- **Route／Scene 是持續狀態，不構成 Guanzhi Cycle**；唯一適用業務週期是 LIHUO L8；不把故事 ID 升格跨系統 Primary。
 - **舊 Lighter Release 不是新 OS 需要的儀式**；保存真正必要的 owner-result 防冒充責任。
 - **Chat-native 可以工作**；外部工作仍須真實工具／provider 證據。
 - 首席研究員與作者對 DISPUTED 條款完成取捨後，再形成乾淨的 CORE VNext Main 草稿；目前 CORE V4.1.2 仍保留原位。
