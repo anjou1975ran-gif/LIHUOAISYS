@@ -19,7 +19,7 @@ WORLD / CHARACTER / PLAYER  決定已成立語義及當次選擇
 CORE                        接續 Route / Scene / Time / Delta
 DIRECTOR                    導戲並在需要時交成人外掛
 ADULT PLUGIN                方法卡 + 內部 CERI + 可見呈現／局部 Return
-WORLD / CHARACTER           只確認實際 material delta
+WORLD / CHARACTER           僅新且未成立的 material delta 才回原 Owner
 LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ```
 
