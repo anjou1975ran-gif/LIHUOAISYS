@@ -25,7 +25,7 @@
 | 理火 OS L9 V1.1 | `LIHUOOS/V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.1_20261026.md`；RADAR_V6、工具能力與治理資格分離。 |
 | WORLD V3.0.0 | `觀止青樓/V6觀止青樓/V3.0.0/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md`；世界規則與人文敘事語義另存，CORE 不二次著述。 |
 
-**狀態聲明：** OS V1.1 在文件層已 ratified current，但來源明示未完成 Host 部署與全系統實證；不得把文件級 CURRENT 當成外部 Host 執行收據。反過來，也不得因 Host 缺席，無端阻斷 Chat 中可以正常完成的敘事工作。
+**來源表的時間法位（2026-10-27 V1.2 後證）：** 上表 L0／L8／L9 V1.1 是**當時的歷史比較來源**，不是最新 Current 指針。**現行是 LIHUOOS V1.2**，L0 `L0_INDEX_SOURCE_VERSION_V1.2.md` 指向 L8 V1.2／L9 V1.2；本檔 §4.7 提供最新接線。V1.2 在文件層 ratified current，但未宣稱 Host 部署或全系統實證；不得將文件級 CURRENT 當成外部工具執行收據，也不能因 Host 缺席無端阻斷不需要外部運行的普通敘事。
 
 ## 2｜四個 CORE 自有責任（對對方案）
 
