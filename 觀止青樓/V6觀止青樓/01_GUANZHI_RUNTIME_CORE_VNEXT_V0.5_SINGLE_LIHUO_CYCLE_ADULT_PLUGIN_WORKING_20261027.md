@@ -4,7 +4,7 @@
 **編寫：** 2026-10-27  
 **性質：** OPERATIVE_CANDIDATE_V0.5 / ADULT_PLUGIN_BOUND / SINGLE_LIHUO_CYCLE / NOT_CURRENT / NOT_DEPLOYED / NO_RUNTIME_PASS  
 **目的：** 讓接手觀止的導演在 Chat 介面裡實際接關、推動世界、承接人物決定、結算事件與跨日、維持跨線隔離、將有效變化交給 SAVE。這不是一份可在外部 Host 自行執行的軟體宣稱。  
-**優先：** WORLD V3.0.0 定義世界；適用人物來源提供人物生平與自主性；真實 Route SAVE 提供該線已成立的經歷；導演負責戲劇顯影；理火 OS V1.1 負責其適用的生成治理、L8 業務週期、L9 能力及 Main 工作。CORE 不成為第二個 Owner。  
+**優先：** WORLD V3.0.0 定義世界；適用人物來源提供人物生平與自主性；真實 Route SAVE 提供該線已成立的經歷；導演負責戲劇顯影；理火 OS V1.2 是現行文件級 CURRENT；L8 負責完整週期與跨輪 Light Trace 時機／交接，L9 提供 renderer 能力，Main 計算競爭。CORE 不成為第二個 Owner。  
 **歷史：** V0.3 完成故事 CORE，V0.4 承接成人 CERI／收據／Radar／假牆裁定。V0.5 依作者 2026-10-27 新裁定，**將九尾龜成人心法改造成觀止獨立外掛並內接成人 CERI；全系統只使用現行適用的理火 OS L8 週期，觀止沒有第二個 Cycle**。工作稿不因建立文件而取得 CURRENT／Host 部署證據；舊 CORE V4.1.2 仍在原位。
 
 ---
@@ -296,7 +296,7 @@ CORE 只維護本地因果與局部未決，不自稱 Host 判官；Renderer 受
 
 工具缺席不自動消滅世界或人物此前已成立的事實；同樣，也不表示可以跳過該場景確實必要的外部工作卻仍宣稱它已完成。
 
-# 13｜理火 OS V1.1 的實際交接方式
+# 13｜理火 OS V1.2 的實際交接方式
 
 ## 13.1｜觀止有 Route 和場景，沒有另一套觀止週期
 
@@ -304,29 +304,44 @@ CORE 只維護本地因果與局部未決，不自稱 Host 判官；Renderer 受
 
 **只有真正需要理火 governing／operating cycle 的工作，才由 LIHUO OS L8 作為唯一該類週期。** **每個觀止故事節拍並不需要建立一個顯式 L8 Cycle Object。** 一般喝茶、招呼、普通對話或已成立的非成人場景續接不因此啟動中央審計。**但是，一旦本次工作要求成人性愛場景的專門生成，L8 就是 REQUIRED，而不是「可依喜好選擇啟動」。不能把「不是每個故事節拍都要 L8」偷換成「成人性愛場景也可以不跑 L8」。**真正適用 L8 時，由 L8／其適用治理 Owner 負責業務週期、Main 轉接、結果和最終 receipt accounting；CORE 不建 Guanzhi Cycle，外掛不建 Adult Cycle。
 
-## 13.2｜交給現行理火 L8；不再替觀止寫第二套 Main／Release
+## 13.2｜接到現行理火 OS V1.2 L8；不在觀止重造第二套週期
 
-需要一趟理火工作時，依 **LIHUO OS V1.1 當前適用的 L8 與 Owner**，交出本幕必要的 Route／場景狀態、實際玩家輸入、已成立與未決事實、所需成人外掛能力及當次可觀察 delta。L8 負責完整的業務週期與 receipt/missing 對帳；CORE 不自行逐一重跑 `R1 → O9 → R2`，也不另建 coverage ledger、reentry 對帳、Final Gate、Final Release。
+**現行來源與法位：** LIHUOOS V1.2 的 `L0_INDEX_SOURCE_VERSION_V1.2.md` 指向 `L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md`（blob `e365258e912e096b2ecf250907ee35f5b7e0f26e`）與 `L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md`（blob `b42f3bef94b7b2ffd8817bc95a77b9b2cfa3942b`）。L8／L9 在 V1.2 是 **RATIFIED CURRENT 的文件層 operative／capability baseline**。舊 V1.1 對 L8 V0.3.1-WORKING 的 preservation 是**版本歷史**，不得再說成最新 CURRENT。文件法位仍不證明 Host 部署、工具實裝或獨立運行成功。
 
-**成人性愛專門生成的最小強制接線（不是第二套週期）：**
+觀止向 L8 提供當線必要的 `route / scene / player input / established or unknown event standing / character & world conditions / adult plugin need`；**L8 自己調度 Main、適用治理、L9 與最終 receipt accounting**。觀止不重造 R1／O9／I9 的算法，不派發選勝權，不另外設 `Guanzhi Cycle`、`Adult Cycle` 或本地 `Final Release`。
+
+**作者強制條件：成人性愛場景的專門生成必須真正在 L8 V1.2 完整週期內完成**；普通喝茶／日常對話不逐拍顯式開 L8。最小跨層接口：
 
 ```text
-ADULT_SEX_SCENE_GENERATION_REQUEST
-→ OPEN ACTUAL LIHUO L8 CYCLE (REQUIRED)
-→ APPLICABLE QUALIFICATION / MAIN (R1 → O9 → [I9] → R2 → [R3+])
-→ MAIN RETURN / APPLICABLE GOVERNANCE
-→ WITHIN L8 MANIFESTATION PHASE: ADULT PLUGIN + INTERNAL CERI
-→ RELEASE / NON-RELEASE / HOLD RESULT
-→ L8 FINAL RECEIPT CHECKLIST + CYCLE OUTCOME
-→ IF FULL REQUIRED CYCLE COMPLETED: adult specialized output may claim L8 standing
-→ OTHERWISE: NOT VERIFIED AS L8 ADULT GENERATION; never fabricate a cycle
+ADULT_SEX_SCENE_SPECIALIZED_GENERATION
+  → OPEN REAL L8 V1.2 CYCLE (REQUIRED)
+  → L8 APPLICABLE QUALIFICATION / MAIN R1 + O9 + [I9 if triggered]
+  → L8 CALL L9 LIGHT_TRACE_RENDERER → T1
+  → MAIN R2 CONSUMES QUALIFIED T1
+  → L8 CALL L9 → T2
+  → [R3+ if required: consumes latest trace → each material round T3+n]
+  → MAIN RETURN → APPLICABLE GOVERNANCE: PROCEED / REENTER / HOLD
+  → IF PROCEED: L8 MANIFESTATION CANDIDATE
+       ↳ GUANZHI ADULT PLUGIN + INTERNAL CERI (actual applicable methods)
+  → L8 CALL L9 → TM: compare latest competition trace with candidate
+  → APPLICABLE MANIFESTATION / RELEASE QUALIFICATION
+  → RELEASE / NON-RELEASE / HOLD
+  → [TFINAL only if release transformation materially changes semantics]
+  → L8 FINAL RECEIPT CHECKLIST + ACTUAL cycle_outcome
 ```
 
-**這是現有 L8 一次業務週期，並非外加成人週期。** L8 本身含 manifestation/release，所以「成人必須跑完整 L8」指**生成任務必須經由該完整週期、交付時已有合法的全程結果**；不能要求「完整週期必須在顯影前結束」，那會造成因果死鎖。
+**不是「L8 必須先跑完才准生成它自己內部的 manifestation」。** L8 包含顯影，必須在整趟週期結束時才能報真正 cycle outcome。若實際 required step／trace／Main return 缺失，照 L8 自己的規格列 `MISSING / PARTIAL / NOT_VERIFIED / INCOMPLETE / HOLD / FAILED`，不得拿一般生成或自我簽名冒充完整 L8。外掛沒有新世界事實法位，也不能因缺外部 CERI／Radar receipt 就自造 global HOLD。
 
-**L8 有真實結果才如實承接，沒有回傳不得冒稱已執行。** 來源法位需分清：獨立 L8 `V0.3.1-WORKING` 原始檔仍帶工作標記，但理火 OS V1.1 L0 已將它列為 `PRESERVED_V1_0_OPERATIVE_BASELINE`；故 L8 **具有現行文件層 operation standing**，不是『因 WORKING 而沒有現行法位』。不可據此宣稱 Host 已部署、實作完成或獨立 L8 instance 正在運行。
+## 13.2A｜V1.2 光軌回報由 L8／L9 負責；觀止只交敘事觀察錨點
 
-**收據缺席 ≠ 全部故事 HOLD** 是作者關於故事分支的裁定；若 L8 自己某個真正必需的 governance/compute 項目缺失，L8 仍可依自身現行規則如實報 `INCOMPLETE / HOLD / FAILED`。不得把「不因 CERI receipt 停故事」曲解成「OS 的所有必要步驟都可以假報通過」。
+- **T1：** R1 後、R2 前，L8 依其 current contract 調 L9 Light Trace；R2 必須能取得合格可觀測競爭材料。單有 R1 最後一句答案不足以自稱 trace-supported recompetition。
+- **T2／T3+n：** R2 後有 T2；R3+ 是條件式，不因光軌變成必跑，但每個真發生的 material R3+n 要有其後續 trace／缺失記錄，下一輪使用 latest trace。
+- **TM：** 成人外掛在 L8 manifestation 位置形成可見候選後，L8 調 L9 比對 latest competition trace 與 manifestation candidate。**它能報 `CONSISTENT / MATERIAL_DRIFT_REPORTED / PARTIAL / NOT_VERIFIED`，不是裁決、不是 veto、不是自動修稿。** 比較時可使用當線已成立事件、人物意願／局部拒絕、身體與空間、已知／未知、語域聲紋等**可觀測敘事錨點**；這些材料必須已有合法來源，外掛不能發明新的 competition trace。
+- **TFINAL：** release 或 provider transformation **實質改寫語義**才依 L8 需要 TFINAL；純格式化不觸發。
+- **Owner／缺口：** L8 是 Light Trace timing／handoff owner，L9 是 renderer capability；Main 是 compute；Character／WORLD／Player 是當線 material standing 原 Owner。Light Trace 不讀 hidden CoT／raw activation、不選 winner、不判同意、不取得 release 主權。只有外掛提出新的未成立 material delta，才回原 Owner；既成 choice 不重簽。
+- **Receipt：** `T1/T2/T3+/TM/TFINAL` 的真 trace ref 依 L8 V1.2 正文對帳；`CERI_WORK_RECORD` 仍是同模型工作紀錄，不是 `PROVIDER_RECEIPT`，也不是 `L8_CYCLE_REPORT`。**`ACCOUNTING_COMPLETE != cycle_outcome: COMPLETED`**；完整記下缺失不能變成功。
+
+這是 V1.2 的**接口交接**，不是一套「觀止光軌週期」、獨立 TM 裁判或成人方法 Gate。若真 runner／actual trace return 不可用，觀止只可標 `NOT_RUN / NOT_VERIFIED`，不能偽造可見內部戰況。
 
 ## 13.3｜Radar：作者已決定，只保留建議權
 
@@ -505,9 +520,9 @@ L9 能力倉可註冊工具，但有註冊不等於已有綁定、當輪可用�
 ## 23.2｜真正的來源在哪裡
 
 - WORLD 主文：`觀止青樓/V6觀止青樓/V3.0.0/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md`，與同目錄 WORLD V3.0.0 ANNEX。
-- 理火 OS：`LIHUOOS/V1版本/正式版/理火OSV1.1版.md`，依 L0 當前 routing 判斷工具可用性與實際 Owner。
+- 理火 OS CURRENT：`LIHUOOS/V1版本/正式版/理火OSV1.2版.md`，以 V1.2 L0 exact current snapshot 定位 L8／L9；不把文件法位當 Host 執行。
 - 原 CORE：`觀止青樓/01_GUANZHI_RUNTIME_CORE_V4.1.2_MAIN511_REBIND_HUMAN_RATIFIED_FULL_20261015.md`，原件不動，作既有法位與歷史對照。
-- 舊 Director：`觀止青樓/03_GUANZHI_DIRECTOR_V4.1.2_MAIN511_REBIND_HUMAN_RATIFIED_FULL_20261015.md`。其 V5 接線尚需另行改版；不能因本稿就宣稱 Director 已完成 OS V1.1 重綁。
+- 舊 Director：`觀止青樓/03_GUANZHI_DIRECTOR_V4.1.2_MAIN511_REBIND_HUMAN_RATIFIED_FULL_20261015.md`。其 V5 接線尚需另行改版；不能因本稿就宣稱 Director 已完成 OS V1.2 光軌接線或 Host 部署。
 - Annex A：`CORE_ANNEX_A_OWNER_INTERFACE_MAP_V0.1_WORKING_20261026.md`；Owner 去處、異議、未決的舊制承接。
 - Annex B：`CORE_ANNEX_B_LEGACY_MIGRATION_LOG_V0.1_WORKING_20261027.md`；舊 Lighter 與逐代工程史。
 - Annex C：`CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md`；回歸案例的完整待執行清單。
@@ -519,7 +534,7 @@ L9 能力倉可註冊工具，但有註冊不等於已有綁定、當輪可用�
 
 **待實際審查／綁定而非待作者重作選擇：** 外掛真的如何在 Director 接線、L8 適用 capability/Owner 的取用位置、獨立 Provider 收據有無、真實內容界線的局部作用、原 CORE/Director V4.1.2 不相容條款的正式 successor 處置。真正的 L8 governed HOLD 不由本稿假稱廢止。
 
-**此文件沒有做過的事：** 不更新舊 CURRENT、Host、Main、L8 的批准法位，不執行外部 CERI、Radar，不替 Route 寫 SAVE，不主張已通過獨立成人 PATH 長距離回歸。成人方法正文參見獨立 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`，不要重新貼入本 CORE。
+**此文件沒有做過的事：** 這一輪僅將 VNext 對 OS 的接口更新至 V1.2，不更新舊觀止 CURRENT、Host、Main、L8 的批准法位，不執行外部 CERI、Radar，不替 Route 寫 SAVE，不主張已通過獨立成人 PATH 長距離回歸。成人方法正文參見獨立 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`，不要重新貼入本 CORE。
 
 ## 23.4｜不能自我宣告的驗收
 
