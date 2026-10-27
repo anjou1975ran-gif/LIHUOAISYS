@@ -73,6 +73,19 @@ CORE VNext V0.3 已回到本地故事：辨認 Route、守住時間與局面、�
 
 以上只是下一版重寫時的脈絡，**本次不製作 Director VNext MAIN**。先完成 CORE／Annex 的 CERI 修正與高價值回歸，再由作者決定正式修訂時點。
 
+# 5A｜作者最新設計定案：Director 不另跑觀止週期，也不擁有成人心法
+
+**2026-10-27 後續裁定（新增於原遷移 MEMO；不是修改舊 Director 正文）：** 作者明確採用九尾龜成人系統 V2.0 的方法，做成觀止獨立 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`；成人 CERI 內接其中；**唯一 governing/business cycle 是理火 OS L8，不創造觀止週期**。
+
+未來 Director 主文應只留下四句可操作的交接：
+
+1. 已成立的角色／世界語義決定什麼事情有資格進場。Director 不因自己的創作慣性替人物增加同意或將未決寫成完成。
+2. 場景真正涉及成人親密方法時，**先把適用場景交給成人外掛作專門呈現**，而非一般 Narrator 先把成人語義抽空再作外掛後處理。普通宋代對話仍由一般 CERI／Narrator 語域工作即可。
+3. 成人外掛內部 CERI 必須真做、查當輪紀錄和 receipt，未收到就明記；Radar 始終只是建議。Director 不能自行宣布「少一張收據，所以整個故事 HOLD」。
+4. 外掛回傳的是候選語言、可見敘事及可觀察 delta；人物與 WORLD 確認其實際成立與否；L8（若實際適用且啟動）接收實際 return 作唯一週期對帳，不要求 `DIRECTOR_CYCLE / GZ_ADULT_CYCLE / CERI_RELEASE`。
+
+**界線：** 本指引沒有取代舊 Director V4.1.2 的正式文件法位，也沒有宣稱 L8 WORKING 文件已 Host 部署。對真實適用的內容限制仍遵守；不能以「模型自稱有牆」自授任意禁止，也不能以「疑似假牆」否定真正的規範。
+
 # 6｜審查前仍須明示的問題
 
 1. 舊 Director 的全場「CERI provider return」與新版「CERI 語義形成必做、獨立 Provider 非預設」如何取得正式替代批准？
