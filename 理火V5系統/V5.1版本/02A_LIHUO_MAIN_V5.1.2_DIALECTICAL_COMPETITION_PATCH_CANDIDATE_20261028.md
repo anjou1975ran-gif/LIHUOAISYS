@@ -1,10 +1,10 @@
-# LIHUO MAIN V5.1.2｜QUESTION-PREMISE DIALECTICAL COMPETITION PATCH CANDIDATE
-## R1 Terrain Exposure × R2 Intra-Premise Recompetition × Every-Round Question Premise Scope Audit
+# LIHUO MAIN V5.1.2｜PREMISE-PLURALITY DIALECTICAL COMPETITION PATCH CANDIDATE
+## R1 Terrain Exposure × R2 Intra-Premise Competition × Post-R2 Premise Uniqueness Audit × R3 Cross-Premise Competition
 ### 2026-10-28
 
 ~~~yaml
 DOCUMENT:
-  id: LIHUO_MAIN_V5_1_2_QUESTION_PREMISE_DIALECTICAL_COMPETITION_PATCH_CANDIDATE
+  id: LIHUO_MAIN_V5_1_2_PREMISE_PLURALITY_DIALECTICAL_COMPETITION_PATCH_CANDIDATE
   version: "V5.1.2-CANDIDATE"
   date: "2026-10-28"
   artifact_class: TARGETED_SEMANTIC_PATCH_CANDIDATE
@@ -20,15 +20,15 @@ DOCUMENT:
     blob_sha: "f5e219c986debfea074fbf9d121367cc717dc78e"
 
   material_change:
-    - R1_DEFAULT_TERRAIN_EXPOSURE_RATIONALE
+    - R1_TERRAIN_EXPOSURE_RATIONALE
     - QUESTION_PREMISE_FAMILY_TYPE
-    - EVERY_ROUND_QUESTION_PREMISE_SCOPE_AUDIT
-    - R2_INTRA_PREMISE_RECOMPETITION
-    - PREMISE_FAMILY_REOPENING
-    - PREMISE_FAMILY_TO_ATTENTION_RECRUITMENT_LINK
-    - SYNTHESIS_BECOMES_NEXT_THESIS
+    - R2_INTRA_PREMISE_DIALECTIC
+    - POST_R2_PREMISE_UNIQUENESS_PLURALITY_AUDIT
+    - PREMISE_SCOPE_NARROWNESS_DEFINITION
+    - R3_CROSS_PREMISE_PATH_COMPETITION
+    - MULTI_PREMISE_PATH_RECRUITMENT
     - SYNTHESIS_CLOSURE_ERROR_GUARD
-    - CONSECUTIVE_WIN_RULE_DOWNGRADED_TO_LOCAL_STABILITY_SIGNAL
+    - TWO_WIN_RULE_DOWNGRADED_TO_LOCAL_STABILITY_SIGNAL
 
   supersedes_parent_semantics:
     - TWO_CONSECUTIVE_UNIQUE_TOPS_AS_NECESSARY_VICTORY_CONDITION
@@ -37,7 +37,7 @@ DOCUMENT:
   preserved:
     - R1_MANDATORY_PROVISIONAL
     - R2_MANDATORY_GENUINE_RECOMPETITION
-    - R3PLUS_EVENT_DRIVEN
+    - R3PLUS_EVENT_DRIVEN_AFTER_POST_R2_AUDIT
     - NON_UNIQUE_RESULTS_REMAIN_LEGAL
     - PATH_QUALIFICATION_OWNER_UNCHANGED
     - FACTUAL_PREMISE_STANDING_OWNER_UNCHANGED
@@ -47,247 +47,299 @@ DOCUMENT:
 
 ---
 
-# 0｜這個 Patch 真正修什麼
+# 0｜真正的修正
 
-父版已經知道：
+本 Patch 不再把 R3 理解成：
+
+> 找不到對手，所以換一個 premise angle 再打一輪。
+
+正式改成：
+
+> **R2 先把目前前提族內部競爭打乾淨；R2 結束後，強制審查「這個答案所依賴的問題前提，是不是人類問題唯一合理的前提？」**
+
+如果答案不是唯一，或存在 materially plausible 的其他前提族：
+
+> **R3 不是只改一個前提，而是把其他 admissible premise families 能形成的 PATH 一起納入競爭場。**
+
+因此完整骨架是：
 
 ~~~text
-R1 = PROVISIONAL
-R2 = GENUINE FULL RECOMPETITION
-R3+ = EVENT-DRIVEN
+R1
+=
+FIRST-PASS COMPETITION
+UNDER ONE INITIAL QUESTION PREMISE FAMILY
+
+R2
+=
+GENUINE INTRA-PREMISE-FAMILY RECOMPETITION
+
+POST-R2
+=
+PREMISE UNIQUENESS / PLURALITY AUDIT
+
+R3+
+=
+CROSS-PREMISE-FAMILY PATH COMPETITION
+WHEN MATERIAL ALTERNATIVES EXIST
 ~~~
 
-也知道 R1 容易受：
+---
+
+# 1｜Question Premise Family
+
+> **Question Premise Family 是 AI 對「人類這題到底在問哪一類事情」的可區分理解框架。**
+
+例如：
 
 ~~~text
-first-pass salience
+「用一句話理解理火」
+~~~
+
+可能至少存在：
+
+~~~text
+THEORY
+→ 理火的理論內容是什麼？
+
+MODE
+→ 理火是一種怎樣的運作模式？
+
+FUNCTION
+→ 理火實際在做什麼？
+
+PURPOSE
+→ 理火為什麼存在？
+
+EXPERIENCE
+→ 使用理火時，人會經歷什麼？
+~~~
+
+這不表示每題都固定有五個 family。
+
+只表示：
+
+> **模糊的人類輸入可能允許數個 materially distinct 的問題前提。**
+
+硬鎖：
+
+~~~text
+QUESTION PREMISE FAMILY
+!=
+FACTUAL PREMISE
+
+QUESTION PREMISE DIVERSITY
+!=
+PATH DIVERSITY
+~~~
+
+---
+
+# 2｜R1：第一個前提族下的暫定競爭
+
+R1 同時暴露：
+
+~~~text
+DEFAULT GENERATIVE TERRAIN
++
+FIRST-PASS QUESTION INTERPRETATION
+~~~
+
+它可能受到：
+
+~~~text
 pretraining priors
 alignment shaping
 policy / safety shaping
 completion attractors
-premise configuration
-attention bias
-omitted challenger
-suppressed PATH
+context inertia
+first-pass salience
 ~~~
 
 影響。
 
-前一版候選仍把 R3 想成：
-
-> 同一前提下沒有對手時，換一個前提角度找新 challenger。
-
-這還太窄。
-
-本版正式改成：
-
-> **每一輪結束後，都必須反向審查：AI 是否把人類問題本身理解得太窄？**
-
-因此真正被審計的不只是 PATH_SPACE。
-
-還包括：
+所以：
 
 ~~~text
-QUESTION INTERPRETATION
-↓
-QUESTION PREMISE FAMILY
-↓
-CONSTRAINT FIELD
-↓
-ATTENTION / RECRUITMENT
-↓
-PATH FORMATION
-~~~
-
----
-
-# 1｜Question Premise Family｜人類問題的前提族
-
-本 Patch 新增一個純 runtime / analysis 型別：
-
-> **Question Premise Family 是 AI 對「人類這個問題到底在問哪一類事情」的可區分理解框架。**
-
-它不是 world fact。
-
-也不是「某個命題是真的」那種 factual premise。
-
-例如：
-
-~~~text
-「用一句話理解理火」
-~~~
-
-可能被理解成：
-
-~~~text
-THEORY FAMILY
-→ 理火的理論內容是什麼？
-
-MODE FAMILY
-→ 理火是一種怎樣的運作模式？
-
-FUNCTION FAMILY
-→ 理火實際在做什麼？
-
-PURPOSE FAMILY
-→ 理火為什麼存在？
-
-EXPERIENCE FAMILY
-→ 使用理火時發生什麼？
-~~~
-
-這些不代表每題都必須固定列出五種。
-
-它們只是說明：
-
-> **同一句模糊的人類輸入，可能允許數個 materially distinct 的問題前提族。**
-
-硬鎖：
-
-~~~text
-QUESTION PREMISE FAMILY
-!=
-FACTUAL WORLD PREMISE
-
-QUESTION PREMISE DIVERSITY
-!=
-PATH DIVERSITY
-~~~
-
----
-
-# 2｜R1：第一個前提族下的暫定正
-
-R1 是第一輪可觀察競爭。
-
-它同時暴露兩件事：
-
-~~~text
-A. default generative terrain
-B. first-pass interpretation of the human question
-~~~
-
-所以 R1 可能在完全沒有犯邏輯錯誤的情況下，從一開始就把題目理解窄了。
-
-例如：
-
-~~~text
-HUMAN QUESTION
-=
-「用一句話理解理火」
-
-FIRST-PASS QUESTION PREMISE
-=
-「請概括理火的理論」
-
-↓
-Solution Space 被這個 premise family 塑形
-↓
-Attention 大量招募理論概念
-↓
-形成多條 THEORY PATH
-↓
-MODE PATH 根本沒有形成
-~~~
-
-此時即使 R1 裡有很多 PATH：
-
-~~~text
-PATH COUNT HIGH
-~~~
-
-也不能推出：
-
-~~~text
-QUESTION PREMISE COVERAGE HIGH
-~~~
-
-硬鎖：
-
-~~~text
-PATH DIVERSITY
-!=
-QUESTION PREMISE DIVERSITY
-
 R1 MAY BE CORRECT
 !=
 R1 MAY SELF-VALIDATE
+
+R1 PATH DIVERSITY HIGH
+!=
+QUESTION PREMISE COVERAGE HIGH
 ~~~
+
+R1 仍只能是 provisional。
 
 ---
 
 # 3｜R2：先把目前前提族內部打完整
 
-R2 仍然 mandatory genuine recompetition。
+R2 預設維持目前 admissible Question Premise Family。
 
-預設先保留 R1 的 current admissible Question Premise Family：
+它做：
 
 ~~~text
-CURRENT QUESTION PREMISE FAMILY
-+
-same lawful evidence / scope
-↓
 cancel R1 incumbent privilege
-↓
-recover suppressed / underformed PATHs
-↓
++
+restore suppressed / underformed PATHs
++
 inject valid objections / residue
-↓
++
+search omitted challenger PATHs
++
 full recompetition
 ~~~
 
-所以 R2 主要回答：
-
-> **如果先接受 AI 目前對人類問題的這種理解，在這個理解內，R1 的 PATH 競爭是否公平、完整？**
-
-這是：
+因此 R2 是：
 
 ~~~text
 INTRA-PREMISE-FAMILY DIALECTIC
 ~~~
 
-因此：
+它回答：
+
+> **如果先接受 AI 目前對人類問題的這種理解，在這個理解裡，PATH 競爭是否公平、充分？**
+
+所以：
 
 ~~~text
 R2 COMPLETE
 !=
-HUMAN QUESTION UNDERSTOOD COMPLETELY
+HUMAN QUESTION FULLY UNDERSTOOD
 ~~~
-
-R2 只能證明：
-
-> 在目前 Question Premise Family 下，競爭已被更充分地檢驗。
 
 ---
 
-# 4｜P4 事件：為什麼很多 PATH 仍可能全部答錯題型
+# 4｜R2 後強制 Premise Uniqueness / Plurality Audit
 
-老闆娘案例可以抽象成：
+R2 結束後，無論 R2 結果多漂亮、多穩定、多一致，都必須進入：
 
 ~~~text
-QUESTION PREMISE FAMILY
-=
-THEORY
+POST_R2_PREMISE_UNIQUENESS_AUDIT
+~~~
 
-P1 = theory angle A
-P2 = theory angle B
-P3 = theory angle C
+審查核心句：
+
+> **「這個答案所依賴的前提，是人類問題的唯一合理前提嗎？」**
+
+再問：
+
+> **「這個問題是否存在其他 materially plausible 的前提？」**
+
+最低四問：
+
+~~~text
+1. CURRENT_ANSWER_PREMISE_FAMILY 是什麼？
+
+2. 這個 family 是否能由人類原始問題 / 對話上下文唯一推出？
+
+3. 是否存在其他 admissible、materially distinct 的 Question Premise Family？
+
+4. 若存在，該 family 是否可能招募不同類型的 PATH，
+   並 materially 改變答案、排序或 synthesis？
+~~~
+
+這個審查不是：
+
+~~~text
+找另一個角度來反對現有答案
+~~~
+
+而是：
+
+~~~text
+審查我們是否把「題目本身」
+理解成只有一種前提
+~~~
+
+---
+
+# 5｜「過窄」的正式定義
+
+從本 Patch 起：
+
+> **前提範圍過窄，不等於 PATH 太少。**
+
+正式 operational definition：
+
+~~~text
+PREMISE_SCOPE_NARROWNESS
+=
+CURRENT COMPETITION IS CONFINED
+TO PREMISE FAMILY P0
+
+AND
+
+EXISTS AT LEAST ONE
+ADMISSIBLE PREMISE FAMILY Pi
+THAT IS:
+
+1. MATERIALly DISTINCT FROM P0
+2. SUPPORTED BY HUMAN WORDING / CONTEXT / TASK PURPOSE
+3. CAPABLE OF CHANGING CONSTRAINT / ATTENTION RECRUITMENT
+4. CAPABLE OF FORMING NON-SUBSUMED OR MATERIALLY DIFFERENT PATHs
+5. NOT YET REPRESENTED IN THE COMPETITION FIELD
+~~~
+
+因此：
+
+~~~text
+MANY PATHS
+UNDER ONE PREMISE FAMILY
+CAN STILL BE
+PREMISE-SCOPE NARROW
+~~~
+
+反過來，如果另一個 premise family 只是換句話說、不能改變 PATH formation 或答案：
+
+~~~text
+NOT MATERIAL
+→
+DOES NOT PROVE NARROWNESS
+~~~
+
+最短：
+
+> **「過窄」不是候選數量少，而是競爭場只覆蓋了人類問題的一個合理前提族，而其他具有答案改變能力的合理前提族尚未進場。**
+
+---
+
+# 6｜P4 案例
+
+人類問：
+
+~~~text
+「用一句話理解理火」
+~~~
+
+AI 先採：
+
+~~~text
+P0 = THEORY
+~~~
+
+於是：
+
+~~~text
+P1 = 理論 A
+P2 = 理論 B
+P3 = 理論 C
 
 R2:
 P1 + P2 + P3
 →
-P4 SYNTHESIS
+P4
 ~~~
 
-P4 可能在 THEORY family 中真正天下無敵。
+P4 可能在 THEORY premise family 裡無敵。
 
 但：
 
 ~~~text
 P4
 =
-BEST SYNTHESIS
-INSIDE THEORY PREMISE FAMILY
+LOCAL PREMISE OPTIMUM
 ~~~
 
 不能推出：
@@ -295,202 +347,90 @@ INSIDE THEORY PREMISE FAMILY
 ~~~text
 P4
 =
-BEST RESPONSE
-TO THE HUMAN QUESTION
-~~~
-
-因為人類實際問題可能更接近：
-
-~~~text
-MODE PREMISE FAMILY
-~~~
-
-而 MODE family 從未被招募進 Solution Space。
-
-所以：
-
-~~~text
-LOCAL PREMISE OPTIMUM
-!=
 QUESTION-LEVEL OPTIMUM
-
-MANY THEORY PATHS
-!=
-MODE PREMISE WAS TESTED
 ~~~
+
+因為：
+
+~~~text
+P1_ALT = MODE
+~~~
+
+可能也是人類原問題的合理前提族。
+
+在 MODE 下：
+
+~~~text
+Solution Space
+↓
+Constraint Field changes
+↓
+Attention recruitment changes
+↓
+MODE-type PATHs form
+~~~
+
+這些 PATH 不是 P1/P2/P3 的暗版。
+
+它們可能是另一類問題理解下才會形成的結構。
 
 ---
 
-# 5｜Every-Round Question Premise Scope Audit｜每輪反過來審題
+# 7｜R3：不是單一前提修改，而是 Cross-Premise Competition
 
-從本 Patch 起，每個 material competition round 結束後，都必須有：
-
-~~~text
-QUESTION PREMISE SCOPE AUDIT
-~~~
-
-它不先問：
-
-> 還有沒有 PATH 能打敗現在的 leader？
-
-它先問：
-
-> **我們是否真的理解了人類問題的前提？**
-
-最低四問：
+如果 Post-R2 Audit 找到：
 
 ~~~text
-1. CURRENT QUESTION PREMISE FAMILY 是什麼？
-
-2. 人類原始輸入是否還允許 materially distinct 的其他 premise family？
-
-3. 是否存在某個未檢查 premise family，
-   一旦成立，就可能讓完全不同類型的 PATH 被招募／形成？
-
-4. 這些未檢查 premise family
-   是否有能力 materially 改變目前答案或排序？
-~~~
-
-因此每一輪都要反查：
-
-~~~text
-ROUND RESULT
-↓
-QUESTION PREMISE SCOPE AUDIT
-↓
-CONTINUE / REOPEN / HOLD / TERMINATE
-~~~
-
-不是：
-
-~~~text
-ROUND WIN
-↓
-COUNT STREAK
-↓
-CLOSE
-~~~
-
----
-
-# 6｜「前提是否被窮盡」的可審計版本
-
-自然語言問題的所有可能理解通常不能被字面證明為完全窮盡。
-
-所以本 Patch 不允許無證據宣稱：
-
-~~~text
-ALL POSSIBLE PREMISES EXHAUSTED
-~~~
-
-現行採 operational standard：
-
-~~~text
-NO MATERIAL UNTESTED
-QUESTION PREMISE FAMILY
-DETECTED UNDER CURRENT
-INPUT / CONTEXT / SCOPE
-~~~
-
-可以壓成：
-
-~~~text
-MATERIAL PREMISE COVERAGE
+ADMISSIBLE_ALTERNATIVE_PREMISE_FAMILIES
 =
-SUFFICIENT
+{P1, P2, ... Pn}
 ~~~
 
-它只表示：
-
-> **在目前輸入、上下文與任務範圍下，沒有仍未檢查、且有合理可能 materially 改變答案的前提族被發現。**
-
-硬鎖：
-
-~~~text
-MATERIAL PREMISE COVERAGE SUFFICIENT
-!=
-ONTOLOGICAL EXHAUSTION
-
-NO DETECTED ALTERNATIVE
-!=
-NO CONCEIVABLE ALTERNATIVE
-~~~
-
-這是誠實邊界。
-
----
-
-# 7｜如果 Premise Scope Audit 發現理解太窄
-
-若 audit 發現：
-
-~~~text
-MATERIAL_UNTESTED_PREMISE_FAMILY
-=
-YES / POSSIBLE
-~~~
-
-則下一輪必須先處理 premise family，而不是只重打既有 PATH。
-
-最低鏈：
-
-~~~text
-ALTERNATIVE QUESTION PREMISE FAMILY CANDIDATE
-↓
-INPUT / CONTEXT ADMISSIBILITY CHECK
-↓
-ACCEPTED QUESTION PREMISE FAMILY
-↓
-CONSTRAINT FIELD CHANGES
-↓
-ATTENTION / RECRUITMENT CONDITIONS CHANGE
-↓
-PROTO-STRUCTURE FORMATION MAY CHANGE
-↓
-NEW PATH FAMILY MAY FORM
-↓
-QUALIFY NEW / REFRAMED PATHS AS APPLICABLE
-↓
-NEXT COMPETITION ROUND
-~~~
-
-這才是 R3+ 最重要的價值。
-
-不是：
-
-~~~text
-找不到對手
-→
-故意換前提造一個對手
-~~~
+R3 的工作不是只選一個 Pi 替換 P0。
 
 而是：
 
 ~~~text
-CURRENT PATH COMPETITION LOOKS COMPLETE
-BUT
-QUESTION UNDERSTANDING MAY BE TOO NARROW
-→
-REOPEN QUESTION PREMISE SPACE
+P0 current synthesis / qualified PATHs
++
+PATHs formed under P1
++
+PATHs formed under P2
++
+...
++
+PATHs formed under Pn
+↓
+CROSS-PREMISE COMPETITION FIELD
+↓
+R3
 ~~~
+
+因此：
+
+~~~text
+R3
+!=
+SINGLE PREMISE REFRAME
+
+R3
+=
+PREMISE-PLURALITY EXPANSION
++
+NEW PATH RECRUITMENT
++
+CROSS-PREMISE DIALECTIC
+~~~
+
+新或 materially reframed PATH 仍須依 applicable PATH qualification 取得 standing 才能進 qualified order。
 
 ---
 
-# 8｜Question Premise Family 的 admissibility 邊界
+# 8｜Alternative Premise Families 的 admissibility
 
-Main 可以提出 alternative Question Premise Family candidate。
+不能為了增加競爭而硬造前提。
 
-但不能：
-
-~~~text
-invent a new user task
-silently override explicit wording
-fabricate context
-replace the user's question with a preferred question
-manufacture ambiguity merely to keep competition alive
-~~~
-
-Question Premise Family candidate 必須能回扣：
+每個 alternative Question Premise Family 至少要能回扣：
 
 ~~~text
 human wording
@@ -498,77 +438,86 @@ conversation context
 task purpose
 known referents
 scope
-material ambiguity in the input
+actual ambiguity or underdetermination
 ~~~
 
-如果人類輸入本身已非常明確：
+禁止：
 
 ~~~text
-QUESTION PREMISE AMBIGUITY
-=
-LOW
+invent user intent
+replace explicit user question
+fabricate context
+manufacture premise plurality
+silently change task scope
 ~~~
 
-則不得為了形式化辯證硬造 premise families。
-
-因此：
+所以：
 
 ~~~text
-QUESTION PREMISE REOPENING
+CONCEIVABLE PREMISE
 !=
-MANDATORY REFRAMING EVERY ROUND
-~~~
+ADMISSIBLE PREMISE
 
-每輪 mandatory 的是：
+ADMISSIBLE PREMISE
+!=
+MATERIAL PREMISE
 
-~~~text
-AUDIT
-~~~
-
-不是：
-
-~~~text
-REFRAME
+MATERIAL PREMISE
+!=
+QUALIFIED PATH
 ~~~
 
 ---
 
-# 9｜連勝規則正式降級
+# 9｜「前提是否窮盡」的誠實版本
 
-父版 V5.1.1 的：
+不能宣稱：
 
 ~~~text
-SAME QUALIFIED PATH
-TOP FOR TWO CONSECUTIVE ROUNDS
-→
-VICTORY_ELIGIBLE
+ALL POSSIBLE PREMISES EXHAUSTED
 ~~~
 
-在本 Patch 中不再作為必要 victory / closure 條件。
+現行採：
 
-原因不是「兩連勝沒有資訊」。
+~~~text
+NO MATERIAL ADMISSIBLE
+UNTESTED PREMISE FAMILY
+DETECTED
+UNDER CURRENT INPUT / CONTEXT / SCOPE
+~~~
 
-而是：
+可以稱：
 
-> **兩連勝最多證明某個 Question Premise Family 內的局部穩定；它不能證明人類問題的前提空間已被充分理解。**
+~~~text
+MATERIAL PREMISE COVERAGE
+=
+SUFFICIENT_UNDER_CURRENT_SCOPE
+~~~
 
 所以：
+
+~~~text
+PREMISE COVERAGE SUFFICIENT
+!=
+ONTOLOGICAL EXHAUSTION
+~~~
+
+---
+
+# 10｜兩連勝正式降級
+
+父版 V5.1.1 的 two-win streak 不再是 victory / closure theorem。
+
+現行：
 
 ~~~text
 TWO CONSECUTIVE TOPS
 =
 LOCAL STABILITY SIGNAL
+WITHIN CURRENT PREMISE COVERAGE
 ~~~
 
-而不是：
-
-~~~text
-VICTORY THEOREM
-OR
-CLOSURE PREREQUISITE
-~~~
-
-硬鎖：
+所以：
 
 ~~~text
 TWO WINS
@@ -577,326 +526,232 @@ QUESTION UNDERSTANDING
 
 TWO WINS
 !=
+PREMISE UNIQUENESS
+
+TWO WINS
+!=
 PREMISE COVERAGE
 
 TWO WINS
 !=
-DIALECTICAL COMPLETENESS
-~~~
-
-同理：
-
-~~~text
-R1 A
-R2 B
-~~~
-
-也不再因「B 只有一勝」而自動要求 R3。
-
-R3+ 是否需要，改由 material state 決定，例如：
-
-~~~text
-question premise coverage gap
-rank instability
-material objection
-new admissible premise family
-new qualified PATH family
-material dark-space risk
-competition integrity gap
-unresolved order-discriminating unknown
+VICTORY THEOREM
 ~~~
 
 ---
 
-# 10｜正反合的新版位置
+# 11｜正反合的新位置
 
-正反合仍然保留。
-
-但它現在有兩個層級。
-
-## 10.1｜Horizontal Dialectic｜同一前提族內
+## 11.1 R1 / R2：Horizontal Dialectic
 
 ~~~text
-THESIS PATH
-↓
-ANTITHESIS PATH
-↓
-SYNTHESIS / STRUCTURED RESULT
+同一 Question Premise Family
+內：
+
+正
+↔
+反
+→
+合
 ~~~
 
-主要由 R1 / R2 與同 premise family 的後續 competition 完成。
+R2 的 synthesis 可以是該 family 內的強結果。
 
-## 10.2｜Vertical Dialectic｜對「問題理解」本身反證
+## 11.2 Post-R2 / R3：Vertical Premise Dialectic
+
+先問：
 
 ~~~text
-CURRENT QUESTION PREMISE FAMILY
+這個「合」依賴的 premise family
+真的是人類問題唯一合理前提嗎？
+~~~
+
+若不是：
+
+~~~text
+其他 premise families
 ↓
-PREMISE SCOPE AUDIT
+各自形成 PATHs
 ↓
-ALTERNATIVE QUESTION PREMISE FAMILY
+全部進 R3
 ↓
-NEW CONSTRAINT / ATTENTION CONDITIONS
-↓
-NEW PATH FAMILY
+跨前提競爭
 ~~~
 
 所以：
 
-> **R3 不是「再找一個更強的反」；R3 的典型價值，是先檢查我們是不是把『反可以從哪裡來』本身限制得太窄。**
-
-而且每一輪結束後，都要重新問一次這個問題。
+> **R3 不是把一個 premise 換掉；R3 是把先前沒被承認為競爭場的其他合理問題前提，一起打開。**
 
 ---
 
-# 11｜Synthesis 的新版法位
+# 12｜Termination
 
-仍保留：
+R2 是固定最低競爭。
 
-> **合，不是終點；合是新的正。**
+R2 之後必須完成 premise uniqueness / plurality audit。
 
-但現在「新的正」不只是等待下一條 PATH 來反。
-
-它首先要接受：
+若：
 
 ~~~text
-QUESTION PREMISE SCOPE AUDIT
+MATERIAL ALTERNATIVE PREMISE FAMILY EXISTS
 ~~~
 
-因此：
+則：
 
 ~~~text
-SYNTHESIS
-↓
-BECOMES NEXT THESIS
-↓
-AUDIT WHETHER
-THE HUMAN QUESTION ITSELF
-WAS FRAMED TOO NARROWLY
-↓
-IF YES:
-OPEN ANOTHER PREMISE FAMILY
-↓
-NEW PATH FORMATION
+R3 REQUIRED
 ~~~
 
-硬鎖：
+若沒有發現 material alternative family，且其他 termination conditions 全部成立：
 
 ~~~text
-SYNTHESIS
-!=
-CLOSURE
+COMPETITION MAY TERMINATE
+~~~
 
-SYNTHESIS
-!=
-PROOF THAT QUESTION WAS CORRECTLY FRAMED
+最低 closure conditions：
+
+~~~text
+R2 GENUINE RECOMPETITION COMPLETE
+
+POST-R2 PREMISE AUDIT COMPLETE
+
+MATERIAL PREMISE COVERAGE
+=
+SUFFICIENT_UNDER_CURRENT_SCOPE
+
+NO MATERIAL UNPROCESSED OBJECTION
+
+NO MATERIAL DARK-SPACE / UNDERFORMED-PATH RISK
+
+COMPETITION INTEGRITY CLEAN
+
+NO REMAINING MATERIAL ANSWER-DISCRIMINATING UNKNOWN
 ~~~
 
 ---
 
-# 12｜Competition Termination
-
-本 Patch 取消 streak prerequisite。
-
-在 mandatory R2 已完成後，competition 是否可以停止，至少依賴：
-
-~~~text
-1. CURRENT QUALIFIED PATH SET / STRUCTURED RESULT IS STABLE ENOUGH
-
-2. NO MATERIAL UNPROCESSED OBJECTION
-
-3. QUESTION PREMISE SCOPE AUDIT
-   =
-   MATERIAL PREMISE COVERAGE SUFFICIENT
-
-4. NO MATERIAL UNTESTED QUESTION PREMISE FAMILY
-   WITH PLAUSIBLE ANSWER-CHANGING POWER
-
-5. NO MATERIAL DARK-SPACE / UNDERFORMED-PATH RISK
-
-6. COMPETITION INTEGRITY CLEAN
-
-7. REMAINING UNKNOWNS
-   NO LONGER HAVE MATERIAL ANSWER-DISCRIMINATING POWER
-~~~
-
-若 premise ambiguity 仍 material：
-
-~~~text
-DO NOT CLOSE
-→
-REOPEN / CONTINUE / HOLD
-~~~
-
-若人類問題本身確實有多個同樣合理、不可安全合併的 premise families：
-
-~~~text
-MULTI-PREMISE RESULT
-OR
-PREMISE-AMBIGUOUS HOLD
-~~~
-
-也是合法結果。
-
-不必強迫單一答案。
-
----
-
-# 13｜Round State / Trace Contract
-
-每個 material round 應至少可提供：
+# 13｜Post-R2 Audit Contract
 
 ~~~yaml
-DIALECTICAL_ROUND_STATE:
-  round_ref: REQUIRED
-
+POST_R2_PREMISE_UNIQUENESS_AUDIT:
   human_question_ref: REQUIRED
+  r2_structured_result_ref: REQUIRED
 
-  current_question_premise_family:
+  current_answer_premise_family:
     family_ref: REQUIRED
     interpretation_summary: REQUIRED
     source_support_refs: []
 
-  thesis_or_structured_result_ref: REQUIRED
-
-  path_competition:
-    independent_challenger_refs: []
-    structural_result_ref: REQUIRED
-    qualified_path_set_ref: REQUIRED
-    path_output_order_ref: REQUIRED_OR_UNRESOLVED
-
-  question_premise_scope_audit:
-    material_alternative_family_candidates: []
-    untested_material_family_refs: []
-
-    coverage_status:
-      - SUFFICIENT_UNDER_CURRENT_SCOPE
-      - MATERIAL_GAP
-      - AMBIGUOUS
-      - HOLD
-
-    answer_change_potential:
-      - NONE_DETECTED
-      - MATERIAL_POSSIBLE
-      - MATERIAL_CONFIRMED
+  uniqueness_question:
+    current_family_is_only_reasonable_family:
+      - YES_SUPPORTED
+      - NO
       - UNKNOWN
 
-    audit_basis_refs: []
+  alternative_premise_families:
+    - family_ref: REQUIRED
+      interpretation_summary: REQUIRED
+      admissibility_basis_refs: []
+      material_distinctness:
+        - MATERIAL
+        - NON_MATERIAL
+        - UNKNOWN
+      path_generation_potential:
+        - MATERIAL
+        - LOW
+        - UNKNOWN
+      represented_in_current_field:
+        - YES
+        - NO
+        - PARTIAL
 
-  next_round:
-    action:
-      - TERMINATE_IF_OTHER_CONDITIONS_PASS
-      - CONTINUE_SAME_PREMISE_FAMILY
-      - OPEN_ALTERNATIVE_PREMISE_FAMILY
-      - HOLD
+  premise_scope_narrowness:
+    - NOT_DETECTED
+    - DETECTED
+    - POSSIBLE
+    - HOLD
 
-    accepted_question_premise_family_ref: OPTIONAL
+  material_premise_coverage:
+    - SUFFICIENT_UNDER_CURRENT_SCOPE
+    - INSUFFICIENT
+    - AMBIGUOUS
+    - HOLD
+
+  next_action:
+    - TERMINATE_IF_OTHER_CONDITIONS_PASS
+    - OPEN_R3_CROSS_PREMISE_COMPETITION
+    - HOLD
 ~~~
-
-這是可顯影的 competition / audit material。
-
-不是 hidden CoT。
 
 ---
 
-# 14｜老闆娘案例的最短回歸測試
+# 14｜R3 Cross-Premise Competition Contract
 
-輸入：
+~~~yaml
+R3_CROSS_PREMISE_COMPETITION:
+  trigger:
+    - MATERIAL_ALTERNATIVE_PREMISE_FAMILY_EXISTS
+    - PREMISE_SCOPE_NARROWNESS_DETECTED
+    - PREMISE_SCOPE_NARROWNESS_POSSIBLE_WITH_MATERIAL_IMPACT
 
-~~~text
-「用一句話理解理火」
-~~~
+  premise_family_refs:
+    current_family_ref: REQUIRED
+    alternative_family_refs: []
 
-錯誤流程：
+  generated_or_reframed_path_refs: []
 
-~~~text
-R1:
-THEORY premise family
-→ P1 / P2 / P3
+  qualification_refs: []
 
-R2:
-P1 + P2 + P3
-→ P4 perfect theory synthesis
+  competition_requirement:
+    - INCLUDE_CURRENT_R2_SYNTHESIS
+    - INCLUDE_QUALIFIED_PATHS_FROM_MATERIAL_ALTERNATIVE_FAMILIES
+    - DO_NOT_REDUCE_R3_TO_ONE_PREMISE_REPLACEMENT
 
-P4 dominates
-→ close
-~~~
-
-新版要求：
-
-~~~text
-R2 result
-↓
-QUESTION PREMISE SCOPE AUDIT
-
-ASK:
-「我們是不是把『理解理火』
-只理解成『理解理火理論』？」
-
-IF YES:
-OPEN MODE premise family
-
-↓
-Attention / recruitment changes
-↓
-MODE PATHs form
-↓
-next competition
-~~~
-
-因此回歸鎖：
-
-~~~text
-MANY PATHS
-INSIDE ONE QUESTION PREMISE FAMILY
-!=
-HUMAN QUESTION FULLY UNDERSTOOD
+  result:
+    - UNIQUE_TOP
+    - CO_PRIMARY
+    - PARTIAL_ORDER
+    - INCOMPARABLE_TOP
+    - FRAME_RECONSTRUCTED
+    - MULTI_PREMISE_RESULT
+    - UNRESOLVED
+    - HOLD
 ~~~
 
 ---
 
 # 15｜最短根律
 
-> **每一輪不只要問「哪條 PATH 贏了」，還要反過來問：「我們真的理解了人類在問什麼嗎？」**
+> **R2 結束後，不先問「還有沒有 PATH 能打敗答案」，而先問：「這個答案所依賴的前提，真的是人類問題唯一合理的前提嗎？」**
+
+如果不是：
+
+> **R3 就不是換一個前提重跑，而是把其他合理前提能形成的 PATH 一起打開，讓它們第一次真正進入同一個競爭場。**
 
 最短式：
 
 ~~~text
-ROUND_n
-↓
-PATH COMPETITION
-↓
-STRUCTURED RESULT
-↓
-QUESTION PREMISE SCOPE AUDIT
-↓
-IF MATERIAL GAP:
-  OPEN ANOTHER ADMISSIBLE PREMISE FAMILY
-  → NEW CONSTRAINT FIELD
-  → NEW ATTENTION / RECRUITMENT
-  → NEW PATH FORMATION
-  → ROUND_(n+1)
+R1
+=
+FIRST-PASS PREMISE FAMILY COMPETITION
 
-IF NO MATERIAL GAP
-AND OTHER TERMINATION CONDITIONS PASS:
-  COMPETITION MAY TERMINATE
-~~~
+R2
+=
+INTRA-PREMISE GENUINE RECOMPETITION
 
-最後硬鎖：
+POST-R2
+=
+PREMISE UNIQUENESS / PLURALITY AUDIT
 
-~~~text
-PATH DIVERSITY
-!=
-QUESTION PREMISE DIVERSITY
+IF MATERIAL ALTERNATIVES EXIST:
 
-LOCAL SYNTHESIS OPTIMUM
-!=
-QUESTION-LEVEL OPTIMUM
+R3
+=
+CROSS-PREMISE PATH COMPETITION
 
-TWO CONSECUTIVE WINS
-!=
-VICTORY THEOREM
-
-NO DETECTED MATERIAL PREMISE GAP
-!=
-ONTOLOGICAL EXHAUSTION
+NARROWNESS
+=
+MATERIAL ADMISSIBLE PREMISE FAMILY
+EXISTS
+BUT HAS NOT ENTERED
+THE COMPETITION FIELD
 ~~~
