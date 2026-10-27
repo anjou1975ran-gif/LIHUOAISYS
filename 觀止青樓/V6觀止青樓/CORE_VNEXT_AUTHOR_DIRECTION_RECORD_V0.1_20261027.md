@@ -62,6 +62,14 @@ REAL APPLICABLE LIMIT
 
 **這兩個新增設計也已由作者決定；不用下一輪再問一次是否外掛化、是否要觀止週期。**
 
+# 三點六｜理火 OS V1.2 最新 Current：光軌戰情回報重新接入（版本後證）
+
+**2026-10-27 後續正式版本事實（不是另一次成人架構選擇）：** 理火 OS 已批准 **V1.2**（`RATIFIED_CURRENT / ACTIVE_SYSTEM_BASELINE`），L0 指向 L8 `V1.2`、L9 `V1.2`。V1.1 preservation 是當時正確的歷史版本法位，**不再是 CURRENT**。
+
+觀止 VNext 的**已定作者需求不變**：成年性愛專門場景強制完整 L8，普通日常不逐拍開 L8；成人外掛與內接 CERI；不多造觀止週期、Radar advisory-only、Owner 既成決定不重簽、CERI 自記不是 Provider receipt。**新的技術兼容工作**僅是把這項強制 L8 依 V1.2 L0／L8／L9 的 T1／T2／T3+／TM／必要時 TFINAL 交接：光軌是可觀測戰情回報，R2 消費 T1，顯影候選接受 TM fidelity 比對；不取得 hidden CoT、選勝、同意或 release 權。真 required trace missing 不能假報 `cycle_outcome=COMPLETED`。
+
+這是**現行 OS 來源版本對齊**，不是授權將觀止 V0.5 升 RC1／CURRENT、不是 Host 部署證明、也不是修改已凍結的 Route／SAVE。
+
 # 四｜現在還不需要作者再做一次相同決定
 
 上述四點已是明示設計方向，**不要在下一份審查 MEMO 又改寫成「作者是否同意？」**。
