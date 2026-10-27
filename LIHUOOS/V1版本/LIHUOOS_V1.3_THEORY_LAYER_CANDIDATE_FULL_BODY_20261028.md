@@ -14075,7 +14075,7 @@ L4 的核心任務不是再替 PATH、Reaction Body、Closure Gravity 各自寫�
 本層主要回照以下材料：
 
 ~~~text
-LIHUOOS/V1版本/L3 第二版本.md
+LIHUOOS/V1版本/L3 第三版本.md
 
 理火理論/生成動力學本體論_前段補充_解空間與限制地形.md
 
