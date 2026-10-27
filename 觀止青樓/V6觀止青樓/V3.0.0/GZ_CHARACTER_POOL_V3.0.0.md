@@ -7,6 +7,7 @@
 **法位界線：** 九份來源均為 WORKING；本合併文件也維持 WORKING。只有經人類另行批准及治理上適用的更新，才能取代已批准的舊人物池或取得其他法位。
 **視覺資料：** 保留各角色的 SOURCE_ANCHORED_FACTS 與 VISUAL_DESIGN 區隔；導演視覺設計不自動變成歷史人物或世界既成事實。
 **路線隔離：** BASE 不是 Route/SAVE/RCL；能力、傾向、野心、私欲、身體描述都不產生事件、同意或角色知情。
+**足部身體史確認（2026-10-27，人類明示）：** 蘇三、瑞珠、瑞玉確認纏足；夏蓮／趙姬、關盼盼、孫雪娥、王六兒、顧青簡、紅娘氏、崔鶯鶯確認不纏足。這十項取代對應人物卡的舊未定欄位與不相容視覺指示。唐代背景《西廂記》的紅娘、崔鶯鶯不因此被宋代習俗重設身體史。詳細尺寸、束足形成時間與個體移動成本不另推定；此改動不代表任何 Route 自動出場或其他 WORLD 文件已更新。
 **關係衝突提案增補（2026-10-27）：** 12組人物衝突關係寫入本檔索引並回填對應人物卡，以事件來源、利益位置與對方視角為準；若只是尚未相識或未來可能產生的衝突，必須保持候選，不可跨線倒灌已成事實。尤其吳月娘不得被提前寫成西門家已崩解後的落難者。
 **人物年齡視覺校準（2026-10-27）：** 依人類補正，觀止年輕姑娘主要集中在**成年18～24歲**，資深經營者、媒婆、母親或明確年長角色可另有年齡；不可由經歷、權力、職業年資、婚姻、計算能力與悲劇直接推成三四十歲。本次將 43 張人物卡的 `apparent_age` 修正為較年輕的 WORKING 視覺範圍，這些區間不是精確出生年。明確人類重錨：白三娘約35歲、吳月娘約30出頭、顧青簡年輕未嫁且無性經驗；保留李媽媽46歲、白玉潔24歲、沈玉晶19歲、林太太來源三十後段等既有來源年齡。現存婚姻、身份、年齡來源硬錨優先；本次不更動其他人物池正式法位。
 **敵對關係增補（2026-10-27）：** C05 浮香 ↔ C14 紫蘭為藝術與商業競爭；《雙魁夜鬥》的見血衝突僅屬花滿樓線。C08 蘇清 ↔ C11 阿麗婭為小說第二卷已成立的信任裂痕與其後共生。四名人物各保存一側視角；敵對不是永久不可合作，不強制再打、和解或給旁人自動知情。
@@ -7310,6 +7311,21 @@ LOCKS:
 
 ## D04｜玉堂春／蘇三
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `FOOTBOUND_CONFIRMED`（纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 人類確認蘇三纏足；原先未定的工作設定作廢。確切纏足開始時間與個別足形尚未固定。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "D04"
+  footbinding: "FOOTBOUND_CONFIRMED"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "UNKNOWN"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 未來觀止居所預選名（條件式）
 
 **預選居所名：** **還春閣**
@@ -7333,7 +7349,7 @@ VISUAL_MANIFESTATION_BASE:
     - "確認成年；精確年齡 NOT_FIXED。"
     - "著名風月女子／名妓型人物，已有成熟青樓經驗與高身價自我模型。"
     - "現行法位為刑籍官奴＋強制官妓；但判詞不自動證明殺夫真相。"
-    - "footbinding = NOT_FIXED；本視覺基線不得自行把纏足或不纏足變成 canon。"
+    - "footbinding = FOOTBOUND_CONFIRMED / HUMAN_EXPLICIT_2026-10-27；舊未定設定已失效。"
   VISUAL_DESIGN:
     apparent_age: "約20～24歲的成年視覺工作範圍；非精確來源定歲，職業、婚姻與閱歷不可直接推高年齡"
     silhouette: "中等身量，曾有名妓式講究，但當下多一層受審與被押解後的防備"
@@ -7352,7 +7368,7 @@ VISUAL_MANIFESTATION_BASE:
       default_style: "若仍能整理，會努力保持過去名妓的整潔；官府交接場景可簡化"
     distinguishing_features:
       - "『玉堂春』的體面與『刑奴官妓』文書法位形成視覺衝突"
-      - "footbinding 未定；鞋履應保持中性不可判定，不以足部特寫建立設定"
+      - "已確認纏足；鞋履與步態應依真實足部條件顯影，不以足部特寫定義人物"
       - "她不是第一次進風月場，動作裡應有熟練而非新人羞怯"
     presentation:
       makeup: "在有自主整理空間時仍偏成熟名妓妝；押解／交接場景可明顯減少"
@@ -7364,9 +7380,9 @@ VISUAL_MANIFESTATION_BASE:
       attraction_or_presence: "有過高身價與職業熟練，也有真實恐懼與身份防衛"
       structural_tension: ["名妓自我 × 刑奴法位", "真情 × 自我欺騙", "職業熟練 × 當下非自願", "特殊性信念 × 被制度一視同仁"]
   IMAGE_GENERATION_ANCHOR:
-    must_keep: ["明確成年", "成熟名妓經驗", "身份防衛與警惕", "官奴／官妓法位不等於人格被抹掉", "足部狀態保持 NOT_FIXED"]
+    must_keep: ["明確成年", "成熟名妓經驗", "身份防衛與警惕", "官奴／官妓法位不等於人格被抹掉", "足部確認纏足；具體足形程度未定"]
     may_vary: ["舊日華服或交接素衣", "妝容完整度", "是否持文書／鎖具等場景物"]
-    must_not: ["受虐美人色情化", "把強制官妓畫成自願誘惑", "無知新人", "自動纏足或自動大腳", "用傷痕數量證明她受過苦", "把戀愛腦畫成愚蠢空洞"]
+    must_not: ["受虐美人色情化", "把強制官妓畫成自願誘惑", "無知新人", "誤將已纏足的人物畫成正常足，或無來源添加極端足形", "用傷痕數量證明她受過苦", "把戀愛腦畫成愚蠢空洞"]
 ```
 
 ## 固定身份、來源分層與暗黑改編法位
@@ -7659,7 +7675,7 @@ PERSONA_8AXIS_CARD:
 
 ```yaml
 BODY_AND_PROFESSION:
-  footbinding: "NOT_FIXED"
+  footbinding: "FOOTBOUND_CONFIRMED / HUMAN_EXPLICIT_2026-10-27"
   reason: "本次 GM setting 未固定；不得用時代高先驗硬補。"
 
   former_professional_status:
@@ -9344,6 +9360,21 @@ CHARACTER_BASE:
 
 ## G01｜紅娘氏
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 依《西廂記》唐代故事背景，人類確認紅娘不纏足；進入觀止後不自動改成北宋纏足女子。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G01"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 關係衝突候選（非預定敵人）
 
 - **RT04｜崔鶯鶯：** 崔小姐與紅娘的代價錯位。**可能引爆：** 若談起幫忙私會、替小姐再牽線與被賣，兩人可能對責任有不同說法。**證據位置：** 班富蘭線特定分歧；共用池保存舊主僕來源。**不能預設：** 紅娘不自動恨崔鶯鶯；抓姦致賣僅屬班富蘭分歧，不跨線寫實。
@@ -9437,7 +9468,7 @@ VISUAL_MANIFESTATION_BASE:
       - "標準豔妓花魁定裝照"
       - "純善良媒婆"
       - "圖片暗示自動同意"
-      - "把纏足升格為既定"
+      - "把已確認不纏足的紅娘畫成宋代小腳"
   RADAR_V6_ADVISORY_NOTE: "可愛是交流技術，不是年齡；保留來源 VISUAL_PROFILE 而非重畫原錨。"
 ```
 
@@ -10221,6 +10252,21 @@ CHARACTER_BASE:
 
 ## G04｜顧青簡
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 人類確認不纏足；已取代先前禁止確定足部狀態的舊工作備註。未嫁、沒有過性經驗與商業本領另行成立，均不是推斷足形的理由。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G04"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 人類年齡校準與身份補正（2026-10-27）
 
 **人類明確補正：** 顧青簡為成年、**未嫁且沒有過性經驗（處女）**的年輕女子。視覺暫取 20～24 歲；精確歲數未定。高階商業參謀的職務與談判本事不構成三四十歲的年齡證明；她的私人關係、性經驗、婚姻和工作能力分開記錄。
@@ -10240,7 +10286,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS:
     - "觀止／定陶商會原生職業人物，成年，精確年齡 NOT_FIXED；固定身份為高階商業參謀／女性師爺，非觀止雇員、非私人秘書。"
     - "由書手與帳房家庭起步，逐步靠筆跡、算術、利益判讀與談判成為商會高階人才。"
-    - "BODY_HISTORY.footbinding = NOT_FIXED / DEFERRED；商業策略優先，契約、帳務與程序是其工具。"
+    - "BODY_HISTORY.footbinding = NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27；商業策略優先，契約、帳務與程序是其工具。"
   VISUAL_DESIGN:
     apparent_age: "約20～24歲的成年未嫁女性；高階商業能力不代表熟齡"
     silhouette: "修長而收斂；整體像一支直放的筆，而非冷豔武官。"
@@ -10286,9 +10332,9 @@ VISUAL_MANIFESTATION_BASE:
       - "現代秘書或會計制服"
       - "過度法遵冷臉"
       - "萬能女軍師"
-      - "固定纏足"
+      - "把未纏足的顧青簡畫成小腳"
       - "憑外貌替她造私人婚姻或成功交易"
-  RADAR_V6_ADVISORY_NOTE: "程序不可吞沒商業策略；FOOTBINDING 必須留在 NOT_FIXED。"
+  RADAR_V6_ADVISORY_NOTE: "程序不可吞沒商業策略；FOOTBINDING 已由人類確認為 NOT_FOOTBOUND。"
 ```
 
 
@@ -10518,7 +10564,7 @@ CHARACTER_BASE:
     performance: "她對外乾脆、務實、算得快，會把複雜利益拆成能談的條件；職業冷靜不等於沒有私人好惡、幽默與厭煩。"
 
   BODY_HISTORY:
-    footbinding: "NOT_FIXED / DEFERRED"
+    footbinding: "NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27"
     reason: "其家庭究竟落在一般商戶、富戶或書吏階層的精確童年身體規訓尚無必要證據；不為補欄位硬判。"
 
   BASE_AMBITION:
@@ -10587,7 +10633,7 @@ CHARACTER_BASE:
     - "COMMERCIAL STRATEGY != GUARANTEED SUCCESS"
     - "GOVERNANCE LOCK != CHARACTER VOICE"
     - "BASE CARD AUTHORITY != ROUTE-SPECIFIC SIGNING AUTHORITY"
-    - "FOOTBINDING STATUS REMAINS NOT_FIXED"
+    - "FOOTBINDING = NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27"
 ```
 
 ---
@@ -11365,6 +11411,21 @@ CHARACTER_BASE:
 
 ## G08｜王六兒
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 人類確認不纏足；商戶婦人與私人生活不決定足形。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G08"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 性與親密生成標籤（新增工作候選）
 
 **標籤：** `私人親密與家計利益分層`、`不由丈夫決定意願`
@@ -11380,7 +11441,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS:
     - "《金瓶梅》觀止平行人物，已成年，是韓道國之妻、韓愛姐之母；現行身份為商戶家庭婦人、非妓籍。"
     - "她同時參與家庭經濟、人情請託與私人關係判斷；情事／丈夫收益並非自動許可、妓業或愛情。"
-    - "BODY_HISTORY.footbinding = NOT_FIXED；精確年齡亦 NOT_FIXED。"
+    - "BODY_HISTORY.footbinding = NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27；精確年齡仍未定。"
   VISUAL_DESIGN:
     apparent_age: "約23～28歲的成年視覺工作範圍；非精確來源定歲，職業、婚姻與閱歷不可直接推高年齡"
     silhouette: "結實柔和、善於處理家中大小物件；氣場不是貴婦，也非紅倌。"
@@ -11425,7 +11486,7 @@ VISUAL_MANIFESTATION_BASE:
       - "青樓妓女扮相"
       - "被動受害者固定臉"
       - "無腦情婦臉譜"
-      - "纏足自動確定"
+      - "把已確認未纏足的王六兒畫成小腳"
       - "用外貌暗示丈夫已同意任何事"
   RADAR_V6_ADVISORY_NOTE: "家庭位置不是人格消失；外觀不替她或韓道國決定關係交易。"
 ```
@@ -11523,7 +11584,7 @@ CHARACTER_BASE:
     core: "她對外就是韓道國之妻、韓愛姐之母；真正需要遮掩的是關係與利益流向，而非另造身世。"
 
   BODY_HISTORY:
-    footbinding: "NOT_FIXED"
+    footbinding: "NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27"
     note: "商戶婦女有時代先驗，但來源直接證據不足。"
 
   BASE_AMBITION:
@@ -11821,6 +11882,21 @@ CHARACTER_BASE:
 
 ## G10｜孫雪娥
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 人類確認不纏足；保留她長期廚房、內宅勞動的能力。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G10"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 關係衝突候選（非預定敵人）
 
 - **RT02｜龐春梅：** 婢女與灶上四娘的舊家務權力。**可能引爆：** 人手調度、誰使喚誰、舊日口氣重現時可能爭執。**證據位置：** 《金瓶梅》舊人背景；觀止當線重逢待成立。**不能預設：** 不能無來源安排兩人已在觀止重逢或已重新恢復主僕位階。
@@ -11842,7 +11918,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS:
     - "《金瓶梅》觀止平行人物，已成年；來源持有西門宅四娘與灶房、多人飯食、掌火和日常家務能力。"
     - "CURRENT CUTOFF：第八卷末尚未成立西門家崩解；牙行奴籍、賣為廚娘或另宅受僱都是被撤銷的未來預設。"
-    - "BODY_HISTORY.long-term kitchen/household labour confirmed；footbinding = NOT_FIXED。"
+    - "BODY_HISTORY.long-term kitchen/household labour confirmed；footbinding = NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27。"
   VISUAL_DESIGN:
     apparent_age: "約23～28歲的成年視覺工作範圍；非精確來源定歲，職業、婚姻與閱歷不可直接推高年齡"
     silhouette: "結實偏緊繃，袖口與前襟看得到日常做事而非掛牌廚娘制服。"
@@ -11887,7 +11963,7 @@ VISUAL_MANIFESTATION_BASE:
       - "奴籍制服"
       - "單純勵志好廚娘"
       - "惡毒婦人誇張相"
-      - "擅自固定纏足"
+      - "把人類確認未纏足的孫雪娥畫成纏足小腳"
   RADAR_V6_ADVISORY_NOTE: "現行人物深化的後段仍有家敗、奴籍、廚娘求職等舊未來設計語句，與頁首 CURRENT CUTOFF 相牴觸；本卡不沿用其作當前外貌。"
 ```
 
@@ -11985,7 +12061,7 @@ CHARACTER_BASE:
     core: "她不必假裝千金，也不靠悲情抬價；她最能說服人的履歷就是『大戶灶上我做過』。"
 
   BODY_HISTORY:
-    footbinding: "NOT_FIXED"
+    footbinding: "NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27"
     labour_history: "LONG-TERM KITCHEN / HOUSEHOLD LABOUR CONFIRMED"
 
   BASE_AMBITION:
@@ -13492,6 +13568,21 @@ CHARACTER_BASE:
 
 ## G18｜瑞珠
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `FOOTBOUND_CONFIRMED`（纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 人類確認姊姊瑞珠纏足；不憑此設定編造腳形尺寸與纏足時間。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G18"
+  footbinding: "FOOTBOUND_CONFIRMED"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "UNKNOWN"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 未來觀止居所預選名（條件式）
 
 **預選居所名：** **慎語齋**
@@ -13514,7 +13605,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS:
     - "《肉蒲團》觀止平行人物，已婚成年，為瑞玉較年長姊妹／妯娌群成員，丈夫號臥雲生。"
     - "她比瑞玉更重門戶、僕役、秘密外洩與局面收束；曾較早對過度壓人的規則提出收手。"
-    - "非妓籍，觀止出場尚未成立；footbinding = NOT_FIXED。"
+    - "非妓籍，觀止出場尚未成立；footbinding = FOOTBOUND_CONFIRMED / HUMAN_EXPLICIT_2026-10-27。"
   VISUAL_DESIGN:
     apparent_age: "約23～27歲的成年視覺工作範圍；非精確來源定歲，職業、婚姻與閱歷不可直接推高年齡"
     silhouette: "重心穩、衣袖收束，身姿帶宅內事務管理者的沉著。"
@@ -13558,7 +13649,7 @@ VISUAL_MANIFESTATION_BASE:
       - "德高望重道德官"
       - "瑞玉複製臉"
       - "共享關係永久同意"
-      - "固定纏足"
+      - "把已確認纏足的瑞珠畫成正常足或捏造極端足形"
       - "尚未發生觀止場景的定裝"
   RADAR_V6_ADVISORY_NOTE: "瑞珠的風險感是人物能力，不可讓她變成抽象安全審計員，也不能因此沒收她自己的玩心。"
 ```
@@ -13648,7 +13739,7 @@ CHARACTER_BASE:
     core: "對外就是已婚婦人與姊妹群中的年長實務者；沒有必要另外扮一個落難身世。"
 
   BODY_HISTORY:
-    footbinding: "NOT_FIXED"
+    footbinding: "FOOTBOUND_CONFIRMED / HUMAN_EXPLICIT_2026-10-27"
     note: "時代／階層可形成先驗，但來源不足以把高機率寫成個體既定事實。"
 
   BASE_AMBITION:
@@ -13707,6 +13798,21 @@ CHARACTER_BASE:
 
 ## G19｜瑞玉
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `FOOTBOUND_CONFIRMED`（纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 人類確認妹妹瑞玉纏足；不預設兩姊妹足形、舒適度或活動能力相同。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G19"
+  footbinding: "FOOTBOUND_CONFIRMED"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "UNKNOWN"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 未來觀止居所預選名（條件式）
 
 **預選居所名：** **問風軒**
@@ -13729,7 +13835,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS:
     - "《肉蒲團》觀止平行人物，CONFIRMED_ADULT；較瑞珠年輕但仍是成年人，已婚，丈夫號倚雲生。"
     - "較瑞珠快嘴、直接、好奇、會當場問破別人不想說的話；參與姊妹協議不意味失去獨立拒絕權。"
-    - "非妓籍，觀止 Route 尚未出場；BODY_HISTORY.footbinding = NOT_FIXED。"
+    - "非妓籍，觀止 Route 尚未出場；BODY_HISTORY.footbinding = FOOTBOUND_CONFIRMED / HUMAN_EXPLICIT_2026-10-27。"
   VISUAL_DESIGN:
     apparent_age: "約20～23歲的成年視覺工作範圍；非精確來源定歲，職業、婚姻與閱歷不可直接推高年齡"
     silhouette: "節奏輕快的成年女子輪廓，向人發問時身體前傾，非幼童玩偶。"
@@ -13774,7 +13880,7 @@ VISUAL_MANIFESTATION_BASE:
       - "學生制服、雙馬尾或童裝"
       - "問得快等於易同意"
       - "與瑞珠同臉"
-      - "固定纏足"
+      - "把已確認纏足的瑞玉畫成正常足或捏造極端足形"
   RADAR_V6_ADVISORY_NOTE: "YOUNGER != MINOR。她被叫『小的』是姊妹年序，不是法律或視覺年齡。"
 ```
 
@@ -13861,8 +13967,8 @@ CHARACTER_BASE:
     core: "她對外不演清冷賢婦；真正的快口、好奇與年輕氣本來就是她的一部分。"
 
   BODY_HISTORY:
-    footbinding: "NOT_FIXED"
-    note: "不得因她是較年輕婦人或來源時代女性就自動建立。"
+    footbinding: "FOOTBOUND_CONFIRMED / HUMAN_EXPLICIT_2026-10-27"
+    note: "人類已確認纏足，仍不得由年紀自動推出足形尺寸、身體意願與行動能力。"
 
   BASE_AMBITION:
     primary:
@@ -13919,6 +14025,21 @@ CHARACTER_BASE:
 ---
 
 ## G20｜崔鶯鶯
+
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 依《西廂記》唐代故事背景，人類確認崔鶯鶯不纏足；大戶小姐身份不授權改寫其來源身體史。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "G20"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
 
 ### 關係衝突候選（非預定敵人）
 
@@ -15863,6 +15984,21 @@ CHARACTER_BASE:
 
 ## H07｜關盼盼
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 沿用唐代歌舞女子的身體史；人類確認關盼盼不纏足。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "H07"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 未來觀止居所預選名（條件式）
 
 **預選居所名：** **夢燕臺**
@@ -15885,7 +16021,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS: 
     - "歷史文學來源中白居易《燕子樓三首並序》以『眄眄』記其善歌舞；後世稱關盼盼，成年，觀止收錄為自主傳奇舞者。"
     - "燕子樓長期獨居是文學來源，後世絕食逼死故事未證成早期硬事實；舞蹈能力確立但固定編舞、教舞職務、觀止舞台合約未成立。"
-    - "BODY_HISTORY 個體纏足資料未見明確硬鎖；保留 NOT_FIXED 而不因唐代女舞者自行設定奇特小腳。"
+    - "BODY_HISTORY.footbinding = NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27；唐代女舞者不設宋代纏足小腳。"
   VISUAL_DESIGN: 
     apparent_age: "約22～28歲的成年視覺工作範圍；非精確來源定歲，職業、婚姻與閱歷不可直接推高年齡"
     silhouette: "以舞袖、轉身與重心建造辨識輪廓，與楊玉環的宴樂生活氣質分開"
@@ -15930,7 +16066,7 @@ VISUAL_MANIFESTATION_BASE:
       - "絕食死亡定局"
       - "自動觀止簽約"
       - "舞蹈等於成人服務"
-      - "自行鎖定纏足"
+      - "把唐代來源正常足畫成宋代纏足小腳"
   RADAR_V6_ADVISORY_NOTE: "關盼盼是後世姓名層，眄眄是早期序文稱呼；身體史本卡未確認，不用影像替史料補完。"
 ```
 
@@ -16175,6 +16311,21 @@ HARD_LOCKS:
 
 ## H08｜夏蓮／趙姬
 
+### 足部身體史｜人類明示確認（2026-10-27）
+
+**狀態：** `NOT_FOOTBOUND`（不纏足）。**來源：** 人類直接指定，2026-10-27。
+**解釋與邊界：** 沿用戰國來源的身體史；人類確認夏蓮／趙姬不纏足，不被北宋習俗改造。 不把纏足與否當成社會階級、性同意或妓籍的充分證據；行走、鞋履與體力仍按實際場景處理。
+
+```yaml
+HUMAN_CONFIRMED_FOOT_HISTORY:
+  character_id: "H08"
+  footbinding: "NOT_FOOTBOUND"
+  authority: "HUMAN_EXPLICIT_2026-10-27"
+  onset_and_degree: "NOT_APPLICABLE"
+  applicability: "PORTABLE_CHARACTER_BASE; NO_ROUTE_EVENT_CREATED"
+```
+
+
 ### 未來觀止居所預選名（條件式）
 
 **預選居所名：** **邯鄲臺**
@@ -16197,7 +16348,7 @@ VISUAL_MANIFESTATION_BASE:
   SOURCE_ANCHORED_FACTS: 
     - "觀止採《史記》趙姬之史源及 2001《呂不韋傳奇》『夏蓮』戲劇化舞妓舊名；兩層不可混成《史記》明載本名。"
     - "人物核心是邯鄲歌舞女子進入秦王室、後成太后，成年，具有專業宴席歌舞能力及權力交易史；嬴政生父爭議不得當確定真相。"
-    - "『夏蓮／趙姬』不是夏太后；BODY_HISTORY 未見纏足已確認記錄，不按宋代高門規矩反塑戰國女性。"
+    - "『夏蓮／趙姬』不是夏太后；BODY_HISTORY.footbinding = NOT_FOOTBOUND / HUMAN_EXPLICIT_2026-10-27，不按宋代高門規矩反塑戰國女性。"
   VISUAL_DESIGN: 
     apparent_age: "戰國歷史背景成年女性，舞者／太后可作不同生命期工作造型；本次主視覺選成熟成人、不固定歲數"
     silhouette: "有舞者肢體與宮廷權勢的雙重層次，不套宋代皇后髮冠"
