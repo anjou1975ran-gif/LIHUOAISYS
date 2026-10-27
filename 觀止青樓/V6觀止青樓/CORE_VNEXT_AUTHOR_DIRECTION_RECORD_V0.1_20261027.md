@@ -58,6 +58,8 @@ REAL APPLICABLE LIMIT
 
 `CORE VNext V0.5` 已把成人方法移到外掛，只保留最小的上下文交接與真實 return 承接；L8 final receipt checklist 對帳一趟理火，外掛只提供實際能力結果，不另外建 release。理火 OS V1.1 的 L0 已將 L8 列作 `PRESERVED_V1_0_OPERATIVE_BASELINE`，因此 **L8 文件法位存在**；尚無證據的是 Host 部署、實作完成及外部 L8 instance 真正運行，獨立回歸亦未通過。**普通故事節拍不需逐次開 L8 Cycle Object**。外掛的同模型 CERI 工作只叫 `CERI_WORK_RECORD`，真 Provider 回傳才叫 `PROVIDER_RECEIPT`；外掛只在新、尚未成立的 material delta 出現時回交原 Owner，不對既成決定二次確認。
 
+**作者再釐清必經條件：只要成人性愛場景要走專門生成，就必須真正跑完完整理火 L8；不跑 L8 的只是一般生成，不能聲稱成人心法／L8 已完成。** 普通故事節拍仍不需要逐輪 L8。完整 L8 本來包含 manifestation/release，所以正確作法是先進 L8、在週期內調用外掛及內部 CERI、完成治理與最終對帳；**不是在顯影前就索取整趟完成收據**。若真 required return 沒收到，不得造假；這與單一外部 CERI receipt 缺失不自動造成全局 HOLD 是不同命題。
+
 **這兩個新增設計也已由作者決定；不用下一輪再問一次是否外掛化、是否要觀止週期。**
 
 # 四｜現在還不需要作者再做一次相同決定
