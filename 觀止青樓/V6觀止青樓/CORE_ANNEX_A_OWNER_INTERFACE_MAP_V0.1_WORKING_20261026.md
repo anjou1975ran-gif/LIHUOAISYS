@@ -164,7 +164,7 @@ CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SAL
 
 **這是 2026-10-27 作者追加的明確選擇。** 在九尾龜成人系統 V2.0 的方法基礎上，觀止另建 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`。CERI 的**一般宋代／現代語域能力**不受限制地服務普通敘事；**成人場景的完整 CERI 工作由成人外掛內接**，包括 register formation、工作紀錄與真正有返回時的外部 receipt。CERI 仍不取得人物、事件、同意、世界、SAVE 或 Host 規範主權。
 
-**當且僅當有一項工作真正需要理火 governing／operating cycle 時，L8 是唯一此類週期。** 觀止的普通茶席、對話或每一個故事節拍**不必顯式建立 L8 Cycle Object**；Guanzhi Route／Scene／時間游標只是本地故事狀態，不是第二個週期。外掛不設 `ADULT_CYCLE`，CERI 不設 `CERI_RELEASE`。**真正啟動 L8 時**，該次最終 receipt accounting 才交給 L8。不能由外掛假報 L8 真正必需的治理／Main 結果；外掛或 Radar receipt 缺失本身也不產生全場 HOLD。
+**作者最新釐清：成人性愛場景的專門生成一定需要真正跑完整的 L8 理火週期；沒有完整 L8 的成人文字只能算一般生成，不得自稱專門外掛／L8 完成。** 完整 L8 包含 Main、適用治理、外掛內接 CERI 的 manifestation、release 與最終 receipt accounting；不能先用一般旁白替代，事後偽造一張 L8 憑證。**對非成人業務，當且僅當真正需要理火 governing／operating cycle 時才由 L8 承擔；它是唯一此類週期。** 觀止的普通茶席、對話或每一個故事節拍**不必顯式建立 L8 Cycle Object**；Guanzhi Route／Scene／時間游標只是本地故事狀態，不是第二個週期。外掛不設 `ADULT_CYCLE`，CERI 不設 `CERI_RELEASE`。**真正啟動 L8 時**，該次最終 receipt accounting 才交給 L8。不能由外掛假報 L8 真正必需的治理／Main 結果；外掛或 Radar receipt 缺失本身也不產生全場 HOLD。
 
 **Owner 有主權，不代表每次要表演一次主權：** 外掛只是呈現已成立 Character choice／WORLD condition 時，無須在外掛之後重簽。只有外掛產生**新的未成立 material delta** 才交給真正適用的 Original Owner；這是 event-driven handoff，不是每幕固定批准步驟。
 
