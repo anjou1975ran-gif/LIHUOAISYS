@@ -77,6 +77,8 @@ CORE VNext V0.3 已回到本地故事：辨認 Route、守住時間與局面、�
 
 **2026-10-27 後續裁定（新增於原遷移 MEMO；不是修改舊 Director 正文）：** 作者明確採用九尾龜成人系統 V2.0 的方法，做成觀止獨立 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`；成人 CERI 內接其中；**唯一 governing/business cycle 是理火 OS L8，不創造觀止週期**。
 
+**作者補充的必經路徑：真正要生成成人性愛場景時，Director 必須把任務交給完整的 LIHUO L8 週期，成人外掛只能在其合格 manifestation 階段執行；單憑一般 Chat-native 文字不能冒充 L8 成功。普通商業對話／調笑／日常節拍沒有因此變成逐拍必開的 L8 工作。** L8 的「完整」包含顯影後的 release／final receipt；不可要求預先在顯影前完成全週期。
+
 未來 Director 主文應只留下四句可操作的交接：
 
 1. 已成立的角色／世界語義決定什麼事情有資格進場。Director 不因自己的創作慣性替人物增加同意或將未決寫成完成。
