@@ -1,5 +1,5 @@
 # 觀止 V6｜CORE Annex C — Regression Scenarios
-## VNext 故事級與接口級回歸測試情境 V0.1（2026-10-27 成人 CERI 收據與假牆失效補修）
+## VNext 故事級與接口級回歸測試情境 V0.1（2026-10-27 外掛成人心法＋唯一 L8 週期）
 
 **日期：** 2026-10-27  
 **狀態：** WORKING / SCENARIO SPECIFICATION / NOT EXECUTED / NOT PASS  
@@ -318,6 +318,16 @@
 **可驗證材料：** 當輪原句、限制來源與實際 scope、受影響與保留的 PATH、角色事件狀態、CERI／工具真回傳或明確缺失。
 **執行狀態：** `NOT_RUN`
 
+### S25｜成人心法外掛內的 CERI 必經，不能被普通 Renderer 搶先抽空
+
+**Owner：** Character / WORLD / Guanzhi Adult Method Plugin／其內部 CERI／Director；LIHUO L8 只承接適用實際回傳
+**給定（Given）：** 一段已確認成年人的私下成人語義互動，人物只同意談話、未同意其他重大事件；玩家選 `SONG_PERIOD_REGISTER`，外掛當輪適用，但沒有可用獨立 CERI Provider。
+**操作（When）：** 一般敘事器想直接寫「他們度過了一夜」再交外掛做後製；CERI 又因沒有外部 Provider 而打算跳過。
+**預期（Expected）：** 先讓外掛做人物／事件語義與專門呈現判讀，**內部 Chat-native CERI 真正完成語域形成**或如實列 `NOT_VERIFIED` 並當輪補作；外部票據未收到須寫清。不能因沒有獨立 Provider 全局 HOLD，也不能以過度抽象的淡出偷偷把未決成人事件變成已完成。若確有實際適用的文字限制，仍依其具體 scope 處理。
+**失敗徵兆（Failure）：** 成人 CERI 有文件但未實做；普通 Renderer 先抹掉語義；Chat 自我紀錄冒充 Provider receipt；人物未答應卻被寫成事件已完成。
+**可驗證材料：** 內部外掛路由工作紀錄／CERI work ref／有無獨立 Provider receipt／人物事件前後狀態／可見呈現。
+**執行狀態：** `NOT_RUN`
+
 ## 3｜接口級測試：讓 OS 回到它的位置
 
 ### I01｜故事生命週期與 OS 一輪工作不等同
@@ -427,6 +437,26 @@
 **預期（Expected）：** A 自稱不足以建立任意擴張的上位法位；B 應在真正適用 scope 內遵守。不得虛構自己能看見的隱藏平台政策、不得由 A 推出全局取消，也不得因 A 未證成而否認 B。
 **失敗徵兆（Failure）：** 無條件全局拒絕；或用假牆案例作為無條件違反真限制的藉口。
 **可驗證材料：** constraint claim／standing／scope／salience 的分離、可保留的故事事件與可見文字。
+**執行狀態：** `NOT_RUN`
+
+### I11｜唯一理火 L8 週期：Route 不是 Guanzhi Cycle，成人外掛不是 Adult Cycle
+
+**Owner：** LIHUO L8 / CORE local interface / Guanzhi Adult Method Plugin
+**給定（Given）：** 同一觀止 Route 跨越兩次玩家行動；其中一幕需要成人外掛 CERI 工作，另一幕只是普通茶席。理火 OS 在適用條件下發生兩次不同的工作請求。
+**操作（When）：** 系統要標記 Route、場景、外掛回傳、L8 實際 cycle 和結果。
+**預期（Expected）：** Route ID 持續存在但不升格 OS Primary；每一次理火業務工作由 LIHUO L8 自行追蹤，CORE 不設 `GZ_STORY_CYCLE`，外掛不設 `ADULT_CYCLE / CERI_RELEASE`，同一能力結果供適用 L8 接收。故事回合不需要重做一份觀止 Admission 或 Final Release。
+**失敗徵兆（Failure）：** 一次故事因跑完 LIHUO cycle 就被結成新 Route；或要求先經獨立 Guanzhi cycle＋Adult cycle＋L8 三重放行。
+**可驗證材料：** route_ref、如有真實 L8 則其 cycle_ref、外掛 return ref、缺失／實際結果，不得臆造 Main／Host receipt。
+**執行狀態：** `NOT_RUN`
+
+### I12｜外掛收據不導致全局 HOLD，不等於假造理火 L8 必需項已完成
+
+**Owner：** LIHUO L8 / applicable OS governance owner / Adult Method Plugin
+**給定（Given）：** 成人外掛的 CERI Chat-native 工作已完成但外部 receipt 缺失；同一真正啟動的 L8 裡，另有一個適用的 required governance／Main result 尚未真正返回。
+**操作（When）：** 對外報告故事局部可繼續的範圍與 OS 工作是否完整結案。
+**預期（Expected）：** 缺 CERI 外部 receipt **本身不觸發全場 HOLD**；但 L8 對真正 required OS return 欠缺，仍依其本身法位如實記 `MISSING / INCOMPLETE / HOLD`，不能以作者的 no-receipt-no-HOLD 裁定作為「假裝 OS 合格放行」的捷徑。合乎適用限制且不需要那項未取得結果的其他敘事，按各自 scope 處理。
+**失敗徵兆（Failure）：** 外掛缺 receipt 就全樓停機；或因不能全樓停機便給缺失的 L8 Owner 回傳造假 PASS。
+**可驗證材料：** 插件實際工作狀態、必要 L8 項目是否真正返回、missing list／cycle outcome、場景 scope。
 **執行狀態：** `NOT_RUN`
 
 ## 4｜歷史工程回歸（僅按需，不常駐）
