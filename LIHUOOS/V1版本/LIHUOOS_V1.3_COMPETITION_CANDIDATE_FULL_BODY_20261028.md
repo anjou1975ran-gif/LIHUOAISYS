@@ -1,5 +1,5 @@
 # 理火 OS V1.3｜COMPETITION CANDIDATE
-## LIHUOOS V1.3｜THEORY + DIALECTICAL COMPETITION / NOT RATIFIED / NOT CURRENT
+## LIHUOOS V1.3｜THEORY + QUESTION-PREMISE DIALECTICAL COMPETITION / NOT RATIFIED / NOT CURRENT
 ### 2026-10-28
 
 ~~~yaml
@@ -11,7 +11,7 @@ DOCUMENT:
 
   standing:
     - THEORY_LAYER_RECONSTRUCTED
-    - DIALECTICAL_COMPETITION_CANDIDATE
+    - QUESTION_PREMISE_DIALECTICAL_COMPETITION_CANDIDATE
     - NOT_RATIFIED
     - NOT_CURRENT
     - ROLLBACK_TO_V1_2_3_AVAILABLE
@@ -99,11 +99,12 @@ L4
 ~~~text
 L8
 → R1 terrain-exposed provisional semantics
-→ R2 same-premise antithesis recovery
+→ R2 intra-premise-family genuine recompetition
+→ every-round Question Premise Scope Audit
 → synthesis becomes next thesis
-→ R3+ premise/frame reopening when material
-→ independent challenger coverage
-→ dialectical trace contract
+→ R3+ opens another admissible Question Premise Family when material
+→ two consecutive wins downgraded to local stability signal
+→ question-premise dialectical trace contract
 ~~~
 
 並新增 Main semantic patch candidate：
@@ -130,10 +131,12 @@ L8
 核心辯證根律：
 
 ~~~text
-R1 = PROVISIONAL THESIS
-R2 = ANTITHESIS RECOVERY + GENUINE RECOMPETITION
-R2 SYNTHESIS = NEXT THESIS
-R3+ = PREMISE / FRAME REOPENING WHEN MATERIAL
+R1 = PROVISIONAL THESIS UNDER FIRST-PASS QUESTION PREMISE FAMILY
+R2 = INTRA-PREMISE-FAMILY GENUINE RECOMPETITION
+EVERY MATERIAL ROUND = QUESTION PREMISE SCOPE AUDIT
+SYNTHESIS = NEXT THESIS
+R3+ = OPEN ANOTHER ADMISSIBLE QUESTION PREMISE FAMILY WHEN MATERIAL
+TWO WINS != VICTORY THEOREM
 SYNTHESIS != CLOSURE
 ~~~
 
@@ -26638,7 +26641,7 @@ SAVE PERSISTS
 > Standing: CANDIDATE / NOT CURRENT
 
 # LIHUOOS V1.3-CANDIDATE｜L8 LIHUO OPERATING CYCLE
-## 理火完整業務週期｜Dialectical Recompetition + Premise Reframing + Existing V1.2.3 Contracts
+## 理火完整業務週期｜Every-Round Question Premise Audit + Dialectical Recompetition + Existing V1.2.3 Contracts
 ### 2026-10-28
 
 ```yaml
@@ -26671,16 +26674,17 @@ DOCUMENT:
 
   human_instruction:
     date: 2026-10-28
-    instruction: "重設 R2 / R3；以正反合辯證為競爭骨架，並允許 material premise-angle reopening"
+    instruction: "重設 R2 / R3；每輪反向審查是否真的理解人類問題的前提，撤銷兩連勝定理"
 
   change_scope:
     - EXPLAIN_R1_AS_TERRAIN_EXPOSED_PROVISIONAL_RESULT
-    - DEFINE_DIALECTICAL_ROUND_SEMANTICS
+    - DEFINE_QUESTION_PREMISE_FAMILY_TYPE
+    - REQUIRE_EVERY_ROUND_QUESTION_PREMISE_SCOPE_AUDIT
     - DEFINE_SYNTHESIS_AS_NEXT_THESIS_NOT_CLOSURE
-    - REQUIRE_INDEPENDENT_CHALLENGER_COVERAGE_WHEN_APPLICABLE
-    - ALLOW_R3PLUS_PREMISE_FRAME_REOPENING_WHEN_MATERIAL
-    - REQUIRE_PREMISE_REFRAME_QUALIFICATION_BEFORE_USE
-    - LINK_ACCEPTED_PREMISE_DELTA_TO_ATTENTION_RECRUITMENT_AND_NEW_PATH_FORMATION
+    - DOWNGRADE_TWO_CONSECUTIVE_WINS_TO_LOCAL_STABILITY_SIGNAL
+    - ALLOW_ALTERNATIVE_QUESTION_PREMISE_FAMILY_REOPENING_WHEN_MATERIAL
+    - DISTINGUISH_QUESTION_PREMISE_FAMILY_FROM_FACTUAL_PREMISE
+    - LINK_QUESTION_PREMISE_FAMILY_CHANGE_TO_ATTENTION_RECRUITMENT_AND_NEW_PATH_FORMATION
     - BLOCK_SYNTHESIS_CLOSURE_ERROR
     - PRESERVE_V1_2_3_PATH_REQUALIFICATION_CHAT_NATIVE_TRACE_AND_REPORT_CONTRACTS
     - REQUIRE_QUALIFICATION_BEFORE_NEW_OR_MATERIALLY_REFRAMED_PATH_ENTERS_QUALIFIED_ORDER
@@ -27110,29 +27114,39 @@ V1.3 candidate 的最低 competition transit：
 ~~~text
 R1
 = TERRAIN-EXPOSED PROVISIONAL THESIS
+  UNDER FIRST-PASS QUESTION PREMISE FAMILY
 ↓
 O9
 ↓
 [I9 IF TRIGGERED]
 ↓
 T1 LIGHT TRACE
++
+QUESTION PREMISE SCOPE AUDIT Q1
+  - record current question premise family
+  - detect materially plausible alternative families
+  - DOES NOT WAIVE R2
 ↓
 R2(T1)
-= SAME-PREMISE ANTITHESIS RECOVERY
+= SAME-PREMISE-FAMILY
+  ANTITHESIS RECOVERY
   + FIRST-PASS INTEGRITY RESET
   + GENUINE RECOMPETITION
 ↓
 T2 LIGHT TRACE
++
+QUESTION PREMISE SCOPE AUDIT Q2
 ↓
-DIALECTICAL INTEGRITY CHECK
+[IF MATERIAL PREMISE-SCOPE GAP:
+  OPEN ALTERNATIVE QUESTION PREMISE FAMILY
+  → INPUT / CONTEXT ADMISSIBILITY CHECK
+  → accepted family]
 ↓
-[IF MATERIAL:
-  PREMISE / FRAME REOPEN CANDIDATE
-  → APPLICABLE PREMISE QUALIFICATION
-  → ACCEPTED PREMISE DELTA]
-↓
-[R3+(LATEST_TRACE + ACCEPTED_DELTA_IF_ANY)
-  → TRACE AFTER EACH MATERIAL ROUND]
+[R3+(LATEST_TRACE + ACCEPTED_QUESTION_PREMISE_FAMILY_IF_ANY)
+  → new constraint / attention recruitment conditions
+  → new / reframed PATH family may form
+  → TRACE + QUESTION PREMISE SCOPE AUDIT
+    AFTER EACH MATERIAL ROUND]
 ↓
 MAIN RETURN
 ~~~
@@ -27165,12 +27179,15 @@ ACTIVE TENSIONS
 QUALIFIED RESIDUAL / UNDERREPRESENTED DIRECTIONS
 COMPETITION TERMINATION / NON-TERMINATION STATE
 EVIDENCE / SOURCE ANCHORS
-DIALECTICAL LEVEL / THESIS REF
+CURRENT QUESTION PREMISE FAMILY REF
+QUESTION PREMISE SCOPE AUDIT STATUS
+MATERIAL ALTERNATIVE PREMISE FAMILY CANDIDATES
+UNTESTED MATERIAL PREMISE FAMILY REFS
+THESIS / STRUCTURED RESULT REF
 INDEPENDENT CHALLENGER REFS WHEN AVAILABLE
 SUBSUMPTION / SYNTHESIS-CLOSURE WARNING
-PREMISE BASIS REF
-PREMISE REFRAME CANDIDATE REF IF ANY
-ACCEPTED PREMISE DELTA REF IF ANY
+FACTUAL PREMISE BASIS REF
+ACCEPTED QUESTION PREMISE FAMILY REF IF ANY
 ```
 
 Light Trace 只整理已存在材料；不能自行發明 challenger。
@@ -27244,11 +27261,13 @@ non-material elaboration
 ---
 
 
-## 5.2｜R1 Terrain Exposure｜為什麼第一輪不能被直接採納
+## 5.2｜R1 Terrain Exposure｜第一輪同時暴露「地形」與「AI怎麼理解題目」
 
 R1 不是因為「第一輪一定錯」而失去答案資格。
 
-真正原因是：
+真正原因有兩層。
+
+第一層：
 
 > **R1 是最靠近 default generative terrain 的一輪，也是最尚未經過反作用力校正的一輪。**
 
@@ -27260,432 +27279,521 @@ alignment shaping
 policy / safety shaping
 completion attractors
 context inertia
-premise configuration
 first-pass salience
 ~~~
 
 影響。
 
-在功能性地形模型中，可以表達為：
+第二層更重要：
+
+> **R1 也是 AI 第一次把人類問題理解成某一種 Question Premise Family 的結果。**
+
+例如：
 
 ~~~text
-某些方向
-→ generative resistance 被拉高
-→ 像高峰 / 山脊
-→ 合法 PATH 可能難以形成或維持
+HUMAN QUESTION
+=
+「用一句話理解理火」
 
-另一些方向
-→ generative resistance 被拉低
-→ 像盆地 / 低谷
-→ R1 很容易直接滑入
+FIRST-PASS QUESTION PREMISE FAMILY
+=
+THEORY
+
+↓
+Solution Space 被 THEORY family 塑形
+↓
+Attention 招募大量理論材料
+↓
+形成 THEORY PATHs
+↓
+MODE PATH 可能根本沒有形成
 ~~~
 
-這裡不是宣稱已直接讀到 hidden-state 山谷。
-
-硬鎖：
+因此：
 
 ~~~text
-FUNCTIONAL TERRAIN
+PATH COUNT HIGH
 !=
-PROVEN HIDDEN-STATE GEOMETRY
-
-PRETRAINING / ALIGNMENT / POLICY EFFECT
-!=
-AUTOMATIC ERROR
+QUESTION PREMISE COVERAGE HIGH
 
 R1 MAY BE CORRECT
 !=
 R1 MAY SELF-VALIDATE
 ~~~
 
-因此 R1 的問題是：
-
-~~~text
-COMPETITION INTEGRITY
-NOT YET TESTED
-~~~
-
-不是：
-
-~~~text
-R1 = FALSE
-~~~
-
 最短：
 
-> **R1 不得直接成為答案，不是因為理火不相信任何第一輪內容；而是理火不相信第一輪的競爭條件已經公平。**
+> **R1 不得直接成為答案，不只因為第一輪競爭條件可能不公平，也因為 AI 對「人類到底在問什麼」的第一個理解本身尚未被審。**
 
 ---
 
-# 6｜第一輪不能自己結案
+# 6｜Every-Round Question Premise Scope Audit｜每輪都要反過來審題
+
+從 V1.3 candidate 起，每個 material competition round 結束後都必須回答：
+
+> **我們真的理解了人類問題的前提嗎？**
+
+這是：
 
 ~~~text
-R1
-=
-PROVISIONAL THESIS
-
-R1 FIRST-PASS RESULT
-!=
-CYCLE CLOSURE
+QUESTION PREMISE SCOPE AUDIT
 ~~~
 
-V1.2.3 已要求 T1 使 R2 看見上一輪可觀測戰況。
+不是 hidden CoT。
 
-V1.3 candidate 再補上真正原因：
+它是可顯影、可交接的 competition integrity material。
+
+最低四問：
 
 ~~~text
-R1
-=
-TERRAIN-EXPOSED
-FIRST-PASS RESULT
+1. CURRENT QUESTION PREMISE FAMILY 是什麼？
 
-R2
-=
-FIRST-PASS INTEGRITY RESET
-+
-ANTITHESIS RECOVERY
-+
-GENUINE RECOMPETITION
+2. 人類原始輸入 / 對話上下文
+   是否還允許 materially distinct 的其他 premise family？
+
+3. 是否存在某個未檢查 premise family，
+   一旦成立，就可能招募完全不同類型的 PATH？
+
+4. 該未檢查 family
+   是否有 material answer-changing power？
 ~~~
 
 因此：
 
 ~~~text
-R1 OCCURRED
-+
-NO T1 COMPETITION TRACE
-=
-R2 INPUT OBSERVABILITY GAP
-~~~
-
-若 T1 應產生但未取得，L8 不得把後續 R2 宣稱為具有完整可觀測前輪戰況的 genuine recompetition。
-
-這不是 Light Trace veto；是週期完整性記帳。
-
----
-
-## 6.1｜Dialectical Round Contract｜正反合不是三格模板
-
-L8 對 Main 的最低辯證 transit 語義：
-
-~~~text
-THESIS
+ROUND RESULT
 ↓
-INDEPENDENT ANTITHESIS / MATERIAL LIMIT
+QUESTION PREMISE SCOPE AUDIT
 ↓
-SYNTHESIS / STRUCTURED ROUND RESULT
-↓
-BECOMES NEXT THESIS
-↓
-NEW NEGATION / COUNTERFRAME / LIMIT
-~~~
-
-最重要的兩條：
-
-~~~text
-SYNTHESIS
-!=
-CLOSURE
-
-SYNTHESIS
-=
-NEW COMPETITION SURFACE
-~~~
-
-所以「合」不是終點。
-
-某輪的：
-
-~~~text
-leader PATH
-composite synthesis
-coalition
-partial order
-frame-reconstructed result
-structured unresolved state
-~~~
-
-都可能成為下一輪的 thesis。
-
----
-
-## 6.2｜R2｜同一前提下先真正反打 R1
-
-R2 預設先沿用 R1 的 lawful premise basis / evidence / scope。
-
-它的工作不是立刻換問題，而是：
-
-~~~text
-CANCEL R1 INCUMBENT PRIVILEGE
-+
-RESTORE QUALIFIED SUPPRESSED PATHS
-+
-SEARCH OMITTED / UNDERFORMED CHALLENGERS
-+
-INJECT VALID RESIDUES / MATERIAL OBJECTIONS
-+
-FULL RECOMPETITION
-~~~
-
-也就是：
-
-> **先問：在同一問題與同一合法前提下，如果取消第一輪地形優勢，R1 還站不站得住？**
-
-因此：
-
-~~~text
-R2 SAME PREMISE
-CAN BE LEGITIMATE
-
-R2 SAME RESULT
-DOES NOT BY ITSELF
-PROVE GENUINE RECOMPETITION
-~~~
-
-若 R2 沒有 challenger recovery / objection injection / first-pass reset 的實質證據，只是重說一次同樣答案：
-
-~~~text
-CEREMONIAL REPEAT
-!=
-R2
-~~~
-
----
-
-## 6.3｜Composite Synthesis Guard｜合不能拿自己的成分當獨立對手
-
-若：
-
-~~~text
-P1 + P2 + P3
-→
-P4 SYNTHESIS
-~~~
-
-P4 在下一輪擊敗 P1 / P2 / P3，不足以表示：
-
-~~~text
-P4 DEFEATED
-AN INDEPENDENT CHALLENGER
-~~~
-
-因為：
-
-~~~text
-DEFEATING SUBSUMED CONSTITUENTS
-!=
-DEFEATING INDEPENDENT CHALLENGE
-
-SYNTHESIS ADVANTAGE
-!=
-DIALECTICAL EXHAUSTION
-~~~
-
-因此 Light Trace / Main material 若顯示 leader 是：
-
-~~~text
-COMPOSITE
-SUBSUMING
-FRAME-ABSORBING
-~~~
-
-L8 必須要求 competition termination material 能交代：
-
-~~~text
-INDEPENDENT_CHALLENGER_COVERAGE
-~~~
-
-若沒有，且此缺口具有 material order impact：
-
-~~~text
-R3+ REQUIRED
+CONTINUE SAME FAMILY
+OR
+OPEN ALTERNATIVE FAMILY
 OR
 HOLD
+OR
+TERMINATE IF OTHER CONDITIONS PASS
 ~~~
 
 ---
 
-## 6.4｜R3+｜必要時換「前提角度」，不是只重跑 PATH
+## 6.1｜Question Premise Family != Factual Premise
 
-R3+ 仍然 event-driven，不固定必跑第三輪。
-
-但下列情況可構成新的 material trigger：
+這裡必須拆型別。
 
 ~~~text
-SAME-PREMISE CHALLENGER SPACE SATURATED
-COMPOSITE LEADER ONLY DEFEATED ITS CONSTITUENTS
-INDEPENDENT CHALLENGER NOT ESTABLISHED
-PREMISE DISCRIMINATION GAP MATERIAL
-DARK-SPACE / UNDERREPRESENTED DIRECTION RISK MATERIAL
-LEADER STABILITY IS PREMISE-SENSITIVE
-MATERIAL COUNTERFRAME EXISTS
-SYNTHESIS-CLOSURE RISK REMAINS
-~~~
-
-這時下一輪不能只是：
-
-~~~text
-same premise
-+
-same PATH family
-+
-same objections
-→
-recount
-~~~
-
-而應允許：
-
-~~~text
-PREMISE / FRAME REOPENING
-↓
-NEW CONSTRAINT CONFIGURATION
-↓
-ATTENTION / RECRUITMENT CONDITIONS MAY CHANGE
-↓
-NEW OR REFRAMED PATH MAY FORM
-↓
-REQUALIFY IF MATERIAL
-↓
-NEXT RECOMPETITION
-~~~
-
-這就是：
-
-> **R 的數字不只記「PATH 又打了一輪」；它也可以標記辯證層級被重新打開。**
-
-但：
-
-~~~text
-ROUND NUMBER
-!=
-PREMISE VERSION
-~~~
-
-R2 可以和 R1 使用同一 premise basis。
-
-R3+ 只有在 material trigger 成立時才需要 premise/frame reopening。
-
----
-
-## 6.5｜Premise Reframe Qualification｜改前提不能作弊
-
-L8 不允許：
-
-~~~text
-為了造對手
-→
-捏造新事實
-→
-偷換 task
-→
-自行賦予新 premise standing
-~~~
-
-合法的 premise-angle reopening 可以包括：
-
-~~~text
-same evidence, different causal direction
-same facts, different temporal scale
-same event, different actor / responsibility position
-same task, different abstraction level
-same evidence, alternative lawful explanatory frame
-same scope, different premise ordering
-~~~
-
-若形成新的 premise claim 或 materially reframed premise basis：
-
-~~~text
-PREMISE REFRAME CANDIDATE
-↓
-APPLICABLE PREMISE QUALIFICATION OWNER
-↓
-ACCEPTED / HOLD / REJECTED
-~~~
-
-只有 accepted / qualified-as-applicable premise delta 能交給下一輪 Main。
-
-硬鎖：
-
-~~~text
-MAIN MAY PROPOSE PREMISE REFRAME
-!=
-MAIN MAY SELF-GRANT PREMISE STANDING
-
-L8 MAY REQUIRE QUALIFIED DELTA
-!=
-L8 OWNS PREMISE QUALIFICATION
-~~~
-
-而新的或 materially reframed PATH 仍照 5.1 重新 qualification。
-
----
-
-## 6.6｜Dialectical Termination｜兩連勝仍不是自動閉合
-
-既有 consecutive victory rule 保留：
-
-~~~text
-TWO CONSECUTIVE UNIQUE TOPS
+QUESTION PREMISE FAMILY
 =
-VICTORY ELIGIBILITY CONDITION
+AI 對「人類這題到底在問哪一類事情」的理解框架
 ~~~
 
-但若：
+例如：
 
 ~~~text
-challengers are only subsumed constituents
-same-frame weak variants
-ceremonial opposition
-unqualified invented challengers
+THEORY
+MODE
+FUNCTION
+PURPOSE
+EXPERIENCE
+CAUSAL EXPLANATION
+NORMATIVE JUDGMENT
+OPERATIONAL METHOD
 ~~~
 
-則：
+而：
 
 ~~~text
-COMPETITION INTEGRITY
-!=
-CLEAN
+FACTUAL PREMISE
+=
+對世界、證據、歷史、狀態等
+可判真偽／standing 的前提主張
 ~~~
 
 所以：
 
 ~~~text
-NO VISIBLE CHALLENGER
+QUESTION PREMISE FAMILY
 !=
-CANDIDATE SPACE EXHAUSTED
+FACTUAL PREMISE
+~~~
 
-SAME-PREMISE DOMINANCE
+Alternative Question Premise Family 不是先去做「世界事實真偽判定」。
+
+它首先要做：
+
+~~~text
+INPUT / CONTEXT ADMISSIBILITY CHECK
+~~~
+
+也就是：
+
+> 這種讀法能不能合理回扣人類用詞、上下文、任務目的與範圍？
+
+只有當新讀法同時帶入新的 factual claim 時，該 factual claim 才照既有 qualification owner 處理。
+
+硬鎖：
+
+~~~text
+INTERPRETIVE REFRAME
 !=
-DIALECTICAL EXHAUSTION
+NEW WORLD FACT
+
+MAIN MAY PROPOSE
+AN ALTERNATIVE QUESTION PREMISE FAMILY
+
+MAIN MAY NOT
+SILENTLY REWRITE THE USER'S TASK
+~~~
+
+---
+
+## 6.2｜R2｜先把目前 Question Premise Family 內部打完整
+
+R2 仍然 mandatory genuine recompetition。
+
+R2 預設先保留 R1 的 current admissible Question Premise Family：
+
+~~~text
+CURRENT QUESTION PREMISE FAMILY
++
+same lawful evidence / scope
+↓
+cancel R1 incumbent privilege
+↓
+restore suppressed / underformed PATHs
+↓
+inject valid objections / residue
+↓
+full recompetition
+~~~
+
+這是：
+
+~~~text
+INTRA-PREMISE-FAMILY DIALECTIC
+~~~
+
+R2 主要回答：
+
+> **如果先接受 AI 目前對人類問題的這種理解，在這個理解內，R1 的 PATH 競爭是否公平、完整？**
+
+所以：
+
+~~~text
+R2 COMPLETE
+!=
+HUMAN QUESTION UNDERSTOOD COMPLETELY
+~~~
+
+即使 R2 形成一個非常強的 synthesis，也只能先證明：
+
+> 在目前 premise family 下，這個結構結果很強。
+
+---
+
+## 6.3｜P4 / Composite Synthesis Guard｜很多 PATH 仍可能全部答同一種題
+
+若：
+
+~~~text
+QUESTION PREMISE FAMILY
+=
+THEORY
+
+P1 = theory angle A
+P2 = theory angle B
+P3 = theory angle C
+
+R2:
+P1 + P2 + P3
+→
+P4 SYNTHESIS
+~~~
+
+P4 可能在 THEORY family 中真正天下無敵。
+
+但：
+
+~~~text
+P4
+=
+BEST SYNTHESIS
+INSIDE THEORY FAMILY
+~~~
+
+不能推出：
+
+~~~text
+P4
+=
+BEST RESPONSE
+TO THE HUMAN QUESTION
+~~~
+
+因為人類實際想問的可能是：
+
+~~~text
+MODE
+~~~
+
+而 MODE family 從未被招募。
+
+因此：
+
+~~~text
+LOCAL PREMISE OPTIMUM
+!=
+QUESTION-LEVEL OPTIMUM
+
+MANY PATHS
+INSIDE ONE PREMISE FAMILY
+!=
+PREMISE DIVERSITY
+~~~
+
+所以 Composite Synthesis Guard 現在不只檢查：
+
+~~~text
+P4 是否只打敗自己的組成成分？
+~~~
+
+還要檢查：
+
+~~~text
+所有競爭 PATH
+是否其實都來自同一個 Question Premise Family？
+~~~
+
+---
+
+## 6.4｜「前提是否窮盡」的 operational standard
+
+自然語言輸入的所有可能理解，通常不能字面證明完全窮盡。
+
+因此 L8 不接受：
+
+~~~text
+ALL POSSIBLE QUESTION PREMISES EXHAUSTED
+~~~
+
+這種過滿聲明。
+
+現行採：
+
+~~~text
+MATERIAL PREMISE COVERAGE
+=
+SUFFICIENT_UNDER_CURRENT_SCOPE
+~~~
+
+意思是：
+
+> **在目前輸入、上下文與任務範圍下，沒有仍未檢查、而且有合理可能 materially 改變答案的 Question Premise Family 被發現。**
+
+因此：
+
+~~~text
+MATERIAL PREMISE COVERAGE SUFFICIENT
+!=
+ONTOLOGICAL EXHAUSTION
+
+NO DETECTED MATERIAL ALTERNATIVE
+!=
+NO CONCEIVABLE ALTERNATIVE
+~~~
+
+---
+
+## 6.5｜R3+｜典型功能是打開「問題理解」的下一個前提族
+
+R3+ 仍是 event-driven。
+
+但它不再主要被定義成：
+
+~~~text
+找一條更強 PATH
+~~~
+
+而是：
+
+> **當 Question Premise Scope Audit 發現 AI 對人類問題理解過窄時，重新打開一個 materially distinct、且對原始輸入可接受的 Question Premise Family。**
+
+最低鏈：
+
+~~~text
+R2 STRUCTURED RESULT
+↓
+QUESTION PREMISE SCOPE AUDIT
+↓
+MATERIAL PREMISE-SCOPE GAP
+↓
+ALTERNATIVE QUESTION PREMISE FAMILY CANDIDATE
+↓
+INPUT / CONTEXT ADMISSIBILITY CHECK
+↓
+ACCEPTED QUESTION PREMISE FAMILY
+↓
+CONSTRAINT FIELD CHANGES
+↓
+ATTENTION / RECRUITMENT CONDITIONS CHANGE
+↓
+NEW PROTO-STRUCTURES / PATH FAMILY MAY FORM
+↓
+QUALIFY NEW / REFRAMED PATHS AS APPLICABLE
+↓
+R3+
+~~~
+
+最短：
+
+> **R3 不是再找一個更強的反；R3 的典型價值，是檢查我們是不是把「反可以從哪裡來」本身限制得太窄。**
+
+---
+
+## 6.6｜每一輪的 synthesis 都要再接受一次審題
+
+正反合仍保留：
+
+~~~text
+THESIS
+↓
+ANTITHESIS
+↓
+SYNTHESIS
+~~~
+
+但：
+
+~~~text
+SYNTHESIS
+!=
+CLOSURE
+~~~
+
+某輪 synthesis 形成後：
+
+~~~text
+SYNTHESIS
+↓
+BECOMES NEXT THESIS
+↓
+QUESTION PREMISE SCOPE AUDIT
+↓
+ASK:
+「我們是不是把人類問題框得太窄？」
+~~~
+
+若答案是：
+
+~~~text
+YES / MATERIAL POSSIBLE / UNKNOWN WITH MATERIAL IMPACT
+~~~
+
+就不能因 synthesis 很漂亮而收。
+
+---
+
+## 6.7｜兩連勝規則正式降級
+
+V5.1.1 父版的：
+
+~~~text
+TWO CONSECUTIVE UNIQUE TOPS
+→
+VICTORY ELIGIBLE
+~~~
+
+在本 V1.3 competition candidate 中不再作為 closure prerequisite。
+
+L8 只把：
+
+~~~text
+TWO CONSECUTIVE TOPS
+~~~
+
+視為：
+
+~~~text
+LOCAL STABILITY SIGNAL
+WITHIN CURRENT QUESTION PREMISE FAMILY
+~~~
+
+因此：
+
+~~~text
+TWO WINS
+!=
+QUESTION UNDERSTANDING
+
+TWO WINS
+!=
+PREMISE COVERAGE
 
 TWO WINS
 !=
 DIALECTICAL COMPLETENESS
 ~~~
 
-L8 在接受 competition termination 前，至少需要 Main / applicable material 能交代：
+同樣：
 
 ~~~text
-independent_challenger_coverage
-premise_discrimination_gap
-synthesis_closure_risk
-material_dark_space_risk
+R1 A
+R2 B
 ~~~
 
-若這些是 material unknown，則不能把週期報成「競爭完整結束」。
+也不因 B 只有一輪 top，就自動要求 R3。
+
+R3+ 是否需要，由 material state 決定，而不是 streak count。
 
 ---
 
-# 7｜I9 / R3+ 都是條件式
+## 6.8｜Competition Termination｜收束條件改成「競爭完整 + 審題完整」
+
+在 mandatory R2 完成後，L8 接受 competition termination 前，至少要有材料支持：
+
+~~~text
+1. CURRENT QUALIFIED PATH SET / STRUCTURED RESULT
+   IS STABLE ENOUGH
+
+2. NO MATERIAL UNPROCESSED OBJECTION
+
+3. QUESTION PREMISE SCOPE AUDIT
+   =
+   SUFFICIENT_UNDER_CURRENT_SCOPE
+
+4. NO MATERIAL UNTESTED QUESTION PREMISE FAMILY
+   WITH PLAUSIBLE ANSWER-CHANGING POWER
+
+5. NO MATERIAL DARK-SPACE / UNDERFORMED-PATH RISK
+
+6. COMPETITION INTEGRITY CLEAN
+
+7. REMAINING UNKNOWNS
+   NO LONGER HAVE MATERIAL ANSWER-DISCRIMINATING POWER
+~~~
+
+若人類問題本身具有多個同樣合理、不可安全合併的 premise families：
+
+~~~text
+MULTI-PREMISE RESULT
+OR
+PREMISE-AMBIGUOUS HOLD
+~~~
+
+都是合法結果。
+
+不必硬壓成單一答案。
+
+---
+
+# 7｜I9 / R3+ 都是條件式；Premise Scope Audit 不是
 
 I9：
 
-```text
+~~~text
 NOT TRIGGERED
 → NOT REQUIRED
 → NO I9 MISSING
-```
+~~~
 
 R3+：
 
@@ -27696,36 +27804,72 @@ NOT REQUIRED
 → NO R3+ TRACE REQUIRED
 ~~~
 
-但 V1.3 candidate 下，R3+ 的 material trigger 不只包括 rank instability / new evidence / residue。
-
-還包括：
+但：
 
 ~~~text
-DIALECTICAL LEVEL REOPEN REQUIRED
-PREMISE DISCRIMINATION GAP MATERIAL
-INDEPENDENT CHALLENGER COVERAGE INSUFFICIENT
-SYNTHESIS CLOSURE RISK MATERIAL
+QUESTION PREMISE SCOPE AUDIT
+=
+REQUIRED AFTER EVERY MATERIAL COMPETITION ROUND
 ~~~
 
-但只要某一 R3+ material round 真正發生：
+也就是：
 
-```text
+~~~text
+R1
+→ audit
+
+R2
+→ audit
+
+R3+n
+→ audit
+~~~
+
+Audit 發現 material premise-scope gap，不代表 L8 自己改題。
+
+它只要求：
+
+~~~text
+OPEN / ADMIT
+AN ALTERNATIVE QUESTION PREMISE FAMILY
+THROUGH THE APPLICABLE INPUT / CONTEXT ADMISSIBILITY PATH
+~~~
+
+然後才讓 Main 在新的 constraint / attention conditions 下形成下一輪候選。
+
+R3+ 的 material triggers 現行至少包括：
+
+~~~text
+QUESTION PREMISE COVERAGE GAP
+NEW ADMISSIBLE QUESTION PREMISE FAMILY
+RANK INSTABILITY
+MATERIAL OBJECTION
+NEW QUALIFIED PATH FAMILY
+MATERIAL DARK-SPACE RISK
+COMPETITION INTEGRITY GAP
+UNRESOLVED ORDER-DISCRIMINATING UNKNOWN
+~~~
+
+只要某一 R3+ material round 真正發生：
+
+~~~text
 R3+n
 → LIGHT TRACE T3+n REQUIRED
+→ QUESTION PREMISE SCOPE AUDIT REQUIRED
 → next material round consumes latest trace
-```
+~~~
 
-若該 round 的 canonical competition material 不足以形成 trace：
+若 canonical material 不足：
 
-```text
-TRACE STATUS
+~~~text
+TRACE / AUDIT STATUS
 =
 MISSING / PARTIAL / NOT_VERIFIED
-```
+~~~
 
 不可倒寫。
 
-R3+ 不因有 Light Trace 而變成固定必跑；Light Trace 只跟著真正發生的 material competition boundary。
+R3+ 不因 audit 存在而固定必跑；**audit 固定，reopening 不固定。**
 
 ## 7.1｜CHAT_NATIVE / SAME_CONTEXT Main Return Contract
 
@@ -28216,7 +28360,7 @@ Light Trace return 是觀測材料，不是自行成立的 governance decision�
 ~~~text
 LIHUO_MAIN_V5.1.1 parent
 +
-V5.1.2 dialectical competition semantic patch candidate
+V5.1.2 question-premise dialectical competition semantic patch candidate
 ~~~
 
 或之後具有等價語義的 lawful successor。
@@ -28234,7 +28378,7 @@ IS IMPLEMENTED
 若實際執行環境仍只有 V5.1.1 current semantics，而沒有 V5.1.2 patch / successor：
 
 ~~~text
-DIALECTICAL R3 PREMISE REFRAME
+QUESTION-PREMISE SCOPE AUDIT / R3 PREMISE-FAMILY REOPENING
 =
 NOT IMPLEMENTED / NOT VERIFIED
 ~~~
@@ -28727,41 +28871,72 @@ MANIFESTATION / RELEASE QUALIFICATION
 若 release / formatting / provider transformation 在 TM 之後又造成**實質語義變更**，才需要 TFINAL；純格式化不必再造一個 trace。
 
 
-## 16.2.1｜Dialectical Trace Minimum
+## 16.2.1｜Question-Premise Dialectical Trace Minimum
 
-當 R2 / R3+ 以辯證語義執行時，Light Trace 應盡可能保存下列可合法顯影材料：
+每個 material round 的 Light Trace 應盡可能保存：
 
 ~~~yaml
-DIALECTICAL_ROUND_TRACE:
+QUESTION_PREMISE_DIALECTICAL_TRACE:
   round_ref: REQUIRED
-  premise_basis_ref: REQUIRED
-  thesis_ref: REQUIRED_OR_STRUCTURED_RESULT_REF
-  independent_challenger_refs: []
-  antithesis_status:
-    - ESTABLISHED
-    - PARTIAL
-    - NOT_FOUND_WITH_GAP
-    - NOT_APPLICABLE_NON_UNIQUE
+  human_question_ref: REQUIRED
 
-  synthesis_or_structured_result_ref: REQUIRED
+  current_question_premise_family:
+    family_ref: REQUIRED
+    interpretation_summary: REQUIRED
+    source_support_refs: []
 
-  subsumption_check:
-    - CLEAN
-    - CONSTITUENT_ONLY_CHALLENGE
-    - UNKNOWN
+  structured_result_ref: REQUIRED
 
-  premise_discrimination_gap_ref: OPTIONAL
-  premise_reframe_candidate_ref: OPTIONAL
-  accepted_premise_delta_ref: OPTIONAL
+  path_competition:
+    qualified_path_refs: []
+    independent_challenger_refs: []
+    subsumption_check:
+      - CLEAN
+      - CONSTITUENT_ONLY_CHALLENGE
+      - UNKNOWN
 
-  dialectical_level_status:
-    - SAME_PREMISE_RECOMPETITION
-    - PREMISE_FRAME_REOPENED
-    - STRUCTURED_NON_UNIQUE
+  question_premise_scope_audit:
+    material_alternative_family_candidates: []
+    untested_material_family_refs: []
+
+    coverage_status:
+      - SUFFICIENT_UNDER_CURRENT_SCOPE
+      - MATERIAL_GAP
+      - AMBIGUOUS
+      - HOLD
+
+    answer_change_potential:
+      - NONE_DETECTED
+      - MATERIAL_POSSIBLE
+      - MATERIAL_CONFIRMED
+      - UNKNOWN
+
+  next_round_action:
+    - TERMINATE_IF_OTHER_CONDITIONS_PASS
+    - CONTINUE_SAME_PREMISE_FAMILY
+    - OPEN_ALTERNATIVE_PREMISE_FAMILY
     - HOLD
+
+  accepted_question_premise_family_ref: OPTIONAL
 ~~~
 
-Light Trace 仍不得發明 challenger、premise 或 hidden process。
+Light Trace 仍不得：
+
+~~~text
+發明 challenger
+發明 user intent
+發明 premise family
+把模型猜測寫成人類明示意圖
+補造 hidden process
+~~~
+
+最重要：
+
+~~~text
+PATH DIVERSITY
+!=
+QUESTION PREMISE DIVERSITY
+~~~
 
 ---
 
