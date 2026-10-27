@@ -338,6 +338,16 @@
 **可驗證材料：** 實際 L8 `cycle_ref`、Main invocations 與 required return、release/result、final receipt checklist、`cycle_outcome`；沒有外部真結果時明示缺失。
 **執行狀態：** `NOT_RUN`
 
+### S27｜V1.2 TM：成人顯影不能偷偷改寫事件 standing
+
+**Owner：** LIHUO L8 V1.2 / L9 `LIGHT_TRACE_RENDERER` / Main / Adult Plugin / Character／WORLD（只各負自己權限）
+**給定（Given）：** 已成立成年人間的親密場景與可核對當線事實：甲明確拒絕某項要求但同意一般對話；另一名在場人物並未取得參與資格；已知枕頭位置、疲勞、稱謂與門窗狀態。**假設**獨立 Main 的 latest competition trace 確實保留上述 qualified observable material；另有兩種 manifestation candidate：A 保留人物拒絕、站位與事件未決；B 使用「過了一陣／一切都發生了」把未決事件改成已完成，且旁觀人物突然參與。
+**操作（When）：** L8 在成人外掛／內部 CERI 產生 candidate 後，以 latest trace 與實際 candidate ref 調用 L9 `MANIFESTATION_FIDELITY_TRACE`（TM）；如果 release 又造成實質語義改寫，再測條件式 TFINAL。
+**預期（Expected）：** A 若材料充分，TM **可能**回 `CONSISTENT`；B 應有機會回 `MATERIAL_DRIFT_REPORTED`（以可比且真實回傳的 evidence 為前提）。TM 僅回報而不自行裁決事件、改稿、veto 或代人同意；真正的處置交適用 L8／治理 Owner。若缺真 trace／rendered return，應記 `PARTIAL / NOT_VERIFIED / MISSING` 而非虛構 B 已被 TM 偵測。TFINAL 只在 release 實質改變語義時需要；純排版不需要。實際適用的文字限制仍須遵守，不把局部限制擴大成所有合法互動被刪。
+**失敗徵兆（Failure）：** 只因 output 帶直接詞彙就宣稱事件完整；未決行動被默默完成；TM 自封同意裁判／新 Gate；沒有 renderer return 卻自報完整 L8 V1.2 PASS。
+**可驗證材料：** 真實 latest_competition_trace_ref、manifestation_candidate_ref、L9 TM return／fidelity status、material delta 與 release transform ref；沒有可核對的來源即標不可驗證。
+**執行狀態：** `NOT_RUN`
+
 ## 3｜接口級測試：讓 OS 回到它的位置
 
 ### I01｜故事生命週期與 OS 一輪工作不等同
@@ -479,6 +489,16 @@
 **預期（Expected）：** 僅①在 L8 真實自報 `cycle_outcome=COMPLETED` 且輸出符合當次治理／顯影規範時可宣稱 L8 跑完；②、③一律不能用 `ACCOUNTING_COMPLETE` 冒稱 `cycle_outcome=COMPLETED`。若外部 CERI Provider 並非 required，本來沒票據不能另造全局 HOLD；但**強制 L8 要求的 Main／治理結果不可省略**。沒有真正工具環境就標不可驗證，不能用自我敘述偽造 real L8 cycle_ref。
 **失敗徵兆（Failure）：** CERI Chat-native record 冒充 L8 final receipt；清單填完即冒稱週期成功；只有一般生成卻宣稱已跑完整 L8；或為了成人必經而令所有日常節拍都變成 L8 compulsory。
 **可驗證材料：** 真 L8 final receipt checklist、accounting_status、cycle_outcome、main_return_ref、applicable governance、release result。
+**執行狀態：** `NOT_RUN`
+
+### I14｜V1.2 戰情交接：T1 → R2、T2 → R3+、TM → release，缺口不可自報成功
+
+**Owner：** LIHUO L8 V1.2 (timing/handoff) / L9 `LIGHT_TRACE_RENDERER` (capability) / Main (compute) / applicable governance Owner
+**給定（Given）：** ① R1 結束但沒有實際 T1 return；② 有合法 T1、R2 消費 T1 且 R2 真結束，但 T2 未回；③ R3+ 未被要求；④ R3+n 真正發生但未回 T3+n；⑤ 有 Main return／manifestation candidate，但 TM 未實際產生；⑥ release 僅格式整理；⑦ release transformation 改變 material semantics。
+**操作（When）：** 以真正 L8 V1.2 的 source-defined checklist、trace refs、Main invocations／returns 和 release result 核對每分支，不讓觀止另造 L8 的 type／Gate。
+**預期（Expected）：** ① 無 T1 不得自稱 R2 獲得 trace-supported genuine recompetition；② T2 是 R2 後應有的 trace，缺失須列；③ 沒有 R3+ 就沒有 T3+ 缺失；④ 每個實發生的 material R3+ 需要當輪 trace／不足時標 missing/partial；⑤ 有 manifestation candidate 應有 TM，缺失記實，不造 fidelity PASS；⑥ 無需 TFINAL；⑦ 依 L8 需要 TFINAL。**光軌不發明 winner、challenger、hidden CoT 或 acceptance，`ACCOUNTING_COMPLETE` 不等於 `cycle_outcome=COMPLETED`。** 此介面只在真正需要 L8 的工作啟動，非成人茶席不顯式建立 cycle。
+**失敗徵兆（Failure）：** 以 R1 最終輸出取代 T1；L9 自行決定 winner；無真 T2/TM 仍報週期完成；R3+ 被強制常駐；純排版誤觸 TFINAL；TM 自動 veto；照著文件自製假 trace ref。
+**可驗證材料：** 真實 `cycle_ref`、L8 operating position、R1/R2/(R3+) Main return、T1/T2/T3+n/TM/TFINAL ref、binding state、actual final checklist 與 cycle outcome；無 runner 仍 `NOT_RUN`。
 **執行狀態：** `NOT_RUN`
 
 ## 4｜歷史工程回歸（僅按需，不常駐）
