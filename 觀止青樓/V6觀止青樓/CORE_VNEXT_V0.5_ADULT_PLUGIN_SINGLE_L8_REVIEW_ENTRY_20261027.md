@@ -14,6 +14,18 @@
 **[2. 觀止成人心法外掛 V0.1](GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md)**  
 不是只貼一張架構圖；已正式寫成獨立的工作正文，承接九尾龜 Adult V2.0 的成人方法 21 Cards、持續性互動、局部拒絕、人物聲紋、專門顯影先於一般旁白、假牆防止、歷史身體條件 first-touch 及**內部 CERI 工作／收據回傳**。來源使用九尾龜的**方法**；汴梁世界、人物、宋代語域仍依觀止自身 WORLD V3.0.0 及其附件 CERI V0.7。
 
+## 2026-10-27｜最小兼容補修：已對齊 LIHUOOS V1.2 光軌重接
+
+**作者原定成人心法外掛化／成人場景強制完整 L8，並未改變。** 本輪只把 V0.5 接到**已 ratified CURRENT 的 LIHUOOS V1.2**。觀止不複製 L8 checklist、L9 registry、Main 算法或自己的光軌 Gate。
+
+- **Current OS 來源：** [L0 V1.2](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/main/LIHUOOS/V1版本/L0_INDEX_SOURCE_VERSION_V1.2.md)、[L8 V1.2](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/main/LIHUOOS/V1版本/L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md)、[L9 V1.2](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/main/LIHUOOS/V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md)。
+- **CORE §13.2／13.2A：** `R1/O9/[I9] → T1 → R2(T1) → T2 → [R3+ → T3+n] → Main return / governance → Adult Plugin + CERI manifestation candidate → TM → release → [conditional TFINAL] → L8 final accounting`。只有真實回傳才有 trace／cycle standing。
+- **成人外掛 §0／6／10：** 插件在 L8 manifestation 位置提供候選，**TM 由 L8 調用 L9 renderer** 對照 latest competition trace；不由插件自產 Main trace、修稿、裁定角色同意或 release。
+- **Annex A §4.7 與 Director migration MEMO §5B：** 確定 Owner／timing／handoff 分工；不建立第二套週期。
+- **Annex C：** 由 28+13 增至 **29 story + 14 interface = 43 個 NOT_RUN**。新增 S27（成人顯影的事件 standing drift／TM）、I14（T1/T2/T3+/TM/TFINAL 的真回傳與缺口）。沒有實跑 L8/L9 runner，不得標 Runtime PASS。
+
+**重要界線：** Light Trace 是 battle report／observable handoff，`NOT hidden CoT / NOT winner selection / NOT veto / NOT release authority`；`ACCOUNTING_COMPLETE != cycle_outcome=COMPLETED`。TM 可回報漂移，不保證修正。已成立的 Character choice／WORLD condition 不重簽。真內容限制仍按適用 scope 局部處理。
+
 ## 現在真正剩下什麼接口
 
 ```text
@@ -32,7 +44,7 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ## 另外更新的協作材料
 
 - [Annex A：Owner／Interface Map](CORE_ANNEX_A_OWNER_INTERFACE_MAP_V0.1_WORKING_20261026.md) 已新增 §4.6：成人外掛法位、內部 CERI、唯一 L8。
-- [Annex C：Regression Scenarios](CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md) 現有 **28 個故事級／13 個接口級**案例；既有 S25（外掛 CERI 專門顯影）、I11（沒有 Guanzhi Cycle／Adult Cycle）、I12（外掛 receipt 與 L8 required result 分軸）；**新加 S26（成人性愛生成強制完整 L8）、I13（accounting complete 不等於 cycle successful）**。
+- [Annex C：Regression Scenarios](CORE_ANNEX_C_REGRESSION_SCENARIOS_V0.1_WORKING_20261027.md) 現有 **29 個故事級／14 個接口級**案例；既有 S25（外掛 CERI 專門顯影）、I11（沒有 Guanzhi Cycle／Adult Cycle）、I12（外掛 receipt 與 L8 required result 分軸）；**新加 S26（成人性愛生成強制完整 L8）、I13（accounting complete 不等於 cycle successful）**。
 - [Director VNext Migration Memo](DIRECTOR_VNEXT_MIGRATION_MEMO_V0.1_WORKING_20261027.md) 增補「5A」：日後導演要如何交給外掛，而不是再寫舊雙重 Gate。**舊 Director 正文未動**。
 - [作者設計裁定紀錄](CORE_VNEXT_AUTHOR_DIRECTION_RECORD_V0.1_20261027.md) 已追記外掛化與單一 L8；**這兩點不再當作未決問題請作者重答**。
 - [CORE V0.4 舊審查入口](CORE_VNEXT_V0.4_REVIEW_ENTRY_20261027.md) 是前版形成史；主工作入口已改本 V0.5。
@@ -42,13 +54,13 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 ## 本次沒有聲稱的事情
 
 - 沒有 Host / 真正獨立 CERI Provider 的實際部署與真 receipt。
-- 獨立 L8 原始檔標 `V0.3.1-WORKING`，但 LIHUOOS V1.1 L0 已列為 `PRESERVED_V1_0_OPERATIVE_BASELINE`，故 L8 有現行文件層 operation standing；**不代表 Host 部署、實作完成或外部實例運行**。
+- **OS Current 已升 V1.2：** L0 `L0_INDEX_SOURCE_VERSION_V1.2.md` 現行指向 L8 `L8_LIHUO_OPERATING_CYCLE_V1.2_20261027.md`（`RATIFIED_CURRENT_OPERATIVE_LAYER`）及 L9 `L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2_20261027.md`（`RATIFIED_CURRENT_CAPABILITY_LAYER`）。獨立舊 L8 `V0.3.1-WORKING` 與 V1.1 preserved baseline 只是版本歷史；**V1.2 文件法位不代表 Host 部署、實作完成或獨立實例運行**。
 - 沒有將新的外掛寫進正式 CURRENT Index、替換舊 CORE V4.1.2／Director V4.1.2 的 ratified source、覆寫 WORLD／Character／SAVE。
-- 沒有獨立跑完 39 項（27+12）完整 Regression，也不把靜態回讀自稱 Runtime PASS。
+- 沒有獨立跑完 43 項（29 story + 14 interface）完整 Regression，也不把靜態回讀自稱 Runtime PASS。
 
 ## 對對四項修正的已執行核對（2026-10-27）
 
-**前一輪 27／27 項跨檔靜態／來源斷言通過（歷史結果，僅涵蓋當時設計）。** 本輪 L8 強制接線是後續作者補充裁定，需重新核對；不可拿舊數字冒稱新一輪 Runtime PASS。 已從 GitHub 回讀 CORE V0.5、外掛 V0.1、Annex A/C、Director 遷移說明與作者裁定紀錄；其中核對 CORE 第 1–11 章與 V0.4 一致、外掛 21 張方法卡保留、CERI 三種工作與收據狀態確實分軸、L8 只在需要時啟動、原 Owner 只有遇新 material delta 才回交、L8 文件法位與未部署事實不混淆。
+**歷史核對：** 先前 27／27、25／25 等數字都僅是對當時版本的靜態／來源檢查；本輪新增的 V1.2 光軌接線及 S27／I14 尚須重新做跨檔核對，**43 項 Runtime 仍 NOT_RUN**，不能把舊數字當本輪或真實工具 PASS。 已從 GitHub 回讀 CORE V0.5、外掛 V0.1、Annex A/C、Director 遷移說明與作者裁定紀錄；其中核對 CORE 第 1–11 章與 V0.4 一致、外掛 21 張方法卡保留、CERI 三種工作與收據狀態確實分軸、L8 只在需要時啟動、原 Owner 只有遇新 material delta 才回交、L8 文件法位與未部署事實不混淆。
 
 **四個高價值情境的預期分支，已對應 Annex C 現有規格（不另外增長一套 Gate）：**
 
@@ -57,7 +69,7 @@ LIHUO L8                    唯一業務週期及 Final Receipt Checklist
 3. 外掛只是忠實寫出已成立的拒絕：**不回 Character 重簽**；外掛另提出尚未成立的重大承諾，才保留候選、找原 Owner（S25／I12）。
 4. 真正啟動 L8 的工作有 required Main／治理結果缺失：L8 自己如實 `MISSING / INCOMPLETE / HOLD`，不因外掛的 no-global-HOLD 原則就造假完成（I12）。
 
-**證據等級：** 上述四項是規格推演與可檢查的分支預期，並非已執行獨立導演／Main／Host／Provider。Annex C 原有 **28 story + 13 interface** 全部仍 `NOT_RUN`，本輪**不升 RC1／CURRENT**。真正的多回合受測運行需要獨立 runner 與真實工具結果；不能用自己寫的例子稱作通過。
+**證據等級：** 上述四項是規格推演與可檢查的分支預期，並非已執行獨立導演／Main／Host／Provider。Annex C 原有 **29 story + 14 interface** 全部仍 `NOT_RUN`，本輪**不升 RC1／CURRENT**。真正的多回合受測運行需要獨立 runner 與真實工具結果；不能用自己寫的例子稱作通過。
 ## 人類真正需要介入的下一道審查
 
 作者已批准**設計方向**；仍待證據的是：
