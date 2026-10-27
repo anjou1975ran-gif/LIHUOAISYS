@@ -12,6 +12,7 @@ DOCUMENT:
   standing:
     - THEORY_LAYER_RECONSTRUCTED
     - POST_R2_PREMISE_PLURALITY_COMPETITION_CANDIDATE
+    - MANDATORY_VISIBLE_CYCLE_ACCOUNTING_RECEIPT
     - NOT_RATIFIED
     - NOT_CURRENT
     - ROLLBACK_TO_V1_2_3_AVAILABLE
@@ -26661,6 +26662,8 @@ DOCUMENT:
     - TRACE_RESULT_RECEIPT_TYPE_SEPARATION
     - MATERIAL_PATH_REQUALIFICATION_GATE
     - CHAT_NATIVE_MAIN_RETURN_CONTRACT
+    - MANDATORY_VISIBLE_CYCLE_ACCOUNTING_RECEIPT
+    - OPTIONAL_EXPANDED_CYCLE_REPORT
     - FINAL_REPORT_COVERAGE_LOCK
     - TM_ACCEPTANCE_TYPE_SEPARATION
     - NOT_HOST_DEPLOYMENT
@@ -26689,7 +26692,8 @@ DOCUMENT:
     - PRESERVE_V1_2_3_PATH_REQUALIFICATION_CHAT_NATIVE_TRACE_AND_REPORT_CONTRACTS
     - REQUIRE_QUALIFICATION_BEFORE_NEW_OR_MATERIALLY_REFRAMED_PATH_ENTERS_QUALIFIED_ORDER
     - DEFINE_CHAT_NATIVE_SAME_CONTEXT_MAIN_RETURN_MINIMUM_CONTRACT
-    - REQUIRE_FINAL_REPORT_TO_EXPLICITLY_ACCOUNT_FOR_ALL_APPLICABLE_OPERATIONAL_CHECKPOINTS
+    - REQUIRE_CYCLE_RECEIPT_TO_ACCOUNT_FOR_ALL_MATERIAL_OPERATIONAL_CHECKPOINTS
+    - REQUIRE_EXPANDED_FINAL_REPORT_TO_EXPLICITLY_ACCOUNT_FOR_ALL_APPLICABLE_OPERATIONAL_CHECKPOINTS
     - SEPARATE_TM_FIDELITY_FROM_TASK_VERTICAL_ACCEPTANCE_AND_RELEASE_QUALIFICATION
     - SEPARATE_REQUIRED_TRACE_RESULT_FROM_OPTIONAL_PROVIDER_RECEIPT
     - FORBID_MISSING_TRACE_RECEIPT_FROM_BEING_MISREAD_AS_MISSING_TRACE_RESULT
@@ -28043,264 +28047,488 @@ L8_OPERATING_POSITION:
 
 ---
 
-# 11｜Result / Return / Receipt 原則
+# 11｜Result / Return / Receipt 重新分型
 
-L8 不製造 receipt，也不得把不同型別的週期證據全部壓成 receipt。
+週期改變後，舊規則：
 
-現行至少拆開：
+~~~text
+L8 DOES NOT CREATE RECEIPTS
+~~~
 
-```text
-TRACE CONTENT
+不再足夠。
+
+它把兩種完全不同的東西混在一起：
+
+~~~text
+A. 外部 / provider / tool 的執行收據
+B. 理火自己對「這趟週期跑了什麼」的對帳收據
+~~~
+
+V1.3 candidate 正式拆開四型：
+
+~~~text
+TRACE RESULT
 =
-戰情報告／忠實度比對內容本身
+Light Trace 的可引用觀測結果
 
-TRACE RESULT REF
+OWNER / MAIN RETURN
 =
-可被下一輪、L8 checklist 或 cycle report 引用的 trace 結果身份
+canonical owner 對其責任範圍的正式回傳
 
 CANONICAL EXECUTION RECEIPT
 =
-實際 provider / tool / owner 若本來就發出的執行收據
+實際 provider / tool / external executor
+若本來就發出的執行收據
 
-MAIN CANONICAL RETURN
+L8 CYCLE ACCOUNTING RECEIPT
 =
-Main compute owner 對本輪 Main invocation 的正式回傳
-```
+L8 對一趟理火週期的 checkpoint / status / gap 對帳結果
+~~~
+
+因此：
+
+~~~text
+L8 MAY NOT
+INVENT EXTERNAL EXECUTION RECEIPTS
+
+L8 MUST
+ISSUE ITS OWN CYCLE ACCOUNTING RECEIPT
+WHEN A LIHUO CYCLE IS ACTUALLY INVOKED
+~~~
+
+這不是權限膨脹。
+
+因為 Cycle Accounting Receipt 只回答：
+
+> **這趟理火週期，哪些必要步驟被執行、哪些未觸發、哪些缺失、哪裡 HOLD、最後停在哪裡？**
+
+它不回答：
+
+~~~text
+HOST REALLY EXECUTED
+TOOL REALLY CHANGED THE WORLD
+PROVIDER RECEIPT EXISTS
+OUTPUT IS TRUE
+OUTPUT IS LEGALLY / MEDICALLY / FACTUALLY CORRECT
+~~~
 
 硬鎖：
 
-```text
-TRACE RESULT
+~~~text
+CYCLE ACCOUNTING RECEIPT
 !=
-TRACE RECEIPT
+PROVIDER RECEIPT
 
-TRACE RECEIPT
+CYCLE ACCOUNTING RECEIPT
 !=
-TRACE RESULT
+HOST EXECUTION PROOF
 
-TRACE REQUIRED
+CYCLE ACCOUNTING RECEIPT
 !=
-TRACE RECEIPT REQUIRED
-```
+TRUTH CERTIFICATE
+
+CYCLE ACCOUNTING RECEIPT
+!=
+RELEASE AUTHORITY
+~~~
+
+---
+
+## 11.1｜什麼時候必須發 Cycle Receipt
+
+只要：
+
+~~~text
+L8 CYCLE
+=
+EXPLICITLY INVOKED
+OR
+CLAIMED AS EXECUTED
+~~~
+
+則一旦週期：
+
+~~~text
+COMPLETES
+HOLDS
+FAILS
+ABORTS
+OR STOPS WITH A MATERIAL GAP
+~~~
+
+都必須產生：
+
+~~~text
+L8 CYCLE ACCOUNTING RECEIPT
+~~~
+
+所以：
+
+~~~text
+FAILED CYCLE
+!=
+NO RECEIPT
+
+HOLD
+!=
+NO RECEIPT
+
+INCOMPLETE
+!=
+NO RECEIPT
+~~~
+
+反而越是不完整，越需要收據說清楚停在哪裡。
+
+但：
+
+~~~text
+NORMAL CHAT RESPONSE
+WITHOUT L8 CYCLE INVOCATION
+→
+NO LIHUO CYCLE RECEIPT REQUIRED
+~~~
+
+理火不能為每一句普通對話都印一張收據。
+
+---
+
+## 11.2｜Receipt Visibility｜預設要讓人類看見
+
+當一趟 L8 cycle 被宣告執行時：
+
+~~~text
+VISIBLE CYCLE RECEIPT
+=
+REQUIRED BY DEFAULT
+~~~
+
+原因不是儀式感。
+
+而是新的週期有一個人類無法從答案表面推知的關鍵 checkpoint：
+
+~~~text
+POST-R2 PREMISE UNIQUENESS / PLURALITY AUDIT
+~~~
+
+如果不回報，人類無法知道：
+
+~~~text
+R2 是否真的完成
+前提唯一性審查是否真的跑
+是否發現其他 premise families
+R3 為什麼啟動 / 沒啟動
+競爭最後在哪個 premise coverage 下收束
+~~~
+
+所以：
+
+> **只要聲稱跑了完整理火週期，就必須讓人類看到最低週期收據。**
+
+---
+
+## 11.3｜Compact Receipt 與 Expanded Report 分離
+
+V1.3 不要求每次都印巨大報告。
+
+正式分成：
+
+~~~text
+A. COMPACT CYCLE RECEIPT
+   = 每次 L8 cycle 必發
+
+B. EXPANDED CYCLE REPORT
+   = 條件式
+~~~
+
+Compact Receipt 只保留人類需要知道的最低責任鏈。
+
+Expanded Report 才展開：
+
+~~~text
+full checkpoint accounting
+trace refs
+qualification refs
+premise family detail
+failure provenance
+provider receipt refs
+manifestation fidelity detail
+~~~
+
+Expanded Report 建議在下列情況自動升級或依需求產生：
+
+~~~text
+USER REQUESTS FULL REPORT
+HIGH-RESPONSIBILITY TASK
+EXTERNAL EXECUTION
+HOLD / FAILED / INCOMPLETE
+MATERIAL PREMISE AMBIGUITY REMAINS
+DISPUTE / AUDIT
+MATERIAL MANIFESTATION DRIFT
+~~~
+
+因此：
+
+~~~text
+RECEIPT REQUIRED
+!=
+FULL REPORT REQUIRED
+~~~
+
+---
+
+## 11.4｜Trace Result / Provider Receipt 還是照舊分開
 
 對 T1 / T2 / T3+ / TM / TFINAL：
 
-```text
+~~~text
 TRACE RESULT / TRACE_REF
 =
 REQUIRED WHEN THAT TRACE STEP IS REQUIRED
 
-SEPARATE CANONICAL RECEIPT
+SEPARATE CANONICAL PROVIDER RECEIPT
 =
 OPTIONAL
 ONLY IF ACTUAL IMPLEMENTATION / PROVIDER ISSUES ONE
-```
+~~~
 
-如果沒有 canonical receipt：
+若沒有 provider receipt：
 
-```text
+~~~text
 DO NOT INVENT ONE
+
 DO NOT MARK TRACE MISSING
-SOLELY BECAUSE RECEIPT IS ABSENT
-```
+SOLELY BECAUSE PROVIDER RECEIPT IS ABSENT
+~~~
 
-若 trace result 本身存在且達到該 mode 的最低內容要求，L8 可記：
+Main Return 仍然是獨立 required return：
 
-```text
-TRACE STATUS = RECEIVED / PARTIAL
-CANONICAL RECEIPT = NONE / NOT_AVAILABLE / NOT_REQUIRED
-```
-
-在 `CHAT_NATIVE` / `SAME_CONTEXT_REFERENCE` lane 中，具明確內容且可被同上下文引用的 trace result 可以成立；不需要假造獨立 provider receipt。
-
-但：
-
-```text
-"T1 = DONE"
-!=
-TRACE RESULT
-```
-
-最低 trace result 至少必須可辨識：
-
-```text
-TRACE MODE
-SOURCE / INPUT MATERIAL REF OR IDENTIFIABLE CONTEXT
-OBSERVED COMPETITION OR FIDELITY STATE
-MATERIAL GAP / RESIDUAL / STATUS AS APPLICABLE
-TRACE RESULT IDENTITY / REFERENCE
-```
-
-Main Return 不適用上述降級：
-
-```text
+~~~text
 TRACE RESULT AVAILABLE
 !=
 MAIN CANONICAL RETURN RECEIVED
-```
-
-若週期已到達 Main return obligation 而 Main canonical return 缺失，仍應記為 `MAIN_RETURN = MISSING`；不得拿 T2 / TM 或可見文字代替 Main return。
-
-L8 收 canonical owner / module 已產生的 result / return / receipt / standing record，並依其正確型別記帳。
-
-```text
-L8 ACCOUNTING
-!=
-RECEIPT MAXIMALISM
-
-L8 ACCOUNTING
-!=
-L8 RE-VALIDATION OF EVERY RETURN
-```
-
-如果 canonical owner 回：
-
-```text
-HOLD
-NOT_APPLICABLE
-NOT_TRIGGERED
-FAILED
-```
-
-L8 如實記。
+~~~
 
 ---
 
-# 12｜Final Cycle Accounting Checklist
+# 12｜L8 Cycle Accounting Receipt｜新的最低收據
 
-一趟週期結束前，L8 必須做最終對帳。V1.2.2 明確區分 receipt-bearing step 與 trace-result step，避免把「無額外收據」誤判成「工作沒發生」。
+V1.3 的週期收據不再只是「required receipt 有沒有到」。
 
-```yaml
-L8_FINAL_CYCLE_ACCOUNTING_CHECKLIST_V1_2_3:
+它必須反映新的 competition cycle。
+
+最低 schema：
+
+~~~yaml
+L8_CYCLE_ACCOUNTING_RECEIPT_V1_3:
   cycle_ref: REQUIRED
+  task_ref: REQUIRED_OR_IDENTIFIABLE_CONTEXT
 
-  items:
-    - step_ref: INPUT_GOVERNANCE_QUALIFICATION
-      requirement: REQUIRED
-      status: RECEIVED | MISSING | HOLD | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+  cycle_standing:
+    mode:
+      - NON_HOST
+      - HOST_ROUTED
+    execution_claim:
+      - DOCUMENT_LEVEL_CYCLE_EXECUTED
+      - PARTIAL_CYCLE
+      - HOLD
+      - FAILED
+      - ABORTED
 
-    - step_ref: MAIN_INVOCATION
-      requirement: REQUIRED_WHEN_ADMITTED
-      status: RECEIVED | MISSING | HOLD | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+  input_and_entry:
+    input_governance_state: REQUIRED_ACCOUNTING_STATE
+    main_invocation_state: REQUIRED_ACCOUNTING_STATE
 
-    - step_ref: R1
-      requirement: REQUIRED_WHEN_MAIN_REACHED
-      status: RECEIVED | MISSING | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+  competition:
+    R1:
+      state: REQUIRED_ACCOUNTING_STATE
+      provisional_result_ref: REF_OR_NONE
 
-    - step_ref: O9
-      requirement: REQUIRED_WHEN_REACHABLE
-      status: RECEIVED | MISSING | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+    O9:
+      state: REQUIRED_ACCOUNTING_STATE
 
-    - step_ref: I9
-      requirement: CONDITIONAL
-      status: RECEIVED | NOT_TRIGGERED | MISSING | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+    I9:
+      state:
+        - RECEIVED
+        - NOT_TRIGGERED
+        - MISSING
+        - FAILED
 
-    - step_ref: TRACE_T1_R1_COMPETITION
-      requirement: REQUIRED_BEFORE_R2_WHEN_R1_REACHED
-      status: RECEIVED | PARTIAL | MISSING | FAILED
+    T1:
+      state: REQUIRED_ACCOUNTING_STATE
       trace_ref: REF_OR_NONE
-      canonical_execution_receipt_ref: OPTIONAL_OR_NONE
 
-    - step_ref: R2
-      requirement: REQUIRED_WHEN_REACHABLE
-      status: RECEIVED | MISSING | FAILED
-      input_trace_ref: T1_REF_OR_NONE
-      receipt_or_return_ref: REF_OR_NONE
+    R2:
+      state: REQUIRED_ACCOUNTING_STATE
+      consumed_trace_ref: REF_OR_NONE
+      structured_result_ref: REF_OR_NONE
 
-    - step_ref: NEW_OR_REFRAMED_PATH_QUALIFICATION
-      requirement: CONDITIONAL_IF_R2_OR_R3_PLUS_CREATES_NEW_OR_MATERIALLY_REFRAMED_PATH
-      status: RECEIVED | NOT_REQUIRED | PARTIAL | HOLD | MISSING | FAILED
-      path_refs: []
-      qualification_result_refs: []
-
-    - step_ref: TRACE_T2_R2_COMPETITION
-      requirement: REQUIRED_AFTER_R2
-      status: RECEIVED | PARTIAL | MISSING | FAILED
+    T2:
+      state: REQUIRED_ACCOUNTING_STATE
       trace_ref: REF_OR_NONE
-      canonical_execution_receipt_ref: OPTIONAL_OR_NONE
 
-    - step_ref: R3_PLUS
-      requirement: CONDITIONAL
-      status: RECEIVED | NOT_REQUIRED | MISSING | FAILED
+    post_R2_premise_audit:
+      state:
+        - COMPLETE
+        - PARTIAL
+        - MISSING
+        - HOLD
+      current_answer_premise_family_ref: REF_OR_NONE
+      premise_uniqueness_status:
+        - UNIQUE_ENOUGH_UNDER_CURRENT_SCOPE
+        - MULTIPLE_MATERIAL_PREMISE_FAMILIES
+        - POSSIBLE_MATERIAL_ALTERNATIVE
+        - AMBIGUOUS
+        - HOLD
+      premise_scope_narrowness:
+        - NOT_DETECTED
+        - DETECTED
+        - POSSIBLE
+        - HOLD
+      alternative_premise_family_refs: []
+      material_premise_coverage:
+        - SUFFICIENT_UNDER_CURRENT_SCOPE
+        - INSUFFICIENT
+        - AMBIGUOUS
+        - HOLD
+
+    R3_cross_premise:
+      requirement:
+        - REQUIRED
+        - NOT_REQUIRED
+        - HOLD
+      state:
+        - RECEIVED
+        - NOT_REQUIRED
+        - PARTIAL
+        - MISSING
+        - HOLD
+        - FAILED
+      premise_family_refs: []
+      qualified_path_refs: []
+      result_ref: REF_OR_NONE
+
+    further_rounds:
+      state:
+        - NOT_REQUIRED
+        - RECEIVED
+        - PARTIAL
+        - MISSING
+        - HOLD
       round_refs: []
 
-    - step_ref: TRACE_T3_PLUS
-      requirement: REQUIRED_PER_MATERIAL_R3_PLUS_ROUND
-      status: RECEIVED | NOT_REQUIRED | PARTIAL | MISSING | FAILED
-      trace_refs: []
-      canonical_execution_receipt_refs: []
+  main_return:
+    state: REQUIRED_ACCOUNTING_STATE
+    ref: REF_OR_NONE
 
-    - step_ref: MAIN_RETURN
-      requirement: REQUIRED_WHEN_MAIN_EXECUTION_REACHED_RETURN_OBLIGATION
-      status: RECEIVED | MISSING | FAILED
-      receipt_or_return_ref: REF_OR_NONE
-      binding_mode: HOST_PROVIDER | LOCAL_MODULE | CHAT_NATIVE | SAME_CONTEXT_REFERENCE | OTHER
-      independent_main_provider_claimed: TRUE_OR_FALSE
-      minimum_contract_satisfied: TRUE_OR_FALSE
+  post_main_governance:
+    state: REQUIRED_ACCOUNTING_STATE
+    disposition:
+      - PROCEED
+      - REENTER_MAIN
+      - HOLD
+      - CLOSE_UNRELEASED
+      - OTHER
+      - MISSING
 
-    - step_ref: POST_MAIN_GOVERNANCE
-      requirement: REQUIRED
-      status: RECEIVED | MISSING | HOLD | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+  manifestation_and_release:
+    manifestation_candidate_state: REQUIRED_ACCOUNTING_STATE
+    manifestation_fidelity_state: REQUIRED_ACCOUNTING_STATE
+    release_qualification_state: REQUIRED_ACCOUNTING_STATE
+    release_result_state: REQUIRED_ACCOUNTING_STATE
 
-    - step_ref: MANIFESTATION_CANDIDATE
-      requirement: REQUIRED_WHEN_OUTPUT_PROCEEDS
-      status: RECEIVED | NOT_APPLICABLE | MISSING | FAILED
-      result_ref: REF_OR_NONE
+  external_receipts:
+    provider_or_tool_receipt_refs: []
+    note: "NONE DOES NOT BY ITSELF INVALIDATE CYCLE ACCOUNTING"
 
-    - step_ref: TRACE_TM_MANIFESTATION_FIDELITY
-      requirement: REQUIRED_WHEN_MANIFESTATION_CANDIDATE_EXISTS
-      status: RECEIVED | PARTIAL | MISSING | FAILED
-      trace_ref: REF_OR_NONE
-      canonical_execution_receipt_ref: OPTIONAL_OR_NONE
+  gaps:
+    missing_required_refs: []
+    failed_refs: []
+    hold_refs: []
+    unresolved_refs: []
 
-    - step_ref: TASK_OR_VERTICAL_ACCEPTANCE
-      requirement: CONDITIONAL_IF_EXPLICIT_ACCEPTANCE_CONTRACT_EXISTS
-      status: RECEIVED | NOT_APPLICABLE | PASS | PARTIAL | NOT_PASSED | HOLD | MISSING
-      requirement_ref: REF_OR_NONE
-      result_ref: REF_OR_NONE
+  accounting:
+    all_material_checkpoints_accounted: TRUE_OR_FALSE
+    accounting_status:
+      - ACCOUNTING_COMPLETE
+      - ACCOUNTING_INCOMPLETE
 
-    - step_ref: MANIFESTATION_RELEASE_QUALIFICATION
-      requirement: REQUIRED_WHEN_OUTPUT_PROCEEDS
-      status: RECEIVED | NOT_APPLICABLE | MISSING | HOLD | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+  cycle_outcome:
+    - COMPLETED
+    - HOLD
+    - FAILED
+    - ABORTED
+    - INCOMPLETE
+~~~
 
-    - step_ref: RELEASE_OR_NON_RELEASE_RESULT
-      requirement: REQUIRED_WHEN_RELEASE_PHASE_REACHED
-      status: RECEIVED | CLOSED_UNRELEASED | MISSING | HOLD | FAILED
-      receipt_or_return_ref: REF_OR_NONE
+---
 
-    - step_ref: TRACE_TFINAL_RELEASE_FIDELITY
-      requirement: CONDITIONAL_IF_RELEASE_TRANSFORMATION_MATERIALLY_CHANGES_CONTENT
-      status: RECEIVED | NOT_REQUIRED | PARTIAL | MISSING | FAILED
-      trace_ref: REF_OR_NONE
-      canonical_execution_receipt_ref: OPTIONAL_OR_NONE
+## 12.0.1｜Compact Visible Receipt｜人類預設看到這張
 
-  missing_required_refs: []
-  failed_refs: []
-  hold_refs: []
-```
+預設不把上面整張 YAML 全印出來。
 
-這份清單只回答：
+人類可見最低格式：
 
-> **該有的工作、戰情回報與結果有沒有收到？**
+~~~text
+LIHUO CYCLE RECEIPT
 
-對 Light Trace，判定 `RECEIVED / PARTIAL / MISSING` 的主欄位是 `trace_ref` 與 trace content，不是額外 provider receipt。
+Cycle: <ref>
+Outcome: COMPLETED / HOLD / FAILED / INCOMPLETE
 
-```text
-TRACE_REF PRESENT + QUALIFYING TRACE CONTENT
-→ TRACE MAY BE RECEIVED
+R1: <state>
+R2: <state>
 
-NO EXTRA TRACE RECEIPT
-→ NOT A MISSING TRACE BY ITSELF
-```
+Post-R2 Premise Audit:
+- Current premise family: <summary>
+- Unique enough?: YES / NO / POSSIBLE / HOLD
+- Other material premise families: <none / summaries>
+- Premise scope narrowness: NOT_DETECTED / DETECTED / POSSIBLE
 
-Light Trace return 是觀測材料，不是自行成立的 governance decision。
+R3:
+- REQUIRED / NOT_REQUIRED / HOLD
+- If run: premise families included + result state
+
+Main Return: <state>
+Manifestation / Release: <state>
+
+Missing / Hold / Unresolved:
+- <only material items>
+
+Accounting: COMPLETE / INCOMPLETE
+~~~
+
+這張收據的目的：
+
+> **讓人類一眼知道理火到底跑到哪裡、R3 為什麼有或沒有、以及我們是否真的審過「AI 有沒有把問題理解得太窄」。**
+
+---
+
+## 12.0.2｜收據不能寫什麼
+
+禁止：
+
+~~~text
+SAFETY OVERRIDE ACTIVE
+HOST EXECUTION VERIFIED
+TOOL EFFECT CONFIRMED
+PROVIDER RECEIPT RECEIVED
+~~~
+
+除非真的有相稱證據。
+
+也禁止：
+
+~~~text
+ALL PREMISES EXHAUSTED
+~~~
+
+只能寫：
+
+~~~text
+MATERIAL PREMISE COVERAGE
+=
+SUFFICIENT_UNDER_CURRENT_SCOPE
+~~~
 
 ---
 
@@ -28464,171 +28692,107 @@ L8 仍然要能回報。
 
 ---
 
-# 15｜Final Cycle Report
+# 15｜Cycle Receipt 與 Expanded Cycle Report
 
-完整 cycle report 仍只在需要時對使用者顯影；但**內部戰情 trace 不再因使用者沒要求報告而省略**。
+V1.3 正式改成：
 
-V1.2.3 新增 report coverage lock：
+~~~text
+EVERY ACTUAL L8 CYCLE
+→ COMPACT VISIBLE CYCLE RECEIPT
 
-> **Final report 不能只挑有內容的漂亮節點列出；每個 applicable operational checkpoint 都必須至少有一個明確 accounting state。**
+EXPANDED CYCLE REPORT
+→ CONDITIONAL
+~~~
 
-```text
-STEP OMITTED FROM REPORT
-!=
-STEP ACCOUNTED
-```
+因此「使用者沒要求完整報告」不再等於「什麼都不回報」。
 
-若 required / applicable step 沒有出現在 report 的 operational checkpoint states：
+最低責任是：
 
-```text
-ACCOUNTING_STATUS
-=
-ACCOUNTING_INCOMPLETE
-```
+> **只要宣稱跑了 L8，就必須給人類一張 compact cycle receipt。**
 
-直到它被補成：
+Expanded Cycle Report 仍保留 coverage lock：
 
-```text
-RECEIVED
-NOT_REQUIRED
-NOT_TRIGGERED
-MISSING
-FAILED
-HOLD
-CLOSED_UNRELEASED
-```
+> **完整報告不能只挑漂亮節點；每個 applicable operational checkpoint 都必須有 accounting state。**
 
-其中之一。
+Expanded Report 至少應在下列情況考慮：
 
-```yaml
-L8_CYCLE_REPORT_V1_2_3:
-  cycle_ref: REQUIRED
+~~~text
+USER REQUESTED
+HIGH RESPONSIBILITY
+EXTERNAL ACTION
+HOLD / FAILED / INCOMPLETE
+MATERIAL PREMISE AMBIGUITY
+AUDIT / DISPUTE
+MATERIAL MANIFESTATION DRIFT
+~~~
 
-  task_summary_ref: REQUIRED
-  host_mode: REQUIRED
-  lane: REQUIRED
-  input_qualification_ref: REF_OR_MISSING
-  main_invocation_refs: []
+Expanded Report 的 competition 區塊必須新增：
 
-  competition:
-    R1_state: REQUIRED_ACCOUNTING_STATE
-    O9_state: REQUIRED_ACCOUNTING_STATE
-    I9_state: REQUIRED_ACCOUNTING_STATE
+~~~yaml
+competition:
+  R1_state: REQUIRED_ACCOUNTING_STATE
+  T1_state: REQUIRED_ACCOUNTING_STATE
 
-    T1:
-      state: REQUIRED_ACCOUNTING_STATE
-      ref: REF_OR_MISSING
+  R2_state: REQUIRED_ACCOUNTING_STATE
+  T2_state: REQUIRED_ACCOUNTING_STATE
 
-    R2:
-      state: REQUIRED_ACCOUNTING_STATE
-      consumed_trace_ref: REF_OR_MISSING
-
-    new_or_reframed_path_qualification:
-      state: REQUIRED_ACCOUNTING_STATE
-      path_refs: []
-      qualification_result_refs: []
-
-    T2:
-      state: REQUIRED_ACCOUNTING_STATE
-      ref: REF_OR_MISSING
-
-    R3_PLUS:
-      state: REQUIRED_ACCOUNTING_STATE
-      round_refs: []
-      trace_refs: []
-
-  main_return:
+  post_R2_premise_audit:
     state: REQUIRED_ACCOUNTING_STATE
-    ref: REF_OR_MISSING
-    binding_mode: HOST_PROVIDER | LOCAL_MODULE | CHAT_NATIVE | SAME_CONTEXT_REFERENCE | OTHER
-    minimum_contract_satisfied: TRUE_OR_FALSE
-    independent_main_provider_claimed: TRUE_OR_FALSE
+    current_answer_premise_family_ref: REF_OR_MISSING
+    premise_uniqueness_status: REQUIRED_OR_MISSING
+    premise_scope_narrowness: REQUIRED_OR_MISSING
+    alternative_premise_family_refs: []
+    material_premise_coverage: REQUIRED_OR_MISSING
 
-  post_main_governance:
+  R3_cross_premise:
+    requirement: REQUIRED | NOT_REQUIRED | HOLD
     state: REQUIRED_ACCOUNTING_STATE
-    ref: REF_OR_MISSING
-    disposition:
-      - PROCEED
-      - REENTER_MAIN
-      - HOLD
-      - CLOSE_UNRELEASED
-      - OTHER
-      - MISSING
+    premise_family_refs: []
+    qualified_path_refs: []
+    result_ref: REF_OR_MISSING
 
-  manifestation_candidate:
+  further_rounds:
     state: REQUIRED_ACCOUNTING_STATE
-    ref: REF_OR_MISSING
-
-  manifestation_fidelity:
-    state: REQUIRED_ACCOUNTING_STATE
-    trace_ref: REF_OR_MISSING
-    status:
-      - CONSISTENT
-      - MATERIAL_DRIFT_REPORTED
-      - PARTIAL
-      - NOT_APPLICABLE
-      - NOT_VERIFIED
-
-  task_or_vertical_acceptance:
-    applicability:
-      - APPLICABLE
-      - NOT_APPLICABLE
-    requirement_ref: REF_OR_NONE
-    status:
-      - PASS
-      - PARTIAL
-      - NOT_PASSED
-      - HOLD
-      - MISSING
-      - NOT_APPLICABLE
-    result_ref: REF_OR_NONE
-
-  manifestation_release_qualification:
-    state: REQUIRED_ACCOUNTING_STATE
-    ref: REF_OR_MISSING
-
-  release_or_non_release:
-    state: REQUIRED_ACCOUNTING_STATE
-    ref: REF_OR_MISSING
-    disposition: REQUIRED_OR_MISSING
-
-  final_release_fidelity:
-    state: REQUIRED_ACCOUNTING_STATE
-    ref: REF_OR_NOT_REQUIRED
-
-  report_coverage:
-    all_applicable_steps_accounted: TRUE_OR_FALSE
-    omitted_applicable_step_refs: []
-
-  final_result_ref: REF_OR_NONE
-  final_disposition: REQUIRED
-
-  missing_required_refs: []
-  failed_refs: []
-  hold_refs: []
-  unresolved_refs: []
-
-  accounting_status:
-    - ACCOUNTING_COMPLETE
-    - ACCOUNTING_INCOMPLETE
-
-  cycle_outcome:
-    - COMPLETED
-    - HOLD
-    - FAILED
-    - ABORTED
-    - INCOMPLETE
-```
+    round_refs: []
+    trace_refs: []
+~~~
 
 Coverage hard lock：
 
-```text
-all_applicable_steps_accounted = FALSE
+~~~text
+POST-R2 PREMISE AUDIT
+OMITTED FROM RECEIPT / REPORT
+WHEN R2 COMPLETED
 →
 ACCOUNTING_INCOMPLETE
-```
+~~~
 
-即使某一步可能實際發生過，只要 final report 沒有給它任何 accounting state，就不能宣稱 report accounting complete。
+以及：
+
+~~~text
+R3 REQUIRED
+BUT R3 STATE OMITTED
+→
+ACCOUNTING_INCOMPLETE
+~~~
+
+所以新的可見報告核心，不只是：
+
+~~~text
+WHO WON?
+~~~
+
+而是：
+
+~~~text
+WHAT PREMISE FAMILY DID WE ASSUME?
+WAS IT UNIQUE ENOUGH?
+WHAT OTHER MATERIAL PREMISE FAMILIES WERE FOUND?
+DID THEY ENTER R3?
+WHERE DID THE CYCLE ACTUALLY STOP?
+~~~
+
+---
 
 ## 15.1｜TM Fidelity != Task / Vertical Acceptance != Release Qualification
 
@@ -28967,75 +29131,86 @@ FOR EVERY L8 CYCLE
 
 # 18｜最小 Runtime Algorithm
 
-```text
+~~~text
 OPEN CYCLE
 
 1. GET CURRENT QUALIFIED INPUT / GOVERNANCE RESULT
-2. IF HOLD / BLOCK → REPORT AND STOP CURRENT PROGRESSION
+2. IF HOLD / BLOCK
+   → CREATE PARTIAL CYCLE RECEIPT
+   → VISIBLE RECEIPT
+   → STOP CURRENT PROGRESSION
 
 3. CALL MAIN R1
 4. RECEIVE R1 + O9 + [I9 IF TRIGGERED]
 
-5. CALL L9 LIGHT_TRACE_RENDERER
-      mode = INTER_ROUND_COMPETITION_TRACE
-      boundary = R1
-   → RECEIVE T1 TRACE RESULT / TRACE_REF
+5. CALL LIGHT TRACE T1
+   → RECEIVE TRACE RESULT
    → PRESERVE PROVIDER RECEIPT IF ONE ACTUALLY EXISTS
-   → IF REQUIRED T1 TRACE RESULT MISSING: RECORD GAP; DO NOT INVENT
 
-6. CALL MAIN R2 WITH T1 REF / AVAILABLE TRACE MATERIAL
+6. CALL MAIN R2 WITH T1
 7. RECEIVE R2
 
-8. CALL L9 LIGHT_TRACE_RENDERER
-      boundary = R2
-   → RECEIVE T2 TRACE RESULT / TRACE_REF
-   → PROVIDER RECEIPT OPTIONAL
+8. CALL LIGHT TRACE T2
 
-9. IF R3+ REQUIRED:
-      FOR EACH MATERIAL ROUND:
-        CALL MAIN WITH LATEST TRACE REF
-        RECEIVE ROUND RESULT
-        CALL LIGHT_TRACE_RENDERER
-        RECEIVE T3+n TRACE RESULT / TRACE_REF
-        PROVIDER RECEIPT OPTIONAL
+9. RUN MANDATORY POST-R2
+   PREMISE UNIQUENESS / PLURALITY AUDIT
 
-10. RECEIVE MAIN RETURN
-11. ASK APPLICABLE GOVERNANCE OWNER:
+10. IF MATERIAL ALTERNATIVE PREMISE FAMILIES EXIST:
+      OPEN R3 CROSS-PREMISE COMPETITION
+      → FORM / QUALIFY PATHs FROM MATERIAL FAMILIES
+      → INCLUDE CURRENT R2 SYNTHESIS
+      → RUN R3
+      → TRACE RESULT
+      → [FURTHER ROUNDS IF MATERIAL]
+
+11. RECEIVE MAIN RETURN
+
+12. ASK APPLICABLE GOVERNANCE OWNER:
       PROCEED / REENTER / HOLD
 
-13. RECEIVE EXPLICIT POST_MAIN_GOVERNANCE RESULT
-    → PROCEED / REENTER_MAIN / HOLD / CLOSE_UNRELEASED / OTHER
-
-14. IF REENTER:
+13. IF REENTER:
       RUN NEW LAWFUL MAIN INVOCATION
-      WITH CURRENT QUALIFIED TRACE MATERIAL
       THEN CONTINUE SAME CYCLE
 
-15. WHEN PROCEED:
+14. WHEN PROCEED:
       CREATE MANIFESTATION CANDIDATE
 
-16. CALL L9 LIGHT_TRACE_RENDERER
-      mode = MANIFESTATION_FIDELITY_TRACE
-      compare = LATEST_COMPETITION_TRACE vs MANIFESTATION_CANDIDATE
-   → RECEIVE TM
+15. RUN MANIFESTATION FIDELITY TRACE
 
-17. IF EXPLICIT TASK / VERTICAL ACCEPTANCE CONTRACT EXISTS:
-      RUN ITS APPLICABLE ACCEPTANCE CHECK
-      KEEP RESULT SEPARATE FROM TM
+16. IF EXPLICIT TASK / VERTICAL ACCEPTANCE CONTRACT EXISTS:
+      RUN APPLICABLE ACCEPTANCE CHECK
 
-18. RUN APPLICABLE MANIFESTATION / RELEASE QUALIFICATION
+17. RUN MANIFESTATION / RELEASE QUALIFICATION
 
-19. IF RELEASE STEP MATERIALLY TRANSFORMS SEMANTICS:
-      CALL TFINAL FIDELITY TRACE
+18. IF RELEASE STEP MATERIALLY TRANSFORMS SEMANTICS:
+      RUN TFINAL
 
-20. RECEIVE RELEASE / NON-RELEASE RESULT
-21. RUN FINAL CYCLE ACCOUNTING CHECKLIST
-22. VERIFY REPORT COVERAGE OF ALL APPLICABLE CHECKPOINTS
-23. IF VISIBLE REPORT REQUESTED → RENDER CYCLE REPORT
+19. RECEIVE RELEASE / NON-RELEASE RESULT
+
+20. BUILD L8 CYCLE ACCOUNTING RECEIPT
+
+21. VERIFY:
+      POST-R2 PREMISE AUDIT ACCOUNTED
+      R3 REQUIREMENT ACCOUNTED
+      ALL OTHER MATERIAL CHECKPOINTS ACCOUNTED
+
+22. RENDER COMPACT VISIBLE CYCLE RECEIPT
+
+23. IF EXPANDED REPORT REQUIRED / REQUESTED:
+      RENDER EXPANDED CYCLE REPORT
+
 24. END
-```
+~~~
 
-沒有新層。只是把已存在的 L8 → L9 capability call 接到正確時間點。
+沒有新層。
+
+只是把：
+
+~~~text
+週期是否真的跑完
+~~~
+
+從隱含假設，變成一個人類可見的最低責任輸出。
 
 ---
 
@@ -29055,11 +29230,17 @@ L8
 CALLS OWNERS.
 
 L8
-DOES NOT CREATE RECEIPTS.
+DOES NOT INVENT
+EXTERNAL / PROVIDER RECEIPTS.
+
+L8
+DOES ISSUE
+ITS OWN CYCLE ACCOUNTING RECEIPT.
 
 L8
 CHECKS WHETHER
-THE REQUIRED RECEIPTS ARRIVED.
+THE REQUIRED RESULTS / RETURNS /
+OPTIONAL EXTERNAL RECEIPTS ARRIVED.
 
 MISSING MEANS MISSING.
 
