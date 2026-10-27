@@ -346,7 +346,7 @@ WHAT HIDDEN CHAIN OF THOUGHT OCCURRED
 
 # 3｜完整一趟理火
 
-V1.2.3 標準業務路徑：
+V1.3 candidate 標準業務路徑：
 
 ```text
 TASK / INPUT
@@ -368,12 +368,21 @@ MAIN INVOCATION
 │
 ├─ R2
 │      consumes T1
+│      = same-premise antithesis recovery
 │
 ├─ L8 → L9 LIGHT_TRACE_RENDERER
 │      → T2 / R2_COMPETITION_TRACE
 │
+├─ DIALECTICAL INTEGRITY CHECK
+│
+├─ [IF MATERIAL PREMISE / FRAME REOPENING REQUIRED:
+│      premise reframe candidate
+│      → applicable premise qualification
+│      → accepted premise delta / HOLD]
+│
 ├─ [R3+ IF REQUIRED
 │      consumes latest trace
+│      + accepted premise delta if applicable
 │      → after EACH material round:
 │        L8 → L9 LIGHT_TRACE_RENDERER
 │        → T3+ / ROUND_COMPETITION_TRACE]
@@ -1558,6 +1567,40 @@ NO EXTRA TRACE RECEIPT
 ```
 
 Light Trace return 是觀測材料，不是自行成立的 governance decision。
+
+---
+
+## 12.1｜Main Compatibility Lock｜候選語義不能冒充已部署 Main
+
+本 L8 candidate 的完整 R2 / R3 辯證語義，依賴：
+
+~~~text
+LIHUO_MAIN_V5.1.1 parent
++
+V5.1.2 dialectical competition semantic patch candidate
+~~~
+
+或之後具有等價語義的 lawful successor。
+
+因此：
+
+~~~text
+CURRENT MAIN V5.1.1 ALONE
+!=
+EVIDENCE THAT
+V1.3 DIALECTICAL CONTRACT
+IS IMPLEMENTED
+~~~
+
+若實際執行環境仍只有 V5.1.1 current semantics，而沒有 V5.1.2 patch / successor：
+
+~~~text
+DIALECTICAL R3 PREMISE REFRAME
+=
+NOT IMPLEMENTED / NOT VERIFIED
+~~~
+
+L8 必須如實記錄 compatibility gap，不得因為文件已寫好就宣稱 Main 已具備該能力。
 
 ---
 
