@@ -157,7 +157,7 @@ LIHUOOS_V1_3_CURRENT_SOURCE_SNAPSHOT:
 
   L8:
     file: "L8_LIHUO_OPERATING_CYCLE_V1.3_20261028.md"
-    blob_sha: "30f9be4b39b218267f522a23c2ce719cf4fdc927"
+    blob_sha: "37992223176ce1fcb4a9a83a09d30903ec77dc4f"
     internal_version: "V1.3"
     standing: "RATIFIED_CURRENT_OPERATIVE_LAYER"
 
