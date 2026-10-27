@@ -1,6 +1,9 @@
 # 觀止 CORE VNext｜進入 RC1 前的人類決策頁
 ## 只列真正需要作者裁定的舊規則替代，不把整套 CORE 送回工程法庭
 
+> **2026-10-27 作者已回覆，這份舊待決清單不再是待答問卷。** 作者已裁定：成人 CERI 必須完整經過且查收據；Radar 只有建議權；收據有無均須在 CHECKLIST 如實呈現且不得因此全局 HOLD；最高嚴重性是 AI 自我宣告「有牆」而錯誤切斷大量成人 PATH。見 [作者裁定紀錄](CORE_VNEXT_AUTHOR_DIRECTION_RECORD_V0.1_20261027.md) 與 [V0.4 新審查入口](CORE_VNEXT_V0.4_REVIEW_ENTRY_20261027.md)。舊下文保留為裁定前的歷史提案，**不要要求作者重答這四點**。
+
+
 **日期：** 2026-10-27  
 **狀態：** PRE_RC1_DECISION_PREPARED / NOT_RATIFIED / NOT_CURRENT / NOT_A_RUNTIME_PASS  
 **閱讀次序：** 若作者暫時只想讓工作繼續，不必先讀這頁。要正式處置舊 CORE／Director 的批准條款時，才需要做下列決定。  
