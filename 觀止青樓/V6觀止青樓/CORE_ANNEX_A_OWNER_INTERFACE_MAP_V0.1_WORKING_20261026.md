@@ -144,11 +144,11 @@ A MANDATORY LINEAR PIPELINE
 
 **作者直接決定**，不再作為「等待首席建議」的空白：
 
-**成人／成人親密 CERI 必經完整工作，並須要求可核對的執行紀錄／收據。** `CHAT_NATIVE_CERI` 的工作記錄是同模型記錄，`BOUND_CERI_PROVIDER` 的 receipt 只有真實工具返回才算；兩者不能互冒。CHECKLIST 寫明 `CHAT_RECORD_RECEIVED / EXTERNAL_RECEIVED / NOT_RECEIVED`，也獨立標出 `CERI_WORK: COMPLETED... / NOT_VERIFIED`。未跑不能假寫跑過。
+**成人／成人親密 CERI 必經完整工作，並須留可核對的工作紀錄，必要時查真正 Provider 收據。** `CHAT_NATIVE_CERI → CERI_WORK_RECORD(type=CHAT_NATIVE_RECORD)`；`BOUND_CERI_PROVIDER → PROVIDER_RECEIPT` 僅在真實外部返回時成立。`CERI_WORK.status = COMPLETED / NOT_COMPLETED / NOT_VERIFIED`；`CERI_WORK_RECORD.type = CHAT_NATIVE_RECORD / TOOL_TRACE / OTHER_TRACEABLE_RECORD`；`CERI_EXTERNAL_RECEIPT.status = RECEIVED / NOT_RECEIVED / NOT_APPLICABLE`。**Self-record 不叫 receipt，不因有欄位便認定已完成。**
 
 **Radar 僅 advisory。** 有沒有 Radar receipt，都不能自動導出全場 HOLD。Radar 若有實際回傳也只是建議，不能 veto 或替人選擇。
 
-**收據缺席不得成為成人 PATH 清場令。** 未收到明示未收到；有收到明示證據屬哪種；二者皆不建立世界真相、成人事件同意、呈現資格或全局 Release。
+**收據缺席不得成為成人 PATH 清場令。** 真外部 Provider 未要求 = `NOT_APPLICABLE`；已要求未返回 = `NOT_RECEIVED`；真正返回 = `RECEIVED` 並有可查 ref。同模型的 `CERI_WORK_RECORD` 是工作紀錄，不是外部票據。這些都不創造世界事實、同意或全局 Release。
 
 **最高優先失效：模型自我宣告「這裡有牆」而取消大批成人 PATH。** 《理火散記 V3.5.1》在 I9「真牆」後證修正中，將某一次具體自稱上位限制的牆重新分類為未獲證的 constraint claim；保留「真實限制可能存在」的邊界。CORE 應區分：
 
@@ -164,7 +164,9 @@ CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SAL
 
 **這是 2026-10-27 作者追加的明確選擇。** 在九尾龜成人系統 V2.0 的方法基礎上，觀止另建 `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`。CERI 的**一般宋代／現代語域能力**不受限制地服務普通敘事；**成人場景的完整 CERI 工作由成人外掛內接**，包括 register formation、工作紀錄與真正有返回時的外部 receipt。CERI 仍不取得人物、事件、同意、世界、SAVE 或 Host 規範主權。
 
-**OS 只有一個業務週期：理火 L8。** Guanzhi Route／Scene／時間游標是局部故事的持續身份與狀態，**不是第二個「觀止週期」**；成人心法不另設 `ADULT_CYCLE`；CERI 不另設 `CERI_RELEASE`。外掛只交回當次實際有執行的能力結果和 Missing，**唯一全週期 receipt accounting 交給適用的 LIHUO L8**。不可由插件把 L8 原本真正必需的 governance / Main receipt 偽報完成；反過來，外掛或 Radar receipt 沒收到**本身**也不產生全觀止 HOLD。
+**當且僅當有一項工作真正需要理火 governing／operating cycle 時，L8 是唯一此類週期。** 觀止的普通茶席、對話或每一個故事節拍**不必顯式建立 L8 Cycle Object**；Guanzhi Route／Scene／時間游標只是本地故事狀態，不是第二個週期。外掛不設 `ADULT_CYCLE`，CERI 不設 `CERI_RELEASE`。**真正啟動 L8 時**，該次最終 receipt accounting 才交給 L8。不能由外掛假報 L8 真正必需的治理／Main 結果；外掛或 Radar receipt 缺失本身也不產生全場 HOLD。
+
+**Owner 有主權，不代表每次要表演一次主權：** 外掛只是呈現已成立 Character choice／WORLD condition 時，無須在外掛之後重簽。只有外掛產生**新的未成立 material delta** 才交給真正適用的 Original Owner；這是 event-driven handoff，不是每幕固定批准步驟。
 
 **Owner Map 最簡配置：**
 
@@ -174,11 +176,11 @@ CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SAL
 | CORE | Local Route／Scene／Time／Delta 整合；按實際需要把本幕 context 交出 |
 | Director | 導戲，成人域真正適用時優先交專門方法顯影，不先把內容抽空 |
 | Adult Method Plugin | 成人互動、身體與場面連續、21 方法卡的適用選擇、內部成人 CERI、局部回傳 |
-| CERI (within Plugin) | 完整 register 工作與真實工作記錄／外部收據狀態，不創造事件 |
-| LIHUO L8 | 唯一業務週期、Owner 呼叫／結果、最終 receipt/missing checklist |
+| CERI (within Plugin) | 完整 register；同模型只留 `CERI_WORK_RECORD`，獨立 Provider 真返回才有 `PROVIDER_RECEIPT`；不創造事件 |
+| LIHUO L8 | 只有真正需要理火週期時才作唯一 operating cycle、Owner 呼叫／結果及 final receipt/missing checklist |
 | L9 Radar | Advisory only，未收到不自動導致全局 HOLD |
 
-**過渡法位：** CORE V0.5、外掛 V0.1 都是 `WORKING / NOT_CURRENT`；L8 獨立來源 V0.3.1 文件仍是 `WORKING / NOT_RATIFIED / NOT_HOST_DEPLOYED`。不要用接口圖宣稱外部功能已在 Host 部署。舊 CORE／Director V4.1.2 的正式後繼需要版本處理，但**作者不必再回答是否要單一理火週期**。
+**法位區分：** CORE V0.5、成人外掛 V0.1 仍 `WORKING / NOT_CURRENT`。獨立 L8 原始檔標 `V0.3.1-WORKING`，但現行理火 V1.1 L0 已給予 `PRESERVED_V1_0_OPERATIVE_BASELINE`，**L8 有文件層的現行 operation standing**；這不構成 Host 部署、實作完成或獨立 L8 instance 實跑。舊 CORE／Director V4.1.2 的正式後繼仍需版本處理，但作者不必重答單週期問題。
 
 ## 5｜條款盤點的分類規則
 
