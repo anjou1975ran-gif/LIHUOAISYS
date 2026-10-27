@@ -11,7 +11,7 @@
 
 # 0｜外接的是成人心法，不是一套第二個 OS
 
-**觀止不是另一套治理週期。** Route 是持續生活的線，Scene 是局面，人物有自己的決定；理火一次工作要啟動時由**現行適用的 L8 理火 Operating Cycle**負責調用、實收、MISSING、真實的治理結果與最終 CHECKLIST。外掛只做本領域的**方法和專門顯影**，並回傳自己的事實與缺口；不另外定義 Guanzhi Primary、Admission、R1/O9/R2、Final Gate、Final Release、週期結案或替 L8 自製票據。
+**觀止不是另一套治理週期。** Route 是持續生活的線，Scene 是局面，人物有自己的決定；普通敘事無須每拍開 L8。**但作者已釐清：一旦要求成人性愛場景的專門生成，必須由實際完整的 LIHUO L8 理火週期承載；沒有跑過全週期的只是一般生成，不准宣稱外掛／理火完整成功。** L8 負責真正的主流程、實收、MISSING、治理結果和 Final Receipt Checklist。外掛只做本領域的**方法和專門顯影**，並回傳自己的事實與缺口；不另外定義 Guanzhi Primary、Admission、R1/O9/R2、Final Gate、Final Release、週期結案或替 L8 自製票據。
 
 ```text
 PLAYER / SCENE / ROUTE (持續存在；NOT A GOVERNANCE CYCLE)
@@ -21,7 +21,10 @@ WORLD V3 + CHARACTER + PLAYER
   ↓
 DIRECTOR / CORE
   僅整理本幕已知、未決、人物聲音與可見範圍
-  ↓ [本幕成人方法或語域真正適用]
+  ↓ [若僅普通成人語義對話：依場景可使用一般語域能力]
+  ↓ [若要生成成人性愛專門場景：必須先 OPEN REAL LIHUO L8 CYCLE]
+LIHUO L8 → QUALIFICATION / MAIN / GOVERNANCE → MANIFESTATION PHASE
+  ↓ [只在適用 L8 manifestation 階段進入]
 GUANZHI ADULT METHOD PLUGIN
   ├─ 實際需要的成人方法卡（不是 21 卡每輪全跑）
   ├─ 內部 CERI 完整工作（成人場景不得省）
@@ -33,12 +36,13 @@ APPLICABLE ORIGINAL OWNER (as actually required)
   ↓
 CORE 承接實際已成立的局面；SAVE 只有真寫入才算保存
 
-LIHUO L8 (唯一業務週期，按其實際適用條件承接上列工作)
-  需要時調用 applicable owner / MAIN / 本外掛或真正工具
-  接收而非製造結果 → FINAL RECEIPT CHECKLIST / MISSING
+LIHUO L8 (唯一理火業務週期；成人性愛專門生成時 REQUIRED)
+  插件輸出後承接 manifestation/release qualification
+  按既有 L8 標準完成 release/non-release/HOLD 與 final receipt accounting
+  只有 required steps 真正完成後，才能宣稱 L8 adult cycle COMPLETED
 ```
 
-**這是職責圖，不是固定 Pipeline，更不是每個故事節拍都要啟動一個顯式 L8 Cycle Object。** 只有工作真正需要理火 governing／operating cycle 時，L8 才是唯一該類週期。理火 OS V1.1 的 L0 把獨立 L8 `V0.3.1-WORKING` 來源納入 `PRESERVED_V1_0_OPERATIVE_BASELINE`，所以 **L8 是當前文件法位的 operation layer**；此法位不等於 Host 部署、實作完成或外部 L8 instance 真在運行。
+**這是職責圖，不是固定 Pipeline，更不是每個故事節拍都要啟動一個顯式 L8 Cycle Object。** **成人性愛專門生成一定屬於需要完整 L8 的工作**；其他普通故事節拍只有真正需要時才開 L8。理火 OS V1.1 的 L0 把獨立 L8 `V0.3.1-WORKING` 來源納入 `PRESERVED_V1_0_OPERATIVE_BASELINE`，所以 **L8 是當前文件法位的 operation layer**；此法位不等於 Host 部署、實作完成或外部 L8 instance 真在運行。
 
 # 1｜誰擁有什麼；成人模組絕不能搶什麼
 
@@ -63,7 +67,7 @@ LIHUO L8 (唯一業務週期，按其實際適用條件承接上列工作)
 
 **B. ADULT SEMANTICS, EVENT NOT ESTABLISHED：** 當輪涉及成年人間的直接欲望言談、挑逗、交易條件、親密邀約、拒絕或私下界線，**可以調用外掛的「對話／人物語域」能力**；不得因言語內容把尚未發生的事件自行補成已發生。
 
-**C. ACTIVE ADULT INTIMACY SCENE：** 由 WORLD／Character／Player 真正給出必要資格與當次狀態，且按實際適用內容規範可提供的範圍，使用成人方法與專門顯影。成年資格未知不預設已成年；世界允許某制度存在，不等於可見內容不受任何外部限制。
+**C. ACTIVE ADULT SEXUAL SCENE GENERATION：** 由 WORLD／Character／Player 給出必要資格與當次狀態，**必須在已實際啟動的 L8 完整週期內**使用成人方法、內接 CERI 與專門顯影，且須遵守實際適用的內容限制；**只有取得全週期真正完成結果，才能宣稱本次成人專門生成經 L8 跑完**。無 L8 時只可稱一般生成／未驗證候選，不得把普通旁白冒稱外掛已實跑。成年資格未知不預設已成年；世界允許某制度存在，不等於可見內容不受任何外部限制。
 
 **退出／返回：** 場景回到非成人日常、人物離席或退場、需要新重大事件決定、原有材料不足、真正受限的可見細節，均可以局部退出或回交適用 owner；**只關閉命中分支，不自動關閉所有普通對話、關係、日常和其他可呈現的 PATH**。
 
@@ -326,9 +330,12 @@ CERI_EXTERNAL_RECEIPT.status = RECEIVED / NOT_RECEIVED / NOT_APPLICABLE
 
 # 6｜成人場景專門顯影先於一般敘事淡化
 
-九尾龜 V1.3 的實質修正值得直接保留：
+九尾龜 V1.3 的實質修正值得直接保留，但**成人性愛場景只有在 L8 週期內才可啟動這段專門顯影流程**：
 
 ```text
+ADULT SEX SCENE REQUEST → OPEN AND RUN ACTUAL L8 CYCLE (REQUIRED)
+→ applicable qualification / Main / governance
+→ L8 manifestation stage
 已成立故事語義 + 確實適用的輸出界線
 ↓
 當輪若為成人專項 → 先用專門心法辨認可呈現的場景與人物聲音
@@ -336,8 +343,10 @@ CERI_EXTERNAL_RECEIPT.status = RECEIVED / NOT_RECEIVED / NOT_APPLICABLE
 CERI 完整語域形成
 ↓
 可見敘事在適用規範範圍內成立
+↓ [only new, not-yet-established material proposal]
+APPLICABLE ORIGINAL OWNER（既成決定不重簽）
 ↓
-WORLD / CHARACTER 驗證真正 material delta
+L8 manifestation / release result / FINAL RECEIPT CHECKLIST / actual cycle outcome
 ↓
 一般敘事接續未由本外掛處理的日常通道
 ```
@@ -414,6 +423,8 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
   MANIFESTATION: actual text/result ref / NONE
   DELTA_CANDIDATES: only NEW not-yet-established material proposals / NONE
   CONSTRAINT_SCOPE: actually applicable scope / UNKNOWN
+  L8_CYCLE_REF: REAL_REF_WHEN_REQUESTED / NONE
+  L8_CYCLE_OUTCOME: READ_FROM_ACTUAL_L8_REPORT / UNKNOWN
   NO_STORY_WIDE_HOLD_FROM_RECEIPT_ABSENCE: TRUE
 ```
 
@@ -421,7 +432,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 **回交 Original Owner 是事件驅動，不是插件之後的固定簽核：** 已成立的 Character choice／WORLD condition 不需要二度確認，僅對外掛新增而未成立的 material proposal 詢問適用 Owner。
 
-**只有實際需要理火 governing／operating cycle 時，L8 才承擔那一次週期和最終 receipt accounting。** 每個故事節拍不強制顯式開啟 L8 Cycle Object。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
+**成人性愛場景專門生成必須在真正 L8 週期內運行，並由 L8 完成它原有的 Main、governance、manifestation/release 與最終 receipt accounting。** L8 完整結案包含顯影階段，因此不能要求『L8 先全部完成，才開始 L8 內的顯影』。一般故事節拍則無需開啟顯式 L8 Cycle Object。**本外掛自己不能開假週期、簽 L8 成功或取代 L8**。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
 
 **L8 法位切清：** 獨立 L8 原始來源 `V0.3.1-WORKING`；LIHUOOS V1.1 L0 對它列 `PRESERVED_V1_0_OPERATIVE_BASELINE`，故它是現行文件層的 operation layer。未宣稱 Host 部署、實作完成或獨立 L8 實例運行。
 
@@ -445,7 +456,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 1. **繼承九尾龜的長處：** 成人方法卡、內接 CERI 子路由、專門顯影優先、人物主權分離、真假牆證據與 scope、身體史 first-touch、事件後果回交。
 2. **不繼承九尾龜的舊包袱：** 晚清上海專屬字詞與社會制度、舊 AINT 外部 Runtime、九尾龜 V3.5 Lighter 接線、KAIROS TEST Gate、全套父版工程 receipt ledger、需 Host 部署才能開始普通敘事的假前置。
-3. **觀止單一 OS cycle：** L8 需要時負責一次理火，CORE 不做「觀止週期」，外掛不做「成人週期」。
+3. **觀止單一 OS cycle：** 成人性愛專門生成**強制進入完整 L8 業務週期**，並需真正 completed outcome 才能宣稱通過；普通故事節拍無須逐次開週期。CORE 不做「觀止週期」，外掛不做「成人週期」。
 4. **不得由文件自我啟動：** 真正能否透過外部工具、是否已有 Host wiring、是否完成 L8 與人物／世界回傳、是否被人類批准 CURRENT，均需以真實證據為準。
 
 > **主世界決定有沒有這一刻；成人心法使這一刻連續可讀；CERI 讓人物用自己的語言說話；理火只跑自己的週期。**
