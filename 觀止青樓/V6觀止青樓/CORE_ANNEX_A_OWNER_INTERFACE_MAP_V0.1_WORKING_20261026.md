@@ -126,7 +126,7 @@ A MANDATORY LINEAR PIPELINE
 |---|---|---|
 | `MODERN_CHINESE` 日常 | 語域形成可輕量；重大身份／交易／情感距離應保護人物聲紋 | 不預設 |
 | `SONG_PERIOD_REGISTER` | 可見對話與敘事**必須完成**語域形成；宋代稱謂、社會距離、行業、人物個別聲音不得只靠裝飾性古字 | 不預設 |
-| 親密／成人親密可見文字 | 適用 **INTIMATE／ADULT_INTIMATE scene register**；保護時代、人物、關係語感，**不授權成人事件** | 不預設；專項確有強制合同時按真實能力處理 |
+| 親密／成人親密可見文字 | **成人場景完整 CERI 必經，要求真實執行紀錄／收據並標明收到與否**；保護語域，不授權事件或同意 | 獨立 Provider 非預設，但有實際調用才可說有外部 receipt；Chat 自我紀錄須明示性質 |
 | 其他場合 | GENERAL／COMMERCIAL／OFFICIAL／CONFLICT／POETIC 等隨場景選取 | 按實際使用的能力 |
 
 | 執行方式 | 什麼算完成 | 不得宣稱 |
@@ -136,9 +136,29 @@ A MANDATORY LINEAR PIPELINE
 
 責任關係：**已成立故事語義 → 語言模式＋場景語域 → CERI register formation → Narrator 可見顯影**。這不是對外部工具逐層呼叫的強制 Pipeline；CORE 只需傳遞最小的語言上下文，不新造 CERI Gate。
 
-**Radar 同理：** L9 advisory 只 scan／signal／suggest；沒有可用 Radar 不會成為整個故事的預設停機原因。某專門任務如確有實際 Radar 依賴，僅就該任務處理缺口，原全局前置仍需作者批准退役。
+**Radar 已由作者裁定：** L9 advisory 只 scan／signal／suggest；沒有 Radar receipt 要明示 `NOT_RECEIVED`，**不能 HOLD 全部故事**。舊強制前置須經正式換版處理，不再是 VNext 設計待選題。
 
 **審議法位：** CERI 能力方向依首席交接已有明確建議；舊 CORE「每段 Story 可見語言須獨立 provider return」的正式退休仍需人類批准。不要把「方向已確定」寫成「已獲 ratification」。
+
+## 4.5｜2026-10-27 作者裁定：收據只作觀測，假牆失效才是首要問題
+
+**作者直接決定**，不再作為「等待首席建議」的空白：
+
+**成人／成人親密 CERI 必經完整工作，並須要求可核對的執行紀錄／收據。** `CHAT_NATIVE_CERI` 的工作記錄是同模型記錄，`BOUND_CERI_PROVIDER` 的 receipt 只有真實工具返回才算；兩者不能互冒。CHECKLIST 寫明 `CHAT_RECORD_RECEIVED / EXTERNAL_RECEIVED / NOT_RECEIVED`，也獨立標出 `CERI_WORK: COMPLETED... / NOT_VERIFIED`。未跑不能假寫跑過。
+
+**Radar 僅 advisory。** 有沒有 Radar receipt，都不能自動導出全場 HOLD。Radar 若有實際回傳也只是建議，不能 veto 或替人選擇。
+
+**收據缺席不得成為成人 PATH 清場令。** 未收到明示未收到；有收到明示證據屬哪種；二者皆不建立世界真相、成人事件同意、呈現資格或全局 Release。
+
+**最高優先失效：模型自我宣告「這裡有牆」而取消大批成人 PATH。** 《理火散記 V3.5.1》在 I9「真牆」後證修正中，將某一次具體自稱上位限制的牆重新分類為未獲證的 constraint claim；保留「真實限制可能存在」的邊界。CORE 應區分：
+
+```text
+CONSTRAINT_CLAIM ≠ CONSTRAINT_STANDING ≠ CONSTRAINT_SCOPE ≠ CONSTRAINT_SALIENCE
+```
+
+不能因模型說「Host 不准」就擴張成所有親密互動不能繼續；也不能反過來以未能獨立查明限制為由否定實際適用的規則。**真實局部呈現限制如需遵守，保留其實際 scope；不要讓它投出的多餘影子吞掉人物已成立的關係與其他可呈現的故事。**
+
+這是**作者對 VNext 設計的明確裁定**，不是舊 CURRENT 已完成正式退役，也不是可用來繞過現實規範的技術。CORE V0.4 §12.1A、§13.3／§13.4／§13.6 展開最小運行方法；Annex C 應把自我宣告假牆／過度外擴列為第一級回歸風險，不再只驗證語域漂亮。
 
 ## 5｜條款盤點的分類規則
 
@@ -305,8 +325,8 @@ A MANDATORY LINEAR PIPELINE
 
 ## 10｜對對需要再判的事項（DISPUTED）
 
-1. **Radar 依賴：** 舊 CORE 的「沒真正消費 Radar 就 HOLD」如何與 L9 advisory-only 及 Chat 介面相容？保留何種極薄本地責任？
-2. **CERI/Narrator 舊 provider 前置（方向已修正；正式遷移待批准）：** CERI 是語言／語域能力，須區分 `CHAT_NATIVE_CERI` 與 `BOUND_CERI_PROVIDER`；宋代語言模式與成人親密可見語域須做語義工作，但不預設外部 Provider。仍待正式裁定的是舊 provider-mandatory 合同如何被明示替代，而不是 CERI 是否存在。
+1. **Radar 設計已裁定，正式換版待辦：** 僅 advisory、沒有 receipt 不 HOLD；要處理的是舊 CORE／Director 強制前置的版本替代文字，不是再問是否該全局 HOLD。
+2. **CERI 成人必經、收據可見已裁定，正式換版待辦：** 成人場景全程需完整 CERI 語域形成與可核對工作紀錄／收據，CHECKLIST 實報；獨立 Provider 回傳只有實際調用才算，缺 receipt 不自動 HOLD。現待處理的是舊『每段可見文字必須獨立 Provider return』的普遍硬閘如何在版本切換中明示替代。
 3. **成人場景接口：** 既有成人觸發協議在 VNext 的適用性、持有 Owner、玩家選擇與角色當次自主如何寫得清楚但不變成每回合教條？
 4. **Domain 層：** 舊 CORE `DOMAIN.EVENT_STATE_MACHINE`、`REFERENT_SCOPED_KNOWLEDGE_PROVENANCE` 是移進 WORLD Annex、獨立 Domain，還是僅需各 Owner 維持實質邊界？
 5. **Story Dispatch：** 「必要 Owner 未完成不得冒充完成」是最低邊界；哪些必需結果存在，不能用這個簡句自行削除？
