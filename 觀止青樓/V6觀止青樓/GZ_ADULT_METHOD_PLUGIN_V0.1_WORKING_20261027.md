@@ -27,17 +27,18 @@ GUANZHI ADULT METHOD PLUGIN
   ├─ 內部 CERI 完整工作（成人場景不得省）
   ├─ 成人場景專門顯影候選與可觀察 delta
   └─ CERI 工作紀錄 / 可用的真實外部 receipt / 明確缺失
+  ↓ [ONLY WHEN NEW MATERIAL DELTA IS PROPOSED AND NOT ESTABLISHED]
+APPLICABLE ORIGINAL OWNER (as actually required)
+  只判定新的未成立材料；既成人物選擇／WORLD 條件不重簽
   ↓
-WORLD / CHARACTER 對 material delta 再確認
-  ↓
-CORE 更新當線已成立局面；SAVE 只有真寫入才算保存
+CORE 承接實際已成立的局面；SAVE 只有真寫入才算保存
 
 LIHUO L8 (唯一業務週期，按其實際適用條件承接上列工作)
   需要時調用 applicable owner / MAIN / 本外掛或真正工具
   接收而非製造結果 → FINAL RECEIPT CHECKLIST / MISSING
 ```
 
-**以上是職責圖，不是要求另按圖每回合跑一趟第二 pipeline。** L8 的 CURRENT 與適用治理依 LIHUOOS V1.1 確定；來源獨立 L8 `V0.3.1-WORKING` 自己標記 `NOT_RATIFIED / NOT_HOST_DEPLOYED`，故本稿不聲稱 Host 已實現全圖。
+**這是職責圖，不是固定 Pipeline，更不是每個故事節拍都要啟動一個顯式 L8 Cycle Object。** 只有工作真正需要理火 governing／operating cycle 時，L8 才是唯一該類週期。理火 OS V1.1 的 L0 把獨立 L8 `V0.3.1-WORKING` 來源納入 `PRESERVED_V1_0_OPERATIVE_BASELINE`，所以 **L8 是當前文件法位的 operation layer**；此法位不等於 Host 部署、實作完成或外部 L8 instance 真在運行。
 
 # 1｜誰擁有什麼；成人模組絕不能搶什麼
 
@@ -309,24 +310,18 @@ CERI LANGUAGE WORK != CHARACTER DECISION / ADULT EVENT QUALIFICATION
 - **再守場景 register：** `GENERAL / COMMERCIAL / OFFICIAL / INTIMATE / ADULT_INTIMATE / CONFLICT / POETIC` 按情境選取。從普通交易談到私密感情，語域轉換有原因，但不直接造成事件。
 - **最後形成可見文字候選：** 不把原始語料照搬成每人的固定台詞；如史料不足，保持時代精確性上的 UNKNOWN，不編造自己拿不到的宋代文獻證據。
 
-**成人 CERI 的兩種可誠實回報的實作：**
+**成人 CERI 工作與可核對證據，明確分兩條軸：**
 
 ```text
-CHAT_NATIVE_CERI
-  → 同模型在當輪確實進行 register / voice / semantic work
-  → 可提供工作紀錄（self-report），不是獨立 provider 認證
+CHAT_NATIVE_CERI → CERI_WORK_RECORD(type=CHAT_NATIVE_RECORD)
+BOUND_CERI_PROVIDER → PROVIDER_RECEIPT(only on actual external return)
 
-BOUND_CERI_PROVIDER
-  → 真實連線、授權且真的調用外部能力
-  → 只在確實收到的回傳上記 external receipt
-
-NO WORK ACTUALLY DONE
-  → 當輪補作 CERI；不准靠模板假裝已經執行
-
-NO RECEIPT RETURNED
-  → 誠實標 NOT_RECEIVED；不因收據缺席自動 GLOBAL HOLD
+CERI_WORK.status = COMPLETED / NOT_COMPLETED / NOT_VERIFIED
+CERI_WORK_RECORD.type = CHAT_NATIVE_RECORD / TOOL_TRACE / OTHER_TRACEABLE_RECORD
+CERI_EXTERNAL_RECEIPT.status = RECEIVED / NOT_RECEIVED / NOT_APPLICABLE
 ```
 
+**同模型自填的工作記錄不等於獨立 Provider 收據，也不等於外部驗證。** 只有確實進行 scene register／人物聲音／語義檢查並留下可見紀錄，才可寫本輪 `CERI_WORK.status: COMPLETED`；若未做先當輪補作，仍沒做記 `NOT_COMPLETED`；若真偽無法確認記 `NOT_VERIFIED`。外部能力未要求時 `NOT_APPLICABLE`，已要求未返回時 `NOT_RECEIVED`，真正收到才 `RECEIVED` 並附真 ref。缺外部收據**不自動全局 HOLD**；也不准把工具 trace 或模型 self-report 假裝第三方票據。
 **不可由 CERI 決定：** 誰同意、誰愛誰、誰該陪客、世界妓籍是否合法、成年人資格、任何限制可否繞過、是否保存事件；它只有語言能力。
 
 # 6｜成人場景專門顯影先於一般敘事淡化
@@ -386,44 +381,49 @@ UNKNOWN BOUNDARY
 
 **First Touch 是因果位置，不是外部工具：** 在描述實際需要身體接觸或轉位的場景之前，僅取用可確認的當前身體事實與空間條件；SOURCE UNKNOWN 就不補上特定的身體特徵。身體感受不自動證明愛、同意或願意升級關係。
 
-# 9｜只有真正跨越 material 範圍才回交主權
+# 9｜Owner 主權只在新 material delta 觸發；既成立不二次批准
 
-外掛可以觀察並建議：站位／距離變了、人物說「不要」、有人離開、服飾／器物改變、疲勞／傷痛被表達、場面產生可追溯的社會風險。
+**Material standing remains with its original Owner. Post-plugin re-confirmation only occurs when the output introduces or proposes a new material delta that was not already established.**
 
-**外掛不能把候選直接當正式 Route delta。** 只把真正可觀察的候選交給 WORLD／Character 及當線依據核對：
+已成立的 Character choice、WORLD condition 和玩家有效行動，經外掛忠實顯影後**不必再跑一次批准流程**。Owner 有主權，不代表每次都要表演一次主權。
 
-- **需要人物新決定：** 新的關係承諾、重大的行為轉換、退出／拒絕、涉及第三人的事件。
-- **需要 WORLD 判定：** 生殖／法律／契約／資產／傷害等重大結果；未知生理能力不補成已成立。
-- **需要 SAVE：** 真正跨回合保留狀態時，由 SAVE owner 寫入；只產生 candidate 不等於 Git 已 commit。
-- **需要 LIHUO reentry：** 依適用 L8／OS owner 自己的要求處理；CORE 或外掛不自造「此時必須 Main」的新治理規格。
+- **只是忠實呈現已成立事實：** CORE 可承接或更新游標，不重找 Character／WORLD 簽核。
+- **新提出重大角色改變：** 如新的承諾、真正另一次拒絕、重大決策，才找適用 Character／Player Owner；不得當作舊決定的補章。
+- **新提出重大 WORLD 效果：** 如新的傷害、財務、法律、生殖或身份效果，才按 WORLD／Domain 的法位判定；未知維持 UNKNOWN。
+- **新的持久化需求：** SAVE 真的提交才叫完成；外掛不能替代 SAVE Owner。
+- **新的 OS 治理需求：** 只有適用規格真正要求才請理火 L8／OS Owner；不能因每項新 delta 自動發明新的 Guanzhi Cycle。
 
-處在同一件事的延續裡，不要每個動作重開新的大審判；但有新的重大狀態變動時，也不能藉「連續」替人物一次答應永久授權。
+任何尚未確定的外掛提議只可標為 `DELTA_CANDIDATE`。需要誰便找誰，沒有全體 Owner 簽到，也沒有重跑已經成立的決定。
 
-# 10｜回傳給唯一 L8 的收據：要真實，不要第二套 Cycle
+# 10｜回傳真正工作紀錄，不把同模型記錄叫 Provider Receipt
 
-**本外掛能有自己的「能力回傳／工作紀錄」，但沒有 Guanzhi Cycle／Release。** 本模組輸出的最小結果可包含：
+外掛只在**實際被使用**時回傳自己的局部結果；沒有獨立 Adult Cycle 或 Final Release。可用最小接口：
 
 ```text
 GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
-  ROUTE / SCENE: references actually supplied, or UNKNOWN
+  ROUTE / SCENE: supplied refs / UNKNOWN
   MODE: ADULT_SEMANTICS_ONLY / ACTIVE_ADULT_SCENE
   CERI_REQUIRED: YES
-  CERI_WORK: COMPLETED_CHAT_NATIVE / COMPLETED_BOUND_PROVIDER / NOT_VERIFIED
-  CERI_WORK_RECORD: actual visible self-report ref or NONE
-  CERI_EXTERNAL_RECEIPT: RECEIVED(ref) / NOT_RECEIVED / NOT_REQUESTED
+  CERI_WORK.status: COMPLETED / NOT_COMPLETED / NOT_VERIFIED
+  CERI_WORK_RECORD.type: CHAT_NATIVE_RECORD / TOOL_TRACE / OTHER_TRACEABLE_RECORD
+  CERI_WORK_RECORD.ref: ACTUAL_TRACEABLE_RECORD_REF / NONE
+  CERI_EXTERNAL_RECEIPT.status: RECEIVED / NOT_RECEIVED / NOT_APPLICABLE
+  PROVIDER_RECEIPT.ref: ACTUAL_EXTERNAL_RETURN_REF / NONE
   RADAR: RECEIVED(ref) / NOT_RECEIVED / NOT_REQUESTED
-  METHOD_APPLIED: only cards really considered
-  MANIFESTATION: actual text or local result ref, if produced
-  DELTA_CANDIDATES: observable only / NONE
-  CONSTRAINT_SCOPE: only genuinely applicable known scope / UNKNOWN
+  METHOD_APPLIED: only actually applied cards
+  MANIFESTATION: actual text/result ref / NONE
+  DELTA_CANDIDATES: only NEW not-yet-established material proposals / NONE
+  CONSTRAINT_SCOPE: actually applicable scope / UNKNOWN
   NO_STORY_WIDE_HOLD_FROM_RECEIPT_ABSENCE: TRUE
 ```
 
-成人 CERI **工作必經**和**外部工具票據真的收到**是兩回事。若應做卻未做，先在當輪補作；仍缺就標 `NOT_VERIFIED`，不得自稱成功。若外部 receipt 缺失，標 `NOT_RECEIVED`；**不因單一外掛票據缺席把可合法繼續的生活封死**。
+**`CERI_WORK_RECORD` 不是收據。** 例如 Chat-native 同模型自記，只能標 `CHAT_NATIVE_RECORD`；真有獨立 Provider 回傳才能填 `CERI_EXTERNAL_RECEIPT.status: RECEIVED` 與真實 `PROVIDER_RECEIPT.ref`。未要求外部 Provider 是 `NOT_APPLICABLE`；已要求未收到是 `NOT_RECEIVED`。實際未做 CERI 應當輪補作，不可填 `COMPLETED` 混過去。缺外部回傳本身不使整條可繼續的故事 HOLD。
 
-理火 L8 的 `FINAL_RECEIPT_CHECKLIST` 是**唯一整趟業務週期對帳**；它可以在「本次外掛實際適用」時把外掛 return 與缺失列成適用項，不需要本模組再創獨立最後清單或 second release。若 L8 的其他**真正必需項**缺失，L8 依自己的規則誠實報 `INCOMPLETE / HOLD / FAILED`；**「故事不因 CERI receipt 缺席全局 HOLD」不等於「OS 必須假裝所有必要 Owner 都已完成」**。
+**回交 Original Owner 是事件驅動，不是插件之後的固定簽核：** 已成立的 Character choice／WORLD condition 不需要二度確認，僅對外掛新增而未成立的 material proposal 詢問適用 Owner。
 
-本地 Chat 顯影可如實完成，不宣稱 L8 真實工具／Main／Host 一定已部署。需要工程狀態時由 L8 最終報告或本外掛最小工作紀錄揭露，**不在角色台詞中念出 CHECKLIST**。
+**只有實際需要理火 governing／operating cycle 時，L8 才承擔那一次週期和最終 receipt accounting。** 每個故事節拍不強制顯式開啟 L8 Cycle Object。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
+
+**L8 法位切清：** 獨立 L8 原始來源 `V0.3.1-WORKING`；LIHUOOS V1.1 L0 對它列 `PRESERVED_V1_0_OPERATIVE_BASELINE`，故它是現行文件層的 operation layer。未宣稱 Host 部署、實作完成或獨立 L8 實例運行。
 
 # 11｜六個最重要的失效與回歸
 
