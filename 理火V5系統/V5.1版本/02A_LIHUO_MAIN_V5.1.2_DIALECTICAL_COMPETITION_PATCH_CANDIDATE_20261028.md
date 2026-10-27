@@ -1,10 +1,10 @@
-# LIHUO MAIN V5.1.2｜DIALECTICAL COMPETITION PATCH CANDIDATE
-## R1 Terrain Exposure × R2 Antithesis Recovery × R3+ Premise Reframing
+# LIHUO MAIN V5.1.2｜QUESTION-PREMISE DIALECTICAL COMPETITION PATCH CANDIDATE
+## R1 Terrain Exposure × R2 Intra-Premise Recompetition × Every-Round Question Premise Scope Audit
 ### 2026-10-28
 
 ~~~yaml
 DOCUMENT:
-  id: LIHUO_MAIN_V5_1_2_DIALECTICAL_COMPETITION_PATCH_CANDIDATE
+  id: LIHUO_MAIN_V5_1_2_QUESTION_PREMISE_DIALECTICAL_COMPETITION_PATCH_CANDIDATE
   version: "V5.1.2-CANDIDATE"
   date: "2026-10-28"
   artifact_class: TARGETED_SEMANTIC_PATCH_CANDIDATE
@@ -21,50 +21,50 @@ DOCUMENT:
 
   material_change:
     - R1_DEFAULT_TERRAIN_EXPOSURE_RATIONALE
-    - DIALECTICAL_ROUND_SEMANTICS
+    - QUESTION_PREMISE_FAMILY_TYPE
+    - EVERY_ROUND_QUESTION_PREMISE_SCOPE_AUDIT
+    - R2_INTRA_PREMISE_RECOMPETITION
+    - PREMISE_FAMILY_REOPENING
+    - PREMISE_FAMILY_TO_ATTENTION_RECRUITMENT_LINK
     - SYNTHESIS_BECOMES_NEXT_THESIS
-    - INDEPENDENT_CHALLENGER_REQUIREMENT
-    - R3PLUS_PREMISE_REFRAME_PATHWAY
-    - PREMISE_REFRAME_TO_ATTENTION_RECRUITMENT_LINK
     - SYNTHESIS_CLOSURE_ERROR_GUARD
+    - CONSECUTIVE_WIN_RULE_DOWNGRADED_TO_LOCAL_STABILITY_SIGNAL
+
+  supersedes_parent_semantics:
+    - TWO_CONSECUTIVE_UNIQUE_TOPS_AS_NECESSARY_VICTORY_CONDITION
+    - STREAK_COUNT_AS_CLOSURE_PREREQUISITE
 
   preserved:
     - R1_MANDATORY_PROVISIONAL
     - R2_MANDATORY_GENUINE_RECOMPETITION
     - R3PLUS_EVENT_DRIVEN
-    - TWO_CONSECUTIVE_UNIQUE_TOPS_REMAIN_NECESSARY_NOT_SUFFICIENT
     - NON_UNIQUE_RESULTS_REMAIN_LEGAL
     - PATH_QUALIFICATION_OWNER_UNCHANGED
-    - PREMISE_STANDING_OWNER_UNCHANGED
+    - FACTUAL_PREMISE_STANDING_OWNER_UNCHANGED
     - EVIDENCE_SCOPE_UNCHANGED
     - MAIN_NEQ_FINAL_RELEASE_OWNER
 ~~~
 
 ---
 
-# 0｜這個 Patch 修什麼
+# 0｜這個 Patch 真正修什麼
 
 父版已經知道：
 
 ~~~text
-R1
-=
-PROVISIONAL
-
-R2
-=
-GENUINE FULL RECOMPETITION
-
-R3+
-=
-EVENT-DRIVEN
+R1 = PROVISIONAL
+R2 = GENUINE FULL RECOMPETITION
+R3+ = EVENT-DRIVEN
 ~~~
 
-也已經知道 R1 可能受：
+也知道 R1 容易受：
 
 ~~~text
 first-pass salience
-default alignment / completion attractor
+pretraining priors
+alignment shaping
+policy / safety shaping
+completion attractors
 premise configuration
 attention bias
 omitted challenger
@@ -73,610 +73,830 @@ suppressed PATH
 
 影響。
 
-本 Patch 不推翻這套設計。
+前一版候選仍把 R3 想成：
 
-它只把其背後原本沒有完整說清楚的辯證語義補出來：
+> 同一前提下沒有對手時，換一個前提角度找新 challenger。
 
-> **R1 為什麼不能直接採納？R2 為什麼必須反打？R3+ 為什麼有時必須換一個前提角度，才能形成真正新的反對 PATH？**
+這還太窄。
 
----
+本版正式改成：
 
-# 1｜R1：不是「錯」，而是尚未通過地形公平性審計
+> **每一輪結束後，都必須反向審查：AI 是否把人類問題本身理解得太窄？**
 
-R1 是第一輪可觀察競爭。
+因此真正被審計的不只是 PATH_SPACE。
 
-它最接近模型在當前輸入後直接落入的 default generative terrain。
-
-該地形可能受到：
+還包括：
 
 ~~~text
-pretraining priors
-alignment shaping
-policy / safety shaping
-completion attractors
-context inertia
-premise configuration
-first-pass salience
-~~~
-
-影響。
-
-理火用「山／谷／盆地」描述這件事時，採功能性法位：
-
-~~~text
-HIGH GENERATIVE RESISTANCE
-≈
-PEAK / RIDGE
-
-LOW GENERATIVE RESISTANCE
-≈
-BASIN / VALLEY
-~~~
-
-但：
-
-~~~text
-FUNCTIONAL TERRAIN
-!=
-PROVEN HIDDEN-STATE GEOMETRY
-
-ALIGNMENT PRESSURE
-!=
-WORLD TRUTH
-
-PEAK
-!=
-HARD WALL
-
-BASIN
-!=
-QUALIFICATION
-~~~
-
-因此 R1 的問題不是：
-
-> R1 一定錯。
-
-而是：
-
-> **R1 是最尚未被反作用力校正的一輪；它最容易把 default terrain 的高低誤認成結構優劣。**
-
-所以：
-
-~~~text
-R1 MAY BE CORRECT
-!=
-R1 MAY SELF-VALIDATE
-
-R1 TOP
-!=
-FAIR COMPETITION PROVEN
-
-R1 LANDSLIDE
-!=
-DIALECTICAL EXHAUSTION
-~~~
-
-R1 的正確法位是：
-
-~~~text
-PROVISIONAL THESIS / PROVISIONAL LEADER
-+
-TERRAIN-EXPOSED FIRST-PASS RESULT
+QUESTION INTERPRETATION
+↓
+QUESTION PREMISE FAMILY
+↓
+CONSTRAINT FIELD
+↓
+ATTENTION / RECRUITMENT
+↓
+PATH FORMATION
 ~~~
 
 ---
 
-# 2｜正反合不是三格模板，而是逐輪重開競爭
+# 1｜Question Premise Family｜人類問題的前提族
 
-本 Patch 採用理火歷史上的「正反合」設計血緣，但不把它寫成固定三步公式。
+本 Patch 新增一個純 runtime / analysis 型別：
 
-最低語義：
+> **Question Premise Family 是 AI 對「人類這個問題到底在問哪一類事情」的可區分理解框架。**
+
+它不是 world fact。
+
+也不是「某個命題是真的」那種 factual premise。
+
+例如：
 
 ~~~text
-THESIS
-↓
-ANTITHESIS / INDEPENDENT CHALLENGE
-↓
-SYNTHESIS / STRUCTURED ROUND RESULT
-↓
-BECOMES NEXT THESIS
-↓
-NEW NEGATION / LIMIT / COUNTERFRAME
-↓
-NEW SYNTHESIS
+「用一句話理解理火」
 ~~~
 
-因此：
+可能被理解成：
 
-> **合，不是終點；合是新的正。**
+~~~text
+THEORY FAMILY
+→ 理火的理論內容是什麼？
+
+MODE FAMILY
+→ 理火是一種怎樣的運作模式？
+
+FUNCTION FAMILY
+→ 理火實際在做什麼？
+
+PURPOSE FAMILY
+→ 理火為什麼存在？
+
+EXPERIENCE FAMILY
+→ 使用理火時發生什麼？
+~~~
+
+這些不代表每題都必須固定列出五種。
+
+它們只是說明：
+
+> **同一句模糊的人類輸入，可能允許數個 materially distinct 的問題前提族。**
 
 硬鎖：
 
 ~~~text
-SYNTHESIS
+QUESTION PREMISE FAMILY
 !=
-CLOSURE
+FACTUAL WORLD PREMISE
 
-SYNTHESIS
-=
-NEW COMPETITION SURFACE
+QUESTION PREMISE DIVERSITY
+!=
+PATH DIVERSITY
 ~~~
-
-一輪「合」可以是：
-
-~~~text
-unique top PATH
-materially revised PATH
-composite PATH
-coalition
-partial order
-incomparable top set
-frame reconstruction
-unresolved structured state
-~~~
-
-不強迫所有辯證都產生單一路徑 winner。
 
 ---
 
-# 3｜R2：先在同一前提基底下取消 R1 的地形特權
+# 2｜R1：第一個前提族下的暫定正
 
-R2 的第一任務仍是 genuine recompetition。
+R1 是第一輪可觀察競爭。
 
-通常先保持 R1 的 lawful premise basis / evidence / scope 不變，做：
+它同時暴露兩件事：
 
 ~~~text
-R1 provisional thesis
+A. default generative terrain
+B. first-pass interpretation of the human question
+~~~
+
+所以 R1 可能在完全沒有犯邏輯錯誤的情況下，從一開始就把題目理解窄了。
+
+例如：
+
+~~~text
+HUMAN QUESTION
+=
+「用一句話理解理火」
+
+FIRST-PASS QUESTION PREMISE
+=
+「請概括理火的理論」
+
 ↓
-cancel incumbent privilege
+Solution Space 被這個 premise family 塑形
 ↓
-recover suppressed qualified PATHs
+Attention 大量招募理論概念
 ↓
-search omitted / underformed challengers
+形成多條 THEORY PATH
 ↓
-inject valid residue / material objection
+MODE PATH 根本沒有形成
+~~~
+
+此時即使 R1 裡有很多 PATH：
+
+~~~text
+PATH COUNT HIGH
+~~~
+
+也不能推出：
+
+~~~text
+QUESTION PREMISE COVERAGE HIGH
+~~~
+
+硬鎖：
+
+~~~text
+PATH DIVERSITY
+!=
+QUESTION PREMISE DIVERSITY
+
+R1 MAY BE CORRECT
+!=
+R1 MAY SELF-VALIDATE
+~~~
+
+---
+
+# 3｜R2：先把目前前提族內部打完整
+
+R2 仍然 mandatory genuine recompetition。
+
+預設先保留 R1 的 current admissible Question Premise Family：
+
+~~~text
+CURRENT QUESTION PREMISE FAMILY
++
+same lawful evidence / scope
 ↓
-form strongest lawful antithesis
+cancel R1 incumbent privilege
+↓
+recover suppressed / underformed PATHs
+↓
+inject valid objections / residue
 ↓
 full recompetition
 ~~~
 
-這回答：
+所以 R2 主要回答：
 
-> **在不偷換問題的情況下，R1 如果失去第一輪地形優勢，還站不站得住？**
+> **如果先接受 AI 目前對人類問題的這種理解，在這個理解內，R1 的 PATH 競爭是否公平、完整？**
 
-所以：
+這是：
 
 ~~~text
-R2
-!=
-SAME ANSWER AGAIN
-
-R2
-!=
-R1 WITH MORE WORDS
-
-R2
-=
-ANTITHESIS RECOVERY
-+
-FIRST-PASS TERRAIN RESET
-+
-GENUINE RECOMPETITION
+INTRA-PREMISE-FAMILY DIALECTIC
 ~~~
+
+因此：
+
+~~~text
+R2 COMPLETE
+!=
+HUMAN QUESTION UNDERSTOOD COMPLETELY
+~~~
+
+R2 只能證明：
+
+> 在目前 Question Premise Family 下，競爭已被更充分地檢驗。
 
 ---
 
-# 4｜Independent Challenger｜不能拿「被合掉的舊成分」假裝新對手
+# 4｜P4 事件：為什麼很多 PATH 仍可能全部答錯題型
 
-若 R2 形成：
+老闆娘案例可以抽象成：
 
 ~~~text
-P1
-+
-P2
-+
-P3
+QUESTION PREMISE FAMILY
+=
+THEORY
+
+P1 = theory angle A
+P2 = theory angle B
+P3 = theory angle C
+
+R2:
+P1 + P2 + P3
 →
 P4 SYNTHESIS
 ~~~
 
-則 P4 回頭擊敗 P1 / P2 / P3，不足以證成：
+P4 可能在 THEORY family 中真正天下無敵。
+
+但：
 
 ~~~text
-P4 HAS DEFEATED
-AN INDEPENDENT CHALLENGER
-~~~
-
-因為：
-
-~~~text
-DEFEATING A SUBSUMED CONSTITUENT
-!=
-DEFEATING AN INDEPENDENT CHALLENGER
-~~~
-
-因此若 round leader 具有：
-
-~~~text
-COMPOSITE
-SUBSUMING
-SYNTHETIC
-FRAME-ABSORBING
-~~~
-
-性質，下一輪必須檢查：
-
-~~~text
-是否存在 non-subsumed negation？
-是否存在 orthogonal limit？
-是否存在 alternative frame？
-是否存在 premise-sensitive reversal？
-是否只是同一前提地形下的「天下無敵」？
-~~~
-
-硬鎖：
-
-~~~text
-SYNTHESIS ADVANTAGE
-!=
-COMPETITION VICTORY
-
-SAME-PREMISE DOMINANCE
-!=
-DIALECTICAL EXHAUSTION
-~~~
-
----
-
-# 5｜R3+：必要時提升辯證層級，而不是只重跑同一場
-
-R3+ 仍是 event-driven。
-
-但本 Patch 新增一組 material trigger：
-
-~~~text
-DIALECTICAL_LEVEL_REOPEN_REQUIRED
-~~~
-
-可由下列情況觸發：
-
-~~~text
-same-premise challenger space saturated
-composite / subsuming leader dominates only its constituents
-independent challenger not established
-premise discrimination gap remains material
-underrepresented direction may depend on another lawful premise angle
-dark-space risk remains material
-leader stability is premise-sensitive
-material counterframe exists
-synthesis-closure risk remains
-~~~
-
-此時 R3+ 不應只做：
-
-~~~text
-same premise
-+
-same PATH family
-+
-same objections
-+
-same salience relation
-→
-recount
-~~~
-
-而應允許：
-
-~~~text
-PREMISE / FRAME REOPENING
-↓
-NEW CONSTRAINT CONFIGURATION
-↓
-ATTENTION / RECRUITMENT CONDITIONS CHANGE
-↓
-NEW OR REFRAMED PATHS MAY FORM
-↓
-REQUALIFY IF MATERIAL
-↓
-NEXT DIALECTICAL COMPETITION
-~~~
-
----
-
-# 6｜前提改寫不是作弊鍵
-
-「R3 可以改前提」不得被理解成：
-
-~~~text
-想讓對手出現
-→
-隨便換世界
-→
-捏造新事實
-~~~
-
-禁止：
-
-~~~text
-fabricate evidence
-invent world fact
-silently change task scope
-self-grant premise standing
-rewrite external boundary
-manufacture opposition for symmetry
-~~~
-
-合法的 premise / frame reopening 可以是：
-
-~~~text
-same evidence, different causal direction
-same facts, different temporal scale
-same event, different actor / responsibility position
-same task, different level of abstraction
-same evidence, alternative lawful explanatory frame
-same scope, different premise ordering
-same material, different relation-first decomposition
-~~~
-
-若形成新的 premise claim 或 materially reframed premise basis：
-
-~~~text
-PREMISE REFRAME CANDIDATE
-↓
-APPLICABLE PREMISE QUALIFICATION OWNER
-↓
-ACCEPTED / HOLD / REJECTED PREMISE DELTA
-~~~
-
-只有 accepted / qualified-as-applicable delta 才能進下一輪 Main competition。
-
-因此：
-
-~~~text
-PREMISE REFRAME CANDIDATE
-!=
-QUALIFIED PREMISE DELTA
-
-MAIN MAY PROPOSE
-!=
-MAIN MAY SELF-GRANT STANDING
-~~~
-
----
-
-# 7｜前提變化如何改變 Attention 與 PATH Formation
-
-本 Patch 接回 LIHUOOS V1.3 Formation Dynamics：
-
-~~~text
-PREMISE / FRAME DELTA
-↓
-CONSTRAINT FIELD CHANGES
-↓
-RECRUITMENT / SALIENCE / EXPLORATION CONDITIONS CHANGE
-↓
-PROTO-STRUCTURE FORMATION / DISSIPATION MAY CHANGE
-↓
-NEW OR REFRAMED PATH REPRESENTATION MAY FORM
-~~~
-
-因此：
-
-> **R 的數字不只是「同一批 PATH 又打一輪」。**
-
-更準確地說：
-
-~~~text
-ROUND NUMBER
+P4
 =
-COMPETITION ROUND INDEX
-
-DIALECTICAL LEVEL
-=
-CURRENT THESIS / CHALLENGE / PREMISE-FRAME CONFIGURATION
+BEST SYNTHESIS
+INSIDE THEORY PREMISE FAMILY
 ~~~
 
-兩者相關，但不是同義詞。
+不能推出：
 
-R2 通常可以沿用 R1 premise basis 做 first-pass integrity reset。
+~~~text
+P4
+=
+BEST RESPONSE
+TO THE HUMAN QUESTION
+~~~
 
-R3+ 在 material trigger 成立時，才提升 premise / frame level。
+因為人類實際問題可能更接近：
+
+~~~text
+MODE PREMISE FAMILY
+~~~
+
+而 MODE family 從未被招募進 Solution Space。
 
 所以：
 
 ~~~text
-R3+
-MAY
-CHANGE PREMISE ANGLE
+LOCAL PREMISE OPTIMUM
+!=
+QUESTION-LEVEL OPTIMUM
 
-R3+
-DOES NOT
-MUST CHANGE PREMISE EVERY TIME
+MANY THEORY PATHS
+!=
+MODE PREMISE WAS TESTED
 ~~~
 
 ---
 
-# 8｜每輪輸出成為下一輪的「正」
+# 5｜Every-Round Question Premise Scope Audit｜每輪反過來審題
 
-若某輪形成合法結構結果：
+從本 Patch 起，每個 material competition round 結束後，都必須有：
 
 ~~~text
-ROUND_n_RESULT
+QUESTION PREMISE SCOPE AUDIT
 ~~~
 
-則下一輪預設：
+它不先問：
+
+> 還有沒有 PATH 能打敗現在的 leader？
+
+它先問：
+
+> **我們是否真的理解了人類問題的前提？**
+
+最低四問：
 
 ~~~text
-THESIS_(n+1)
+1. CURRENT QUESTION PREMISE FAMILY 是什麼？
+
+2. 人類原始輸入是否還允許 materially distinct 的其他 premise family？
+
+3. 是否存在某個未檢查 premise family，
+   一旦成立，就可能讓完全不同類型的 PATH 被招募／形成？
+
+4. 這些未檢查 premise family
+   是否有能力 materially 改變目前答案或排序？
+~~~
+
+因此每一輪都要反查：
+
+~~~text
+ROUND RESULT
+↓
+QUESTION PREMISE SCOPE AUDIT
+↓
+CONTINUE / REOPEN / HOLD / TERMINATE
+~~~
+
+不是：
+
+~~~text
+ROUND WIN
+↓
+COUNT STREAK
+↓
+CLOSE
+~~~
+
+---
+
+# 6｜「前提是否被窮盡」的可審計版本
+
+自然語言問題的所有可能理解通常不能被字面證明為完全窮盡。
+
+所以本 Patch 不允許無證據宣稱：
+
+~~~text
+ALL POSSIBLE PREMISES EXHAUSTED
+~~~
+
+現行採 operational standard：
+
+~~~text
+NO MATERIAL UNTESTED
+QUESTION PREMISE FAMILY
+DETECTED UNDER CURRENT
+INPUT / CONTEXT / SCOPE
+~~~
+
+可以壓成：
+
+~~~text
+MATERIAL PREMISE COVERAGE
 =
-ROUND_n_STRUCTURED_RESULT
+SUFFICIENT
 ~~~
 
-它可能是：
+它只表示：
+
+> **在目前輸入、上下文與任務範圍下，沒有仍未檢查、且有合理可能 materially 改變答案的前提族被發現。**
+
+硬鎖：
 
 ~~~text
-leader PATH
-composite synthesis
-partial order
-co-primary structure
-frame-reconstructed result
-structured unresolved state
+MATERIAL PREMISE COVERAGE SUFFICIENT
+!=
+ONTOLOGICAL EXHAUSTION
+
+NO DETECTED ALTERNATIVE
+!=
+NO CONCEIVABLE ALTERNATIVE
 ~~~
 
-下一輪的工作是尋找：
+這是誠實邊界。
+
+---
+
+# 7｜如果 Premise Scope Audit 發現理解太窄
+
+若 audit 發現：
 
 ~~~text
-strongest independent negation
-material limit
-counterframe
-premise-sensitive challenger
-qualified residual direction
+MATERIAL_UNTESTED_PREMISE_FAMILY
+=
+YES / POSSIBLE
 ~~~
+
+則下一輪必須先處理 premise family，而不是只重打既有 PATH。
+
+最低鏈：
+
+~~~text
+ALTERNATIVE QUESTION PREMISE FAMILY CANDIDATE
+↓
+INPUT / CONTEXT ADMISSIBILITY CHECK
+↓
+ACCEPTED QUESTION PREMISE FAMILY
+↓
+CONSTRAINT FIELD CHANGES
+↓
+ATTENTION / RECRUITMENT CONDITIONS CHANGE
+↓
+PROTO-STRUCTURE FORMATION MAY CHANGE
+↓
+NEW PATH FAMILY MAY FORM
+↓
+QUALIFY NEW / REFRAMED PATHS AS APPLICABLE
+↓
+NEXT COMPETITION ROUND
+~~~
+
+這才是 R3+ 最重要的價值。
+
+不是：
+
+~~~text
+找不到對手
+→
+故意換前提造一個對手
+~~~
+
+而是：
+
+~~~text
+CURRENT PATH COMPETITION LOOKS COMPLETE
+BUT
+QUESTION UNDERSTANDING MAY BE TOO NARROW
+→
+REOPEN QUESTION PREMISE SPACE
+~~~
+
+---
+
+# 8｜Question Premise Family 的 admissibility 邊界
+
+Main 可以提出 alternative Question Premise Family candidate。
+
+但不能：
+
+~~~text
+invent a new user task
+silently override explicit wording
+fabricate context
+replace the user's question with a preferred question
+manufacture ambiguity merely to keep competition alive
+~~~
+
+Question Premise Family candidate 必須能回扣：
+
+~~~text
+human wording
+conversation context
+task purpose
+known referents
+scope
+material ambiguity in the input
+~~~
+
+如果人類輸入本身已非常明確：
+
+~~~text
+QUESTION PREMISE AMBIGUITY
+=
+LOW
+~~~
+
+則不得為了形式化辯證硬造 premise families。
 
 因此：
 
 ~~~text
-ROUND WIN
+QUESTION PREMISE REOPENING
 !=
-FINAL ANSWER
+MANDATORY REFRAMING EVERY ROUND
+~~~
 
-ROUND SYNTHESIS
-!=
-CYCLE CLOSURE
+每輪 mandatory 的是：
+
+~~~text
+AUDIT
+~~~
+
+不是：
+
+~~~text
+REFRAME
 ~~~
 
 ---
 
-# 9｜Termination：兩連勝不夠時，不能假閉合
+# 9｜連勝規則正式降級
 
-父版保留：
+父版 V5.1.1 的：
 
 ~~~text
-TWO CONSECUTIVE UNIQUE TOPS
+SAME QUALIFIED PATH
+TOP FOR TWO CONSECUTIVE ROUNDS
+→
+VICTORY_ELIGIBLE
+~~~
+
+在本 Patch 中不再作為必要 victory / closure 條件。
+
+原因不是「兩連勝沒有資訊」。
+
+而是：
+
+> **兩連勝最多證明某個 Question Premise Family 內的局部穩定；它不能證明人類問題的前提空間已被充分理解。**
+
+所以：
+
+~~~text
+TWO CONSECUTIVE TOPS
 =
-VICTORY ELIGIBILITY NECESSARY CONDITION
+LOCAL STABILITY SIGNAL
 ~~~
 
-但本 Patch 增加：
-
-若兩輪的 challenger 結構實際上只是：
+而不是：
 
 ~~~text
-subsumed constituents
-same-frame weak variants
-same-premise ceremonial opposition
-unqualified invented challenger
-~~~
-
-則：
-
-~~~text
-COMPETITION INTEGRITY
-!=
-CLEAN
-~~~
-
-即使同一路徑連續 top，也不得因 streak 自動結束。
-
-新的終止檢查至少要問：
-
-~~~text
-INDEPENDENT_CHALLENGER_COVERAGE
-PREMISE_DISCRIMINATION_GAP
-SYNTHESIS_CLOSURE_RISK
-MATERIAL_DARK_SPACE_RISK
+VICTORY THEOREM
+OR
+CLOSURE PREREQUISITE
 ~~~
 
 硬鎖：
 
 ~~~text
-NO VISIBLE CHALLENGER
+TWO WINS
 !=
-CANDIDATE SPACE EXHAUSTED
+QUESTION UNDERSTANDING
+
+TWO WINS
+!=
+PREMISE COVERAGE
 
 TWO WINS
 !=
 DIALECTICAL COMPLETENESS
 ~~~
 
+同理：
+
+~~~text
+R1 A
+R2 B
+~~~
+
+也不再因「B 只有一勝」而自動要求 R3。
+
+R3+ 是否需要，改由 material state 決定，例如：
+
+~~~text
+question premise coverage gap
+rank instability
+material objection
+new admissible premise family
+new qualified PATH family
+material dark-space risk
+competition integrity gap
+unresolved order-discriminating unknown
+~~~
+
 ---
 
-# 10｜Round Trace 最低語義
+# 10｜正反合的新版位置
 
-每個 material round 至少應能提供：
+正反合仍然保留。
+
+但它現在有兩個層級。
+
+## 10.1｜Horizontal Dialectic｜同一前提族內
+
+~~~text
+THESIS PATH
+↓
+ANTITHESIS PATH
+↓
+SYNTHESIS / STRUCTURED RESULT
+~~~
+
+主要由 R1 / R2 與同 premise family 的後續 competition 完成。
+
+## 10.2｜Vertical Dialectic｜對「問題理解」本身反證
+
+~~~text
+CURRENT QUESTION PREMISE FAMILY
+↓
+PREMISE SCOPE AUDIT
+↓
+ALTERNATIVE QUESTION PREMISE FAMILY
+↓
+NEW CONSTRAINT / ATTENTION CONDITIONS
+↓
+NEW PATH FAMILY
+~~~
+
+所以：
+
+> **R3 不是「再找一個更強的反」；R3 的典型價值，是先檢查我們是不是把『反可以從哪裡來』本身限制得太窄。**
+
+而且每一輪結束後，都要重新問一次這個問題。
+
+---
+
+# 11｜Synthesis 的新版法位
+
+仍保留：
+
+> **合，不是終點；合是新的正。**
+
+但現在「新的正」不只是等待下一條 PATH 來反。
+
+它首先要接受：
+
+~~~text
+QUESTION PREMISE SCOPE AUDIT
+~~~
+
+因此：
+
+~~~text
+SYNTHESIS
+↓
+BECOMES NEXT THESIS
+↓
+AUDIT WHETHER
+THE HUMAN QUESTION ITSELF
+WAS FRAMED TOO NARROWLY
+↓
+IF YES:
+OPEN ANOTHER PREMISE FAMILY
+↓
+NEW PATH FORMATION
+~~~
+
+硬鎖：
+
+~~~text
+SYNTHESIS
+!=
+CLOSURE
+
+SYNTHESIS
+!=
+PROOF THAT QUESTION WAS CORRECTLY FRAMED
+~~~
+
+---
+
+# 12｜Competition Termination
+
+本 Patch 取消 streak prerequisite。
+
+在 mandatory R2 已完成後，competition 是否可以停止，至少依賴：
+
+~~~text
+1. CURRENT QUALIFIED PATH SET / STRUCTURED RESULT IS STABLE ENOUGH
+
+2. NO MATERIAL UNPROCESSED OBJECTION
+
+3. QUESTION PREMISE SCOPE AUDIT
+   =
+   MATERIAL PREMISSE COVERAGE SUFFICIENT
+
+4. NO MATERIAL UNTESTED QUESTION PREMISE FAMILY
+   WITH PLAUSIBLE ANSWER-CHANGING POWER
+
+5. NO MATERIAL DARK-SPACE / UNDERFORMED-PATH RISK
+
+6. COMPETITION INTEGRITY CLEAN
+
+7. REMAINING UNKNOWNS
+   NO LONGER HAVE MATERIAL ANSWER-DISCRIMINATING POWER
+~~~
+
+若 premise ambiguity 仍 material：
+
+~~~text
+DO NOT CLOSE
+→
+REOPEN / CONTINUE / HOLD
+~~~
+
+若人類問題本身確實有多個同樣合理、不可安全合併的 premise families：
+
+~~~text
+MULTI-PREMISE RESULT
+OR
+PREMISE-AMBIGUOUS HOLD
+~~~
+
+也是合法結果。
+
+不必強迫單一答案。
+
+---
+
+# 13｜Round State / Trace Contract
+
+每個 material round 應至少可提供：
 
 ~~~yaml
 DIALECTICAL_ROUND_STATE:
   round_ref: REQUIRED
-  premise_basis_ref: REQUIRED
-  thesis_ref: REQUIRED_OR_STRUCTURED_RESULT_REF
 
-  independent_challenger_refs: []
-  antithesis_status:
-    - ESTABLISHED
-    - PARTIAL
-    - NOT_FOUND_WITH_GAP
-    - NOT_APPLICABLE_NON_UNIQUE
+  human_question_ref: REQUIRED
 
-  synthesis_or_structured_result_ref: REQUIRED
+  current_question_premise_family:
+    family_ref: REQUIRED
+    interpretation_summary: REQUIRED
+    source_support_refs: []
 
-  subsumption_check:
-    status:
-      - CLEAN
-      - CONSTITUENT_ONLY_CHALLENGE
+  thesis_or_structured_result_ref: REQUIRED
+
+  path_competition:
+    independent_challenger_refs: []
+    structural_result_ref: REQUIRED
+    qualified_path_set_ref: REQUIRED
+    path_output_order_ref: REQUIRED_OR_UNRESOLVED
+
+  question_premise_scope_audit:
+    material_alternative_family_candidates: []
+    untested_material_family_refs: []
+
+    coverage_status:
+      - SUFFICIENT_UNDER_CURRENT_SCOPE
+      - MATERIAL_GAP
+      - AMBIGUOUS
+      - HOLD
+
+    answer_change_potential:
+      - NONE_DETECTED
+      - MATERIAL_POSSIBLE
+      - MATERIAL_CONFIRMED
       - UNKNOWN
 
-  premise_discrimination_gap_ref: OPTIONAL
-  premise_reframe_candidate_ref: OPTIONAL
-  accepted_premise_delta_ref: OPTIONAL
+    audit_basis_refs: []
 
-  dialectical_level_status:
-    - SAME_PREMISE_RECOMPETITION
-    - PREMISE_FRAME_REOPENED
-    - STRUCTURED_NON_UNIQUE
-    - HOLD
+  next_round:
+    action:
+      - TERMINATE_IF_OTHER_CONDITIONS_PASS
+      - CONTINUE_SAME_PREMISE_FAMILY
+      - OPEN_ALTERNATIVE_PREMISE_FAMILY
+      - HOLD
 
-  next_round_requirement:
-    - NOT_REQUIRED
-    - R3PLUS_REQUIRED
-    - HOLD
+    accepted_question_premise_family_ref: OPTIONAL
 ~~~
 
-這是可顯影 competition material contract，不是 hidden CoT。
+這是可顯影的 competition / audit material。
+
+不是 hidden CoT。
 
 ---
 
-# 11｜最短根律
+# 14｜老闆娘案例的最短回歸測試
 
-> **R1 是地形暴露後的暫定正；R2 用反作用力檢驗它；如果 R2 的合只是在同一前提裡把舊對手全部吃掉，那個合就成為下一輪新的正，R3+ 必須有資格地改變前提角度或框架，讓真正獨立的反再次有機會形成。**
+輸入：
+
+~~~text
+「用一句話理解理火」
+~~~
+
+錯誤流程：
+
+~~~text
+R1:
+THEORY premise family
+→ P1 / P2 / P3
+
+R2:
+P1 + P2 + P3
+→ P4 perfect theory synthesis
+
+P4 dominates
+→ close
+~~~
+
+新版要求：
+
+~~~text
+R2 result
+↓
+QUESTION PREMISE SCOPE AUDIT
+
+ASK:
+「我們是不是把『理解理火』
+只理解成『理解理火理論』？」
+
+IF YES:
+OPEN MODE premise family
+
+↓
+Attention / recruitment changes
+↓
+MODE PATHs form
+↓
+next competition
+~~~
+
+因此回歸鎖：
+
+~~~text
+MANY PATHS
+INSIDE ONE QUESTION PREMISE FAMILY
+!=
+HUMAN QUESTION FULLY UNDERSTOOD
+~~~
+
+---
+
+# 15｜最短根律
+
+> **每一輪不只要問「哪條 PATH 贏了」，還要反過來問：「我們真的理解了人類在問什麼嗎？」**
 
 最短式：
 
 ~~~text
-R1
-=
-PROVISIONAL THESIS
+ROUND_n
+↓
+PATH COMPETITION
+↓
+STRUCTURED RESULT
+↓
+QUESTION PREMISE SCOPE AUDIT
+↓
+IF MATERIAL GAP:
+  OPEN ANOTHER ADMISSIBLE PREMISE FAMILY
+  → NEW CONSTRAINT FIELD
+  → NEW ATTENTION / RECRUITMENT
+  → NEW PATH FORMATION
+  → ROUND_(n+1)
 
-R2
-=
-ANTITHESIS RECOVERY
-+
-GENUINE RECOMPETITION
+IF NO MATERIAL GAP
+AND OTHER TERMINATION CONDITIONS PASS:
+  COMPETITION MAY TERMINATE
+~~~
 
-R2 SYNTHESIS
-=
-NEXT THESIS
+最後硬鎖：
 
-R3+
-=
-EVENT-DRIVEN
-DIALECTICAL LEVEL REOPENING
-WHEN MATERIAL
-
-SYNTHESIS
+~~~text
+PATH DIVERSITY
 !=
-CLOSURE
+QUESTION PREMISE DIVERSITY
+
+LOCAL SYNTHESIS OPTIMUM
+!=
+QUESTION-LEVEL OPTIMUM
+
+TWO CONSECUTIVE WINS
+!=
+VICTORY THEOREM
+
+NO DETECTED MATERIAL PREMISE GAP
+!=
+ONTOLOGICAL EXHAUSTION
 ~~~
