@@ -56,7 +56,7 @@ REAL APPLICABLE LIMIT
 
 此裁定確立 **`GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`** 為成人心法外接候選，內接成人 CERI 方法與工作記錄；一般宋代 CERI 語域仍可單獨服務普通故事。**理火 OS L8 是唯一的業務工作週期**。觀止 Route／Scene／本地時間／Delta 是故事狀態，不是第二個 Guanzhi Cycle；成人插件也不是 Adult Cycle。
 
-`CORE VNext V0.5` 已把成人方法移到外掛，只保留最小的上下文交接與真實 return 承接；L8 final receipt checklist 對帳一趟理火，外掛只提供實際能力結果，不另外建 release。實際 Host 接線、L8 文件法位、獨立回歸尚無證據表明已部署／通過。
+`CORE VNext V0.5` 已把成人方法移到外掛，只保留最小的上下文交接與真實 return 承接；L8 final receipt checklist 對帳一趟理火，外掛只提供實際能力結果，不另外建 release。理火 OS V1.1 的 L0 已將 L8 列作 `PRESERVED_V1_0_OPERATIVE_BASELINE`，因此 **L8 文件法位存在**；尚無證據的是 Host 部署、實作完成及外部 L8 instance 真正運行，獨立回歸亦未通過。**普通故事節拍不需逐次開 L8 Cycle Object**。外掛的同模型 CERI 工作只叫 `CERI_WORK_RECORD`，真 Provider 回傳才叫 `PROVIDER_RECEIPT`；外掛只在新、尚未成立的 material delta 出現時回交原 Owner，不對既成決定二次確認。
 
 **這兩個新增設計也已由作者決定；不用下一輪再問一次是否外掛化、是否要觀止週期。**
 
