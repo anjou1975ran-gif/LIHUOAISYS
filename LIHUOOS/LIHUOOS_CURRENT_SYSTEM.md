@@ -17,15 +17,15 @@ CURRENT_SYSTEM:
 
   activation_record:
     file: "V1版本/LIHUOOS_V1.3_ACTIVATION_RATIFICATION_20261028.md"
-    blob_sha: "7964e1449bd3a2c07c542f9406062d97f0e5e532"
+    blob_sha: "09d422fd6d82c80c599ab5e6696304d92b1b166b"
 
   current_system_edition:
     file: "V1版本/正式版/理火OSV1.3版.md"
-    blob_sha: "b67c19ce46e5fd554c2b225dc4dd0edb4aefedba"
+    blob_sha: "96a482a555899465ab811b4ce626e5e03d7ab7f1"
 
   current_map:
     file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.3.md"
-    blob_sha: "791b1826a47093f41244acf1b36ac29be260f7fe"
+    blob_sha: "aee6805c320b113311e154079115e78eb2f6afdc"
 
   current_l1:
     file: "V1版本/L1 第六版本.md"
@@ -41,7 +41,7 @@ CURRENT_SYSTEM:
 
   current_l8:
     file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3_20261028.md"
-    blob_sha: "30f9be4b39b218267f522a23c2ce719cf4fdc927"
+    blob_sha: "37992223176ce1fcb4a9a83a09d30903ec77dc4f"
 
   current_l9:
     file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
