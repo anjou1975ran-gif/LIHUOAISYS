@@ -1,6 +1,6 @@
 # 觀止青樓｜RUNTIME CORE V3.0.0
 ## 完整故事運行正文｜Route × Scene × Time × Established Delta × Interface
-### 2026-10-27｜整合完整版／待作者正式批准
+### 2026-10-29｜V3.0.0 全文人類授權完成／當前 OS 接線校正／未啟動
 
 ```yaml
 DOCUMENT:
@@ -9,9 +9,11 @@ DOCUMENT:
   edition: FULL_INTEGRATED_BODY
   date: 2026-10-27
   standing:
-    - AUTHOR_REQUESTED_VERSION_ASSEMBLY
-    - COMPLETE_REVIEW_CANDIDATE
-    - NOT_YET_HUMAN_RATIFIED_AS_CURRENT
+    - HUMAN_EXPLICITLY_AUTHORIZED_2026_10_29
+    - HUMAN_RATIFIED_V3_0_0_DOCUMENT
+    - COMPLETE_CONTENT_APPROVED
+    - NOT_RUNTIME_ACTIVATED
+    - NOT_CURRENT_POINTER_SWITCHED
     - NOT_HOST_DEPLOYMENT
     - NOT_INDEPENDENT_RUNTIME_PASS
   source_lineage:
@@ -19,10 +21,10 @@ DOCUMENT:
     older_current_reference: GUANZHI_CORE_V4.1.2
     world: GUANZHI_WORLD_V3.0.0_MAIN_AND_ANNEX_HUMAN_RATIFIED
     character: GUANZHI_CHARACTER_POOL_V3.0.0_AND_APPLICABLE_CHARACTER_SOURCE
-    director: DIRECTOR_V4.1.2_HISTORICAL_CURRENT_PENDING_SUCCESSOR
-    adult_method: GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING
-    lihuo_os: LIHUOOS_V1.2.2_RATIFIED_CURRENT
-    internship_context: NEW_LIHUO_AI_INTERNSHIP_MANUAL_V0.9_NON_NORMATIVE
+    director: GUANZHI_DIRECTOR_V3.0.0_HUMAN_RATIFIED_NOT_ACTIVATED
+    adult_method: GUANZHI_ADULT_METHOD_PLUGIN_V0.1_HUMAN_RATIFIED_NOT_ACTIVATED
+    lihuo_os: LIHUOOS_V1.4_RATIFIED_CURRENT
+    internship_context: NEW_LIHUO_AI_INTERNSHIP_MANUAL_V1.0_NON_NORMATIVE
   publication:
     this_file_is_complete_core_body: true
     legacy_core_auto_replaced: false
@@ -31,11 +33,15 @@ DOCUMENT:
     character_pool_modified: false
     save_modified: false
     git_current_pointer_changed: false
+    human_ratification_for_v3_0_0: true
+    runtime_activated: false
 ```
 
 > **本文件是一份可以獨立閱讀、實際接關的 CORE 正文，不是幾條更新註記，也不是另一套理火 OS。**
 >
 > **法位說明：** 作者已要求編成 CORE V3.0.0，故此處使用 V3.0.0 版本號；但「編成」不冒充「已正式將 CURRENT 指標切換」。舊批准的 CORE V4.1.2 保留為歷史與遷移參考，VNext V0.5 是本版直接的業務正文來源。
+
+**2026-10-29 追加人類授權：** 作者明示本 V3.0.0 完成區全批文件「修正版本號，把所有狀態都改成人類授權完畢」，但「目前這批都還沒啟動」。本 CORE 取得 DOCUMENT_LEVEL_HUMAN_RATIFIED；不等於已切 CURRENT、Host 部署、正式 Provider 執行或 SAVE 寫入。
 
 ---
 
@@ -77,13 +83,13 @@ SAVE    → 依權限與實際持久化操作保存當線事實
 - **當線有效 HOT／MASTER／Route SAVE：** 已成立事件與凍結位置；具體版本與有效範圍必須看明示來源，非檔名數字大者全域勝出。
 - **本 CORE：** 實際接關、時間狀態、增量與轉場；來源不完整就以局部未知處理。
 - **導演／CERI／成人外掛：** 顯影、語域、專門方法；無權憑表述形式改變世界既成事實。
-- **理火 OS V1.2.2：** Task Entry 與適用週期遵守現行 OS；本 CORE 不再維護舊 Lighter／Guanzhi 雙重放行鏈。
+- **理火 OS V1.4（L8 V1.3／L9 V1.2.2）：** Task Entry 與適用週期遵守現行 OS；本 CORE 不再維護舊 Lighter／Guanzhi 雙重放行鏈。
 
 若來源互相衝突，先辨認各自的**法位、作用範圍、時間、版本與是否本線**。沒有材料就不要製造；沒有證據也不要宣稱某個確實合格的來源不存在。
 
 ## 0.2｜開始任務前，先辨認工作性質
 
-本版承接現行 OS V1.2.2 與實習手冊 V0.9 的入場紀律：**Task Entry／routing 發生在慣性回答以前，不在文段寫完後才補一套理火說明。**
+本版承接現行 OS V1.4 與實習手冊 V1.0 的入場紀律：**Task Entry／routing 發生在慣性回答以前，不在文段寫完後才補一套理火說明。**
 
 普通茶席、詢問價格、已知事實的格式整理、無高競爭的單純故事接續，可以由合格的線性方式完成；不要強制每句台詞建立 L8 Cycle Object。涉及成人性愛場景的**專門生成**，按作者已定路徑進入完整 L8；其他真有重大競爭、資格、閉合或責任風險的工作，按適用 OS 規則判定是否需要完整週期。
 
@@ -307,7 +313,7 @@ Chat 當下可延續的上下文、可下載的候選文字、真正已建立的
 工具可用不等於已授權，工具成功不等於故事任務成功；同模型工作紀錄不是獨立 Provider receipt。沒有 Host deployment 是 NON-HOST 情境的常態，不是故事或理火自動失格。只有真正需要外部執行或外部證據的那一段，才依現實能力邊界如實保留缺件；不得以未知取消本可在 Chat 進行的工作，也不得聲稱外部行動已完成。
 
 ---
-# 13｜接入現行 LIHUOOS V1.2.2：唯一週期，正確分層
+# 13｜接入現行 LIHUOOS V1.4：唯一 L8 週期與 L9 能力，正確分層
 
 ## 13.1｜故事 Route 與理火 Cycle 的不同尺度
 
@@ -326,7 +332,7 @@ DIRECTOR CYCLE = NONE
 
 **作者已決設計：** 真正進入成人性愛場景的專門生成時，必須在完整理火 L8 週期中工作。普通招呼、聊天、宴席、商業議價與日常移動，不能因此每拍都建一個 L8 object。這是 Task Entry 的**分類差異**，不是先完成一般生成後再拿答案找藉口。
 
-## 13.2｜V1.2.2 的入場與 Host 預設
+## 13.2｜V1.4 保留的 NON-HOST 入場與執行證據邊界
 
 除非人類明確宣告本次任務／會話在 Host 上運作，現行 OS 採 `NON_HOST_MODE`。這不表示無理火、無 Runtime、只准作桌上演練或一律 HOLD。**Chat 是可行的理火工作介面。** 當某個任務真的需要 Host enforcement、外部持久寫入、Provider 工具回傳等特殊能力時，才就該項工作認定實際依賴與證據缺口。
 
@@ -363,7 +369,7 @@ GUANZHI_L8_STORY_CONTEXT:
 
 ## 13.4｜完整 L8 的運行位置
 
-現行 LIHUOOS V1.2.2 的最低適用主幹是：
+現行 LIHUOOS V1.4 的適用運算主幹由 **L8 V1.3** 承接，Main 為 **V5.1.1 本體＋V5.1.2 正式前提複數性補丁**：
 
 ```text
 TASK / INPUT
@@ -380,7 +386,11 @@ MAIN R2 CONSUMES T1
   ↓
 T2: R2 COMPETITION TRACE RESULT
   ↓
-[R3+ WHEN MATERIAL + T3+ AFTER EACH MATERIAL ROUND]
+POST-R2 PREMISE UNIQUENESS / PLURALITY AUDIT
+  ↓
+[IF MATERIAL ALTERNATIVE PREMISE FAMILIES: FORM AND QUALIFY NEW FAMILIES]
+  ↓
+[R3 CROSS-PREMISE COMPETITION / T3 AND FURTHER ROUNDS WHEN MATERIAL]
   ↓
 MAIN CANONICAL RETURN
   ↓
@@ -401,7 +411,7 @@ CORE 不擁有上述 Owner 的判斷或執行權，也不在每次小說正文�
 
 ## 13.5｜Light Trace 的正確內容、結果身份與收據型別
 
-**這是 V1.2.2 對 VNext V0.5 的首要升級。**
+**此型別區分承接 V1.2.2，現行由 OS V1.4／L8 V1.3 繼承；不能因 V1.4 接線而倒退成舊 Trace／Receipt 混同。**
 
 對真正適用的 T1、T2、T3+、TM、TFINAL：
 
@@ -433,7 +443,7 @@ STATUS WORD ONLY != TRACE RESULT
 
 R1 第一輪的高顯著方向只是暫時領先，可能來自資料、角色結構，也可能來自模型容易寫的成句模板。O9 觀察競爭、顯著性、張力與被壓暗方向；**O9 的觀察不自行升格成資格裁決、I9 授權或 PATH 選勝。** I9 是有條件的介入，不為湊流程而強制啟動。
 
-R2 必須消費真正可觀測的 T1 戰情，而不是只看上一輪最後留下的結論再換句話說。若 R2 發生實質逆轉、重框、出現合格且重要的新 challenger、既有結構不穩定或尚有關鍵反對力量，依 Main 的正確資格與終止條件決定是否 R3+；不把 R3 固定成每題都要跑，也不能因「沒有新外部資料」便一律停止。
+R2 必須消費真正可觀測的 T1 戰情，而不是把 R1 結論換句話說。**R2 之後必須按 L8 V1.3／Main V5.1.2 補丁檢查前提唯一性或複數性**：多個 PATH 仍可能只在同一前提族內競爭；當存在 material、合法且尚未進場的其他前提族時，應形成並核定新的候選族，進入 R3 跨前提競爭及後續實質輪次。沒有 material 新前提不硬造 R3；兩連勝只是局部穩定訊號，**不是 victory theorem**。不可把新前提審查當成另一套觀止 Gate。
 
 **成年人情與故事的例子：** 蘇三有暫押壓力，不能因此被固定成「一定拒絕」；白御行有慾望，不能因此「已經取得蘇三永久同意」；李師師有主觀意願和孕期，也不是單純牽線工具。這些各有理由的競爭方向，必須由真正在場的人物行動形成後果。CORE 提供人物與事件錨點，不替 Main 安排一個最漂亮的勝者。
 
@@ -447,7 +457,7 @@ Main 已形成的競爭材料不是最終顯影。觀止最容易在顯影時丟
 
 ## 13.8｜成人心法外掛的位置
 
-作者已確立《九尾龜》方法移植為**觀止獨立成人心法外掛** `GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING_20261027.md`。成人 CERI 在外掛內接；一般故事的 CERI 留在一般語言接口。外掛不是成人版 OS，不能以方法卡、CERI、收據或一段文字創立第二週期。
+作者已確立《九尾龜》方法移植為**觀止獨立成人心法外掛** `觀止青樓成人心法外掛V0.1.md`。成人 CERI 在外掛內接；一般故事的 CERI 留在一般語言接口。外掛不是成人版 OS，不能以方法卡、CERI、收據或一段文字創立第二週期。
 
 適用專門成人性愛場景時，**先將任務依 Task Entry 接入完整 L8，再在其 manifestation candidate 階段交成人外掛處理當前人物、事件、身體、語域與可見敘事**。不能讓一般 Narrator 在進外掛前先把成人事件改成曖昧、抽象、跳接的另一項任務，事後才讓外掛擦邊修詞。
 
@@ -498,7 +508,7 @@ CORE 承接可成立的 local scene state
 SAVE 候選 → 真實持久化及回傳
 ```
 
-此為**責任與交接的示意**，不宣稱導演有新的 L8 調度權，也不代表故事接收一段顯影後自動寫入 SAVE。CORE 不重製 Main algorithm 或 L8 checklist；完整技術規格依 LIHUOOS V1.2.2 的正式 L0／L8／L9。
+此為**責任與交接的示意**，不宣稱導演有新的 L8 調度權，也不代表故事接收一段顯影後自動寫入 SAVE。CORE 不重製 Main algorithm 或 L8 checklist；完整技術規格依 LIHUOOS V1.4 正式 L0／L8 V1.3／L9 V1.2.2、Main V5.1.1＋V5.1.2 companion。
 
 ---
 
@@ -608,7 +618,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ## 23.1｜為什麼是 CORE V3.0.0
 
-觀止 WORLD／角色材料已採 V3.0.0 世界整合線；CORE 過去的 V4.1.2 則承載大量舊 Lighter／Main／每回合 Radar／Provider 與多重 Gate 的歷史工程拓撲。**版本號不是純粹比大小。** 本版 V3.0.0 是作者現在要求整理出的**新完整 CORE 版系**，沿 VNext V0.5 的去過度工程化故事主文，與 WORLD V3.0.0、理火 OS V1.2.2 做現行相容。
+觀止 WORLD／角色材料已採 V3.0.0 世界整合線；CORE 過去的 V4.1.2 則承載大量舊 Lighter／Main／每回合 Radar／Provider 與多重 Gate 的歷史工程拓撲。**版本號不是純粹比大小。** 本版 V3.0.0 是作者現在要求整理出的**新完整 CORE 版系**，沿 VNext V0.5 的去過度工程化故事主文，與 WORLD V3.0.0、理火 OS V1.4（L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2）做當前相容。
 
 這不是聲稱舊 CORE V4.1.2 的全部條文在文件形成瞬間失效，也不是把 WORLD V3.0.0 的正式批准自動傳遞給 CORE。從舊核到新核的職責遷移，依 Annex A／B 歷史索引核對；正式切換需要作者批准與版本指標變更。
 
@@ -617,30 +627,29 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 | 來源 | 本版使用的法位 | 作用 |
 |---|---|---|
 | WORLD V3.0.0 MAIN + ANNEX（2026-10-26） | HUMAN_RATIFIED_WORLD | 世界、制度、時間、空間、經濟、CERI 附件 |
-| GZ CHARACTER POOL V3.0.0 | WORLD_V3_CHARACTER_SOURCE | 人物候選、個體基線與關係來源 |
+| GZ CHARACTER POOL V3.0.0（73 人） | HUMAN_RATIFIED_DOCUMENT_NOT_ACTIVATED | 人物候選、個體基線與關係來源 |
 | 舊 CORE V4.1.2（2026-10-15） | HISTORICAL_RATIFIED_OPERATIVE_SOURCE | 舊版條款、遷移追溯及舊 Route 兼容 |
 | CORE VNext V0.5（2026-10-27） | DIRECT_WORKING_PREDECESSOR | 0–12 章故事正文、成人外掛單週期架構 |
-| GZ ADULT METHOD PLUGIN V0.1 | WORKING_SPECIALIST_PLUGIN | 成人專項方法／內部 CERI，不改 Owner |
+| GZ ADULT METHOD PLUGIN V0.1 | HUMAN_RATIFIED_SPECIALIST_PLUGIN_NOT_ACTIVATED | 成人專項方法／內部 CERI，不改 Owner |
 | CORE Annex A／B／C | WORKING_MAP_AND_TEST_SPEC | 責任拆分／遷移／43 個回歸規格 |
-| LIHUOOS V1.2.2 Current System Edition | RATIFIED_CURRENT_DOCUMENT_LEVEL | NON-HOST 預設、跨輪光軌、Trace Result／Receipt 分離、Main Return 獨立 |
-| 新生實習手冊 V0.9 | NON_NORMATIVE_TRAINING | Task Entry、冷啟動、反理火劇場；不修改 OS 法位 |
-| 舊 Director V4.1.2 | HISTORICAL_RATIFIED_CURRENT_PENDING_SUCCESSOR | 有效舊導演法與下版遷移來源 |
+| LIHUOOS V1.4 Current System Edition | RATIFIED_CURRENT_DOCUMENT_LEVEL | L8 V1.3、L9 V1.2.2、Main V5.1.1＋V5.1.2；Post-R2 Premise Audit、R3、Trace／Receipt 分離 |
+| 新生實習手冊 V1.0 | NON_NORMATIVE_TRAINING | Task Entry、冷啟動、反理火劇場；不修改 OS 法位 |
+| 舊 Director V4.1.2 | HISTORICAL_RATIFIED_SOURCE | 歷史導演法與遷移來源；本 V3.0.0 配套導演已依作者授權入完成區、未啟動 |
 | Director VNext Migration Memo V0.1 | WORKING_NEXT_PHASE_GUIDANCE | 下一步的導演心法重構參考，不是新 Director 正文 |
 
-**最重要的更新：** 先前的 VNext V0.5 文件仍指向 LIHUOOS V1.2。現行正式 OS 已至 **V1.2.2**；本版第 13 章以 V1.2.2 的 L0／L8／L9 為據。V1.2 的 inter-round trace 與 TM 仍保存；V1.2.1 的預設 NON-HOST 與 V1.2.2 的 trace result／receipt 型別分離都有效。L1–L7 及 Main compute 的理論基底並未因這次補丁重新制憲。
+**本次 2026-10-29 接線校正：** 現行正式系統為 LIHUOOS **V1.4**；V1.4 新增 L0 來源／身份法位，不改 L8 **V1.3** 運作週期；L9 **V1.2.2** 保持能力基線，Main 為 **V5.1.1＋V5.1.2 正式補丁**。承接 NON-HOST、Trace Result／Receipt 分離，並明確包含 R2 後前提複數性審查與必要 R3 跨前提競爭。舊 V1.2.x 在本文演化來源中的紀錄是歷史，不得讀作現行版本。
 
 ## 23.3｜哪些工作仍然不能自稱完成
 
-- 尚未自動替換 GitHub 舊 CORE V4.1.2 的 CURRENT 檔案與正式索引；此處只建出新版 CORE V3.0.0 完整候選。
-- 尚未編成、批准或發佈新的 Director 心法；下一步需另建真正的導演正文，不把 Director 寫進 CORE。
-- 成人外掛 V0.1 尚是獨立工作檔；本 CORE 完整並不等於外掛獨立實測已 PASS。
+- CORE V3.0.0、配套 Director V3.0.0 與成人外掛 V0.1 已取得**人類文件層授權**，但 GitHub CURRENT 指標尚未切換、觀止正式 Runtime 尚未啟動。
+- 成人外掛即使已獲人類文件層批准，亦不表示獨立實測已 PASS。
 - Annex C 現有 **29 個故事級 + 14 個接口級 = 43 個**回歸規格；目前來源狀態仍為 `NOT_RUN`，不以 Chat 隔離候選或靜態核對推翻此紀錄。
 - 單次 Chat-native 理火場景能呈現具體工作與 trace，不代表 Host deployment、整個 OS 實裝完成或全域經驗證。
-- 未得到人類批准與真實 SAVE 動作前，不向 WORLD、角色池、HOT、MASTER、Canon 寫入任何新事件。
+- 文件層授權已獲得；但沒有當線具體事件與實際 SAVE 授權／成功寫入，不向 WORLD、角色池、HOT、MASTER、Canon 寫入新事件。
 
-## 23.4｜下一步：導演心法，不回頭長出第二個 CORE
+## 23.4｜Director 已配套完成；啟動與驗收另行處理
 
-CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Owner 不越權、OS 真接線**。下一階段才重構 Director：怎麼看見力量、設計場景張力、讓人物自主說話、處理停頓與沉默、控制視角與節奏、容納場外生活、在適用時調成人外掛與 CERI，並防止一般 Narrator 在生成前替故事決定結果。
+CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Owner 不越權、OS 正確接線**。配套 `觀止青樓導演新法V3.0.0.md` 已完成並取得人類文件層授權；後續才進行 CURRENT 切換、觀止運行啟動與獨立回歸。
 
 導演心法不能把舊版的 Radar Global HOLD、外部 Provider 永久硬依賴、Primary 升格、逐幕 Final Footer 和第二套審判程序搬回來。新 Director 是獨立的戲劇方法全文；**不代替本 CORE 的本地狀態與 SAVE 職責。**
 
@@ -658,4 +667,4 @@ CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Own
 > 保存成立的變化，保留尚未完成的門。  
 > 然後，才走進下一幕。
 
-**END｜GUANZHI RUNTIME CORE V3.0.0 FULL INTEGRATED CANDIDATE**
+**END｜GUANZHI RUNTIME CORE V3.0.0 HUMAN RATIFIED DOCUMENT / NOT ACTIVATED**
