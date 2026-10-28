@@ -2,8 +2,6 @@
 ## 人物自主 × 場景力場 × 關係策略 × 鏡頭與顯影
 ### 2026-10-28｜VNext 系列內容封版／人類指示送入 V3.0.0 完成區
 
-**封版法位：** DIRECTOR_V3.0.0_FULL / HUMAN_DIRECTED_STAGE_COMPLETION / CONTENT_IN_COMPLETED_FOLDER / NOT_CURRENT_SWITCHED / NOT_DEPLOYED / INDEPENDENT_RUNTIME_NOT_RUN。
-
 **作者決定：** 2026-10-28，人類明示「先讓導演進完成區」「完成階段工作」。這是**導演內容階段入庫授權**，不等於人類已逐條驗證全部試走或聲稱獨立 Runtime PASS。
 
 **OS 引用凍結說明：** 本文繼承 VNext V0.5 既有的 LIHUOOS V1.2.2／V1.2.3 版本字樣，依作者先前指示**本階段不更動版本號**。它們是生成本稿時的歷史接線引用，**不得讀作今天最新 OS 的版本聲明**。具體理火執行應以 GPT 專案倉庫現行已核定 OS 為準；版本引用統整留待最後一次處理。
@@ -23,7 +21,7 @@
 - 故事運行：CORE V3.0.0 完整候選，處理 Route、Scene、Time、已成立 Delta 與接關。
 - 人物：當線有效人物來源、人物池與各 Route HOT／MASTER SAVE。不同線的事件不可互相偷渡。
 - 成人方法：GZ_ADULT_METHOD_PLUGIN_V0.1_WORKING；本 Director 不複製其 21 張方法卡，也不為外掛自行升格法位。
-- 理火：LIHUOOS V1.2.3；L8 是唯一適用週期，L9 提供能力。舊 Lighter／Legacy Main standalone 只作歷史來源。
+- 理火：原工作稿引用 LIHUOOS V1.2.3（版本號凍結、待最後統整）；理火治理適用範圍依 GPT 專案倉庫現行已核定 OS，舊 Lighter／Legacy Main standalone 只作歷史來源。
 - 導演歷史：Director V4.1.2、其中所承接 V3.8.1／V3.8／V3.7 的導演心法，以及 DIRECTOR_VNEXT_MIGRATION_MEMO_V0.1。舊版仍有各自的歷史法位，但其退役的接線不得藉繼承重新變成新版現行要求。
 
 ---
@@ -55,7 +53,7 @@
 
 **原生生成慣性沒有替任務改題或替週期決定是否啟動的權力。** 但也不把「凡事必開完整 L8」學成新的形式主義。
 
-導演不代 L8 填 R1／T1／TM，也不在顯影後以自編的流程故事冒充模組回傳。真正由當輪同上下文產生、有完整內容及可引用身份的 trace result，可以按 V1.2.2 正確型別交給 L8；沒有額外 Provider execution receipt 不得自動判 trace missing。
+導演不代 L8 填 R1／T1／TM，也不在顯影後以自編的流程故事冒充模組回傳。真正由當輪同上下文產生、有完整內容及可引用身份的 trace result，在原稿 V1.2.2 的型別語義下可交給 L8；本句保留為歷史接線說明，實際仍須符合現行 OS，且沒有額外 Provider execution receipt 不得自動判 trace missing。
 
 # 2｜開鏡前的第一眼：先看力量，不是先想台詞
 
@@ -390,7 +388,7 @@ Narrator 負責可見文字，不擁有 Character／WORLD 的決定權。TM 由�
 
 需要 L8 時，導演提供真實的敘事輸入和候選問題，不自製 R1、O9、T1、R2、TM 的假回傳；適用的 L8 自行負責跨輪交接與結果對帳。
 
-現行 LIHUOOS V1.2.3 的重要分離：
+工作稿所依 LIHUOOS V1.2.3 留下的重要分離（版本號待最後統整，實際執行以現行 OS 為準）：
 
 - **TRACE CONTENT / TRACE RESULT REF：** 當步驟適用時必須有真正可辨識的戰情內容與引用身份；只寫 T1=DONE 不算。
 - **CANONICAL EXECUTION RECEIPT：** 只有 Provider／工具真的發出才存在。沒有額外收據，不得判定已存在的 Trace 結果不存在。
@@ -496,7 +494,7 @@ Director 能辨認什麼值得保存，但不是 SAVE 工具，也不是長期�
 | GTR 候選與少數人物的常駐語用能力 | **保留，但不得全員模板化** |
 | 場外事件、鏡頭、時空道人與多角色發言 | **保留作導戲方法** |
 | 反平庸、修錯、場景生活、CERI 人物聲紋 | **保留並具體化** |
-| Legacy Guanzhi Cycle／Lighter admission／Main V5.1.1 exact binding | **不帶回新版操作面；接現行 LIHUOOS V1.2.3** |
+| Legacy Guanzhi Cycle／Lighter admission／Main V5.1.1 exact binding | **不帶回新版操作面；原稿 LIHUOOS V1.2.3 引用待最後統整，運行接線以現行 OS 為準** |
 | 每輪必得 Radar 回傳、缺席全局 HOLD | **退休；Radar advisory-only** |
 | 通用獨立 CERI Provider 強制前置 | **退休為預設；保留真正語域工作與外部能力型別分離** |
 | 舊 Adult Panel 與成套技巧表 | **有效故事語義保留，方法交專項成人外掛** |
