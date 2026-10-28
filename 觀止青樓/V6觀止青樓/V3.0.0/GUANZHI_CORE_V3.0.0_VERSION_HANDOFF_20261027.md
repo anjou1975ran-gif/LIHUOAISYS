@@ -12,7 +12,7 @@
 
 已建立獨立、可閱讀的完整 CORE 主文：
 
-`01_GUANZHI_RUNTIME_CORE_V3.0.0_FULL_20261027.md`
+`觀止青樓CORE_V3.0.0.md`（2026-10-27 原名 `01_GUANZHI_RUNTIME_CORE_V3.0.0_FULL_20261027.md`，現已按人類改名）
 
 25 個主章節（#0–#24），涵蓋：四項 CORE Owner、世界／人物／SAVE 法位、Route 與 Scene 接關、時間及換日、人物發言權與知情、事件站位、財物與契約、場外因果、關係與身體、局部 HOLD、SAVE、理火 OS V1.2.2、成人外掛接口、測試場景、版本演化及 Director 下階段邊界。
 
@@ -26,10 +26,10 @@
 | 人物池 V3.0.0 | WORLD V3 套件所屬人物來源 | 不複製、不修改；當線使用有效角色來源 |
 | CORE V4.1.2（舊版） | 已有人類批准的舊 CORE | 保留歷史與來源追溯，不直接複製其舊控制平面 |
 | CORE VNext V0.5 | WORKING／非 CURRENT | 本次 V3.0.0 完整主文的直接前身 |
-| **CORE V3.0.0 FULL** | **本次建立之 COMPLETE_REVIEW_CANDIDATE** | **新正文已完成；正式 CURRENT 切換未執行** |
-| 成人心法外掛 V0.1 | WORKING／獨立插件 | 方法卡與成人 CERI 留在插件，不重建 Adult OS |
-| LIHUOOS V1.2.2 | RATIFIED_CURRENT 文件法位 | V3.0.0 第 13 章按現行 L0／L8／L9 接線 |
-| 新生實習手冊 V0.9 | CURRENT_TRAINING／NON_NORMATIVE | Task Entry、NON-HOST、反過度審計作為行為教育 |
+| **CORE V3.0.0 FULL** | **2026-10-29 HUMAN_RATIFIED_DOCUMENT / NOT_RUNTIME_ACTIVATED** | **本批已批准；正式 CURRENT／Runtime 尚未啟動** |
+| 成人心法外掛 V0.1 | 2026-10-29 HUMAN_RATIFIED_DOCUMENT / NOT_RUNTIME_ACTIVATED | 方法卡與成人 CERI 留在插件，不重建 Adult OS |
+| LIHUOOS V1.4 | RATIFIED_CURRENT 文件法位 | V3.0.0 按 L0 V1.4、L8 V1.3、L9 V1.2.2、Main V5.1.1＋V5.1.2 接線 |
+| 新生實習手冊 V1.0 | CURRENT_TRAINING／NON_NORMATIVE | Task Entry、NON-HOST、反過度審計作為行為教育 |
 | Director V4.1.2 | 舊正式導演正文 | 保留，待下一階段另建 Director 全文 |
 | Director VNext Migration Memo V0.1 | WORKING | 下一步導演改版的重要轉接參考 |
 | Annex C 43 個回歸情境 | 29 STORY + 14 INTERFACE | 仍 NOT_RUN；這次文本完整性檢查不是 Runtime PASS |
@@ -68,4 +68,4 @@
 
 ---
 
-**最短交接句：** CORE V3.0.0 現已編成完整候選，保留 WORLD V3.0.0、人物池和各 Route SAVE 原有法位；接線 LIHUOOS V1.2.2、成人心法獨立外掛、唯一 L8；下一步重構 Director 的「看見力量與戲劇顯影」而不是搬回舊工程 Gate。
+**2026-10-29 最新交接句：** CORE、WORLD 主附、73 人人物池、Director、成人心法外掛與原生人物模板均已取得人類文件層批准，尚未正式啟動；接線 LIHUOOS V1.4／L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2；下一步是分別決定啟動和實際測試，而非重新編一個 Director 或第二個 OS。
