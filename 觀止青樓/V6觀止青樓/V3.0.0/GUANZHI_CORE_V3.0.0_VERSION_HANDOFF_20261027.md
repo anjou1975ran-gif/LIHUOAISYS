@@ -1,5 +1,11 @@
 # 觀止青樓｜CORE V3.0.0 版本整理與 Director 接手紀錄
 
+**2026-10-29 最新法位：** `HUMAN_RATIFIED_VERSION_HANDOFF / V3.0.0_BATCH_AUTHORIZED / NOT_RUNTIME_ACTIVATED / NOT_CURRENT_SWITCHED`。本稿的 2026-10-27『候選』『下一步』記述是歷史階段紀錄，不再代表今天的文件批准狀態；現行 CORE、Director、人物池、WORLD 主附、成人外掛與原生人物模板均依作者 2026-10-29 明示獲得文件層人類授權。版本編號與檔名 V3.0.0 保留，未做任何觀止 Runtime 啟動。
+
+**本次完成後最新接線：** 理火 **LIHUOOS V1.4**，內部 **L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2 正式補丁**；R2 後依現行 L8 審查前提複數性，必要時 R3 跨前提競爭。OS 文件版號已更新，但不冒稱外部 Provider、Host、SAVE 及回歸測試已執行。配套正式檔見本目錄改名後的 `觀止青樓CORE_V3.0.0.md`、`觀止青樓導演新法V3.0.0.md`、`觀止人物池(73人)V3.0.0.md`、`觀止青樓原生人物 ROUTE SAVE 模板.md`。
+
+**歷史記錄說明：** 下列原始 2026-10-27 章節保留作遷移追溯，其舊 CURRENT OS／候選法位僅描述當日狀況，以上述 2026-10-29 最新法位與現行 OS 為準。
+
 **2026-10-27｜文件整合成果，不是獨立 Runtime PASS 或 GitHub CURRENT 指標變更。**
 
 ## 一、這次真正完成的工作
