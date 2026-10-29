@@ -648,7 +648,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 | CORE Annex A／B／C | WORKING_MAP_AND_TEST_SPEC | 責任拆分／遷移／43 個回歸規格 |
 | LIHUOOS V1.4 Current System Edition | RATIFIED_CURRENT_DOCUMENT_LEVEL | L8 V1.3、L9 V1.2.2、Main V5.1.1＋V5.1.2；Post-R2 Premise Audit、R3、Trace／Receipt 分離 |
 | 新生實習手冊 V1.0 | NON_NORMATIVE_TRAINING | Task Entry、冷啟動、反理火劇場；不修改 OS 法位 |
-| 舊 Director V4.1.2 | HISTORICAL_RATIFIED_SOURCE | 歷史導演法與遷移來源；本 V3.0.0 配套導演已依作者授權入完成區、未啟動 |
+| 舊 Director V4.1.2 | HISTORICAL_RATIFIED_SOURCE | 歷史導演法與遷移來源；本 V3.0.0 配套導演已依 2026-10-30 指令 Chat-native 啟用，未 Host 部署 |
 | Director VNext Migration Memo V0.1 | WORKING_NEXT_PHASE_GUIDANCE | 下一步的導演心法重構參考，不是新 Director 正文 |
 
 **本次 2026-10-29 接線校正：** 現行正式系統為 LIHUOOS **V1.4**；V1.4 新增 L0 來源／身份法位，不改 L8 **V1.3** 運作週期；L9 **V1.2.2** 保持能力基線，Main 為 **V5.1.1＋V5.1.2 正式補丁**。承接 NON-HOST、Trace Result／Receipt 分離，並明確包含 R2 後前提複數性審查與必要 R3 跨前提競爭。舊 V1.2.x 在本文演化來源中的紀錄是歷史，不得讀作現行版本。
