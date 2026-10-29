@@ -2,7 +2,7 @@
 
 **人類當次指示：**「啟動就好  真麻煩  順便你也把GIT的版本改成啟動」。
 
-**已生效的 Git CURRENT：** [觀止青樓/CURRENT.md](../../../CURRENT.md) 明確指向 V3.0.0 的 CORE、Director、CERI V1.0、WORLD 主附、73 人人物池及原生人物模板。CORE／Director／CERI 正文各已改為 **HUMAN_AUTHORIZED / CHAT_NATIVE_ACTIVE / NON_HOST_MODE**；舊 V4.1.2 與歷代 VNext 原件保留追史，不暗中刪除。
+**已生效的 Git CURRENT：** [觀止青樓/CURRENT.md](../../CURRENT.md) 明確指向 V3.0.0 的 CORE、Director、CERI V1.0、WORLD 主附、73 人人物池及原生人物模板。CORE／Director／CERI 正文各已改為 **HUMAN_AUTHORIZED / CHAT_NATIVE_ACTIVE / NON_HOST_MODE**；舊 V4.1.2 與歷代 VNext 原件保留追史，不暗中刪除。
 
 **運作新規：** 每一 Director 故事回合先進唯一 LIHUOOS V1.4／L8 V1.3，R2 後按有效規格檢查前提複數性，必要時進 R3+；每回附真實短版 `LIHUO_L8_CHECKLIST_STATUS`，不得拿標籤假造 Trace／Main Return／Receipt。普通對白不再繞過 L8，成人 B／C 方法只在真正適用時使用。
 
