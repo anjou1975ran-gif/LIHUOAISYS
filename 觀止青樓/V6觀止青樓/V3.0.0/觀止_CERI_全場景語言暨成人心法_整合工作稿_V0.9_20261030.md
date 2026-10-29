@@ -1,6 +1,8 @@
 # 觀止｜CERI 全場景語言暨成人心法整合模組 V0.9
 ## 單一語言資料核心 × 語義分軸 × 成人專項方法 × GTR 可引用之語用素材
 
+> **2026-10-30 作者來源校正（只修正歷史歸屬，不改 V0.9 運作與批准法位）：** 成人心法的**原創源頭是觀止**；九尾龜後來從觀止複製／承接相關方法。以下沿用 V0.1 舊稿的「九尾龜移植來」「九尾龜方法」措辭，描述的是**觀止較晚回頭採用九尾龜分支文件作整理載體**，**不是**方法首次由九尾龜發明。觀止 V4／V5 原生 10A 已可逐字追查；分支 21 卡是否有獨立新增與逐字版本先後尚未逐卡追查。此校正不把未驗證的版本沿革冒充提交歷史，也不變動已批准 V0.9 的現行指向。新一輪原生 10A 全文整合另見 `觀止_CERI_全場景語言暨觀止原生成人心法_完整整合候選_V1.0_WORKING_20261030.md`，仍為 WORKING。
+
 **日期：** 2026-10-30（Asia/Taipei）
 **路徑：** `觀止青樓/V6觀止青樓/V3.0.0/觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md`
 **狀態：** `HUMAN_RATIFIED_INTEGRATED_DOCUMENT_2026_10_30 / CURRENT_GUANZHI_V3_0_0_COMPANION_DOCUMENT / SUPERSEDES_CERI_V0_8_AND_ADULT_PLUGIN_V0_1_FOR_V3_0_0 / NOT_RUNTIME_ACTIVATED / NOT_HOST_DEPLOYED / NOT_INDEPENDENT_RUNTIME_PASS / NO_CANON_SAVE_WRITE`
