@@ -1,3 +1,7 @@
+> **2026-10-30 來源法位：** 本 V0.8 是已完成的**歷史 WORKING 語言資料庫來源**；其全場景語料已實質併入人類批准的 `觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md`（觀止 V3.0.0 文件層唯一 CERI＋成人心法配套，尚未 Runtime 啟動）。**本文未單獨取得 CURRENT 或獨立 Provider 法位，請勿與 V0.9 並列調用。** 以下原工作稿全文保留，供追索詞源和創作軌跡。
+
+---
+
 # 觀止 CERI V0.8｜風月、親密與古典口語資料庫完整工作稿
 
 ## REFERENCE CORPUS × LEXICAL ENTRIES × RELATIONAL ADDRESS × PERIOD EVIDENCE × ORIGINAL DIALOGUE
