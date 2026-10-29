@@ -1,6 +1,8 @@
 # 觀止青樓｜CORE V3.0.0 版本整理與 Director 接手紀錄
 
-**2026-10-30 最新接線覆核（優先於下列 2026-10-27／29 歷史階段敘述）：** 作者批准合併 CERI 與成人心法；`觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md` 取得 HUMAN_RATIFIED_DOCUMENT / CURRENT_GUANZHI_V3_0_0_COMPANION / NOT_RUNTIME_ACTIVATED。CORE／Director／WORLD 主附的現行文件層指向已改為 V0.9。原成人心法 V0.1 及 CERI V0.8 留作歷史來源，WORLD 附件 E 的 V0.7-EXP 已逐字封存在 `觀止_CERI_V0.7_EXP_世界附件E_歷史原文封存_20261030.md`。**不更改觀止 V3.0.0 版號，不宣稱頂層 CURRENT 切換、Host／Provider 執行或 Runtime PASS。**
+**2026-10-30 V1.0 正式接替記錄（優先於下方 V0.9 歷史接線）：** 作者明示批准 `觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md` 作觀止 V3.0.0 文件層唯一 CERI＋觀止原生成人心法配套，完整提供 A 全場景語料、B 原生 10A 方法與細目、C 21 張回流方法卡；CORE／Director／WORLD 主附已按同批文件層接線改指向 V1.0。舊 V0.1、CERI V0.8、合併 V0.9 和 V1.0 WORKING 留 Git 作追溯，不作 ChatGPT 觀止專案必帶檔。觀止仍 V3.0.0，LIHUOOS 仍 V1.4；**尚未 Host 部署、Runtime PASS、CURRENT 頂層索引切換、Route SAVE 寫入或專案檔案自動上傳**。
+
+**2026-10-30 歷史 V0.9 接線覆核（優先於下列 2026-10-27／29 歷史階段敘述）：** 作者批准合併 CERI 與成人心法；`觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md` 取得 HUMAN_RATIFIED_DOCUMENT / CURRENT_GUANZHI_V3_0_0_COMPANION / NOT_RUNTIME_ACTIVATED。CORE／Director／WORLD 主附的現行文件層指向已改為 V0.9。原成人心法 V0.1 及 CERI V0.8 留作歷史來源，WORLD 附件 E 的 V0.7-EXP 已逐字封存在 `觀止_CERI_V0.7_EXP_世界附件E_歷史原文封存_20261030.md`。**不更改觀止 V3.0.0 版號，不宣稱頂層 CURRENT 切換、Host／Provider 執行或 Runtime PASS。**
 
 
 **2026-10-29 最新法位：** `HUMAN_RATIFIED_VERSION_HANDOFF / V3.0.0_BATCH_AUTHORIZED / NOT_RUNTIME_ACTIVATED / NOT_CURRENT_SWITCHED`。本稿的 2026-10-27『候選』『下一步』記述是歷史階段紀錄，不再代表今天的文件批准狀態；現行 CORE、Director、人物池、WORLD 主附、成人外掛與原生人物模板均依作者 2026-10-29 明示獲得文件層人類授權。版本編號與檔名 V3.0.0 保留，未做任何觀止 Runtime 啟動。
