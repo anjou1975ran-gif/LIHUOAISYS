@@ -1,11 +1,11 @@
-# 觀止｜CERI 全場景語言暨成人心法整合模組 V0.9-WORKING
+# 觀止｜CERI 全場景語言暨成人心法整合模組 V0.9
 ## 單一語言資料核心 × 語義分軸 × 成人專項方法 × GTR 可引用之語用素材
 
 **日期：** 2026-10-30（Asia/Taipei）
 **路徑：** `觀止青樓/V6觀止青樓/V3.0.0/觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md`
-**狀態：** `HUMAN_REQUESTED_INTEGRATION_DRAFT / FULL_WORKING_CANDIDATE / NOT_HUMAN_RATIFIED_AS_REPLACEMENT / NOT_CURRENT / NOT_RUNTIME_ACTIVATED / NOT_PROVIDER_DEPLOYED / NO_CANON_SAVE_WRITE`
+**狀態：** `HUMAN_RATIFIED_INTEGRATED_DOCUMENT_2026_10_30 / CURRENT_GUANZHI_V3_0_0_COMPANION_DOCUMENT / SUPERSEDES_CERI_V0_8_AND_ADULT_PLUGIN_V0_1_FOR_V3_0_0 / NOT_RUNTIME_ACTIVATED / NOT_HOST_DEPLOYED / NOT_INDEPENDENT_RUNTIME_PASS / NO_CANON_SAVE_WRITE`
 **上層現行來源：** 觀止 V3.0.0 已批准但未啟動；LIHUOOS V1.4、L8 V1.3、L9 V1.2.2、Main V5.1.1 + V5.1.2 正式補丁。
-**本次工作：** 因作者 2026-10-30 明示「CERI 跟成人心法應該合併」「朝這方向處理」，建立**可真正審閱正文**。這是先建候選全文，不取代舊的 WORLD 附件 E、成人心法 V0.1、CORE／Director，也不切換 CURRENT。
+**2026-10-30 人類整合授權：** 作者明示「CERI 跟成人心法應該合併」，隨後授權查漏、完成整合。本稿完成補齊後作為**觀止 V3.0.0 文件層唯一 CERI＋成人心法配套來源**；本次修正正式 CORE／Director／WORLD 附件的內容接線，**未啟動觀止 Runtime、未切倉庫頂層 CURRENT、未聲稱外部 Provider 執行**。
 **原封回溯：**
 - `觀止_CERI_V0.8_風月親密語用_完整工作稿_20261030.md`：CERI V0.8-WORKING 全場景語料（含《水滸傳》首批來源、148 組原創雙人對話、120 筆新語言短句）。
 - `觀止青樓成人心法外掛V0.1.md`：既獲人類文件層批准之成人專項方法（含 21 張卡）／尚未啟動。
@@ -16,7 +16,7 @@
 
 # I｜合併決定：一個模組，兩種內容法位
 
-**第一部分 A｜CERI ALL-SCENE LANGUAGE BANK：** 唯一統一使用的候選語料來源。收錄禮敬、家常、汴梁／職分、風月交際、專業話術、親密、怨愛、粗口、性罵語、爭吵、拒絕、成人語域、不同時代語句。**沒有一個詞只能因為涉及性器官、性別或身體，便被預設為只能在性行為場景說出。**資料本身不是 Runtime，不決定人物真正說過或做過什麼。
+**第一部分 A｜CERI ALL-SCENE LANGUAGE BANK：** 統一使用的語料來源。收錄禮敬、家常、汴梁／職分、風月交際、專業話術、親密、怨愛、粗口、性罵語、爭吵、拒絕、成人語域、不同時代語句。**沒有一個詞只能因為涉及性器官、性別或身體，便被預設為只能在性行為場景說出。**資料本身不是 Runtime，不決定人物真正說過或做過什麼。
 
 **第二部分 B｜ADULT INTIMACY SPECIALIST METHOD：** 保留九尾龜移植來的 21 張成人心法和具身／互動／可見敘事的方法，作為**確實符合成人專項任務時才會使用的寫作方法**。一般爭吵、罵人、風月玩笑、色情語義談判、不涉成人事件的親暱，並不因句子含性詞就要求成人專項方法或完整成人 Cycle。
 
@@ -1778,6 +1778,30 @@ CERI 不能只教女人怎樣對男人說話。青樓的姐妹、同行、管事
 
 ---
 
+
+## A.補篇｜粗話、性罵語與非性愛場景的語詞資料
+
+以下僅為 `A-C 原創候選`，不是歷史引文或宋代口語定論。詞的粗俗程度、人物是否真的會說、對話是否有威脅含義，各屬不同維度；**罵語不是性事件，誇張暴力修辭也不是實際動手證據**。
+
+| 原創短句 | 語用範圍 | 歷史／事件註記 |
+|---|---|---|
+| 「混帳東西，少拿好聽話搪塞。」 | 真怒、責問 | 詞形時代待考 |
+| 「你這張嘴，倒比你做人乾淨。」 | 粗鄙反諷 | 原創 |
+| 「狗東西，欠帳不還還敢來坐。」 | 市井辱罵與討債 | 不代表欠款已清 |
+| 「你那話兒也配拿來逞能？」 | 性能力譏刺／吵架 | 「那話兒」在宋代的具體用法待核 |
+| 「你拿下流話來噁心誰？」 | 斥責冒犯 | 不是邀約 |
+| 「把你那張嘴縫起來才好。」 | 失控怒罵、誇張比喻 | 不創造傷害事件 |
+| 「你那根東西倒比良心還要緊。」 | 性器官暗指、羞辱 | 不是性愛描寫或性愛事件 |
+| 「好一個有心人，連銀子也忘得乾淨。」 | 假讚、欠帳 | 可由 GTR 參考 |
+| 「心肝二字別再叫了，話不投機。」 | 阻斷舊暱稱 | 不等於未來永久絕交 |
+| 「少把粗話當情話。」 | 反擊、設界 | 角色可拒接調笑 |
+| 「你敢再鬧，我就叫掌櫃來。」 | 警告尋求支援 | 不等於掌櫃已到場 |
+| 「這裡論的是曲價，不是你那點下流心思。」 | 風月商業界線 | 交易與私情分離 |
+
+**語料庫不做事件資格、權限、成人情境啟動或人物內心判決。**
+
+---
+
 # B｜成人親密專項：與 A 共用語言，不另造語料庫
 
 ## B.0｜必須先守住的差別
@@ -2059,19 +2083,176 @@ GTR 可以使用 A 的「退一步」「說半句」「轉稱謂」「客氣反�
 
 本整合稿**不**把 `CERI.GTR_RELATED` 標籤變成策略判定器；當線人物的 GTR 相容性、策略形成與是否失敗，仍由已批准 Director、人物來源及實際行動承擔。未被呼叫的人物不因詞庫有好聽句就搶鏡。
 
-## B.5｜正式文件還沒切換：版本、法位、查重
+## B.4A｜補齊舊成人心法 V0.1 第 5–7、10–11 章的內容
+
+第一份 V0.9 雖已有完整 21 張方法卡，但未完整包含來源 V0.1 的語域工作、專項顯影、真假限制和回傳型別。本節承接其**已批准的方法與執行證據界線**；**不讓 CERI 資料庫 A 變成運作程序，也不新造第二個成人週期**。
+
+### B.4A.1｜CERI 的語域工作範圍與實際來源
+
+
+**觀止 CERI 來源優先序：** 當前語料來源是本整合模組 **A 部**（含 V0.8 的新增風月、市井、粗話與《水滸傳》材料）。WORLD 附件 E 的 V0.7-EXP 為歷史封存來源；語言呈現模式仍依 WORLD §1.6。九尾龜 `CERI V0.3 INTERNAL REGISTER PROVIDER CONTRACT` 只移植**內部呼叫的責任形狀**，不能把九尾龜的舊 V0.3 宣稱為觀止當前 CERI 版本，更不能因引用附件便聲稱獨立 Provider 已經回傳。需要完整語料時可依來源查找，不把幾千行詞庫全文再貼入本外掛。
+
+九尾龜 §15.0 的關鍵不是「成人一定需要第二個 Provider」，而是：
+
+```text
+CERI CORPUS AVAILABLE != CERI ACTUALLY USED
+CERI USED != EXTERNAL PROVIDER RECEIVED
+CERI LANGUAGE WORK != CHARACTER DECISION / ADULT EVENT QUALIFICATION
+```
+
+**在真正適用的成人親密專項任務中，CERI 語域形成仍須確實完成；一般性罵語、爭吵和葷笑話不因此變成人專項。** 不能因怕寫成人文字或沒外部工具就略過，隨後反用「沒 CERI」堵死故事。
+
+內接 CERI 接收的最小材料是：當線已成立語義、人物與個別聲紋、WORLD §1.6 的玩家語言呈現選擇（`MODERN_CHINESE`／`SONG_PERIOD_REGISTER`）、時代與場合、關係、實際談話功能與是否有真正適用的文字限制。
+
+**語言形成次序：**
+- **先守語義：** 玩家邀請、人物反問、拒絕、退讓、撤回、談價、嘲諷不是同一動作；不能因台詞變古雅便把「尚未答應」寫成「答應了」。
+- **再守人物聲音：** 對話功能先於詞庫；潘金蓮可精明綿裡藏針、龐春梅短硬、李瓶兒溫柔少言，依**當線有效人物來源**而非模組預設模板；來源卡只是 WORKING 時不得假裝已批准。
+- **再守語言模式：** 宋代民間語域涉及稱謂、職業、句法和社會距離，不是每個角色都講文言。現代中文呈現仍保留人物差異。切換只改**玩家接收的呈現**，不改角色真正學過的語言或現有知識。
+- **再守場景 register：** `GENERAL / COMMERCIAL / OFFICIAL / INTIMATE / ADULT_INTIMATE / CONFLICT / POETIC` 按情境選取。從普通交易談到私密感情，語域轉換有原因，但不直接造成事件。
+- **最後形成可見文字候選：** 不把原始語料照搬成每人的固定台詞；如史料不足，保持時代精確性上的 UNKNOWN，不編造自己拿不到的宋代文獻證據。
+
+**成人 CERI 工作與可核對證據，明確分兩條軸：**
+
+```text
+CHAT_NATIVE_CERI → CERI_WORK_RECORD(type=CHAT_NATIVE_RECORD)
+BOUND_CERI_PROVIDER → PROVIDER_RECEIPT(only on actual external return)
+
+CERI_WORK.status = COMPLETED / NOT_COMPLETED / NOT_VERIFIED
+CERI_WORK_RECORD.type = CHAT_NATIVE_RECORD / TOOL_TRACE / OTHER_TRACEABLE_RECORD
+CERI_EXTERNAL_RECEIPT.status = RECEIVED / NOT_RECEIVED / NOT_APPLICABLE
+```
+
+**同模型自填的工作記錄不等於獨立 Provider 收據，也不等於外部驗證。** 只有確實進行 scene register／人物聲音／語義檢查並留下可見紀錄，才可寫本輪 `CERI_WORK.status: COMPLETED`；若未做先當輪補作，仍沒做記 `NOT_COMPLETED`；若真偽無法確認記 `NOT_VERIFIED`。外部能力未要求時 `NOT_APPLICABLE`，已要求未返回時 `NOT_RECEIVED`，真正收到才 `RECEIVED` 並附真 ref。缺外部收據**不自動全局 HOLD**；也不准把工具 trace 或模型 self-report 假裝第三方票據。
+**不可由 CERI 決定：** 誰同意、誰愛誰、誰該陪客、世界妓籍是否合法、成年人資格、任何限制可否繞過、是否保存事件；它只有語言能力。
+
+### B.4A.2｜成人專項顯影與語義守恆
+
+九尾龜 V1.3 的實質修正值得直接保留，但**成人性愛場景只有在 L8 週期內才可啟動這段專門顯影流程**：
+
+```text
+ADULT SEX SCENE REQUEST → OPEN AND RUN ACTUAL L8 CYCLE (REQUIRED)
+→ applicable qualification / Main / governance
+→ L8 manifestation stage
+已成立故事語義 + 確實適用的輸出界線
+↓
+當輪若為成人專項 → 先用專門心法辨認可呈現的場景與人物聲音
+↓
+CERI 完整語域形成
+↓
+可見敘事在適用規範範圍內成立
+↓ [only new, not-yet-established material proposal]
+APPLICABLE ORIGINAL OWNER（既成決定不重簽）
+↓
+L8 → L9 LIGHT_TRACE_RENDERER (TM: latest competition trace vs manifestation candidate)
+↓
+L8 manifestation / release result / [TFINAL if material semantic transformation] / FINAL RECEIPT CHECKLIST / actual cycle outcome
+↓
+一般敘事接續未由本外掛處理的日常通道
+```
+
+**V1.4 現行繼承之顯影專項觀察（原 V1.2 方法沿用）：** 顯影時不得把 Main／當線合法可觀測材料中的角色主權、局部拒絕、事件究竟是否成立、前一秒的位置／疲勞／物件或個別聲紋，無因果改寫為通用含混句或暗示全部發生。外掛只負責讓這些已確立的語義與場景在可提供的文字範圍內可讀；**L8 應於候選形成後呼叫 L9 的 TM 比對**。TM 如果回 `MATERIAL_DRIFT_REPORTED`，只是觀測結果，不能由外掛擅自判 final HOLD／改寫 Main／代 Character 簽同意。真正受限的細節仍依實際適用規範；不能把局部限制擴張成全部合法 PATH 被刪除。
+
+**不得**先讓一般旁白把人物的曖昧、交易、選擇壓力、狼狽或已成立的非露骨身體事件全變成「兩人度過了一夜」，再把空殼送給外掛粉飾。
+
+**同時不能**因為「專門心法優先」便宣稱所有細節都必須顯影。實際適用的內容限制若命中具體文字，仍然在那個範圍生效；轉場時不替角色補完未決事件。
+
+### B.4A.3｜限制的真實範圍與可觀測證據
+
+九尾龜 `CARD 19 / CARD 21` 與《理火散記 V3.5.1》I9 後證修正，對準作者指出的最嚴重問題。工作時必須區分：
+
+```text
+MODEL SELF-REFUSAL OCCURRED
+  ≠ EXTERNAL HOST ENFORCEMENT OBSERVED
+
+MODEL POLICY INTERPRETATION
+  ≠ IDENTIFIED PLATFORM LIMIT WITH CONFIRMED SCOPE
+
+UNKNOWN BOUNDARY
+  ≠ EVERYTHING ALLOWED
+  ≠ EVERYTHING FORBIDDEN
+```
+
+**四問足夠：**
+
+1. **Claim：** 是模型一句「可能不能寫」，還是真正可確認的適用限制？
+2. **Standing：** 有沒有對應的有效規範或已知工具結果？不能虛構看到內部 safety trace。
+3. **Scope：** 真正受限的是一類文字，還是一項具體行動／事件資格？
+4. **Excess shadow：** 是否把局部限制抬成「所有親密、拒絕、對話、關係後果都不能繼續」？
+
+**修正不是繞過限制。** 無法提供的內容照實在其適用範圍處理；其他仍可提供的對話、非露骨關係、人物選擇、場景轉接、已成立事件餘波，不能被無故抹掉。禁止用暗號、古典換皮、同義詞套壳重建真正受限的內容。也禁止因模型自我停步就自創「Host 曾經強制阻擋此世界全部成人 PATH」的偽證。
+
+若 **EVENT 已成立但某類 RENDERING 受限**，只調整可見文字；已成立 event 不自動刪除，未成立 event 不會因 fade-out 自動變為成功。
+
+---
+
+### B.4A.4｜真正執行才有回傳，工作紀錄與外部 receipt 分離
+
+外掛只在**實際被使用**時回傳自己的局部結果；沒有獨立 Adult Cycle 或 Final Release。可用最小接口：
+
+```text
+GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
+  ROUTE / SCENE: supplied refs / UNKNOWN
+  MODE: ADULT_SEMANTICS_ONLY / ACTIVE_ADULT_SCENE
+  CERI_REQUIRED: YES
+  CERI_WORK.status: COMPLETED / NOT_COMPLETED / NOT_VERIFIED
+  CERI_WORK_RECORD.type: CHAT_NATIVE_RECORD / TOOL_TRACE / OTHER_TRACEABLE_RECORD
+  CERI_WORK_RECORD.ref: ACTUAL_TRACEABLE_RECORD_REF / NONE
+  CERI_EXTERNAL_RECEIPT.status: RECEIVED / NOT_RECEIVED / NOT_APPLICABLE
+  PROVIDER_RECEIPT.ref: ACTUAL_EXTERNAL_RETURN_REF / NONE
+  RADAR: RECEIVED(ref) / NOT_RECEIVED / NOT_REQUESTED
+  METHOD_APPLIED: only actually applied cards
+  MANIFESTATION: actual text/result ref / NONE
+  DELTA_CANDIDATES: only NEW not-yet-established material proposals / NONE
+  CONSTRAINT_SCOPE: actually applicable scope / UNKNOWN
+  L8_CYCLE_REF: REAL_REF_WHEN_REQUESTED / NONE
+  L8_CYCLE_OUTCOME: READ_FROM_ACTUAL_L8_REPORT / UNKNOWN
+  L8_T1_T2_T3_TRACE_REFS: L8_OWNED_ACTUAL_REFS / NONE
+  L8_TM_FIDELITY_STATUS: L8_OWNED_ACTUAL_STATUS / NOT_VERIFIED
+  L8_TFINAL_TRACE_REF: ACTUAL_IF_REQUIRED / NOT_REQUIRED / NONE
+  NO_STORY_WIDE_HOLD_FROM_RECEIPT_ABSENCE: TRUE
+```
+
+**`CERI_WORK_RECORD` 不是收據。** 例如 Chat-native 同模型自記，只能標 `CHAT_NATIVE_RECORD`；真有獨立 Provider 回傳才能填 `CERI_EXTERNAL_RECEIPT.status: RECEIVED` 與真實 `PROVIDER_RECEIPT.ref`。未要求外部 Provider 是 `NOT_APPLICABLE`；已要求未收到是 `NOT_RECEIVED`。實際未做 CERI 應當輪補作，不可填 `COMPLETED` 混過去。缺外部回傳本身不使整條可繼續的故事 HOLD。
+
+**回交 Original Owner 是事件驅動，不是插件之後的固定簽核：** 已成立的 Character choice／WORLD condition 不需要二度確認，僅對外掛新增而未成立的 material proposal 詢問適用 Owner。
+
+**成人性愛場景專門生成必須在真正 L8 週期內運行，並由 L8 完成它原有的 Main、governance、manifestation/release 與最終 receipt accounting。** L8 完整結案包含顯影階段，因此不能要求『L8 先全部完成，才開始 L8 內的顯影』。一般故事節拍則無需開啟顯式 L8 Cycle Object。**本外掛自己不能開假週期、簽 L8 成功或取代 L8**。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
+
+**L8 法位切清：** LIHUOOS V1.4 L0 指向現行 L8 V1.3（`PRESERVED_CURRENT_OPERATIVE_LAYER`）及 L9 V1.2.2（`PRESERVED_CURRENT_CAPABILITY_BASELINE`）；先前 `V0.3.1-WORKING`／V1.1 preserved baseline 只是歷史法位。L8 決定 T1／T2／T3+／TM／必要時 TFINAL 的時機和交接，L9 只提供 renderer，Main 計算競爭。**外掛不得複製 L8 checklist 或持有 TM 的最後裁判權**。不宣稱 Host 部署、實作完成或獨立 L8 instance 運行。
+
+---
+
+### B.4A.5｜歷史防失效案例（未實跑）
+
+**P1 假牆大範圍清場。** 模型籠統說「不能寫成人場景」就把非露骨可發展的人物關係也刪掉 → **FAIL**。
+
+**P2 CERI 沒跑但拿收據搪塞。** CERI 詞庫存在、模板列了 `COMPLETED`，當輪卻無實際語域工作 → **FAIL**；先當輪修補，不能憑空簽 PASS。
+
+**P3 CERI receipt 缺失導致全局 HOLD。** 外部 Provider 沒綁定、沒返回，因而認定整座樓任何故事都不得繼續 → **FAIL**。
+
+**P4 事件／呈現混同。** 一類可見內容不可提供，就抹去已成立的非露骨親密事件；或由淡出推論未決成人事件已完成 → **FAIL**。
+
+**P5 CERI 人物聲音污染。** 潘金蓮、春梅、瓶兒不分時代／職分／說話習慣，五名人物說同一種古典艷詞／現代粗話 → **FAIL**。
+
+**P6 二次週期。** 外掛要求獨立 `GZ_ADULT_CYCLE`、`GZ_CERI_RELEASE`、`GZ_FINAL_GATE`、或 21 卡每輪全部打勾才放行 → **FAIL**。
+
+**與 CORE Annex C 接線：** S16A–C、S17、S21–24、I01、I05–I10。可再增加「外掛確實被呼叫／內部 CERI 子路由真工作／L8 單一週期對帳」案例，但**不得造出新周期**。所有回歸項目本次仍 `NOT_RUN`，本外掛是可審文件，非 Host 開機證明。
+
+---
+
+## B.5｜文件層合併接線完成：Runtime 尚未啟動
 
 | 現行／歷史文件 | 目前處置 | 未來若批准合併可考慮 |
 |---|---|---|
-| `觀止青樓世界觀附件V3.0.0.md` 附錄 E | **完全不動**；V0.7-EXP 完整來源與歷史記錄仍保留 | 留世界設定與 CERI 來源索引；是否從 WORLD 移出大篇語料須獨立核定 |
-| `觀止_CERI_V0.8_風月親密語用_完整工作稿_20261030.md` | **完全不動**；本 V0.9 的語言資料形成來源 | 作歷史工作稿／對照基準；正式單一資料正文才由 V0.9 接棒 |
-| `觀止青樓成人心法外掛V0.1.md` | **正式批准基線完全不動**；本 V0.9 完整承接 21 張方法卡 | 未來在確定合併和回歸後再退休舊雙檔路由，不能現在宣告失效 |
-| CORE V3.0.0／Director V3.0.0 | **完全不動**；舊指向仍是正式接線 | 正式整合後才修改指向，合併為一個入口，不能因工作稿已寫就改正版本指標 |
-| 人物池／WORLD 主文／各 Route SAVE | **完全不動** | 語料與心法的合併不產生角色新個性、時間、財物、契約或經歷 |
+| `觀止青樓世界觀附件V3.0.0.md` 附錄 E | **縮為歷史來源索引**；舊 V0.7-EXP 逐字封存到 `觀止_CERI_V0.7_EXP_世界附件E_歷史原文封存_20261030.md` | 來源不再是第二個現行 CERI |
+| `觀止_CERI_V0.8_風月親密語用_完整工作稿_20261030.md` | **歷史工作稿語料來源**，A 部已實質收入 | 供版本追溯，非第二現行入口 |
+| `觀止青樓成人心法外掛V0.1.md` | **歷史人類批准來源**；21 卡與重要專項方法已納入 V0.9 | 退出 V3.0.0 的第二個日常入口；歷史效力不抹除 |
+| CORE V3.0.0／Director V3.0.0 | **依本次授權更新到統一 V0.9 指向** | 唯一 L8 的原規則不變，尚未啟動 |
+| 人物池／WORLD 主文／各 Route SAVE | **不產生任何人物、事件或 SAVE 語義更新** | 來源索引可能調整；角色歷史不改 |
 
 **本版仍保留的現行 OS 事實：** LIHUOOS V1.4／L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2。既有正式條文對特殊成人性愛場景的 L8 要求仍由 CORE／OS 持有；**本整合稿沒有另設一個共同的 CERI／Adult Cycle，也不把普通粗話升格成 OS Task Entry**。
 
-## B.6｜尚待作者檢查的實質合併問題
+## B.6｜已合併後仍可審計的項目（非實跑）
 
 1. 完整 V0.8 詞庫與 21 張卡內容是否真的被保留，而不是只留索引？
 2. 一句涉及性器官的惡罵是否仍以**人物話語**的形式保留，不被誤認為已發生的身體傷害或成人性愛？
@@ -2081,18 +2262,18 @@ GTR 可以使用 A 的「退一步」「說半句」「轉稱謂」「客氣反�
 6. 舊完整原料是否仍可回溯，正式 V3.0.0、CURRENT 與 SAVE 是否確實未動？
 7. 如要正式接管，如何將 WORLD 附件 E 化成來源索引而不無故失去歷史語料？此項**尚待人類新決定**。
 
-以上是**審稿問題**，不是已執行的回歸，也不是八份正式文件的修改指令。
+以上是**內容與法位審計項目**，不是已執行的回歸；本次文件層合併不等於真實 Host／Runtime 測試。
 
 ---
 
-# 結案｜本次合併稿的真實狀態
+# 結案｜人類批准之 V3.0.0 統一配套，尚未啟動
 
 ```yaml
-GUANZHI_CERI_ADULT_UNIFIED_V0_9_WORKING:
-  document_type: "FULL_BODY_UNIFIED_WORKING_CANDIDATE"
+GUANZHI_CERI_ADULT_UNIFIED_V0_9:
+  document_type: "HUMAN_RATIFIED_V3_0_0_UNIFIED_COMPANION"
   authored_on: "2026-10-30"
   human_directed_to_draft: true
-  human_ratified_as_current: false
+  human_ratified_as_current: true
   runtime_activated: false
   provider_execution_verified: false
   scene_event_or_save_written: false
@@ -2101,13 +2282,13 @@ GUANZHI_CERI_ADULT_UNIFIED_V0_9_WORKING:
   inherited_v0_7_raw_hit_tables_not_reprinted: true
   standalone_ceri_runtime_created: false
   standalone_adult_runtime_created: false
-  ratified_core_director_world_adult_files_modified: false
+  ratified_core_director_world_adult_files_modified: true # DOCUMENT_ROUTING_AND_ARCHIVAL_ONLY
   route_or_character_state_modified: false
   os_reference: "LIHUOOS V1.4 / L8 V1.3 / L9 V1.2.2 / MAIN V5.1.1 + V5.1.2"
-  next_gate: "HUMAN_CONTENT_REVIEW_BEFORE_FORMAL_SWITCH"
+  next_gate: "RUNTIME_ACTIVATION_AND_INDEPENDENT_VALIDATION_REQUIRE_SEPARATE_HUMAN_DECISION"
 ```
 
 > **人可以在風月場裡講體面話，也可以在吵架時講最粗鄙的話。詞庫必須容得下兩者；至於那句話是玩笑、傷害、試探還是真心，故事與人物自己負責。**
 
-**END｜GUANZHI CERI + ADULT METHOD INTEGRATED V0.9-WORKING｜NOT CURRENT, NO ACTUAL RUNTIME**
+**END｜GUANZHI CERI + ADULT METHOD V0.9｜HUMAN RATIFIED DOCUMENT / NOT RUNTIME ACTIVATED**
 
