@@ -1,6 +1,6 @@
 # 觀止青樓｜RUNTIME CORE V3.0.0
 ## 完整故事運行正文｜Route × Scene × Time × Established Delta × Interface
-### 2026-10-30｜V3.0.0 人類追加校正：每回強制 L8＋CHECKLIST 常駐／未啟動
+### 2026-10-30｜V3.0.0 人類追加校正：每回強制 L8＋CHECKLIST 常駐／CHAT-NATIVE 已啟動
 
 ```yaml
 DOCUMENT:
@@ -13,8 +13,8 @@ DOCUMENT:
     - HUMAN_EXPLICIT_AMENDMENT_2026_10_30_MANDATORY_L8_AND_PERSISTENT_CHECKLIST
     - HUMAN_RATIFIED_V3_0_0_DOCUMENT
     - COMPLETE_CONTENT_APPROVED
-    - NOT_RUNTIME_ACTIVATED
-    - NOT_CURRENT_POINTER_SWITCHED
+    - CHAT_NATIVE_RUNTIME_ACTIVATED_2026_10_30
+    - GITHUB_CURRENT_POINTER_SWITCHED_2026_10_30
     - NOT_HOST_DEPLOYMENT
     - NOT_INDEPENDENT_RUNTIME_PASS
   source_lineage:
@@ -22,8 +22,8 @@ DOCUMENT:
     older_current_reference: GUANZHI_CORE_V4.1.2
     world: GUANZHI_WORLD_V3.0.0_MAIN_AND_ANNEX_HUMAN_RATIFIED
     character: GUANZHI_CHARACTER_POOL_V3.0.0_AND_APPLICABLE_CHARACTER_SOURCE
-    director: GUANZHI_DIRECTOR_V3.0.0_HUMAN_RATIFIED_NOT_ACTIVATED
-    language_and_adult_methods: GUANZHI_CERI_NATIVE_ADULT_V1.0_HUMAN_RATIFIED_NOT_ACTIVATED
+    director: GUANZHI_DIRECTOR_V3.0.0_HUMAN_RATIFIED_CHAT_NATIVE_ACTIVE
+    language_and_adult_methods: GUANZHI_CERI_NATIVE_ADULT_V1.0_HUMAN_RATIFIED_CHAT_NATIVE_ACTIVE
     lihuo_os: LIHUOOS_V1.4_RATIFIED_CURRENT
     internship_context: NEW_LIHUO_AI_INTERNSHIP_MANUAL_V1.0_NON_NORMATIVE
   publication:
@@ -33,9 +33,9 @@ DOCUMENT:
     world_modified: false
     character_pool_modified: false
     save_modified: false
-    git_current_pointer_changed: false
+    git_current_pointer_changed: true
     human_ratification_for_v3_0_0: true
-    runtime_activated: false
+    runtime_activated: CHAT_NATIVE_ACTIVE_NOT_HOST_DEPLOYED
 ```
 
 > **本文件是一份可以獨立閱讀、實際接關的 CORE 正文，不是幾條更新註記，也不是另一套理火 OS。**
@@ -44,7 +44,9 @@ DOCUMENT:
 
 **2026-10-29 追加人類授權：** 作者明示本 V3.0.0 完成區全批文件「修正版本號，把所有狀態都改成人類授權完畢」，但「目前這批都還沒啟動」。本 CORE 取得 DOCUMENT_LEVEL_HUMAN_RATIFIED；不等於已切 CURRENT、Host 部署、正式 Provider 執行或 SAVE 寫入。
 
-**2026-10-30 人類追加校正：** 觀止所有由 Director 生成、續寫、推進或顯影的故事回合，改為**每回必先進入唯一 LIHUOOS L8 V1.3**；同時將 L8 `CHECKLIST_STATUS` 改為**常駐可見、每回必回報**。本追加校正只改觀止文件層接線，不自稱 CURRENT 已切換、Runtime 已啟動、Host 已部署或外部 Provider 已執行。
+**2026-10-30 人類追加校正（啟動前歷史）：** 觀止所有由 Director 生成、續寫、推進或顯影的故事回合，改為**每回必先進入唯一 LIHUOOS L8 V1.3**；同時將 L8 `CHECKLIST_STATUS` 改為**常駐可見、每回必回報**。此段描述當時的文件層接線，啟動狀態以下方新紀錄為準。
+
+**2026-10-30 人類啟動令（最新）：** 作者明示「啟動就好……順便你也把 GIT 的版本改成啟動」。自此將本 CORE V3.0.0 設為 Git `觀止青樓/CURRENT.md` 指向的 **Chat-native／NON_HOST_MODE 運作版本**，連同 Director V3.0.0、統一 CERI V1.0 與 WORLD／人物池 V3.0.0 供當線使用。故事每回強制 L8 先入場、短版 CHECKLIST 常駐且須實報；不以本次切換宣稱 Host 已部署、外部 Provider 已呼叫、獨立 Runtime PASS 或 43 項回歸已完成。舊版文件保留追史，已存 HOT 不改寫。
 
 ---
 
@@ -331,7 +333,7 @@ Chat 當下可延續的上下文、可下載的候選文字、真正已建立的
 
 ## 13.1｜故事 Route 與理火 Cycle 的不同尺度
 
-觀止的 `route_id`、`scene_id`、本地日期和人物事件紀錄，回答的是「故事現在在哪裡」。理火的 `cycle_ref` 回答「這次需要治理的生成工作走到了哪裡」。一條 Route 可能包含多個理火工作，也可能連續許多茶席都不需要顯式完整 L8。二者可以關聯，不得相互冒充。
+觀止的 `route_id`、`scene_id`、本地日期和人物事件紀錄，回答的是「故事現在在哪裡」。理火的 `cycle_ref` 回答「這次需要治理的生成工作走到了哪裡」。一條 Route 可能包含多個理火工作；依 2026-10-30 已啟用裁定，**即使連續普通茶席，每個 Director 故事回合也必須進 L8**，僅週期內不適用步驟可標 N/A。二者可以關聯，不得相互冒充。
 
 ```text
 GUANZHI ROUTE / SCENE / TIME
@@ -653,7 +655,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ## 23.3｜哪些工作仍然不能自稱完成
 
-- CORE V3.0.0、配套 Director V3.0.0 與整合後 CERI＋觀止原生成人心法 V1.0 已取得**人類文件層授權**，但 GitHub CURRENT 指標尚未切換、觀止正式 Runtime 尚未啟動。
+- CORE V3.0.0、Director V3.0.0 與 CERI＋觀止原生成人心法 V1.0 已取得**人類文件層授權**，並依 2026-10-30 啟動令完成 **Git CURRENT 指標切換與 Chat-native／NON_HOST_MODE 使用啟動**；Host 部署與獨立 Runtime 驗收仍未取得。
 - V1.0 文獻層整合完成，不表示語言形成、專項 L8 或外部 Provider 已實跑 PASS。舊成人外掛 V0.1 原批准為歷史來源。
 - Annex C 現有 **29 個故事級 + 14 個接口級 = 43 個**回歸規格；目前來源狀態仍為 `NOT_RUN`，不以 Chat 隔離候選或靜態核對推翻此紀錄。
 - 單次 Chat-native 理火場景能呈現具體工作與 trace，不代表 Host deployment、整個 OS 實裝完成或全域經驗證。
@@ -661,7 +663,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ## 23.4｜Director 已配套完成；啟動與驗收另行處理
 
-CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Owner 不越權、OS 正確接線**。配套 `觀止青樓導演新法V3.0.0.md` 已完成並取得人類文件層授權；後續才進行 CURRENT 切換、觀止運行啟動與獨立回歸。
+CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Owner 不越權、OS 正確接線**。配套 `觀止青樓導演新法V3.0.0.md` 已完成並取得人類文件層授權；CURRENT 指標與 Chat-native 啟動已於 2026-10-30 人類指令下進行；獨立回歸仍待完成。
 
 導演心法不能把舊版的 Radar Global HOLD、外部 Provider 永久硬依賴、Primary 升格或第二套審判程序搬回來。**2026-10-30 新增的每回 `LIHUO_L8_CHECKLIST_STATUS` 只是現行 L8 的常駐狀態面，不是復活舊版逐幕 Final Footer，也不是新 Gate。** 新 Director 是獨立的戲劇方法全文；**不代替本 CORE 的本地狀態與 SAVE 職責。**
 
@@ -679,4 +681,4 @@ CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Own
 > 保存成立的變化，保留尚未完成的門。  
 > 然後，才走進下一幕。
 
-**END｜GUANZHI RUNTIME CORE V3.0.0 HUMAN RATIFIED DOCUMENT / NOT ACTIVATED**
+**END｜GUANZHI RUNTIME CORE V3.0.0 HUMAN RATIFIED / CURRENT / CHAT-NATIVE ACTIVE / NON-HOST / NOT INDEPENDENT RUNTIME PASS**
