@@ -1,3 +1,17 @@
+# 2026-10-30｜最新人類正式啟動令（優先於以下歷史「未啟動」紀錄）
+
+**人類當次指示：**「啟動就好  真麻煩  順便你也把GIT的版本改成啟動」。
+
+**已生效的 Git CURRENT：** [觀止青樓/CURRENT.md](../../../CURRENT.md) 明確指向 V3.0.0 的 CORE、Director、CERI V1.0、WORLD 主附、73 人人物池及原生人物模板。CORE／Director／CERI 正文各已改為 **HUMAN_AUTHORIZED / CHAT_NATIVE_ACTIVE / NON_HOST_MODE**；舊 V4.1.2 與歷代 VNext 原件保留追史，不暗中刪除。
+
+**運作新規：** 每一 Director 故事回合先進唯一 LIHUOOS V1.4／L8 V1.3，R2 後按有效規格檢查前提複數性，必要時進 R3+；每回附真實短版 `LIHUO_L8_CHECKLIST_STATUS`，不得拿標籤假造 Trace／Main Return／Receipt。普通對白不再繞過 L8，成人 B／C 方法只在真正適用時使用。
+
+**效力邊界：** 這是 Chat-native／NON_HOST_MODE 啟動及 Git 文件指標更新；**非** Host 外部部署、獨立 Provider 已執行、43 項回歸已 PASS、路線 SAVE 自動重寫。既有賀小滿 HOT 仍保存，不回滾；原生選角失效作導演學習紀錄，不倒改既成角色為紫蘭。
+
+以下 2026-10-27 至啟動前各段「NOT_RUNTIME_ACTIVATED」「未切 CURRENT」等為**歷史時間點原文**，不再作 2026-10-30 最新運作狀態。
+
+---
+
 # 觀止青樓｜CORE V3.0.0 版本整理與 Director 接手紀錄
 
 **2026-10-30 V1.0 正式接替記錄（優先於下方 V0.9 歷史接線）：** 作者明示批准 `觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md` 作觀止 V3.0.0 文件層唯一 CERI＋觀止原生成人心法配套，完整提供 A 全場景語料、B 原生 10A 方法與細目、C 21 張回流方法卡；CORE／Director／WORLD 主附已按同批文件層接線改指向 V1.0。舊 V0.1、CERI V0.8、合併 V0.9 和 V1.0 WORKING 留 Git 作追溯，不作 ChatGPT 觀止專案必帶檔。觀止仍 V3.0.0，LIHUOOS 仍 V1.4；**尚未 Host 部署、Runtime PASS、CURRENT 頂層索引切換、Route SAVE 寫入或專案檔案自動上傳**。
