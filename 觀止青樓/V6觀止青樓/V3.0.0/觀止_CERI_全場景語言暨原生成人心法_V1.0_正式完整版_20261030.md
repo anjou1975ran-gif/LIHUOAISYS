@@ -3353,7 +3353,7 @@ MODULE:
 
 ## C.1｜21 張方法卡完整保留（九尾龜分支承載版，經 V0.1 回收；不代替觀止原生 10A）
 
-**來源：** `觀止青樓成人心法外掛V0.1.md`，人類批准的 21 張方法卡，第 3／4／4A 節；本次保留其**方法實質**，放入同一份整合稿中。原成人心法 V0.1 的**歷史批准事實保留**；這 21 張方法卡曾於已批准的 V0.9 B 部承接，現在在本 V1.0 正式版的 C 部繼續**逐張保留**。本 V1.0 已獲作者人類文件層批准；Runtime 尚未啟動，也未進行獨立執行驗收。
+**來源：** `觀止青樓成人心法外掛V0.1.md`，人類批准的 21 張方法卡，第 3／4／4A 節；本次保留其**方法實質**，放入同一份整合稿中。原成人心法 V0.1 的**歷史批准事實保留**；這 21 張方法卡曾於已批准的 V0.9 B 部承接，現在在本 V1.0 正式版的 C 部繼續**逐張保留**。本 V1.0 已獲作者人類文件層批准；依 2026-10-30 後續啟動令，**Chat-native／NON_HOST_MODE 已啟用**，獨立執行驗收及 Host 部署仍未完成。
 
 ## 3｜成人心法的運作：先人物與局面，再讓文字可見
 
@@ -3787,7 +3787,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 ```yaml
 GUANZHI_CERI_NATIVE_ADULT_V1_0:
-  status: HUMAN_RATIFIED_CURRENT_DOCUMENT_COMPANION_NOT_RUNTIME_ACTIVATED
+  status: HUMAN_RATIFIED_CURRENT_DOCUMENT_COMPANION_CHAT_NATIVE_ACTIVE
   approved_on: 2026-10-30
   formal_file: "觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md"
   A: ALL_SCENE_CERI_FULL_CORPUS
@@ -3796,7 +3796,7 @@ GUANZHI_CERI_NATIVE_ADULT_V1_0:
   E: VERBATIM_NATIVE_10A_HISTORY_1168_LINES
   old_versions: GIT_ARCHIVE_ONLY_NOT_PROJECT_IMPORT
   os: LIHUOOS_V1_4_L8_V1_3_L9_V1_2_2_MAIN_V5_1_1_PLUS_V5_1_2
-  runtime_activated: false
+  runtime_activated: CHAT_NATIVE_ACTIVE_NOT_HOST_DEPLOYED
   host_deployed: false
   provider_receipts: NOT_VERIFIED
   route_save_written: false
