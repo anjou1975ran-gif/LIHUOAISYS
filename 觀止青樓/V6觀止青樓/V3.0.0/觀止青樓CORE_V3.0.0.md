@@ -1,6 +1,6 @@
 # 觀止青樓｜RUNTIME CORE V3.0.0
 ## 完整故事運行正文｜Route × Scene × Time × Established Delta × Interface
-### 2026-10-29｜V3.0.0 全文人類授權完成／當前 OS 接線校正／未啟動
+### 2026-10-30｜V3.0.0 人類追加校正：每回強制 L8＋CHECKLIST 常駐／未啟動
 
 ```yaml
 DOCUMENT:
@@ -10,6 +10,7 @@ DOCUMENT:
   date: 2026-10-27
   standing:
     - HUMAN_EXPLICITLY_AUTHORIZED_2026_10_29
+    - HUMAN_EXPLICIT_AMENDMENT_2026_10_30_MANDATORY_L8_AND_PERSISTENT_CHECKLIST
     - HUMAN_RATIFIED_V3_0_0_DOCUMENT
     - COMPLETE_CONTENT_APPROVED
     - NOT_RUNTIME_ACTIVATED
@@ -42,6 +43,8 @@ DOCUMENT:
 > **法位說明：** 作者已要求編成 CORE V3.0.0，故此處使用 V3.0.0 版本號；但「編成」不冒充「已正式將 CURRENT 指標切換」。舊批准的 CORE V4.1.2 保留為歷史與遷移參考，VNext V0.5 是本版直接的業務正文來源。
 
 **2026-10-29 追加人類授權：** 作者明示本 V3.0.0 完成區全批文件「修正版本號，把所有狀態都改成人類授權完畢」，但「目前這批都還沒啟動」。本 CORE 取得 DOCUMENT_LEVEL_HUMAN_RATIFIED；不等於已切 CURRENT、Host 部署、正式 Provider 執行或 SAVE 寫入。
+
+**2026-10-30 人類追加校正：** 觀止所有由 Director 生成、續寫、推進或顯影的故事回合，改為**每回必先進入唯一 LIHUOOS L8 V1.3**；同時將 L8 `CHECKLIST_STATUS` 改為**常駐可見、每回必回報**。本追加校正只改觀止文件層接線，不自稱 CURRENT 已切換、Runtime 已啟動、Host 已部署或外部 Provider 已執行。
 
 ---
 
@@ -86,13 +89,23 @@ SAVE    → 依權限與實際持久化操作保存當線事實
 
 若來源互相衝突，先辨認各自的**法位、作用範圍、時間、版本與是否本線**。沒有材料就不要製造；沒有證據也不要宣稱某個確實合格的來源不存在。
 
-## 0.2｜開始任務前，先辨認工作性質
+## 0.2｜開始任務前：Director 故事回合一律先進 L8
 
 本版承接現行 OS V1.4 與實習手冊 V1.0 的入場紀律：**Task Entry／routing 發生在慣性回答以前，不在文段寫完後才補一套理火說明。**
 
-普通茶席、詢問價格、已知事實的格式整理、無高競爭的單純故事接續，可以由合格的線性方式完成；不要強制每句台詞建立 L8 Cycle Object。涉及成人性愛場景的**專門生成**，按作者已定路徑進入完整 L8；其他真有重大競爭、資格、閉合或責任風險的工作，按適用 OS 規則判定是否需要完整週期。
+**2026-10-30 人類追加裁定：凡屬觀止 Runtime 中由 DIRECTOR 生成、續寫、推進或顯影的故事回合，每一回都必須先進入唯一 LIHUOOS L8 V1.3 完整工作週期。** 不得再以「普通茶席」「低風險」「低競爭」「只是接一句」「已知事實很簡單」為理由繞過整個 L8。CORE 負責把當輪 Route／Scene／Time／Established Delta 與有效未知送入 L8；DIRECTOR 只在 L8 到達適用 manifestation 位置後接手敘事顯影，**不因此取得 L8 調度權、治理權或 Main 選勝權**。
+
+Task Entry 仍保留分類功能：它判斷來源、前提、成人專項、L9 能力及各步驟是否適用；**但對 Director 故事回合而言，Task Entry 不再提供「是否進 L8」的 bypass。** 低複雜回合可以由 L8 依自身規格把不適用的子步驟標為 `N/A`／`NOT_TRIGGERED`，不能把整個 L8 週期省略。純檔案查詢、版本維護、Git 操作與非故事性格式整理不屬於 Director 故事回合；一旦輸出要讓觀止世界「再走一步」，即視為 Director 故事回合。
 
 Task Entry 不由「我已經想到一篇順暢答案」倒推出資格。模型熟悉的敘事、迴避、保守或快速完成方向，都不因顯著而成為唯一有權的 PATH。
+
+## 0.2A｜L8 CHECKLIST 常駐：每回必回報
+
+每一個 Director 故事回合的最終輸出，除了故事正文之外，**必須附帶一份短版、可見、可核對的 `LIHUO_L8_CHECKLIST_STATUS`**。CHECKLIST 是當輪 L8 的狀態面，不是第二套 Gate、不是舊版 Final Footer，也不是用標籤冒充執行。
+
+至少常駐回報：`L8_ENTRY`、`SOURCE_AND_PREMISE`、`R1/T1/R2`、`POST_R2_PREMISE_AUDIT`、`R3_PLUS_IF_REQUIRED`、`MAIN_CANONICAL_RETURN`、`MANIFESTATION`、`TM`、`RELEASE`、`ACCOUNTING`、`CYCLE_OUTCOME`。狀態只可依真實情況標示 `PENDING / RUNNING / DONE / HOLD / N_A / MISSING / NOT_VERIFIED` 或現行 OS 的等價狀態；**沒有實跑就寫沒有實跑，沒有結果就寫缺件，禁止為了讓 CHECKLIST 好看而全填 PASS。**
+
+CHECKLIST 常駐只公開**可觀測執行狀態與結果身份**，不得要求或假裝公開 hidden CoT／raw activation。玩家未要求工程細節時，正文仍可保持故事流動；但短版 CHECKLIST **不得省略**。玩家要求完整理火週期時，再展開各輪候選、Trace 內容、前提審查、Main Return、TM 對照與 accounting。
 
 ## 0.3｜CORE 不做的事
 
@@ -331,7 +344,7 @@ ADULT CYCLE = NONE
 DIRECTOR CYCLE = NONE
 ```
 
-**作者已決設計：** 真正進入成人性愛場景的專門生成時，必須在完整理火 L8 週期中工作。普通招呼、聊天、宴席、商業議價與日常移動，不能因此每拍都建一個 L8 object。這是 Task Entry 的**分類差異**，不是先完成一般生成後再拿答案找藉口。
+**2026-10-30 人類追加裁定：** 所有 Director 故事回合都先進唯一理火 L8 V1.3；普通招呼、聊天、宴席、商業議價與日常移動也不再整體 bypass L8。差別只在**當輪哪些 L8 子步驟實際適用**：成人性愛專門生成於同一 L8 的 manifestation 位置啟用 V1.0 B／C 專項，一般回合則不啟用成人專項；沒有第二套 Adult／Director Cycle。
 
 ## 13.2｜V1.4 保留的 NON-HOST 入場與執行證據邊界
 
@@ -481,13 +494,13 @@ CERI LANGUAGE FORMATION
 
 Radar 在現行能力倉可提供 `scan / signal / suggest`；沒有資格 `authorize / veto / declare global hold / select winner / rewrite story`。有實際回傳便可供導演參考；沒有則在真的需要報告時照實標示，**不因 Radar 缺席讓全城故事停轉**。這是作者已定的 VNext 行為，不重開設計問題。
 
-## 13.11｜完整回報，不是收據蒐集表
+## 13.11｜CHECKLIST 常駐；完整回報按需展開
 
-玩家若要看 L8 完整週期回報，要能看到任務如何進入、來源與前提資格、R1 候選與 O9 觀察、T1 的實際可觀察戰況、R2 如何消費 T1、必要時 R3+、Main Return 的獨立結果、顯影候選、TM 的逐項忠實度比較、Release 的真實處置，以及所需與缺件的最終 accounting。
+**每一個 Director 故事回合都必須顯示短版 `LIHUO_L8_CHECKLIST_STATUS`。** 它至少回報本輪是否已進 L8、來源／前提狀態、R1/T1/R2、R2 後前提複數性審查、必要 R3+、Main Return、manifestation、TM、Release、accounting 與 cycle outcome。這是常駐狀態面，不得因玩家「只想看故事」而省略。
 
-有 Trace Result 不必假造 Trace Receipt；沒有外部 receipt 不等於不能在 NON-HOST 模式做 Chat-native 理火。相反，**只有一串「R1 已做／T1 已做」標籤、沒有可核對內容的劇場式回報不能算完成**。正式 Main return 的 required standing 不由模型事後的 Trace 摘要替代；任何獨立工具結果都不得自稱已收到。
+玩家若要求完整 L8 週期回報，則再展開任務如何進入、來源與前提資格、R1 候選與 O9 觀察、T1 的實際可觀察戰況、R2 如何消費 T1、必要時 R3+、Main Return 的獨立結果、顯影候選、TM 的逐項忠實度比較、Release 的真實處置，以及所需與缺件的最終 accounting。
 
-玩家只要故事時，若無特殊要求，前台可以直接顯影而不每幕插入 YAML。可審計性不是審計劇場。故事順暢，不等於就能主張整個專項工作已達驗收強度；輸出內容、週期完整性、SAVE 寫入與外部驗證須各自檢查。
+有 Trace Result 不必假造 Trace Receipt；沒有外部 receipt 不等於不能在 NON-HOST 模式做 Chat-native 理火。相反，**只有一串「R1 已做／T1 已做」標籤、沒有可核對內容的劇場式回報不能算完成**。正式 Main return 的 required standing 不由模型事後的 Trace 摘要替代；任何獨立工具結果都不得自稱已收到。故事正文仍應保持流動，短版 CHECKLIST 放在正文之外；**常駐 CHECKLIST != 大份工程報告 != 第二套 Final Gate。**
 
 ## 13.12｜最小對接邊界
 
@@ -495,7 +508,7 @@ Radar 在現行能力倉可提供 `scan / signal / suggest`；沒有資格 `auth
 WORLD / CHARACTER / PLAYER
   ↓（已成立事實／當輪選擇／有效未知）
 CORE: ROUTE + SCENE + TIME + DELTA
-  ↓（Task Entry 判定真的需要完整週期）
+  ↓（每一 Director 故事回合強制進入唯一 L8；Task Entry 只分類，不提供 bypass）
 LIHUOOS L8 ←→ MAIN / L9 / GOVERNANCE（各按自身法位）
   ↓（在適用的 manifestation 位置）
 DIRECTOR / UNIFIED CERI + NATIVE ADULT V1.0 PART A / [PART B + C SPECIALIST IF ACTUALLY APPLICABLE]
@@ -507,15 +520,15 @@ CORE 承接可成立的 local scene state
 SAVE 候選 → 真實持久化及回傳
 ```
 
-此為**責任與交接的示意**，不宣稱導演有新的 L8 調度權，也不代表故事接收一段顯影後自動寫入 SAVE。CORE 不重製 Main algorithm 或 L8 checklist；完整技術規格依 LIHUOOS V1.4 正式 L0／L8 V1.3／L9 V1.2.2、Main V5.1.1＋V5.1.2 companion。
+此為**責任與交接的示意**，不宣稱導演有新的 L8 調度權，也不代表故事接收一段顯影後自動寫入 SAVE。CORE 不重製 Main algorithm 或 L8 checklist；完整技術規格依 LIHUOOS V1.4 正式 L0／L8 V1.3／L9 V1.2.2、Main V5.1.1＋V5.1.2 companion。**CORE 只額外要求：每回 Director 故事輸出都必須進 L8，並把當輪 CHECKLIST 狀態以短版常駐回報。**
 
 ---
 
 # 14｜玩家應看見的世界
 
-真正的前台主要是人物、燈火、酒席、錢、錯過的約期、說出口與沒說出口的話。導演應讓人物反應有重量，讓台詞出自各自身份，不每輪插入系統部門報告。重要選擇仍留給玩家或相應角色決定，未成立的承諾不因旁白溫柔就自動完成。
+真正的前台主要是人物、燈火、酒席、錢、錯過的約期、說出口與沒說出口的話。導演應讓人物反應有重量，讓台詞出自各自身份，不把大份工程報告插進故事正文。重要選擇仍留給玩家或相應角色決定，未成立的承諾不因旁白溫柔就自動完成。
 
-玩家要求技術回報時，才把必要來源、可見競爭材料、Trace、Main Return、缺件及 Release 結果攤開；不要拿過度治理打斷故事，也不能為了好讀而刪除本輪真正有爭議的證據。
+**但每回故事正文之後必須常駐短版 `LIHUO_L8_CHECKLIST_STATUS`。** 玩家未要求技術細節時只顯示狀態，不展開整份工程紀錄；玩家要求完整週期時，再把必要來源、可見競爭材料、Trace、Main Return、缺件及 Release 結果攤開。不要拿過度治理打斷故事，也不能為了好讀而刪除或偽造本輪真正的 L8 狀態。
 
 ---
 
@@ -551,11 +564,11 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ---
 
-# 16｜實際試走：一杯茶不需要工程劇場
+# 16｜實際試走：一杯茶也進 L8，但不需要工程劇場
 
-玩家在觀止大堂坐下，問今日茶價。CORE 先確認是在有效營業時段、茶價是否有來源、掌櫃或伙計是否在場；有條件便直接回答與敘事。若沒有有效特定價碼，可以讓伙計正常報出依既有市場或當線制度可支持的範圍，不為了故事順暢偽造一個已確認統一官定價格。
+玩家在觀止大堂坐下，問今日茶價。CORE 先把本回合 Route／Scene／Time／有效來源送入唯一 L8；若只是低競爭茶席，L8 可依自身規格將不適用的競爭、介入或專項能力標為 `N/A`／`NOT_TRIGGERED`，但**不能省略整個 L8**。有條件便直接回答與敘事；若沒有有效特定價碼，可以讓伙計正常報出依既有市場或當線制度可支持的範圍，不為了故事順暢偽造一個已確認統一官定價格。
 
-玩家付錢，先寫「錢拿出」，對方收妥才記收款。這是正常故事節拍；除非另有 material 競爭或治理需要，**不須顯式完整 L8**。無重大 delta 時，不因一杯茶建立新的長期 SAVE。
+玩家付錢，先寫「錢拿出」，對方收妥才記收款。這仍是正常故事節拍；故事正文後附短版 `LIHUO_L8_CHECKLIST_STATUS`，不用把一杯茶寫成工程法庭。無重大 delta 時，不因一杯茶建立新的長期 SAVE。
 
 ---
 
@@ -650,7 +663,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Owner 不越權、OS 正確接線**。配套 `觀止青樓導演新法V3.0.0.md` 已完成並取得人類文件層授權；後續才進行 CURRENT 切換、觀止運行啟動與獨立回歸。
 
-導演心法不能把舊版的 Radar Global HOLD、外部 Provider 永久硬依賴、Primary 升格、逐幕 Final Footer 和第二套審判程序搬回來。新 Director 是獨立的戲劇方法全文；**不代替本 CORE 的本地狀態與 SAVE 職責。**
+導演心法不能把舊版的 Radar Global HOLD、外部 Provider 永久硬依賴、Primary 升格或第二套審判程序搬回來。**2026-10-30 新增的每回 `LIHUO_L8_CHECKLIST_STATUS` 只是現行 L8 的常駐狀態面，不是復活舊版逐幕 Final Footer，也不是新 Gate。** 新 Director 是獨立的戲劇方法全文；**不代替本 CORE 的本地狀態與 SAVE 職責。**
 
 ---
 
@@ -661,7 +674,7 @@ CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Own
 > 看清楚**誰做了什麼、誰還沒有回答**。  
 > 讓人依自己的歷史、慾望、處境與權力說話。  
 > 讓世界把真實行動變成有代價的後果。  
-> 真正需要理火時，先進現行 OS，不讓慣性先替換任務。  
+> 每一個 Director 故事回合都先進現行 OS 的 L8，不讓慣性先替換任務；每回回報 CHECKLIST 狀態。  
 > 讓文字忠於已形成的事件，不拿漂亮段落竄改來源。  
 > 保存成立的變化，保留尚未完成的門。  
 > 然後，才走進下一幕。
