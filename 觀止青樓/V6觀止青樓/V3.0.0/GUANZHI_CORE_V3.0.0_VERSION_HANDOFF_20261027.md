@@ -1,5 +1,8 @@
 # 觀止青樓｜CORE V3.0.0 版本整理與 Director 接手紀錄
 
+**2026-10-30 最新接線覆核（優先於下列 2026-10-27／29 歷史階段敘述）：** 作者批准合併 CERI 與成人心法；`觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md` 取得 HUMAN_RATIFIED_DOCUMENT / CURRENT_GUANZHI_V3_0_0_COMPANION / NOT_RUNTIME_ACTIVATED。CORE／Director／WORLD 主附的現行文件層指向已改為 V0.9。原成人心法 V0.1 及 CERI V0.8 留作歷史來源，WORLD 附件 E 的 V0.7-EXP 已逐字封存在 `觀止_CERI_V0.7_EXP_世界附件E_歷史原文封存_20261030.md`。**不更改觀止 V3.0.0 版號，不宣稱頂層 CURRENT 切換、Host／Provider 執行或 Runtime PASS。**
+
+
 **2026-10-29 最新法位：** `HUMAN_RATIFIED_VERSION_HANDOFF / V3.0.0_BATCH_AUTHORIZED / NOT_RUNTIME_ACTIVATED / NOT_CURRENT_SWITCHED`。本稿的 2026-10-27『候選』『下一步』記述是歷史階段紀錄，不再代表今天的文件批准狀態；現行 CORE、Director、人物池、WORLD 主附、成人外掛與原生人物模板均依作者 2026-10-29 明示獲得文件層人類授權。版本編號與檔名 V3.0.0 保留，未做任何觀止 Runtime 啟動。
 
 **本次完成後最新接線：** 理火 **LIHUOOS V1.4**，內部 **L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2 正式補丁**；R2 後依現行 L8 審查前提複數性，必要時 R3 跨前提競爭。OS 文件版號已更新，但不冒稱外部 Provider、Host、SAVE 及回歸測試已執行。配套正式檔見本目錄改名後的 `觀止青樓CORE_V3.0.0.md`、`觀止青樓導演新法V3.0.0.md`、`觀止人物池(73人)V3.0.0.md`、`觀止青樓原生人物 ROUTE SAVE 模板.md`。
