@@ -22,7 +22,7 @@ DOCUMENT:
     world: GUANZHI_WORLD_V3.0.0_MAIN_AND_ANNEX_HUMAN_RATIFIED
     character: GUANZHI_CHARACTER_POOL_V3.0.0_AND_APPLICABLE_CHARACTER_SOURCE
     director: GUANZHI_DIRECTOR_V3.0.0_HUMAN_RATIFIED_NOT_ACTIVATED
-    adult_method: GUANZHI_ADULT_METHOD_PLUGIN_V0.1_HUMAN_RATIFIED_NOT_ACTIVATED
+    language_and_adult_methods: GUANZHI_CERI_ADULT_UNIFIED_V0.9_HUMAN_RATIFIED_NOT_ACTIVATED
     lihuo_os: LIHUOOS_V1.4_RATIFIED_CURRENT
     internship_context: NEW_LIHUO_AI_INTERNSHIP_MANUAL_V1.0_NON_NORMATIVE
   publication:
@@ -66,8 +66,7 @@ CHARACTER → 誰是這個人，以及在具體情境下她如何選擇
 PLAYER  → 玩家實際說出、採取或授權的行為
 DIRECTOR → 發現值得展開的戲、安排鏡頭和節奏
 CORE    → 這條故事現在在哪裡、已經發生什麼、下一步接給誰
-ADULT PLUGIN → 成人親密專項方法與內部成人 CERI（適用時）
-CERI    → 語言與人物語域形成，不取得人物／事件主權
+CERI UNIFIED V0.9 → Part A 全場景語言資料（風月、日常、粗話、葷話、性罵語）／Part B 成人專項方法（真正適用時）；不取得人物／事件主權
 LIHUOOS L8 → 唯一適用的完整理火工作週期
 LIHUOOS L9 → 在當次有需要時提供可用能力與觀測結果
 MAIN    → 依 OS 週期負責競爭與重新競爭
@@ -459,19 +458,19 @@ Main 已形成的競爭材料不是最終顯影。觀止最容易在顯影時丟
 
 ## 13.8｜成人心法外掛的位置
 
-作者已確立《九尾龜》方法移植為**觀止獨立成人心法外掛** `觀止青樓成人心法外掛V0.1.md`。成人 CERI 在外掛內接；一般故事的 CERI 留在一般語言接口。外掛不是成人版 OS，不能以方法卡、CERI、收據或一段文字創立第二週期。
+**2026-10-30 人類批准新接線：** `觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md` 是 V3.0.0 文件層的唯一**全場景 CERI＋成人心法配套**。A 部統一提供所有語言資料（一般、風月、親密、猥褻笑話、粗話、性罵語皆可引用）；B 部承接《九尾龜》成人心法 21 張方法卡和專項語域／具身顯影方法，**只在真正適用成人專項時參考**。舊 `觀止青樓成人心法外掛V0.1.md` 與 WORLD 附件 E 的 V0.7-EXP 轉作歷史來源；不得再作第二個實際入口。統一模組不是成人版 OS、也不建立第二週期。
 
-適用專門成人性愛場景時，**先將任務依 Task Entry 接入完整 L8，再在其 manifestation candidate 階段交成人外掛處理當前人物、事件、身體、語域與可見敘事**。不能讓一般 Narrator 在進外掛前先把成人事件改成曖昧、抽象、跳接的另一項任務，事後才讓外掛擦邊修詞。
+適用專門成人性愛場景時，**先依現行 Task Entry 接入真正完整 L8，再在 manifestation candidate 階段使用 V0.9 B 部專項方法及同模組 A 部語言資產**。不得先由一般 Narrator 無因果洗掉場景原本已成立的性質、角色選擇和力量，事後再以風月修辭粉飾；仍遵守實際可見內容限制。
 
-成人外掛二十一張卡按情境選用，不是固定二十一道簽到 Gate。成人 CERI 需做有效的語域／人物聲紋工作；Chat-native 留工作結果，獨立 Provider 若真有執行才列真收據。外掛只提出顯影候選與局部工作結果，不能替人物、WORLD、SAVE、Main 或 L8 建立額外權力。
+V0.9 B 部二十一張卡按情境選用，不是固定二十一道簽到 Gate。成人專項需要的 CERI 語域／人物聲紋工作須真實完成；Chat-native 留實際工作結果，獨立 Provider 只有真執行才列真收據。整合模組不替人物、WORLD、SAVE、Main 或 L8 建立額外權力。
 
-**只在外掛新提出尚未取得資格的 material event delta 時**，回交真正的 Character／WORLD／Player 等 Owner。已有效成立的決定不因換成成人文字就要求「再同意一次」。實際平台呈現限制仍按真實適用範圍遵守；模型無根的限制預測不構成全域否決。
+**只在整合模組 B 部提出尚未取得資格的 material event delta 時**，回交真正的 Character／WORLD／Player 等 Owner。已有效成立的決定不因換成成人文字就要求「再同意一次」。實際平台呈現限制仍按真實適用範圍遵守；模型無根的限制預測不構成全域否決。
 
-## 13.9｜CERI 的普通語域與成人語域
+## 13.9｜統一 CERI 的所有語域：語詞露骨不等於成人事件
 
 WORLD V3.0.0 §1.6 將呈現方式分為 `MODERN_CHINESE` 與 `SONG_PERIOD_REGISTER`；玩家可在當線適用的位置切換。模式切換改的是之後的可見敘事，不倒改人物本來的語言、已說過的台詞或已成立事件。
 
-宋代語域要考慮身份、職業、教育、所處場合、人物獨有聲紋，不能把所有人一律套一層文言。普通招呼可做輕量語域形成；宋代模式須真正形成適用的 period／scene／character register。成人性語義、親密邀約、拒絕、議價等首先是人物行動，是否進入成人性愛專項則由原始任務與事件性質判斷，不能用詞彙形式替換事件類型。
+宋代語域要考慮身份、職業、教育、場合與人物聲紋，不能把所有人套文言。V0.9 A 部可供一般招呼、GTR 話術、風月營業與粗俗辱罵使用；**一句出現性器官、葷話、性能力譏刺或暴力比喻的爭吵，不自動開成人性愛場景，也不因語詞出現便造出實際傷害**。當次任務若確實屬成人性愛專項才使用 B 部方法；事件性質、個人選擇與適用界線仍要靠真正來源判定，不能由詞面替代。
 
 ```text
 CERI LANGUAGE FORMATION
@@ -501,7 +500,7 @@ CORE: ROUTE + SCENE + TIME + DELTA
   ↓（Task Entry 判定真的需要完整週期）
 LIHUOOS L8 ←→ MAIN / L9 / GOVERNANCE（各按自身法位）
   ↓（在適用的 manifestation 位置）
-DIRECTOR / GENERAL CERI / ADULT PLUGIN + ADULT CERI
+DIRECTOR / UNIFIED CERI V0.9 PART A / [PART B SPECIALIST IF ACTUALLY APPLICABLE]
   ↓（需要新 material delta 才找原 Owner；TM 忠實度回報）
 ACTUAL RELEASE / NON-RELEASE / HOLD
   ↓
@@ -628,11 +627,11 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 | 來源 | 本版使用的法位 | 作用 |
 |---|---|---|
-| WORLD V3.0.0 MAIN + ANNEX（2026-10-26） | HUMAN_RATIFIED_WORLD | 世界、制度、時間、空間、經濟、CERI 附件 |
+| WORLD V3.0.0 MAIN + ANNEX（2026-10-26） | HUMAN_RATIFIED_WORLD | 世界、制度、時間、空間、經濟、原 CERI V0.7-EXP 附錄已轉歷史索引 |
 | GZ CHARACTER POOL V3.0.0（73 人） | HUMAN_RATIFIED_DOCUMENT_NOT_ACTIVATED | 人物候選、個體基線與關係來源 |
 | 舊 CORE V4.1.2（2026-10-15） | HISTORICAL_RATIFIED_OPERATIVE_SOURCE | 舊版條款、遷移追溯及舊 Route 兼容 |
 | CORE VNext V0.5（2026-10-27） | DIRECT_WORKING_PREDECESSOR | 0–12 章故事正文、成人外掛單週期架構 |
-| GZ ADULT METHOD PLUGIN V0.1 | HUMAN_RATIFIED_SPECIALIST_PLUGIN_NOT_ACTIVATED | 成人專項方法／內部 CERI，不改 Owner |
+| GUANZHI CERI + ADULT METHOD UNIFIED V0.9（2026-10-30） | HUMAN_RATIFIED_DOCUMENT_NOT_ACTIVATED | 統一 Part A 全場景語料＋Part B 成人專項；舊成人外掛 V0.1 轉歷史來源 |
 | CORE Annex A／B／C | WORKING_MAP_AND_TEST_SPEC | 責任拆分／遷移／43 個回歸規格 |
 | LIHUOOS V1.4 Current System Edition | RATIFIED_CURRENT_DOCUMENT_LEVEL | L8 V1.3、L9 V1.2.2、Main V5.1.1＋V5.1.2；Post-R2 Premise Audit、R3、Trace／Receipt 分離 |
 | 新生實習手冊 V1.0 | NON_NORMATIVE_TRAINING | Task Entry、冷啟動、反理火劇場；不修改 OS 法位 |
@@ -643,8 +642,8 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ## 23.3｜哪些工作仍然不能自稱完成
 
-- CORE V3.0.0、配套 Director V3.0.0 與成人外掛 V0.1 已取得**人類文件層授權**，但 GitHub CURRENT 指標尚未切換、觀止正式 Runtime 尚未啟動。
-- 成人外掛即使已獲人類文件層批准，亦不表示獨立實測已 PASS。
+- CORE V3.0.0、配套 Director V3.0.0 與整合後 CERI＋成人心法 V0.9 已取得**人類文件層授權**，但 GitHub CURRENT 指標尚未切換、觀止正式 Runtime 尚未啟動。
+- V0.9 文獻層整合完成，不表示語言形成、專項 L8 或外部 Provider 已實跑 PASS。舊成人外掛 V0.1 原批准為歷史來源。
 - Annex C 現有 **29 個故事級 + 14 個接口級 = 43 個**回歸規格；目前來源狀態仍為 `NOT_RUN`，不以 Chat 隔離候選或靜態核對推翻此紀錄。
 - 單次 Chat-native 理火場景能呈現具體工作與 trace，不代表 Host deployment、整個 OS 實裝完成或全域經驗證。
 - 文件層授權已獲得；但沒有當線具體事件與實際 SAVE 授權／成功寫入，不向 WORLD、角色池、HOT、MASTER、Canon 寫入新事件。
