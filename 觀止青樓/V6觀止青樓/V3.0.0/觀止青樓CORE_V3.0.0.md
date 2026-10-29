@@ -66,7 +66,7 @@ CHARACTER → 誰是這個人，以及在具體情境下她如何選擇
 PLAYER  → 玩家實際說出、採取或授權的行為
 DIRECTOR → 發現值得展開的戲、安排鏡頭和節奏
 CORE    → 這條故事現在在哪裡、已經發生什麼、下一步接給誰
-CERI + NATIVE ADULT V1.0 → Part A 全場景語言資料（風月、日常、粗話、葷話、性罵語）／Part B 成人專項方法（真正適用時）；不取得人物／事件主權
+CERI + NATIVE ADULT V1.0 → Part A 全場景語言資料（風月、日常、粗話、葷話、性罵語）／Part B 觀止原生 10A 完整方法＋Part C 21 張回流卡（真正適用時）；不取得人物／事件主權
 LIHUOOS L8 → 唯一適用的完整理火工作週期
 LIHUOOS L9 → 在當次有需要時提供可用能力與觀測結果
 MAIN    → 依 OS 週期負責競爭與重新競爭
@@ -498,7 +498,7 @@ CORE: ROUTE + SCENE + TIME + DELTA
   ↓（Task Entry 判定真的需要完整週期）
 LIHUOOS L8 ←→ MAIN / L9 / GOVERNANCE（各按自身法位）
   ↓（在適用的 manifestation 位置）
-DIRECTOR / UNIFIED CERI V0.9 PART A / [PART B SPECIALIST IF ACTUALLY APPLICABLE]
+DIRECTOR / UNIFIED CERI + NATIVE ADULT V1.0 PART A / [PART B + C SPECIALIST IF ACTUALLY APPLICABLE]
   ↓（需要新 material delta 才找原 Owner；TM 忠實度回報）
 ACTUAL RELEASE / NON-RELEASE / HOLD
   ↓
@@ -607,7 +607,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 這個輸入是意圖與故事工作要求。真正的下游要同時看：白御行的家主權力及私人欲望；李師師的主動意願、身份與孕期；蘇三的官府暫押現實、可能存在的慾望、對未來名分的念頭及她在場的當次選擇。不得把蘇三預先固定為「肯定拒絕」，也不得因「她已上床」推論「所有後續行為已同意」。
 
-若工作要求成人性愛場景專項生成，先由 Task Entry 啟用唯一 L8 完整週期。在其中的 Main 比較有資格的 PATH，經可觀測 T1/T2 和必要 R3+ 後形成當次結果；到 manifestation 才讓統一 V0.9 B 部參照 A 部語言資料做專門呈現，之後 TM 對照事件 standing、人物台詞、當次選擇、空間和後果，最後按 L8 真實情況處置。
+若工作要求成人性愛場景專項生成，先由 Task Entry 啟用唯一 L8 完整週期。在其中的 Main 比較有資格的 PATH，經可觀測 T1/T2 和必要 R3+ 後形成當次結果；到 manifestation 才讓統一 V1.0 B／C 部參照 A 部語言資料做專門呈現，之後 TM 對照事件 standing、人物台詞、當次選擇、空間和後果，最後按 L8 真實情況處置。
 
 **本 CORE 不先替三人寫好事件結果。** 若只是隔離測試候選，就不因文字成篇把親密事件倒灌 HOT V5.27。真正已發生且有效成立的事件，才可作當輪本地 delta；長期持久化又是另一項需要授權的動作。
 
