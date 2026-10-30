@@ -117,6 +117,13 @@ L8 V1.3 NATIVE POLICY
 
 因此觀止不重新定義 receipt 欄位、不把「CHECKLIST」升格成 OS 規則，也不改寫 L8 的 `cycle_outcome / accounting / trace / premise audit / Main return` 型別。沒有實跑、缺件、HOLD 或 INCOMPLETE，均依 L8 原生格式如實回報；不得為了視覺完整而補造 PASS。
 
+**觀止的顯示紀律只做兩個小修正，不另造 schema：**
+
+1. `R1` 與 `T1` 分開顯示，`R2` 與 `T2` 分開顯示。候選／再競爭結果不能與 Trace standing 混寫成同一欄。若只有 Chat-native 本地候選而沒有正式 Trace Ref，應明寫例如 `R1: LOCAL_CANDIDATE_FORMED`、`T1: NOT_VERIFIED / REF_NOT_OBTAINED`；R2/T2 同理。
+2. `R3` 必須同時交代**是否需要**與**是否已執行**。若 Post-R2 Premise Audit 已顯示 material alternative premise family 仍可能存在，但尚未正式核定或執行，不可只寫「未執行」；應使用能區分 standing 的表達，例如 `R3: POSSIBLY_REQUIRED / NOT_EXECUTED`、`REQUIRED / NOT_EXECUTED`、`NOT_REQUIRED` 或 `HOLD / NOT_VERIFIED`，依當輪實際狀態選用。
+
+這兩條只是把 L8 已存在的 phase／trace／premise-audit 身份**分開顯示**，不是新增週期、Owner 或欄位法位。
+
 **OS 邊界補充：** LIHUOOS V1.4 本身沒有「所有普通對話都必須進 L8」的全域規則，也沒有另外要求一份名為 CHECKLIST 的全域回報。觀止的「每回必進 L8」是觀止自己的專案級強制接線；一旦真的進了 L8，才由 L8 V1.3 的原生 receipt 規格接手。
 
 ## 0.3｜CORE 不做的事
@@ -508,7 +515,7 @@ Radar 在現行能力倉可提供 `scan / signal / suggest`；沒有資格 `auth
 
 ## 13.11｜每回必有 L8 原生 Cycle Receipt；Expanded Report 按 L8 規格展開
 
-每一個 Director 故事回合都被觀止本地規則強制進入 L8，因此**每回都必須出現 L8 V1.3 原生的 Compact Visible Cycle Receipt**。觀止不另造 CHECKLIST、不另定欄位，也不以故事順暢為理由省略 L8 自己要求的人類可見最低週期收據。
+每一個 Director 故事回合都被觀止本地規則強制進入 L8，因此**每回都必須出現 L8 V1.3 原生的 Compact Visible Cycle Receipt**。觀止不另造 CHECKLIST、不另定欄位，也不以故事順暢為理由省略 L8 自己要求的人類可見最低週期收據。**顯示時須保持 `R1 ≠ T1`、`R2 ≠ T2`，以及 `R3 requirement standing ≠ R3 execution standing` 的可見分離。**
 
 玩家若要求完整 L8 週期回報，或 L8 自身條件要求 Expanded Cycle Report，則依 OS 原生格式展開任務入場、來源與前提資格、R1/O9/T1、R2 如何消費 T1、Post-R2 Premise Audit、必要 R3+、Main Return、manifestation／TM、Release 與最終 accounting。
 
