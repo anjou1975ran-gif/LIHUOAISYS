@@ -3904,7 +3904,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 **成人性愛場景專門生成必須在真正 L8 週期內運行，並由 L8 完成它原有的 Main、governance、manifestation/release 與最終 receipt accounting。** L8 完整結案包含顯影階段，因此不能要求『L8 先全部完成，才開始 L8 內的顯影』。一般故事節拍則無需開啟顯式 L8 Cycle Object。**本外掛自己不能開假週期、簽 L8 成功或取代 L8**。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
 
-**L8 法位切清：** LIHUOOS V1.4.1 L0 指向現行 L8 V1.3.1（`PRESERVED_CURRENT_OPERATIVE_LAYER`）及 L9 V1.2.2（`PRESERVED_CURRENT_CAPABILITY_BASELINE`）；先前 `V0.3.1-WORKING`／V1.1 preserved baseline 只是歷史法位。L8 決定 T1／T2／T3+／TM／必要時 TFINAL 的時機和交接，L9 只提供 renderer，Main 計算競爭。**外掛不得複製 L8 checklist 或持有 TM 的最後裁判權**。不宣稱 Host 部署、實作完成或獨立 L8 instance 運行。
+**L8 法位切清：** LIHUOOS V1.4.1 L0 指向現行 L8 V1.3.1（`CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE`）及 L9 V1.2.2（`PRESERVED_CURRENT_CAPABILITY_BASELINE`）；先前 `V0.3.1-WORKING`／V1.1 preserved baseline 只是歷史法位。L8 決定 T1／T2／T3+／TM／必要時 TFINAL 的時機和交接，L9 只提供 renderer，Main 計算競爭。**外掛不得複製 L8 checklist 或持有 TM 的最後裁判權**。不宣稱 Host 部署、實作完成或獨立 L8 instance 運行。
 
 ---
 
@@ -3932,7 +3932,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 # D｜批准、調用、專案匯入與舊檔處置
 
-本 V1.0.1 **正式取代 V1.0，並承接 V1.0 對 V0.9 的取代法位，成為觀止 V3.0.0 文件層單一 CERI＋原生成人心法配套入口**。CORE、Director、WORLD 主文／附件與交接紀錄同批改為引用本檔。並非創立新世界、更新人物或 Route SAVE，也不更動 LIHUOOS V1.4.1 的 L8／L9／Main 版號。
+本 V1.0.1 **正式取代 V1.0，並承接 V1.0 對 V0.9 的取代法位，成為觀止 V3.0.0 文件層單一 CERI＋原生成人心法配套入口**。CURRENT、CORE、Director、WORLD 主文／附件與交接紀錄均已改為引用本檔。並非創立新世界、更新人物或 Route SAVE，也不更動 LIHUOOS V1.4.1 的 L8／L9／Main 版號。
 
 **帶回 ChatGPT 觀止專案：** 語言＋成人心法只需 `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md`；其餘保留原本正式 CORE、Director、WORLD 主附、人物池和需要的 Route／SAVE。**CERI V0.8、成人外掛 V0.1、V0.9、V1.0 WORKING 和舊 CORE V4／V5 不必帶回專案**。它們在 Git 留作歷史查證與回溯，保留檔案不代表並列現行使用。
 
