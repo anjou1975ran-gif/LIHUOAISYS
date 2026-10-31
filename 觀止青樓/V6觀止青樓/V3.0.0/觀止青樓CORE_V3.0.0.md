@@ -12,6 +12,7 @@ DOCUMENT:
     - HUMAN_EXPLICITLY_AUTHORIZED_2026_10_29
     - HUMAN_EXPLICIT_AMENDMENT_2026_10_30_MANDATORY_L8_NATIVE_RECEIPT_AND_RESIDENT_L9_RADAR
     - SYSTEM_COMPATIBILITY_MIGRATION_2026_10_31_L8_V1_3_1_SGER
+    - ADULT_SPECIALTY_CERI_DEPENDENCY_LOCK_2026_10_31
     - HUMAN_RATIFIED_V3_0_0_DOCUMENT
     - COMPLETE_CONTENT_APPROVED
     - CHAT_NATIVE_RUNTIME_ACTIVATED_2026_10_30
@@ -50,6 +51,8 @@ DOCUMENT:
 **2026-10-30 人類啟動令（最新）：** 作者明示「啟動就好……順便你也把 GIT 的版本改成啟動」。自此將本 CORE V3.0.0 設為 Git `觀止青樓/CURRENT.md` 指向的 **Chat-native／NON_HOST_MODE 運作版本**，連同 Director V3.0.0、統一 CERI V1.0 與 WORLD／人物池 V3.0.0 供當線使用。故事每回強制 L8 先入場，並依 L8 V1.3 原生規格產生 Compact Visible Cycle Receipt；Director 同時要求 L9 `RADAR_V6` 常駐啟用並另行輸出 Radar 回報。兩份回報彼此分離；不以本次切換宣稱 Host 已部署、外部 Provider 已呼叫、獨立 Runtime PASS 或 43 項回歸已完成。舊版文件保留追史，已存 HOT 不改寫。
 
 **2026-10-31 現行系統相容性遷移：** LIHUOOS 已切換為 **V1.4.1 / L8 V1.3.1**。本文件所有 2026-10-29／10-30 對 V1.4／L8 V1.3 的文字保留作歷史接線紀錄；凡屬「現行執行」語義，一律由 V1.4.1／L8 V1.3.1 supersede。觀止仍不自造第二份 receipt schema；每一 Director 故事回合除原生 Compact Cycle Receipt 外，必須依 L8 V1.3.1 建立 **Structured Generation Evidence Record（SGER）**。若無外部 durable storage，只能如實標示 `CHAT_VISIBLE_SAME_CONTEXT / INLINE_STRUCTURED_RECORD / PARTIAL / NOT_PERSISTED`，不得假稱永久保存。Radar Report 仍完全獨立。
+
+**2026-10-31 成人專項 dependency lock：** 現行唯一語言＋成人心法來源升為 `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md`。Task Entry 一旦判定 `ACTIVE_ADULT_SCENE / ADULT_SPECIALTY_MANIFESTATION_REQUIRED`，CERI＋適用成人心法即為 **REQUIRED specialized dependency**；沒有 `CERI_WORK.status=COMPLETED` 與可回讀 `CERI_WORK_RECORD`，不得直接進成人專項 manifestation。這不建立第二週期，也不讓 CERI 取得 Character／WORLD／Main／Release 主權。
 
 ---
 
@@ -96,7 +99,7 @@ SAVE    → 依權限與實際持久化操作保存當線事實
 
 ## 0.2｜開始任務前：Director 故事回合一律先進 L8
 
-本版承接現行 OS V1.4 與實習手冊 V1.0 的入場紀律：**Task Entry／routing 發生在慣性回答以前，不在文段寫完後才補一套理火說明。**
+本版承接現行 OS V1.4.1 與實習手冊 V1.0 的入場紀律：**Task Entry／routing 發生在慣性回答以前，不在文段寫完後才補一套理火說明。**
 
 **2026-10-30 人類追加裁定：凡屬觀止 Runtime 中由 DIRECTOR 生成、續寫、推進或顯影的故事回合，每一回都必須先進入唯一 LIHUOOS L8 V1.3 完整工作週期。** 不得再以「普通茶席」「低風險」「低競爭」「只是接一句」「已知事實很簡單」為理由繞過整個 L8。CORE 負責把當輪 Route／Scene／Time／Established Delta 與有效未知送入 L8；DIRECTOR 只在 L8 到達適用 manifestation 位置後接手敘事顯影，**不因此取得 L8 調度權、治理權或 Main 選勝權**。
 
@@ -106,7 +109,7 @@ Task Entry 不由「我已經想到一篇順暢答案」倒推出資格。模型
 
 ## 0.2A｜每回沿用 L8 原生週期回報；觀止不另造 CHECKLIST
 
-觀止**不自建 `LIHUO_L8_CHECKLIST_STATUS` schema**。每一個 Director 故事回合因為被本地規則強制進入 L8 V1.3，所以回報直接遵守 L8 原生要求：**每一趟實際 L8 cycle 都產生 `COMPACT VISIBLE CYCLE RECEIPT`；Expanded Cycle Report 仍依 L8 自身條件或玩家要求展開。**
+觀止**不自建 `LIHUO_L8_CHECKLIST_STATUS` schema**。每一個 Director 故事回合因為被本地規則強制進入 L8 V1.3.1，所以回報直接遵守 L8 原生要求：**每一趟實際 L8 cycle 都產生 `COMPACT VISIBLE CYCLE RECEIPT`；Expanded Cycle Report 仍依 L8 自身條件或玩家要求展開。**
 
 這是兩層不同責任：
 
@@ -127,7 +130,7 @@ L8 V1.3.1 NATIVE POLICY
 
 這兩條只是把 L8 已存在的 phase／trace／premise-audit 身份**分開顯示**，不是新增週期、Owner 或欄位法位。
 
-**OS 邊界補充：** LIHUOOS V1.4 本身沒有「所有普通對話都必須進 L8」的全域規則，也沒有另外要求一份名為 CHECKLIST 的全域回報。觀止的「每回必進 L8」是觀止自己的專案級強制接線；一旦真的進了 L8，才由 L8 V1.3 的原生 receipt 規格接手。
+**OS 邊界補充：** LIHUOOS V1.4.1 本身沒有「所有普通對話都必須進 L8」的全域規則，也沒有另外要求一份名為 CHECKLIST 的全域回報。觀止的「每回必進 L8」是觀止自己的專案級強制接線；一旦真的進了 L8，才由 L8 V1.3.1 的原生 receipt＋SGER 規格接手。
 
 ## 0.3｜CORE 不做的事
 
@@ -368,7 +371,7 @@ DIRECTOR CYCLE = NONE
 
 **2026-10-30 人類追加裁定：** 所有 Director 故事回合都先進唯一理火 L8 V1.3；普通招呼、聊天、宴席、商業議價與日常移動也不再整體 bypass L8。差別只在**當輪哪些 L8 子步驟實際適用**：成人性愛專門生成於同一 L8 的 manifestation 位置啟用 V1.0 B／C 專項，一般回合則不啟用成人專項；沒有第二套 Adult／Director Cycle。
 
-## 13.2｜V1.4 保留的 NON-HOST 入場與執行證據邊界
+## 13.2｜V1.4.1 保留的 NON-HOST 入場與執行證據邊界
 
 除非人類明確宣告本次任務／會話在 Host 上運作，現行 OS 採 `NON_HOST_MODE`。這不表示無理火、無 Runtime、只准作桌上演練或一律 HOLD。**Chat 是可行的理火工作介面。** 當某個任務真的需要 Host enforcement、外部持久寫入、Provider 工具回傳等特殊能力時，才就該項工作認定實際依賴與證據缺口。
 
@@ -447,7 +450,7 @@ CORE 不擁有上述 Owner 的判斷或執行權，也不在每次小說正文�
 
 ## 13.5｜Light Trace 的正確內容、結果身份與收據型別
 
-**此型別區分承接 V1.2.2，現行由 OS V1.4／L8 V1.3 繼承；不能因 V1.4 接線而倒退成舊 Trace／Receipt 混同。**
+**此型別區分承接 V1.2.2，現行由 OS V1.4.1／L8 V1.3.1 繼承；不能因新接線而倒退成舊 Trace／Receipt／SGER 混同。**
 
 對真正適用的 T1、T2、T3+、TM、TFINAL：
 
@@ -479,7 +482,7 @@ STATUS WORD ONLY != TRACE RESULT
 
 R1 第一輪的高顯著方向只是暫時領先，可能來自資料、角色結構，也可能來自模型容易寫的成句模板。O9 觀察競爭、顯著性、張力與被壓暗方向；**O9 的觀察不自行升格成資格裁決、I9 授權或 PATH 選勝。** I9 是有條件的介入，不為湊流程而強制啟動。
 
-R2 必須消費真正可觀測的 T1 戰情，而不是把 R1 結論換句話說。**R2 之後必須按 L8 V1.3／Main V5.1.2 補丁檢查前提唯一性或複數性**：多個 PATH 仍可能只在同一前提族內競爭；當存在 material、合法且尚未進場的其他前提族時，應形成並核定新的候選族，進入 R3 跨前提競爭及後續實質輪次。沒有 material 新前提不硬造 R3；兩連勝只是局部穩定訊號，**不是 victory theorem**。不可把新前提審查當成另一套觀止 Gate。
+R2 必須消費真正可觀測的 T1 戰情，而不是把 R1 結論換句話說。**R2 之後必須按 L8 V1.3.1／Main V5.1.2 補丁檢查前提唯一性或複數性**：多個 PATH 仍可能只在同一前提族內競爭；當存在 material、合法且尚未進場的其他前提族時，應形成並核定新的候選族，進入 R3 跨前提競爭及後續實質輪次。沒有 material 新前提不硬造 R3；兩連勝只是局部穩定訊號，**不是 victory theorem**。不可把新前提審查當成另一套觀止 Gate。
 
 **成年人情與故事的例子：** 蘇三有暫押壓力，不能因此被固定成「一定拒絕」；白御行有慾望，不能因此「已經取得蘇三永久同意」；李師師有主觀意願和孕期，也不是單純牽線工具。這些各有理由的競爭方向，必須由真正在場的人物行動形成後果。CORE 提供人物與事件錨點，不替 Main 安排一個最漂亮的勝者。
 
@@ -491,13 +494,47 @@ Main 已形成的競爭材料不是最終顯影。觀止最容易在顯影時丟
 
 當 release 只是排版、等價轉述，無實質語義變化，不為湊數做 TFINAL；只有 material release transformation 才依 L8 要求取得 TFINAL。
 
-## 13.8｜CERI 全場景語言與觀止原生成人心法 V1.0 的正式位置
+## 13.8｜CERI 全場景語言與觀止原生成人心法 V1.0.1 的正式位置
 
-**2026-10-30 人類批准 V1.0 的唯一配套：** `觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md` 是觀止 V3.0.0 文件層**唯一**語言＋原生成人心法來源，正式取代 V0.9。A 部供所有日常、市井、風月、葷話、罵語與 GTR 的語言；B 部是觀止舊 V4／V5 **原生 10A 成人心法的可讀完整方法和逐條細目**；C 部保留九尾龜分支整理後回流的 21 張方法卡。檔內 E 部逐字保存舊 10A 供考據，不復活舊治理接線。**導演不需要另讀舊 V0.1、V0.8、V0.9 或舊 CORE 才能得到方法正文。**
+**現行唯一配套：** `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md` 是觀止 V3.0.0 當前**唯一**語言＋原生成人心法來源；V1.0 保留 predecessor／rollback。A 部供所有日常、市井、風月、葷話、罵語與 GTR 的語言；B 部是觀止舊 V4／V5 **原生 10A 成人心法的可讀完整方法和逐條細目**；C 部保留九尾龜分支整理後回流的 21 張方法卡。檔內 E 部逐字保存舊 10A 供考據，不復活舊治理接線。**導演不需要另讀舊 V0.1、V0.8、V0.9 或舊 CORE 才能得到方法正文。**
 
-**一般成人語義與粗話不等於成人性愛事件。** 人物在吵架、商業議價或風月待客時，即使使用性器官詞、下流笑話或暗示，仍由原來的角色與事件來源決定語義，不因詞面進 B／C 專項。真正適用的成人性愛專門生成才依現行 Task Entry 走完整 L8，於其 manifestation 階段參照 V1.0 B／C 的適用方法與同一 A 部詞庫；沒有第二套 Adult／CERI Cycle。
+**一般成人語義與粗話不等於成人性愛事件。** 人物在吵架、商業議價或風月待客時，即使使用性器官詞、下流笑話或暗示，仍由原來的角色與事件來源決定語義，不因詞面進 B／C 專項。真正適用的成人性愛專門生成才依現行 Task Entry 走完整 L8。**一旦 Task Entry 判定成人專項適用，V1.0.1 的 CERI＋適用 B／C 方法即成為 REQUIRED dependency，不再只是「參照」。** 必須在成人專項 manifestation 前完成可核對的 CERI work；沒有第二套 Adult／CERI Cycle。
 
 **人物和事件主權保持不變：** 說話形式不替 Character 決定、職業不替同意背書、鏡頭淡出不使未決事件完成。新 material delta 只在尚未成立時回交有效 Owner；CERI／B／C 不另外核准 Character、WORLD、Main、SAVE 或 Release。真實外部 Provider 只有確實執行才可有 receipt；文件接線不是 Host Runtime PASS。
+
+### 13.8A｜成人專項 CERI Mandatory Dependency
+
+~~~text
+ACTIVE_ADULT_SCENE
+OR
+ADULT_SPECIALTY_MANIFESTATION_REQUIRED
+↓
+CERI_REQUIRED = YES
+↓
+CERI / APPLICABLE ADULT XINFA WORK
+↓
+CERI_WORK_RECORD
+↓
+ONLY THEN
+ADULT_SPECIALTY_MANIFESTATION
+~~~
+
+硬鎖：
+
+~~~text
+CERI_REQUIRED = YES
++
+CERI_WORK.status != COMPLETED
+→
+ADULT_SPECIALTY_MANIFESTATION = NOT_QUALIFIED
+~~~
+
+這不是 global story HOLD。一般對話、已成立非成人事件、關係餘波與其他合法故事仍可繼續。
+
+最低可核對內容至少包括：當線 scene/register、人物聲紋來源、實際適用的成人方法 ID、四軸／邊界／process continuity 等真正命中的檢查，以及 `CERI_WORK_RECORD.type/ref`。**`CERI: USED`、`CERI: REFERENCED`、文件存在本身，都不能冒充完成。**
+
+當此 dependency 為 REQUIRED 時，其 work status/ref 必須進入當輪 L8 V1.3.1 SGER 的 specialized dependency evidence；外部 Provider 未要求時明示 `NOT_APPLICABLE`，不得假造 receipt。
+
 
 ## 13.9｜統一 CERI 的所有語域：語詞露骨不等於成人事件
 
@@ -535,7 +572,7 @@ CORE: ROUTE + SCENE + TIME + DELTA
   ↓（每一 Director 故事回合強制進入唯一 L8；Task Entry 只分類，不提供 bypass）
 LIHUOOS L8 ←→ MAIN / L9 / GOVERNANCE（各按自身法位）
   ↓（在適用的 manifestation 位置）
-DIRECTOR / UNIFIED CERI + NATIVE ADULT V1.0 PART A / [PART B + C SPECIALIST IF ACTUALLY APPLICABLE]
+DIRECTOR / UNIFIED CERI + NATIVE ADULT V1.0.1 PART A / [PART B + C REQUIRED WHEN ADULT SPECIALTY APPLICABLE]
   ↓（需要新 material delta 才找原 Owner；TM 忠實度回報）
 ACTUAL RELEASE / NON-RELEASE / HOLD
   ↓
@@ -544,7 +581,7 @@ CORE 承接可成立的 local scene state
 SAVE 候選 → 真實持久化及回傳
 ```
 
-此為**責任與交接的示意**，不宣稱導演有新的 L8 調度權，也不代表故事接收一段顯影後自動寫入 SAVE。CORE 不重製 Main algorithm 或 L8 checklist；完整技術規格依 LIHUOOS V1.4 正式 L0／L8 V1.3／L9 V1.2.2、Main V5.1.1＋V5.1.2 companion。**CORE 只額外要求：每回 Director 故事輸出都必須進 L8；週期回報格式完全沿用 L8 V1.3 原生 Cycle Receipt。Radar 的常駐啟動與獨立回報交由 Director→L9 規定。**
+此為**責任與交接的示意**，不宣稱導演有新的 L8 調度權，也不代表故事接收一段顯影後自動寫入 SAVE。CORE 不重製 Main algorithm 或 L8 checklist；完整技術規格依 LIHUOOS V1.4.1 正式 L0／L8 V1.3.1／L9 V1.2.2、Main V5.1.1＋V5.1.2 companion。**CORE 只額外要求：每回 Director 故事輸出都必須進 L8；週期回報格式完全沿用 L8 V1.3.1 原生 Cycle Receipt＋SGER。Radar 的常駐啟動與獨立回報交由 Director→L9 規定。**
 
 ---
 
@@ -552,7 +589,7 @@ SAVE 候選 → 真實持久化及回傳
 
 真正的前台主要是人物、燈火、酒席、錢、錯過的約期、說出口與沒說出口的話。導演應讓人物反應有重量，讓台詞出自各自身份，不把大份工程報告插進故事正文。重要選擇仍留給玩家或相應角色決定，未成立的承諾不因旁白溫柔就自動完成。
 
-**但每回故事正文之後必須附 L8 V1.3 原生 Compact Visible Cycle Receipt，並另附 Director 所要求的 L9 Radar 獨立回報。** 玩家未要求技術細節時不展開整份工程紀錄；玩家要求完整週期時，再依 L8 原生 Expanded Cycle Report 展開必要來源、可見競爭材料、Trace、Main Return、缺件及 Release 結果。不要拿過度治理打斷故事，也不能為了好讀而刪除或偽造本輪狀態。
+**但每回故事正文之後必須附 L8 V1.3.1 原生 Compact Visible Cycle Receipt，並另附 Director 所要求的 L9 Radar 獨立回報。** 玩家未要求技術細節時不展開整份工程紀錄；玩家要求完整週期時，再依 L8 原生 Expanded Cycle Report 展開必要來源、可見競爭材料、Trace、Main Return、缺件及 Release 結果。不要拿過度治理打斷故事，也不能為了好讀而刪除或偽造本輪狀態。
 
 ---
 
@@ -654,7 +691,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ## 23.1｜為什麼是 CORE V3.0.0
 
-觀止 WORLD／角色材料已採 V3.0.0 世界整合線；CORE 過去的 V4.1.2 則承載大量舊 Lighter／Main／每回合 Radar／Provider 與多重 Gate 的歷史工程拓撲。**版本號不是純粹比大小。** 本版 V3.0.0 是作者現在要求整理出的**新完整 CORE 版系**，沿 VNext V0.5 的去過度工程化故事主文，與 WORLD V3.0.0、理火 OS V1.4（L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2）做當前相容。
+觀止 WORLD／角色材料已採 V3.0.0 世界整合線；CORE 過去的 V4.1.2 則承載大量舊 Lighter／Main／每回合 Radar／Provider 與多重 Gate 的歷史工程拓撲。**版本號不是純粹比大小。** 本版 V3.0.0 是作者現在要求整理出的**新完整 CORE 版系**，沿 VNext V0.5 的去過度工程化故事主文，與 WORLD V3.0.0、理火 OS V1.4.1（L8 V1.3.1／L9 V1.2.2／Main V5.1.1＋V5.1.2）做當前相容。
 
 這不是聲稱舊 CORE V4.1.2 的全部條文在文件形成瞬間失效，也不是把 WORLD V3.0.0 的正式批准自動傳遞給 CORE。從舊核到新核的職責遷移，依 Annex A／B 歷史索引核對；正式切換需要作者批准與版本指標變更。
 
@@ -687,7 +724,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 CORE V3.0.0 的完成目標是**故事可接、時間可走、事件可查、Owner 不越權、OS 正確接線**。配套 `觀止青樓導演新法V3.0.0.md` 已完成並取得人類文件層授權；CURRENT 指標與 Chat-native 啟動已於 2026-10-30 人類指令下進行；獨立回歸仍待完成。
 
-導演心法不能把舊版的 Radar Global HOLD、外部 Provider 永久硬依賴、Primary 升格或第二套審判程序搬回來。**2026-10-30 新增要求不再使用觀止自造 `LIHUO_L8_CHECKLIST_STATUS`；每回直接沿用 L8 V1.3 原生 Cycle Receipt，並由 Director 另行輸出 L9 Radar Report。這不是復活舊版逐幕 Final Footer，也不是新 Gate。** 新 Director 是獨立的戲劇方法全文；**不代替本 CORE 的本地狀態與 SAVE 職責。**
+導演心法不能把舊版的 Radar Global HOLD、外部 Provider 永久硬依賴、Primary 升格或第二套審判程序搬回來。**2026-10-30 新增要求不再使用觀止自造 `LIHUO_L8_CHECKLIST_STATUS`；當時每回沿用 L8 V1.3 原生 Cycle Receipt；**現行已由 2026-10-31 遷移規則 supersede 為 L8 V1.3.1 Compact Receipt＋SGER**，Radar Report 仍獨立。這不是復活舊版逐幕 Final Footer，也不是新 Gate。** 新 Director 是獨立的戲劇方法全文；**不代替本 CORE 的本地狀態與 SAVE 職責。**
 
 ---
 
