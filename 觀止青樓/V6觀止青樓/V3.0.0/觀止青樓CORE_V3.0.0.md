@@ -25,7 +25,7 @@ DOCUMENT:
     world: GUANZHI_WORLD_V3.0.0_MAIN_AND_ANNEX_HUMAN_RATIFIED
     character: GUANZHI_CHARACTER_POOL_V3.0.0_AND_APPLICABLE_CHARACTER_SOURCE
     director: GUANZHI_DIRECTOR_V3.0.0_HUMAN_RATIFIED_CHAT_NATIVE_ACTIVE
-    language_and_adult_methods: GUANZHI_CERI_NATIVE_ADULT_V1.0_HUMAN_RATIFIED_CHAT_NATIVE_ACTIVE
+    language_and_adult_methods: GUANZHI_CERI_NATIVE_ADULT_V1.0.1_HUMAN_RATIFIED_CHAT_NATIVE_ACTIVE_MANDATORY_DEPENDENCY
     lihuo_os: LIHUOOS_V1.4.1_RATIFIED_CURRENT
     internship_context: NEW_LIHUO_AI_INTERNSHIP_MANUAL_V1.0_NON_NORMATIVE
   publication:
@@ -48,7 +48,7 @@ DOCUMENT:
 
 **2026-10-30 人類追加校正（啟動前歷史）：** 觀止所有由 Director 生成、續寫、推進或顯影的故事回合，改為**每回必先進入唯一 LIHUOOS L8 V1.3**。同日後續校正取消觀止自造的 `CHECKLIST_STATUS` schema：每回直接沿用 L8 V1.3 原生 `COMPACT VISIBLE CYCLE RECEIPT`；另由 Director 強制啟用 L9 `RADAR_V6` 常駐並獨立回報。此段描述當時的文件層接線，啟動狀態以下方新紀錄為準。
 
-**2026-10-30 人類啟動令（最新）：** 作者明示「啟動就好……順便你也把 GIT 的版本改成啟動」。自此將本 CORE V3.0.0 設為 Git `觀止青樓/CURRENT.md` 指向的 **Chat-native／NON_HOST_MODE 運作版本**，連同 Director V3.0.0、統一 CERI V1.0 與 WORLD／人物池 V3.0.0 供當線使用。故事每回強制 L8 先入場，並依 L8 V1.3 原生規格產生 Compact Visible Cycle Receipt；Director 同時要求 L9 `RADAR_V6` 常駐啟用並另行輸出 Radar 回報。兩份回報彼此分離；不以本次切換宣稱 Host 已部署、外部 Provider 已呼叫、獨立 Runtime PASS 或 43 項回歸已完成。舊版文件保留追史，已存 HOT 不改寫。
+**2026-10-30 人類啟動令（歷史啟動紀錄）：** 作者明示「啟動就好……順便你也把 GIT 的版本改成啟動」。自此將本 CORE V3.0.0 設為 Git `觀止青樓/CURRENT.md` 指向的 **Chat-native／NON_HOST_MODE 運作版本**，連同 Director V3.0.0、統一 CERI V1.0 與 WORLD／人物池 V3.0.0 供當線使用。故事每回強制 L8 先入場，並依 L8 V1.3 原生規格產生 Compact Visible Cycle Receipt；Director 同時要求 L9 `RADAR_V6` 常駐啟用並另行輸出 Radar 回報。兩份回報彼此分離；不以本次切換宣稱 Host 已部署、外部 Provider 已呼叫、獨立 Runtime PASS 或 43 項回歸已完成。舊版文件保留追史，已存 HOT 不改寫。
 
 **2026-10-31 現行系統相容性遷移：** LIHUOOS 已切換為 **V1.4.1 / L8 V1.3.1**。本文件所有 2026-10-29／10-30 對 V1.4／L8 V1.3 的文字保留作歷史接線紀錄；凡屬「現行執行」語義，一律由 V1.4.1／L8 V1.3.1 supersede。觀止仍不自造第二份 receipt schema；每一 Director 故事回合除原生 Compact Cycle Receipt 外，必須依 L8 V1.3.1 建立 **Structured Generation Evidence Record（SGER）**。若無外部 durable storage，只能如實標示 `CHAT_VISIBLE_SAME_CONTEXT / INLINE_STRUCTURED_RECORD / PARTIAL / NOT_PERSISTED`，不得假稱永久保存。Radar Report 仍完全獨立。
 
@@ -77,7 +77,7 @@ CHARACTER → 誰是這個人，以及在具體情境下她如何選擇
 PLAYER  → 玩家實際說出、採取或授權的行為
 DIRECTOR → 發現值得展開的戲、安排鏡頭和節奏
 CORE    → 這條故事現在在哪裡、已經發生什麼、下一步接給誰
-CERI + NATIVE ADULT V1.0 → Part A 全場景語言資料（風月、日常、粗話、葷話、性罵語）／Part B 觀止原生 10A 完整方法＋Part C 21 張回流卡（真正適用時）；不取得人物／事件主權
+CERI + NATIVE ADULT V1.0.1 → Part A 全場景語言資料（風月、日常、粗話、葷話、性罵語）／Part B 觀止原生 10A 完整方法＋Part C 21 張回流卡（真正適用時）；不取得人物／事件主權
 LIHUOOS L8 → 唯一適用的完整理火工作週期
 LIHUOOS L9 → 可調能力倉；RADAR_V6 位於此層，法位為 advisory analysis capability
 MAIN    → 依 OS 週期負責競爭與重新競爭
@@ -703,7 +703,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 | GZ CHARACTER POOL V3.0.0（73 人） | HUMAN_RATIFIED_DOCUMENT_NOT_ACTIVATED | 人物候選、個體基線與關係來源 |
 | 舊 CORE V4.1.2（2026-10-15） | HISTORICAL_RATIFIED_OPERATIVE_SOURCE | 舊版條款、遷移追溯及舊 Route 兼容 |
 | CORE VNext V0.5（2026-10-27） | DIRECT_WORKING_PREDECESSOR | 0–12 章故事正文、成人外掛單週期架構 |
-| GUANZHI CERI + NATIVE ADULT XINFA V1.0（2026-10-30） | HUMAN_RATIFIED_DOCUMENT_NOT_ACTIVATED | A 全場景語料、B 觀止原生 10A 完整心法、C 21 張分支回流卡；V0.1／V0.8／V0.9 轉歷史來源 |
+| GUANZHI CERI + NATIVE ADULT XINFA V1.0.1（2026-10-31） | HUMAN_RATIFIED_CURRENT / CHAT_NATIVE_ACTIVE / MANDATORY_ADULT_SPECIALTY_DEPENDENCY | A 全場景語料、B 原生 10A、C 21 卡；成人專項需 CERI_WORK_RECORD；V1.0 轉 predecessor |
 | CORE Annex A／B／C | WORKING_MAP_AND_TEST_SPEC | 責任拆分／遷移／43 個回歸規格 |
 | LIHUOOS V1.4.1 Current System Edition | RATIFIED_CURRENT_DOCUMENT_LEVEL | L8 V1.3.1、L9 V1.2.2、Main V5.1.1＋V5.1.2；Post-R2 Premise Audit、R3、Trace／Receipt／SGER persistence 分離 |
 | 新生實習手冊 V1.0 | NON_NORMATIVE_TRAINING | Task Entry、冷啟動、反理火劇場；不修改 OS 法位 |
@@ -714,7 +714,7 @@ GUANZHI_SCENE_HANDOFF_EXAMPLE:
 
 ## 23.3｜哪些工作仍然不能自稱完成
 
-- CORE V3.0.0、Director V3.0.0 與 CERI＋觀止原生成人心法 V1.0 已取得**人類文件層授權**，並依 2026-10-30 啟動令完成 **Git CURRENT 指標切換與 Chat-native／NON_HOST_MODE 使用啟動**；Host 部署與獨立 Runtime 驗收仍未取得。
+- CORE V3.0.0、Director V3.0.0 與 CERI＋觀止原生成人心法 V1.0.1 已取得**人類文件層授權**，並依 2026-10-30 啟動令完成 **Git CURRENT 指標切換與 Chat-native／NON_HOST_MODE 使用啟動**；Host 部署與獨立 Runtime 驗收仍未取得。
 - V1.0 文獻層整合完成，不表示語言形成、專項 L8 或外部 Provider 已實跑 PASS。舊成人外掛 V0.1 原批准為歷史來源。
 - Annex C 現有 **29 個故事級 + 14 個接口級 = 43 個**回歸規格；目前來源狀態仍為 `NOT_RUN`，不以 Chat 隔離候選或靜態核對推翻此紀錄。
 - 單次 Chat-native 理火場景能呈現具體工作與 trace，不代表 Host deployment、整個 OS 實裝完成或全域經驗證。
