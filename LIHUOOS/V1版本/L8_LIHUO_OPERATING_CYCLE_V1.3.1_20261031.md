@@ -1799,6 +1799,16 @@ STRUCTURED_GENERATION_EVIDENCE_RECORD_V1_3_1:
     result_state: REQUIRED_ACCOUNTING_STATE
     released_artifact_ref: REF_OR_NONE
 
+  specialized_dependencies:
+    - dependency_id: REQUIRED_WHEN_APPLICABLE
+      requirement: REQUIRED | OPTIONAL | NOT_APPLICABLE
+      work_status: COMPLETED | NOT_COMPLETED | NOT_VERIFIED | HOLD | NOT_APPLICABLE
+      work_record_ref: REF_OR_INLINE_RECORD_OR_NONE
+      applied_method_refs: []
+      external_provider_required: TRUE_OR_FALSE
+      external_provider_status: RECEIVED | NOT_RECEIVED | NOT_APPLICABLE | UNKNOWN
+      provider_receipt_ref: ACTUAL_REF_OR_NONE
+
   unresolved:
     missing_evidence: []
     unknowns: []
@@ -1956,6 +1966,91 @@ RETROACTIVE REWRITE OF OLD SGER
 ~~~
 
 後證可以重判前事，不得回鑄前知。
+
+
+### 11.3A.6｜Applicable Specialized Dependency Evidence｜適用專項依賴證據
+
+某些任務在 Task Entry / routing / domain contract 下，會合法形成**必須調用的專項方法或能力依賴**，例如：
+
+~~~text
+LEGAL DOMAIN METHOD
+MEDICAL DOMAIN METHOD
+FINANCIAL DOMAIN METHOD
+PROJECT-SPECIFIC SPECIALTY METHOD
+CERI / ADULT XINFA IN AN APPLICABLE ADULT SPECIALTY TASK
+~~~
+
+L8 不自行決定哪一個專項必須被啟用；Requirement 由真正適用的 routing / domain / project contract 形成。
+
+但一旦：
+
+~~~text
+SPECIALIZED_DEPENDENCY.requirement = REQUIRED
+~~~
+
+L8 必須把它納入 SGER 與 final accounting。
+
+硬鎖：
+
+~~~text
+DEPENDENCY AVAILABLE
+!=
+DEPENDENCY INVOKED
+
+DEPENDENCY INVOKED
+!=
+DEPENDENCY COMPLETED
+
+DEPENDENCY COMPLETED
+!=
+DEPENDENCY EVIDENCED
+~~~
+
+因此：
+
+~~~text
+REQUIRED SPECIALIZED DEPENDENCY
++
+work_status != COMPLETED
+→
+DEPENDENCY_REQUIREMENT_UNSATISFIED
+~~~
+
+以及：
+
+~~~text
+work_status = COMPLETED
++
+work_record_ref = NONE
++
+no inline structured evidence
+→
+DEPENDENCY_EVIDENCE_NOT_PERSISTED
+~~~
+
+若該 dependency 是 material prerequisite for a specific manifestation / release：
+
+~~~text
+DEPENDENCY_REQUIREMENT_UNSATISFIED
+→
+THAT SPECIALIZED MANIFESTATION / RELEASE
+MAY NOT BE MARKED QUALIFIED OR COMPLETED
+~~~
+
+這不自動推出整個故事、整個任務或所有其他可合法處理部分 global HOLD。
+
+> **專項缺件只鎖它真正支撐的那一段，不無限擴張。**
+
+外部 Provider 是否必要，必須分開記錄：
+
+~~~text
+SPECIALIZED WORK RECORD
+!=
+EXTERNAL PROVIDER RECEIPT
+~~~
+
+Chat-native 可形成合法的 inline / same-context work record；只有真正取得外部回傳時才可填 Provider receipt。
+
 
 ---
 
@@ -2188,6 +2283,7 @@ R3:
 
 Main Return: <state>
 Manifestation / Release: <state>
+Specialized Dependencies: <NONE / NOT_APPLICABLE / REQUIRED:COMPLETED / REQUIRED:UNSATISFIED / PARTIAL>
 Evidence Record: COMPLETE / PARTIAL / NOT_PERSISTED / HOLD
 Persistence: EXTERNAL_DURABLE / CHAT_VISIBLE_SAME_CONTEXT / INLINE_STRUCTURED_RECORD / PARTIAL / NOT_PERSISTED / HOLD
 
@@ -2371,6 +2467,13 @@ AND
 ALL MATERIAL REQUIRED CHECKPOINTS
 HAVE REF OR INLINE STRUCTURED EVIDENCE
 SUFFICIENT FOR LATER AUDIT
+
+AND
+
+ALL REQUIRED SPECIALIZED DEPENDENCIES
+HAVE COMPLETED WORK STATUS
+AND AUDITABLE WORK RECORD
+WHEN THEY ARE MATERIAL PREREQUISITES
 
 AND
 
@@ -2912,6 +3015,9 @@ OPEN CYCLE
 21. VERIFY EVIDENCE PERSISTENCE:
       EACH MATERIAL CHECKPOINT HAS REF
       OR INLINE STRUCTURED EVIDENCE
+      EACH REQUIRED SPECIALIZED DEPENDENCY
+      HAS COMPLETED WORK STATUS + AUDITABLE RECORD
+      WHEN MATERIAL TO THE REQUESTED MANIFESTATION
       ASSIGN PERSISTENCE STANDING
       DO NOT INVENT EXTERNAL DURABILITY
 
@@ -3096,3 +3202,17 @@ AS COMPLETION
 ~~~
 
 > **L8 不必保存模型的 hidden thought；L8 必須保存足以審計生成責任鏈的 governed evidence。**
+
+
+## V1.3.1 In-version hardening｜2026-10-31 Specialized Dependency Lock
+
+本次同日硬化依人類指令補入：
+
+~~~text
+REQUIRED SPECIALIZED DEPENDENCY
+MUST BE
+ACCOUNTED + EVIDENCED
+IN SGER
+~~~
+
+此補充不改 L8 Owner，也不建立任何 vertical 的第二週期。
