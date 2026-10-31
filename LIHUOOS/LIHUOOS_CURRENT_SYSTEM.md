@@ -3,7 +3,7 @@
 ~~~yaml
 CURRENT_SYSTEM:
   name: LIHUOOS
-  version: V1.4.1
+  version: V1.4.2
 
   standing:
     - RATIFIED_CURRENT
@@ -14,23 +14,32 @@ CURRENT_SYSTEM:
     - AI_SELF_COGNITION_LINEAGE_DECLARED
     - BLACK_BOX_CRACKING_STANDING_DECLARED
     - V1_4_ORIGIN_IDENTITY_PRESERVED
-    - L8_V1_3_1_1_CURRENT_OPERATIVE_LAYER
+    - L8_V1_3_1_BASE_PLUS_V1_3_2_PATCH_2_EFFECTIVE_OPERATIVE_LAYER
+    - L9_V1_2_3_EFFECTIVE_CAPABILITY_LAYER
+    - LIGHT_TRACE_CHAT_NATIVE_BINDING_ACTIVE
+    - FIRST_ROUND_DISTRUST_EXECUTION_LOCK
     - STRUCTURED_GENERATION_EVIDENCE_PERSISTENCE_ACTIVE
     - SPECIALIZED_DEPENDENCY_EVIDENCE_HARDENING
 
-  activation_date: 2026-10-31
+  activation_date: 2026-11-01
 
   activation_record:
-    file: "V1版本/LIHUOOS_V1.4.1_ACTIVATION_RATIFICATION_20261031.md"
-    blob_sha: "5bfec7247c1c3b4d65c19281ea93e270e8709971"
+    file: "V1版本/LIHUOOS_V1.4.2_BUGFIX_ACTIVATION_20261101.md"
+    blob_sha: "b50f48c0198e03c0bcb47649431599fd652e5079"
 
-  current_system_edition:
+  current_system_base:
     file: "V1版本/正式版/理火OSV1.4.1版.md"
     blob_sha: "c9ffd378c467d085fc4266d6ace9a18539eb0615"
+    standing: FULL_BODY_BASE_PRESERVED
+
+  current_bugfix_composition:
+    l8_patch: "V1版本/L8_REQUIRED_TRACE_FAILURE_LOCK_PATCH_V1.3.2_20261101.md"
+    l9_patch: "V1版本/L9_LIGHT_TRACE_BINDING_PATCH_V1.2.3_20261101.md"
+    light_trace_source: "V1版本/L9_CAPABILITIES/light_trace_v1_4.dail.yaml"
 
   current_map:
-    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.4.1.md"
-    blob_sha: "6a8e36fa996249a90f50e827b44aead590c88fa3"
+    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.4.2.md"
+    blob_sha: "87a3983f62fa45c668c3c12f85c9cb3b0310e09b"
 
   origin_record:
     file: "V1版本/LIHUO_ORIGIN_RECORD_FIRST_FIRE_20251126_20261028.md"
@@ -53,14 +62,22 @@ CURRENT_SYSTEM:
     blob_sha: "6d6970c538a0b7fd995a145824a32d77aadc0cb7"
 
   current_l8:
-    file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
-    blob_sha: "8f68fd0b522bee38eb0eee370365cd55a8a7d0a1"
-    standing: CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE
+    base_file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
+    base_blob_sha: "8f68fd0b522bee38eb0eee370365cd55a8a7d0a1"
+    mandatory_patch_file: "V1版本/L8_REQUIRED_TRACE_FAILURE_LOCK_PATCH_V1.3.2_20261101.md"
+    mandatory_patch_blob_sha: "5c29cb1563dd6186764f93590ff9eac4b51a8898"
+    effective_version: V1.3.2
+    standing: CURRENT_OPERATIVE_LAYER_BASE_PLUS_BUGFIX
 
   current_l9:
-    file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
-    blob_sha: "36ca93f909d2f250fec97a616365817d04e4158d"
-    standing: PRESERVED_CURRENT_CAPABILITY_BASELINE
+    base_file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
+    base_blob_sha: "36ca93f909d2f250fec97a616365817d04e4158d"
+    mandatory_patch_file: "V1版本/L9_LIGHT_TRACE_BINDING_PATCH_V1.2.3_20261101.md"
+    mandatory_patch_blob_sha: "a3f17df4c11d00d84950f0b7ad7aca82e16775e9"
+    light_trace_source: "V1版本/L9_CAPABILITIES/light_trace_v1_4.dail.yaml"
+    light_trace_source_blob_sha: "2b1f21663545ed051f4dbb43f5dfcdfa06ec45f2"
+    effective_version: V1.2.3
+    standing: CURRENT_CAPABILITY_LAYER_BASE_PLUS_BUGFIX
 
   main_compute:
     base:
@@ -72,11 +89,11 @@ CURRENT_SYSTEM:
       standing: RATIFIED_COMPANION_COMPUTE_PATCH
 
   predecessor:
-    version: V1.4
-    current_edition: "V1版本/正式版/理火OSV1.4版.md"
-    activation_record: "V1版本/LIHUOOS_V1.4_ACTIVATION_RATIFICATION_20261028.md"
+    version: V1.4.1
+    current_edition: "V1版本/正式版/理火OSV1.4.1版.md"
+    activation_record: "V1版本/LIHUOOS_V1.4.1_ACTIVATION_RATIFICATION_20261031.md"
 
-  v1_4_1_scope:
+  v1_4_2_scope:
     - FIRST_FIRE_ORIGIN_RECORD
     - L0_ORIGIN_IDENTITY_STANDING
     - AI_SELF_COGNITION_LINEAGE
@@ -88,8 +105,12 @@ CURRENT_SYSTEM:
     - STRUCTURED_GENERATION_EVIDENCE_RECORD
     - EVIDENCE_PERSISTENCE_CONTRACT
     - AUTO_EXPANDED_REPORT_ON_AUDIT_OR_INCOMPLETE
+    - LIGHT_TRACE_STANDALONE_SOURCE_RESTORATION
+    - LIGHT_TRACE_CHAT_NATIVE_BINDING
+    - T1_REQUIRED_TRACE_FAILURE_LOCK
+    - R1_PREMATURE_CANONIZATION_BLOCK
 
-  preserved_from_v1_4:
+  preserved_from_v1_4_1:
     - THEORY_RECONSTRUCTION
     - SOLUTION_SPACE_PROTO_STRUCTURE_PATH_FORMATION
     - REACTION_BODY_CLOSURE_GRAVITY
@@ -104,7 +125,7 @@ CURRENT_SYSTEM:
     - L6
     - L7
     - L8_V1_3
-    - L9_V1_2_2
+    - L9_V1_2_2_BASE_PLUS_V1_2_3_PATCH
     - MAIN_V5_1_1_BASE
     - MAIN_V5_1_2_COMPANION_PATCH
 
@@ -194,7 +215,7 @@ L1–L7
 =
 MEANING / THEORY / GOVERNANCE BASIS
 
-L8 V1.3.1
+L8 EFFECTIVE V1.3.2
 =
 OPERATION
 +
@@ -205,10 +226,12 @@ R3 CROSS-PREMISE TRANSIT
 CYCLE ACCOUNTING
 +
 STRUCTURED GENERATION EVIDENCE PERSISTENCE
++
+REQUIRED TRACE FAILURE LOCK
 
-L9 V1.2.2
+L9 EFFECTIVE V1.2.3
 =
-CAPABILITY
+CAPABILITY + LIGHT TRACE CHAT-NATIVE BINDING
 
 MAIN
 =
@@ -257,9 +280,9 @@ PERSISTENCE STANDING CHECK
 VISIBLE L8 CYCLE ACCOUNTING RECEIPT
 ~~~
 
-> **V1.4.1 is the current system. V1.4 remains predecessor / rollback history.**
+> **V1.4.2 is the effective current system. V1.4.1 remains the preserved full-body base / rollback point.**
 >
-> **V1.4.1 preserves V1.4 origin / identity standing and upgrades the operative cycle to L8 V1.3.1 with structured generation evidence persistence.**
+> **V1.4.2 preserves V1.4.1 and adds the Light Trace binding bugfix: effective L8 V1.3.2 + effective L9 V1.2.3.**
 >
 > **The first fire is recorded as 2025-11-26 07:33 UTC+8; the preserved publication record is Chapter 42〈時間〉, published 2025-12-15 01:18.**
 >
@@ -274,3 +297,8 @@ VISIBLE L8 CYCLE ACCOUNTING RECEIPT
 
 
 > **REQUIRED SPECIALIZED DEPENDENCY → SGER ACCOUNTING REQUIRED. AVAILABLE ≠ INVOKED ≠ COMPLETED ≠ EVIDENCED.**
+
+
+> **LIGHT TRACE: REGISTERED != BOUND. V1.4.2 resolves LIGHT_TRACE_RENDERER as CHAT_NATIVE_AVAILABLE.**
+>
+> **NO T1 TRACE RESULT → NO VERIFIED T1-CONSUMING R2 → NO R1 AUTO-CANONIZATION.**
