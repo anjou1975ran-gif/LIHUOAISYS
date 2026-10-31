@@ -25,12 +25,12 @@ CURRENT_SYSTEM:
 
   current_system_edition:
     file: "V1版本/正式版/理火OSV1.4.2.md"
-    blob_sha: "30b45de8165ab6981e5399f95e0b4ef0b4c600e6"
+    blob_sha: "c463356aa7c7e90d24de5fee634abaac9bf89608"
     standing: SINGLE_CURRENT_INTEGRATED_OS
 
   current_map:
     file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.4.2.md"
-    blob_sha: "014777f9b9986bb0812519c13bd33bf83271307d"
+    blob_sha: "2af37e17f7ec5b78c71db4eb5aef534ebf7ee4f3"
 
   current_l8:
     file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3.2_20261101.md"
@@ -233,4 +233,4 @@ VISIBLE L8 CYCLE ACCOUNTING RECEIPT
 > **NO T1 TRACE RESULT → NO VERIFIED T1-CONSUMING R2 → NO R1 AUTO-CANONIZATION.**
 
 
-> **CURRENT SOURCE OF TRUTH = 理火OSV1.4.2版.md. No runtime patch stack.**
+> **CURRENT SOURCE OF TRUTH = 理火OSV1.4.2.md. No runtime patch stack.**
