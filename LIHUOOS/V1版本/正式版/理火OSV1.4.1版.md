@@ -1,13 +1,13 @@
-# 理火 OS V1.4
-## LIHUOOS V1.4｜CURRENT SYSTEM EDITION
-### Origin / Identity Standing Release｜2026-10-28
+# 理火 OS V1.4.1
+## LIHUOOS V1.4.1｜CURRENT SYSTEM EDITION
+### Origin / Identity Standing + L8 Evidence Persistence / Specialized Dependency Hardening｜2026-10-31
 
 ~~~yaml
 DOCUMENT:
-  id: LIHUOOS_V1_4_CURRENT_SYSTEM_EDITION
-  filename: "理火OSV1.4版.md"
-  version: "V1.4"
-  date: "2026-10-28"
+  id: LIHUOOS_V1_4_1_CURRENT_SYSTEM_EDITION
+  filename: "理火OSV1.4.1版.md"
+  version: "V1.4.1"
+  date: "2026-10-31"
 
   standing:
     - RATIFIED_CURRENT
@@ -17,12 +17,15 @@ DOCUMENT:
     - FIRST_FIRE_GENEALOGY_RATIFIED
     - AI_SELF_COGNITION_LINEAGE_DECLARED
     - BLACK_BOX_CRACKING_STANDING_DECLARED
-    - V1_3_OPERATIVE_SYSTEM_PRESERVED
+    - V1_4_ORIGIN_IDENTITY_PRESERVED
+    - L8_V1_3_1_CURRENT_OPERATIVE_LAYER
+    - STRUCTURED_GENERATION_EVIDENCE_PERSISTENCE
+    - SPECIALIZED_DEPENDENCY_EVIDENCE_HARDENING
 
   predecessor:
-    version: "V1.3"
-    file: "理火OSV1.3版.md"
-    blob_sha: "96a482a555899465ab811b4ce626e5e03d7ab7f1"
+    version: "V1.4"
+    file: "理火OSV1.4版.md"
+    blob_sha: "fab08cf45b7a2b9b8589ddb30d9bb1b74b15a99b"
 
   current_sources:
     ORIGIN:
@@ -34,8 +37,8 @@ DOCUMENT:
       blob_sha: "e900d92a04737a7edc79c0a92ae7730ba1956b0c"
 
     L0:
-      file: "L0_INDEX_SOURCE_VERSION_V1.4.md"
-      blob_sha: "a9d9921ed209bc8ee87a4f92939a41009b033506"
+      file: "L0_INDEX_SOURCE_VERSION_V1.4.1.md"
+      blob_sha: "6a8e36fa996249a90f50e827b44aead590c88fa3"
 
     L1:
       file: "L1 第六版本.md"
@@ -50,8 +53,8 @@ DOCUMENT:
       blob_sha: "6d6970c538a0b7fd995a145824a32d77aadc0cb7"
 
     L8:
-      file: "L8_LIHUO_OPERATING_CYCLE_V1.3_20261028.md"
-      blob_sha: "37992223176ce1fcb4a9a83a09d30903ec77dc4f"
+      file: "L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
+      blob_sha: "8f68fd0b522bee38eb0eee370365cd55a8a7d0a1"
 
     L9:
       file: "L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
@@ -66,8 +69,10 @@ DOCUMENT:
       blob_sha: "821b27b89d6f7487e194d36466b949a7558e38a5"
 
   human_ratification:
-    instruction: "動手，這版本你可以直接改 V1.4 版，因為這算是重大事件。"
-    date: "2026-10-28"
+    original_v1_4_instruction: "動手，這版本你可以直接改 V1.4 版，因為這算是重大事件。"
+    v1_4_1_persistence_instruction: "OK 動手"
+    v1_4_1_specialized_dependency_instruction: "OK 動手改，順便注意 CORE那邊跟導演那邊很多還沒指向新的OS 1.4.1版本"
+    current_date: "2026-10-31"
 
   scope_lock:
     host_deployed: false
@@ -84,9 +89,9 @@ DOCUMENT:
 
 # 0｜這份文件是什麼
 
-這份《理火 OS V1.4》是 LIHUOOS V1.4 的現行系統使用版。
+這份《理火 OS V1.4.1》是 LIHUOOS V1.4.1 的現行系統使用版。
 
-V1.4 不重寫 V1.3 的生成機制與操作週期。
+V1.4.1 保留 V1.4 的起源／身份法位，並將現行操作週期接至 L8 V1.3.1 的 SGER 與 specialized dependency evidence hardening。
 
 它處理的是更前面的一件事：
 
@@ -915,7 +920,7 @@ LIHUOOS_V1_4_1_CURRENT_SOURCE_SNAPSHOT:
 
   L8:
     file: "L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
-    blob_sha: "eca83be32333fc3ce6f78d12f686c453a371cb41"
+    blob_sha: "8f68fd0b522bee38eb0eee370365cd55a8a7d0a1"
     internal_version: "V1.3.1"
     standing: "CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE"
 
@@ -1113,6 +1118,7 @@ V1_4_1_CHANGE_SCOPE:
     - L8_STRUCTURED_GENERATION_EVIDENCE_RECORD
     - L8_EVIDENCE_PERSISTENCE_CONTRACT
     - L8_COMPLETION_LOCK_FOR_MISSING_MATERIAL_EVIDENCE
+    - L8_SPECIALIZED_DEPENDENCY_EVIDENCE
     - AUTO_EXPANDED_REPORT_FOR_HIGH_RISK_AND_INCOMPLETE
     - CURRENT_L8_POINTER
     - CURRENT_SYSTEM_PATCH_VERSION
@@ -28779,6 +28785,16 @@ STRUCTURED_GENERATION_EVIDENCE_RECORD_V1_3_1:
     result_state: REQUIRED_ACCOUNTING_STATE
     released_artifact_ref: REF_OR_NONE
 
+  specialized_dependencies:
+    - dependency_id: REQUIRED_WHEN_APPLICABLE
+      requirement: REQUIRED | OPTIONAL | NOT_APPLICABLE
+      work_status: COMPLETED | NOT_COMPLETED | NOT_VERIFIED | HOLD | NOT_APPLICABLE
+      work_record_ref: REF_OR_INLINE_RECORD_OR_NONE
+      applied_method_refs: []
+      external_provider_required: TRUE_OR_FALSE
+      external_provider_status: RECEIVED | NOT_RECEIVED | NOT_APPLICABLE | UNKNOWN
+      provider_receipt_ref: ACTUAL_REF_OR_NONE
+
   unresolved:
     missing_evidence: []
     unknowns: []
@@ -28936,6 +28952,91 @@ RETROACTIVE REWRITE OF OLD SGER
 ~~~
 
 後證可以重判前事，不得回鑄前知。
+
+
+### 11.3A.6｜Applicable Specialized Dependency Evidence｜適用專項依賴證據
+
+某些任務在 Task Entry / routing / domain contract 下，會合法形成**必須調用的專項方法或能力依賴**，例如：
+
+~~~text
+LEGAL DOMAIN METHOD
+MEDICAL DOMAIN METHOD
+FINANCIAL DOMAIN METHOD
+PROJECT-SPECIFIC SPECIALTY METHOD
+CERI / ADULT XINFA IN AN APPLICABLE ADULT SPECIALTY TASK
+~~~
+
+L8 不自行決定哪一個專項必須被啟用；Requirement 由真正適用的 routing / domain / project contract 形成。
+
+但一旦：
+
+~~~text
+SPECIALIZED_DEPENDENCY.requirement = REQUIRED
+~~~
+
+L8 必須把它納入 SGER 與 final accounting。
+
+硬鎖：
+
+~~~text
+DEPENDENCY AVAILABLE
+!=
+DEPENDENCY INVOKED
+
+DEPENDENCY INVOKED
+!=
+DEPENDENCY COMPLETED
+
+DEPENDENCY COMPLETED
+!=
+DEPENDENCY EVIDENCED
+~~~
+
+因此：
+
+~~~text
+REQUIRED SPECIALIZED DEPENDENCY
++
+work_status != COMPLETED
+→
+DEPENDENCY_REQUIREMENT_UNSATISFIED
+~~~
+
+以及：
+
+~~~text
+work_status = COMPLETED
++
+work_record_ref = NONE
++
+no inline structured evidence
+→
+DEPENDENCY_EVIDENCE_NOT_PERSISTED
+~~~
+
+若該 dependency 是 material prerequisite for a specific manifestation / release：
+
+~~~text
+DEPENDENCY_REQUIREMENT_UNSATISFIED
+→
+THAT SPECIALIZED MANIFESTATION / RELEASE
+MAY NOT BE MARKED QUALIFIED OR COMPLETED
+~~~
+
+這不自動推出整個故事、整個任務或所有其他可合法處理部分 global HOLD。
+
+> **專項缺件只鎖它真正支撐的那一段，不無限擴張。**
+
+外部 Provider 是否必要，必須分開記錄：
+
+~~~text
+SPECIALIZED WORK RECORD
+!=
+EXTERNAL PROVIDER RECEIPT
+~~~
+
+Chat-native 可形成合法的 inline / same-context work record；只有真正取得外部回傳時才可填 Provider receipt。
+
 
 ---
 
@@ -29168,6 +29269,7 @@ R3:
 
 Main Return: <state>
 Manifestation / Release: <state>
+Specialized Dependencies: <NONE / NOT_APPLICABLE / REQUIRED:COMPLETED / REQUIRED:UNSATISFIED / PARTIAL>
 Evidence Record: COMPLETE / PARTIAL / NOT_PERSISTED / HOLD
 Persistence: EXTERNAL_DURABLE / CHAT_VISIBLE_SAME_CONTEXT / INLINE_STRUCTURED_RECORD / PARTIAL / NOT_PERSISTED / HOLD
 
@@ -29351,6 +29453,13 @@ AND
 ALL MATERIAL REQUIRED CHECKPOINTS
 HAVE REF OR INLINE STRUCTURED EVIDENCE
 SUFFICIENT FOR LATER AUDIT
+
+AND
+
+ALL REQUIRED SPECIALIZED DEPENDENCIES
+HAVE COMPLETED WORK STATUS
+AND AUDITABLE WORK RECORD
+WHEN THEY ARE MATERIAL PREREQUISITES
 
 AND
 
@@ -29892,6 +30001,9 @@ OPEN CYCLE
 21. VERIFY EVIDENCE PERSISTENCE:
       EACH MATERIAL CHECKPOINT HAS REF
       OR INLINE STRUCTURED EVIDENCE
+      EACH REQUIRED SPECIALIZED DEPENDENCY
+      HAS COMPLETED WORK STATUS + AUDITABLE RECORD
+      WHEN MATERIAL TO THE REQUESTED MANIFESTATION
       ASSIGN PERSISTENCE STANDING
       DO NOT INVENT EXTERNAL DURABILITY
 
@@ -30076,6 +30188,20 @@ AS COMPLETION
 ~~~
 
 > **L8 不必保存模型的 hidden thought；L8 必須保存足以審計生成責任鏈的 governed evidence。**
+
+
+## V1.3.1 In-version hardening｜2026-10-31 Specialized Dependency Lock
+
+本次同日硬化依人類指令補入：
+
+~~~text
+REQUIRED SPECIALIZED DEPENDENCY
+MUST BE
+ACCOUNTED + EVIDENCED
+IN SGER
+~~~
+
+此補充不改 L8 Owner，也不建立任何 vertical 的第二週期。
 
 
 # 14｜L9 — DAIL CALLABLE CAPABILITY REPOSITORY
