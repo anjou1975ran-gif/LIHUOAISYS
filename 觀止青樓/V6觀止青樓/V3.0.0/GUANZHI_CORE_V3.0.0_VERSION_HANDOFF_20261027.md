@@ -2,9 +2,9 @@
 
 **人類當次指示：**「啟動就好  真麻煩  順便你也把GIT的版本改成啟動」。
 
-**已生效的 Git CURRENT：** [觀止青樓/CURRENT.md](../../CURRENT.md) 明確指向 V3.0.0 的 CORE、Director、CERI V1.0、WORLD 主附、73 人人物池及原生人物模板。CORE／Director／CERI 正文各已改為 **HUMAN_AUTHORIZED / CHAT_NATIVE_ACTIVE / NON_HOST_MODE**；舊 V4.1.2 與歷代 VNext 原件保留追史，不暗中刪除。
+**已生效的 Git CURRENT：** [觀止青樓/CURRENT.md](../../CURRENT.md) 明確指向 V3.0.0 的 CORE、Director、CERI V1.0.1、WORLD 主附、73 人人物池及原生人物模板。CORE／Director／CERI 正文各已改為 **HUMAN_AUTHORIZED / CHAT_NATIVE_ACTIVE / NON_HOST_MODE**；舊 V4.1.2 與歷代 VNext 原件保留追史，不暗中刪除。
 
-**運作新規：** 每一 Director 故事回合先進唯一 LIHUOOS V1.4／L8 V1.3，R2 後按有效規格檢查前提複數性，必要時進 R3+；每回附真實短版 `LIHUO_L8_CHECKLIST_STATUS`，不得拿標籤假造 Trace／Main Return／Receipt。普通對白不再繞過 L8，成人 B／C 方法只在真正適用時使用。
+**運作新規：** 每一 Director 故事回合先進唯一 LIHUOOS V1.4.1／L8 V1.3.1，形成 SGER；R2 後按有效規格檢查前提複數性，必要時進 R3+；每回附原生 Compact Visible Cycle Receipt，另出 Radar Report。成人專項一旦適用，CERI V1.0.1＋適用 B／C 方法為 REQUIRED dependency，必須有 CERI_WORK_RECORD 才能進專項顯影。
 
 **效力邊界：** 這是 Chat-native／NON_HOST_MODE 啟動及 Git 文件指標更新；**非** Host 外部部署、獨立 Provider 已執行、43 項回歸已 PASS、路線 SAVE 自動重寫。既有賀小滿 HOT 仍保存，不回滾；原生選角失效作導演學習紀錄，不倒改既成角色為紫蘭。
 
@@ -14,14 +14,14 @@
 
 # 觀止青樓｜CORE V3.0.0 版本整理與 Director 接手紀錄
 
-**2026-10-30 V1.0 正式接替記錄（優先於下方 V0.9 歷史接線）：** 作者明示批准 `觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md` 作觀止 V3.0.0 文件層唯一 CERI＋觀止原生成人心法配套，完整提供 A 全場景語料、B 原生 10A 方法與細目、C 21 張回流方法卡；CORE／Director／WORLD 主附已按同批文件層接線改指向 V1.0。舊 V0.1、CERI V0.8、合併 V0.9 和 V1.0 WORKING 留 Git 作追溯，不作 ChatGPT 觀止專案必帶檔。觀止仍 V3.0.0，LIHUOOS 仍 V1.4；**尚未 Host 部署、Runtime PASS、CURRENT 頂層索引切換、Route SAVE 寫入或專案檔案自動上傳**。
+**2026-10-30 V1.0 正式接替記錄（歷史；現由 2026-10-31 V1.0.1 supersede）：** 作者明示批准 `觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md` 作觀止 V3.0.0 文件層唯一 CERI＋觀止原生成人心法配套，完整提供 A 全場景語料、B 原生 10A 方法與細目、C 21 張回流方法卡；CORE／Director／WORLD 主附已按同批文件層接線改指向 V1.0。舊 V0.1、CERI V0.8、合併 V0.9 和 V1.0 WORKING 留 Git 作追溯，不作 ChatGPT 觀止專案必帶檔。觀止仍 V3.0.0；當時 LIHUOOS 為 V1.4；**尚未 Host 部署、Runtime PASS、CURRENT 頂層索引切換、Route SAVE 寫入或專案檔案自動上傳**。
 
 **2026-10-30 歷史 V0.9 接線覆核（優先於下列 2026-10-27／29 歷史階段敘述）：** 作者批准合併 CERI 與成人心法；`觀止_CERI_全場景語言暨成人心法_整合工作稿_V0.9_20261030.md` 取得 HUMAN_RATIFIED_DOCUMENT / CURRENT_GUANZHI_V3_0_0_COMPANION / NOT_RUNTIME_ACTIVATED。CORE／Director／WORLD 主附的現行文件層指向已改為 V0.9。原成人心法 V0.1 及 CERI V0.8 留作歷史來源，WORLD 附件 E 的 V0.7-EXP 已逐字封存在 `觀止_CERI_V0.7_EXP_世界附件E_歷史原文封存_20261030.md`。**不更改觀止 V3.0.0 版號，不宣稱頂層 CURRENT 切換、Host／Provider 執行或 Runtime PASS。**
 
 
 **2026-10-29 最新法位：** `HUMAN_RATIFIED_VERSION_HANDOFF / V3.0.0_BATCH_AUTHORIZED / NOT_RUNTIME_ACTIVATED / NOT_CURRENT_SWITCHED`。本稿的 2026-10-27『候選』『下一步』記述是歷史階段紀錄，不再代表今天的文件批准狀態；現行 CORE、Director、人物池、WORLD 主附、成人外掛與原生人物模板均依作者 2026-10-29 明示獲得文件層人類授權。版本編號與檔名 V3.0.0 保留，未做任何觀止 Runtime 啟動。
 
-**本次完成後最新接線：** 理火 **LIHUOOS V1.4**，內部 **L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2 正式補丁**；R2 後依現行 L8 審查前提複數性，必要時 R3 跨前提競爭。OS 文件版號已更新，但不冒稱外部 Provider、Host、SAVE 及回歸測試已執行。配套正式檔見本目錄改名後的 `觀止青樓CORE_V3.0.0.md`、`觀止青樓導演新法V3.0.0.md`、`觀止人物池(73人)V3.0.0.md`、`觀止青樓原生人物 ROUTE SAVE 模板.md`。
+**2026-10-31 最新接線：** 理火 **LIHUOOS V1.4.1**，內部 **L8 V1.3.1／L9 V1.2.2／Main V5.1.1＋V5.1.2 正式補丁**；R2 後依現行 L8 審查前提複數性，必要時 R3 跨前提競爭。OS 文件版號已更新，但不冒稱外部 Provider、Host、SAVE 及回歸測試已執行。配套正式檔見本目錄改名後的 `觀止青樓CORE_V3.0.0.md`、`觀止青樓導演新法V3.0.0.md`、`觀止人物池(73人)V3.0.0.md`、`觀止青樓原生人物 ROUTE SAVE 模板.md`。
 
 **歷史記錄說明：** 下列原始 2026-10-27 章節保留作遷移追溯，其舊 CURRENT OS／候選法位僅描述當日狀況，以上述 2026-10-29 最新法位與現行 OS 為準。
 
@@ -47,7 +47,7 @@
 | CORE VNext V0.5 | WORKING／非 CURRENT | 本次 V3.0.0 完整主文的直接前身 |
 | **CORE V3.0.0 FULL** | **2026-10-29 HUMAN_RATIFIED_DOCUMENT / NOT_RUNTIME_ACTIVATED** | **本批已批准；正式 CURRENT／Runtime 尚未啟動** |
 | 成人心法外掛 V0.1 | 2026-10-29 HUMAN_RATIFIED_DOCUMENT / NOT_RUNTIME_ACTIVATED | 方法卡與成人 CERI 留在插件，不重建 Adult OS |
-| LIHUOOS V1.4 | RATIFIED_CURRENT 文件法位 | V3.0.0 按 L0 V1.4、L8 V1.3、L9 V1.2.2、Main V5.1.1＋V5.1.2 接線 |
+| LIHUOOS V1.4.1 | RATIFIED_CURRENT 文件法位 | V3.0.0 按 L0 V1.4.1、L8 V1.3.1、L9 V1.2.2、Main V5.1.1＋V5.1.2 接線 |
 | 新生實習手冊 V1.0 | CURRENT_TRAINING／NON_NORMATIVE | Task Entry、NON-HOST、反過度審計作為行為教育 |
 | Director V4.1.2 | 舊正式導演正文 | 保留，待下一階段另建 Director 全文 |
 | Director VNext Migration Memo V0.1 | WORKING | 下一步導演改版的重要轉接參考 |
@@ -87,4 +87,6 @@
 
 ---
 
-**2026-10-29 最新交接句：** CORE、WORLD 主附、73 人人物池、Director、成人心法外掛與原生人物模板均已取得人類文件層批准，尚未正式啟動；接線 LIHUOOS V1.4／L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2；下一步是分別決定啟動和實際測試，而非重新編一個 Director 或第二個 OS。
+**2026-10-29 歷史交接句：** CORE、WORLD 主附、73 人人物池、Director、成人心法外掛與原生人物模板均已取得人類文件層批准，尚未正式啟動；接線 LIHUOOS V1.4／L8 V1.3／L9 V1.2.2／Main V5.1.1＋V5.1.2；下一步是分別決定啟動和實際測試，而非重新編一個 Director 或第二個 OS。
+
+**2026-10-31 現行補充：** CERI V1.0.1 已成為成人專項 mandatory dependency；`CERI AVAILABLE != CERI INVOKED != CERI COMPLETED != CERI EVIDENCED`。沒有完成且可回讀的 CERI_WORK_RECORD，不得直接進成人專項 manifestation。此鎖不建立第二套 Adult Cycle。
