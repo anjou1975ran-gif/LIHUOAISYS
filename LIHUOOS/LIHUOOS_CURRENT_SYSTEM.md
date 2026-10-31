@@ -27,6 +27,11 @@ CURRENT_SYSTEM:
     file: "V1版本/LIHUOOS_V1.4.2_BUGFIX_ACTIVATION_20261101.md"
     blob_sha: "b50f48c0198e03c0bcb47649431599fd652e5079"
 
+  activation_correction:
+    file: "V1版本/LIHUOOS_V1.4.2_ACTIVATION_HASH_CORRECTION_20261101.md"
+    commit: "f896cb3698a080aecf7f6707cbd480f3b081a918"
+    standing: APPEND_ONLY_HASH_CORRECTION
+
   current_system_base:
     file: "V1版本/正式版/理火OSV1.4.1版.md"
     blob_sha: "c9ffd378c467d085fc4266d6ace9a18539eb0615"
