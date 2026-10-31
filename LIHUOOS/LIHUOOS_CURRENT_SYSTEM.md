@@ -39,7 +39,7 @@ CURRENT_SYSTEM:
 
   current_map:
     file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.4.2.md"
-    blob_sha: "87a3983f62fa45c668c3c12f85c9cb3b0310e09b"
+    blob_sha: "25d694db9a4791bfb31231f37a043e284b4ca363"
 
   origin_record:
     file: "V1版本/LIHUO_ORIGIN_RECORD_FIRST_FIRE_20251126_20261028.md"
