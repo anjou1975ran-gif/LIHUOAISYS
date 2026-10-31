@@ -14,6 +14,7 @@ ACTIVATION:
     - V1_4_ORIGIN_IDENTITY_PRESERVED
     - L8_V1_3_1_CURRENT_OPERATIVE_LAYER
     - STRUCTURED_GENERATION_EVIDENCE_PERSISTENCE_ACTIVE
+    - SPECIALIZED_DEPENDENCY_EVIDENCE_HARDENING_ACTIVE
 
   human_approval:
     instruction: "OK 動手"
@@ -29,15 +30,15 @@ ACTIVATION:
   current:
     current_edition:
       file: "正式版/理火OSV1.4.1版.md"
-      blob_sha: "06268f59792d8842df118d9851b49977acbc423b"
+      blob_sha: "c9ffd378c467d085fc4266d6ace9a18539eb0615"
 
     current_l0:
       file: "L0_INDEX_SOURCE_VERSION_V1.4.1.md"
-      blob_sha: "23ff64988e6554b2eeeed598543a57b687a4a883"
+      blob_sha: "6a8e36fa996249a90f50e827b44aead590c88fa3"
 
     current_l8:
       file: "L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
-      blob_sha: "eca83be32333fc3ce6f78d12f686c453a371cb41"
+      blob_sha: "8f68fd0b522bee38eb0eee370365cd55a8a7d0a1"
       standing: CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE
 
   change_scope:
@@ -49,6 +50,7 @@ ACTIVATION:
     - COMPLETION_LOCK_WHEN_MATERIAL_EVIDENCE_NOT_PERSISTED
     - AUTO_EXPANDED_REPORT_FOR_HIGH_RISK_AUDIT_HOLD_FAILED_INCOMPLETE
     - APPEND_ONLY_AUDIT_PRINCIPLE
+    - REQUIRED_SPECIALIZED_DEPENDENCY_SGER_ACCOUNTING
 
   preserved:
     - V1_4_ORIGIN_IDENTITY_STANDING
@@ -170,3 +172,21 @@ MATERIAL MANIFESTATION DRIFT
 > **L8 不必保存模型的 hidden thought；L8 必須保存足以審計生成責任鏈的 governed evidence。**
 
 > **週期跑過，不等於證據留下；證據留下，不等於已永久外部保存。三者從 V1.4.1 起正式分開。**
+
+
+# 6｜2026-10-31 同日 Hardening 補記
+
+依人類後續指令，V1.4.1 同日補強：
+
+~~~text
+REQUIRED SPECIALIZED DEPENDENCY
+→
+MUST APPEAR IN SGER
+→
+MUST HAVE COMPLETED WORK STATUS
++
+AUDITABLE WORK RECORD
+WHEN MATERIAL TO SPECIALIZED MANIFESTATION
+~~~
+
+此補強沒有建立第二個 domain cycle，也沒有把 vertical method 升格為 L8 Owner。
