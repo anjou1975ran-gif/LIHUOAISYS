@@ -101,7 +101,7 @@ SAVE    → 依權限與實際持久化操作保存當線事實
 
 本版承接現行 OS V1.4.1 與實習手冊 V1.0 的入場紀律：**Task Entry／routing 發生在慣性回答以前，不在文段寫完後才補一套理火說明。**
 
-**2026-10-30 人類追加裁定：凡屬觀止 Runtime 中由 DIRECTOR 生成、續寫、推進或顯影的故事回合，每一回都必須先進入唯一 LIHUOOS L8 V1.3 完整工作週期。** 不得再以「普通茶席」「低風險」「低競爭」「只是接一句」「已知事實很簡單」為理由繞過整個 L8。CORE 負責把當輪 Route／Scene／Time／Established Delta 與有效未知送入 L8；DIRECTOR 只在 L8 到達適用 manifestation 位置後接手敘事顯影，**不因此取得 L8 調度權、治理權或 Main 選勝權**。
+**2026-10-30 人類追加裁定（歷史版本語義；現由 L8 V1.3.1 supersede）：凡屬觀止 Runtime 中由 DIRECTOR 生成、續寫、推進或顯影的故事回合，每一回都必須先進入唯一 LIHUOOS L8。** 不得再以「普通茶席」「低風險」「低競爭」「只是接一句」「已知事實很簡單」為理由繞過整個 L8。CORE 負責把當輪 Route／Scene／Time／Established Delta 與有效未知送入 L8；DIRECTOR 只在 L8 到達適用 manifestation 位置後接手敘事顯影，**不因此取得 L8 調度權、治理權或 Main 選勝權**。
 
 Task Entry 仍保留分類功能：它判斷來源、前提、成人專項、L9 能力及各步驟是否適用；**但對 Director 故事回合而言，Task Entry 不再提供「是否進 L8」的 bypass。** 低複雜回合可以由 L8 依自身規格把不適用的子步驟標為 `N/A`／`NOT_TRIGGERED`，不能把整個 L8 週期省略。純檔案查詢、版本維護、Git 操作與非故事性格式整理不屬於 Director 故事回合；一旦輸出要讓觀止世界「再走一步」，即視為 Director 故事回合。
 
@@ -369,7 +369,7 @@ ADULT CYCLE = NONE
 DIRECTOR CYCLE = NONE
 ```
 
-**2026-10-30 人類追加裁定：** 所有 Director 故事回合都先進唯一理火 L8 V1.3；普通招呼、聊天、宴席、商業議價與日常移動也不再整體 bypass L8。差別只在**當輪哪些 L8 子步驟實際適用**：成人性愛專門生成於同一 L8 的 manifestation 位置啟用 V1.0 B／C 專項，一般回合則不啟用成人專項；沒有第二套 Adult／Director Cycle。
+**2026-10-30 人類追加裁定（歷史版本語義；現行為 L8 V1.3.1）：** 所有 Director 故事回合都先進唯一理火 L8；普通招呼、聊天、宴席、商業議價與日常移動也不再整體 bypass L8。差別只在**當輪哪些 L8 子步驟實際適用**：成人性愛專門生成於同一 L8 的 manifestation 位置啟用現行 CERI V1.0.1 B／C 專項，一般回合則不啟用成人專項；沒有第二套 Adult／Director Cycle。
 
 ## 13.2｜V1.4.1 保留的 NON-HOST 入場與執行證據邊界
 
