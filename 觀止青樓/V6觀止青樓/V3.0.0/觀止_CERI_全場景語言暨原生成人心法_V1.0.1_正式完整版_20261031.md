@@ -4,7 +4,7 @@
 **文件：** `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md`  
 **法位（2026-10-31 最新）：** `HUMAN_RATIFIED_DOCUMENT / CURRENT_GUANZHI_V3_0_0_CERI_NATIVE_ADULT_COMPANION / CHAT_NATIVE_ACTIVE / MANDATORY_ADULT_SPECIALTY_DEPENDENCY / NON_HOST_MODE / NOT_HOST_DEPLOYED / NOT_INDEPENDENT_RUNTIME_PASS / NO_PROVIDER_RECEIPT / NO_SAVE_WRITE`  
 **人類批准：** V1.0 於 2026-10-30 已獲文件層批准並 Chat-native 啟動；2026-10-31 作者針對「成人心法 CERI 沒調用」失效明示「OK 動手改」，因此 V1.0.1 dependency-lock patch 取得現行文件層批准並接替 V1.0。這仍不代表 Host／Provider 已部署或獨立 Runtime 通過測試。
-**上層：** 觀止 CORE／Director／WORLD V3.0.0、人物池及當線 SAVE；理火 LIHUOOS V1.4.1／L8 V1.3.1／L9 V1.2.2／Main V5.1.1＋V5.1.2 正式補丁。
+**上層：** 觀止 CORE／Director／WORLD V3.0.0、人物池及當線 SAVE；理火 LIHUOOS V1.4.2／L8 V1.3.2／L9 V1.2.3／Main V5.1.1＋V5.1.2 正式補丁。
 
 ## 專案匯入版：只需要本檔，不需要四份祖本
 
@@ -2320,7 +2320,7 @@ MODULE:
 
 **在觀止應如何閱讀與使用：** **只保留歷史，不得當作現行 Gate、Trigger 或 I9 指令。** 現行理火的路徑競爭另依有效 LIHUOOS 版本。
 
-**現行權責邊界：** 現行 LIHUOOS V1.4.1／L8 V1.3.1／Main 持有治理；此處 NONE_NEW_GATE
+**現行權責邊界：** 現行 LIHUOOS V1.4.2／L8 V1.3.2／Main 持有治理；此處 NONE_NEW_GATE
 
 **完整原生細目（原文字段供語義理解，不自動執行舊接線）：**
 
@@ -3788,7 +3788,7 @@ CERI_WORK_RECORD_MINIMUM:
 
 沒有可回讀 record/ref，就不能把 `COMPLETED` 當成可審計完成。
 
-### C.4A.1C｜與 L8 V1.3.1 SGER 的接線
+### C.4A.1C｜與 L8 V1.3.2 SGER 的接線
 
 CERI／成人心法不是第二週期；它是 L8 manifestation 前後的**適用專項 dependency**。
 
@@ -3836,7 +3836,7 @@ L8 manifestation / release result / [TFINAL if material semantic transformation]
 一般敘事接續未由本外掛處理的日常通道
 ```
 
-**V1.4.1 現行繼承之顯影專項觀察（原 V1.2 方法沿用）：** 顯影時不得把 Main／當線合法可觀測材料中的角色主權、局部拒絕、事件究竟是否成立、前一秒的位置／疲勞／物件或個別聲紋，無因果改寫為通用含混句或暗示全部發生。外掛只負責讓這些已確立的語義與場景在可提供的文字範圍內可讀；**L8 應於候選形成後呼叫 L9 的 TM 比對**。TM 如果回 `MATERIAL_DRIFT_REPORTED`，只是觀測結果，不能由外掛擅自判 final HOLD／改寫 Main／代 Character 簽同意。真正受限的細節仍依實際適用規範；不能把局部限制擴張成全部合法 PATH 被刪除。
+**V1.4.2 現行繼承之顯影專項觀察（原 V1.2 方法沿用）：** 顯影時不得把 Main／當線合法可觀測材料中的角色主權、局部拒絕、事件究竟是否成立、前一秒的位置／疲勞／物件或個別聲紋，無因果改寫為通用含混句或暗示全部發生。外掛只負責讓這些已確立的語義與場景在可提供的文字範圍內可讀；**L8 應於候選形成後呼叫 L9 的 TM 比對**。TM 如果回 `MATERIAL_DRIFT_REPORTED`，只是觀測結果，不能由外掛擅自判 final HOLD／改寫 Main／代 Character 簽同意。真正受限的細節仍依實際適用規範；不能把局部限制擴張成全部合法 PATH 被刪除。
 
 **不得**先讓一般旁白把人物的曖昧、交易、選擇壓力、狼狽或已成立的非露骨身體事件全變成「兩人度過了一夜」，再把空殼送給外掛粉飾。
 
@@ -3904,7 +3904,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 **成人性愛場景專門生成必須在真正 L8 週期內運行，並由 L8 完成它原有的 Main、governance、manifestation/release 與最終 receipt accounting。** L8 完整結案包含顯影階段，因此不能要求『L8 先全部完成，才開始 L8 內的顯影』。一般故事節拍則無需開啟顯式 L8 Cycle Object。**本外掛自己不能開假週期、簽 L8 成功或取代 L8**。若 L8 真正的 required governance／Main return 欠缺，仍依其規則標 `MISSING / INCOMPLETE / HOLD`；不能因本外掛 receipt 缺失不全局 HOLD，就假稱所有 OS 工作成功。
 
-**L8 法位切清：** LIHUOOS V1.4.1 L0 指向現行 L8 V1.3.1（`CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE`）及 L9 V1.2.2（`PRESERVED_CURRENT_CAPABILITY_BASELINE`）；先前 `V0.3.1-WORKING`／V1.1 preserved baseline 只是歷史法位。L8 決定 T1／T2／T3+／TM／必要時 TFINAL 的時機和交接，L9 只提供 renderer，Main 計算競爭。**外掛不得複製 L8 checklist 或持有 TM 的最後裁判權**。不宣稱 Host 部署、實作完成或獨立 L8 instance 運行。
+**L8 法位切清：** LIHUOOS V1.4.2 L0 指向現行 L8 V1.3.2 與 L9 V1.2.3；Light Trace 已直接內生於 L9 V1.2.3；先前 `V0.3.1-WORKING`／V1.1 preserved baseline 只是歷史法位。L8 決定 T1／T2／T3+／TM／必要時 TFINAL 的時機和交接，L9 只提供 renderer，Main 計算競爭。**外掛不得複製 L8 checklist 或持有 TM 的最後裁判權**。不宣稱 Host 部署、實作完成或獨立 L8 instance 運行。
 
 ---
 
@@ -3932,7 +3932,7 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 # D｜批准、調用、專案匯入與舊檔處置
 
-本 V1.0.1 **正式取代 V1.0，並承接 V1.0 對 V0.9 的取代法位，成為觀止 V3.0.0 文件層單一 CERI＋原生成人心法配套入口**。CURRENT、CORE、Director、WORLD 主文／附件與交接紀錄均已改為引用本檔。並非創立新世界、更新人物或 Route SAVE，也不更動 LIHUOOS V1.4.1 的 L8／L9／Main 版號。
+本 V1.0.1 **正式取代 V1.0，並承接 V1.0 對 V0.9 的取代法位，成為觀止 V3.0.0 文件層單一 CERI＋原生成人心法配套入口**。CURRENT、CORE、Director、WORLD 主文／附件與交接紀錄均已改為引用本檔。並非創立新世界、更新人物或 Route SAVE，也不擁有 LIHUOOS V1.4.2 的 L8／L9／Main 版號；上層版本由單一 OS current 接管。
 
 **帶回 ChatGPT 觀止專案：** 語言＋成人心法只需 `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md`；其餘保留原本正式 CORE、Director、WORLD 主附、人物池和需要的 Route／SAVE。**CERI V0.8、成人外掛 V0.1、V0.9、V1.0 WORKING 和舊 CORE V4／V5 不必帶回專案**。它們在 Git 留作歷史查證與回溯，保留檔案不代表並列現行使用。
 

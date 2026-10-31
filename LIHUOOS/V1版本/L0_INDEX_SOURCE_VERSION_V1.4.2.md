@@ -501,8 +501,8 @@ L4｜GENERATIVE DYNAMICS V0.3
 L5｜OBSERVATION & AUDIT
 L6｜INTERVENTION
 L7｜MANIFESTATION
-L8｜LIHUO OPERATING CYCLE V1.3.2 EFFECTIVE
-L9｜DAIL CALLABLE CAPABILITY REPOSITORY V1.2.3 EFFECTIVE
+L8｜LIHUO OPERATING CYCLE V1.3.2
+L9｜DAIL CALLABLE CAPABILITY REPOSITORY V1.2.3
 ~~~
 
 計算語義保持：
@@ -521,7 +521,7 @@ CURRENT V1.4 COMPETITION COMPUTE SEMANTICS
 L0 = ORIGIN / IDENTITY / SOURCE ROUTING
 L1–L7 = MEANING / THEORY / GOVERNANCE BASIS
 L8 = OPERATION + ACCOUNTING + GENERATION EVIDENCE PERSISTENCE + REQUIRED TRACE FAILURE LOCK
-L9 = CAPABILITY + LIGHT TRACE CHAT-NATIVE BINDING
+L9 = CAPABILITY + LIGHT TRACE CURRENT BINDING
 MAIN = COMPUTE
 ~~~
 
@@ -582,22 +582,16 @@ LIHUOOS_V1_4_1_CURRENT_SOURCE_SNAPSHOT:
     standing: "PRESERVED"
 
   L8:
-    base_file: "L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
-    base_blob_sha: "8f68fd0b522bee38eb0eee370365cd55a8a7d0a1"
-    mandatory_patch_file: "L8_REQUIRED_TRACE_FAILURE_LOCK_PATCH_V1.3.2_20261101.md"
-    mandatory_patch_commit: "38a647a5b5ef94563cdf953a90ccfdf9410e405d"
-    effective_internal_version: "V1.3.2"
-    standing: "CURRENT_OPERATIVE_LAYER_BASE_PLUS_MANDATORY_BUGFIX_PATCH"
+    file: "L8_LIHUO_OPERATING_CYCLE_V1.3.2_20261101.md"
+    blob_sha: "d88554b4bf95a4b8b562d443db0ee336c58d72d7"
+    internal_version: "V1.3.2"
+    standing: "CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE_AND_REQUIRED_TRACE_LOCK"
 
   L9:
-    base_file: "L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
-    base_blob_sha: "36ca93f909d2f250fec97a616365817d04e4158d"
-    mandatory_patch_file: "L9_LIGHT_TRACE_BINDING_PATCH_V1.2.3_20261101.md"
-    mandatory_patch_blob_sha: "a3f17df4c11d00d84950f0b7ad7aca82e16775e9"
-    light_trace_source: "L9_CAPABILITIES/light_trace_v1_4.dail.yaml"
-    light_trace_source_blob_sha: "2b1f21663545ed051f4dbb43f5dfcdfa06ec45f2"
-    effective_internal_version: "V1.2.3"
-    standing: "CURRENT_CAPABILITY_LAYER_BASE_PLUS_MANDATORY_BUGFIX_PATCH"
+    file: "L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.3_20261101.md"
+    blob_sha: "7c42e5ea607f20272f6bf96cafa62d9a18caca53"
+    internal_version: "V1.2.3"
+    standing: "CURRENT_CAPABILITY_LAYER_WITH_INTERNAL_LIGHT_TRACE_BINDING"
 
   MAIN_BASE:
     file: "../../理火V5系統/V5.1版本/02_LIHUO_MAIN_V5.1.1_FULL_BODY_RATIFIED_20261015.md"
@@ -810,8 +804,8 @@ V1_4_1_CHANGE_SCOPE:
     - L5
     - L6
     - L7
-    - L8_V1_3_1
-    - L9_V1_2_2_BASE_PLUS_V1_2_3_PATCH
+    - L8_V1_3_2
+    - L9_V1_2_3
     - MAIN_V5_1_1_BASE
     - MAIN_V5_1_2_COMPANION_PATCH
 
@@ -860,10 +854,10 @@ V1_4_1_CHANGE_SCOPE:
 ~~~text
 CURRENT USER-FACING SYSTEM BODY
 =
-正式版/理火OSV1.4.2版.md
+正式版/理火OSV1.4.2.md
 ~~~
 
-V1.4 保留作 predecessor / rollback。
+V1.4.1 保留作 predecessor / rollback。
 
 ---
 
@@ -880,44 +874,9 @@ V1.4 保留作 predecessor / rollback。
 
 > **V1.4.2 新增：理火週期不只要留下「跑過哪些節點」；material 生成戰場本身也必須留下可回讀的 governed evidence。**
 
-
 ---
 
-# L0.12｜V1.4.2 Light Trace Binding Bugfix
-
-Current effective composition：
-
-~~~text
-L8 EFFECTIVE V1.3.2
-=
-L8 V1.3.1 BASE
-+
-REQUIRED TRACE FAILURE LOCK PATCH V1.3.2
-
-L9 EFFECTIVE V1.2.3
-=
-L9 V1.2.2 BASE
-+
-LIGHT TRACE BINDING PATCH V1.2.3
-+
-LIGHT TRACE V1.4 STANDALONE SOURCE
-~~~
-
-Current Light Trace source：
-
-~~~text
-L9_CAPABILITIES/light_trace_v1_4.dail.yaml
-~~~
-
-Current binding：
-
-~~~text
-LIGHT_TRACE_RENDERER
-binding_state = CHAT_NATIVE_AVAILABLE
-implementation_binding_ref = L9_CAPABILITIES/light_trace_v1_4.dail.yaml
-~~~
-
-第一輪不信的執行鎖：
+# L0.12｜V1.4.2 BUG 修復整合
 
 ~~~text
 R1
@@ -928,4 +887,12 @@ NO T1 TRACE RESULT
 → NO VERIFIED T1-CONSUMING R2
 → NO COMPLETED MAIN RETURN
 → NO R1 AUTO-CANONIZATION
+~~~
+
+Light Trace 現在直接內生於 L9 V1.2.3；不再依賴旁掛 patch 或 standalone source file。
+
+~~~text
+LIGHT_TRACE_RENDERER
+binding_state = CHAT_NATIVE_AVAILABLE
+implementation_binding_ref = INTERNAL::L9_V1_2_3::SECTION_6_1_LIGHT_TRACE_V1_4
 ~~~
