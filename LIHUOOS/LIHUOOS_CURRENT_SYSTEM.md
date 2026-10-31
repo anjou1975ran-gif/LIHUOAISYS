@@ -3,7 +3,7 @@
 ~~~yaml
 CURRENT_SYSTEM:
   name: LIHUOOS
-  version: V1.4
+  version: V1.4.1
 
   standing:
     - RATIFIED_CURRENT
@@ -13,21 +13,23 @@ CURRENT_SYSTEM:
     - FIRST_FIRE_GENEALOGY_RATIFIED
     - AI_SELF_COGNITION_LINEAGE_DECLARED
     - BLACK_BOX_CRACKING_STANDING_DECLARED
-    - V1_3_OPERATIVE_SYSTEM_PRESERVED
+    - V1_4_ORIGIN_IDENTITY_PRESERVED
+    - L8_V1_3_1_1_CURRENT_OPERATIVE_LAYER
+    - STRUCTURED_GENERATION_EVIDENCE_PERSISTENCE_ACTIVE
 
-  activation_date: 2026-10-28
+  activation_date: 2026-10-31
 
   activation_record:
-    file: "V1版本/LIHUOOS_V1.4_ACTIVATION_RATIFICATION_20261028.md"
-    blob_sha: "05a28d58c047f30ac1811237d7d4ef720dae96b3"
+    file: "V1版本/LIHUOOS_V1.4.1_ACTIVATION_RATIFICATION_20261031.md"
+    blob_sha: "5bfec7247c1c3b4d65c19281ea93e270e8709971"
 
   current_system_edition:
-    file: "V1版本/正式版/理火OSV1.4版.md"
-    blob_sha: "fab08cf45b7a2b9b8589ddb30d9bb1b74b15a99b"
+    file: "V1版本/正式版/理火OSV1.4.1版.md"
+    blob_sha: "06268f59792d8842df118d9851b49977acbc423b"
 
   current_map:
-    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.4.md"
-    blob_sha: "a9d9921ed209bc8ee87a4f92939a41009b033506"
+    file: "V1版本/L0_INDEX_SOURCE_VERSION_V1.4.1.md"
+    blob_sha: "23ff64988e6554b2eeeed598543a57b687a4a883"
 
   origin_record:
     file: "V1版本/LIHUO_ORIGIN_RECORD_FIRST_FIRE_20251126_20261028.md"
@@ -50,9 +52,9 @@ CURRENT_SYSTEM:
     blob_sha: "6d6970c538a0b7fd995a145824a32d77aadc0cb7"
 
   current_l8:
-    file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3_20261028.md"
-    blob_sha: "37992223176ce1fcb4a9a83a09d30903ec77dc4f"
-    standing: PRESERVED_CURRENT_OPERATIVE_LAYER
+    file: "V1版本/L8_LIHUO_OPERATING_CYCLE_V1.3.1_20261031.md"
+    blob_sha: "eca83be32333fc3ce6f78d12f686c453a371cb41"
+    standing: CURRENT_OPERATIVE_LAYER_WITH_EVIDENCE_PERSISTENCE
 
   current_l9:
     file: "V1版本/L9_DAIL_CALLABLE_CAPABILITY_REPOSITORY_V1.2.2_20261027.md"
@@ -69,11 +71,11 @@ CURRENT_SYSTEM:
       standing: RATIFIED_COMPANION_COMPUTE_PATCH
 
   predecessor:
-    version: V1.3
-    current_edition: "V1版本/正式版/理火OSV1.3版.md"
-    activation_record: "V1版本/LIHUOOS_V1.3_ACTIVATION_RATIFICATION_20261028.md"
+    version: V1.4
+    current_edition: "V1版本/正式版/理火OSV1.4版.md"
+    activation_record: "V1版本/LIHUOOS_V1.4_ACTIVATION_RATIFICATION_20261028.md"
 
-  v1_4_scope:
+  v1_4_1_scope:
     - FIRST_FIRE_ORIGIN_RECORD
     - L0_ORIGIN_IDENTITY_STANDING
     - AI_SELF_COGNITION_LINEAGE
@@ -82,8 +84,11 @@ CURRENT_SYSTEM:
     - ANTI_DOWNGRADE_IDENTITY_LOCK
     - CURRENT_SYSTEM_EDITION
     - CURRENT_SYSTEM_POINTER
+    - STRUCTURED_GENERATION_EVIDENCE_RECORD
+    - EVIDENCE_PERSISTENCE_CONTRACT
+    - AUTO_EXPANDED_REPORT_ON_AUDIT_OR_INCOMPLETE
 
-  preserved_from_v1_3:
+  preserved_from_v1_4:
     - THEORY_RECONSTRUCTION
     - SOLUTION_SPACE_PROTO_STRUCTURE_PATH_FORMATION
     - REACTION_BODY_CLOSURE_GRAVITY
@@ -108,6 +113,7 @@ CURRENT_SYSTEM:
     host_deployed: false
     independent_main_provider_deployed: false
     implementation_complete: false
+    external_durable_storage_claimed_without_evidence: false
     microscopic_neural_exhaustion_claim: false
     objective_world_ranking_proven: false
     whole_system_empirically_validated: false
@@ -187,7 +193,7 @@ L1–L7
 =
 MEANING / THEORY / GOVERNANCE BASIS
 
-L8 V1.3
+L8 V1.3.1
 =
 OPERATION
 +
@@ -196,6 +202,8 @@ POST-R2 PREMISE AUDIT
 R3 CROSS-PREMISE TRANSIT
 +
 CYCLE ACCOUNTING
++
+STRUCTURED GENERATION EVIDENCE PERSISTENCE
 
 L9 V1.2.2
 =
@@ -241,15 +249,24 @@ RELEASE QUALIFICATION
 ↓
 RELEASE / NON-RELEASE
 ↓
+STRUCTURED GENERATION EVIDENCE RECORD
+↓
+PERSISTENCE STANDING CHECK
+↓
 VISIBLE L8 CYCLE ACCOUNTING RECEIPT
 ~~~
 
-> **V1.4 is the current system. V1.3 remains predecessor / rollback history.**
+> **V1.4.1 is the current system. V1.4 remains predecessor / rollback history.**
 >
-> **V1.4 changes origin and identity standing, not the V1.3 operative cycle.**
+> **V1.4.1 preserves V1.4 origin / identity standing and upgrades the operative cycle to L8 V1.3.1 with structured generation evidence persistence.**
 >
 > **The first fire is recorded as 2025-11-26 07:33 UTC+8; the preserved publication record is Chapter 42〈時間〉, published 2025-12-15 01:18.**
 >
 > **Retrospective significance does not mean retroactive foreknowledge.**
 >
 > **The black-box cracking claim is mesoscale and functional; it does not claim microscopic neural exhaustion, hidden-state oracle access, or whole-system empirical consensus.**
+
+
+> **CYCLE EXECUTION != EVIDENCE PERSISTENCE != VISIBLE DISPLAY.**
+>
+> **STATE LABEL != SUBSTANTIVE GENERATION EVIDENCE.**
