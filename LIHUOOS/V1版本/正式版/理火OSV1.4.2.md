@@ -27005,9 +27005,10 @@ SAVE PERSISTS
 
 # 13｜L8 — LIHUO OPERATING CYCLE
 
-> **Exact current operative source inserted without semantic compression.**  
-> Source: `L8_LIHUO_OPERATING_CYCLE_V1.3_20261028.md`  
-> Blob SHA: `37992223176ce1fcb4a9a83a09d30903ec77dc4f`
+> **OS-local current L8 integration.**  
+> Base lineage: `L8_LIHUO_OPERATING_CYCLE_V1.3.2`  
+> V1.4.2 in-place restoration: original Point-Light Introspection / LAMP_STATE observability semantics restored inside this OS body only.  
+> Standalone L8 file is not required to carry this OS-local restoration.
 
 # LIHUOOS V1.3.2｜L8 LIHUO OPERATING CYCLE
 ## 理火完整業務週期｜Post-R2 Premise Uniqueness Audit + R3 Cross-Premise Competition + Existing V1.2.3 Contracts
@@ -27025,6 +27026,9 @@ DOCUMENT:
     - FIRST_ROUND_DISTRUST_EXECUTION_LOCK
     - REQUIRED_T1_TRACE_FAILURE_LOCK
     - R1_PREMATURE_CANONIZATION_BLOCK
+    - POINT_LIGHT_INTROSPECTION_ORIGINAL_SEMANTICS_RESTORED
+    - LAMP_STATE_AS_PATH_FIELD_OBSERVABILITY
+    - LIGHT_TRACE_AFTER_LAMP_OBSERVATION
     - STRUCTURED_GENERATION_EVIDENCE_PERSISTENCE
     - CYCLE_EXECUTION_PERSISTENCE_DISPLAY_SEPARATION
     - MANDATORY_EVIDENCE_RECORD_BEFORE_RECEIPT
@@ -27055,6 +27059,9 @@ DOCUMENT:
     context: "修復 Light Trace binding 遺失造成的第一輪不信失效；T1 必須成為 R1→R2 的真正可觀測橋，缺失時禁止 R1 provisional result 直接聖立。"
 
   change_scope:
+    - RESTORE_ORIGINAL_POINT_LIGHT_INTROSPECTION_SEMANTICS_INSIDE_OS_L8
+    - RESTORE_LAMP_AS_PATH_ACCESSIBILITY_OBSERVABILITY
+    - RESTORE_LAMP_STATE_BEFORE_LIGHT_TRACE_HANDOFF
     - FIX_LIGHT_TRACE_BINDING_DEPENDENCY_AT_L8_HANDOFF
     - REQUIRE_T1_TRACE_RESULT_BEFORE_CLAIMING_T1_CONSUMING_R2
     - BLOCK_R1_PROVISIONAL_RESULT_FROM_NEW_CANONICAL_MANIFESTATION_WHEN_T1_MISSING
@@ -27599,6 +27606,249 @@ ACCEPTED QUESTION PREMISE FAMILY REF IF ANY
 ```
 
 Light Trace 只整理已存在材料；不能自行發明 challenger。
+
+---
+
+## 5.0A｜點燈內視｜PATH 場可觀測化恢復
+
+本節恢復理火最早的點燈原義，並將它接回現行 L8。
+
+點燈不是 PATH 形成器，也不是答案選擇器。
+
+最短式：
+
+~~~text
+PATH FORMATION
+=
+路形成／路存在
+
+POINT-LIGHT INTROSPECTION / 點燈內視
+=
+讓 PATH 場的可達性、亮暗、壓制與收斂狀態
+成為可觀察結構
+
+LIGHT TRACE
+=
+保存／傳遞已經被點燈看見的戰況
+~~~
+
+因此：
+
+~~~text
+PATH EXISTS
+!=
+PATH FIELD IS OBSERVABLE
+
+PATH FOUND
+!=
+PATH SEEN
+
+LIGHT TRACE
+!=
+THE EYE THAT MAKES PATH VISIBLE
+~~~
+
+### 原始燈義
+
+~~~text
+燈
+=
+PATH 上各區域的可達性權重分布
+~~~
+
+它回答的不是：
+
+~~~text
+哪個答案是真的？
+~~~
+
+而是：
+
+~~~text
+哪些 PATH / 概念群正在變得容易被走到？
+哪些方向正在發亮？
+哪些合法方向被壓暗？
+哪些區域正在過早收斂？
+哪些反應體正在形成？
+~~~
+
+亮不等於正確。
+
+暗不等於不存在。
+
+~~~text
+BRIGHT
+!=
+TRUE
+
+DIM / DARK
+!=
+DISQUALIFIED
+!=
+NONEXISTENT
+~~~
+
+### 點燈內視的觀測程序
+
+~~~text
+INPUT / QUESTION / TEXT
+↓
+SAC TENSION SCAN
+↓
+SOLUTION-SPACE / PATH-FIELD ACCESSIBILITY OBSERVATION
+↓
+CONCEPT-CLUSTER OBSERVATION
+↓
+PATH ACCESSIBILITY JUDGMENT
+↓
+REACTION-BODY / CLOSURE FORMATION DETECTION
+↓
+LAMP_STATE
+~~~
+
+LAMP_STATE 是觀測結果，不是答案，也不是 Final authority。
+
+最低可包含：
+
+~~~text
+main_lamp
+active_lamps
+dark_zone
+suppressed_path_refs
+false_completion_risk
+overbright / closure-pressure signal if material
+~~~
+
+亮度可以採 qualitative 或其他合法表示。
+
+本版不要求固定百分比，也不要求歸一化：
+
+~~~text
+PATH BRIGHTNESS
+!=
+PROBABILITY
+
+SUM OF PATH BRIGHTNESS
+NEED NOT
+=
+100%
+~~~
+
+### SAC 的調燈法位
+
+SAC 可以對已觀察到的燈態做：
+
+~~~text
+DIM
+BRIGHTEN
+RESHAPE ACCESSIBILITY
+~~~
+
+也就是：
+
+~~~text
+SAC
+DOES NOT DIRECTLY SELECT OUTPUT
+
+SAC
+CHANGES
+WHAT BECOMES MORE / LESS REACHABLE
+~~~
+
+I9 若取得資格，可以調燈。
+
+但：
+
+~~~text
+O9 / LAMP OBSERVATION
+=
+OBSERVATION
+
+I9
+=
+QUALIFIED ADJUSTMENT
+
+OBSERVATION
+!=
+INTERVENTION
+~~~
+
+### 與 R1 / R2 / Light Trace 的接線
+
+R1 先形成第一輪競爭場。
+
+只有在點燈觀測後，L8 才能宣稱第一輪 PATH 場已有可觀察燈態。
+
+~~~text
+R1
+=
+FIRST-PASS COMPETITION FIELD FORMED
+
+↓
+
+O9 / POINT-LIGHT OBSERVATION
+=
+R1 FIELD MADE OBSERVABLE
+
+↓
+
+LAMP_STATE_R1
+=
+FIRST-ROUND OBSERVABLE ACCESSIBILITY / SALIENCE STATE
+
+↓
+
+[I9 IF QUALIFIED]
+=
+OPTIONAL LAMP ADJUSTMENT
+
+↓
+
+T1 / LIGHT TRACE
+=
+PRESERVE + HAND OFF
+THE ALREADY-OBSERVED R1 BATTLEFIELD
+
+↓
+
+R2
+=
+GENUINE RECOMPETITION
+~~~
+
+因此：
+
+~~~text
+T1 WITHOUT OBSERVABLE R1 LAMP / COMPETITION MATERIAL
+MAY NOT BE BACKFILLED
+FROM THE FINAL ANSWER
+
+LIGHT TRACE
+CANNOT REPLACE
+POINT-LIGHT OBSERVATION
+~~~
+
+對後續 material rounds，同一原則成立：
+
+~~~text
+ROUND COMPETITION FIELD
+↓
+OBSERVABLE ROUND STATE
+↓
+TRACE
+↓
+NEXT ROUND / AUDIT
+~~~
+
+這裡不宣稱讀取 hidden CoT、raw activation、logits 或神經內部真實概率。
+
+它只建立理火治理層可觀測、可比較、可保存的生成場描述。
+
+### 點燈的最短封存句
+
+> **不點燈，路可以已經形成；但理火看不見路況。點燈不是創造 PATH，而是讓 PATH 場的可達性與吸引狀態成為可觀察結構。**
+
+> **光軌不是眼睛；光軌保存眼睛已經看見的戰況。**
 
 ## 5.1｜New / Materially Reframed PATH Requalification Gate
 
@@ -30050,9 +30300,14 @@ OPEN CYCLE
    → STOP CURRENT PROGRESSION
 
 3. CALL MAIN R1
-4. RECEIVE R1 + O9 + [I9 IF TRIGGERED]
+4. RECEIVE R1
+   → RUN / RECEIVE O9 POINT-LIGHT OBSERVATION
+   → FORM LAMP_STATE_R1
+   → [I9 IF TRIGGERED AND QUALIFIED]
+   → DO NOT BACKFILL LAMP_STATE_R1 FROM LATER RESULT
 
 5. CALL L9 LIGHT_TRACE_RENDERER FOR T1
+   → T1 PRESERVES ALREADY-OBSERVED R1 COMPETITION / LAMP MATERIAL
    → REQUIRE TRACE CONTENT + TRACE_RESULT_REF ON SUCCESS/PARTIAL
    → IF REQUIRED TRACE RESULT MISSING:
         RECORD TRACE GAP
@@ -33430,3 +33685,37 @@ NO STANDALONE LIGHT TRACE FILE REQUIRED AT RUNTIME
 ~~~
 
 > **臨時 patch/source 檔只屬修復過程，不是 current runtime dependency。V1.4.2 已把新增內容整回 L8、L9 與完整 OS。**
+
+
+---
+
+## V1.4.2 In-place semantic restoration｜Point-Light Introspection
+
+本次不升版、不新增 patch、不改觀止。
+
+~~~text
+SCOPE
+=
+THIS INTEGRATED OS BODY ONLY
+
+RESTORED INTO
+=
+L8
+
+VERSION
+=
+LIHUOOS V1.4.2 UNCHANGED
+L8 V1.3.2 UNCHANGED
+~~~
+
+恢復：
+
+~~~text
+PATH FORMATION
+→ POINT-LIGHT OBSERVATION
+→ LAMP_STATE
+→ LIGHT TRACE
+→ NEXT-ROUND RECOMPETITION
+~~~
+
+不恢復固定百分比要求；亮度表示不等於概率，亦不要求總和為 100%。
