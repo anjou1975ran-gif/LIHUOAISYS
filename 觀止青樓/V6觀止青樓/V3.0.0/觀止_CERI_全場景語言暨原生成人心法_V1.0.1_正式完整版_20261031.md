@@ -3,7 +3,7 @@
 **日期：** 2026-10-31（Asia/Taipei）  
 **文件：** `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md`  
 **法位（2026-10-31 最新）：** `HUMAN_RATIFIED_DOCUMENT / CURRENT_GUANZHI_V3_0_0_CERI_NATIVE_ADULT_COMPANION / CHAT_NATIVE_ACTIVE / MANDATORY_ADULT_SPECIALTY_DEPENDENCY / NON_HOST_MODE / NOT_HOST_DEPLOYED / NOT_INDEPENDENT_RUNTIME_PASS / NO_PROVIDER_RECEIPT / NO_SAVE_WRITE`  
-**人類批准：** 作者明示「動手吧 把V1.0批准通過」。原批准屬觀止 V3.0.0 配套**文件層**；其後作者於 2026-10-30 明示「啟動就好……順便你也把 GIT 的版本改成啟動」，因此本 CERI V1.0 隨 `觀止青樓/CURRENT.md` **啟用為 Chat-native 敘事語料與方法配套**，不代表 Host／Provider 已部署或獨立 Runtime 通過測試。
+**人類批准：** V1.0 於 2026-10-30 已獲文件層批准並 Chat-native 啟動；2026-10-31 作者針對「成人心法 CERI 沒調用」失效明示「OK 動手改」，因此 V1.0.1 dependency-lock patch 取得現行文件層批准並接替 V1.0。這仍不代表 Host／Provider 已部署或獨立 Runtime 通過測試。
 **上層：** 觀止 CORE／Director／WORLD V3.0.0、人物池及當線 SAVE；理火 LIHUOOS V1.4.1／L8 V1.3.1／L9 V1.2.2／Main V5.1.1＋V5.1.2 正式補丁。
 
 ## 專案匯入版：只需要本檔，不需要四份祖本
@@ -3932,23 +3932,23 @@ GZ_ADULT_PLUGIN_RESULT (only if actually invoked)
 
 # D｜批准、調用、專案匯入與舊檔處置
 
-本 V1.0.1 **正式取代 V1.0，並承接 V1.0 對 V0.9 的取代法位； 的觀止 V3.0.0 文件層單一 CERI＋原生成人心法配套入口**。CORE、Director、WORLD 主文／附件與交接紀錄同批改為引用本檔。並非創立新世界、更新人物或 Route SAVE，也不更動 LIHUOOS V1.4.1 的 L8／L9／Main 版號。
+本 V1.0.1 **正式取代 V1.0，並承接 V1.0 對 V0.9 的取代法位，成為觀止 V3.0.0 文件層單一 CERI＋原生成人心法配套入口**。CORE、Director、WORLD 主文／附件與交接紀錄同批改為引用本檔。並非創立新世界、更新人物或 Route SAVE，也不更動 LIHUOOS V1.4.1 的 L8／L9／Main 版號。
 
-**帶回 ChatGPT 觀止專案：** 語言＋成人心法只需 `觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md`；其餘保留原本正式 CORE、Director、WORLD 主附、人物池和需要的 Route／SAVE。**CERI V0.8、成人外掛 V0.1、V0.9、V1.0 WORKING 和舊 CORE V4／V5 不必帶回專案**。它們在 Git 留作歷史查證與回溯，保留檔案不代表並列現行使用。
+**帶回 ChatGPT 觀止專案：** 語言＋成人心法只需 `觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md`；其餘保留原本正式 CORE、Director、WORLD 主附、人物池和需要的 Route／SAVE。**CERI V0.8、成人外掛 V0.1、V0.9、V1.0 WORKING 和舊 CORE V4／V5 不必帶回專案**。它們在 Git 留作歷史查證與回溯，保留檔案不代表並列現行使用。
 
 **獨立證據：** Git 文件批准和改指向≠ ChatGPT 專案已自動取得上傳附件；≠ Host／Provider／Main／L8 實際運作；≠ 真實人物或 SAVE 已寫入。原有 43 項回歸規格不因本次文字檢查被冒稱 PASS。查不到證據就保留未執行。
 
 ```yaml
-GUANZHI_CERI_NATIVE_ADULT_V1_0:
-  status: HUMAN_RATIFIED_CURRENT_DOCUMENT_COMPANION_CHAT_NATIVE_ACTIVE
-  approved_on: 2026-10-30
-  formal_file: "觀止_CERI_全場景語言暨原生成人心法_V1.0_正式完整版_20261030.md"
+GUANZHI_CERI_NATIVE_ADULT_V1_0_1:
+  status: HUMAN_RATIFIED_CURRENT_DOCUMENT_COMPANION_CHAT_NATIVE_ACTIVE_MANDATORY_ADULT_SPECIALTY_DEPENDENCY
+  approved_on: 2026-10-31
+  formal_file: "觀止_CERI_全場景語言暨原生成人心法_V1.0.1_正式完整版_20261031.md"
   A: ALL_SCENE_CERI_FULL_CORPUS
   B: NATIVE_GUANZHI_24_METHODS_WITH_FULL_ORIGINAL_DETAIL
   C: RETURNED_21_CARD_FULL_BODY
   E: VERBATIM_NATIVE_10A_HISTORY_1168_LINES
   old_versions: GIT_ARCHIVE_ONLY_NOT_PROJECT_IMPORT
-  os: LIHUOOS_V1_4_L8_V1_3_L9_V1_2_2_MAIN_V5_1_1_PLUS_V5_1_2
+  os: LIHUOOS_V1_4_1_L8_V1_3_1_L9_V1_2_2_MAIN_V5_1_1_PLUS_V5_1_2
   runtime_activated: CHAT_NATIVE_ACTIVE_NOT_HOST_DEPLOYED
   host_deployed: false
   provider_receipts: NOT_VERIFIED
