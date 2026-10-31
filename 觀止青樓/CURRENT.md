@@ -32,3 +32,23 @@
 倉庫頂層 `01_GUANZHI_RUNTIME_CORE_V4.1.2...`、`03_GUANZHI_DIRECTOR_V4.1.2...` 等舊版文件作為歷史版本保留，不再充當本次 Chat-native 觀止的 CURRENT。VNext／V0.x 亦只作追溯來源。版本指向以本 CURRENT 為入口，應再依後續人類批准更新。
 
 **本檔是 Git 倉庫公開可檢查的 CURRENT 文件指標；文件操作不能直接控制外部 Host Runtime。**
+
+
+## 2026-11-01 Light Trace bugfix current override
+
+現行執行指向：
+
+~~~text
+LIHUOOS V1.4.2
+effective L8 V1.3.2
+effective L9 V1.2.3
+LIGHT_TRACE_RENDERER = CHAT_NATIVE_AVAILABLE
+~~~
+
+若本 V3.0.0 組件中仍有形成於 2026-10-31 的文字標示 V1.4.1 / L8 V1.3.1 / L9 V1.2.2，該字樣保留為形成時版本紀錄；**現行執行法位以本 CURRENT、CORE、Director 與 LIHUOOS current map 的 V1.4.2 指向為準。**
+
+~~~text
+NO T1 TRACE RESULT
+→ NO VERIFIED T1-CONSUMING R2
+→ NO R1 AUTO-CANONIZATION
+~~~
