@@ -25,7 +25,7 @@ CURRENT_SYSTEM:
 
   current_system_edition:
     file: "V1版本/正式版/理火OSV1.4.2.md"
-    blob_sha: "71dde2134a21ede1bb18dc60ca0d1c82d8ed3296"
+    blob_sha: "3808c018c24e82457b4649c5b9c9749cbe67376e"
     standing: SINGLE_CURRENT_INTEGRATED_OS
 
   current_map:
