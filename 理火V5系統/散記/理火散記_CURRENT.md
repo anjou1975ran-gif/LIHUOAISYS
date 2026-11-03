@@ -6,7 +6,7 @@ CURRENT_MISCELLANY:
   date: "2026-11-04"
   file: "理火散記_V4.0.1_65篇計數修正版_LegacyCorpus恢復_20261104.md"
   standing:
-    - "CURRENT_COLLECTION_INDEX"
+    - "CURRENT_COLLECTION_FULL_BODY"
     - "FORMAL_MISCELLANY_CORRECTION_SUCCESSOR"
     - "NON_NORMATIVE"
 
@@ -22,11 +22,11 @@ CURRENT_MISCELLANY:
       reason: "LM-ID-only census omitted 34 pre-standardization legacy articles"
 
   architecture:
-    - "INDEX_FIRST"
-    - "NO_FULL_PARENT_VERBATIM_NESTING"
+    - "DIRECTORY + FULL READABLE BODY"
+    - "V3.7 FULL VERBATIM BODY PRESERVED"
+    - "2026-10-30 TWO STANDALONE BODIES APPENDED VERBATIM"
     - "LEGACY CORPUS MEMBERSHIP PRESERVED"
-    - "STANDALONE BODY WHEN AVAILABLE"
-    - "HISTORICAL LOCATOR WHEN NOT YET EXTRACTED"
+    - "HISTORICAL CONTENT NOT RETROACTIVELY REWRITTEN"
 
   historical_full_body_archives:
     - "理火散記_V3.5.1_I9真牆誤判後證修正_20261006.md"
@@ -41,4 +41,4 @@ CURRENT_MISCELLANY:
 
 > **Current：V4.0.1 / 65 篇。**
 >
-> V4.0 保留為錯誤 census 的歷史版本；V4.0.1 恢復 V2.5.2 的 34 篇 legacy corpus，並維持去全文套娃的 index-first 架構。
+> V4.0 保留為錯誤 census／index-only 嘗試的歷史版本；V4.0.1 恢復 V2.5.2 的 34 篇 legacy corpus，並在 current file 直接承載完整 65 篇正文。
