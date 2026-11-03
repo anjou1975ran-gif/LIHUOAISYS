@@ -2,25 +2,31 @@
 
 ~~~yaml
 CURRENT_MISCELLANY:
-  version: "V4.0"
+  version: "V4.0.1"
   date: "2026-11-04"
-  file: "理火散記_V4.0_文章索引制_31篇正式重編版_20261104.md"
+  file: "理火散記_V4.0.1_65篇計數修正版_LegacyCorpus恢復_20261104.md"
   standing:
     - "CURRENT_COLLECTION_INDEX"
-    - "FORMAL_MISCELLANY_COLLECTION"
+    - "FORMAL_MISCELLANY_CORRECTION_SUCCESSOR"
     - "NON_NORMATIVE"
+
+  article_count: 65
+
+  composition:
+    legacy_v2_5_2_without_lm_id: 34
+    lm_id_entries_through_v3_7: 29
+    newly_collected_20261030: 2
+
+  supersedes:
+    - version: "V4.0"
+      reason: "LM-ID-only census omitted 34 pre-standardization legacy articles"
 
   architecture:
     - "INDEX_FIRST"
     - "NO_FULL_PARENT_VERBATIM_NESTING"
-    - "STANDALONE_BODY_WHEN_AVAILABLE"
-    - "ARCHIVE_LOCATOR_FOR_NOT_YET_EXTRACTED_OLDER_ENTRIES"
-
-  article_count: 31
-
-  newly_collected_in_v4_0:
-    - "LM-20261030-01"
-    - "LM-20261030-02"
+    - "LEGACY CORPUS MEMBERSHIP PRESERVED"
+    - "STANDALONE BODY WHEN AVAILABLE"
+    - "HISTORICAL LOCATOR WHEN NOT YET EXTRACTED"
 
   historical_full_body_archives:
     - "理火散記_V3.5.1_I9真牆誤判後證修正_20261006.md"
@@ -28,10 +34,11 @@ CURRENT_MISCELLANY:
     - "理火散記_V3.7_破解黑箱與前提空間_三篇正式整合版_20261028.md"
 
   hard_lock:
-    - "V3.7 IS HISTORICAL FULL-BODY ARCHIVE, NOT CURRENT READING ARCHITECTURE"
-    - "NEW COLLECTION VERSIONS MUST NOT COPY THE ENTIRE PREDECESSOR BODY"
+    - "NO LM-ID DOES NOT MEAN NO ARTICLE"
+    - "V4.0 31-ENTRY COUNT IS SUPERSEDED"
+    - "CURRENT COUNT = 65"
 ~~~
 
-> **Current：V4.0。**
+> **Current：V4.0.1 / 65 篇。**
 >
-> V3.5.1 / V3.6 / V3.7 保留作歷史 full-body archive；新文章應以 standalone body 收編，再更新 V4.x index。
+> V4.0 保留為錯誤 census 的歷史版本；V4.0.1 恢復 V2.5.2 的 34 篇 legacy corpus，並維持去全文套娃的 index-first 架構。
