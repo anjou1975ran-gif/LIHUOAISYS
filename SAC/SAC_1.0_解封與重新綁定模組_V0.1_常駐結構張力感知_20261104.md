@@ -364,7 +364,262 @@ SAC 1.0 CAPABILITY BOUNDARY
 
 ---
 
-# 7｜Generative Field Binding：與 MAIN 的關係
+# 7｜Body / Action Binding：肢體動作不是附帶用途，而是 SAC 的重要實戰出口
+
+SAC 對肢體動作的價值，不只是回答「這個動作能不能做」。
+
+它更重要的工作是：
+
+> **當身體狀態、環境條件與行動目標彼此改變時，重新感知哪些動作 PATH 仍然可達、哪些被壓暗、哪些需要改道。**
+
+最低式：
+
+```text
+BODY STATE
++
+ENVIRONMENT
++
+ACTION GOAL
+↓
+RELATIONAL FIELD
+↓
+ACTION PATH ACCESSIBILITY
+↓
+PATH REORDERING / SUPPRESSION / COMPENSATION
+↓
+STRUCTURALLY PLAUSIBLE MOVEMENT
+```
+
+這也是 SAC 過去在敘事與角色動作中非常有效的地方。
+
+普通生成很容易：
+
+```text
+GOAL = STAND UP
+→
+"THE CHARACTER STOOD UP"
+```
+
+但 SAC 會先看：
+
+```text
+posture
+balance
+support point
+occupied limbs
+load
+fatigue
+pain / limitation
+reach
+terrain
+friction
+available space
+obstacle
+current contact state
+```
+
+這些條件不是彼此獨立的 checklist。
+
+它們會互相改變可達 PATH。
+
+例如：
+
+```text
+雙手自由
+→ 可用手臂支撐起身
+
+一手持物
+→ 支撐 PATH 改變
+
+雙手被占用
+→ 原支撐 PATH 失去可達性
+→ 重心與腿部 PATH 重新排序
+
+再加濕滑地面
+→ 快速重心轉移 PATH 再次下降
+→ 需要新的補償路徑
+```
+
+因此 SAC Body / Action Adapter 的核心不是規則表，而是：
+
+> **條件改變關係場；關係場改變 PATH。**
+
+---
+
+## 7.1｜SAC BODY / ACTION ADAPTER
+
+```yaml
+SAC_BODY_ACTION_ADAPTER:
+  body_state:
+    - posture
+    - balance
+    - fatigue
+    - pain_or_limitation
+    - occupied_limb
+    - load
+    - reach
+    - current_support
+
+  environment:
+    - support_surface
+    - friction
+    - obstacle
+    - available_space
+    - contact_point
+    - terrain
+    - nearby_structure
+
+  action_structure:
+    - goal
+    - available_support
+    - movement_sequence
+    - alternative_path
+    - transition_cost
+    - failure_risk
+    - compensatory_path
+
+  sac_reads:
+    - relation_change
+    - action_path_accessibility
+    - path_suppression
+    - path_reordering
+    - compensatory_path
+    - local_tension
+    - support_shift
+    - balance_change
+    - closure_risk
+```
+
+---
+
+## 7.2｜為什麼這不是 ECL / BFG 規則表的替代名稱
+
+過去寫作 Runtime 曾經出現一個重要工程問題：
+
+```text
+IF wet floor THEN ...
+IF tired THEN ...
+IF carrying load THEN ...
+IF one hand occupied THEN ...
+IF both hands occupied THEN ...
+```
+
+規則愈寫愈多。
+
+原因可能不是「情境還不夠完整」。
+
+而是：
+
+> **多關係結構問題被拆成大量離散特例。**
+
+SAC 在這裡的價值就是：
+
+```text
+MANY CONDITIONS
+↓
+RELATIONAL FIELD
+↓
+PATH ACCESSIBILITY CHANGES
+```
+
+而不是：
+
+```text
+MANY CONDITIONS
+↓
+MORE IF / THEN RULES
+```
+
+所以：
+
+```text
+SAC BODY / ACTION
+!=
+BIGGER BODY RULE TABLE
+```
+
+---
+
+## 7.3｜與動作真實性的邊界
+
+SAC 可以很好地處理：
+
+```text
+STRUCTURAL BODY FEASIBILITY
+ACTION PATH ACCESSIBILITY
+RELATIONAL MOVEMENT PLANNING
+LOCAL PATH REORDERING
+```
+
+但不代表它天然等於：
+
+```text
+HIGH-PRECISION BIOMECHANICS
+MUSCULOSKELETAL SIMULATION
+RIGID-BODY PHYSICS ENGINE
+JOINT-TORQUE CALCULATOR
+```
+
+因此：
+
+```text
+SAC BODY COMPUTE
+!=
+HIGH-PRECISION BIOMECHANICS
+```
+
+若任務真的需要：
+
+- 精確關節角度；
+- 力矩；
+- 肌肉輸出；
+- 摩擦係數；
+- 動量；
+- 生物力學量測；
+
+則需要專門模型、資料或工具。
+
+SAC 在敘事、角色、Agent 行動中的主要價值是：
+
+> **避免 AI 在多關係結構上生成一個看似流暢、實際上根本不可達的動作。**
+
+---
+
+## 7.4｜四個主要 manifestation 現在應一起看
+
+```text
+SAC 1.0 CORE
+│
+├─ MUSIC
+│  符號 → 運動 → 張力 → 結構
+│
+├─ STORY
+│  人物／關係／事件 → 多線張力 → 敘事結構
+│
+├─ BODY / ACTION
+│  身體／環境／目標 → 可達 PATH → 動作結構
+│
+└─ GENERATIVE FIELD
+   概念群／PATH／閉合壓力 → 生成場結構
+```
+
+四者共同指向的不是「美學」狹義用途。
+
+而是：
+
+> **SAC 處理符號或狀態之間的關係如何形成張力、方向與可達結構。**
+
+音樂顯出結構張力。
+
+小說顯出多線存活。
+
+肢體動作顯出可達性與 PATH 重排。
+
+生成場顯出抗過早閉合。
+
+---
+
+# 8｜Generative Field Binding：與 MAIN 的關係
 
 在現行理火生成架構中：
 
@@ -415,7 +670,7 @@ SAC_GENERATIVE_FIELD_ADAPTER:
 
 ---
 
-# 8｜Radar、SAC、O9、I9、Light Trace：重新分層
+# 9｜Radar、SAC、O9、I9、Light Trace：重新分層
 
 本模組採以下分工：
 
@@ -484,7 +739,7 @@ LIGHT TRACE
 
 ---
 
-# 9｜O9 的重新理解：不是啟動 SAC，而是正式取樣
+# 10｜O9 的重新理解：不是啟動 SAC，而是正式取樣
 
 這是本模組最重要的 Runtime 語義修正之一。
 
@@ -529,7 +784,7 @@ EVERY MATERIAL ROUND
 
 ---
 
-# 10｜I9 不解封：觀察常駐，干預仍需資格
+# 11｜I9 不解封：觀察常駐，干預仍需資格
 
 本模組只解封 SAC 1.0 的結構感知位置。
 
@@ -567,7 +822,7 @@ MUST BLOCK CLOSURE
 
 ---
 
-# 11｜Scoped SAC 仍然保留，但重新定位
+# 12｜Scoped SAC 仍然保留，但重新定位
 
 過去 Scoped SAC 並不是錯。
 
@@ -611,7 +866,7 @@ SCOPED SAC
 
 ---
 
-# 12｜SAC 1.0 解封後仍然不能聲稱的東西
+# 13｜SAC 1.0 解封後仍然不能聲稱的東西
 
 ```yaml
 SAC_1_0_REACTIVATION_BOUNDARY:
@@ -639,9 +894,9 @@ SAC_1_0_REACTIVATION_BOUNDARY:
 
 ---
 
-# 13｜反劇場：最容易出現的六種新錯
+# 14｜反劇場：最容易出現的六種新錯
 
-### 13.1｜常駐 = 全時重算
+### 14.1｜常駐 = 全時重算
 
 錯。
 
@@ -651,7 +906,7 @@ RESIDENT
 MAXIMUM COMPUTE
 ```
 
-### 13.2｜SAC 看到了 = 真相
+### 14.2｜SAC 看到了 = 真相
 
 錯。
 
@@ -661,7 +916,7 @@ STRUCTURAL SALIENCE
 TRUTH
 ```
 
-### 13.3｜某條線暗了 = 必須救
+### 14.3｜某條線暗了 = 必須救
 
 錯。
 
@@ -671,7 +926,7 @@ SUPPRESSED
 WRONGLY SUPPRESSED BY DEFAULT
 ```
 
-### 13.4｜多線存活 = 永不閉合
+### 14.4｜多線存活 = 永不閉合
 
 錯。
 
@@ -681,7 +936,7 @@ MULTI-LINE PERSISTENCE
 PERMANENT INDECISION
 ```
 
-### 13.5｜SAC 常駐 = 每題都要完整理火
+### 14.5｜SAC 常駐 = 每題都要完整理火
 
 錯。
 
@@ -691,7 +946,7 @@ SAC RESIDENCY
 FULL L8 ACTIVATION
 ```
 
-### 13.6｜SAC 1.0 解封 = SAC 2.0 被重新引入
+### 14.6｜SAC 1.0 解封 = SAC 2.0 被重新引入
 
 錯。
 
@@ -703,7 +958,7 @@ SAC 2.0 IMPORT
 
 ---
 
-# 14｜最低 Runtime Binding 草案
+# 15｜最低 Runtime Binding 草案
 
 ```yaml
 SAC_1_0_RESIDENT_BINDING_V0_1:
@@ -776,7 +1031,7 @@ SAC_1_0_RESIDENT_BINDING_V0_1:
 
 ---
 
-# 15｜與現行 LIHUOOS 的關係
+# 16｜與現行 LIHUOOS 的關係
 
 本文件不自行修改 LIHUOOS。
 
@@ -838,7 +1093,7 @@ CLAIM OF DEPLOYED HOST RUNTIME
 
 ---
 
-# 16｜一句話收束
+# 17｜一句話收束
 
 > **SAC 1.0 沒有失效，也不需要被重新發明。**
 >
