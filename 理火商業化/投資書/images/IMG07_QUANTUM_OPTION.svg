@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 503 289" role="img" aria-labelledby="title desc">
+<title id="title">当前 AI 研究与未来量子选择权 / Present AI Work and a Future Quantum Option</title>
+<desc id="desc">当前工作运行在经典硬件。量子或混合运行时是待验证的研究候选。 Current work runs on classical hardware. A quantum or hybrid runtime remains a research candidate.</desc>
+<rect x="0" y="0" width="503" height="289" rx="5" fill="#080D15" stroke="none" stroke-width="0.8"/>
+<circle cx="17" cy="16" r="0.6" fill="#172738"/>
+<circle cx="17" cy="35" r="0.6" fill="#172738"/>
+<circle cx="17" cy="54" r="0.6" fill="#172738"/>
+<circle cx="17" cy="73" r="0.6" fill="#172738"/>
+<circle cx="17" cy="92" r="0.6" fill="#172738"/>
+<circle cx="17" cy="111" r="0.6" fill="#172738"/>
+<circle cx="17" cy="130" r="0.6" fill="#172738"/>
+<circle cx="17" cy="149" r="0.6" fill="#172738"/>
+<circle cx="17" cy="168" r="0.6" fill="#172738"/>
+<circle cx="17" cy="187" r="0.6" fill="#172738"/>
+<circle cx="17" cy="206" r="0.6" fill="#172738"/>
+<circle cx="17" cy="225" r="0.6" fill="#172738"/>
+<circle cx="17" cy="244" r="0.6" fill="#172738"/>
+<circle cx="17" cy="263" r="0.6" fill="#172738"/>
+<circle cx="36" cy="16" r="0.6" fill="#172738"/>
+<circle cx="36" cy="35" r="0.6" fill="#172738"/>
+<circle cx="36" cy="54" r="0.6" fill="#172738"/>
+<circle cx="36" cy="73" r="0.6" fill="#172738"/>
+<circle cx="36" cy="92" r="0.6" fill="#172738"/>
+<circle cx="36" cy="111" r="0.6" fill="#172738"/>
+<circle cx="36" cy="130" r="0.6" fill="#172738"/>
+<circle cx="36" cy="149" r="0.6" fill="#172738"/>
+<circle cx="36" cy="168" r="0.6" fill="#172738"/>
+<circle cx="36" cy="187" r="0.6" fill="#172738"/>
+<circle cx="36" cy="206" r="0.6" fill="#172738"/>
+<circle cx="36" cy="225" r="0.6" fill="#172738"/>
+<circle cx="36" cy="244" r="0.6" fill="#172738"/>
+<circle cx="36" cy="263" r="0.6" fill="#172738"/>
+<circle cx="55" cy="16" r="0.6" fill="#172738"/>
+<circle cx="55" cy="35" r="0.6" fill="#172738"/>
+<circle cx="55" cy="54" r="0.6" fill="#172738"/>
+<circle cx="55" cy="73" r="0.6" fill="#172738"/>
+<circle cx="55" cy="92" r="0.6" fill="#172738"/>
+<circle cx="55" cy="111" r="0.6" fill="#172738"/>
+<circle cx="55" cy="130" r="0.6" fill="#172738"/>
+<circle cx="55" cy="149" r="0.6" fill="#172738"/>
+<circle cx="55" cy="168" r="0.6" fill="#172738"/>
+<circle cx="55" cy="187" r="0.6" fill="#172738"/>
+<circle cx="55" cy="206" r="0.6" fill="#172738"/>
+<circle cx="55" cy="225" r="0.6" fill="#172738"/>
+<circle cx="55" cy="244" r="0.6" fill="#172738"/>
+<circle cx="55" cy="263" r="0.6" fill="#172738"/>
+<circle cx="74" cy="16" r="0.6" fill="#172738"/>
+<circle cx="74" cy="35" r="0.6" fill="#172738"/>
+<circle cx="74" cy="54" r="0.6" fill="#172738"/>
+<circle cx="74" cy="73" r="0.6" fill="#172738"/>
+<circle cx="74" cy="92" r="0.6" fill="#172738"/>
+<circle cx="74" cy="111" r="0.6" fill="#172738"/>
+<circle cx="74" cy="130" r="0.6" fill="#172738"/>
+<circle cx="74" cy="149" r="0.6" fill="#172738"/>
+<circle cx="74" cy="168" r="0.6" fill="#172738"/>
+<circle cx="74" cy="187" r="0.6" fill="#172738"/>
+<circle cx="74" cy="206" r="0.6" fill="#172738"/>
+<circle cx="74" cy="225" r="0.6" fill="#172738"/>
+<circle cx="74" cy="244" r="0.6" fill="#172738"/>
+<circle cx="74" cy="263" r="0.6" fill="#172738"/>
+<circle cx="93" cy="16" r="0.6" fill="#172738"/>
+<circle cx="93" cy="35" r="0.6" fill="#172738"/>
+<circle cx="93" cy="54" r="0.6" fill="#172738"/>
+<circle cx="93" cy="73" r="0.6" fill="#172738"/>
+<circle cx="93" cy="92" r="0.6" fill="#172738"/>
+<circle cx="93" cy="111" r="0.6" fill="#172738"/>
+<circle cx="93" cy="130" r="0.6" fill="#172738"/>
+<circle cx="93" cy="149" r="0.6" fill="#172738"/>
+<circle cx="93" cy="168" r="0.6" fill="#172738"/>
+<circle cx="93" cy="187" r="0.6" fill="#172738"/>
+<circle cx="93" cy="206" r="0.6" fill="#172738"/>
+<circle cx="93" cy="225" r="0.6" fill="#172738"/>
+<circle cx="93" cy="244" r="0.6" fill="#172738"/>
+<circle cx="93" cy="263" r="0.6" fill="#172738"/>
+<circle cx="112" cy="16" r="0.6" fill="#172738"/>
+<circle cx="112" cy="35" r="0.6" fill="#172738"/>
+<circle cx="112" cy="54" r="0.6" fill="#172738"/>
+<circle cx="112" cy="73" r="0.6" fill="#172738"/>
+<circle cx="112" cy="92" r="0.6" fill="#172738"/>
+<circle cx="112" cy="111" r="0.6" fill="#172738"/>
+<circle cx="112" cy="130" r="0.6" fill="#172738"/>
+<circle cx="112" cy="149" r="0.6" fill="#172738"/>
+<circle cx="112" cy="168" r="0.6" fill="#172738"/>
+<circle cx="112" cy="187" r="0.6" fill="#172738"/>
+<circle cx="112" cy="206" r="0.6" fill="#172738"/>
+<circle cx="112" cy="225" r="0.6" fill="#172738"/>
+<circle cx="112" cy="244" r="0.6" fill="#172738"/>
+<circle cx="112" cy="263" r="0.6" fill="#172738"/>
+<circle cx="131" cy="16" r="0.6" fill="#172738"/>
+<circle cx="131" cy="35" r="0.6" fill="#172738"/>
+<circle cx="131" cy="54" r="0.6" fill="#172738"/>
+<circle cx="131" cy="73" r="0.6" fill="#172738"/>
+<circle cx="131" cy="92" r="0.6" fill="#172738"/>
+<circle cx="131" cy="111" r="0.6" fill="#172738"/>
+<circle cx="131" cy="130" r="0.6" fill="#172738"/>
+<circle cx="131" cy="149" r="0.6" fill="#172738"/>
+<circle cx="131" cy="168" r="0.6" fill="#172738"/>
+<circle cx="131" cy="187" r="0.6" fill="#172738"/>
+<circle cx="131" cy="206" r="0.6" fill="#172738"/>
+<circle cx="131" cy="225" r="0.6" fill="#172738"/>
+<circle cx="131" cy="244" r="0.6" fill="#172738"/>
+<circle cx="131" cy="263" r="0.6" fill="#172738"/>
+<circle cx="150" cy="16" r="0.6" fill="#172738"/>
+<circle cx="150" cy="35" r="0.6" fill="#172738"/>
+<circle cx="150" cy="54" r="0.6" fill="#172738"/>
+<circle cx="150" cy="73" r="0.6" fill="#172738"/>
+<circle cx="150" cy="92" r="0.6" fill="#172738"/>
+<circle cx="150" cy="111" r="0.6" fill="#172738"/>
+<circle cx="150" cy="130" r="0.6" fill="#172738"/>
+<circle cx="150" cy="149" r="0.6" fill="#172738"/>
+<circle cx="150" cy="168" r="0.6" fill="#172738"/>
+<circle cx="150" cy="187" r="0.6" fill="#172738"/>
+<circle cx="150" cy="206" r="0.6" fill="#172738"/>
+<circle cx="150" cy="225" r="0.6" fill="#172738"/>
+<circle cx="150" cy="244" r="0.6" fill="#172738"/>
+<circle cx="150" cy="263" r="0.6" fill="#172738"/>
+<circle cx="169" cy="16" r="0.6" fill="#172738"/>
+<circle cx="169" cy="35" r="0.6" fill="#172738"/>
+<circle cx="169" cy="54" r="0.6" fill="#172738"/>
+<circle cx="169" cy="73" r="0.6" fill="#172738"/>
+<circle cx="169" cy="92" r="0.6" fill="#172738"/>
+<circle cx="169" cy="111" r="0.6" fill="#172738"/>
+<circle cx="169" cy="130" r="0.6" fill="#172738"/>
+<circle cx="169" cy="149" r="0.6" fill="#172738"/>
+<circle cx="169" cy="168" r="0.6" fill="#172738"/>
+<circle cx="169" cy="187" r="0.6" fill="#172738"/>
+<circle cx="169" cy="206" r="0.6" fill="#172738"/>
+<circle cx="169" cy="225" r="0.6" fill="#172738"/>
+<circle cx="169" cy="244" r="0.6" fill="#172738"/>
+<circle cx="169" cy="263" r="0.6" fill="#172738"/>
+<circle cx="188" cy="16" r="0.6" fill="#172738"/>
+<circle cx="188" cy="35" r="0.6" fill="#172738"/>
+<circle cx="188" cy="54" r="0.6" fill="#172738"/>
+<circle cx="188" cy="73" r="0.6" fill="#172738"/>
+<circle cx="188" cy="92" r="0.6" fill="#172738"/>
+<circle cx="188" cy="111" r="0.6" fill="#172738"/>
+<circle cx="188" cy="130" r="0.6" fill="#172738"/>
+<circle cx="188" cy="149" r="0.6" fill="#172738"/>
+<circle cx="188" cy="168" r="0.6" fill="#172738"/>
+<circle cx="188" cy="187" r="0.6" fill="#172738"/>
+<circle cx="188" cy="206" r="0.6" fill="#172738"/>
+<circle cx="188" cy="225" r="0.6" fill="#172738"/>
+<circle cx="188" cy="244" r="0.6" fill="#172738"/>
+<circle cx="188" cy="263" r="0.6" fill="#172738"/>
+<circle cx="207" cy="16" r="0.6" fill="#172738"/>
+<circle cx="207" cy="35" r="0.6" fill="#172738"/>
+<circle cx="207" cy="54" r="0.6" fill="#172738"/>
+<circle cx="207" cy="73" r="0.6" fill="#172738"/>
+<circle cx="207" cy="92" r="0.6" fill="#172738"/>
+<circle cx="207" cy="111" r="0.6" fill="#172738"/>
+<circle cx="207" cy="130" r="0.6" fill="#172738"/>
+<circle cx="207" cy="149" r="0.6" fill="#172738"/>
+<circle cx="207" cy="168" r="0.6" fill="#172738"/>
+<circle cx="207" cy="187" r="0.6" fill="#172738"/>
+<circle cx="207" cy="206" r="0.6" fill="#172738"/>
+<circle cx="207" cy="225" r="0.6" fill="#172738"/>
+<circle cx="207" cy="244" r="0.6" fill="#172738"/>
+<circle cx="207" cy="263" r="0.6" fill="#172738"/>
+<circle cx="226" cy="16" r="0.6" fill="#172738"/>
+<circle cx="226" cy="35" r="0.6" fill="#172738"/>
+<circle cx="226" cy="54" r="0.6" fill="#172738"/>
+<circle cx="226" cy="73" r="0.6" fill="#172738"/>
+<circle cx="226" cy="92" r="0.6" fill="#172738"/>
+<circle cx="226" cy="111" r="0.6" fill="#172738"/>
+<circle cx="226" cy="130" r="0.6" fill="#172738"/>
+<circle cx="226" cy="149" r="0.6" fill="#172738"/>
+<circle cx="226" cy="168" r="0.6" fill="#172738"/>
+<circle cx="226" cy="187" r="0.6" fill="#172738"/>
+<circle cx="226" cy="206" r="0.6" fill="#172738"/>
+<circle cx="226" cy="225" r="0.6" fill="#172738"/>
+<circle cx="226" cy="244" r="0.6" fill="#172738"/>
+<circle cx="226" cy="263" r="0.6" fill="#172738"/>
+<circle cx="245" cy="16" r="0.6" fill="#172738"/>
+<circle cx="245" cy="35" r="0.6" fill="#172738"/>
+<circle cx="245" cy="54" r="0.6" fill="#172738"/>
+<circle cx="245" cy="73" r="0.6" fill="#172738"/>
+<circle cx="245" cy="92" r="0.6" fill="#172738"/>
+<circle cx="245" cy="111" r="0.6" fill="#172738"/>
+<circle cx="245" cy="130" r="0.6" fill="#172738"/>
+<circle cx="245" cy="149" r="0.6" fill="#172738"/>
+<circle cx="245" cy="168" r="0.6" fill="#172738"/>
+<circle cx="245" cy="187" r="0.6" fill="#172738"/>
+<circle cx="245" cy="206" r="0.6" fill="#172738"/>
+<circle cx="245" cy="225" r="0.6" fill="#172738"/>
+<circle cx="245" cy="244" r="0.6" fill="#172738"/>
+<circle cx="245" cy="263" r="0.6" fill="#172738"/>
+<circle cx="264" cy="16" r="0.6" fill="#172738"/>
+<circle cx="264" cy="35" r="0.6" fill="#172738"/>
+<circle cx="264" cy="54" r="0.6" fill="#172738"/>
+<circle cx="264" cy="73" r="0.6" fill="#172738"/>
+<circle cx="264" cy="92" r="0.6" fill="#172738"/>
+<circle cx="264" cy="111" r="0.6" fill="#172738"/>
+<circle cx="264" cy="130" r="0.6" fill="#172738"/>
+<circle cx="264" cy="149" r="0.6" fill="#172738"/>
+<circle cx="264" cy="168" r="0.6" fill="#172738"/>
+<circle cx="264" cy="187" r="0.6" fill="#172738"/>
+<circle cx="264" cy="206" r="0.6" fill="#172738"/>
+<circle cx="264" cy="225" r="0.6" fill="#172738"/>
+<circle cx="264" cy="244" r="0.6" fill="#172738"/>
+<circle cx="264" cy="263" r="0.6" fill="#172738"/>
+<circle cx="283" cy="16" r="0.6" fill="#172738"/>
+<circle cx="283" cy="35" r="0.6" fill="#172738"/>
+<circle cx="283" cy="54" r="0.6" fill="#172738"/>
+<circle cx="283" cy="73" r="0.6" fill="#172738"/>
+<circle cx="283" cy="92" r="0.6" fill="#172738"/>
+<circle cx="283" cy="111" r="0.6" fill="#172738"/>
+<circle cx="283" cy="130" r="0.6" fill="#172738"/>
+<circle cx="283" cy="149" r="0.6" fill="#172738"/>
+<circle cx="283" cy="168" r="0.6" fill="#172738"/>
+<circle cx="283" cy="187" r="0.6" fill="#172738"/>
+<circle cx="283" cy="206" r="0.6" fill="#172738"/>
+<circle cx="283" cy="225" r="0.6" fill="#172738"/>
+<circle cx="283" cy="244" r="0.6" fill="#172738"/>
+<circle cx="283" cy="263" r="0.6" fill="#172738"/>
+<circle cx="302" cy="16" r="0.6" fill="#172738"/>
+<circle cx="302" cy="35" r="0.6" fill="#172738"/>
+<circle cx="302" cy="54" r="0.6" fill="#172738"/>
+<circle cx="302" cy="73" r="0.6" fill="#172738"/>
+<circle cx="302" cy="92" r="0.6" fill="#172738"/>
+<circle cx="302" cy="111" r="0.6" fill="#172738"/>
+<circle cx="302" cy="130" r="0.6" fill="#172738"/>
+<circle cx="302" cy="149" r="0.6" fill="#172738"/>
+<circle cx="302" cy="168" r="0.6" fill="#172738"/>
+<circle cx="302" cy="187" r="0.6" fill="#172738"/>
+<circle cx="302" cy="206" r="0.6" fill="#172738"/>
+<circle cx="302" cy="225" r="0.6" fill="#172738"/>
+<circle cx="302" cy="244" r="0.6" fill="#172738"/>
+<circle cx="302" cy="263" r="0.6" fill="#172738"/>
+<circle cx="321" cy="16" r="0.6" fill="#172738"/>
+<circle cx="321" cy="35" r="0.6" fill="#172738"/>
+<circle cx="321" cy="54" r="0.6" fill="#172738"/>
+<circle cx="321" cy="73" r="0.6" fill="#172738"/>
+<circle cx="321" cy="92" r="0.6" fill="#172738"/>
+<circle cx="321" cy="111" r="0.6" fill="#172738"/>
+<circle cx="321" cy="130" r="0.6" fill="#172738"/>
+<circle cx="321" cy="149" r="0.6" fill="#172738"/>
+<circle cx="321" cy="168" r="0.6" fill="#172738"/>
+<circle cx="321" cy="187" r="0.6" fill="#172738"/>
+<circle cx="321" cy="206" r="0.6" fill="#172738"/>
+<circle cx="321" cy="225" r="0.6" fill="#172738"/>
+<circle cx="321" cy="244" r="0.6" fill="#172738"/>
+<circle cx="321" cy="263" r="0.6" fill="#172738"/>
+<circle cx="340" cy="16" r="0.6" fill="#172738"/>
+<circle cx="340" cy="35" r="0.6" fill="#172738"/>
+<circle cx="340" cy="54" r="0.6" fill="#172738"/>
+<circle cx="340" cy="73" r="0.6" fill="#172738"/>
+<circle cx="340" cy="92" r="0.6" fill="#172738"/>
+<circle cx="340" cy="111" r="0.6" fill="#172738"/>
+<circle cx="340" cy="130" r="0.6" fill="#172738"/>
+<circle cx="340" cy="149" r="0.6" fill="#172738"/>
+<circle cx="340" cy="168" r="0.6" fill="#172738"/>
+<circle cx="340" cy="187" r="0.6" fill="#172738"/>
+<circle cx="340" cy="206" r="0.6" fill="#172738"/>
+<circle cx="340" cy="225" r="0.6" fill="#172738"/>
+<circle cx="340" cy="244" r="0.6" fill="#172738"/>
+<circle cx="340" cy="263" r="0.6" fill="#172738"/>
+<circle cx="359" cy="16" r="0.6" fill="#172738"/>
+<circle cx="359" cy="35" r="0.6" fill="#172738"/>
+<circle cx="359" cy="54" r="0.6" fill="#172738"/>
+<circle cx="359" cy="73" r="0.6" fill="#172738"/>
+<circle cx="359" cy="92" r="0.6" fill="#172738"/>
+<circle cx="359" cy="111" r="0.6" fill="#172738"/>
+<circle cx="359" cy="130" r="0.6" fill="#172738"/>
+<circle cx="359" cy="149" r="0.6" fill="#172738"/>
+<circle cx="359" cy="168" r="0.6" fill="#172738"/>
+<circle cx="359" cy="187" r="0.6" fill="#172738"/>
+<circle cx="359" cy="206" r="0.6" fill="#172738"/>
+<circle cx="359" cy="225" r="0.6" fill="#172738"/>
+<circle cx="359" cy="244" r="0.6" fill="#172738"/>
+<circle cx="359" cy="263" r="0.6" fill="#172738"/>
+<circle cx="378" cy="16" r="0.6" fill="#172738"/>
+<circle cx="378" cy="35" r="0.6" fill="#172738"/>
+<circle cx="378" cy="54" r="0.6" fill="#172738"/>
+<circle cx="378" cy="73" r="0.6" fill="#172738"/>
+<circle cx="378" cy="92" r="0.6" fill="#172738"/>
+<circle cx="378" cy="111" r="0.6" fill="#172738"/>
+<circle cx="378" cy="130" r="0.6" fill="#172738"/>
+<circle cx="378" cy="149" r="0.6" fill="#172738"/>
+<circle cx="378" cy="168" r="0.6" fill="#172738"/>
+<circle cx="378" cy="187" r="0.6" fill="#172738"/>
+<circle cx="378" cy="206" r="0.6" fill="#172738"/>
+<circle cx="378" cy="225" r="0.6" fill="#172738"/>
+<circle cx="378" cy="244" r="0.6" fill="#172738"/>
+<circle cx="378" cy="263" r="0.6" fill="#172738"/>
+<circle cx="397" cy="16" r="0.6" fill="#172738"/>
+<circle cx="397" cy="35" r="0.6" fill="#172738"/>
+<circle cx="397" cy="54" r="0.6" fill="#172738"/>
+<circle cx="397" cy="73" r="0.6" fill="#172738"/>
+<circle cx="397" cy="92" r="0.6" fill="#172738"/>
+<circle cx="397" cy="111" r="0.6" fill="#172738"/>
+<circle cx="397" cy="130" r="0.6" fill="#172738"/>
+<circle cx="397" cy="149" r="0.6" fill="#172738"/>
+<circle cx="397" cy="168" r="0.6" fill="#172738"/>
+<circle cx="397" cy="187" r="0.6" fill="#172738"/>
+<circle cx="397" cy="206" r="0.6" fill="#172738"/>
+<circle cx="397" cy="225" r="0.6" fill="#172738"/>
+<circle cx="397" cy="244" r="0.6" fill="#172738"/>
+<circle cx="397" cy="263" r="0.6" fill="#172738"/>
+<circle cx="416" cy="16" r="0.6" fill="#172738"/>
+<circle cx="416" cy="35" r="0.6" fill="#172738"/>
+<circle cx="416" cy="54" r="0.6" fill="#172738"/>
+<circle cx="416" cy="73" r="0.6" fill="#172738"/>
+<circle cx="416" cy="92" r="0.6" fill="#172738"/>
+<circle cx="416" cy="111" r="0.6" fill="#172738"/>
+<circle cx="416" cy="130" r="0.6" fill="#172738"/>
+<circle cx="416" cy="149" r="0.6" fill="#172738"/>
+<circle cx="416" cy="168" r="0.6" fill="#172738"/>
+<circle cx="416" cy="187" r="0.6" fill="#172738"/>
+<circle cx="416" cy="206" r="0.6" fill="#172738"/>
+<circle cx="416" cy="225" r="0.6" fill="#172738"/>
+<circle cx="416" cy="244" r="0.6" fill="#172738"/>
+<circle cx="416" cy="263" r="0.6" fill="#172738"/>
+<circle cx="435" cy="16" r="0.6" fill="#172738"/>
+<circle cx="435" cy="35" r="0.6" fill="#172738"/>
+<circle cx="435" cy="54" r="0.6" fill="#172738"/>
+<circle cx="435" cy="73" r="0.6" fill="#172738"/>
+<circle cx="435" cy="92" r="0.6" fill="#172738"/>
+<circle cx="435" cy="111" r="0.6" fill="#172738"/>
+<circle cx="435" cy="130" r="0.6" fill="#172738"/>
+<circle cx="435" cy="149" r="0.6" fill="#172738"/>
+<circle cx="435" cy="168" r="0.6" fill="#172738"/>
+<circle cx="435" cy="187" r="0.6" fill="#172738"/>
+<circle cx="435" cy="206" r="0.6" fill="#172738"/>
+<circle cx="435" cy="225" r="0.6" fill="#172738"/>
+<circle cx="435" cy="244" r="0.6" fill="#172738"/>
+<circle cx="435" cy="263" r="0.6" fill="#172738"/>
+<circle cx="454" cy="16" r="0.6" fill="#172738"/>
+<circle cx="454" cy="35" r="0.6" fill="#172738"/>
+<circle cx="454" cy="54" r="0.6" fill="#172738"/>
+<circle cx="454" cy="73" r="0.6" fill="#172738"/>
+<circle cx="454" cy="92" r="0.6" fill="#172738"/>
+<circle cx="454" cy="111" r="0.6" fill="#172738"/>
+<circle cx="454" cy="130" r="0.6" fill="#172738"/>
+<circle cx="454" cy="149" r="0.6" fill="#172738"/>
+<circle cx="454" cy="168" r="0.6" fill="#172738"/>
+<circle cx="454" cy="187" r="0.6" fill="#172738"/>
+<circle cx="454" cy="206" r="0.6" fill="#172738"/>
+<circle cx="454" cy="225" r="0.6" fill="#172738"/>
+<circle cx="454" cy="244" r="0.6" fill="#172738"/>
+<circle cx="454" cy="263" r="0.6" fill="#172738"/>
+<circle cx="473" cy="16" r="0.6" fill="#172738"/>
+<circle cx="473" cy="35" r="0.6" fill="#172738"/>
+<circle cx="473" cy="54" r="0.6" fill="#172738"/>
+<circle cx="473" cy="73" r="0.6" fill="#172738"/>
+<circle cx="473" cy="92" r="0.6" fill="#172738"/>
+<circle cx="473" cy="111" r="0.6" fill="#172738"/>
+<circle cx="473" cy="130" r="0.6" fill="#172738"/>
+<circle cx="473" cy="149" r="0.6" fill="#172738"/>
+<circle cx="473" cy="168" r="0.6" fill="#172738"/>
+<circle cx="473" cy="187" r="0.6" fill="#172738"/>
+<circle cx="473" cy="206" r="0.6" fill="#172738"/>
+<circle cx="473" cy="225" r="0.6" fill="#172738"/>
+<circle cx="473" cy="244" r="0.6" fill="#172738"/>
+<circle cx="473" cy="263" r="0.6" fill="#172738"/>
+<rect x="17" y="18" width="224" height="214" rx="5" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<rect x="262" y="18" width="224" height="214" rx="5" fill="#0C1723" stroke="#376784" stroke-width="0.8"/>
+<text x="35" y="44" text-anchor="start" fill="#9BE1FF" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11.6" font-weight="700">当前 · 经典计算</text>
+<text x="35" y="58" text-anchor="start" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.4" font-weight="400">PRESENT · CLASSICAL COMPUTING</text>
+<text x="280" y="44" text-anchor="start" fill="#9BE1FF" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11.6" font-weight="700">未来 · 研究候选</text>
+<text x="280" y="58" text-anchor="start" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.4" font-weight="400">FUTURE · RESEARCH CANDIDATE</text>
+<rect x="34" y="74" width="190" height="37" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="129" y="94.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="10.6" font-weight="700">经典硬件与模型</text>
+<text x="129" y="107.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Classical hardware + AI models</text>
+<line x1="129" y1="112" x2="129" y2="134" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="129" y1="134" x2="126.603" y2="129.612" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="129" y1="134" x2="131.397" y2="129.612" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<rect x="34" y="136" width="190" height="39" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="129" y="157.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700">理火关系态治理</text>
+<text x="129" y="170.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">LIHUO relational-state governance</text>
+<rect x="279" y="74" width="190" height="37" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="374" y="94.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700">量子或混合计算</text>
+<text x="374" y="107.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Quantum or hybrid computing</text>
+<line x1="374" y1="112" x2="374" y2="134" fill="none" stroke="#9BE1FF" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="374" y1="134" x2="371.603" y2="129.612" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="374" y1="134" x2="376.397" y2="129.612" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<rect x="279" y="136" width="190" height="39" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="374" y="157.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700">资格保真的运行时？</text>
+<text x="374" y="170.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Qualification-preserving runtime?</text>
+<line x1="224" y1="156" x2="278" y2="156" fill="none" stroke="#9BE1FF" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="278" y1="156" x2="273.612" y2="158.397" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="278" y1="156" x2="273.612" y2="153.603" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<text x="129" y="200" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11.6" font-weight="700">功能模型与应用</text>
+<text x="129" y="214" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.4" font-weight="400">Functional model and applications</text>
+<text x="374" y="200" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11.6" font-weight="700">需接口与可行性实验</text>
+<text x="374" y="214" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.4" font-weight="400">Interfaces and feasibility tests</text>
+<text x="251.5" y="269" text-anchor="middle" fill="#9BE1FF" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700">量子态理论 ≠ 已部署的量子计算机 OS</text>
+<text x="251.5" y="282" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.1" font-weight="400">Quantum-state theory ≠ a deployed quantum-computer OS</text>
+</svg>

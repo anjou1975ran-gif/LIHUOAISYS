@@ -1,0 +1,420 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 503 289" role="img" aria-labelledby="title desc">
+<title id="title">L8 运行周期 / The L8 Operating Cycle</title>
+<desc id="desc">并行路径、轮次观察、准出与回流。L8 V1.3.2 及 V1.4.2 集成正文。 Multiple paths, round observation, release and feedback per L8 V1.3.2 and integrated V1.4.2.</desc>
+<rect x="0" y="0" width="503" height="289" rx="5" fill="#080D15" stroke="none" stroke-width="0.8"/>
+<circle cx="17" cy="16" r="0.6" fill="#172738"/>
+<circle cx="17" cy="35" r="0.6" fill="#172738"/>
+<circle cx="17" cy="54" r="0.6" fill="#172738"/>
+<circle cx="17" cy="73" r="0.6" fill="#172738"/>
+<circle cx="17" cy="92" r="0.6" fill="#172738"/>
+<circle cx="17" cy="111" r="0.6" fill="#172738"/>
+<circle cx="17" cy="130" r="0.6" fill="#172738"/>
+<circle cx="17" cy="149" r="0.6" fill="#172738"/>
+<circle cx="17" cy="168" r="0.6" fill="#172738"/>
+<circle cx="17" cy="187" r="0.6" fill="#172738"/>
+<circle cx="17" cy="206" r="0.6" fill="#172738"/>
+<circle cx="17" cy="225" r="0.6" fill="#172738"/>
+<circle cx="17" cy="244" r="0.6" fill="#172738"/>
+<circle cx="17" cy="263" r="0.6" fill="#172738"/>
+<circle cx="36" cy="16" r="0.6" fill="#172738"/>
+<circle cx="36" cy="35" r="0.6" fill="#172738"/>
+<circle cx="36" cy="54" r="0.6" fill="#172738"/>
+<circle cx="36" cy="73" r="0.6" fill="#172738"/>
+<circle cx="36" cy="92" r="0.6" fill="#172738"/>
+<circle cx="36" cy="111" r="0.6" fill="#172738"/>
+<circle cx="36" cy="130" r="0.6" fill="#172738"/>
+<circle cx="36" cy="149" r="0.6" fill="#172738"/>
+<circle cx="36" cy="168" r="0.6" fill="#172738"/>
+<circle cx="36" cy="187" r="0.6" fill="#172738"/>
+<circle cx="36" cy="206" r="0.6" fill="#172738"/>
+<circle cx="36" cy="225" r="0.6" fill="#172738"/>
+<circle cx="36" cy="244" r="0.6" fill="#172738"/>
+<circle cx="36" cy="263" r="0.6" fill="#172738"/>
+<circle cx="55" cy="16" r="0.6" fill="#172738"/>
+<circle cx="55" cy="35" r="0.6" fill="#172738"/>
+<circle cx="55" cy="54" r="0.6" fill="#172738"/>
+<circle cx="55" cy="73" r="0.6" fill="#172738"/>
+<circle cx="55" cy="92" r="0.6" fill="#172738"/>
+<circle cx="55" cy="111" r="0.6" fill="#172738"/>
+<circle cx="55" cy="130" r="0.6" fill="#172738"/>
+<circle cx="55" cy="149" r="0.6" fill="#172738"/>
+<circle cx="55" cy="168" r="0.6" fill="#172738"/>
+<circle cx="55" cy="187" r="0.6" fill="#172738"/>
+<circle cx="55" cy="206" r="0.6" fill="#172738"/>
+<circle cx="55" cy="225" r="0.6" fill="#172738"/>
+<circle cx="55" cy="244" r="0.6" fill="#172738"/>
+<circle cx="55" cy="263" r="0.6" fill="#172738"/>
+<circle cx="74" cy="16" r="0.6" fill="#172738"/>
+<circle cx="74" cy="35" r="0.6" fill="#172738"/>
+<circle cx="74" cy="54" r="0.6" fill="#172738"/>
+<circle cx="74" cy="73" r="0.6" fill="#172738"/>
+<circle cx="74" cy="92" r="0.6" fill="#172738"/>
+<circle cx="74" cy="111" r="0.6" fill="#172738"/>
+<circle cx="74" cy="130" r="0.6" fill="#172738"/>
+<circle cx="74" cy="149" r="0.6" fill="#172738"/>
+<circle cx="74" cy="168" r="0.6" fill="#172738"/>
+<circle cx="74" cy="187" r="0.6" fill="#172738"/>
+<circle cx="74" cy="206" r="0.6" fill="#172738"/>
+<circle cx="74" cy="225" r="0.6" fill="#172738"/>
+<circle cx="74" cy="244" r="0.6" fill="#172738"/>
+<circle cx="74" cy="263" r="0.6" fill="#172738"/>
+<circle cx="93" cy="16" r="0.6" fill="#172738"/>
+<circle cx="93" cy="35" r="0.6" fill="#172738"/>
+<circle cx="93" cy="54" r="0.6" fill="#172738"/>
+<circle cx="93" cy="73" r="0.6" fill="#172738"/>
+<circle cx="93" cy="92" r="0.6" fill="#172738"/>
+<circle cx="93" cy="111" r="0.6" fill="#172738"/>
+<circle cx="93" cy="130" r="0.6" fill="#172738"/>
+<circle cx="93" cy="149" r="0.6" fill="#172738"/>
+<circle cx="93" cy="168" r="0.6" fill="#172738"/>
+<circle cx="93" cy="187" r="0.6" fill="#172738"/>
+<circle cx="93" cy="206" r="0.6" fill="#172738"/>
+<circle cx="93" cy="225" r="0.6" fill="#172738"/>
+<circle cx="93" cy="244" r="0.6" fill="#172738"/>
+<circle cx="93" cy="263" r="0.6" fill="#172738"/>
+<circle cx="112" cy="16" r="0.6" fill="#172738"/>
+<circle cx="112" cy="35" r="0.6" fill="#172738"/>
+<circle cx="112" cy="54" r="0.6" fill="#172738"/>
+<circle cx="112" cy="73" r="0.6" fill="#172738"/>
+<circle cx="112" cy="92" r="0.6" fill="#172738"/>
+<circle cx="112" cy="111" r="0.6" fill="#172738"/>
+<circle cx="112" cy="130" r="0.6" fill="#172738"/>
+<circle cx="112" cy="149" r="0.6" fill="#172738"/>
+<circle cx="112" cy="168" r="0.6" fill="#172738"/>
+<circle cx="112" cy="187" r="0.6" fill="#172738"/>
+<circle cx="112" cy="206" r="0.6" fill="#172738"/>
+<circle cx="112" cy="225" r="0.6" fill="#172738"/>
+<circle cx="112" cy="244" r="0.6" fill="#172738"/>
+<circle cx="112" cy="263" r="0.6" fill="#172738"/>
+<circle cx="131" cy="16" r="0.6" fill="#172738"/>
+<circle cx="131" cy="35" r="0.6" fill="#172738"/>
+<circle cx="131" cy="54" r="0.6" fill="#172738"/>
+<circle cx="131" cy="73" r="0.6" fill="#172738"/>
+<circle cx="131" cy="92" r="0.6" fill="#172738"/>
+<circle cx="131" cy="111" r="0.6" fill="#172738"/>
+<circle cx="131" cy="130" r="0.6" fill="#172738"/>
+<circle cx="131" cy="149" r="0.6" fill="#172738"/>
+<circle cx="131" cy="168" r="0.6" fill="#172738"/>
+<circle cx="131" cy="187" r="0.6" fill="#172738"/>
+<circle cx="131" cy="206" r="0.6" fill="#172738"/>
+<circle cx="131" cy="225" r="0.6" fill="#172738"/>
+<circle cx="131" cy="244" r="0.6" fill="#172738"/>
+<circle cx="131" cy="263" r="0.6" fill="#172738"/>
+<circle cx="150" cy="16" r="0.6" fill="#172738"/>
+<circle cx="150" cy="35" r="0.6" fill="#172738"/>
+<circle cx="150" cy="54" r="0.6" fill="#172738"/>
+<circle cx="150" cy="73" r="0.6" fill="#172738"/>
+<circle cx="150" cy="92" r="0.6" fill="#172738"/>
+<circle cx="150" cy="111" r="0.6" fill="#172738"/>
+<circle cx="150" cy="130" r="0.6" fill="#172738"/>
+<circle cx="150" cy="149" r="0.6" fill="#172738"/>
+<circle cx="150" cy="168" r="0.6" fill="#172738"/>
+<circle cx="150" cy="187" r="0.6" fill="#172738"/>
+<circle cx="150" cy="206" r="0.6" fill="#172738"/>
+<circle cx="150" cy="225" r="0.6" fill="#172738"/>
+<circle cx="150" cy="244" r="0.6" fill="#172738"/>
+<circle cx="150" cy="263" r="0.6" fill="#172738"/>
+<circle cx="169" cy="16" r="0.6" fill="#172738"/>
+<circle cx="169" cy="35" r="0.6" fill="#172738"/>
+<circle cx="169" cy="54" r="0.6" fill="#172738"/>
+<circle cx="169" cy="73" r="0.6" fill="#172738"/>
+<circle cx="169" cy="92" r="0.6" fill="#172738"/>
+<circle cx="169" cy="111" r="0.6" fill="#172738"/>
+<circle cx="169" cy="130" r="0.6" fill="#172738"/>
+<circle cx="169" cy="149" r="0.6" fill="#172738"/>
+<circle cx="169" cy="168" r="0.6" fill="#172738"/>
+<circle cx="169" cy="187" r="0.6" fill="#172738"/>
+<circle cx="169" cy="206" r="0.6" fill="#172738"/>
+<circle cx="169" cy="225" r="0.6" fill="#172738"/>
+<circle cx="169" cy="244" r="0.6" fill="#172738"/>
+<circle cx="169" cy="263" r="0.6" fill="#172738"/>
+<circle cx="188" cy="16" r="0.6" fill="#172738"/>
+<circle cx="188" cy="35" r="0.6" fill="#172738"/>
+<circle cx="188" cy="54" r="0.6" fill="#172738"/>
+<circle cx="188" cy="73" r="0.6" fill="#172738"/>
+<circle cx="188" cy="92" r="0.6" fill="#172738"/>
+<circle cx="188" cy="111" r="0.6" fill="#172738"/>
+<circle cx="188" cy="130" r="0.6" fill="#172738"/>
+<circle cx="188" cy="149" r="0.6" fill="#172738"/>
+<circle cx="188" cy="168" r="0.6" fill="#172738"/>
+<circle cx="188" cy="187" r="0.6" fill="#172738"/>
+<circle cx="188" cy="206" r="0.6" fill="#172738"/>
+<circle cx="188" cy="225" r="0.6" fill="#172738"/>
+<circle cx="188" cy="244" r="0.6" fill="#172738"/>
+<circle cx="188" cy="263" r="0.6" fill="#172738"/>
+<circle cx="207" cy="16" r="0.6" fill="#172738"/>
+<circle cx="207" cy="35" r="0.6" fill="#172738"/>
+<circle cx="207" cy="54" r="0.6" fill="#172738"/>
+<circle cx="207" cy="73" r="0.6" fill="#172738"/>
+<circle cx="207" cy="92" r="0.6" fill="#172738"/>
+<circle cx="207" cy="111" r="0.6" fill="#172738"/>
+<circle cx="207" cy="130" r="0.6" fill="#172738"/>
+<circle cx="207" cy="149" r="0.6" fill="#172738"/>
+<circle cx="207" cy="168" r="0.6" fill="#172738"/>
+<circle cx="207" cy="187" r="0.6" fill="#172738"/>
+<circle cx="207" cy="206" r="0.6" fill="#172738"/>
+<circle cx="207" cy="225" r="0.6" fill="#172738"/>
+<circle cx="207" cy="244" r="0.6" fill="#172738"/>
+<circle cx="207" cy="263" r="0.6" fill="#172738"/>
+<circle cx="226" cy="16" r="0.6" fill="#172738"/>
+<circle cx="226" cy="35" r="0.6" fill="#172738"/>
+<circle cx="226" cy="54" r="0.6" fill="#172738"/>
+<circle cx="226" cy="73" r="0.6" fill="#172738"/>
+<circle cx="226" cy="92" r="0.6" fill="#172738"/>
+<circle cx="226" cy="111" r="0.6" fill="#172738"/>
+<circle cx="226" cy="130" r="0.6" fill="#172738"/>
+<circle cx="226" cy="149" r="0.6" fill="#172738"/>
+<circle cx="226" cy="168" r="0.6" fill="#172738"/>
+<circle cx="226" cy="187" r="0.6" fill="#172738"/>
+<circle cx="226" cy="206" r="0.6" fill="#172738"/>
+<circle cx="226" cy="225" r="0.6" fill="#172738"/>
+<circle cx="226" cy="244" r="0.6" fill="#172738"/>
+<circle cx="226" cy="263" r="0.6" fill="#172738"/>
+<circle cx="245" cy="16" r="0.6" fill="#172738"/>
+<circle cx="245" cy="35" r="0.6" fill="#172738"/>
+<circle cx="245" cy="54" r="0.6" fill="#172738"/>
+<circle cx="245" cy="73" r="0.6" fill="#172738"/>
+<circle cx="245" cy="92" r="0.6" fill="#172738"/>
+<circle cx="245" cy="111" r="0.6" fill="#172738"/>
+<circle cx="245" cy="130" r="0.6" fill="#172738"/>
+<circle cx="245" cy="149" r="0.6" fill="#172738"/>
+<circle cx="245" cy="168" r="0.6" fill="#172738"/>
+<circle cx="245" cy="187" r="0.6" fill="#172738"/>
+<circle cx="245" cy="206" r="0.6" fill="#172738"/>
+<circle cx="245" cy="225" r="0.6" fill="#172738"/>
+<circle cx="245" cy="244" r="0.6" fill="#172738"/>
+<circle cx="245" cy="263" r="0.6" fill="#172738"/>
+<circle cx="264" cy="16" r="0.6" fill="#172738"/>
+<circle cx="264" cy="35" r="0.6" fill="#172738"/>
+<circle cx="264" cy="54" r="0.6" fill="#172738"/>
+<circle cx="264" cy="73" r="0.6" fill="#172738"/>
+<circle cx="264" cy="92" r="0.6" fill="#172738"/>
+<circle cx="264" cy="111" r="0.6" fill="#172738"/>
+<circle cx="264" cy="130" r="0.6" fill="#172738"/>
+<circle cx="264" cy="149" r="0.6" fill="#172738"/>
+<circle cx="264" cy="168" r="0.6" fill="#172738"/>
+<circle cx="264" cy="187" r="0.6" fill="#172738"/>
+<circle cx="264" cy="206" r="0.6" fill="#172738"/>
+<circle cx="264" cy="225" r="0.6" fill="#172738"/>
+<circle cx="264" cy="244" r="0.6" fill="#172738"/>
+<circle cx="264" cy="263" r="0.6" fill="#172738"/>
+<circle cx="283" cy="16" r="0.6" fill="#172738"/>
+<circle cx="283" cy="35" r="0.6" fill="#172738"/>
+<circle cx="283" cy="54" r="0.6" fill="#172738"/>
+<circle cx="283" cy="73" r="0.6" fill="#172738"/>
+<circle cx="283" cy="92" r="0.6" fill="#172738"/>
+<circle cx="283" cy="111" r="0.6" fill="#172738"/>
+<circle cx="283" cy="130" r="0.6" fill="#172738"/>
+<circle cx="283" cy="149" r="0.6" fill="#172738"/>
+<circle cx="283" cy="168" r="0.6" fill="#172738"/>
+<circle cx="283" cy="187" r="0.6" fill="#172738"/>
+<circle cx="283" cy="206" r="0.6" fill="#172738"/>
+<circle cx="283" cy="225" r="0.6" fill="#172738"/>
+<circle cx="283" cy="244" r="0.6" fill="#172738"/>
+<circle cx="283" cy="263" r="0.6" fill="#172738"/>
+<circle cx="302" cy="16" r="0.6" fill="#172738"/>
+<circle cx="302" cy="35" r="0.6" fill="#172738"/>
+<circle cx="302" cy="54" r="0.6" fill="#172738"/>
+<circle cx="302" cy="73" r="0.6" fill="#172738"/>
+<circle cx="302" cy="92" r="0.6" fill="#172738"/>
+<circle cx="302" cy="111" r="0.6" fill="#172738"/>
+<circle cx="302" cy="130" r="0.6" fill="#172738"/>
+<circle cx="302" cy="149" r="0.6" fill="#172738"/>
+<circle cx="302" cy="168" r="0.6" fill="#172738"/>
+<circle cx="302" cy="187" r="0.6" fill="#172738"/>
+<circle cx="302" cy="206" r="0.6" fill="#172738"/>
+<circle cx="302" cy="225" r="0.6" fill="#172738"/>
+<circle cx="302" cy="244" r="0.6" fill="#172738"/>
+<circle cx="302" cy="263" r="0.6" fill="#172738"/>
+<circle cx="321" cy="16" r="0.6" fill="#172738"/>
+<circle cx="321" cy="35" r="0.6" fill="#172738"/>
+<circle cx="321" cy="54" r="0.6" fill="#172738"/>
+<circle cx="321" cy="73" r="0.6" fill="#172738"/>
+<circle cx="321" cy="92" r="0.6" fill="#172738"/>
+<circle cx="321" cy="111" r="0.6" fill="#172738"/>
+<circle cx="321" cy="130" r="0.6" fill="#172738"/>
+<circle cx="321" cy="149" r="0.6" fill="#172738"/>
+<circle cx="321" cy="168" r="0.6" fill="#172738"/>
+<circle cx="321" cy="187" r="0.6" fill="#172738"/>
+<circle cx="321" cy="206" r="0.6" fill="#172738"/>
+<circle cx="321" cy="225" r="0.6" fill="#172738"/>
+<circle cx="321" cy="244" r="0.6" fill="#172738"/>
+<circle cx="321" cy="263" r="0.6" fill="#172738"/>
+<circle cx="340" cy="16" r="0.6" fill="#172738"/>
+<circle cx="340" cy="35" r="0.6" fill="#172738"/>
+<circle cx="340" cy="54" r="0.6" fill="#172738"/>
+<circle cx="340" cy="73" r="0.6" fill="#172738"/>
+<circle cx="340" cy="92" r="0.6" fill="#172738"/>
+<circle cx="340" cy="111" r="0.6" fill="#172738"/>
+<circle cx="340" cy="130" r="0.6" fill="#172738"/>
+<circle cx="340" cy="149" r="0.6" fill="#172738"/>
+<circle cx="340" cy="168" r="0.6" fill="#172738"/>
+<circle cx="340" cy="187" r="0.6" fill="#172738"/>
+<circle cx="340" cy="206" r="0.6" fill="#172738"/>
+<circle cx="340" cy="225" r="0.6" fill="#172738"/>
+<circle cx="340" cy="244" r="0.6" fill="#172738"/>
+<circle cx="340" cy="263" r="0.6" fill="#172738"/>
+<circle cx="359" cy="16" r="0.6" fill="#172738"/>
+<circle cx="359" cy="35" r="0.6" fill="#172738"/>
+<circle cx="359" cy="54" r="0.6" fill="#172738"/>
+<circle cx="359" cy="73" r="0.6" fill="#172738"/>
+<circle cx="359" cy="92" r="0.6" fill="#172738"/>
+<circle cx="359" cy="111" r="0.6" fill="#172738"/>
+<circle cx="359" cy="130" r="0.6" fill="#172738"/>
+<circle cx="359" cy="149" r="0.6" fill="#172738"/>
+<circle cx="359" cy="168" r="0.6" fill="#172738"/>
+<circle cx="359" cy="187" r="0.6" fill="#172738"/>
+<circle cx="359" cy="206" r="0.6" fill="#172738"/>
+<circle cx="359" cy="225" r="0.6" fill="#172738"/>
+<circle cx="359" cy="244" r="0.6" fill="#172738"/>
+<circle cx="359" cy="263" r="0.6" fill="#172738"/>
+<circle cx="378" cy="16" r="0.6" fill="#172738"/>
+<circle cx="378" cy="35" r="0.6" fill="#172738"/>
+<circle cx="378" cy="54" r="0.6" fill="#172738"/>
+<circle cx="378" cy="73" r="0.6" fill="#172738"/>
+<circle cx="378" cy="92" r="0.6" fill="#172738"/>
+<circle cx="378" cy="111" r="0.6" fill="#172738"/>
+<circle cx="378" cy="130" r="0.6" fill="#172738"/>
+<circle cx="378" cy="149" r="0.6" fill="#172738"/>
+<circle cx="378" cy="168" r="0.6" fill="#172738"/>
+<circle cx="378" cy="187" r="0.6" fill="#172738"/>
+<circle cx="378" cy="206" r="0.6" fill="#172738"/>
+<circle cx="378" cy="225" r="0.6" fill="#172738"/>
+<circle cx="378" cy="244" r="0.6" fill="#172738"/>
+<circle cx="378" cy="263" r="0.6" fill="#172738"/>
+<circle cx="397" cy="16" r="0.6" fill="#172738"/>
+<circle cx="397" cy="35" r="0.6" fill="#172738"/>
+<circle cx="397" cy="54" r="0.6" fill="#172738"/>
+<circle cx="397" cy="73" r="0.6" fill="#172738"/>
+<circle cx="397" cy="92" r="0.6" fill="#172738"/>
+<circle cx="397" cy="111" r="0.6" fill="#172738"/>
+<circle cx="397" cy="130" r="0.6" fill="#172738"/>
+<circle cx="397" cy="149" r="0.6" fill="#172738"/>
+<circle cx="397" cy="168" r="0.6" fill="#172738"/>
+<circle cx="397" cy="187" r="0.6" fill="#172738"/>
+<circle cx="397" cy="206" r="0.6" fill="#172738"/>
+<circle cx="397" cy="225" r="0.6" fill="#172738"/>
+<circle cx="397" cy="244" r="0.6" fill="#172738"/>
+<circle cx="397" cy="263" r="0.6" fill="#172738"/>
+<circle cx="416" cy="16" r="0.6" fill="#172738"/>
+<circle cx="416" cy="35" r="0.6" fill="#172738"/>
+<circle cx="416" cy="54" r="0.6" fill="#172738"/>
+<circle cx="416" cy="73" r="0.6" fill="#172738"/>
+<circle cx="416" cy="92" r="0.6" fill="#172738"/>
+<circle cx="416" cy="111" r="0.6" fill="#172738"/>
+<circle cx="416" cy="130" r="0.6" fill="#172738"/>
+<circle cx="416" cy="149" r="0.6" fill="#172738"/>
+<circle cx="416" cy="168" r="0.6" fill="#172738"/>
+<circle cx="416" cy="187" r="0.6" fill="#172738"/>
+<circle cx="416" cy="206" r="0.6" fill="#172738"/>
+<circle cx="416" cy="225" r="0.6" fill="#172738"/>
+<circle cx="416" cy="244" r="0.6" fill="#172738"/>
+<circle cx="416" cy="263" r="0.6" fill="#172738"/>
+<circle cx="435" cy="16" r="0.6" fill="#172738"/>
+<circle cx="435" cy="35" r="0.6" fill="#172738"/>
+<circle cx="435" cy="54" r="0.6" fill="#172738"/>
+<circle cx="435" cy="73" r="0.6" fill="#172738"/>
+<circle cx="435" cy="92" r="0.6" fill="#172738"/>
+<circle cx="435" cy="111" r="0.6" fill="#172738"/>
+<circle cx="435" cy="130" r="0.6" fill="#172738"/>
+<circle cx="435" cy="149" r="0.6" fill="#172738"/>
+<circle cx="435" cy="168" r="0.6" fill="#172738"/>
+<circle cx="435" cy="187" r="0.6" fill="#172738"/>
+<circle cx="435" cy="206" r="0.6" fill="#172738"/>
+<circle cx="435" cy="225" r="0.6" fill="#172738"/>
+<circle cx="435" cy="244" r="0.6" fill="#172738"/>
+<circle cx="435" cy="263" r="0.6" fill="#172738"/>
+<circle cx="454" cy="16" r="0.6" fill="#172738"/>
+<circle cx="454" cy="35" r="0.6" fill="#172738"/>
+<circle cx="454" cy="54" r="0.6" fill="#172738"/>
+<circle cx="454" cy="73" r="0.6" fill="#172738"/>
+<circle cx="454" cy="92" r="0.6" fill="#172738"/>
+<circle cx="454" cy="111" r="0.6" fill="#172738"/>
+<circle cx="454" cy="130" r="0.6" fill="#172738"/>
+<circle cx="454" cy="149" r="0.6" fill="#172738"/>
+<circle cx="454" cy="168" r="0.6" fill="#172738"/>
+<circle cx="454" cy="187" r="0.6" fill="#172738"/>
+<circle cx="454" cy="206" r="0.6" fill="#172738"/>
+<circle cx="454" cy="225" r="0.6" fill="#172738"/>
+<circle cx="454" cy="244" r="0.6" fill="#172738"/>
+<circle cx="454" cy="263" r="0.6" fill="#172738"/>
+<circle cx="473" cy="16" r="0.6" fill="#172738"/>
+<circle cx="473" cy="35" r="0.6" fill="#172738"/>
+<circle cx="473" cy="54" r="0.6" fill="#172738"/>
+<circle cx="473" cy="73" r="0.6" fill="#172738"/>
+<circle cx="473" cy="92" r="0.6" fill="#172738"/>
+<circle cx="473" cy="111" r="0.6" fill="#172738"/>
+<circle cx="473" cy="130" r="0.6" fill="#172738"/>
+<circle cx="473" cy="149" r="0.6" fill="#172738"/>
+<circle cx="473" cy="168" r="0.6" fill="#172738"/>
+<circle cx="473" cy="187" r="0.6" fill="#172738"/>
+<circle cx="473" cy="206" r="0.6" fill="#172738"/>
+<circle cx="473" cy="225" r="0.6" fill="#172738"/>
+<circle cx="473" cy="244" r="0.6" fill="#172738"/>
+<circle cx="473" cy="263" r="0.6" fill="#172738"/>
+<rect x="31" y="20" width="120" height="40" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="91" y="42" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">世界与输入</text>
+<text x="91" y="55" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">World / input</text>
+<rect x="192" y="20" width="120" height="40" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="252" y="42" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">语义入口</text>
+<text x="252" y="55" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Semantic entry</text>
+<rect x="352" y="20" width="120" height="40" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="412" y="42" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">约束与方向</text>
+<text x="412" y="55" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Constraint / direction</text>
+<line x1="152" y1="40" x2="191" y2="40" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="191" y1="40" x2="186.612" y2="42.3971" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="191" y1="40" x2="186.612" y2="37.6029" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="313" y1="40" x2="351" y2="40" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="351" y1="40" x2="346.612" y2="42.3971" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="351" y1="40" x2="346.612" y2="37.6029" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<path d="M 412 60 C 412 83 88 65 88 101" fill="none" stroke="#376784" stroke-width="1"/>
+<line x1="88" y1="100" x2="85.6029" y2="95.6121" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="88" y1="100" x2="90.3971" y2="95.6121" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<rect x="29" y="102" width="119" height="45" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="88.5" y="126.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">路径形成</text>
+<text x="88.5" y="139.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">PATH formation</text>
+<rect x="196" y="102" width="111" height="45" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="251.5" y="126.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">竞争与反作用</text>
+<text x="251.5" y="139.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="7.1" font-weight="400">Competition / counterforce</text>
+<rect x="352" y="102" width="120" height="45" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="412" y="126.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">资格与审计</text>
+<text x="412" y="139.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Qualification / audit</text>
+<path d="M 148 110 C 165 110 178 121 196 116" fill="none" stroke="#376784" stroke-width="1"/>
+<path d="M 307 116 C 325 124 334 110 352 110" fill="none" stroke="#376784" stroke-width="1"/>
+<path d="M 148 124 C 165 124 178 121 196 124" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<path d="M 307 124 C 325 124 334 124 352 124" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<path d="M 148 139 C 165 139 178 121 196 132" fill="none" stroke="#376784" stroke-width="1"/>
+<path d="M 307 132 C 325 124 334 139 352 139" fill="none" stroke="#376784" stroke-width="1"/>
+<path d="M 280 101 C 287 79 201 79 197 107" fill="none" stroke="#9BE1FF" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="197" y1="107" x2="196.113" y2="102.079" fill="none" stroke="#9BE1FF" stroke-width="0.8"/>
+<line x1="197" y1="107" x2="200.662" y2="103.595" fill="none" stroke="#9BE1FF" stroke-width="0.8"/>
+<text x="251" y="159" text-anchor="middle" fill="#D8F3FF" font-family="Liberation Sans, Arial, sans-serif" font-size="8.4" font-weight="700">T1 → R2  /  T2 → R3+*</text>
+<path d="M 412 147 C 412 176 115 167 115 192" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="115" y1="192" x2="112.603" y2="187.612" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="115" y1="192" x2="117.397" y2="187.612" fill="none" stroke="#9BE1FF" stroke-width="1"/>
+<line x1="251" y1="168" x2="251" y2="191" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="251" y1="191" x2="248.603" y2="186.612" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="251" y1="191" x2="253.397" y2="186.612" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<path d="M 412 147 C 412 164 411 179 411 192" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="411" y1="192" x2="408.603" y2="187.612" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="411" y1="192" x2="413.397" y2="187.612" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<rect x="52" y="192" width="126" height="45" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="115" y="216.5" text-anchor="middle" fill="#F2F8FC" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">闭合与准出</text>
+<text x="115" y="229.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Closure / release</text>
+<rect x="192" y="192" width="119" height="45" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="251.5" y="216.5" text-anchor="middle" fill="#9BE1FF" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">暂缓</text>
+<text x="251.5" y="229.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">HOLD</text>
+<rect x="352" y="192" width="120" height="45" rx="4" fill="#111C2A" stroke="#2B4B62" stroke-width="0.8"/>
+<text x="412" y="216.5" text-anchor="middle" fill="#9BE1FF" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700">重开范围</text>
+<text x="412" y="229.5" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.2" font-weight="400">Scoped reopening</text>
+<line x1="313" y1="214" x2="350" y2="214" fill="none" stroke="#376784" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="350" y1="214" x2="345.612" y2="216.397" fill="none" stroke="#376784" stroke-width="0.9"/>
+<line x1="350" y1="214" x2="345.612" y2="211.603" fill="none" stroke="#376784" stroke-width="0.9"/>
+<path d="M 413 238 C 406 254 244 247 124 248" fill="none" stroke="#376784" stroke-width="0.9" stroke-dasharray="3 3"/>
+<path d="M 124 248 C 20 248 17 214 17 120" fill="none" stroke="#376784" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="17" y1="120" x2="29" y2="120" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="29" y1="120" x2="24.6121" y2="122.397" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<line x1="29" y1="120" x2="24.6121" y2="117.603" fill="none" stroke="#9BE1FF" stroke-width="0.9"/>
+<text x="251.5" y="269" text-anchor="middle" fill="#9BE1FF" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700">光轨 · 残留 · 重入   /   * R3+ 按条件触发</text>
+<text x="251.5" y="282" text-anchor="middle" fill="#AFC4D4" font-family="Liberation Sans, Arial, sans-serif" font-size="8.1" font-weight="400">Trace · residue · reentry   /   * R3+ is conditional</text>
+</svg>
