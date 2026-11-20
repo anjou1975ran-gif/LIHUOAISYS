@@ -18,4 +18,5 @@
 | M11 | [e6234a94bb71](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/e6234a94bb71c96ac343c45c705111183120cb3c) | 搬遷並標識相容資料 |
 | M12 | [e02f7146db7a](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/e02f7146db7a2ec65d5c303fe8e8ceae01b89ba5) | 全倉路徑修復 |
 | M13 | [5f129e9af494](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/5f129e9af49436007d50d640eee7f7e03329c06a) | 退役舊路徑為轉址頁 |
-| M14 | 本檔所在提交 | 驗收並補完逐條引用 |
+| M14 | [71ea516fd320](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/71ea516fd320a3588a865e5b480ab7937b8bac68) | 驗收並補完逐條引用 |
+| M15 | 本檔所在提交 | 交付最終驗收報告 |
