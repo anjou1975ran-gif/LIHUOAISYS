@@ -159,3 +159,65 @@ audit_nonclaim: "R3 能檢查部分合理前提，不是窮盡所有可能的行
 ```
 
 **此 Commit 到這裡為止。R3 尚未形成，不得由 R2 結論直接回填 R3。**
+
+---
+
+## 04｜R3：跨前提族競爭（必跑）
+
+**R3 消費：** `L8-20261120-T2` + `L8-20261120-POST-R2-PA`；正式擴張 P0、P1、P2，不再把台股避險敘事當成問句唯一框架。
+
+### 跨前提 PATH 准入與競爭
+
+| PATH | Family | 判斷／構造 | 資格與限制 |
+|---|---|---|---|
+| P0-A | P0 股市避險 | 恐慌促金價反彈 | `PARTIALLY_QUALIFIED`：避險需求合理，缺少當日黃金淨流入證據，不能主導 |
+| P1-B | P1 美元／貨幣機會成本 | 美元強＋升息預期，金價續弱 | `QUALIFIED_CONDITIONAL`：Reuters 同日金價、美元、Fed 敘事提供來源 |
+| P1-C | P1 貨幣路徑反轉 | 若美數據弱、美元和公債殖利率回落，金價可回彈 | `QUALIFIED_CONDITIONAL`：機制合理，尚未發生 |
+| P2-D | P2 去槓桿清算 | 股票、黃金可能同跌，為追繳保證金出售黃金 | `PARTIALLY_QUALIFIED`：目前無直接證據證明 11/20 金市確有此交易機制；只能作情境 |
+| P2-E | P2 短線技術反彈 | 急跌與空頭回補導致今晚先跌後彈 | `PARTIALLY_QUALIFIED`：需要今晚即時量價確認；不能列為確定支撐反轉 |
+
+**合格比較結果：** `P1-B` 是當前主要條件性路徑。P0-A 不能因台股大跌就取得更高法位；P2-D/E 尚缺日內交易行為證據，保留為風險路徑而非已發生的解釋。P1-C 是對主線的有效反轉條件。非百分比機率預測。
+
+### O9／Point-Light｜LAMP_STATE_R3
+
+```yaml
+lamp_state_ref: L8-20261120-LAMP-R3
+main_lamp: P1-B_MACRO_BEARISH_GOLD
+active_lamps:
+  - "P1-B BRIGHT / sourced"
+  - "P1-C ACTIVE / conditional reversal"
+  - "P0-A DIM / unverified haven flows"
+  - "P2-D & P2-E DIM / plausible but no transaction-level verification"
+dark_zone:
+  - "紐約開盤後 DXY、收益率及現貨金價的共變尚未發生"
+  - "最新台股官方 11/20 終場收盤值仍未核實"
+suppressed_path_refs: []
+false_completion_risk: "將 P1-B 當成無條件預言；或以去槓桿猜測解釋全部行情"
+I9: NOT_TRIGGERED
+```
+
+### T3｜跨前提競爭戰情交接
+
+```yaml
+trace_ref: L8-20261120-T3
+consumes: [L8-20261120-POST-R2-PA,P0-A,P1-B,P1-C,P2-D,P2-E,L8-20261120-LAMP-R3]
+result: "跨前提後偏空維持，但理論依據由『台股反向影響黃金』轉向『美元利率直接定價優先』"
+qualified_leader: P1-B
+counterfactual_reversal: "DXY/UST yields decline + spot gold stops making fresh lows"
+downgraded_explanations: [P0-A,P2-D,P2-E]
+remaining_uncertainty: "尚未看到台灣今晚美國時段的最新行情及實際發布數據"
+provider_receipt: NONE
+```
+
+**Further rounds R4+：** 無新的實質資料可支持本次再次競爭，`NOT_REQUIRED`。不可為了整齊而強迫追加一輪。
+
+### 今晚事件（僅作觀察，不填未來結果）
+
+美國密西根大學 11 月消費者信心調查終值，依 AP 前一週預告定於 11/20 發布；美國 BLS 官方時程亦列 11/20 10:00 ET 的州別就業與失業數據（台灣時間約 23:00）。S&P Global 官方表示 11 月 US Flash PMI 發布日為 **11/23**，不可把第三方日曆誤排的 11/20 PMI 當作今晚一定公布。
+
+來源：
+- https://apnews.com/article/336b95f88ac197f7d0e84199bda23136
+- https://www.bls.gov/schedule/2026/home.htm
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/five-things-to-watch-in-the-november-flash-pmis
+
+**到此提交：** R3 與 T3 已形成，尚未生成 Main Return、Manifestation、SGER 全文及 Final Receipt。
