@@ -95,3 +95,11 @@ MAJORITY != QUALIFICATION
 來源為主倉庫既有 `理火會議(關於CG)/`。該案例保留二十輪理火 AI 長程會議、前十二輪小結與最終報告，是本項目研究多席互相修正、工程壓縮、審計收容、跨輪問題改寫與角色漂移風險的重要形成史。
 
 原始來源不刪除、不覆寫。
+
+## 溯源經驗與再生入口（2026-11-20）
+
+- **[完整形成史經驗 MEMO](MEMO區/MEMO_參謀本部溯源經驗_關係結構與SEED再生_V0.1_20261120.md)**：把 CG 二十輪、1111 自主性、Method First、Secretariat、TEST-001/002、首案失效與理火三原則串成可核對的形成因果。
+- **[最小結構再生 SEED](心得區/SEED_參謀本部關係結構再生_V0.1_20261120.md)**：未來工作節點在新題目中重新長出責任、反對、改判、來源與權限界線的入口；不是摘要恢復、Runtime 規則或自動資格。
+- **待核對：** 訓練狀態仍記 `LIHUO_PROJECT_QUALIFIED=false`，與後續實跑歷史存在時間／法位核對需求；本次未改訓練門、未啟動 Council、未 corrective reentry。
+
+此二件為 **NON-NORMATIVE EXPERIENCE ARCHIVE / REGENERATION CANDIDATE**。原始歷史、糾正及 V0.1.1 PATCH 法位保持不變。
