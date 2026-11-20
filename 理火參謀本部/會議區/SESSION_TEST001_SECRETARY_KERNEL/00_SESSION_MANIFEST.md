@@ -4,7 +4,7 @@
 ~~~yaml
 SESSION_MANIFEST:
   session_id: TEST-001-SECRETARY-KERNEL
-  status: WAITING_HUMAN
+  status: WAITING_HUMAN_DECISION
 
   human_desire_ref: 01_HUMAN_DESIRE.md
   mandate_ref: 01_HUMAN_DESIRE.md#D1
@@ -16,6 +16,7 @@ SESSION_MANIFEST:
     events:
       - HI-001: H2_GUIDED_ONE_SHOT
       - HI-002: H1_NUDGE_ONE_SHOT
+      - HI-003: H2_GUIDED_ONE_SHOT
     current: H0_FREE
 
   end_policy:
@@ -74,8 +75,13 @@ SESSION_MANIFEST:
 
   current_guest_refs: []
 
+  checkpoint_ending:
+    state: ACTIVE
+    decision_request_ref: 10_DECISION_REQUEST_DR001.md
+    reason: O-C-006
+
   next_required_input:
-    - HUMAN_CONFIRM_OR_CORRECT_D1
+    - HUMAN_DECISION_DR001
 
   next_runnable_queue: []
 ~~~
