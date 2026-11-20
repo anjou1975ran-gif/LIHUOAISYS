@@ -207,3 +207,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [事前登記：測標籤 vs 測路由成本分開](訓練區/PSO_LABEL_ROUTING_002_20261121/00_PRE_REGISTRATION.md)
 - [實際控制測試結果：14/14 並經 Git 回讀確認](訓練區/PSO_LABEL_ROUTING_002_20261121/RESULT_REFERENCE_FIXTURE_CHECKS.md)
 **法位：** P0 MASKED / P1 SECRETARIAT / P2 LIHUO_RADAR 三組僅顯示標籤不同；共同候選內容與所有來源 SHA 相同。14 項機械夾具檢查通過；候選 Screen 6→4 僅是假設性範圍示例，C／D 原有法定資格與工程安全問題保留。**真正隔離的模型效果、淨成本效益、合格正式路由與 Runtime 部署都未實測或未成立。** PSO 舊紀錄與 V0.2.1 不覆寫。
+
+## PSO-ISOLATED-LABEL-TRIAL-003｜18 份受測者曝光隔離測試包（2026-11-21）
+- [獨立上下文實驗包入口](訓練區/PSO_ISOLATED_LABEL_TRIAL_003_20261121/README.md)
+- [預註冊：Audit Metadata 與 Participant Exposure 分離](訓練區/PSO_ISOLATED_LABEL_TRIAL_003_20261121/00_PRE_REGISTRATION.md)
+- [測試建立紀錄](訓練區/PSO_ISOLATED_LABEL_TRIAL_003_20261121/BUILD_CHECK_REPORT.md)
+**法位：** 六席 × MASKED／SECRETARIAT／RADAR 三標籤，18 份完整且不包含上輪 Audit-only 反權威提示的獨立受測輸入；每席三份僅標籤不同。九份來源 Blob SHA 檢查與十八份 Git 回讀驗證成功。**尚未產生 18 次隔離模型回應、盲評、權威標籤因果效應或實際成本測量；不得視為 Runtime Patch。** 舊測試不覆寫。
