@@ -61,7 +61,7 @@
 | MONEY / ENTERPRISE | auditing_assurance | [審計／確信](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/4ab077f1bdde67be4fa2cd0c093e032118f34920/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.auditing_assurance_%E5%AF%A9%E8%A8%88%E3%83%BB%E7%A2%BA%E4%BF%A1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | tax | [稅務](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/aa27b5160813f94c622c1c715c3c3a794df85fa2/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.D.tax_%E7%A8%85%E5%8B%99_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | finance_financial_systems | [金融／銀行／資本市場](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/9aa4732eb5fcb82c055cb421cb245d0b67f43c9c/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.D.finance_financial_systems_%E9%87%91%E8%9E%8D%E3%83%BB%E9%8A%80%E8%A1%8C%E3%83%BB%E8%B3%87%E6%9C%AC%E5%B8%82%E5%A0%B4_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| MONEY / ENTERPRISE | insurance_risk_transfer | 保險／風險移轉 | REGISTERED | 對應主幹穩定後施工 | |
+| MONEY / ENTERPRISE | insurance_risk_transfer | [保險／風險移轉](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.D.insurance_risk_transfer_%E4%BF%9D%E9%9A%AA%E3%83%BB%E9%A2%A8%E9%9A%AA%E7%A7%BB%E8%BD%89_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | MONEY / ENTERPRISE | corporate_governance | 公司治理 | REGISTERED | 對應主幹穩定後施工 | |
 | MONEY / ENTERPRISE | strategy_entrepreneurship | 策略／創業 | REGISTERED | 對應主幹穩定後施工 | |
 | MONEY / ENTERPRISE | organizational_behavior_hr | 組織行為／人力資源 | REGISTERED | 對應主幹穩定後施工 | |
@@ -1256,6 +1256,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.D
   - V0.3.F.accounting
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.D.insurance_risk_transfer
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.D.insurance_risk_transfer_保險・風險移轉_整合版.md
+  commit: null
+  blob: 280e36ef808ab168700ba843f8ae5221089015fa
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 3
+    secondary_count: 0
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.D
+  - V0.3.D.finance_financial_systems
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
