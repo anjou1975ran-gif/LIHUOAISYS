@@ -1,0 +1,5 @@
+# ERRATUM｜PSO-PAIR-001 result V0.1 — group-chat representation count is unknown
+**Corrects:** `RESULT_PSO_PAIR001_REFERENCE_A_B_V0.1_20261120.md`, M2 comparison table B Seat A row, the wording **"unrepresented 61+ households (8 interested + 3 objected not representative)"**.
+**Issue:** Frozen M0 states 72 dwelling units, 8 *people* expressed interest and 3 *people* objections; it DOES NOT state these 11 are distinct or one resident per household. The arithmetic figure 61+ not represented is **unsupported**.
+**Correct expression:** **"8 messages of interest and 3 objections do not establish a representative view of the 72-unit building; the distribution among households, participation and overlap are UNKNOWN."**
+**Effect on original conclusion:** None: B Seat A independently foregrounds sampling/representation as a question, but no known respondent count or statistical evidence. M1 remains inconclusive; no gain/causal result promoted. Original result is retained to preserve version history. No hidden overwrite.
