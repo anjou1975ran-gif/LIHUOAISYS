@@ -81,7 +81,7 @@
 | PERSON / SOCIAL RELATIONS | child_development_protection | [兒少發展／保護](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/f79eee0616ec06c470415f18810e63ed30afe226/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AA.child_development_protection_%E5%85%92%E5%B0%91%E7%99%BC%E5%B1%95%E3%83%BB%E4%BF%9D%E8%AD%B7_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PERSON / SOCIAL RELATIONS | disability_studies | [障礙研究](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/37dc07c5855ad2a59867d28b865e844bc0dd1ff1/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AA.disability_studies_%E9%9A%9C%E7%A4%99%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PERSON / SOCIAL RELATIONS | aging_gerontology | [高齡／老年學](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/0d1dccec76aeed0d7b9112655fab0905d7de945b/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AA.aging_gerontology_%E9%AB%98%E9%BD%A1%E3%83%BB%E8%80%81%E5%B9%B4%E5%AD%B8_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| PERSON / SOCIAL RELATIONS | care_systems | 照護系統 | REGISTERED | 對應主幹穩定後施工 | |
+| PERSON / SOCIAL RELATIONS | care_systems | [照護系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AA.care_systems_%E7%85%A7%E8%AD%B7%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | PERSON / SOCIAL RELATIONS | consumer_studies | 消費者研究 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | cybersecurity | 網路安全／資安 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | data_governance_privacy | 資料治理／隱私 | REGISTERED | 對應主幹穩定後施工 | |
@@ -1968,6 +1968,42 @@ PACK_COMPLETION_REPORT:
     G8: PASS
     G9: PASS
     G10: PASS
+  legal_204:
+    primary_count: 2
+    secondary_count: 0
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.AA
+  - V0.2.N
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.AA.care_systems
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.AA.care_systems_照護系統_整合版.md
+  commit: null
+  blob: fb13c94e3031681551c77173edacdd816d67d660
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
   legal_204:
     primary_count: 2
     secondary_count: 0
