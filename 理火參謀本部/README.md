@@ -183,3 +183,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [直接閱讀對照結果：首次程序參照已完成、有效性仍 INCONCLUSIVE](訓練區/PSO_PAIR001_20261120/RESULT_PSO_PAIR001_REFERENCE_A_B_V0.1_20261120.md)
 - [新的完整心法庫 Master Plan（Registry/施工規格，不是已接受的新 Pack）](心法區/METHOD_ATLAS_COMPLETE_LIBRARY_MASTER_PLAN_V0.1_20261120.md)
 **結果法位：** 兩組各六席 First Observation + L8/SGER、四份 selected AI Method source fetch、1 Council Round；Git 時序成立，但同模型上下文中 A 可能先看過 B 方向卡，B 又看過 A 的結果，因此**不是乾淨配對/獨立實驗**。沒有證據顯示議前方向卡明確改善 M1–M4，且 B 多一張卡的負擔；`PAIRED_REFERENCE != CAUSAL_EFFECT_PROVEN`，V0.2.1 不升版。另備兩份獨立 A/B 進場包供未來分離情境測試（未執行）。
+
+## PSO-TRI-001｜會前會共同地板／共同方向三臂測試（2026-11-20）
+- [共同地板與共同方向：Pre-Session 治理工作 MEMO](MEMO區/MEMO_PRE_SESSION_COMMON_GROUND_VS_ORIENTATION_V0.1_WORKING_20261120.md)
+- [PSO-TRI-001 三臂測試預註冊規格：A 原生、B Ground、C Ground + Orientation](訓練區/TEST_PSO_TRI_ARM_COMMON_GROUND_VS_ORIENTATION_V0.1_WORKING_20261120.md)
+- [前次 PSO-PAIR-001：已完成文字參照，但清潔配對 INVALID、效果 INCONCLUSIVE](訓練區/PSO_PAIR001_20261120/README.md)
+**母命題：**「會前會只確認共同地板；共同方向除非被實驗證明有淨增益，否則不要預設加入。」A/B/C 同一底層資訊及 Method Atlas，改變前處理方式；B 不得暗設偏好解題框架，C 帶最強反向與 NULL。核心比較材料發現、完整程序成本與兩種 First Observation／Method Convergence。**目前僅設計並保存，尚未執行三臂；Staff-HQ V0.2.1 Runtime 原件不變。**
