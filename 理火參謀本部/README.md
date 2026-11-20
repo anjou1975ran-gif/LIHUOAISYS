@@ -158,3 +158,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [SEED 跨情境刪減實驗候選（NOT RUN）](訓練區/TEST_SEED_REGENERATION_CROSS_CONTEXT_ABLATION_V0.1_WORKING_20261120.md)
 
 本案 `CONCEPT / P0=NONE / SAME_MODEL_MULTI_ROLE_REFERENCE`：C 的歷史資格反對促使 A 修改故事型 SEED 的輸入時序，D/E 的刪減／成本反對促使 B 將抽象最小關係圖修改為生成核心＋證據解參照＋可反證測試契約。沒有商業/OS/Runtime winner；Formal Council qualification 受既有訓練 Gate 限制，仍為 HOLD。本段僅增加導航，不改寫舊 Session 原件。
+
+## CASE-003 乾淨情報公司自主可行性研究議事（2026-11-20）
+- [完整 Staff-HQ Session：由責任席自行形成研究建議](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/README.md)
+- [Report：三路可行性研究及 L9 Radar](提案區/REPORT_理火乾淨情報公司_CASE003_自主可行性研究建議_V0.1_20261120.md)
+- [Final Meta/Chronology Audit](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/AUDIT/FINAL_FEASIBILITY_COUNCIL_AND_RADAR_AUDIT.md)
+**Reference identity:** SAME_MODEL_MULTI_ROLE_REFERENCE / V0.2.1 WORKING。B 席起源 P1 Research Sequencing (not business winner)，A 席在 N1+L9 反對後降低 F4 立場，B 席在 C/D/E 反對後不先建平台。原 CASE-001/002/先前 CASE003 desk study 不修改。
