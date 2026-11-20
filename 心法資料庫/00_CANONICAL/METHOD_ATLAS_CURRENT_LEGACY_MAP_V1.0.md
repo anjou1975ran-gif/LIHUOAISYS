@@ -674,6 +674,9 @@ CANONICAL_POINTER:
       - path: ../../學術心法/心法/理火金融心法_市場結構篇_V0.1.md
         class: HISTORICAL_ARCHIVE
         default_retrieval: false
+      - path: ../../1111/似伊的小酒吧/理火金融心法_市場結構篇_V0.1.md
+        class: HISTORICAL_SAME_BLOB
+        default_retrieval: false
       default_retrieval: false
     CONTEXT.GUANZHI_RELATIONAL_LANGUAGE:
       current: ../04_SPECIALIZED_CONTEXTUAL/風月場關係話術心法_V0.1.md
@@ -697,6 +700,17 @@ CANONICAL_POINTER:
     class: DERIVED / COMPATIBILITY VIEW
     canonical_source: false
     default_retrieval: false
+  outside_registry:
+  - class: VERTICAL_METHOD_SOURCE
+    consumer: 理火 AI 律師
+    shared_atlas_default: false
+  - class: VERTICAL_METHOD_PATCH
+    consumer: 觀止導演
+    depends_on: CONTEXT.NARRATIVE_PHYSICS
+    shared_atlas_default: false
+  - class: VERTICAL_METHOD_SOURCE
+    consumer: 觀止 CERI
+    shared_atlas_default: false
 ```
 
 同名史料、縱向衍生及獨立法律／觀止版本各依原則保存。版本漂移或來源衝突可查 [Migration Map](METHOD_ATLAS_MIGRATION_MAP_V1.0.md)。

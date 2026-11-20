@@ -57,7 +57,7 @@
 - [新形成的概念選項](../會議區/SESSION_20261120_SEED_REGENERATION_CONCEPT_001/02_CONCEPT_SPACE_SEED_REGENERATION_CANDIDATES.md)
 - [Meta Governance Audit](../記錄區/SESSION_20261120_SEED_REGENERATION_CONCEPT_001/AUDIT/SEED_CONCEPT_FORMATION_META_SWEEP_V0.1.md)
 - [歷史 Staff-HQ SEED](../心得區/SEED_參謀本部關係結構再生_V0.1_20261120.md) — reference only
-- [心法區](../心法區/README.md)
+- [心法區](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/README.md)
 - 上位理火 OS V1.4.2 L3.15，定義 `regeneration_target / identity_invariants / required_constraints / allowed_context_variation / removable_elements / failure_if_removed`.
 
 ```yaml

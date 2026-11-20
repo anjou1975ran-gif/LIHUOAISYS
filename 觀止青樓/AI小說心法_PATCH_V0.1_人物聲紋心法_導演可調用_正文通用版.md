@@ -11,7 +11,7 @@ PATCH:
   version: "V0.1"
   status: "EXPERIMENTAL_METHOD_PATCH"
   parent:
-    file: "AI小說心法(敘事物理學).md"
+    file: "心法資料庫/04_SPECIALIZED_CONTEXTUAL/AI小說心法(敘事物理學).md"
     version: "V0.1"
   target:
     - "AI 小說導演"

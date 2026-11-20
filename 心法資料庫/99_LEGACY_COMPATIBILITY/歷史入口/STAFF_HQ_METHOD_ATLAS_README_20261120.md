@@ -1,3 +1,5 @@
+> **歷史入口**。下文的 CURRENT 敘述、檔名與引用屬第一次搬遷及完建過程。現行從 [心法資料庫](../../README.md) 進入。
+
 # 心法區
 ## LIHUO Method Atlas / First-Step Layer
 
@@ -140,13 +142,13 @@ WORK 後續應依 Master Plan 一包一包施工，不再自行擴張 Atlas 結�
 
 ## 施工索引
 
-- [Build Ledger](METHOD_ATLAS_BUILD_LEDGER_V0.1_20261120.md)
-- [204 DLM Coverage Ledger](METHOD_ATLAS_204_DLM_COVERAGE_LEDGER_V0.1_20261120.md)
+- [Build Ledger](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/METHOD_ATLAS_BUILD_LEDGER_V0.1_20261120.md)
+- [204 DLM Coverage Ledger](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/METHOD_ATLAS_204_DLM_COVERAGE_LEDGER_V0.1_20261120.md)
 
 
 ## 本輪交付
 
-- [Final Build Report](METHOD_ATLAS_FINAL_BUILD_REPORT_V0.1_20261120.md)
-- [Neighbor Overlap Audit](METHOD_ATLAS_NEIGHBOR_OVERLAP_AUDIT_V0.1_20261120.md)
-- [Gap Audit](METHOD_ATLAS_GAP_AUDIT_V0.1_20261120.md)
-- [204 DLM Coverage Audit](METHOD_ATLAS_204_DLM_COVERAGE_AUDIT_V0.1_20261120.md)
+- [Final Build Report](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/METHOD_ATLAS_FINAL_BUILD_REPORT_V0.1_20261120.md)
+- [Neighbor Overlap Audit](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/METHOD_ATLAS_NEIGHBOR_OVERLAP_AUDIT_V0.1_20261120.md)
+- [Gap Audit](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/METHOD_ATLAS_GAP_AUDIT_V0.1_20261120.md)
+- [204 DLM Coverage Audit](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/METHOD_ATLAS_204_DLM_COVERAGE_AUDIT_V0.1_20261120.md)

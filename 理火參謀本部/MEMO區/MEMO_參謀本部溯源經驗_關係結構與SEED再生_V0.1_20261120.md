@@ -184,7 +184,7 @@ NEW HUMAN PROBLEM
 - `理火OSV1.4.2(點燈回歸).md`，L1.4 三原則；L3.15 SEED；實習手冊 `6C.7` 為教育性 SEED 描述，不能覆寫 OS。
 - `理火參謀本部/MEMO區/MEMO_理火參謀本部_項目成立與垂直程序定位_V0.1_20261120.md`
 - `理火參謀本部/MEMO區/MEMO_理火參謀本部_AGENT骨架_1111自主決策遺產_可說服議事轉譯_V0.1_20261120.md`
-- `理火參謀本部/心法區/README.md` 與 `MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md`
+- [`理火參謀本部/心法區/README.md`](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/README.md) 與 [`MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md`](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md)
 - `理火參謀本部/參考範例/CG生成動力學20輪會議/`，第一至第二十輪及最終報告（歷史原型，非現行部署證據）。
 - `理火參謀本部/MEMO區/MEMO_Secretariat_Architecture_V0.1_FIRST_BASELINE_20261120.md`
 - `理火參謀本部/工程區/VERTICAL_LIHUOOS_V1.4.2_理火參謀本部_V0.1_20261120.md`

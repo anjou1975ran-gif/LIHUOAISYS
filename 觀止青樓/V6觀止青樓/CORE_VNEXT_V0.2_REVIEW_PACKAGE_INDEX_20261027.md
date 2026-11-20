@@ -35,7 +35,7 @@
 
 ## 與 WORLD、OS、Director、人物池的邊界
 
-**WORLD：** 依 2026-10-26 已批准的 [WORLD V3.0.0 Main](V3.0.0/02_GUANZHI_WORLD_V3.0.0_MAIN_HUMAN_RATIFIED_20261026.md) 及 [同版附錄](V3.0.0/02_GUANZHI_WORLD_V3.0.0_ANNEX_HUMAN_RATIFIED_20261026.md)。主文只承接其實際語義：例如十三月、每月二十八日、天亮換日、場外生活、來源生命時點與多重態交會；不重造 WORLD。
+**WORLD：** 依 2026-10-26 已批准的 [WORLD V3.0.0 Main](V3.0.0/觀止青樓主世界觀V3.0.0.md) 及 [同版附錄](V3.0.0/觀止青樓世界觀附件V3.0.0.md)。主文只承接其實際語義：例如十三月、每月二十八日、天亮換日、場外生活、來源生命時點與多重態交會；不重造 WORLD。
 
 **OS：** [LIHUOOS V1.1 CURRENT SYSTEM](../../LIHUOOS/V1版本/正式版/理火OSV1.1版.md) 為獨立理火使用版；本包不修改其 L0–L7、L8、L9、Main，也不冒稱 Host 部署已完成。新 CORE 以接口接收實際可用結果，不複製理火理論與週期對帳。
 

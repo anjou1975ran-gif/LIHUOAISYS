@@ -81,7 +81,7 @@ PROFESSIONAL_SUPPORT_REQUEST_CANDIDATE:
   unresolved_professional_question: "實際 compensation tree 是否觸及 PRC 禁止傳銷類別？"
   support_intent: [FIRST_OBSERVATION,LEGAL_SOURCE_VERIFICATION]
   method_candidates:
-    - path: "理火參謀本部/心法區/學科心法總目錄_V0.2.C_第三組_法學整合版.md"
+    - path: "心法資料庫/02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.C_第三組_法學整合版.md"
       lens: "jurisdiction/procedure/evidence/referral_gate"
   minimal_expected_return: "法學觀察單位/可查法源/必須另尋執業者之界線"
   confidentiality: NO_CLIENT_PRIVATE_DATA

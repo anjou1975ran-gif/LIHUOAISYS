@@ -196,7 +196,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.L
   first_sees: 先辨認 estimand、分母和資料生成過程，再問觀察差異有多少來自選取、量測、隨機波動或處置。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.L_第12組_統計學_整合版.md
-  git_blob: 6085cf3e865636d23065b60b269d5fa5291c974c
+  git_blob: 3e186da8941ec6a7e85124f20b8bf96c4741770a
   neighbors:
   - V0.2.D
   - V0.2.G
@@ -209,7 +209,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.M
   first_sees: 找輸入如何表示、何處存放權威狀態、操作須維持哪些不變量，再問資源界線與失敗可觀測性。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.M_第13組_計算機科學_整合版.md
-  git_blob: 545ef58fe4ca462a2791cc5036ee8a1ef76cf54f
+  git_blob: d54f5667409485c277e18b3197bd528635f7e15c
   neighbors:
   - V0.2.F
   - V0.2.L
@@ -222,7 +222,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.N
   first_sees: 先確定眼前是單人診療、群體健康監測，或介入效果問題。辨認誰在風險中、什麼可測、何時需有責任的專業者。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.N_第14組_醫學・公共衛生・實證醫學_整合版.md
-  git_blob: ed48d8e42d7bfda4c1ca12731c066c2eaa402731
+  git_blob: fbaaf21efbb74208b0d6cf553bff1893e3764b4f
   neighbors:
   - V0.2.L
   - V0.2.Q
@@ -235,7 +235,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.O
   first_sees: 找跨境互賴中沒有共同上級可保證履約的行為者，定位承諾、可觀察性和認同如何改變互動。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.O_第15組_國際關係_整合版.md
-  git_blob: 0cc08e6cc8a97e03e464216bd09c0713268b39b5
+  git_blob: 3f1b23d7e5a0e3e5a96e67831cce71c15d5a0a77
   neighbors:
   - V0.2.E
   - V0.2.C
@@ -248,7 +248,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.P
   first_sees: 把行政邊界、實際通達網絡與跨境管制分開，找哪些路徑、節點和依賴塑造可選行動。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.P_第16組_地緣政治_整合版.md
-  git_blob: 6c793440d78157a1186e00d33e348d3e63d9672c
+  git_blob: 1ee209eedaea7a2d6a4677d07634148a34601b20
   neighbors:
   - V0.2.O
   - V0.2.Q
@@ -261,7 +261,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.Q
   first_sees: 從服務任務倒推需求、工作介面與生命週期驗證，定位哪個局部合格仍可使整體失效。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.Q_第17組_系統工程_整合版.md
-  git_blob: a120173f470259a544e28ba0d22eee0fe069fec8
+  git_blob: 18f4440fbdc52e281a09503b29d2739afd54eb89
   neighbors:
   - V0.2.M
   - V0.2.F
@@ -274,7 +274,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.R
   first_sees: 先固定話語、指稱、語境及符號呈現，再分字面內容、語用推論和由介面構成的意義。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.R_第18組_語言學・語用學・符號學_整合版.md
-  git_blob: d4b1d3bbc2ecfd238e1011476645c45ca88c2047
+  git_blob: a1c72310e43dea493dd504d6ed14006a08febd3f
   neighbors:
   - V0.2.K
   - V0.2.C
@@ -287,7 +287,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.S
   first_sees: 把可控選項、不可違限制、多目標與不確定性列清楚，先問可行集合，再問偏好與後悔。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.S_第19組_決策科學・Operations Research_整合版.md
-  git_blob: 3364bf34af037f308062fe14edfe00b438454a88
+  git_blob: 700c719641bbeada309ebee2522af0285701a0f1
   neighbors:
   - V0.2.D
   - V0.2.L
@@ -300,7 +300,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.T
   first_sees: 先列所需判斷及競爭假說，為每項材料追原始可知性、依賴、偏差與缺口。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.T_第20組_情報分析_整合版.md
-  git_blob: b5500c89e7582f5290b63b76d50a7f6c896456a5
+  git_blob: 61c350f2b5224fcc748f721ff6eeec2e8c8dc4f6
   neighbors:
   - V0.2.K
   - V0.2.L
@@ -313,7 +313,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.U
   first_sees: 畫從公共問題到利害關係人接觸的實施鏈，定位每一交接的裁量、資源與回饋。
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.U_第21組_公共政策・公共行政_整合版.md
-  git_blob: 03db8a3294bc1c418a9b8633a09d5291bf8e87c4
+  git_blob: 5d4dc727b782c3a699687d8ef8144ca816c74e05
   neighbors:
   - V0.2.E
   - V0.2.F
@@ -327,7 +327,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.V
   first_sees: 先標何人或何物受威脅、實質風險與緊急化說法如何作用、誰承擔措施代價
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.V_第22組_安全研究_整合版.md
-  git_blob: cd5dca7f872d075eb5d1e8f100f673a4a1ab7727
+  git_blob: 7aab272580b2dc70ba990ebad3902c7b38fb4259
   neighbors:
   - V0.2.O
   - V0.2.T
@@ -340,7 +340,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.W
   first_sees: 先確定現象的空間單位、尺度、連通和地方條件。確認換界線或量尺會否改圖樣
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.W_第23組_地理學・空間研究_整合版.md
-  git_blob: 301539486e2eaec3976a75ba61c25b86b3563cbe
+  git_blob: 78712dc2aa0f25a9f2faf65548cd0f2ce3b2db1d
   neighbors:
   - V0.2.P
   - V0.2.L
@@ -353,7 +353,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.X
   first_sees: 先追技術分類、使用規範、權威和救濟怎樣在採用中互相塑造
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.X_第24組_科技與社會研究 STS_整合版.md
-  git_blob: b3be8a5030e60fb973a05135681fbbbb3ab49f16
+  git_blob: e54e417fe6e8bf780ff9281d6d708f7d1ee93a87
   neighbors:
   - V0.2.Q
   - V0.2.A
@@ -366,7 +366,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.Y
   first_sees: 先問使用者在什麼詞彙及權限下，能否找到、辨認並追溯所需的知識物件
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.Y_第25組_資訊科學・知識組織_整合版.md
-  git_blob: e335f5d52a32539b7af1e39188c6183dcff7350e
+  git_blob: 92b9513550d2fc7a38f0dd69e90829d8404cefa5
   neighbors:
   - V0.2.M
   - V0.2.R
@@ -379,7 +379,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.Z
   first_sees: 把實際被害、報案、警察紀錄、裁判及處遇結果分開，追群體及流程如何改變觀察
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.Z_第26組_犯罪學・刑事司法研究_整合版.md
-  git_blob: 30f148e5ea5607e5e04520fb8acf264dac72a244
+  git_blob: f19df6b48e8a5adfdd6b7641a8b38ebf503f4d01
   neighbors:
   - V0.2.C
   - V0.2.L
@@ -392,7 +392,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AA
   first_sees: 先聽當事人目標，重建人與環境、實際關係、服務缺口及可行支持
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AA_第27組_社會工作・社會政策_整合版.md
-  git_blob: a6594b1ee0bd701101028f16bd70f3984869f03d
+  git_blob: 6ec8da71490449dc005a5ff93781fc192e41baf9
   neighbors:
   - V0.2.N
   - V0.2.U
@@ -405,7 +405,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AB
   first_sees: 先區分人口存量、期間流量、風險暴露及世代替換，問總量變化來自組成或率
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AB_第28組_人口學・人口研究_整合版.md
-  git_blob: 2f1c5949ebdb95ed003c4ca7cda652d66df49e0e
+  git_blob: af4038fac6a12813965a2b4f1e021f32533005b1
   neighbors:
   - V0.2.L
   - V0.2.AA
@@ -418,7 +418,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AC
   first_sees: 先畫壓力、受體、暴露、系統邊界與反事實基線，追變動跨時間和上下游的累積
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AC_第29組_環境・氣候・生態系統研究_整合版.md
-  git_blob: eb96c3bcb91df7fd87795495a4066f7a74cb631c
+  git_blob: 88b0f8255a2d0147ed28d8eb7d3322456e1a7068
   neighbors:
   - V0.2.W
   - V0.2.L
@@ -431,7 +431,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AD
   first_sees: 先追土地、建物、公共空間、運輸和住房如何共同形成實住、可達與外部影響
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AD_第30組_都市・建成環境研究_整合版.md
-  git_blob: bbec5a99dba57f244ddae87ac03a091ad3fd5641
+  git_blob: 41ebfcd046a75a081531ad2e1cb8ce34bda3d968
   neighbors:
   - V0.2.W
   - V0.2.Q
@@ -444,7 +444,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AE
   first_sees: 先寫定義、量詞、約束和可證性。找最小反例及哪些結論僅在模型內成立
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AE_第31組_數學・形式方法_整合版.md
-  git_blob: 09716fdaf839f5590f8a92f43c51f3bda6e5dc51
+  git_blob: 4b5e6498f224cce3941c8654f80bcf7a439eed3b
   neighbors:
   - V0.2.M
   - V0.2.S
@@ -457,7 +457,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AF
   first_sees: 先辨生物層級和性狀。區分個體、發育經驗、環境反應、族群組成及代際變化
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AF_第32組_生物學・生命科學_整合版.md
-  git_blob: e6ca9b4e84d84986ee7aa77a578321939104a69a
+  git_blob: 2263acca93cae3ed6173f2036f26c8635167d588
   neighbors:
   - V0.2.AC
   - V0.2.N
@@ -470,7 +470,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AG
   first_sees: 先界定物理系統邊界、守恆量、驅動和時間尺度，問模型允許哪些變化
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AG_第33組_物理學・物理系統_整合版.md
-  git_blob: 09d76bbe700222c177949dc8b1cff8e9fb185bf0
+  git_blob: 2a64b4bafa2f7e6ae2e65aeb7ec70ce81e90b44e
   neighbors:
   - V0.2.AE
   - V0.2.Q
@@ -483,7 +483,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AH
   first_sees: 先定位物質身分、組成與微結構、加工履歷、暴露及量到的性能，辨候選變化路徑
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AH_第34組_化學・材料科學_整合版.md
-  git_blob: ebefaf4483f9ac7e3ecc95f8744dff96996c7b27
+  git_blob: 8c19bfa56b1edb13443505b8e2027752a6ec191d
   neighbors:
   - V0.2.AG
   - V0.2.Q
@@ -496,7 +496,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AI
   first_sees: 先重建地層、水、地形和演變，分地表現象、深度來源和跨期地球過程
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AI_第35組_地球科學・地質與地球系統_整合版.md
-  git_blob: fd32a7b1ccf60188c06867031eba5a7215618fe3
+  git_blob: 2c15d37f77487e6c0531dc6bf60d4f663aa75056
   neighbors:
   - V0.2.AC
   - V0.2.AG
@@ -509,7 +509,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AJ
   first_sees: 先拆事件、講述者、誰可知與讀者何時獲知，再問形式如何組織意義
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AJ_第36組_文學・敘事學_整合版.md
-  git_blob: ba4e100c41fba2eba660a78e402f2dfd0aef7793
+  git_blob: 8468c97d879023225b3da9def1d416e56b32b1b5
   neighbors:
   - V0.2.R
   - V0.2.B
@@ -522,7 +522,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AK
   first_sees: 先看參與者如何使實踐、敘事、場所及時間取得神聖或共同體意義，保留各種位置
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AK_第37組_宗教學・神話學_整合版.md
-  git_blob: 373ec3df634573974c357e094a68aee31ed1e8e5
+  git_blob: 040fdac4fe827d87092e8de5ed9213219e413658
   neighbors:
   - V0.2.J
   - V0.2.AJ
@@ -535,7 +535,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AL
   first_sees: 先觀察人的工作、情境、障礙及修正行動，原型能否實際讓對象完成正確任務
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AL_第38組_設計學・Human-Centered Design_整合版.md
-  git_blob: b09227d83c273caddb9264b6398327a1a1e507a3
+  git_blob: 8bc2425a734a25bd77297b71b742bf72e90fda0d
   neighbors:
   - V0.2.G
   - V0.2.Q
@@ -548,7 +548,7 @@ MAIN_PACK_REGISTRY:
   source_version: V0.2.AM
   first_sees: 先辨視覺表現、物件來源、場所價值與活態傳承，問一次改造或展示會保留並抹去哪一層
   canonical_file: ../02_MAIN_METHOD_PACKS/學科心法總目錄_V0.2.AM_第39組_藝術・文化・文化遺產研究_整合版.md
-  git_blob: db29b69e6752437f982a7c1ba450e4d3749a9056
+  git_blob: 43647fc954b09fd142aabac59a4c333a709daf4d
   neighbors:
   - V0.2.AK
   - V0.2.AH
