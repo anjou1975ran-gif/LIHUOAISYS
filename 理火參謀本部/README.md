@@ -151,3 +151,10 @@ V0.1 = CURRENT WORKING BASELINE UNTIL RATIFICATION
 - [理火商業化／乾淨情報公司 CASE-002 商業延續](../理火商業化/理火乾淨情報公司/02_討論案/CASE_002_觸發式情報來源與創意商業模式_20261120.md)
 
 P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改判或重框；C 有理由保留權利反對、E 核對成本。正式商業 winner 無；Same-model reference，不是假部署。Project-only dual-source PATCH 不因這份 Git 會議檔而改變法位。
+
+## 新 Session｜理火經驗 SEED 與關係再生（2026-11-20）
+- [完整 Canonical Events／Method Selection／First Observation／Seat L8／SGER／Receipt 索引](記錄區/SESSION_20261120_SEED_REGENERATION_CONCEPT_001/README.md)
+- [概念議事報告](提案區/REPORT_理火經驗SEED與關係再生_參謀本部概念議事_V0.1_20261120.md)
+- [SEED 跨情境刪減實驗候選（NOT RUN）](訓練區/TEST_SEED_REGENERATION_CROSS_CONTEXT_ABLATION_V0.1_WORKING_20261120.md)
+
+本案 `CONCEPT / P0=NONE / SAME_MODEL_MULTI_ROLE_REFERENCE`：C 的歷史資格反對促使 A 修改故事型 SEED 的輸入時序，D/E 的刪減／成本反對促使 B 將抽象最小關係圖修改為生成核心＋證據解參照＋可反證測試契約。沒有商業/OS/Runtime winner；Formal Council qualification 受既有訓練 Gate 限制，仍為 HOLD。本段僅增加導航，不改寫舊 Session 原件。
