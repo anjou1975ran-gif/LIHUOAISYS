@@ -101,7 +101,7 @@
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | forestry_fisheries_conservation | [森林／漁業／保育](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/0b18ca8cca54f7dfe1fce6185ef91d1eda9776e7/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AC.forestry_fisheries_conservation_%E6%A3%AE%E6%9E%97%E3%83%BB%E6%BC%81%E6%A5%AD%E3%83%BB%E4%BF%9D%E8%82%B2_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | mining_mineral_resources | [礦業／礦產](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/fa4c633e43ed2b86302a6d3c2851404afefe4f73/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AI.mining_mineral_resources_%E7%A4%A6%E6%A5%AD%E3%83%BB%E7%A4%A6%E7%94%A2_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | space_systems | [太空系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/aa07cabb52e570d0be8610d2847bcbe8fb386e51/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Q.space_systems_%E5%A4%AA%E7%A9%BA%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| HEALTH / LIFE | clinical_medicine | 臨床醫學 | REGISTERED | 對應主幹穩定後施工 | |
+| HEALTH / LIFE | clinical_medicine | [臨床醫學](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.N.clinical_medicine_%E8%87%A8%E5%BA%8A%E9%86%AB%E5%AD%B8_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | HEALTH / LIFE | epidemiology | 流行病學 | REGISTERED | 對應主幹穩定後施工 | |
 | HEALTH / LIFE | health_systems | 健康系統 | REGISTERED | 對應主幹穩定後施工 | |
 | HEALTH / LIFE | bioethics | 生物／醫學倫理 | REGISTERED | 對應主幹穩定後施工 | |
@@ -2696,6 +2696,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.Q
   - V0.2.AG
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.N.clinical_medicine
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.N.clinical_medicine_臨床醫學_整合版.md
+  commit: null
+  blob: 0a91dc22de76cd90ef7f8615734d2a2b02e6d6b1
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 2
+    secondary_count: 0
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.N
+  - V0.3.AA.care_systems
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
