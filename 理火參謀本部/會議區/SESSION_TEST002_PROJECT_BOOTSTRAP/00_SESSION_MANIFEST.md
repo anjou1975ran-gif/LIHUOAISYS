@@ -20,21 +20,21 @@ SESSION_MANIFEST:
 
   proposal_ref: 02_PROPOSAL_P0_TEST_FIXTURE.md
   proposal_version: P0
+  active_branch_ref: 04_PROPOSAL_P1_CANDIDATE.md
   proposal_standing: SECRETARY_SELECTED_TEST_FIXTURE / HUMAN_NOT_CONFIRMED
 
   core_seats: [N1, A, B, C, D, E]
 
-  current_round: R001_COMPLETE
+  current_round: R002_COMPLETE
   current_guest_refs: []
 
   next_runnable_queue:
-    - MINIMUM_REPLAY_CORE_SCOPE
-    - HYBRID_SEQUENCE_QUALIFICATION
-    - BINARY_FRAME_RECHECK
+    - N1_PLAIN_LANGUAGE_AND_ACTION_CHECK
+    - E_STAGE_GATE_COST_CHECK
 
   next_wake:
-    active: [A, B, C, D]
-    quiet: [N1, E]
+    active: [N1, E]
+    quiet: [A, B, C, D]
   current_open_issue_refs:
     - Q-N1-T002-001
     - O-A-T002-001
