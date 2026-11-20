@@ -136,3 +136,9 @@ WORK 後續應依 Master Plan 一包一包施工，不再自行擴張 Atlas 結�
 > **Method Routing：什麼提案、哪個席位、在什麼輪次，應載入哪一組心法，而且為什麼。**
 
 選錯第一步，後面再聰明也可能只是在錯的注意力地形上努力。
+
+
+## 施工索引
+
+- [Build Ledger](METHOD_ATLAS_BUILD_LEDGER_V0.1_20261120.md)
+- [204 DLM Coverage Ledger](METHOD_ATLAS_204_DLM_COVERAGE_LEDGER_V0.1_20261120.md)
