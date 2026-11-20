@@ -105,7 +105,7 @@
 | HEALTH / LIFE | epidemiology | [流行病學](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/1703f411419cc804b52d27bf1b121091a1e0101e/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.N.epidemiology_%E6%B5%81%E8%A1%8C%E7%97%85%E5%AD%B8_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | HEALTH / LIFE | health_systems | [健康系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/7b4a165c9d2a996083eec38da196ec2055228777/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.N.health_systems_%E5%81%A5%E5%BA%B7%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | HEALTH / LIFE | bioethics | [生物／醫學倫理](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/f2da5706116821b87c7a53571c76592ff63516e2/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.I.bioethics_%E7%94%9F%E7%89%A9%E3%83%BB%E9%86%AB%E5%AD%B8%E5%80%AB%E7%90%86_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| HEALTH / LIFE | pharmacology_drug_safety | [藥理／藥物安全](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.N.pharmacology_drug_safety_%E8%97%A5%E7%90%86%E3%83%BB%E8%97%A5%E7%89%A9%E5%AE%89%E5%85%A8_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| HEALTH / LIFE | pharmacology_drug_safety | [藥理／藥物安全](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/3441827288f5f585ba65354662125c031bca53a5/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.N.pharmacology_drug_safety_%E8%97%A5%E7%90%86%E3%83%BB%E8%97%A5%E7%89%A9%E5%AE%89%E5%85%A8_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | HEALTH / LIFE | biotech_biosafety | 生技／生物安全 | REGISTERED | 對應主幹穩定後施工 | |
 | HEALTH / LIFE | food_safety | 食品安全 | REGISTERED | 對應主幹穩定後施工 | |
 
@@ -2853,9 +2853,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.N.pharmacology_drug_safety
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.N.pharmacology_drug_safety_藥理・藥物安全_整合版.md
-  commit: null
+  commit: 3441827288f5f585ba65354662125c031bca53a5
   blob: f68fad571acb5a5ac3a2c086918e7919d94ae1c6
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -2867,7 +2867,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 2
     secondary_count: 0
