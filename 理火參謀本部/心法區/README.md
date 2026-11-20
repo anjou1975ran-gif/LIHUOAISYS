@@ -103,6 +103,32 @@ MODEL != SEAT != METHOD != KNOWLEDGE != STANCE
 - 風月場關係話術心法
 - Repo Hardening / phase boundary 等治理文件
 
+
+## 完整心法庫施工總規格
+
+自 2026-11-20 起，新增：
+
+`METHOD_ATLAS_COMPLETE_LIBRARY_MASTER_PLAN_V0.1_20261120.md`
+
+用途：
+- 鎖定完整心法庫的 L0–L4 分層；
+- 登記 Wave 1 / Wave 2 / Wave 3 待建心法；
+- 以理火法律四庫 204 個 DLM 作為 reality coverage scanner；
+- 定義 WORK 單包施工契約；
+- 定義 G0–G10 驗收 Gate；
+- 定義 204 Coverage 完成判準；
+- 定義 Pack 狀態與 Git 提交流程。
+
+硬鎖：
+
+```text
+204 LEGAL DLM != 204 METHOD PACKS
+LEGAL DLM = COVERAGE SIGNAL
+METHOD PACK = OBSERVATION LENS
+```
+
+WORK 後續應依 Master Plan 一包一包施工，不再自行擴張 Atlas 結構。
+
 ## 下一步工程
 
 本區下一個真正需要工程化的不是「把全部心法塞給所有席位」，而是：
