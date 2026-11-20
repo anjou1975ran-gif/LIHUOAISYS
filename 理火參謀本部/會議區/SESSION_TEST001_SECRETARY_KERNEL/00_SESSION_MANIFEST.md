@@ -4,7 +4,7 @@
 ~~~yaml
 SESSION_MANIFEST:
   session_id: TEST-001-SECRETARY-KERNEL
-  status: OPEN
+  status: WAITING_HUMAN
 
   human_desire_ref: 01_HUMAN_DESIRE.md
   mandate_ref: 01_HUMAN_DESIRE.md#D1
@@ -24,6 +24,10 @@ SESSION_MANIFEST:
 
   proposal_current_ref: 02_PROPOSAL_P0.md
   proposal_current_version: P0
+
+  leading_candidate_branch_ref: 08_PROPOSAL_P1R3_CANDIDATE.md
+  leading_candidate_version: P1R3-CANDIDATE
+
   active_branch_refs:
     - 04_PROPOSAL_P1_CANDIDATE.md
     - 05_PROPOSAL_P1R1_CANDIDATE.md
@@ -39,7 +43,12 @@ SESSION_MANIFEST:
   chat_display_mode: LIVE_STRUCTURED
   recording_depth: FULL_EVENT_AND_ROUND
 
-  current_round: R005
+  current_round: R006
+
+  closure:
+    content_closure: PASSED
+    mandate_exit: BLOCKED
+    blocking_ref: O-C-006
 
   resolved_issue_refs:
     - O-C-001
@@ -55,13 +64,18 @@ SESSION_MANIFEST:
     - Q-N1-002
     - Q-SEC-001
 
-  maintained_or_open_issue_refs:
+  remaining_validation_refs:
     - O-D-002
     - O-E-001
     - O-E-002
 
+  procedural_blocker_refs:
+    - O-C-006
+
   current_guest_refs: []
 
-  next_runnable_queue:
-    - CLOSURE_SWEEP_PRECHECK
+  next_required_input:
+    - HUMAN_CONFIRM_OR_CORRECT_D1
+
+  next_runnable_queue: []
 ~~~
