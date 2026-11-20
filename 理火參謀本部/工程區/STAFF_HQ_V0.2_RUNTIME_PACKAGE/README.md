@@ -1,7 +1,8 @@
-# STAFF-HQ V0.2 RUNTIME PACKAGE
+# STAFF-HQ V0.2 / V0.2.1 RUNTIME PACKAGE
 ## 理火參謀本部｜真正議事型 Vertical 整合包
 
-**版本：** V0.2-WORKING PACKAGE  
+**最新 Project 工作載入版本：** V0.2.1-WORKING-FULL  
+**歷史基底：** V0.2-WORKING PACKAGE  
 **日期：** 2026-11-20  
 **法位：** PROJECT_VERTICAL_RUNTIME_PACKAGE / WORKING / NOT_RATIFIED / NOT_DEPLOYED  
 **Canonical package home：** `理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/`
@@ -148,12 +149,20 @@ SESSION_20261120_CLEAN_INTELLIGENCE_001_REENTRY_001
 
 **實際安裝不要載入 01–10。**
 
-只載入：
+只載入目前最新工作候選：
 
 ```text
 DEPLOY/
-  STAFF_HQ_V0.2_RUNTIME_FULL_WORKING_20261120.md
+  STAFF_HQ_V0.2.1_RUNTIME_FULL_WORKING_20261120.md
 ```
+
+舊檔：
+
+```text
+DEPLOY/STAFF_HQ_V0.2_RUNTIME_FULL_WORKING_20261120.md
+```
+
+保留為歷史前版，不再作 GPT Project 常駐載入目標。
 
 其餘 01–10：
 
@@ -170,10 +179,26 @@ NOT PROJECT LOAD SET
 1. LIHUO Protocol V5.1.0
 2. LIHUOOS V1.4.2
 3. PROJECT_CORE_ARCHITECTURE_DAIL_OPERATING_MODEL
-4. DEPLOY/STAFF_HQ_V0.2_RUNTIME_FULL_WORKING_20261120.md
+4. DEPLOY/STAFF_HQ_V0.2.1_RUNTIME_FULL_WORKING_20261120.md
 ```
 
 Current Session / Reference Specimen 只在需要時加入。
 
+## V0.2.1 增量內容
+
+V0.2.1 在 V0.2 上正式整合：
+- PRE-OBSERVATION METHOD ROUTING；
+- FIRST OBSERVATION 時序；
+- MID-DELIBERATION PROFESSIONAL CONSULT；
+- MethodDecision / ProfessionalSupportRequest / ProfessionalSupportReturn；
+- Dual-Clock reducer invariants；
+- RT-14～RT-19。
+
+Reference standing：
+- Method Routing 的可執行／可追溯程序已有正向 reference；
+- NO_METHOD / NO_AGENT control 已有 reference；
+- Professional Agent 正向 Return→Seat Consumption lifecycle 尚未測到；
+- Method effectiveness 尚未證明；
+- V0.2.1 仍 NOT_RATIFIED / NOT_HOST_DEPLOYED。
 
 **END**
