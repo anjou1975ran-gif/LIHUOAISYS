@@ -144,3 +144,10 @@ V0.1 = CURRENT WORKING BASELINE UNTIL RATIFICATION
 - **[STAFF_HQ_V0.2_RUNTIME_PACKAGE](工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/README.md)**：DAIL 最小關係、V0.2 Vertical、MRC-001 IR／Reducer／Router-Qualification、Regression、Implementation Backlog、GPT Project Install Card、V0.2 Project Instructions 候選與 Cutover Checklist。
 
 舊的工程區根目錄文件保留為形成史／source snapshot；**後續 V0.2 工作以此子夾作集中整合入口**。Protocol、LIHUOOS、Project Core 仍留在各自 canonical home，不複製進 package，避免 source-of-truth 漂移。
+
+## 第二次乾淨情報公司議事｜CASE-002 觸發與可能性
+- [完整 Session / Canonical Event / L8 / Round / Meta Audit 索引](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_IDEATION_002/README.md)
+- [第二次會議 CONCEPT 報告](提案區/REPORT_理火乾淨情報公司_第二次會議_情報觸發創意方案_V0.1_20261120.md)
+- [理火商業化／乾淨情報公司 CASE-002 商業延續](../理火商業化/理火乾淨情報公司/02_討論案/CASE_002_觸發式情報來源與創意商業模式_20261120.md)
+
+P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改判或重框；C 有理由保留權利反對、E 核對成本。正式商業 winner 無；Same-model reference，不是假部署。Project-only dual-source PATCH 不因這份 Git 會議檔而改變法位。
