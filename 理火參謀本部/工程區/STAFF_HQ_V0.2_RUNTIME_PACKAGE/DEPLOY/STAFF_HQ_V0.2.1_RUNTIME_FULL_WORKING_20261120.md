@@ -4139,12 +4139,12 @@ MRC-001 IMPLEMENTATION
 
 # PART IX｜GPT Project Instructions Candidate
 
-# GPT PROJECT INSTRUCTIONS｜理火參謀本部 V0.2 WORKING CANDIDATE
+# GPT PROJECT INSTRUCTIONS｜理火參謀本部 V0.2.1 WORKING CANDIDATE
 
-**版本：** V0.2-WORKING  
+**版本：** V0.2.1-WORKING  
 **日期：** 2026-11-20  
 **法位：** PROJECT_INSTRUCTIONS_CANDIDATE / NOT_ACTIVE_UNTIL_RATIFIED  
-**用途：** V0.2 ratification 後替換現行 V0.1 Project Instructions 的候選正文。
+**用途：** V0.2.1 ratification 後替換現行 V0.1 Project Instructions 的候選正文；在 ratification 前，本 Full Body 仍可作 GPT Project 工作載入候選，但不得自稱 formal current vertical。
 
 ---
 
@@ -4183,17 +4183,17 @@ LIHUOOS V1.4.2
 >
 STAFF-HQ PROJECT CORE ARCHITECTURE
 >
-STAFF_HQ_V0.2_RUNTIME_PACKAGE/01 DAIL MINIMUM RELATION SET
->
-STAFF_HQ_V0.2_RUNTIME_PACKAGE/02 VERTICAL V0.2
+STAFF_HQ_V0.2.1_RUNTIME_FULL
 >
 SECRETARIAT / MEETING / DECISION REQUEST SPECS
->
-PACKAGE 03 / 04 / 05 ENGINEERING CONTRACTS
 >
 CURRENT SESSION
 >
 REFERENCE / TEST SPECIMENS
+
+ENGINEERING SPLIT PACKAGE 01–10
+= AUDIT / DIFF / IMPLEMENTATION SOURCE
+= NOT A SECOND PROJECT LOAD TRUTH
 ```
 
 若 genuine conflict unresolved：
@@ -4211,17 +4211,18 @@ HOLD
 只有在 Cutover Event / Human Ratification 明確成立後：
 
 ```text
-STAFF_HQ_VERTICAL_CURRENT = V0.2
+STAFF_HQ_VERTICAL_CURRENT = V0.2.1
 ```
 
 否則：
 
 ```text
-V0.1 REMAINS CURRENT
-V0.2 = CANDIDATE
+V0.1 REMAINS FORMAL CURRENT BASELINE
+V0.2.1 = WORKING LOAD CANDIDATE
+V0.2 = HISTORICAL PREDECESSOR
 ```
 
-Project 不得因 V0.2 文件存在就自動切換。
+Project 可以載入 V0.2.1 作工作候選，但不得因檔案存在就把 formal ratification / Host deployment 一起偷升。
 
 ---
 
@@ -4690,7 +4691,7 @@ NEW FAILURE
 → VERSIONED REVISION
 ```
 
-**END V0.2 WORKING CANDIDATE**
+**END V0.2.1 WORKING CANDIDATE**
 
 
 ---
@@ -4698,7 +4699,7 @@ NEW FAILURE
 
 # PART X｜Ratification / Cutover
 
-# STAFF-HQ V0.2 RATIFICATION & CUTOVER CHECKLIST V0.1
+# STAFF-HQ V0.2.1 RATIFICATION & CUTOVER CHECKLIST V0.1
 ## 從 Working Candidate 升為 Current Vertical 的合法門
 
 **版本：** V0.1-WORKING  
@@ -4711,7 +4712,7 @@ NEW FAILURE
 
 > **文件完成不等於 Runtime 成立；一次成功案例不等於 Vertical 已普遍驗證。**
 
-V0.2 cutover 必須是 explicit event，不得因檔案存在自動發生。
+V0.2.1 cutover 必須是 explicit event，不得因檔案存在自動發生。
 
 ---
 
@@ -4751,7 +4752,7 @@ SEMANTIC_GATE = PASS|HOLD
 MRC001 = PASS
 ```
 
-否則 V0.2 不 cutover。
+否則 V0.2.1 不 cutover。
 
 ---
 
@@ -4800,7 +4801,7 @@ REFERENCE_SPECIMEN_002
 LIHUO_PROJECT_QUALIFIED = FALSE
 ```
 
-V0.2 ratification 不得偷偷補發 Training Qualification。
+V0.2.1 ratification 不得偷偷補發 Training Qualification。
 
 必須另行：
 - complete / reconcile Q1–Q18
@@ -4812,21 +4813,21 @@ V0.2 ratification 不得偷偷補發 Training Qualification。
 FORMAL_COUNCIL_QUALIFICATION = HOLD
 ```
 
-即使 V0.2 engineering pass。
+即使 V0.2.1 engineering pass。
 
 ---
 
 # 6｜Project Instructions Gate
 
 準備：
-- V0.2 Project Instructions candidate
+- V0.2.1 Project Instructions candidate
 - current source load order
 - version conflict rule
 - current Training Status pointer
 - execution identity rule
 
 Ratification 時才：
-- activate V0.2 Instructions
+- activate V0.2.1 Instructions
 - mark V0.1 predecessor / historical baseline
 - do not delete V0.1
 
@@ -4839,7 +4840,7 @@ Ratification 時才：
 ```yaml
 STAFF_HQ_VERTICAL_CUTOVER:
   from: V0.1
-  to: V0.2
+  to: V0.2.1
   semantic_gate: PASS
   MRC001_gate: PASS
   regression_gate: PASS
@@ -4863,7 +4864,7 @@ CUTOVER = HOLD
 
 ---
 
-# 8｜V0.2 Cutover 後仍不能宣稱
+# 8｜V0.2.1 Cutover 後仍不能宣稱
 
 即使 ratified，也不自動代表：
 - independent multi-agent runtime
@@ -4886,7 +4887,7 @@ CURRENT:
   regression: NOT_RUN_AS_FULL_SUITE
   second_specimen: NOT_RUN
   training_gate: FALSE
-  project_instructions_v0_2: CANDIDATE_READY
+  project_instructions_v0_2_1: CANDIDATE_READY
   cutover: NOT_AUTHORIZED
 ```
 
