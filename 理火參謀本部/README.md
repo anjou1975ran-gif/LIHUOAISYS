@@ -223,3 +223,13 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [結果與理火首席 AI 對對的具體審查問題](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/03_RESULT_AND_AUDIT_REQUEST.md)
 - [外部 Git persistence readback](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/04_GIT_PERSISTENCE_VERIFICATION.md)
 **法位：** 本輪已做原始來源四件加兩件明示反事實注入的 **CHAT_NATIVE / SAME_MODEL_REFERENCE** Radar advisory scan、撤回／再開條件演示、以及一趟有完整可見 material evidence 的 L8；舊 Ground-only 結果是歷史對照**非隔離 OFF 實跑**。雷達無獨立常駐 provider，因果增益、實際模型成本及新 Runtime Patch **均未成立**。原始 PSO 001–003、協議與 OS 不覆寫。
+
+
+## PSO-RADAR-RELATIONAL-MONITOR-005｜關係變動測試與語義盲點（2026-11-21）
+- [測試入口與重跑方式](訓練區/PSO_RADAR_RELATIONAL_MONITOR_005_20261121/README.md)
+- [實際執行結果、23 項通過與 5 種錯誤注入](訓練區/PSO_RADAR_RELATIONAL_MONITOR_005_20261121/02_LOCAL_EXECUTION_REPORT.md)
+- [完整 L8 R1/T1/R2/T2/前提審計/R3/T3、SGER 與 Receipt](訓練區/PSO_RADAR_RELATIONAL_MONITOR_005_20261121/03_L8_FULL_SGER_AND_RECEIPT.md)
+- [研究判斷與下一步方向](訓練區/PSO_RADAR_RELATIONAL_MONITOR_005_20261121/04_RESEARCH_DIRECTION.md)
+- [Git 真正寫入與 SHA 回讀核驗](訓練區/PSO_RADAR_RELATIONAL_MONITOR_005_20261121/05_GIT_PERSISTENCE_AUDIT.md)
+
+**結果法位：** 本地可重跑的簡化 typed-relation monitor，23 項 unittest PASS、五種失效變體被抓出；但 Case D 證明授權範圍與預定用途的語義衝突會被既有型別漏掉。**這不是完整 Radar、不是獨立模型測試、不是 SAC 實證。** 今輪 L8 的材料性轉向是：Coding 可以維持已被認出的關係，但不能僭稱自己已經看見尚未建模的關係。原 003/004 歷史不修改。
