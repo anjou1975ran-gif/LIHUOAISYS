@@ -62,7 +62,7 @@
 | MONEY / ENTERPRISE | tax | [稅務](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/aa27b5160813f94c622c1c715c3c3a794df85fa2/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.D.tax_%E7%A8%85%E5%8B%99_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | finance_financial_systems | [金融／銀行／資本市場](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/9aa4732eb5fcb82c055cb421cb245d0b67f43c9c/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.D.finance_financial_systems_%E9%87%91%E8%9E%8D%E3%83%BB%E9%8A%80%E8%A1%8C%E3%83%BB%E8%B3%87%E6%9C%AC%E5%B8%82%E5%A0%B4_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | insurance_risk_transfer | [保險／風險移轉](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/8cd961c39667c36410d2cdbf9973ebf0993ab7ea/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.D.insurance_risk_transfer_%E4%BF%9D%E9%9A%AA%E3%83%BB%E9%A2%A8%E9%9A%AA%E7%A7%BB%E8%BD%89_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| MONEY / ENTERPRISE | corporate_governance | [公司治理](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.corporate_governance_%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| MONEY / ENTERPRISE | corporate_governance | [公司治理](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/14479d9bea95d9d403617b2908121cae2c41164d/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.corporate_governance_%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | strategy_entrepreneurship | 策略／創業 | REGISTERED | 對應主幹穩定後施工 | |
 | MONEY / ENTERPRISE | organizational_behavior_hr | 組織行為／人力資源 | REGISTERED | 對應主幹穩定後施工 | |
 | MONEY / ENTERPRISE | marketing_consumer | 行銷／消費者行為 | REGISTERED | 對應主幹穩定後施工 | |
@@ -1305,9 +1305,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.F.corporate_governance
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.F.corporate_governance_公司治理_整合版.md
-  commit: null
+  commit: 14479d9bea95d9d403617b2908121cae2c41164d
   blob: 9f2efbb920a7b1e0341a7e505d34e2c0b16cd6d2
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -1319,7 +1319,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 3
     secondary_count: 0
