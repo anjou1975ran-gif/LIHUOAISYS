@@ -28,7 +28,7 @@
 | V0.2.AC | 2 | 環境／氣候／生態系統研究 | REVIEW_READY | [學科心法總目錄_V0.2.AC_第29組_環境・氣候・生態系統研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/b1756eb291ce7b74bff793517279f2f6ca18dc87/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AC_%E7%AC%AC29%E7%B5%84_%E7%92%B0%E5%A2%83%E3%83%BB%E6%B0%A3%E5%80%99%E3%83%BB%E7%94%9F%E6%85%8B%E7%B3%BB%E7%B5%B1%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | [b1756eb291ce](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/b1756eb291ce7b74bff793517279f2f6ca18dc87) | `eb96c3bcb91df7fd87795495a4066f7a74cb631c` | 8/1/1 | Maintainer 審查 | |
 | V0.2.AD | 2 | 都市／建成環境研究 | REVIEW_READY | [學科心法總目錄_V0.2.AD_第30組_都市・建成環境研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/cd56799f1d3f1af7ad300b0504f31725d05b8364/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AD_%E7%AC%AC30%E7%B5%84_%E9%83%BD%E5%B8%82%E3%83%BB%E5%BB%BA%E6%88%90%E7%92%B0%E5%A2%83%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | [cd56799f1d3f](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/cd56799f1d3f1af7ad300b0504f31725d05b8364) | `bbec5a99dba57f244ddae87ac03a091ad3fd5641` | 5/2/1 | Maintainer 審查 | |
 | V0.2.AE | 2 | 數學／形式方法 | REVIEW_READY | [學科心法總目錄_V0.2.AE_第31組_數學・形式方法_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/b4ea09dffcd5c9b146f9afe9ba26b45656286dd9/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AE_%E7%AC%AC31%E7%B5%84_%E6%95%B8%E5%AD%B8%E3%83%BB%E5%BD%A2%E5%BC%8F%E6%96%B9%E6%B3%95_%E6%95%B4%E5%90%88%E7%89%88.md) | [b4ea09dffcd5](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/b4ea09dffcd5c9b146f9afe9ba26b45656286dd9) | `09716fdaf839f5590f8a92f43c51f3bda6e5dc51` | 4/2/1 | Maintainer 審查 | |
-| V0.2.AF | 2 | 生物學／生命科學 | REGISTERED | — | — | — | — | 依序施工 | |
+| V0.2.AF | 2 | 生物學／生命科學 | CROSSWALK_CHECKED | [學科心法總目錄_V0.2.AF_第32組_生物學・生命科學_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AF_%E7%AC%AC32%E7%B5%84_%E7%94%9F%E7%89%A9%E5%AD%B8%E3%83%BB%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%B8_%E6%95%B4%E5%90%88%E7%89%88.md) | — | `e6ca9b4e84d84986ee7aa77a578321939104a69a` | 5/1/1 | 封存 Git 物件 | |
 | V0.2.AG | 2 | 物理學／物理系統 | REGISTERED | — | — | — | — | 依序施工 | |
 | V0.2.AH | 2 | 化學／材料科學 | REGISTERED | — | — | — | — | 依序施工 | |
 | V0.2.AI | 2 | 地球科學／地質與地球系統 | REGISTERED | — | — | — | — | 依序施工 | |
@@ -808,6 +808,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.M
   - V0.2.S
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.2.AF
+  file: 理火參謀本部/心法區/學科心法總目錄_V0.2.AF_第32組_生物學・生命科學_整合版.md
+  commit: null
+  blob: e6ca9b4e84d84986ee7aa77a578321939104a69a
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 5
+    secondary_count: 1
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.AC
+  - V0.2.N
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
