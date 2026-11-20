@@ -26,7 +26,7 @@
 | V0.2.AA | 2 | 社會工作／社會政策 | REVIEW_READY | [學科心法總目錄_V0.2.AA_第27組_社會工作・社會政策_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/a02fa66e3578421dba0c4d16f25c6c3e130c5a10/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AA_%E7%AC%AC27%E7%B5%84_%E7%A4%BE%E6%9C%83%E5%B7%A5%E4%BD%9C%E3%83%BB%E7%A4%BE%E6%9C%83%E6%94%BF%E7%AD%96_%E6%95%B4%E5%90%88%E7%89%88.md) | [a02fa66e3578](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/a02fa66e3578421dba0c4d16f25c6c3e130c5a10) | `a6594b1ee0bd701101028f16bd70f3984869f03d` | 8/2/1 | Maintainer 審查 | |
 | V0.2.AB | 2 | 人口學／人口研究 | REVIEW_READY | [學科心法總目錄_V0.2.AB_第28組_人口學・人口研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/698126e37a4042afdd649de58ed6a4f2068a322c/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AB_%E7%AC%AC28%E7%B5%84_%E4%BA%BA%E5%8F%A3%E5%AD%B8%E3%83%BB%E4%BA%BA%E5%8F%A3%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | [698126e37a40](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/698126e37a4042afdd649de58ed6a4f2068a322c) | `2f1c5949ebdb95ed003c4ca7cda652d66df49e0e` | 6/1/1 | Maintainer 審查 | |
 | V0.2.AC | 2 | 環境／氣候／生態系統研究 | REVIEW_READY | [學科心法總目錄_V0.2.AC_第29組_環境・氣候・生態系統研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/b1756eb291ce7b74bff793517279f2f6ca18dc87/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AC_%E7%AC%AC29%E7%B5%84_%E7%92%B0%E5%A2%83%E3%83%BB%E6%B0%A3%E5%80%99%E3%83%BB%E7%94%9F%E6%85%8B%E7%B3%BB%E7%B5%B1%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | [b1756eb291ce](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/b1756eb291ce7b74bff793517279f2f6ca18dc87) | `eb96c3bcb91df7fd87795495a4066f7a74cb631c` | 8/1/1 | Maintainer 審查 | |
-| V0.2.AD | 2 | 都市／建成環境研究 | CROSSWALK_CHECKED | [學科心法總目錄_V0.2.AD_第30組_都市・建成環境研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AD_%E7%AC%AC30%E7%B5%84_%E9%83%BD%E5%B8%82%E3%83%BB%E5%BB%BA%E6%88%90%E7%92%B0%E5%A2%83%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | — | `bbec5a99dba57f244ddae87ac03a091ad3fd5641` | 5/2/1 | 封存 Git 物件 | |
+| V0.2.AD | 2 | 都市／建成環境研究 | REVIEW_READY | [學科心法總目錄_V0.2.AD_第30組_都市・建成環境研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/cd56799f1d3f1af7ad300b0504f31725d05b8364/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AD_%E7%AC%AC30%E7%B5%84_%E9%83%BD%E5%B8%82%E3%83%BB%E5%BB%BA%E6%88%90%E7%92%B0%E5%A2%83%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | [cd56799f1d3f](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/cd56799f1d3f1af7ad300b0504f31725d05b8364) | `bbec5a99dba57f244ddae87ac03a091ad3fd5641` | 5/2/1 | Maintainer 審查 | |
 | V0.2.AE | 2 | 數學／形式方法 | REGISTERED | — | — | — | — | 依序施工 | |
 | V0.2.AF | 2 | 生物學／生命科學 | REGISTERED | — | — | — | — | 依序施工 | |
 | V0.2.AG | 2 | 物理學／物理系統 | REGISTERED | — | — | — | — | 依序施工 | |
@@ -749,9 +749,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.2.AD
   file: 理火參謀本部/心法區/學科心法總目錄_V0.2.AD_第30組_都市・建成環境研究_整合版.md
-  commit: null
+  commit: cd56799f1d3f1af7ad300b0504f31725d05b8364
   blob: bbec5a99dba57f244ddae87ac03a091ad3fd5641
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -763,7 +763,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 5
     secondary_count: 2
