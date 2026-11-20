@@ -1417,11 +1417,14 @@ METHOD_ATLAS_MIGRATION_MAP:
   new_path: 心法資料庫/01_ATLAS_CORE/學科心法總目錄_V0.2_總綱版_階段邊界修正版.md
   object_class: ATLAS_CORE
   method_id: null
-  content_changed: false
-  path_only_move: true
+  content_changed: true
+  path_only_move: false
   old_blob: c84b35e32054fdbfd98e760cb5ed1a52d66b7443
-  new_blob: c84b35e32054fdbfd98e760cb5ed1a52d66b7443
+  new_blob: dba8ad8a929d149d1aa1393a004cf539f60beb29
   note: 階段邊界修正版為主總綱。
+  change_class: PATH_REFERENCE_ONLY
+  semantic_method_change: false
+
 - old_path: 理火參謀本部/心法區/理火金融心法_市場結構篇_V0.1.md
   new_path: 心法資料庫/04_SPECIALIZED_CONTEXTUAL/理火金融心法_市場結構篇_V0.1.md
   object_class: SPECIALIZED_CONTEXTUAL

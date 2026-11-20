@@ -665,6 +665,12 @@ CANONICAL_POINTER:
       - path: ../../學術心法/心法/AI小說心法(敘事物理學).md
         class: HISTORICAL_ARCHIVE
         default_retrieval: false
+      - path: ../../1111/似伊的小酒吧/AI小說心法(敘事物理學).md
+        class: HISTORICAL_SAME_BLOB
+        default_retrieval: false
+      - path: ../../參考書/AI小說心法(敘事物理學).md
+        class: HISTORICAL_SAME_BLOB
+        default_retrieval: false
       default_retrieval: false
     CONTEXT.FINANCIAL_MARKET_STRUCTURE:
       current: ../04_SPECIALIZED_CONTEXTUAL/理火金融心法_市場結構篇_V0.1.md
@@ -685,6 +691,9 @@ CANONICAL_POINTER:
       legacy:
       - path: ../../學術心法/心法/風月場關係話術心法_V0.1.md
         class: HISTORICAL_ARCHIVE
+        default_retrieval: false
+      - path: ../../1111/似伊的小酒吧/風月場關係話術心法_V0.1.md
+        class: HISTORICAL_SAME_BLOB
         default_retrieval: false
       default_retrieval: false
   previous_entry:
