@@ -79,6 +79,15 @@ MAJORITY != QUALIFICATION
 本項目目前只建立工作空間、歷史形成史與心法 canonical 區。  
 真正的多 Agent Host 調度、Method Routing、跨輪狀態保存、說服合法性判準、工程執行與部署證據仍待 `工程區/` 後續設計與實測。
 
+## 第一號正式實跑的糾正經驗（2026-11-20）
+
+- **[首案糾正後的議事經驗 MEMO](MEMO區/MEMO_首案糾正後的議事經驗_反答案先行與跨席生成_V0.1_20261120.md)**：保存第一案六項失效、來源與 Event 證據、V0.1.1 已提出的修正，以及後續可能仍被 P1 框架綁住的**待測試假說**。
+- **[下一版整合 Backlog／回歸驗收](工程區/BACKLOG_StaffHQ下一版整合_首案失效回歸與證據要求_V0.1_20261120.md)**：RT-01 至 RT-06 的既有規範對照；RT-07 至 RT-09 僅為候選驗收測試，非已批准新條文。
+- **[理火首席 AI 原始糾正案](MEMO區/CORRECTION_理火首席AI_第一號商業建議案議事法位糾正案_V0.1_20261120.md)**及**[Staff-HQ V0.1.1 PATCH](工程區/PATCH_STAFF_HQ_V0.1.1_反交付綁架_秘書處中立_重大修正重喚醒_20261120.md)**保留各自原本法位；不得以心得或 Backlog 覆寫。
+- 第一案 `SESSION_20261120_CLEAN_INTELLIGENCE_001` 保留為 `LIVE_FAILURE_SPECIMEN_001`。商業交付物可用，但 `COUNCIL_QUALIFICATION = INCOMPLETE`；**本次僅記錄經驗，尚未 corrective reentry**。
+
+> 編寫下一版時，要驗證 Council 是否真正讓席位彼此改變方案形成，而非只多跑六份 L8 或更多程序；不倒改舊事件，也不把補丁存在誤稱為 Host 已部署。
+
 ## 歷史原型
 
 `參考範例/CG生成動力學20輪會議/`
