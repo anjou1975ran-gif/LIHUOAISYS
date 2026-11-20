@@ -452,3 +452,16 @@ DAIL != COGNITION
 DAIL CONTRACT != HUMAN AUTHORIZATION
 CODING MAY SCHEDULE; CODING MAY NOT SOLVE
 ~~~
+
+---
+
+## 二十、LIHUO Project Training Gate
+
+正式 Staff-HQ Council Runtime 前，必須先通過 LIHUO_PROJECT_TRAINING_AND_QUALIFICATION_V0.1_20261120.md。
+
+LIHUO_PROJECT_QUALIFIED = FALSE → FORMAL COUNCIL PAUSED
+LIHUO_PROJECT_QUALIFIED = TRUE → FORMAL COUNCIL MAY RESUME
+
+此處訓練指 Project source grounding / practicum / observable qualification / regression，不是模型權重微調。
+
+Training Status 為 IN_PROGRESS 時，優先完成訓練；不得因使用者說「繼續」就偷偷恢復 Council。
