@@ -1,0 +1,112 @@
+# 心法區
+## LIHUO Method Atlas / First-Step Layer
+
+**Canonical status：** CURRENT CANONICAL HOME FOR FUTURE METHOD REVISIONS  
+**生效日期：** 2026-11-20  
+**歷史來源：** `學術心法/心法/`
+
+## 核心定位
+
+> **心法不是知識包。心法是生成姿勢。**
+
+在理火參謀本部中，心法被定位為「第一步層」。
+
+它先決定：
+
+- 第一眼看什麼；
+- 以什麼單位拆問題；
+- 哪些東西被視為證據；
+- 哪些因果方向優先被檢查；
+- 哪些盲點必須先掃；
+- 哪些候選關係更容易進入後續議事。
+
+因此：
+
+```text
+METHOD
+↓
+FIRST OBSERVATION
+↓
+ATTENTION / ACCESSIBILITY
+↓
+CANDIDATE VISIBILITY
+↓
+PATH COMPETITION
+↓
+COUNCIL DELIBERATION
+```
+
+這裡的 attention / accessibility 是功能性、語義性與議事層的注意力／可見性分配，不宣稱直接改寫基礎模型 microscopic attention weights。
+
+## 與參謀席的分離
+
+```text
+SEAT
+=
+WHAT YOU ARE RESPONSIBLE TO ASK
+
+METHOD
+=
+HOW YOU FIRST SEE THE PROBLEM
+
+KNOWLEDGE
+=
+WHAT INFORMATION YOU HAVE
+
+STANCE
+=
+WHAT YOU CURRENTLY SUPPORT / OPPOSE / HOLD
+
+MODEL
+=
+WHICH EXECUTION MODEL IS RUNNING
+```
+
+所以：
+
+```text
+MODEL != SEAT != METHOD != KNOWLEDGE != STANCE
+```
+
+同一個 C 席可以載法學＋歷史學；同一個 E 席可以載經濟學＋管理學＋金融市場心法。  
+心法不自動決定立場。
+
+## Canonical 遷移規則
+
+自 2026-11-20 起：
+
+- 現有 `學術心法/心法/` 內容完整遷入本區作為基線；
+- 舊目錄保留作歷史來源與相容入口；
+- 後續正式心法修正、新版本、新心法包優先寫入 `理火參謀本部/心法區/`；
+- 不應在兩個目錄平行維護兩套互相漂移的 current 版本；
+- 舊目錄若需引用新版本，應以 migration notice / pointer 方式處理。
+
+## 現有資產
+
+目前包含：
+
+- 學科心法總綱
+- 社會學
+- 歷史學
+- 法學
+- 經濟學
+- 政治學
+- 管理學
+- 心理學
+- 教育學
+- 哲學
+- 人類學
+- 傳播學
+- AI 友善版學科包
+- 理火金融心法｜市場結構篇
+- AI 小說心法｜敘事物理學
+- 風月場關係話術心法
+- Repo Hardening / phase boundary 等治理文件
+
+## 下一步工程
+
+本區下一個真正需要工程化的不是「把全部心法塞給所有席位」，而是：
+
+> **Method Routing：什麼提案、哪個席位、在什麼輪次，應載入哪一組心法，而且為什麼。**
+
+選錯第一步，後面再聰明也可能只是在錯的注意力地形上努力。
