@@ -55,3 +55,9 @@ NO_CLIENTS/NO_RIGHTS/NO_QUOTES != VALIDATED_ECONOMICS
 - **[第二案未決驗證問題](03_研究驗證/CASE_002_情報來源激勵分級與品質未決問題_V0.1_20261120.md)**及**[增量版本紀錄](04_版本紀錄/CHANGELOG_CASE_002_觸發式情報來源創意_20261120.md)**。
 
 目前只是 **CONCEPT / OPEN OPTION SPACE**，原 CASE-001 的商業企畫不因此自動升級或被推翻；不得將會員等級解讀成入會收費、拉下線抽佣或法定資料授權。
+
+## CASE-003｜三路可行性預研與 L9 Radar V6 參照建議（2026-11-20）
+- [CASE-003 三路可行性公開資料首輪盤點](03_研究驗證/CASE_003_三路可行性預研_公開資料首輪盤點_V0.1_20261120.md)：F1 企業委託現場核查、F2 商戶授權 Feed＋失效通知、F3 買方私有履約證據核對；各有競品、法規、第一反證與成本模型。
+- [L9 Radar V6 常駐靜默建議者：參照啟用與首輪 Signal](03_研究驗證/L9_RADAR_V6_情報公司_常駐靜默建議者_參照啟用_V0.1_20261120.md)：`scan/signal/suggest`，不取得席位、審定、否決、授權、Proposal 或主程式權限；僅在有材料進入的工作階段按事件提供建議，非 Host 持續背景 Agent。
+
+**Standing:** PRE_FEASIBILITY_DESK_RESEARCH；三項是可研究候選、不是商業 winner 或正式新 P0；後續若啟動 Council 須另循 V0.2.1 的 PRE-L8 Method 路由。所有客戶訪談、真實採集、支出、外部合約與專業行動仍需適當人類授權。未改寫 CASE-001、CASE-002 歷史。
