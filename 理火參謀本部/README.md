@@ -135,3 +135,12 @@ V0.1 = CURRENT WORKING BASELINE UNTIL RATIFICATION
 ```
 
 這條工作線的核心不是增加 Agent 數量，而是讓「誰有權提出、誰被 material affect、誰必須重新判斷、哪一版被誰審過、何時只能 HOLD」成為可保存、可重播的治理關係。
+
+
+## Staff-HQ V0.2 Runtime Package｜集中入口
+
+後續真正議事型 Vertical 的工程文件已集中於：
+
+- **[STAFF_HQ_V0.2_RUNTIME_PACKAGE](工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/README.md)**：DAIL 最小關係、V0.2 Vertical、MRC-001 IR／Reducer／Router-Qualification、Regression、Implementation Backlog、GPT Project Install Card、V0.2 Project Instructions 候選與 Cutover Checklist。
+
+舊的工程區根目錄文件保留為形成史／source snapshot；**後續 V0.2 工作以此子夾作集中整合入口**。Protocol、LIHUOOS、Project Core 仍留在各自 canonical home，不複製進 package，避免 source-of-truth 漂移。
