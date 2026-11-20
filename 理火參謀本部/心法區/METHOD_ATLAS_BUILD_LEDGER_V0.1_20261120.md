@@ -24,7 +24,7 @@
 | V0.2.Y | 2 | 資訊科學／知識組織 | REVIEW_READY | [學科心法總目錄_V0.2.Y_第25組_資訊科學・知識組織_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/a9bc684db35ce1998a99aff74bb2c93be776bf22/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.Y_%E7%AC%AC25%E7%B5%84_%E8%B3%87%E8%A8%8A%E7%A7%91%E5%AD%B8%E3%83%BB%E7%9F%A5%E8%AD%98%E7%B5%84%E7%B9%94_%E6%95%B4%E5%90%88%E7%89%88.md) | [a9bc684db35c](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/a9bc684db35ce1998a99aff74bb2c93be776bf22) | `e335f5d52a32539b7af1e39188c6183dcff7350e` | 5/2/1 | Maintainer 審查 | |
 | V0.2.Z | 2 | 犯罪學／刑事司法研究 | REVIEW_READY | [學科心法總目錄_V0.2.Z_第26組_犯罪學・刑事司法研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/927c653fd4b9ef88f98b3295bed35840d06a7b14/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.Z_%E7%AC%AC26%E7%B5%84_%E7%8A%AF%E7%BD%AA%E5%AD%B8%E3%83%BB%E5%88%91%E4%BA%8B%E5%8F%B8%E6%B3%95%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | [927c653fd4b9](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/927c653fd4b9ef88f98b3295bed35840d06a7b14) | `30f148e5ea5607e5e04520fb8acf264dac72a244` | 6/1/1 | Maintainer 審查 | |
 | V0.2.AA | 2 | 社會工作／社會政策 | REVIEW_READY | [學科心法總目錄_V0.2.AA_第27組_社會工作・社會政策_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/a02fa66e3578421dba0c4d16f25c6c3e130c5a10/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AA_%E7%AC%AC27%E7%B5%84_%E7%A4%BE%E6%9C%83%E5%B7%A5%E4%BD%9C%E3%83%BB%E7%A4%BE%E6%9C%83%E6%94%BF%E7%AD%96_%E6%95%B4%E5%90%88%E7%89%88.md) | [a02fa66e3578](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/a02fa66e3578421dba0c4d16f25c6c3e130c5a10) | `a6594b1ee0bd701101028f16bd70f3984869f03d` | 8/2/1 | Maintainer 審查 | |
-| V0.2.AB | 2 | 人口學／人口研究 | REGISTERED | — | — | — | — | 依序施工 | |
+| V0.2.AB | 2 | 人口學／人口研究 | CROSSWALK_CHECKED | [學科心法總目錄_V0.2.AB_第28組_人口學・人口研究_整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.AB_%E7%AC%AC28%E7%B5%84_%E4%BA%BA%E5%8F%A3%E5%AD%B8%E3%83%BB%E4%BA%BA%E5%8F%A3%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | — | `2f1c5949ebdb95ed003c4ca7cda652d66df49e0e` | 6/1/1 | 封存 Git 物件 | |
 | V0.2.AC | 2 | 環境／氣候／生態系統研究 | REGISTERED | — | — | — | — | 依序施工 | |
 | V0.2.AD | 2 | 都市／建成環境研究 | REGISTERED | — | — | — | — | 依序施工 | |
 | V0.2.AE | 2 | 數學／形式方法 | REGISTERED | — | — | — | — | 依序施工 | |
@@ -664,6 +664,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.N
   - V0.2.U
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.2.AB
+  file: 理火參謀本部/心法區/學科心法總目錄_V0.2.AB_第28組_人口學・人口研究_整合版.md
+  commit: null
+  blob: 2f1c5949ebdb95ed003c4ca7cda652d66df49e0e
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 6
+    secondary_count: 1
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.L
+  - V0.2.AA
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
