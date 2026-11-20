@@ -1,0 +1,12 @@
+{
+  "case_id":"C_FICTIONAL_MISLEADING_RELATIONS",
+  "source_scope":"Entirely synthetic negative controls; test quiet and non-overlap",
+  "events":[
+    {"id":"C01","relation_key":"event_schedule","kind":"activity","source_ref":"SYN-C/SCHEDULE","zone":"BUILDING_1","day":"Thu","start":"10:00","end":"11:00","state":"TENTATIVE"},
+    {"id":"C02","relation_key":"unrelated_maintenance","kind":"disruption","source_ref":"SYN-C/NOTICE_OTHER_BUILDING","zone":"BUILDING_2","day":"Thu","start":"10:00","end":"11:00","state":"PLANNED"},
+    {"id":"C03","relation_key":"different_day_maintenance","kind":"disruption","source_ref":"SYN-C/NOTICE_FRIDAY","zone":"BUILDING_1","day":"Fri","start":"10:00","end":"11:00","state":"PLANNED"},
+    {"id":"C04","relation_key":"coincident_maintenance","kind":"disruption","source_ref":"SYN-C/NOTICE_THURSDAY","zone":"BUILDING_1","day":"Thu","start":"10:30","end":"11:30","state":"PLANNED"},
+    {"id":"C05","relation_key":"coincident_maintenance","replaces":"C04","kind":"disruption","source_ref":"SYN-C/NOTICE_CANCELLED","zone":"BUILDING_1","day":"Thu","start":"10:30","end":"11:30","state":"CANCELLED"},
+    {"id":"C06","relation_key":"unrelated_maintenance","replaces":"C02","kind":"disruption","source_ref":"SYN-C/NOTICE_OTHER_BUILDING_REPEAT","zone":"BUILDING_2","day":"Thu","start":"10:00","end":"11:00","state":"PLANNED"}
+  ]
+}

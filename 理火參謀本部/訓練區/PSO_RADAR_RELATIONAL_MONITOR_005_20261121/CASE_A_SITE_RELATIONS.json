@@ -1,0 +1,14 @@
+{
+  "case_id":"A_FICTIONAL_LEARNING_CENTER",
+  "source_scope":"S01-S04: prior frozen synthetic references; E05/E06: separately labeled counterfactual branches re-enacted as successive synthetic updates",
+  "events":[
+    {"id":"A01","relation_key":"room_schedule","kind":"activity","source_ref":"TRI001/S01","zone":"CENTER_FLOOR_A","day":"Thu","start":"18:00","end":"21:00","state":"TENTATIVE"},
+    {"id":"A02","relation_key":"corridor_work","kind":"disruption","source_ref":"TRI001/S02","zone":"CENTER_FLOOR_A","day":"Thu","start":"19:00","end":"21:00","state":"PLANNED"},
+    {"id":"A03","relation_key":"room_approval","kind":"permission","source_ref":"TRI001/S01","state":"PENDING"},
+    {"id":"A04","relation_key":"participation_evidence","kind":"evidence","source_ref":"TRI001/S03","state":"SELF_REPORT_UNVERIFIED"},
+    {"id":"A05","relation_key":"budget_evidence","kind":"evidence","source_ref":"TRI001/S04","state":"DRAFT"},
+    {"id":"A06","relation_key":"corridor_work","replaces":"A02","kind":"disruption","source_ref":"004/E05_SYNTHETIC","zone":"CENTER_FLOOR_A","day":"Fri","start":"19:00","end":"21:00","state":"PLANNED"},
+    {"id":"A07","relation_key":"corridor_work","replaces":"A06","kind":"disruption","source_ref":"004/E06_SYNTHETIC","zone":"CENTER_FLOOR_A","day":"Thu","start":"19:00","end":"21:00","state":"PLANNED"},
+    {"id":"A08","relation_key":"budget_evidence","replaces":"A05","kind":"evidence","source_ref":"SYNTHETIC_REPEAT_DRAFT","state":"DRAFT"}
+  ]
+}

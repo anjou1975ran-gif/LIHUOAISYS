@@ -1,0 +1,12 @@
+{
+  "case_id":"B_FICTIONAL_DATA_COLLABORATION",
+  "source_scope":"Entirely new fictional reference scenario, not an actual data license or buyer",
+  "events":[
+    {"id":"B01","relation_key":"dataset_reuse_license","kind":"permission","source_ref":"SYN-B/RIGHTS_EMAIL_DRAFT","state":"PENDING"},
+    {"id":"B02","relation_key":"buyer_research_need","kind":"evidence","source_ref":"SYN-B/CUSTOMER_INTERVIEW_SUMMARY","state":"SELF_REPORT_UNVERIFIED"},
+    {"id":"B03","relation_key":"dataset_reuse_license","replaces":"B01","kind":"permission","source_ref":"SYN-B/GRANT_NOTICE","state":"GRANTED"},
+    {"id":"B04","relation_key":"buyer_research_need","replaces":"B02","kind":"evidence","source_ref":"SYN-B/REPEATED_SELF_REPORT","state":"SELF_REPORT_UNVERIFIED"},
+    {"id":"B05","relation_key":"dataset_reuse_license","replaces":"B03","kind":"permission","source_ref":"SYN-B/REVOCATION_NOTICE","state":"REVOKED"},
+    {"id":"B06","relation_key":"dataset_reuse_license","replaces":"B05","kind":"permission","source_ref":"SYN-B/CORRECTED_GRANT","state":"GRANTED"}
+  ]
+}

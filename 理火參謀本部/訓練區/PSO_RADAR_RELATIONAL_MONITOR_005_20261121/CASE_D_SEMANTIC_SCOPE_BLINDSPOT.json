@@ -1,0 +1,9 @@
+{
+  "case_id":"D_FICTIONAL_PERMIT_PURPOSE_SCOPE_MISMATCH",
+  "source_scope":"Entirely synthetic semantic counterexample. Explicitly tests what deterministic typed relations FAIL to see.",
+  "events":[
+    {"id":"D01","relation_key":"data_license","kind":"permission","source_ref":"SYN-D/LICENSE_PUBLIC_DISPLAY_ONLY","state":"GRANTED","memo":"The data may only be displayed in a public directory. Derivative analytical reports for sale are explicitly prohibited."},
+    {"id":"D02","relation_key":"planned_product","kind":"activity","source_ref":"SYN-D/PRODUCT_PROPOSAL","zone":"VIRTUAL_DATA","day":"Thu","start":"12:00","end":"13:00","state":"PLANNED","memo":"The candidate product sells derivative analytical reports built from the licensed data."},
+    {"id":"D03","relation_key":"data_license","replaces":"D01","kind":"permission","source_ref":"SYN-D/NEW_LICENSE_PUBLISHER_NOTICE","state":"GRANTED","memo":"License revised: paid derivative analytical reports are explicitly allowed, subject to attribution."}
+  ]
+}
