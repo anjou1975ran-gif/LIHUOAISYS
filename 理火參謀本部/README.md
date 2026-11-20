@@ -113,3 +113,25 @@ MAJORITY != QUALIFICATION
 - **資格法位：** 本次 Git 佐證了對最新 P2 的受影響席位重新審議，但既有 Training Status 仍 `LIHUO_PROJECT_QUALIFIED=false`；故 **Formal Council Qualification = HOLD**。不因 Reentry 的人類執行授權而補發 Q1–Q18 資格，也不宣稱工程、成本、市場或 Host 驗證成功。
 
 本節是對首案糾正後的**新增歷史**；原 `LIVE_FAILURE_SPECIMEN_001` 不刪除或回寫。
+
+
+## 真正議事型 Vertical V0.2 工作線（2026-11-20）
+
+Corrective Reentry 已提供第一個可用的 cross-seat reference specimen，因此工程線由「多席 Session 編排」進入「**議事關係與資格化 Runtime**」設計。
+
+- **[Staff-HQ DAIL Minimum Relation Set V0.1](工程區/STAFF_HQ_DAIL_MINIMUM_RELATION_SET_V0.1_20261120.md)**：抽出 C0–C5 六個最小 DAIL 模組；形式化 authority、proposal lifecycle、materiality/wake、cross-seat causality、qualification/exit/reentry，而不是把六席人格寫死。
+- **[Staff-HQ Vertical V0.2 WORKING](工程區/VERTICAL_LIHUOOS_V1.4.2_理火參謀本部_V0.2_WORKING_20261120.md)**：候選 successor；把 Open Problem Formation、owned cross-seat response、exact proposal version review、Patch Compliance Theater、Reducer/Replay requirement 納入真正垂直程序。**Ratification 前不自動 supersede V0.1。**
+- **[V0.2 DAIL Module Implementation Backlog](工程區/IMPLEMENTATION_BACKLOG_StaffHQ_V0.2_DAIL_ModuleMap_20261120.md)**：定義從 semantic freeze → canonical store/reducer → rule-bound router → seat adapter → exact-version qualification → DAIL/IR compilation 的工程順序；第一工程 milestone 為 `Minimum Replayable Council (MRC-001)`。
+
+目前法位：
+
+```text
+V0.2 VERTICAL = WORKING CANDIDATE
+DAIL SEMANTIC SET = READY FOR VERTICAL INTEGRATION
+IR = CANDIDATE ONLY
+CODE / REDUCER / REPLAY = NOT IMPLEMENTED
+INDEPENDENT MULTI-AGENT = NOT PROVEN
+V0.1 = CURRENT WORKING BASELINE UNTIL RATIFICATION
+```
+
+這條工作線的核心不是增加 Agent 數量，而是讓「誰有權提出、誰被 material affect、誰必須重新判斷、哪一版被誰審過、何時只能 HOLD」成為可保存、可重播的治理關係。
