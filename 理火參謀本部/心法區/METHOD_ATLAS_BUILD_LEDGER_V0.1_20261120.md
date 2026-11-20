@@ -99,7 +99,7 @@
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | agriculture_food_systems | [農業／食物系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/8317216c17be43985e401fa550e23e35e3fa5adc/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AC.agriculture_food_systems_%E8%BE%B2%E6%A5%AD%E3%83%BB%E9%A3%9F%E7%89%A9%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | water_resource_management | [水資源](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/15523425bbc560964d17db2203966a4d9d733afd/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AI.water_resource_management_%E6%B0%B4%E8%B3%87%E6%BA%90_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | forestry_fisheries_conservation | [森林／漁業／保育](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/0b18ca8cca54f7dfe1fce6185ef91d1eda9776e7/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AC.forestry_fisheries_conservation_%E6%A3%AE%E6%9E%97%E3%83%BB%E6%BC%81%E6%A5%AD%E3%83%BB%E4%BF%9D%E8%82%B2_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| PHYSICAL / RESOURCE / INFRASTRUCTURE | mining_mineral_resources | [礦業／礦產](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AI.mining_mineral_resources_%E7%A4%A6%E6%A5%AD%E3%83%BB%E7%A4%A6%E7%94%A2_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| PHYSICAL / RESOURCE / INFRASTRUCTURE | mining_mineral_resources | [礦業／礦產](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/fa4c633e43ed2b86302a6d3c2851404afefe4f73/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AI.mining_mineral_resources_%E7%A4%A6%E6%A5%AD%E3%83%BB%E7%A4%A6%E7%94%A2_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | space_systems | 太空系統 | REGISTERED | 對應主幹穩定後施工 | |
 | HEALTH / LIFE | clinical_medicine | 臨床醫學 | REGISTERED | 對應主幹穩定後施工 | |
 | HEALTH / LIFE | epidemiology | 流行病學 | REGISTERED | 對應主幹穩定後施工 | |
@@ -2637,9 +2637,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.AI.mining_mineral_resources
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.AI.mining_mineral_resources_礦業・礦產_整合版.md
-  commit: null
+  commit: fa4c633e43ed2b86302a6d3c2851404afefe4f73
   blob: 66f71c78d502029f04df726d8e58349d2cab5d64
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -2651,7 +2651,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 2
     secondary_count: 0
