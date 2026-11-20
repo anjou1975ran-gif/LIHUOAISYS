@@ -4,7 +4,7 @@
 
 ## FIRST READ
 
-1. [Canonical Index](00_CANONICAL)。確認 ID、版本、法位和唯一預設來源。
+1. [Canonical Index](00_CANONICAL/METHOD_ATLAS_CANONICAL_INDEX_V1.0.md)。確認 ID、版本、法位和唯一預設來源。
 2. [Routing Index](00_CANONICAL/METHOD_ATLAS_ROUTING_INDEX_V1.0.md)。按問題和證據選 2–5 個候選，檢查有無實質觀察增量。
 3. 只讀選中的 exact canonical file。若沒有實質增量，回傳 `NO_METHOD`。
 
