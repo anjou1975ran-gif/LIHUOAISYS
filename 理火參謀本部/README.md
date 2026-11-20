@@ -201,3 +201,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [結果：六席接受／修改／拒絕／不表態、舊三臂比較、來源權威風險](訓練區/PSO_ENTRY_PROPOSER_REFERENCE_001_20261120/RESULT_PROPOSER_SOURCE_MICROTEST_V0.1_20261120.md)
 - [工作 MEMO：共同地板／Radar 提議／Seat 自主路由分工](MEMO區/MEMO_PRE_SESSION_PROPOSED_ENTRY_PROPOSER_ROUTING_V0.1_WORKING_20261120.md)
 **法位：** 先把 C 的方向性輸入抽象成 `PROPOSED_ENTRY`，`proposer=SECRETARIAT|LIHUO_RADAR`。兩版同一 JSON 訊號內容，只有提議者來源不同；測試 fixture adapter 6/6、權威語言 4/4，如期防止方法／資格越權。六席結果為同模型文字參照、**不代表真實雷達或獨立模型已執行**；不能證明雷達標籤不增加服從。舊 PSO-TRI-001 保存，V0.2.1 Runtime 未修改。
+
+## PSO-LABEL-ROUTING-002｜三標籤匿名基線與候選訊號限定路由（2026-11-21）
+- [新測試批次完整入口](訓練區/PSO_LABEL_ROUTING_002_20261121/README.md)
+- [事前登記：測標籤 vs 測路由成本分開](訓練區/PSO_LABEL_ROUTING_002_20261121/00_PRE_REGISTRATION.md)
+- [實際控制測試結果：14/14 並經 Git 回讀確認](訓練區/PSO_LABEL_ROUTING_002_20261121/RESULT_REFERENCE_FIXTURE_CHECKS.md)
+**法位：** P0 MASKED / P1 SECRETARIAT / P2 LIHUO_RADAR 三組僅顯示標籤不同；共同候選內容與所有來源 SHA 相同。14 項機械夾具檢查通過；候選 Screen 6→4 僅是假設性範圍示例，C／D 原有法定資格與工程安全問題保留。**真正隔離的模型效果、淨成本效益、合格正式路由與 Runtime 部署都未實測或未成立。** PSO 舊紀錄與 V0.2.1 不覆寫。
