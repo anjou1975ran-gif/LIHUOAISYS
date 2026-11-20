@@ -58,6 +58,12 @@ SESSION
 8. `08_GPT_PROJECT_INSTALL_CARD_V0.1.md`  
    真正要放進 GPT Project 的最小檔案清單與來源順序。
 
+9. `09_GPT_PROJECT_INSTRUCTIONS_StaffHQ_V0.2_WORKING.md`  
+   V0.2 Project Instructions 候選正文；ratification 前不啟用。
+
+10. `10_RATIFICATION_AND_CUTOVER_CHECKLIST_V0.1.md`  
+   V0.2 從 Working Candidate 升為 current vertical 的合法門。
+
 ---
 
 # 2｜哪些是語義，哪些是工程
@@ -71,6 +77,8 @@ SESSION
 06 = TESTS
 07 = ENGINEERING ORDER
 08 = PROJECT INSTALL / LOAD ORDER
+09 = PROJECT INSTRUCTIONS CANDIDATE
+10 = RATIFICATION / CUTOVER
 ```
 
 不得倒置：
