@@ -69,7 +69,7 @@
 | MONEY / ENTERPRISE | operations_supply_chain_logistics | [營運／供應鏈／物流](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/7be22e798a666e87a3dc175333cfe07d83a7ae41/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.operations_supply_chain_logistics_%E7%87%9F%E9%81%8B%E3%83%BB%E4%BE%9B%E6%87%89%E9%8F%88%E3%83%BB%E7%89%A9%E6%B5%81_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | project_program_management | [專案／Program 管理](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/58ff088189422d1b0001be5ea738de6e796741b7/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.project_program_management_%E5%B0%88%E6%A1%88%E3%83%BBProgram%20%E7%AE%A1%E7%90%86_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | MONEY / ENTERPRISE | risk_compliance_internal_control | [風險／法遵／內控](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/3e664f275c98915884413f090adb8c3d235e32f9/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.risk_compliance_internal_control_%E9%A2%A8%E9%9A%AA%E3%83%BB%E6%B3%95%E9%81%B5%E3%83%BB%E5%85%A7%E6%8E%A7_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| STATE / PUBLIC POWER | public_finance_budgeting | 公共財政／預算 | REGISTERED | 對應主幹穩定後施工 | |
+| STATE / PUBLIC POWER | public_finance_budgeting | [公共財政／預算](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.U.public_finance_budgeting_%E5%85%AC%E5%85%B1%E8%B2%A1%E6%94%BF%E3%83%BB%E9%A0%90%E7%AE%97_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | STATE / PUBLIC POWER | regulatory_governance | 監管治理 | REGISTERED | 對應主幹穩定後施工 | |
 | STATE / PUBLIC POWER | public_procurement | 政府採購 | REGISTERED | 對應主幹穩定後施工 | |
 | STATE / PUBLIC POWER | diplomacy_negotiation | 外交／談判 | REGISTERED | 對應主幹穩定後施工 | |
@@ -1544,6 +1544,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.F
   - V0.3.F.auditing_assurance
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.U.public_finance_budgeting
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.U.public_finance_budgeting_公共財政・預算_整合版.md
+  commit: null
+  blob: aeba5062799445ca1564eeada3d8971ea387b1b2
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 2
+    secondary_count: 0
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.U
+  - V0.2.D
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
