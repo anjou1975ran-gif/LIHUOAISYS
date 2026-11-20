@@ -86,7 +86,7 @@
 | INFORMATION / DIGITAL | cybersecurity | [網路安全／資安](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/8bfb4b62f665c7028fdc781b659405a36a5b8115/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.cybersecurity_%E7%B6%B2%E8%B7%AF%E5%AE%89%E5%85%A8%E3%83%BB%E8%B3%87%E5%AE%89_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | data_governance_privacy | [資料治理／隱私](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/f6eb7e94a2bb3430f5983170b8d68c8b80b84583/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Y.data_governance_privacy_%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E3%83%BB%E9%9A%B1%E7%A7%81_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | ai_ml_systems | [AI／ML 系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/d46b084c3a906c369d764abf0d9dd075f398cc1f/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.ai_ml_systems_AI%E3%83%BBML%20%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| INFORMATION / DIGITAL | software_engineering | 軟體工程 | REGISTERED | 對應主幹穩定後施工 | |
+| INFORMATION / DIGITAL | software_engineering | [軟體工程](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.software_engineering_%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | INFORMATION / DIGITAL | hci_ux | 人機互動／UX | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | digital_identity_trust | 數位身分／信任 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | telecommunications_networks | 電信／網路系統 | REGISTERED | 對應主幹穩定後施工 | |
@@ -2156,6 +2156,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.M
   - V0.2.L
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.M.software_engineering
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.M.software_engineering_軟體工程_整合版.md
+  commit: null
+  blob: 942ec8642739ea06a0a4ff53461b0d22b0a53758
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 2
+    secondary_count: 0
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.M
+  - V0.2.Q
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
