@@ -61,3 +61,9 @@ NO_CLIENTS/NO_RIGHTS/NO_QUOTES != VALIDATED_ECONOMICS
 - [L9 Radar V6 常駐靜默建議者：參照啟用與首輪 Signal](03_研究驗證/L9_RADAR_V6_情報公司_常駐靜默建議者_參照啟用_V0.1_20261120.md)：`scan/signal/suggest`，不取得席位、審定、否決、授權、Proposal 或主程式權限；僅在有材料進入的工作階段按事件提供建議，非 Host 持續背景 Agent。
 
 **Standing:** PRE_FEASIBILITY_DESK_RESEARCH；三項是可研究候選、不是商業 winner 或正式新 P0；後續若啟動 Council 須另循 V0.2.1 的 PRE-L8 Method 路由。所有客戶訪談、真實採集、支出、外部合約與專業行動仍需適當人類授權。未改寫 CASE-001、CASE-002 歷史。
+
+## CASE-003 自主可行性議事：Staff-HQ 自己提出研究次序（2026-11-20）
+- [完整 Session 與 Seat L8 / Method / Radar 證據](../../理火參謀本部/記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/README.md)
+- [商業研究推薦報告 V0.1](../../理火參謀本部/提案區/REPORT_理火乾淨情報公司_CASE003_自主可行性研究建議_V0.1_20261120.md)
+- [F1/F2/F3 三組合成反證樣本](03_研究驗證/CASE_003_G1_三路合成反證案例_買方成本與資格檢查_V0.1_20261120.md)
+**法位：** B 席起源的 P1 是 Research Sequencing Candidate：先反證 F3 現有 SRM 差異和 F1 現有巡店差異，F2 看授權/可信度，F4 按買家付費疑點做可淘汰假說；無產品 winner、實價、市場驗證或外部專家。L9 Radar S06 為獨立 Advisory 並於新材料消費後 QUIET，不是第七席或背景系統。
