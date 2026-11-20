@@ -87,7 +87,7 @@
 | INFORMATION / DIGITAL | data_governance_privacy | [資料治理／隱私](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/f6eb7e94a2bb3430f5983170b8d68c8b80b84583/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Y.data_governance_privacy_%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E3%83%BB%E9%9A%B1%E7%A7%81_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | ai_ml_systems | [AI／ML 系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/d46b084c3a906c369d764abf0d9dd075f398cc1f/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.ai_ml_systems_AI%E3%83%BBML%20%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | software_engineering | [軟體工程](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/a545806cea2915ff0eaabc8b3664ec32716623e5/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.software_engineering_%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| INFORMATION / DIGITAL | hci_ux | [人機互動／UX](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AL.hci_ux_%E4%BA%BA%E6%A9%9F%E4%BA%92%E5%8B%95%E3%83%BBUX_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| INFORMATION / DIGITAL | hci_ux | [人機互動／UX](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/e579e72c32e6d4cfdf9f9df894c2914e1bc47e14/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AL.hci_ux_%E4%BA%BA%E6%A9%9F%E4%BA%92%E5%8B%95%E3%83%BBUX_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | digital_identity_trust | 數位身分／信任 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | telecommunications_networks | 電信／網路系統 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | journalism_media_practice | 新聞／媒體實務 | REGISTERED | 對應主幹穩定後施工 | |
@@ -2205,9 +2205,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.AL.hci_ux
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.AL.hci_ux_人機互動・UX_整合版.md
-  commit: null
+  commit: e579e72c32e6d4cfdf9f9df894c2914e1bc47e14
   blob: 24b12d0c46c4d00fba386f237c0e063eb7dcc142
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -2219,7 +2219,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 2
     secondary_count: 0
