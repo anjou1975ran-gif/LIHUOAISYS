@@ -57,3 +57,8 @@ P0 NONE → NO FORCED NEW PROPOSAL
 - [V0.2.1 main working runtime](../../工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/STAFF_HQ_V0.2.1_RUNTIME_FULL_WORKING_20261120.md)
 
 **Final:** CHECKPOINT_ENDING; no Session End event, no human result approval, no OS ratification.
+
+## 補充審計｜Commit 時序與訓練資格
+- [Git Commit 父子時序及既有 Q1–Q18 Gate 核對](AUDIT/COMMIT_TIMING_AND_FORMAL_GATE_RECEIPT.md)。
+- **Formal Council qualification:** `HOLD_TRAINING_GATE`；Human 授權本次參照概念議事，不等於授權宣告訓練已通過。
+- 先 Method 再 First Observation 的參照執行順序已以 Git 父子 Commit 核對；不等於實證心法品質增益。
