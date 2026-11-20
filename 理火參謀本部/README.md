@@ -170,3 +170,10 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [B 席起源 P2 買方先行商業研究報告](提案區/REPORT_CASE003_R004_R005_金流權力情報流_買方需求重構_V0.1_20261120.md)
 - [新材料 Git 時序與法位審計](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/AUDIT/R004_R005_BUYER_FLOW_REENTRY_AUDIT_V0.1_20261120.md)
 此為既有 CASE-003 Session 在 R003 Checkpoint 後的新增材料再入場；人類提供研究方向而非預設答案；原版 P1 和前案歷史仍保留。
+
+## 議前觀察方向假說｜V0.2 Working 與同題配對測試（2026-11-20）
+- [修正版 MEMO｜Pre-Session Orientation Hypothesis V0.2-WORKING](MEMO區/MEMO_PRE_SESSION_ORIENTATION_HYPOTHESIS_V0.2_WORKING_20261120.md)
+- [同題 A/B 配對參照測試規格｜PSO-PAIR-001（未執行）](訓練區/TEST_PRE_SESSION_ORIENTATION_PAIRED_REFERENCE_V0.1_WORKING_20261120.md)
+- [先前 Starting Lens MEMO V0.1 原件（歷史保留）](MEMO區/MEMO_PRE_SESSION_STARTING_LENS_EXPLORATION_V0.1_WORKING_20261120.md)
+
+**法位：** 議前 Orientation 是非強制、非授權的 Direction Generation Surface；和各席 Clock A 的 Method Lens 明確分離。 `STARTING ORIENTATION MUST CARRY ITS OWN DEFEATER`；`DIRECTION GENERATION != DIRECTION AUTHORIZATION`。需以相同 Mandate/Problem/Source 的無卡 A vs 有卡 B 比較 Material Discovery、Divergence、Method Routing 和 Process Cost，同時監測 Anchoring/Convergence/Secretariat/Human Capture。 `PAIRED REFERENCE != CAUSAL EFFECT PROVEN`。目前只寫入工作版與測試計畫，**V0.2.1 Runtime 不變，測試 NOT RUN**。
