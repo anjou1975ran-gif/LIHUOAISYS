@@ -30,3 +30,11 @@ WORKING PATCH != RATIFIED RUNTIME
 ```
 
 No specialist is invoked by writing this audit. No original L8/SGER, Canonical Event, proposal, Staff-HQ V0.2 full or Project-only patch is altered.
+
+## 2026-11-20｜首席 AI 後續審閱：雙時序修正（WORKING）
+**這是新審計修正，不是回寫 CASE-002 歷史。** V0.1 把心法 Method Pack 與議事中途 Professional Consult 混成同一條 support 生命週期，會使原本應在第一觀察之前的 Method Selection 落到 L8 之後。此時 Method 只能算事後 review，不能證明「心法作為第一步」。
+
+- [PATCH V0.1.1｜Pre-observation Method × Mid-deliberation Professional Consult](../../MEMO區/PATCH_PROFESSIONAL_METHOD_DUAL_ROUTING_V0.1.1_WORKING_20261120.md)：先選觀察入口；中途新專業缺口才請外援；無必要可選 NO_METHOD / NO_AGENT；秘書處只核授權狀態並在委任範圍內路由，不能自授權。
+- [TEST_METHOD_ROUTING_001 V0.1.1｜雙時序回歸測試（NOT RUN）](../../訓練區/TEST_METHOD_ROUTING_001_DUAL_CLOCK_REGRESSION_V0.1.1_20261120.md)：TEST A 查 PRE-L8 Method Selection 與版本／首次觀察；TEST B 查議事中途真正專業缺口、外援權限與 Seat Own Response。
+
+**讀取順序：** V0.1 審計/負面樣本維持歷史，原 MEMO V0.1 和測試 V0.1 作舊候選；準備下一次測試時以 **V0.1.1 修正候選**為測試設計依據。此說明不宣稱 V0.1.1 已 Ratify、V0.2 Runtime 已改、第三次測試已啟動或 Agent 已部署。
