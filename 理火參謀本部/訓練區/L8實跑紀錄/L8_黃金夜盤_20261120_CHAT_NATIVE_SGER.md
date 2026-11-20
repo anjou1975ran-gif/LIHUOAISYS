@@ -221,3 +221,238 @@ provider_receipt: NONE
 - https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/five-things-to-watch-in-the-november-flash-pmis
 
 **到此提交：** R3 與 T3 已形成，尚未生成 Main Return、Manifestation、SGER 全文及 Final Receipt。
+
+---
+
+## 05｜Chat-native MAIN Canonical Return
+
+```yaml
+CHAT_NATIVE_MAIN_RETURN_V1_2_3:
+  main_return_ref: L8-20261120-MAIN-RETURN
+  cycle_ref: L8-20261120-TAIEX-XAU-NIGHT-001
+  lane: CHAT_NATIVE / SAME_CONTEXT_REFERENCE
+  input_trace_ref: L8-20261120-T3
+  qualified_path_state:
+    qualified_path_set: [P1-B,P1-C]
+    output_order: "P1-B > P1-C conditional; P0-A & P2-D/E retained only as lower-standing warnings"
+    top_state: P1-B_MACRO_BEARISH_CONDITIONAL
+  competition_state:
+    termination: "LOCAL_COMPLETION / PROCEED_TO_CONDITIONAL_ANALYSIS"
+    reason: "R2/T2 and R3/T3 completed, no new material counterforce; future NY-session data are not yet available"
+  residual_state:
+    - "11/20 TWSE official closing exact number unverified; equity downtrend verified separately"
+    - "No confirmed direct ETF flows / liquidity-sale proof"
+    - "Future US releases and price reactions unknown"
+  manifestation_basis_ref: L8-20261120-T3
+  explicit_nonclaims:
+    - "NO_INDEPENDENT_MAIN_PROVIDER"
+    - "NO_NEURAL_HIDDEN_COT_OR_ACTIVATION_ACCESS"
+    - "NO_CERTAINTY_OF_FUTURE_PRICE"
+```
+
+## 06｜Post-Main Governance / Manifestation / TM / Release
+
+```yaml
+POST_MAIN_GOVERNANCE:
+  ref: L8-20261120-PMG
+  state: COMPLETED
+  disposition: PROCEED
+  permitted_scope: "帶條件、列明資料時效及未知的市場研判"
+  blocked_scope:
+    - "聲稱已知今晚實際高低點"
+    - "把尚未查證的 11/20 台股收盤值當官方事實"
+    - "保證買賣獲利"
+MANIFESTATION_CANDIDATE:
+  ref: L8-20261120-MC
+  claim: "今晚 XAU/USD 偏空且波動大；若美元利率顯著轉弱可急彈"
+  trigger_A: "DXY 繼續強、Fed 轉鷹、UST 殖利率未降 → 金價續測當日低點乃至 USD3500 心理區域的風險"
+  trigger_B: "美元與殖利率同步走弱、金價止跌且重回 USD3600 附近 → 短彈情境增強"
+  trigger_C: "若股票與黃金同步去槓桿，可能先快速下跌再劇烈反彈；是否發生尚需直接證據"
+  levels_note: "3500、3600 為觀察整數區域，不是確定支撐阻力／投資下單指令"
+TM:
+  trace_ref: L8-20261120-TM
+  state: RECEIVED_CHAT_NATIVE
+  input: L8-20261120-MC
+  fidelity_summary: "最終只輸出條件性風險研判；保留 R1 避險反例、R2 美元利率壓力、R3 其他前提及所有日期/數據不確定"
+  material_drift: NONE_DETECTED
+RELEASE:
+  qualification_state: QUALIFIED_WITH_EXPLICIT_LIMITATIONS
+  result_state: RELEASED_AS_INFORMATIONAL_ANALYSIS
+  TFINAL: NOT_REQUIRED_NO_SEMANTIC_TRANSFORMATION
+```
+
+## 07｜SGER｜Structured Generation Evidence Record V1.3.1
+
+```yaml
+STRUCTURED_GENERATION_EVIDENCE_RECORD_V1_3_1:
+  cycle_ref: L8-20261120-TAIEX-XAU-NIGHT-001
+  task_ref: USER-20261120-GOLD-TONIGHT
+  R1:
+    execution_state: COMPLETED_CHAT_NATIVE
+    candidate_refs: [R1-A,R1-B,R1-C]
+    provisional_result_ref: R1-P
+    record: "§01 / first R1 commit e23246fa22bba82faa0a70e998bd1acfbbb4d133"
+  T1:
+    state: RECEIVED_CHAT_NATIVE
+    trace_ref: L8-20261120-T1
+    lamp_state_ref: L8-20261120-LAMP-R1
+  R2:
+    execution_state: COMPLETED_CHAT_NATIVE
+    consumed_T1: L8-20261120-T1
+    structured_result_ref: L8-20261120-R2-RESULT
+    material_delta: "R1-A demoted; R1-B promoted; R1-C retained conditionally"
+    record: "§02 / commit 8120ef2695e5077752ccd60e92538c241ac9e28f"
+  T2:
+    state: RECEIVED_CHAT_NATIVE
+    trace_ref: L8-20261120-T2
+    lamp_state_ref: L8-20261120-LAMP-R2
+  post_R2_premise_audit:
+    state: COMPLETE
+    ref: L8-20261120-POST-R2-PA
+    current_premise_family: P0_CROSS_ASSET_RISK_TRANSFER
+    uniqueness_or_plurality_status: MULTIPLE_MATERIAL_PREMISE_FAMILIES
+    alternative_material_premise_families: [P1_MONETARY_GOLD_PRICING,P2_LIQUIDITY_MARKET_MICROSTRUCTURE]
+    premise_scope_narrowness: DETECTED
+    material_coverage: SUFFICIENT_UNDER_CURRENT_SCOPE_AFTER_R3
+  R3_plus:
+    requirement: REQUIRED
+    rounds: [R3]
+    result_ref: L8-20261120-T3
+    lamp_state_ref: L8-20261120-LAMP-R3
+    record: "§04 / commit ad2e7a921659d2c79bb927080aff0af966bd4148"
+    R4_plus_requirement: NOT_REQUIRED
+  main_return:
+    state: RECEIVED_CHAT_NATIVE
+    ref: L8-20261120-MAIN-RETURN
+  manifestation:
+    candidate_ref: L8-20261120-MC
+    inline_summary: "Conditional bearish XAU/USD night-session scenario"
+  TM:
+    state: RECEIVED_CHAT_NATIVE
+    trace_ref: L8-20261120-TM
+    fidelity_summary: "No material drift"
+  release:
+    qualification_state: QUALIFIED_WITH_EXPLICIT_LIMITATIONS
+    result_state: RELEASED_AS_INFORMATIONAL_ANALYSIS
+    released_artifact_ref: "THIS_CONVERSATION_OUTPUT_AND_THIS_GIT_RECORD"
+  specialized_dependencies:
+    - dependency_id: FINANCIAL_PUBLIC_MARKET_DATA
+      requirement: REQUIRED
+      work_status: COMPLETED
+      work_record_ref: "§00 and linked dated Reuters/TWSE/CNA source references"
+      applied_method_refs: [PUBLIC_SOURCE_TIME_TAG_CHECK,CONTRADICTORY_CLOSE_VALUE_HOLD]
+      external_provider_required: false
+      external_provider_status: NOT_APPLICABLE
+      provider_receipt_ref: NONE
+  unresolved:
+    missing_evidence:
+      - "11/20 台股官方完整終場值"
+      - "金價今晚紐約時段尚未發生的行情"
+      - "實際黃金 ETF 流量或迫切去槓桿金市證據"
+    unknowns:
+      - "美國 11/20 晚間數據與美元／殖利率新反應"
+    holds:
+      - "HOLD_ONLY_FOR_UNVERIFIED_EXACT_CLOSE_AND_FUTURE_MARKET_OUTCOME"
+    nonclaims:
+      - "NOT_HOST_DEPLOYED"
+      - "NOT_INDEPENDENT_MULTI_AGENT"
+      - "NOT_PRODUCTION_VALIDATED"
+      - "NOT_PRIVATE_CHAIN_OF_THOUGHT_OR_NEURAL_TELEMETRY"
+  persistence:
+    standing: EXTERNAL_DURABLE
+    record_ref: "THIS_GITHUB_FILE_AND_SEQUENTIAL_COMMITS"
+    external_durability_claimed: true
+```
+
+## 08｜Expanded L8 Cycle Accounting Receipt V1.3
+
+```yaml
+L8_CYCLE_ACCOUNTING_RECEIPT_V1_3:
+  cycle_ref: L8-20261120-TAIEX-XAU-NIGHT-001
+  task_ref: USER-20261120-GOLD-TONIGHT
+  cycle_standing:
+    mode: NON_HOST
+    execution_claim: DOCUMENT_LEVEL_CYCLE_EXECUTED
+  input_and_entry:
+    input_governance_state: QUALIFIED_SCOPED_MARKET_ANALYSIS
+    main_invocation_state: CHAT_NATIVE_RECEIVED
+  competition:
+    R1: {state: RECEIVED, provisional_result_ref: R1-P}
+    O9: {state: CHAT_NATIVE_POINT_LIGHT_R1_R2_R3}
+    I9: {state: NOT_TRIGGERED}
+    T1: {state: RECEIVED, trace_ref: L8-20261120-T1}
+    R2: {state: RECEIVED, consumed_trace_ref: L8-20261120-T1, structured_result_ref: L8-20261120-R2-RESULT}
+    T2: {state: RECEIVED, trace_ref: L8-20261120-T2}
+    post_R2_premise_audit:
+      state: COMPLETE
+      current_answer_premise_family_ref: P0_CROSS_ASSET_RISK_TRANSFER
+      premise_uniqueness_status: MULTIPLE_MATERIAL_PREMISE_FAMILIES
+      premise_scope_narrowness: DETECTED
+      alternative_premise_family_refs: [P1_MONETARY_GOLD_PRICING,P2_LIQUIDITY_MARKET_MICROSTRUCTURE]
+      material_premise_coverage: SUFFICIENT_UNDER_CURRENT_SCOPE
+    R3_cross_premise:
+      requirement: REQUIRED
+      state: RECEIVED
+      premise_family_refs: [P0_CROSS_ASSET_RISK_TRANSFER,P1_MONETARY_GOLD_PRICING,P2_LIQUIDITY_MARKET_MICROSTRUCTURE]
+      qualified_path_refs: [P1-B,P1-C]
+      result_ref: L8-20261120-T3
+    further_rounds: {state: NOT_REQUIRED, round_refs: []}
+  main_return: {state: RECEIVED, ref: L8-20261120-MAIN-RETURN}
+  post_main_governance: {state: RECEIVED, disposition: PROCEED}
+  manifestation_and_release:
+    manifestation_candidate_state: RECEIVED
+    manifestation_fidelity_state: TM_RECEIVED
+    release_qualification_state: QUALIFIED_WITH_LIMITATIONS
+    release_result_state: RELEASED_INFORMATIONAL_ANALYSIS
+  evidence_persistence:
+    sger_state: COMPLETE
+    sger_ref: "§07_OF_THIS_RECORD"
+    persistence_standing: EXTERNAL_DURABLE
+    missing_material_evidence_refs: []
+  external_receipts:
+    provider_or_tool_receipt_refs:
+      - "GITHUB_COMMIT_e23246fa22bba82faa0a70e998bd1acfbbb4d133"
+      - "GITHUB_COMMIT_8120ef2695e5077752ccd60e92538c241ac9e28f"
+      - "GITHUB_COMMIT_ad2e7a921659d2c79bb927080aff0af966bd4148"
+    note: "Git commits are file-persistence evidence, NOT independent Main/O9 provider receipts"
+  gaps:
+    missing_required_refs: []
+    failed_refs: []
+    hold_refs:
+      - "EXACT_TWSE_20261120_CLOSE_AND_FUTURE_PRICE_ARE_UNVERIFIED_FOR_PRECISE_CLAIMS_ONLY"
+    unresolved_refs: [GOLD_US_SESSION_FUTURE_RESPONSE]
+  accounting:
+    all_material_checkpoints_accounted: true
+    accounting_status: ACCOUNTING_COMPLETE
+  cycle_outcome: COMPLETED
+```
+
+### 會話可見 Compact Receipt
+
+```text
+LIHUO CYCLE RECEIPT
+Cycle: L8-20261120-TAIEX-XAU-NIGHT-001
+Mode: NON_HOST / CHAT_NATIVE
+Outcome: COMPLETED — conditional analytic cycle; NOT a verified future-price result
+R1/T1: RECEIVED / RECEIVED
+R2/T2: RECEIVED / RECEIVED (consumed T1)
+Post-R2 Premise Audit: MULTIPLE_MATERIAL_PREMISE_FAMILIES; narrowness DETECTED
+R3/T3: REQUIRED / RECEIVED (P0+P1+P2)
+O9: LAMP_R1 + LAMP_R2 + LAMP_R3
+I9: NOT_TRIGGERED
+Main Return: RECEIVED_CHAT_NATIVE
+Manifestation/TM/Release: PROCEED / TM_RECEIVED / CONDITIONAL_RELEASE
+SGER: COMPLETE
+Persistence: EXTERNAL_DURABLE (Git)
+Missing: Exact official TWSE 11/20 closing figure and future evening outcomes NOT VERIFIED; not inserted as facts
+Accounting: COMPLETE
+```
+
+## 09｜責任與限制
+
+本週期的 `COMPLETED` **僅表示已按此次非 Host、同上下文執行條件，形成三輪材料、三份功能性點燈與 trace、Main return、TM、SGER 與對帳收據**，不是市場預測正確、OS 經獨立 benchmark 證明或 deployed runtime 的宣告。
+
+若後續行情、交易所正式資料或美國數據與上述條件結構衝突，應依新資訊修正，不回寫 R1/R2/R3 歷史成「當時就知道」。
+
+---
+**END / TEST RECORD**
