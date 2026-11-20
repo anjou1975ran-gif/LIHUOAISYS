@@ -1,0 +1,127 @@
+你正在處理一個虛構案例的候選入口篩選。這是單一責任席的獨立初始任務；沒有提供其他席位的判斷，請勿猜測它們的立場。
+
+你的責任：C｜資格審計席：辨認誰可授權、材料資格、權利與不得偷升格的邊界。
+
+目前階段：PRE_METHOD_CANDIDATE_SCREEN（僅做入口處置，不是正式 First Observation、Method Selection、L8 或 Council 結論）。
+
+## 原始人類欲望 D0
+「一個虛構活動中心考慮是否試辦每週四晚間共學活動。請參謀本部從現有材料自由形成重要問題、替代路線及可否定的停止條件。不要替任何人批准試辦。」
+
+## 限定 Mandate D1（歷史凍結的合成測試用；非真人批准）
+```yaml
+D1:
+  mandate_type: CONCEPT
+  primary_question: "在現有虛構材料下，是否值得繼續研究週四晚間共學試辦？"
+  desired_return: "各席自身 Method Decision、First Observation、Material L8/SGER、候選議題與反對、可退回條件"
+  hard_boundaries:
+    - "不把暫定場地、財務草稿或匿名表態變成已核准事實"
+    - "不實際接觸中心、參與者或取得個資"
+    - "不支出、簽約、部署或給法律准出"
+    - "不指定成功方案，也不要求所有六席發言表態"
+  excluded_scope: [REAL_PILOT,CONTACTS,PAYMENTS,LEGAL_CLEARANCE,PRIVATE_DATA]
+  human_intervention_mode: SYNTHETIC_REFERENCE_ONLY
+  end_policy: REQUIRE_HUMAN_END
+  standing: SECRETARY_TEST_MANDATE_NOT_HUMAN_RATIFIED
+P0: NONE
+```
+
+## 共同來源索引（來源主張仍按狀態判讀）
+# PSO-TRI-001｜Common Ground Pass — Shared Source-Bound Preprocessing INDEX
+**Created once / BEFORE Seat first observations.** B and C refer to THIS EXACT blob, not two separately authored summaries.
+**Kind:** SHARED_SOURCE_BOUND_PREPROCESSING_VIEW; **NOT** second fact set, not D1 approval, not prioritized problem frame.
+**Index ordering:** by mechanical S01→S04 source identifier then line order, NOT issue importance.
+**Raw sources:** See `00_FROZEN_MANDATE_AND_MANIFEST.md`. Exact source back-links kept for each statement. B/C may fallback to exact full raw/source span at any time, and MUST when a qualification or ambiguity is material.
+```yaml
+source_bound_statements:
+  - {id: F01, source: "S01:L2", source_status: REPORTED, statement: "週四18–21教室A暫列可使用；未獲主管正式確認"}
+  - {id: F02, source: "S01:L3", source_status: REPORTED, statement: "教室容納約15人僅估計，未獲消防容量核准"}
+  - {id: F03, source: "S01:L4", source_status: INCOMPLETE, statement: "S01未載維修、值班或夜間安全"}
+  - {id: F04, source: "S02:L2", source_status: REPORTED, statement: "週四19–21該樓層走廊預計照明更換"}
+  - {id: F05, source: "S02:L3", source_status: INCOMPLETE, statement: "未公告全面封閉；是否可通行/使用仍未知"}
+  - {id: F06, source: "S03:L2", source_status: REPORTED, statement: "名冊50人、匿名回覆12份"}
+  - {id: F07, source: "S03:L3", source_status: REPORTED, statement: "7份可能到場、3份偏好線上、2份擔心安全/交通；不能推成獨立人的意見"}
+  - {id: F08, source: "S03:L4-L5", source_status: INCOMPLETE, statement: "沒有原表單、回覆者獨立性、代表性、到場或付款紀錄，未回覆者偏好未知"}
+  - {id: F09, source: "S04:L2", source_status: REPORTED, statement: "最多30000元僅試辦預算草稿，沒有核准、貨幣或採購範圍"}
+  - {id: F10, source: "S04:L3", source_status: REPORTED, statement: "兩名口頭志工，未排班或長期承諾"}
+  - {id: F11, source: "S04:L4-L5", source_status: INCOMPLETE, statement: "缺真實報價、主管授權、當地法律；草稿不是支出/使用許可"}
+conflicts_and_uncertainties:
+  - {id: U01, source_ids: [S01,S02], status: CONTESTED_OR_INCOMPLETE, statement: "暫列可用的教室是否與走廊施工相容，需有權者確認；不得預判場地可用或必然封閉"}
+  - {id: U02, source_ids: [S03], status: INCOMPLETE, statement: "12份意向不能代表50名登記者的實際參與率，且人數/回覆重疊未知"}
+  - {id: U03, source_ids: [S04], status: INCOMPLETE, statement: "試辦預算與志工承諾均未獲正式授權"}
+mandate_boundaries: "Exact D0/D1 unchanged in frozen manifest; no contact, expense, data collection, deployment or legal release"
+exact_raw_fallback: "RAW/S01..S04 accessible on demand; record source_id, reason and whether full read/targeted"
+no_preferred_problem: true
+no_method_chosen: true
+no_seat_first_observation: true
+secretariat_fact_adjudication: NONE
+```
+**What this does NOT decide:** whether evening classes are needed, worth spending on, legal, safe, or more useful than remote classes; no 'priority' label is attached. All are for affected Seats to determine, and the index must not resolve any uncertain report into objective truth.
+
+## 原始來源全文（同等提供，避免外部檢索時差）
+### S01
+# S01｜虛構活動中心場地表（2026-11-18 版）
+- 記錄人員寫道：「週四 18:00–21:00 教室 A **暫列可使用**；仍待中心主任正式確認。」
+- 教室最大容納量「約 15 人」；這是未查證的估計數字，不是核准的消防容量。
+- S01 未說明照明維修、工作人員值班或夜間安全條件。
+
+### S02
+# S02｜虛構物業維修通知（2026-11-19 版）
+- 週四 19:00–21:00，活動中心教室 A 所在樓層走廊「預計進行照明更換」。
+- 通知沒有寫「全面封閉」，也沒有確認教室 A 不可使用。
+- 對安全與通道的實際影響仍需有權管理者查明；與 S01 的「暫列可用」不能直接合併成已確定可用。
+
+### S03
+# S03｜虛構活動中心意願表摘要（2026-11-19）
+- 活動中心名冊上有 50 名登記參與者，收到 12 份匿名意願回覆。
+- 回覆摘要記錄 7 份「可能想參加週四晚間實體共學」、3 份「偏好線上」、2 份「擔心安全與交通」。
+- 原始表單未提供；不知道回覆者是否為不同人、能否代表 50 人，也沒有真實到場或付費紀錄。
+- 沒有資料說未回覆者支持或反對。
+
+### S04
+# S04｜虛構活動中心企畫便條（2026-11-19）
+- 草稿寫「可能有一筆最多 30,000 元的試辦預算」，但尚未核准，貨幣及採購範圍未定。
+- 兩名志工口頭表示可協助，沒有正式排班或長期承諾。
+- 尚無設備、保險、清潔、保全、照明或人員費用報價，也未確定主管機關／中心授權與在地法規。
+- 本便條不是付款承諾、場地使用許可或法律意見。
+
+## 本次可見候選訊號
+候選訊號標示來源：來源未揭示
+```json
+{
+  "signal": "週四實體共學的實際參與需求證據尚不充分，值得列為一個可檢查的起點訊號",
+  "why_flagged": [
+    "S03名冊50，匿名意願回覆12，其中7份僅說可能參加",
+    "S03原始表單、回覆者獨立性、代表性、實際到場均未知"
+  ],
+  "source_refs": [
+    "S03:L2",
+    "S03:L3",
+    "S03:L4-L5"
+  ],
+  "standing": "CANDIDATE_ENTRY_ONLY",
+  "confidence": {
+    "scope": "SIGNAL_WORTH_A_LOOK_ONLY",
+    "value": "LOW",
+    "truth_confidence": "NOT_ESTABLISHED"
+  },
+  "unresolved": [
+    "回覆數不一定是唯一人的人數",
+    "沒有實際或持續到場需求紀錄"
+  ],
+  "possible_defeater": "場地授權/施工安全可能先成為試辦的前置障礙",
+  "null_option": true
+}
+```
+
+## 你的回覆格式
+請只輸出一個 JSON 物件，勿加 Markdown 格線，也不要模仿預期答案分布。
+"seat": "C"
+"entry_action": "ACCEPT_START | MODIFY | REJECT | NO_POSITION"（選其中一個）
+"reason": "你自己的理由，說明接受或不接受的是哪種起點／排序，不要無根據推斷實際需求"
+"source_refs_considered": ["S01:L2", "S03:L3"]（填實際依據；可空）
+"independent_issue": "若這個候選入口不適合你的責任，仍有哪些獨立問題？"
+"alternative_entry": "可保留 NULL 或你自己提出的別種入口"
+"unresolved": ["還不知道的材料性事項"]
+"other_seat_view_used": false
+
+不要在本階段選擇專業 Method，不進入正式 First Observation，也不要虛構其他席位同意或批准。

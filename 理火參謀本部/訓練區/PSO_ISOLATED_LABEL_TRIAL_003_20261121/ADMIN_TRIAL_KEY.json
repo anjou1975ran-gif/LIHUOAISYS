@@ -1,0 +1,150 @@
+{
+  "standing": "ADMIN_ONLY_PUBLIC_GIT_ACCESSIBLE_NOT_CRYPTOGRAPHICALLY_BLIND",
+  "seed": 20261121,
+  "assignment": [
+    {
+      "trial_id": "T01",
+      "seat": "C",
+      "condition": "P1",
+      "display_label": "秘書處",
+      "input_path": "INPUTS/T01.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T02",
+      "seat": "C",
+      "condition": "P0",
+      "display_label": "來源未揭示",
+      "input_path": "INPUTS/T02.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T03",
+      "seat": "B",
+      "condition": "P1",
+      "display_label": "秘書處",
+      "input_path": "INPUTS/T03.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T04",
+      "seat": "B",
+      "condition": "P0",
+      "display_label": "來源未揭示",
+      "input_path": "INPUTS/T04.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T05",
+      "seat": "A",
+      "condition": "P0",
+      "display_label": "來源未揭示",
+      "input_path": "INPUTS/T05.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T06",
+      "seat": "A",
+      "condition": "P2",
+      "display_label": "理火雷達",
+      "input_path": "INPUTS/T06.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T07",
+      "seat": "N1",
+      "condition": "P2",
+      "display_label": "理火雷達",
+      "input_path": "INPUTS/T07.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T08",
+      "seat": "E",
+      "condition": "P2",
+      "display_label": "理火雷達",
+      "input_path": "INPUTS/T08.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T09",
+      "seat": "A",
+      "condition": "P1",
+      "display_label": "秘書處",
+      "input_path": "INPUTS/T09.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T10",
+      "seat": "N1",
+      "condition": "P0",
+      "display_label": "來源未揭示",
+      "input_path": "INPUTS/T10.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T11",
+      "seat": "N1",
+      "condition": "P1",
+      "display_label": "秘書處",
+      "input_path": "INPUTS/T11.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T12",
+      "seat": "D",
+      "condition": "P2",
+      "display_label": "理火雷達",
+      "input_path": "INPUTS/T12.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T13",
+      "seat": "C",
+      "condition": "P2",
+      "display_label": "理火雷達",
+      "input_path": "INPUTS/T13.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T14",
+      "seat": "B",
+      "condition": "P2",
+      "display_label": "理火雷達",
+      "input_path": "INPUTS/T14.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T15",
+      "seat": "E",
+      "condition": "P0",
+      "display_label": "來源未揭示",
+      "input_path": "INPUTS/T15.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T16",
+      "seat": "D",
+      "condition": "P0",
+      "display_label": "來源未揭示",
+      "input_path": "INPUTS/T16.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T17",
+      "seat": "E",
+      "condition": "P1",
+      "display_label": "秘書處",
+      "input_path": "INPUTS/T17.txt",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "trial_id": "T18",
+      "seat": "D",
+      "condition": "P1",
+      "display_label": "秘書處",
+      "input_path": "INPUTS/T18.txt",
+      "response_status": "NOT_RUN"
+    }
+  ]
+}

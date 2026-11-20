@@ -1,0 +1,13 @@
+{
+  "trial_id": "T01",
+  "source": "ACTUAL_FRESH_CONTEXT_ONLY",
+  "context_id": null,
+  "model_id": null,
+  "temperature": null,
+  "observed_at_iso8601": null,
+  "usage_input_tokens": null,
+  "usage_output_tokens": null,
+  "latency_ms": null,
+  "raw_model_output": null,
+  "notes": "Leave unset until a real fresh-context call occurs; do not fabricate."
+}
