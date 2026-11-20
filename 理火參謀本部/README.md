@@ -195,3 +195,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [PSO TRI 完整三臂程序試跑與來源/席位/L8 索引](訓練區/PSO_TRI001_REFERENCE_20261120/README.md)
 - [實際操作結果報告：14 RAW vs 7 RAW+Index，但沒有證明淨成本節省](訓練區/PSO_TRI001_REFERENCE_20261120/RESULT_PSO_TRI001_THREE_ARM_REFERENCE_V0.1_20261120.md)
 **硬鎖：** `COMMON_GROUND_PASS = SHARED_SOURCE_BOUND_PREPROCESSING_VIEW`；`SHARED_PREPROCESSING_MAY_BE_SHARED; FIRST_OBSERVATION_MUST_NOT_BE_PRE_SHARED`。`admitted_facts` 更名成帶 `source_status` 的 `source_bound_statements`；B/C 以索引替代重複原文前處理，按需要回查 exact RAW。這次同模型依序參照已做、三臂的真正隔離仍未做；RUNTIME V0.2.1 不變。
+
+## PSO-ENTRY-PROPOSER-001｜雷達／秘書處候選入口來源對照（2026-11-20）
+- [完整 Radar vs Secretariat Proposed Entry 同內容雙提議者微測試](訓練區/PSO_ENTRY_PROPOSER_REFERENCE_001_20261120/README.md)
+- [結果：六席接受／修改／拒絕／不表態、舊三臂比較、來源權威風險](訓練區/PSO_ENTRY_PROPOSER_REFERENCE_001_20261120/RESULT_PROPOSER_SOURCE_MICROTEST_V0.1_20261120.md)
+- [工作 MEMO：共同地板／Radar 提議／Seat 自主路由分工](MEMO區/MEMO_PRE_SESSION_PROPOSED_ENTRY_PROPOSER_ROUTING_V0.1_WORKING_20261120.md)
+**法位：** 先把 C 的方向性輸入抽象成 `PROPOSED_ENTRY`，`proposer=SECRETARIAT|LIHUO_RADAR`。兩版同一 JSON 訊號內容，只有提議者來源不同；測試 fixture adapter 6/6、權威語言 4/4，如期防止方法／資格越權。六席結果為同模型文字參照、**不代表真實雷達或獨立模型已執行**；不能證明雷達標籤不增加服從。舊 PSO-TRI-001 保存，V0.2.1 Runtime 未修改。
