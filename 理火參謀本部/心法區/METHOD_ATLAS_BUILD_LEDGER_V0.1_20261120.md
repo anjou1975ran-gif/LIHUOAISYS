@@ -95,7 +95,7 @@
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | civil_construction | [土木／建築工程](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/ef0683d9cd8bdef2ac85558f7f6a7b16efce78fa/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Q.civil_construction_%E5%9C%9F%E6%9C%A8%E3%83%BB%E5%BB%BA%E7%AF%89%E5%B7%A5%E7%A8%8B_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | transport_mobility | [交通／運輸](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/83a445a6d2f249b6d3db7dfd118f6065218a4a2c/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AD.transport_mobility_%E4%BA%A4%E9%80%9A%E3%83%BB%E9%81%8B%E8%BC%B8_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | energy_systems | [能源系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/5476db7a32af9ff10428fe373d68c18b56579955/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Q.energy_systems_%E8%83%BD%E6%BA%90%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| PHYSICAL / RESOURCE / INFRASTRUCTURE | utilities_infrastructure | 公共事業／基礎設施 | REGISTERED | 對應主幹穩定後施工 | |
+| PHYSICAL / RESOURCE / INFRASTRUCTURE | utilities_infrastructure | [公共事業／基礎設施](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Q.utilities_infrastructure_%E5%85%AC%E5%85%B1%E4%BA%8B%E6%A5%AD%E3%83%BB%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | agriculture_food_systems | 農業／食物系統 | REGISTERED | 對應主幹穩定後施工 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | water_resource_management | 水資源 | REGISTERED | 對應主幹穩定後施工 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | forestry_fisheries_conservation | 森林／漁業／保育 | REGISTERED | 對應主幹穩定後施工 | |
@@ -2480,6 +2480,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.Q
   - V0.2.AG
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.Q.utilities_infrastructure
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.Q.utilities_infrastructure_公共事業・基礎設施_整合版.md
+  commit: null
+  blob: c78832c4f1c2b2457a860f0009d5f855871c367b
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 2
+    secondary_count: 0
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.Q
+  - V0.2.U
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
