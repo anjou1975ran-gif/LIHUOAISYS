@@ -89,7 +89,7 @@
 | INFORMATION / DIGITAL | software_engineering | [軟體工程](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/a545806cea2915ff0eaabc8b3664ec32716623e5/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.software_engineering_%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | hci_ux | [人機互動／UX](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/e579e72c32e6d4cfdf9f9df894c2914e1bc47e14/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AL.hci_ux_%E4%BA%BA%E6%A9%9F%E4%BA%92%E5%8B%95%E3%83%BBUX_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | digital_identity_trust | [數位身分／信任](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/a64f45ecbe8ec54528a774ce75f49940b0cdc9c8/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.digital_identity_trust_%E6%95%B8%E4%BD%8D%E8%BA%AB%E5%88%86%E3%83%BB%E4%BF%A1%E4%BB%BB_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| INFORMATION / DIGITAL | telecommunications_networks | [電信／網路系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Q.telecommunications_networks_%E9%9B%BB%E4%BF%A1%E3%83%BB%E7%B6%B2%E8%B7%AF%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| INFORMATION / DIGITAL | telecommunications_networks | [電信／網路系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/34b518696c50c061cd77a89f2540807fc5cf6916/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Q.telecommunications_networks_%E9%9B%BB%E4%BF%A1%E3%83%BB%E7%B6%B2%E8%B7%AF%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | journalism_media_practice | 新聞／媒體實務 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | innovation_ip_strategy | 創新／智慧財產策略 | REGISTERED | 對應主幹穩定後施工 | |
 | PHYSICAL / RESOURCE / INFRASTRUCTURE | civil_construction | 土木／建築工程 | REGISTERED | 對應主幹穩定後施工 | |
@@ -2277,9 +2277,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.Q.telecommunications_networks
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.Q.telecommunications_networks_電信・網路系統_整合版.md
-  commit: null
+  commit: 34b518696c50c061cd77a89f2540807fc5cf6916
   blob: f099852492b40186b461f34e3a9958789c85901b
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -2291,7 +2291,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 2
     secondary_count: 0
