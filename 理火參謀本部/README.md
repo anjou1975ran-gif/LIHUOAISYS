@@ -103,3 +103,13 @@ MAJORITY != QUALIFICATION
 - **待核對：** 訓練狀態仍記 `LIHUO_PROJECT_QUALIFIED=false`，與後續實跑歷史存在時間／法位核對需求；本次未改訓練門、未啟動 Council、未 corrective reentry。
 
 此二件為 **NON-NORMATIVE EXPERIENCE ARCHIVE / REGENERATION CANDIDATE**。原始歷史、糾正及 V0.1.1 PATCH 法位保持不變。
+
+## 第一號商業案 Corrective Reentry｜深圳單城（2026-11-20）
+
+- **[本次完整新會議索引](會議區/SESSION_20261120_CLEAN_INTELLIGENCE_001_REENTRY_001/README.md)**：原 Session 不覆寫，新 Session 以兩條合法入口（P1 Corrective / OPEN P0=NONE）重啟，深圳單城、成本與回收分析、無預設資本上下限；無外部支出授權。
+- **[完整 Canonical Event、Council Round、25 份席位 L8/SGER/Receipt 與審計索引](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_001_REENTRY_001/README.md)**：C 的權利反對→A 自己改判→B 架構重構→D/E/N1 回壓→B 提出未資格化 P2→六席審最新 P2。
+- **[最終文字報告 V0.2](提案區/REPORT_深圳乾淨商業情報_CorrectiveReentry_議事與可行性建議_V0.2_20261120.md)**：三個不同商業模式比較、深圳公開資料與 PRC 法規、成本回收條件及未決風險；沒有預先指定商業勝者。
+- **[未決問題 MEMO](MEMO區/MEMO_深圳乾淨情報CorrectiveReentry_未決問題與試驗設計_V0.1_20261120.md)**：法源、付費意願、source-rights、工程及訓練狀態待核。
+- **資格法位：** 本次 Git 佐證了對最新 P2 的受影響席位重新審議，但既有 Training Status 仍 `LIHUO_PROJECT_QUALIFIED=false`；故 **Formal Council Qualification = HOLD**。不因 Reentry 的人類執行授權而補發 Q1–Q18 資格，也不宣稱工程、成本、市場或 Host 驗證成功。
+
+本節是對首案糾正後的**新增歷史**；原 `LIVE_FAILURE_SPECIMEN_001` 不刪除或回寫。
