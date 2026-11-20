@@ -75,3 +75,87 @@ provider_receipt: NONE
 ```
 
 **本次提交前不寫 R2 結論。R2 應實際消費本段 T1 的結構材料，再產生下一次 Commit。**
+
+---
+
+## 02｜R2：消費 T1 的同前提族真正重新競爭
+
+**消費來源：** `L8-20261120-T1`（前一個獨立 commit `e23246fa22bba82faa0a70e998bd1acfbbb4d133`），原命題族 P0 不改。
+
+- **撤銷 R1-A 的先發優勢：** 股跌創造「可能的」黃金避險需求，但 **11/20 02:57 UTC 現貨金已跌 1.9%**。因此「股票跌 → 金必漲」被實際反例拒斥，不得視為因果定律。
+- **恢復 R1-B 資格：** Reuters 同一日期報導美元近 19 個月高位、美債殖利率維持約 5% 附近，且升息預期增強。對以美元計價、無票息的金價而言，直接價格壓力更有材料支撐。
+- **重評 R1-C：** 不是將多空各說一半的空泛折衷；應改成「短期偏空、但急跌造成反彈與波動風險」的條件性判斷。避險買盤可存在，只是不等於主導。
+- **仍未決：** 來自台股的恐慌是全球宏觀風險偏好的指標而非金價單一驅動；紐約開盤前的美元、利率和金價即時反轉仍無法預知。
+
+```yaml
+round_ref: L8-20261120-R2
+execution: CHAT_NATIVE_RECOMPETITION_RECEIVED
+consumed_T1: L8-20261120-T1
+premise_family: P0_CROSS_ASSET_RISK_TRANSFER
+material_delta_from_R1:
+  promoted_candidates: [R1-B]
+  demoted_candidates: [R1-A]
+  new_candidates: []
+  eliminated_candidates: []
+  changed_tensions:
+    - "台股跌幅是風險趨避證據，不能單獨預言黃金漲跌"
+    - "現金美元需求／Fed 升息預期對金價具更直接反作用"
+structured_result:
+  ref: L8-20261120-R2-RESULT
+  inline_summary: "偏空且可能急彈；原先 R1 防禦性反彈主張降級"
+```
+
+### O9／Point-Light｜LAMP_STATE_R2
+
+```yaml
+lamp_state_ref: L8-20261120-LAMP-R2
+main_lamp: R1-B_USD_FED_PRESSURE
+active_lamps:
+  - R1-B: "BRIGHT: 當日金價下跌 + 美元強 + 利率限制"
+  - R1-C: "ACTIVE: 金價過度急跌可引發短線反彈"
+  - R1-A: "DIM: 避險需求尚未取得壓過強美元的證據"
+dark_zone:
+  - "是否存在股金同跌的被迫平倉或流動性路徑"
+  - "台股收盤作為金價今晚主因的地理／時序偏誤"
+suppressed_path_refs: []
+false_completion_risk: "把美元利率情境當成唯一能定價黃金的框架"
+I9: NOT_TRIGGERED
+```
+
+### T2｜R2 Competition Trace
+
+```yaml
+trace_ref: L8-20261120-T2
+consumes: [L8-20261120-R2-RESULT,L8-20261120-LAMP-R2]
+delta_from_T1: "A demoted / B promoted; C retained as risk not equal-weight synthesis"
+local_top_path: R1-B
+local_competition_status: "R2 same-premise competition settled conditionally"
+warning: "未作 Post-R2 前提族審計；不得把 R2 局部勝者聖立成問句完整答案"
+provider_receipt: NONE
+```
+
+## 03｜Mandatory Post-R2 Premise Uniqueness / Plurality Audit
+
+**現有 P0：** 以台股／全球風險偏好移轉為主要理解框架。
+
+人類用語「根據今天的市場趨勢、分析今晚的黃金市場走勢」，不只問台股與黃金的避險替代關係，也容許以黃金自己的定價因子、美元利率與夜盤交易結構解讀；本題 *不等於* 對台股的機械轉換。
+
+| Premise Family | Context admissibility | Material distinctness | Represented in R1/R2 | Possible impact |
+|---|---|---|---|---|
+| P0 風險偏好／跨資產轉移 | 台股收盤與整體市場趨勢 | CURRENT | YES | 可解釋黃金避險需求 |
+| P1 全球貨幣定價／美元與實質機會成本 | 問的是 XAU/USD 晚間；Reuters Fed／美元／美債資料 | MATERIAL | PARTIAL（R2-B 作反作用，未當作完整前提族） | 即使台股大跌仍可讓金價續跌 |
+| P2 去槓桿／流動性／當晚交易結構 | 「今晚走勢」和股金同跌的觀察 | MATERIAL BUT EVIDENCE LIMITED | NO（R1/T2 dark zone） | 可產生急跌後技術反彈或續殺的不同路徑 |
+
+```yaml
+audit_ref: L8-20261120-POST-R2-PA
+state: COMPLETE
+current_premise_family: P0_CROSS_ASSET_RISK_TRANSFER
+uniqueness_or_plurality_status: MULTIPLE_MATERIAL_PREMISE_FAMILIES
+alternative_material_premise_families: [P1_MONETARY_GOLD_PRICING,P2_LIQUIDITY_MARKET_MICROSTRUCTURE]
+premise_scope_narrowness: DETECTED
+material_coverage: INSUFFICIENT_BEFORE_R3
+R3_requirement: REQUIRED
+audit_nonclaim: "R3 能檢查部分合理前提，不是窮盡所有可能的行情框架"
+```
+
+**此 Commit 到這裡為止。R3 尚未形成，不得由 R2 結論直接回填 R3。**
