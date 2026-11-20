@@ -74,7 +74,7 @@
 | STATE / PUBLIC POWER | public_procurement | [政府採購](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/bd4747b5fa0699abaf18fac7a5fc3b5da9fb5687/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.U.public_procurement_%E6%94%BF%E5%BA%9C%E6%8E%A1%E8%B3%BC_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | STATE / PUBLIC POWER | diplomacy_negotiation | [外交／談判](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/b41b2c630f4fd7d0132741c57762e09b02cb0d0c/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.O.diplomacy_negotiation_%E5%A4%96%E4%BA%A4%E3%83%BB%E8%AB%87%E5%88%A4_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | STATE / PUBLIC POWER | emergency_disaster_management | [緊急／災害管理](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/3ab8d41180622238407ffc700bca0190ef382930/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.U.emergency_disaster_management_%E7%B7%8A%E6%80%A5%E3%83%BB%E7%81%BD%E5%AE%B3%E7%AE%A1%E7%90%86_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| STATE / PUBLIC POWER | defence_military_studies | [國防／軍事研究](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.V.defence_military_studies_%E5%9C%8B%E9%98%B2%E3%83%BB%E8%BB%8D%E4%BA%8B%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| STATE / PUBLIC POWER | defence_military_studies | [國防／軍事研究](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/2c7315c6a1b6f552233b37ec33f5a36721adcdea/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.V.defence_military_studies_%E5%9C%8B%E9%98%B2%E3%83%BB%E8%BB%8D%E4%BA%8B%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | STATE / PUBLIC POWER | migration_refugee_studies | 移民／難民研究 | REGISTERED | 對應主幹穩定後施工 | |
 | PERSON / SOCIAL RELATIONS | labor_industrial_relations | 勞動／工業關係 | REGISTERED | 對應主幹穩定後施工 | |
 | PERSON / SOCIAL RELATIONS | family_studies | 家庭研究 | REGISTERED | 對應主幹穩定後施工 | |
@@ -1737,9 +1737,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.V.defence_military_studies
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.V.defence_military_studies_國防・軍事研究_整合版.md
-  commit: null
+  commit: 2c7315c6a1b6f552233b37ec33f5a36721adcdea
   blob: 97882269ccd32224246a2121cfdfd55c36675fae
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -1751,7 +1751,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 2
     secondary_count: 0
