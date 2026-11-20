@@ -189,3 +189,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [PSO-TRI-001 三臂測試預註冊規格：A 原生、B Ground、C Ground + Orientation](訓練區/TEST_PSO_TRI_ARM_COMMON_GROUND_VS_ORIENTATION_V0.1_WORKING_20261120.md)
 - [前次 PSO-PAIR-001：已完成文字參照，但清潔配對 INVALID、效果 INCONCLUSIVE](訓練區/PSO_PAIR001_20261120/README.md)
 **母命題：**「會前會只確認共同地板；共同方向除非被實驗證明有淨增益，否則不要預設加入。」A/B/C 同一底層資訊及 Method Atlas，改變前處理方式；B 不得暗設偏好解題框架，C 帶最強反向與 NULL。核心比較材料發現、完整程序成本與兩種 First Observation／Method Convergence。**目前僅設計並保存，尚未執行三臂；Staff-HQ V0.2.1 Runtime 原件不變。**
+
+## PSO-TRI-001｜共享前處理替代修正與三臂程序參照試跑（2026-11-20）
+- [V0.1.1 針對性補丁：Shared Preprocessing Substitution](訓練區/PATCH_PSO_TRI_001_SHARED_PREPROCESSING_SUBSTITUTION_V0.1.1_WORKING_20261120.md)
+- [PSO TRI 完整三臂程序試跑與來源/席位/L8 索引](訓練區/PSO_TRI001_REFERENCE_20261120/README.md)
+- [實際操作結果報告：14 RAW vs 7 RAW+Index，但沒有證明淨成本節省](訓練區/PSO_TRI001_REFERENCE_20261120/RESULT_PSO_TRI001_THREE_ARM_REFERENCE_V0.1_20261120.md)
+**硬鎖：** `COMMON_GROUND_PASS = SHARED_SOURCE_BOUND_PREPROCESSING_VIEW`；`SHARED_PREPROCESSING_MAY_BE_SHARED; FIRST_OBSERVATION_MUST_NOT_BE_PRE_SHARED`。`admitted_facts` 更名成帶 `source_status` 的 `source_bound_statements`；B/C 以索引替代重複原文前處理，按需要回查 exact RAW。這次同模型依序參照已做、三臂的真正隔離仍未做；RUNTIME V0.2.1 不變。
