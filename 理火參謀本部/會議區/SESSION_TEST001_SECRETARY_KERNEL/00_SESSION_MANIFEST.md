@@ -15,6 +15,7 @@ SESSION_MANIFEST:
     baseline: H0_FREE
     events:
       - HI-001: H2_GUIDED_ONE_SHOT
+      - HI-002: H1_NUDGE_ONE_SHOT
     current: H0_FREE
 
   proposal_current_ref: 02_PROPOSAL_P0.md
@@ -22,6 +23,7 @@ SESSION_MANIFEST:
   active_branch_refs:
     - 04_PROPOSAL_P1_CANDIDATE.md
     - 05_PROPOSAL_P1R1_CANDIDATE.md
+    - 06_PROPOSAL_P1R2_CANDIDATE.md
 
   core_seats: [N1, A, B, C, D, E]
 
@@ -32,7 +34,7 @@ SESSION_MANIFEST:
   chat_display_mode: LIVE_STRUCTURED
   recording_depth: FULL_EVENT_AND_ROUND
 
-  current_round: R003
+  current_round: R004
 
   resolved_issue_refs:
     - O-C-001
@@ -49,13 +51,15 @@ SESSION_MANIFEST:
     - O-E-001
     - O-B-002
     - O-C-005
+    - O-D-003
+    - Q-SEC-001
 
   current_guest_refs: []
 
   next_runnable_queue:
-    - MANDATORY_OWNER_ROUTE_MAP
-    - EXECUTIVE_PRIORITY_RULE
-    - REDUCER_REPLAY_SPEC
-    - COST_OBSERVATION_FIELDS
-    - SECRETARIAT_FRAME_RECHECK
+    - TYPED_EVENT_ADMISSION
+    - OWNER_ROUTE_AUTHORITY_RECHECK
+    - BOSS_BRIEF_MINIMUM
+    - FIRST_COST_OBSERVATION
+    - END_POLICY_REFINEMENT
 ~~~
