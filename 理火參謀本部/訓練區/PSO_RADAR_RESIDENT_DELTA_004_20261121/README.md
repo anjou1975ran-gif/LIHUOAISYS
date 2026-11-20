@@ -22,3 +22,4 @@
 `RADAR != O9 != I9 != GOVERNANCE`；「常駐建議」在本環境僅指**當前聊天中的持續可選觀察約定**，沒有背景程序或獨立服務的持續運行證據。
 
 **歷史不回寫：** PSO-TRI-001、PSO-ENTRY-PROPOSER-001、PSO-002/003 保留原樣。
+6. [04｜Git durable persistence evidence](04_GIT_PERSISTENCE_VERIFICATION.md)：完成寫入後的原始 SHA 與回讀檢查（不回寫 L8 歷史）。

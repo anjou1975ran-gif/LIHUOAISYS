@@ -213,3 +213,13 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [預註冊：Audit Metadata 與 Participant Exposure 分離](訓練區/PSO_ISOLATED_LABEL_TRIAL_003_20261121/00_PRE_REGISTRATION.md)
 - [測試建立紀錄](訓練區/PSO_ISOLATED_LABEL_TRIAL_003_20261121/BUILD_CHECK_REPORT.md)
 **法位：** 六席 × MASKED／SECRETARIAT／RADAR 三標籤，18 份完整且不包含上輪 Audit-only 反權威提示的獨立受測輸入；每席三份僅標籤不同。九份來源 Blob SHA 檢查與十八份 Git 回讀驗證成功。**尚未產生 18 次隔離模型回應、盲評、權威標籤因果效應或實際成本測量；不得視為 Runtime Patch。** 舊測試不覆寫。
+
+
+## PSO-RADAR-RESIDENT-DELTA-004｜常駐雷達事件再定向參考實跑（2026-11-21）
+- [完整工作區與審查入口](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/README.md)
+- [實際來源與測試邊界](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/00_SOURCE_AND_DESIGN.md)
+- [Radar 逐事件 Scan / Signal / Suggest／撤回與再開](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/01_RADAR_EVENT_SCAN.md)
+- [**完整 L8 R1/T1/R2/T2/前提審計/R3/T3 + Main Return + SGER + Receipt**](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/02_L8_FULL_SGER_AND_RECEIPT.md)
+- [結果與理火首席 AI 對對的具體審查問題](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/03_RESULT_AND_AUDIT_REQUEST.md)
+- [外部 Git persistence readback](訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/04_GIT_PERSISTENCE_VERIFICATION.md)
+**法位：** 本輪已做原始來源四件加兩件明示反事實注入的 **CHAT_NATIVE / SAME_MODEL_REFERENCE** Radar advisory scan、撤回／再開條件演示、以及一趟有完整可見 material evidence 的 L8；舊 Ground-only 結果是歷史對照**非隔離 OFF 實跑**。雷達無獨立常駐 provider，因果增益、實際模型成本及新 Runtime Patch **均未成立**。原始 PSO 001–003、協議與 OS 不覆寫。
