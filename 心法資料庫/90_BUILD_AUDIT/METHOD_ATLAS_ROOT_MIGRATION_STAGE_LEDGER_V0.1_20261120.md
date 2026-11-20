@@ -12,4 +12,6 @@ M6 驗 39 個唯一主包路徑、法位、預設與 baseline Git blob。M8 再�
 | M3 | [eee7d054b6e6](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/eee7d054b6e6a355c9397c24db4f91c4e2307b14) | register exact files, routing rules, version precedence and migration map |
 | M4 | [da6db780ecc1](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/da6db780ecc1f8aa42961c9b4b0df2ba9542df69) | move Atlas Core to the shared root |
 | M5 | [8ceb51c80332](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/8ceb51c803328a106d79b4df2bdf6d06f31fb3c8) | relocate all 39 main packs with matching blobs |
-| M6 | 本檔所在提交 | 逐檔驗證路徑、法位、預設目標與來源 blob |
+| M6 | [693340caf309](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/693340caf3091f3d8a42d08b919e03006ed382a0) | verify all 39 main targets and source object identities |
+| M7 | [8ecba1ba842a](https://github.com/anjou1975ran-gif/LIHUOAISYS/commit/8ecba1ba842a2ba36c9852be6792b78e2fc44e40) | relocate all 51 functional modules with matching blobs |
+| M8 | 本檔所在提交 | 逐檔驗證路徑、法位、預設目標與來源 blob |
