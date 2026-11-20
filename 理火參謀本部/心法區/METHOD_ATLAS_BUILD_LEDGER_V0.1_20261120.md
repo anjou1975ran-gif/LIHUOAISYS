@@ -39,25 +39,25 @@
 
 ## V0.2.A–K 既有包基線審讀
 
-| Pack | 檔案 | 審讀結果 | 未決 |
-| --- | --- | --- | --- |
-| V0.2.A | [學科心法總目錄_V0.2.A_第一組_社會學心法包_純淨版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.A_%E7%AC%AC%E4%B8%80%E7%B5%84_%E7%A4%BE%E6%9C%83%E5%AD%B8%E5%BF%83%E6%B3%95%E5%8C%85_%E7%B4%94%E6%B7%A8%E7%89%88.md) | CLEAN_STANDALONE_PACK_READY。#03/#05 比較階層、分配與互動。可提供組織、權威及群體位置。 | 舊包的非調用對照、四庫 crosswalk 與 Clock A 結構欄位仍需另版審查。 | |
-| V0.2.B | [學科心法總目錄_V0.2.B_第二組_歷史學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.B_%E7%AC%AC%E4%BA%8C%E7%B5%84_%E6%AD%B7%E5%8F%B2%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | FORMAL_RELEASE_INTEGRATED。封版、來源批判及第 8 節證據層審計。用於實際時序與制度路徑。 | 未以本輪 G6/G7/G9 重驗舊正文。 | |
-| V0.2.C | [學科心法總目錄_V0.2.C_第三組_法學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.C_%E7%AC%AC%E4%B8%89%E7%B5%84_%E6%B3%95%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | FORMAL_RELEASE_READY。§7／§9 法位、程序及證據閘門。可承接純規範分支。 | 現行法與個案證據仍需律師依實際管轄查核。 | |
-| V0.2.D | [學科心法總目錄_V0.2.D_第四組_經濟學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.D_%E7%AC%AC%E5%9B%9B%E7%B5%84_%E7%B6%93%E6%BF%9F%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | FORMAL_RELEASE_READY。§3、8、13、14 的稀缺、誘因、制度、反事實和案例。 | 金融操作及投資決策由責任方另審；模組只可補接口。 | |
-| V0.2.E | [學科心法總目錄_V0.2.E_第五組_政治學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.E_%E7%AC%AC%E4%BA%94%E7%B5%84_%E6%94%BF%E6%B2%BB%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | FORMAL_RELEASE。§7、8、10 的授權、政治結構、問責與邊界。 | 同機關的政策交付另查 U，外部跨境承諾另查 O。 | |
-| V0.2.F | [學科心法總目錄 V0.2.F-INTEGRATED_第六組_管理學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84%20V0.2.F-INTEGRATED_%E7%AC%AC%E5%85%AD%E7%B5%84_%E7%AE%A1%E7%90%86%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | INTEGRATED_DRAFT；正文 INTEGRATED_READY。§8–12 處理策略、流程、組織行為與治理等 14 張卡；正文確認最小核心完成。 | 來源 header 與正文完成語彙均保留，未授正式封版或接入法位。 | |
-| V0.2.G | [學科心法總目錄_V0.2.G-INTEGRATED_第七組心理學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.G-INTEGRATED_%E7%AC%AC%E4%B8%83%E7%B5%84%E5%BF%83%E7%90%86%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | INTEGRATED_DRAFT；正文 15 卡通過文本測試。§6、8、9、12 有認知、學習、情境與發展的三組測試、近鄰及邊界。 | 維持舊版法位，禁止由群體或行為推個案診斷。 | |
-| V0.2.H | [學科心法總目錄_V0.2.H-INTEGRATED_第八組教育學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.H-INTEGRATED_%E7%AC%AC%E5%85%AB%E7%B5%84%E6%95%99%E8%82%B2%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | INTEGRATED_DRAFT；正文有三組文本測試。§4、8、9、12 的學習、評量、能力形成與專業界線。 | 維持舊版法位，實務設備與服務可用性另由 AL。 | |
-| V0.2.I | [學科心法總目錄_V0.2.I-INTEGRATED_第九組哲學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.I-INTEGRATED_%E7%AC%AC%E4%B9%9D%E7%B5%84%E5%93%B2%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 整合版；正文 PHILOSOPHY_LEVEL_1_METHOD_SHIFT_PASS。§6–12 分辨知識、論證及規範。 | 形式性質的專門證明可用 AE。未把規範論證當成 DLM 法源。 | |
-| V0.2.J | [學科心法總目錄_V0.2.J-INTEGRATED_第十組人類學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.J-INTEGRATED_%E7%AC%AC%E5%8D%81%E7%B5%84%E4%BA%BA%E9%A1%9E%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | FORMAL_RELEASE_READY。§6、7、11、12 有厚描、文化分類及三組同題對照。 | 原住社群和受限制知識以同意及共同詮釋定界。 | |
-| V0.2.K | [學科心法總目錄_V0.2.K-INTEGRATED_第十一組傳播學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.K-INTEGRATED_%E7%AC%AC%E5%8D%81%E4%B8%80%E7%B5%84%E5%82%B3%E6%92%AD%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 正文 COMMUNICATION_V0_2_GROUP_INTEGRATED_COMPLETE。§7–13 檢視媒介、受眾、擴散、框架、調用及專業邊界。 | 來源查證和語用分別回 T、R。維持既有文檔法位。 | |
+| Pack | 檔案 | Blob | 審讀結果 | 未決 |
+| --- | --- | --- | --- | --- |
+| V0.2.A | [學科心法總目錄_V0.2.A_第一組_社會學心法包_純淨版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.A_%E7%AC%AC%E4%B8%80%E7%B5%84_%E7%A4%BE%E6%9C%83%E5%AD%B8%E5%BF%83%E6%B3%95%E5%8C%85_%E7%B4%94%E6%B7%A8%E7%89%88.md) | 72b47c9f45008ddbae0e377a68d790f38b8485c4 | CLEAN_STANDALONE_PACK_READY。#03/#05 比較階層、分配與互動。可提供組織、權威及群體位置。 | 舊包的非調用對照、四庫 crosswalk 與 Clock A 結構欄位仍需另版審查。 | |
+| V0.2.B | [學科心法總目錄_V0.2.B_第二組_歷史學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.B_%E7%AC%AC%E4%BA%8C%E7%B5%84_%E6%AD%B7%E5%8F%B2%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 6362cab9baba205d7dafd058bec869da7898b1d1 | FORMAL_RELEASE_INTEGRATED。封版、來源批判及第 8 節證據層審計。用於實際時序與制度路徑。 | 未以本輪 G6/G7/G9 重驗舊正文。 | |
+| V0.2.C | [學科心法總目錄_V0.2.C_第三組_法學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.C_%E7%AC%AC%E4%B8%89%E7%B5%84_%E6%B3%95%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | c9d9851743624abf88361621a27dfa6ab0080a78 | FORMAL_RELEASE_READY。§7／§9 法位、程序及證據閘門。可承接純規範分支。 | 現行法與個案證據仍需律師依實際管轄查核。 | |
+| V0.2.D | [學科心法總目錄_V0.2.D_第四組_經濟學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.D_%E7%AC%AC%E5%9B%9B%E7%B5%84_%E7%B6%93%E6%BF%9F%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 66953c83ca7d9a96b974b634dd9fb5ea99e0051e | FORMAL_RELEASE_READY。§3、8、13、14 的稀缺、誘因、制度、反事實和案例。 | 金融操作及投資決策由責任方另審；模組只可補接口。 | |
+| V0.2.E | [學科心法總目錄_V0.2.E_第五組_政治學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.E_%E7%AC%AC%E4%BA%94%E7%B5%84_%E6%94%BF%E6%B2%BB%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 43eba96ef8be74250d4c476132c9c556e94556cd | FORMAL_RELEASE。§7、8、10 的授權、政治結構、問責與邊界。 | 同機關的政策交付另查 U，外部跨境承諾另查 O。 | |
+| V0.2.F | [學科心法總目錄 V0.2.F-INTEGRATED_第六組_管理學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84%20V0.2.F-INTEGRATED_%E7%AC%AC%E5%85%AD%E7%B5%84_%E7%AE%A1%E7%90%86%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 0380457b6e33e1b73e73a36e139ccd03ef95d0f6 | INTEGRATED_DRAFT；正文 INTEGRATED_READY。§8–12 處理策略、流程、組織行為與治理等 14 張卡；正文確認最小核心完成。 | 來源 header 與正文完成語彙均保留，未授正式封版或接入法位。 | |
+| V0.2.G | [學科心法總目錄_V0.2.G-INTEGRATED_第七組心理學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.G-INTEGRATED_%E7%AC%AC%E4%B8%83%E7%B5%84%E5%BF%83%E7%90%86%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 7ad8a579bec7442a9289e19b5e29f5e60cdafb8f | INTEGRATED_DRAFT；正文 15 卡通過文本測試。§6、8、9、12 有認知、學習、情境與發展的三組測試、近鄰及邊界。 | 維持舊版法位，禁止由群體或行為推個案診斷。 | |
+| V0.2.H | [學科心法總目錄_V0.2.H-INTEGRATED_第八組教育學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.H-INTEGRATED_%E7%AC%AC%E5%85%AB%E7%B5%84%E6%95%99%E8%82%B2%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 9a8cfd51ed115333a732f0f688ac2f73842d4850 | INTEGRATED_DRAFT；正文有三組文本測試。§4、8、9、12 的學習、評量、能力形成與專業界線。 | 維持舊版法位，實務設備與服務可用性另由 AL。 | |
+| V0.2.I | [學科心法總目錄_V0.2.I-INTEGRATED_第九組哲學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.I-INTEGRATED_%E7%AC%AC%E4%B9%9D%E7%B5%84%E5%93%B2%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 866ea2d132c8915d7d0820520523d118b48e43e0 | 整合版；正文 PHILOSOPHY_LEVEL_1_METHOD_SHIFT_PASS。§6–12 分辨知識、論證及規範。 | 形式性質的專門證明可用 AE。未把規範論證當成 DLM 法源。 | |
+| V0.2.J | [學科心法總目錄_V0.2.J-INTEGRATED_第十組人類學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.J-INTEGRATED_%E7%AC%AC%E5%8D%81%E7%B5%84%E4%BA%BA%E9%A1%9E%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | 311b12fb74d9b64e729bb8733438b4d4184427b4 | FORMAL_RELEASE_READY。§6、7、11、12 有厚描、文化分類及三組同題對照。 | 原住社群和受限制知識以同意及共同詮釋定界。 | |
+| V0.2.K | [學科心法總目錄_V0.2.K-INTEGRATED_第十一組傳播學整合版.md](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/62dd262926dcd537a432f114217ba35544069adb/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.2.K-INTEGRATED_%E7%AC%AC%E5%8D%81%E4%B8%80%E7%B5%84%E5%82%B3%E6%92%AD%E5%AD%B8%E6%95%B4%E5%90%88%E7%89%88.md) | c8c8b514941556409040c7a7c6561365ae74e514 | 正文 COMMUNICATION_V0_2_GROUP_INTEGRATED_COMPLETE。§7–13 檢視媒介、受眾、擴散、框架、調用及專業邊界。 | 來源查證和語用分別回 T、R。維持既有文檔法位。 | |
 
 ## V0.3 註冊模組
 
 | Family | Registry ID | 模組 | Standing | 未決／下一步 |
 | --- | --- | --- | --- | --- |
-| MONEY / ENTERPRISE | accounting | 會計 | REGISTERED | 對應主幹穩定後施工 | |
+| MONEY / ENTERPRISE | accounting | [會計](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.F.accounting_%E6%9C%83%E8%A8%88_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
 | MONEY / ENTERPRISE | auditing_assurance | 審計／確信 | REGISTERED | 對應主幹穩定後施工 | |
 | MONEY / ENTERPRISE | tax | 稅務 | REGISTERED | 對應主幹穩定後施工 | |
 | MONEY / ENTERPRISE | finance_financial_systems | 金融／銀行／資本市場 | REGISTERED | 對應主幹穩定後施工 | |
@@ -1112,6 +1112,42 @@ PACK_COMPLETION_REPORT:
   neighbor_tests:
   - V0.2.AK
   - V0.2.AH
+  professional_support_boundary:
+    present: true
+  method_effectiveness_claim:
+    allowed: false
+  expert_capability_claim:
+    allowed: false
+  open_questions: []
+```
+
+```yaml
+PACK_COMPLETION_REPORT:
+  pack_id: V0.3.F.accounting
+  file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.F.accounting_會計_整合版.md
+  commit: null
+  blob: 49b877d8825cbd3dfb90a92183aa773de67ff578
+  status: CROSSWALK_CHECKED
+  gates:
+    G0: PASS
+    G1: PASS
+    G2: PASS
+    G3: PASS
+    G4: PASS
+    G5: PASS
+    G6: PASS
+    G7: PASS
+    G8: PASS
+    G9: PASS
+    G10: NOT_TESTED
+  legal_204:
+    primary_count: 1
+    secondary_count: 1
+    false_friend_count: 1
+    open_gap_count: 0
+  neighbor_tests:
+  - V0.2.F
+  - V0.2.D
   professional_support_boundary:
     present: true
   method_effectiveness_claim:
