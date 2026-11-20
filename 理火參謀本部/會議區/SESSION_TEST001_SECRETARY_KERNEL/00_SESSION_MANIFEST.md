@@ -4,12 +4,12 @@
 ~~~yaml
 SESSION_MANIFEST:
   session_id: TEST-001-SECRETARY-KERNEL
-  status: WAITING_HUMAN_DECISION
+  status: ENDED
 
   human_desire_ref: 01_HUMAN_DESIRE.md
   mandate_ref: 01_HUMAN_DESIRE.md#D1
   mandate_type: CONCEPT
-  mandate_standing: SECRETARY_INTERPRETATION / HUMAN_NOT_YET_CONFIRMED
+  mandate_standing: HUMAN_CONFIRMED
 
   human_intervention_mode:
     baseline: H0_FREE
@@ -48,8 +48,8 @@ SESSION_MANIFEST:
 
   closure:
     content_closure: PASSED
-    mandate_exit: BLOCKED
-    blocking_ref: O-C-006
+    mandate_exit: PASSED
+    result: CONCEPT_COMPLETE
 
   resolved_issue_refs:
     - O-C-001
@@ -70,18 +70,30 @@ SESSION_MANIFEST:
     - O-E-001
     - O-E-002
 
-  procedural_blocker_refs:
-    - O-C-006
+  procedural_blocker_refs: []
 
   current_guest_refs: []
 
   checkpoint_ending:
-    state: ACTIVE
+    state: COMPLETED
     decision_request_ref: 10_DECISION_REQUEST_DR001.md
-    reason: O-C-006
+    human_decision_ref: 11_HUMAN_DECISION_HD001.md
 
-  next_required_input:
-    - HUMAN_DECISION_DR001
+  human_decision:
+    ref: 11_HUMAN_DECISION_HD001.md
+    choice: A
 
+  baseline:
+    ref: ../../MEMO區/MEMO_Secretariat_Architecture_V0.1_FIRST_BASELINE_20261120.md
+    standing: FIRST_VERSION_BASELINE / WORKING
+
+  final_report_ref: ../../記錄區/SESSION_TEST001_SECRETARY_KERNEL/FINAL_COUNCIL_REPORT.md
+
+  terminal:
+    ended: true
+    reason: MANDATE_COMPLETED + HUMAN_FIRST_VERSION_SUFFICIENT
+    reentry_allowed: true
+
+  next_required_input: []
   next_runnable_queue: []
 ~~~
