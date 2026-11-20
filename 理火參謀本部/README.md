@@ -164,3 +164,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [Report：三路可行性研究及 L9 Radar](提案區/REPORT_理火乾淨情報公司_CASE003_自主可行性研究建議_V0.1_20261120.md)
 - [Final Meta/Chronology Audit](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/AUDIT/FINAL_FEASIBILITY_COUNCIL_AND_RADAR_AUDIT.md)
 **Reference identity:** SAME_MODEL_MULTI_ROLE_REFERENCE / V0.2.1 WORKING。B 席起源 P1 Research Sequencing (not business winner)，A 席在 N1+L9 反對後降低 F4 立場，B 席在 C/D/E 反對後不先建平台。原 CASE-001/002/先前 CASE003 desk study 不修改。
+
+## CASE-003 R004–R005｜買方金流／權力／情報流重進場（2026-11-20）
+- [Staff-HQ 新增完整 Council Event、Seat L8 與 L9 Radar](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/README.md)
+- [B 席起源 P2 買方先行商業研究報告](提案區/REPORT_CASE003_R004_R005_金流權力情報流_買方需求重構_V0.1_20261120.md)
+- [新材料 Git 時序與法位審計](記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/AUDIT/R004_R005_BUYER_FLOW_REENTRY_AUDIT_V0.1_20261120.md)
+此為既有 CASE-003 Session 在 R003 Checkpoint 後的新增材料再入場；人類提供研究方向而非預設答案；原版 P1 和前案歷史仍保留。
