@@ -233,3 +233,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [Git 真正寫入與 SHA 回讀核驗](訓練區/PSO_RADAR_RELATIONAL_MONITOR_005_20261121/05_GIT_PERSISTENCE_AUDIT.md)
 
 **結果法位：** 本地可重跑的簡化 typed-relation monitor，23 項 unittest PASS、五種失效變體被抓出；但 Case D 證明授權範圍與預定用途的語義衝突會被既有型別漏掉。**這不是完整 Radar、不是獨立模型測試、不是 SAC 實證。** 今輪 L8 的材料性轉向是：Coding 可以維持已被認出的關係，但不能僭稱自己已經看見尚未建模的關係。原 003/004 歷史不修改。
+
+
+## 2026-11-21｜V1.3 通用新生教材參謀本部評估
+- [Session 完整入口](會議區/SESSION_20261121_INTERNSHIP_MANUAL_V13_EVAL_001/00_SESSION_README.md)
+- [評估結論與三項修改優先順序](會議區/SESSION_20261121_INTERNSHIP_MANUAL_V13_EVAL_001/07_FINAL_EVALUATION.md)
+**Standing:** GENERAL_CORE_PLUS_VERTICAL_ADAPTERS 是待授權修改之 Council 工作建議；C 的跨 Vertical 實證 HOLD 保留，現行教材不改。17 個有來源的事件、十趟同模型 chat-native 席位 L8，非獨立六模型。
