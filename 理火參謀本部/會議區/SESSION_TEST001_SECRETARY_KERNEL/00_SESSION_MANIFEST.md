@@ -19,6 +19,8 @@ SESSION_MANIFEST:
 
   proposal_current_ref: 02_PROPOSAL_P0.md
   proposal_current_version: P0
+  active_branch_refs:
+    - 04_PROPOSAL_P1_CANDIDATE.md
 
   core_seats: [N1, A, B, C, D, E]
 
@@ -29,8 +31,8 @@ SESSION_MANIFEST:
   chat_display_mode: LIVE_STRUCTURED
   recording_depth: FULL_EVENT_AND_ROUND
 
-  current_round: R001
-  current_open_issue_refs:
+  current_round: R002
+  current_open_or_unresolved_issue_refs:
     - O-N1-001
     - O-B-001
     - O-C-001
@@ -38,11 +40,14 @@ SESSION_MANIFEST:
     - O-C-003
     - O-D-001
     - O-E-001
+    - O-C-004
+    - O-D-002
+    - Q-N1-002
   current_guest_refs: []
 
   next_runnable_queue:
-    - SECRETARY_INTERNAL_SPLIT
-    - EXECUTIVE_VIEW_INTEGRITY
-    - CANONICAL_STORE_DERIVED_VIEWS
-    - PROCEDURALIZE_SECRETARY_GATES
+    - P1_AUTHORITY_BOUNDARY
+    - EXECUTIVE_DISSENT_COVERAGE
+    - REDUCER_AND_QUEUE_MIN_SPEC
+    - SECRETARY_FRAME_RECHECK
 ~~~
