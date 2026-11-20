@@ -3,7 +3,7 @@
 ~~~yaml
 SESSION_MANIFEST:
   session_id: TEST-002-PROJECT-BOOTSTRAP
-  status: OPEN
+  status: PAUSED_FOR_LIHUO_TRAINING
 
   runtime_binding:
     os: LIHUOOS_V1.4.2
@@ -28,9 +28,13 @@ SESSION_MANIFEST:
   current_round: R002_COMPLETE
   current_guest_refs: []
 
+  pause_gate:
+    reason: LIHUO_PROJECT_TRAINING_REQUIRED
+    training_status_ref: ../../訓練區/TRAINING_STATUS_CURRENT.md
+    resume_condition: LIHUO_PROJECT_QUALIFIED_TRUE
+
   next_runnable_queue:
-    - N1_PLAIN_LANGUAGE_AND_ACTION_CHECK
-    - E_STAGE_GATE_COST_CHECK
+    - BLOCKED_UNTIL_TRAINING_QUALIFIED
 
   next_wake:
     active: [N1, E]
