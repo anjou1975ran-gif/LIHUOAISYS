@@ -48,3 +48,24 @@ HISTORY: APPEND_ONLY_NEW_SESSION
 ENDING: CHECKPOINT_ENDING_NOT_SESSION_END
 ```
 The Git source and first-parent stage chain supports observable chronology, **not** separate model cognition or controlled causal method effectiveness. Do not rewrite CASE-001, CASE-002 or earlier CASE-003 desk research.
+
+## R004–R006｜人類新方向：金流 × 權力 × 合法情報流（2026-11-20）
+**這是同一個尚未正式結束的 CASE-003 Session 的材料重進場，並非另開新 Session；P0 一直為 NONE。** 人類提供的政府例子只是方向，不是指定方案。B 席 R004 起源 P2 Buyer Flow First 研究建議，不抹除先前 P1。
+- [人類新材料／責任席路由](EVENT/EV_R004_HUMAN_DIRECTION_MONEY_POWER_INFORMATION_FLOWS.md)
+- [首次政府採購與公眾參與官方來源](SOURCE/R004_PUBLIC_BUYER_GOVERNMENT_EVIDENCE_20261120.md)
+- [後續新增政府中標公告索引與公營水務調查採購](SOURCE/R005_ADDITIONAL_PURCHASERS_AND_PUBLIC_AWARD_LISTING.md)
+- [R004 selected new Method Pack SHA／既有選中來源重用](SOURCE/R004_SELECTED_PACK_FETCH_AND_REUSE_RECEIPT.md)
+- [R004 Council 原始立場與 B-origin P2](EVENT/EV_R004_MONEY_POWER_INFORMATION_FLOW_MATERIAL_COUNCIL.md)
+- [R005 新事實由受影響席位自判](EVENT/EV_R005_BUYER_EVIDENCE_ABLATION_AND_CHALLENGE.md)
+- [R006 專業外援非觸發與最新 Checkpoint](EVENT/EV_R006_CURRENT_CHECKPOINT_AND_PROFESSIONAL_SCREEN.md)
+- [L9 Radar S07：政府採購機會與自有渠道／人力成本反證](RADAR/L9_V6_R004_S07_GOV_BUYER_AND_INTERNAL_CHANNELS_SIGNAL.md)
+- [L9 Radar S08：公營事業另一類買家與資歷進場門檻](RADAR/L9_V6_R005_S08_UTILITY_BUYER_AND_ENTRY_BARRIER.md)
+- [最新人類可讀研究報告](../../提案區/REPORT_CASE003_R004_R005_金流權力情報流_買方需求重構_V0.1_20261120.md)
+- [最新 Current Checkpoint](../../會議區/SESSION_20261120_CLEAN_INTELLIGENCE_FEASIBILITY_003/02_CURRENT_BUYER_FLOW_CHECKPOINT.md)
+- [Git 時序與 Meta-Governance 審計](AUDIT/R004_R005_BUYER_FLOW_REENTRY_AUDIT_V0.1_20261120.md)
+- [商業子專案買方需求地圖](../../../理火商業化/理火乾淨情報公司/03_研究驗證/CASE_003_R004_R005_金流權力情報流_買方需求地圖_V0.1_20261120.md)
+
+**R004 Clock A**：N1/A/B/C/E 各有 `METHOD/EV_R004_A0_*`、`OBSERVATION/EV_R004_A1_*`、`SEAT/EV_R004_A2_*`；A 新選社會學，B/C/E 沿用已讀鎖版，N1 NO_METHOD，D QUIET。
+**R005 Clock A**：N1/A/E 各有 `METHOD/EV_R005_A0_*`、`OBSERVATION/EV_R005_A1_*`、`SEAT/EV_R005_A2_*`；B/C/D QUIET。
+**硬鎖：** 限價不是得標價、公告索引不是已付款、政府權力不可作情報商品出售；無得標獲利證明、無真實個資權利、無專業 Agent Return、無獨立模型／Host 部署證據。
+
