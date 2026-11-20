@@ -143,4 +143,37 @@ SESSION_20261120_CLEAN_INTELLIGENCE_001_REENTRY_001
 
 > **刪掉最後報告，只留下 Canonical Events；若仍能重建誰影響誰、P2 怎麼形成、誰審哪一版、為何 HOLD，MRC-001 才成立。**
 
+
+# 6｜Single-File Deploy｜實際給 GPT Project 的版本
+
+**實際安裝不要載入 01–10。**
+
+只載入：
+
+```text
+DEPLOY/
+  STAFF_HQ_V0.2_RUNTIME_FULL_WORKING_20261120.md
+```
+
+其餘 01–10：
+
+```text
+ENGINEERING SPLIT HISTORY / AUDIT SOURCE
+NOT PROJECT LOAD SET
+```
+
+因此 Staff-HQ 本體在 GPT Project 中只佔 **1 個檔案**。
+
+完整 Project 最小常駐：
+
+```text
+1. LIHUO Protocol V5.1.0
+2. LIHUOOS V1.4.2
+3. PROJECT_CORE_ARCHITECTURE_DAIL_OPERATING_MODEL
+4. DEPLOY/STAFF_HQ_V0.2_RUNTIME_FULL_WORKING_20261120.md
+```
+
+Current Session / Reference Specimen 只在需要時加入。
+
+
 **END**
