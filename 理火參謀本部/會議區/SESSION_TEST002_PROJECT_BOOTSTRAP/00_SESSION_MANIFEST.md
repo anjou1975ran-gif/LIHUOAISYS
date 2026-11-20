@@ -24,9 +24,24 @@ SESSION_MANIFEST:
 
   core_seats: [N1, A, B, C, D, E]
 
-  current_round: R001_INITIAL_PASS
+  current_round: R001_COMPLETE
   current_guest_refs: []
-  current_open_issue_refs: []
+
+  next_runnable_queue:
+    - MINIMUM_REPLAY_CORE_SCOPE
+    - HYBRID_SEQUENCE_QUALIFICATION
+    - BINARY_FRAME_RECHECK
+
+  next_wake:
+    active: [A, B, C, D]
+    quiet: [N1, E]
+  current_open_issue_refs:
+    - Q-N1-T002-001
+    - O-A-T002-001
+    - O-B-T002-001
+    - O-C-T002-001
+    - O-D-T002-001
+    - O-E-T002-001
 
   recording:
     canonical_store: GITHUB_WHEN_WRITE_SUCCEEDS
