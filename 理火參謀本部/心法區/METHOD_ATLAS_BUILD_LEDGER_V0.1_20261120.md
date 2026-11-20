@@ -84,7 +84,7 @@
 | PERSON / SOCIAL RELATIONS | care_systems | [照護系統](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/32f19ed580bbd7067d992b5eea1d31fe4f43f501/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AA.care_systems_%E7%85%A7%E8%AD%B7%E7%B3%BB%E7%B5%B1_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | PERSON / SOCIAL RELATIONS | consumer_studies | [消費者研究](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/ca2608ed4c773154e57c79a4d0409c07ba2e66c4/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.AL.consumer_studies_%E6%B6%88%E8%B2%BB%E8%80%85%E7%A0%94%E7%A9%B6_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | cybersecurity | [網路安全／資安](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/8bfb4b62f665c7028fdc781b659405a36a5b8115/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.M.cybersecurity_%E7%B6%B2%E8%B7%AF%E5%AE%89%E5%85%A8%E3%83%BB%E8%B3%87%E5%AE%89_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
-| INFORMATION / DIGITAL | data_governance_privacy | [資料治理／隱私](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/method-atlas/build-20261120/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Y.data_governance_privacy_%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E3%83%BB%E9%9A%B1%E7%A7%81_%E6%95%B4%E5%90%88%E7%89%88.md) | CROSSWALK_CHECKED | 收錄於回執 | |
+| INFORMATION / DIGITAL | data_governance_privacy | [資料治理／隱私](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/f6eb7e94a2bb3430f5983170b8d68c8b80b84583/%E7%90%86%E7%81%AB%E5%8F%83%E8%AC%80%E6%9C%AC%E9%83%A8/%E5%BF%83%E6%B3%95%E5%8D%80/%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84/%E5%AD%B8%E7%A7%91%E5%BF%83%E6%B3%95%E7%B8%BD%E7%9B%AE%E9%8C%84_V0.3.Y.data_governance_privacy_%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E3%83%BB%E9%9A%B1%E7%A7%81_%E6%95%B4%E5%90%88%E7%89%88.md) | REVIEW_READY | 收錄於回執 | |
 | INFORMATION / DIGITAL | ai_ml_systems | AI／ML 系統 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | software_engineering | 軟體工程 | REGISTERED | 對應主幹穩定後施工 | |
 | INFORMATION / DIGITAL | hci_ux | 人機互動／UX | REGISTERED | 對應主幹穩定後施工 | |
@@ -2097,9 +2097,9 @@ PACK_COMPLETION_REPORT:
 PACK_COMPLETION_REPORT:
   pack_id: V0.3.Y.data_governance_privacy
   file: 理火參謀本部/心法區/功能模組/學科心法總目錄_V0.3.Y.data_governance_privacy_資料治理・隱私_整合版.md
-  commit: null
+  commit: f6eb7e94a2bb3430f5983170b8d68c8b80b84583
   blob: dad2fc9661dc85b4a9a714ea3096041a88777f79
-  status: CROSSWALK_CHECKED
+  status: REVIEW_READY
   gates:
     G0: PASS
     G1: PASS
@@ -2111,7 +2111,7 @@ PACK_COMPLETION_REPORT:
     G7: PASS
     G8: PASS
     G9: PASS
-    G10: NOT_TESTED
+    G10: PASS
   legal_204:
     primary_count: 3
     secondary_count: 0
