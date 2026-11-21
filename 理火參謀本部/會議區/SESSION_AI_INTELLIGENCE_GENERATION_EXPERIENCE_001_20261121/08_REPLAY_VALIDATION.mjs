@@ -37,7 +37,7 @@ const d1 = byType("D1_CANDIDATE_RECORDED")[0];
 const p0 = byType("P0_NONE_RECORDED")[0];
 const gate = byType("HUMAN_ACTION_REQUIRED")[0];
 const issues = byType("SURVIVING_ISSUES_RECORDED")[0];
-const rounds = [...new Set(events.map(e => e.round_ref).filter(r => /^R[1-8]$/.test(r))].sort();
+const rounds = [...new Set(events.map(e => e.round_ref).filter(r => /^R[1-8]$/.test(r)))].sort();
 const receiptLinked = initial.length === 6 && initial.every(e =>
   e.receipt?.l8_cycle_ref && e.receipt?.sger_ref && e.receipt?.compact_receipt_ref
 );
