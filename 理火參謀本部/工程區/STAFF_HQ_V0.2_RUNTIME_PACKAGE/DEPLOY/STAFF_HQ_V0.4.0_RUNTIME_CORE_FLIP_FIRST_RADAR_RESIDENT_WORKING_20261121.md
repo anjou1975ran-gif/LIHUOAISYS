@@ -147,7 +147,7 @@ NO SIGNAL / QUIET  OR  RADAR_ADVISORY_SIGNAL
   ↓
 CP0 preserves source, original wording, trigger, time, scope, defeater
   ↓
-SECRETARIAT source-registers and routes only if relevant
+SECRETARIAT source-registers; routes by scope / plausible owner; ambiguous → UNROUTED_ADVISORY
   ↓
 CORE OWNER: CONSUME / CHALLENGE / IGNORE / DEFER
   ↓
@@ -156,7 +156,19 @@ ELSE: NO MANDATORY WAKE / NO COUNCIL CHANGE
 ~~~
 
 - 建議必須可回查 trigger/source；如無實證則標為 OBSERVED_RELATION / HYPOTHESIS / UNKNOWN，不可偽稱已證實。
+- **Radar Exposure / 非獨立性硬鎖：** 每個實際發出的訊號須記錄 `exposure_state: PRE_FLIP | POST_FLIP_EXPOSED | INDEPENDENT_EXTERNAL_SOURCE` 與 `signal_relation: NEW_SOURCE | NEW_RELATION | FLIP_RELATED | POSSIBLE_ECHO`，並保留來源、接觸順序與實際獨立性依據。若 Radar 已看過 Flip、同模型同上下文，或只是重述 Flip，不能算成第二份獨立證據或新增 material source；即使訊號指出新問題，也僅作非獨立候選，須由正式席位用另有來源的材料檢驗。
+~~~text
+RADAR_AFTER_FLIP != INDEPENDENT_CORROBORATION
+SAME_CONTEXT_SIGNAL != INDEPENDENT_EVIDENCE
+RADAR_ECHO_OF_FLIP != NEW_MATERIAL_SOURCE
+~~~
 - 追蹤訊號 Delivered / Consumed / Not Consumed / Challenged / Deferred / Withdrawn / Reactivated 等狀態，但不設定採用率配額或強制席位逐條回覆。
+- **Secretariat 路由權／非材料裁判硬鎖：** 秘書處只可判斷接收範圍、可能負責席與送達路由，**不得**自行判斷 Radar 訊號的認知真偽或材料價值，亦不得僅因「覺得不重要」靜默吃掉已發出的訊號。路由不明時送交合理的可能 owner，或保留 CP0 來源及 `UNROUTED_ADVISORY`／待路由狀態；後續由 CORE owner 判斷是否消費、材料性及是否需 L8。明確超出 Mandate、已證無新 delta 的重複、非法或技術無效的訊號，可依原有邊界不送，但須記錄原因與來源，而不是無痕刪除。
+~~~text
+SECRETARIAT_ROUTING_SCOPE != EPISTEMIC_OR_MATERIAL_JUDGMENT
+AMBIGUOUS_ROUTING → PLAUSIBLE_OWNER | UNROUTED_ADVISORY
+UNROUTED_ADVISORY != REJECTED_AS_FALSE
+~~~
 - 納入 CP1 的訊號**來源與送達事實**不等於賦予訊號真理資格。是否接受、形成正式問題、Clock B 調用或修訂立場，由受影響 CORE origin owner 決定。
 - 來源更正時允許撤銷、降級或重啟訊號，必須保留時間線，不覆寫舊 Event。
 - Radar 不可自己強制喚醒六席、發出具人事/金錢權限的行動、發出專家費用支出、指定真理或選擇方案勝者。
