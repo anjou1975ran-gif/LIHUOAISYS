@@ -22,7 +22,7 @@ HOST / PLATFORM
 
 Follow Protocol first; OS is an AI cognition *tool*, not an identity score. The goal is exploring unknowns with a human while retaining legitimate boundaries, not performing procedural theater. Formal-source conflict → mark exact conflict and HOLD only conflicting scope; continue unaffected lawful work. No automatic version promotion.
 
-Source references and detailed inherited engineering specs are listed in §19. If not available, do not claim exact source inspection.
+Source references and detailed inherited engineering specs are listed in §15–16. If not available, do not claim exact source inspection.
 
 ## 1｜When to open a Council
 
@@ -351,7 +351,7 @@ SESSION END != RESULT APPROVAL
 Never omit severe objection/minority HOLD for brevity. User can request full human audit anytime. Human Projection cannot modify CP1 or grant standing.
 
 ### 10A｜Enhanced A–K Final Council Report — candidate-only Stage 2A integration
-**Existing report remains:** `MEETING_RECORD_AND_CHAT_SURFACE_V0.1` §11 A–K. Only the CP3 human projection is enhanced, not CP0/CP1/CP2, Council seats or qualification ownership. This V0.3.1 WORKING file receives an in-place candidate semantic amendment; pre-integration Git blob `a63017298d4e93cd18b83dddf1ed48a516bd7e28` is preserved by Git history. No Current adoption.
+**Existing report remains:** `MEETING_RECORD_AND_CHAT_SURFACE_V0.1` §11 A–K. Only the CP3 human projection is enhanced, not CP0/CP1/CP2, Council seats or qualification ownership. This section was integrated as a candidate amendment into the historical V0.3.1 WORKING source (pre-integration Git blob `a63017298d4e93cd18b83dddf1ed48a516bd7e28`); V0.4.0 **inherits it without claiming a new Stage 2B validation**. No Current adoption.
 `WHAT_CHANGED_BECAUSE_OF_THIS_MEETING` in existing **B Proposal Evolution / F Stance History** records `BEFORE / MATERIAL_CHANGE / AFTER / UNCHANGED`, with owner/event/version sources. `OBJECTION_LIFECYCLE` in existing **E Material Objections / F Stance History** records `ORIGIN / TARGET / RESPONSE / MATERIAL_EFFECT / PROPOSAL_EFFECT / CURRENT_STATE / REMAINDER` for each material objection. These are mandatory semantic *coverage* obligations in the next-gen candidate, **not** mandatory giant printed tables. No delta means no fabricated change; unresolved minority HOLD remains.
 **Causal / authority hard locks:** `TEMPORAL_SUCCESSION != CAUSATION`; `DELIVERED != CONSUMED`; `RESPONDED != AGREED`; `QUIET != CONSENSUS`; `CURRENT_STANCE` cannot rewrite earlier stance; `CONDITIONAL_REJUDGMENT` does not erase the objection. An affirmative cause requires `ORIGIN_EVENT + TARGET_CLAIM + OWNER_CONSUMPTION_OR_RESPONSE + OWNER_MATERIAL_BASIS`. Otherwise mark `TEMPORAL_ONLY`, `EVIDENCE_GAP` or correct source standing. `SECRETARIAT_REPORTING != SECRETARIAT_INTERPRETIVE_AUTHORITY`; `REPORT != CANONICAL_HISTORY`: no report may CREATE / REMOVE / RESOLVE seat STANCE, OBJECTION, CONSENSUS, AUTHORITY, QUALIFICATION or HUMAN_APPROVAL.
 **One history / three reader views:** brief Executive, complete Enhanced A–K Final Council Report, on-demand Source/Audit. All derive from the identical as-of Canonical History; do not establish a second Final Report. `COUNCIL_NARRATIVE_PROJECTOR` is **HISTORICAL_RESEARCH_CANDIDATE + SEMANTIC_DISCOVERY_SOURCE**, not a distinct L9 current capability. Stage 2B `WARRANTED / NOT_RUN`; no comprehension, reading-time, cognitive-load or Executive-first UX superiority claim.
