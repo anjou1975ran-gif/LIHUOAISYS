@@ -4,7 +4,7 @@
 
 ## Test input
 - Exact Git readback of 02_CANONICAL_EVENT_LOG.jsonl.
-- 39 CP1 candidate events, EV-0001 through EV-0039.
+- 40 CP1 events, EV-0001 through EV-0040 (39 research events plus one append-only persistence verification event).
 - Exact Git readback of 08_REPLAY_VALIDATION.mjs.
 - No Round Record, Chat View, Final Report or SGER file was used to reconstruct the state.
 
@@ -12,7 +12,7 @@
 The saved replay source and exact fetched event data were evaluated in a V8 same-context reference run. The Node.js ESM file-read prelude was adapted to inject the exact fetched JSONL payload; therefore this confirms reducer logic against the Git-readback event stream, but is not a claim that a separate Node runtime or independent ChatGPT conversation was used.
 
 ## Results
-**12 / 12 PASS**
+**12 / 12 PASS** (re-run after EV-0040 persistence append; 40 events total)
 1. Unique event IDs.
 2. Monotonic sequence.
 3. Single session identity.
