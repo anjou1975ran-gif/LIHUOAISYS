@@ -72,3 +72,11 @@ F SHADOW OBSERVATION != FORMAL COUNCIL STANCE
 ## V0.3.0 寫入稽核
 
 - [V0.3.0 Git Persistence Audit](STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.0_GIT_PERSISTENCE_AUDIT_20261121.md)
+
+
+## 2026-11-21｜AI-Native / V0.3.1 main program candidate
+- [V0.3.1 Runtime Core](STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md)
+- [Install List (one new MD file)](STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/GPT_PROJECT_INSTALL_LIST_V0.3.1_WORKING_20261121.md)
+- [CP Reference Replay + 14-check tests](AI_NATIVE_CP_REFERENCE_V0.1_20261121/REFERENCE_TEST_REPORT.md)
+- [Source provenance / PDF standing](AI_NATIVE_CP_REFERENCE_V0.1_20261121/SOURCE_PROVENANCE.md)
+**Non-overwriting:** V0.3.0 full remains previous working load candidate, formal Vertical V0.1 unchanged.

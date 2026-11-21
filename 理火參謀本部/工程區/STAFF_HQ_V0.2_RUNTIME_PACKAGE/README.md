@@ -103,3 +103,10 @@ V0.3.0 檔案存在不代表 Project 已載入；Git 寫入成功不代表 Host 
 - [V0.3.0 Git Persistence Audit](DEPLOY/STAFF_HQ_V0.3.0_GIT_PERSISTENCE_AUDIT_20261121.md)
 - Main Runtime blob SHA: `095c3eb799d0f1e89bff8cf3a898cd2c87add7a8`
 - Main Runtime readback verified after commit `93f0dfc7015ee8c2e116d303139fee3cab7f2228`.
+
+
+## 2026-11-21｜V0.3.1 AI-Native Candidate
+- [New one-file working core](DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md)
+- [GPT Project Install List](DEPLOY/GPT_PROJECT_INSTALL_LIST_V0.3.1_WORKING_20261121.md)
+- [Migration/Regression Plan](DEPLOY/STAFF_HQ_V0.3.1_MIGRATION_AND_REGRESSION_20261121.md)
+Current V0.3.0 full body preserved as audit and on-demand engineering detail; do not simultaneously load both.

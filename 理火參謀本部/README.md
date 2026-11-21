@@ -251,3 +251,11 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [F 研究席 MEMO](MEMO區/MEMO_F席_趨勢預言_結構維持成本_Direction_實驗席_V0.1_20261121.md)
 - [首個影子觀察 EXP001、L8／SGER、來源及反證條件](訓練區/F_SEAT_EXP001_結構維持成本_影子觀察_20261121/README.md)
 **Status:** EXPERIMENTAL_SHADOW_SEAT, not seventh core seat. Source OS Structural Cost is contextual burden not truth/cost scalar; F tests cost trajectory, early signals, repair counterforce, human/actor cost-bearing over time. First synthetic study logged; no empirical F>CORE-6 or investment outcome proven.
+
+
+## 2026-11-21｜AI-Native Canonical Plane / Human Projection — V0.3.1 candidate
+- **Main program candidate:** 工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md
+- **One-file install list:** 工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/GPT_PROJECT_INSTALL_LIST_V0.3.1_WORKING_20261121.md
+- **Secretariat V0.2 candidate:** MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md
+- **Provenance/reference tests:** 工程區/AI_NATIVE_CP_REFERENCE_V0.1_20261121/
+**Working candidate only:** formal Vertical V0.1 remains, V0.3.0 full body remains in Git, user must switch Project explicitly. Synthetic reference tests != MRC-001 deployed.
