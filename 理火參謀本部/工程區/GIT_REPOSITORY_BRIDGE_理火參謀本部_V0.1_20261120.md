@@ -154,3 +154,24 @@ FINAL CONSTITUTION
 ~~~
 
 **END**
+---
+
+# 6｜V0.3.0 Working Load Candidate（2026-11-21）
+
+**Single-file main runtime:**
+
+```text
+理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/
+STAFF_HQ_V0.3.0_RUNTIME_FULL_WORKING_20261121.md
+```
+
+Standing:
+- PROJECT_RUNTIME_WORKING_LOAD_CANDIDATE
+- NOT_RATIFIED
+- NOT_HOST_DEPLOYED
+- CORE-6 unchanged: N1/A/B/C/D/E
+- F = EXPERIMENTAL_SHADOW_SEAT / NOT_CORE7
+
+V0.3.0 在 V0.2.1 技術基底上加入 F 的 Structural Cost trajectory、Cost Bearer / Cost Transfer、Maintenance-vs-Transition、Repair Capacity / Repair Window 研究責任。F 不參與正式表決、quorum 或 exact-version review coverage。
+
+正式 Vertical V0.1 仍是 current baseline，直到明確 Ratification / Cutover Event。V0.2.1 與 V0.2 保留為歷史來源。
