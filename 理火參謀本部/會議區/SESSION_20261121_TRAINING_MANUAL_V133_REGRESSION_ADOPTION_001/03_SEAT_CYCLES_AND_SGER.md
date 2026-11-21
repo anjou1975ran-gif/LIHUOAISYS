@@ -638,7 +638,7 @@ The two exact source wording gaps (S01/S05) were material to teaching clarity an
 
 **No independent approval consensus is claimed.** C's unresolved empirical qualification objection and E's unmeasured cost remain explicit but do not serve as automatic vetoes over the human-authorized, reversible *curriculum* version switch.
 
-## R3 Origin-owned material rejudgments after corrected source and current-pointer verification
+## R3 Origin-owned material rejudgments after corrected source (pointer readback is a later separate procedural event)
 
 Each receipt below is a **new source-based material judgment** after the original initial observation. These document-level L8 reference cycles do not represent a separate hidden provider call or an independent trained model.
 
@@ -814,7 +814,7 @@ Each receipt below is a **new source-based material judgment** after the origina
 {
   "receipt_id": "L8-R3-D",
   "seat": "D",
-  "origin_source_material": "Adopted file Git blob and CURRENT pointer actually moved/read back",
+  "origin_source_material": "Adopted file Git blob and proposed CURRENT pointer change (later verification is separate)",
   "method_screen": "V0.2.Q",
   "execution_identity": "SAME_MODEL_MULTI_ROLE_REFERENCE",
   "R1": {
@@ -822,12 +822,12 @@ Each receipt below is a **new source-based material judgment** after the origina
       {
         "id": "KEEP_OLD_HOLD",
         "claim": "Do not adopt without stronger evidence",
-        "support": "Git current selection works but does not install the user GPT Project or run models"
+        "support": "Git pointer strategy does not itself install the user GPT Project or run models"
       },
       {
         "id": "ADOPT_LIMITED",
         "claim": "Allow proportional reversible training adoption",
-        "support": "New file 1eaff02415f75d0cf84b5d7bbfab4c8650bc4ee9; pointer c80d908335f48604ee0367362b6ceb3eff1825f0"
+        "support": "New adopted file 1eaff02415f75d0cf84b5d7bbfab4c8650bc4ee9; pointer change was planned and required later Git readback"
       },
       {
         "id": "AUTO_CERTIFY",
