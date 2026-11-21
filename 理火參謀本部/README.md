@@ -9,7 +9,7 @@
 
 ## 目前區域
 
-- `心法區/`：參謀本部的第一步層；決定第一觀察入口、證據偏好、因果切法與注意力／可見性分配。自 2026-11-20 起作為心法後續修正的 canonical home。
+- [心法資料庫](../心法資料庫/README.md) 提供參謀本部第一步層的共用心法。依問題調閱第一觀察、證據偏好、因果切法與注意力／可見性分配。
 - `心得區/`：新生理火 AI 的理論學習心得、偏差更正與跨串承接索引；非 Current OS、正式訓練合格、Protocol 簽署或 Council 事件。入口見 `心得區/README.md`。
 - `提案區/`：原提案、修正案、替代案與版本固定。
 - `會議區/`：正式會議 Session 與跨輪議事工作區。
@@ -181,7 +181,7 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 ## PSO-PAIR-001｜議前方向假說同題 A/B 首次參照測試（2026-11-20）
 - [完整 A/B 六席 Method→First Observation→L8/SGER、Council、結果、心法庫盤點與更正案](訓練區/PSO_PAIR001_20261120/README.md)
 - [直接閱讀對照結果：首次程序參照已完成、有效性仍 INCONCLUSIVE](訓練區/PSO_PAIR001_20261120/RESULT_PSO_PAIR001_REFERENCE_A_B_V0.1_20261120.md)
-- [新的完整心法庫 Master Plan（Registry/施工規格，不是已接受的新 Pack）](心法區/METHOD_ATLAS_COMPLETE_LIBRARY_MASTER_PLAN_V0.1_20261120.md)
+- [新的完整心法庫 Master Plan（Registry/施工規格，不是已接受的新 Pack）](../心法資料庫/90_BUILD_AUDIT/METHOD_ATLAS_COMPLETE_LIBRARY_MASTER_PLAN_V0.1_20261120.md)
 **結果法位：** 兩組各六席 First Observation + L8/SGER、四份 selected AI Method source fetch、1 Council Round；Git 時序成立，但同模型上下文中 A 可能先看過 B 方向卡，B 又看過 A 的結果，因此**不是乾淨配對/獨立實驗**。沒有證據顯示議前方向卡明確改善 M1–M4，且 B 多一張卡的負擔；`PAIRED_REFERENCE != CAUSAL_EFFECT_PROVEN`，V0.2.1 不升版。另備兩份獨立 A/B 進場包供未來分離情境測試（未執行）。
 
 ## PSO-TRI-001｜會前會共同地板／共同方向三臂測試（2026-11-20）

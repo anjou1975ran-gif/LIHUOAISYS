@@ -117,14 +117,14 @@ CASE_002_METHOD_ROUTING_AUDIT:
 - [原本 Concept Report](../../提案區/REPORT_理火乾淨情報公司_第二次會議_情報觸發創意方案_V0.1_20261120.md) — 原文與會議結果均不變。
 
 ### 心法制度（已實讀）
-- [心法區 README](../../心法區/README.md)（README 第 8–39、41–72、106–112 行）
-- [心法第一步 MEMO](../../心法區/MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md)（MEMO 第 8–40、60–124、167–183 行）
-- [總綱 V0.2 階段邊界修正版](../../心法區/學科心法總目錄_V0.2_總綱版_階段邊界修正版.md)
-- [法學 V0.2.C](../../心法區/學科心法總目錄_V0.2.C_第三組_法學整合版.md)（法學第 138–150、238–318 行）
-- [經濟學 V0.2.D](../../心法區/學科心法總目錄_V0.2.D_第四組_經濟學整合版.md)（第 198–260 行）
-- [管理學 V0.2.F](../../心法區/學科心法總目錄%20V0.2.F-INTEGRATED_第六組_管理學整合版.md)（第 682–765 行）
-- [傳播學 V0.2.K](../../心法區/學科心法總目錄_V0.2.K-INTEGRATED_第十一組傳播學整合版.md)（第 802–849 行）
-- [社會學 V0.2.A](../../心法區/學科心法總目錄_V0.2.A_第一組_社會學整合版.md)
+- [心法區 README](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/README.md)（README 第 8–39、41–72、106–112 行）
+- [心法第一步 MEMO](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md)（MEMO 第 8–40、60–124、167–183 行）
+- [總綱 V0.2 階段邊界修正版](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/學科心法總目錄_V0.2_總綱版_階段邊界修正版.md)
+- [法學 V0.2.C](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/學科心法總目錄_V0.2.C_第三組_法學整合版.md)（法學第 138–150、238–318 行）
+- [經濟學 V0.2.D](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/學科心法總目錄_V0.2.D_第四組_經濟學整合版.md)（第 198–260 行）
+- [管理學 V0.2.F](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/學科心法總目錄%20V0.2.F-INTEGRATED_第六組_管理學整合版.md)（第 682–765 行）
+- [傳播學 V0.2.K](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/學科心法總目錄_V0.2.K-INTEGRATED_第十一組傳播學整合版.md)（第 802–849 行）
+- [社會學 V0.2.A](https://github.com/anjou1975ran-gif/LIHUOAISYS/blob/66fafc4e0b5b184a387e216540ccb38ea1efaea2/理火參謀本部/心法區/學科心法總目錄_V0.2.A_第一組_社會學整合版.md)
 
 ### Runtime 資格
 - [現行 V0.2 Working Full](../../工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/STAFF_HQ_V0.2_RUNTIME_FULL_WORKING_20261120.md)（第 257–296、1280–1295、3283–3295 行）

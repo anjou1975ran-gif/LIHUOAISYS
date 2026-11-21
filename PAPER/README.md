@@ -37,3 +37,8 @@ Read the [exact stack boot request / evidence boundary](LIHUO_PAPER_LIGHTER_MAIN
 On 2026-10-23, human authorizer ANJOURAN (逃豬公 / RUNPIGDUKE) explicitly approved adding SDE to the PAPER review procedure and upgrading both general and medical review tracks. This index records that approval without inventing system deployment.
 
 **Navigation note:** `PAPER/PAPER/` contains case reports and website packets; these are not the normative procedure entrypoints.
+
+
+### 共用心法調閱
+
+若論文的爭點需要方法上的第一觀察，從 [心法資料庫 / LIHUO Method Database](../心法資料庫/README.md) 按題取用。審查依本頁的程序與證據界線。

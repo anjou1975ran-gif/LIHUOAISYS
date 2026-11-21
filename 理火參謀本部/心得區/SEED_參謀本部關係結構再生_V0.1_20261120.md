@@ -104,7 +104,7 @@ SEED_MINIMALITY:
 ## 5｜歷史證據與資格停靠點
 
 - **歷史祖先：** `參考範例/CG生成動力學20輪會議/`，`MEMO區/MEMO_理火參謀本部_AGENT骨架_1111自主決策遺產_可說服議事轉譯_V0.1_20261120.md`。
-- **生成入口：** `心法區/README.md` 和各 Method Pack。
+- **生成入口：** [心法資料庫入口](../../心法資料庫/README.md) 和各 Method Pack。
 - **第一基線：** `MEMO區/MEMO_Secretariat_Architecture_V0.1_FIRST_BASELINE_20261120.md`；TEST-001 只達到概念第一版。
 - **實跑邊界：** TEST-002 已記錄 Meaningful Wake 的參考行為，後因訓練門暫停；**成本增益未證**。
 - **失效標本：** 第一號商業案 `LIVE_FAILURE_SPECIMEN_001`；相關 CORRECTION、V0.1.1 PATCH、Lessons MEMO、Backlog 不得以本 SEED 覆寫。

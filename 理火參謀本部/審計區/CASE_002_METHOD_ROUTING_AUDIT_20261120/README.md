@@ -13,8 +13,8 @@
 ## Source history, read only
 - [Original Session source & canonical index](../../記錄區/SESSION_20261120_CLEAN_INTELLIGENCE_IDEATION_002/README.md)
 - [Original Concept Report](../../提案區/REPORT_理火乾淨情報公司_第二次會議_情報觸發創意方案_V0.1_20261120.md)
-- [心法區 Canonical README](../../心法區/README.md)
-- [心法第一步 MEMO](../../心法區/MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md)
+- [心法資料庫入口](../../../心法資料庫/README.md)
+- [心法第一步 MEMO](../../../心法資料庫/01_ATLAS_CORE/MEMO_心法作為第一步_參謀本部注意力入口層_V0.1_20261120.md)
 
 ## Key judgment
 ```text
