@@ -27,13 +27,13 @@
 |---|---|---|---|---|---|---|
 | C EV009 | B 的局部 Exit 是否被當成 Release | B EV011 [A10#B_REWAKE] | B 修改退出治理分界 | 僅 Session 候選修訂 | **SCOPED_RESPONSE** | C 對資格/效能的反對沒有因此解除 |
 | E EV010 | A 過多 Engine 及未證明區分度 | A EV012 [A10#A_REWAKE] | A 限制擴張方向 | E8/E9 只研究，不入 Registry | **SCOPED_RESPONSE** | 成本/Router 誤判仍 UNKNOWN |
-| C EV005／EV014 | 哲學標籤與席位文件不能證明能力或允許正式准出 | 沒有獨立驗證結果 | 無法解除資格異議 | 現行 OS/Release 不得升格 | **HOLD（正式資格/效能）** | 概念研究仍可繼續 |
+| C EV005；另見秘書處 EV014 的資格／反劇場檢查 | 哲學標籤與席位文件不能證明能力或允許正式准出 | 沒有獨立驗證結果 | 無法解除資格異議 | 現行 OS/Release 不得升格 | **HOLD（正式資格/效能）** | 概念研究仍可繼續 |
 | E EV007 | 多引擎 Token、延遲、維護及切換成本 | 尚無實測 | NONE | 未形成成本批准 | **UNKNOWN** | 淨效益待測 |
 
 **因果排除：TEMPORAL_ONLY**。D 的介面建議 EV006 先於 B 的 EV011，但 B 的重判來源指定 C 的異議，而非 D；不能寫成「D 讓 B 改判」。缺真實引擎效果證據標 **EVIDENCE_GAP**，不是 SOURCE_MISSING。
 
 ## F. Stance History
-B 的最新研究立場為雙出口 [B 表 B/ E 第 1 行]；A 為 E8/E9 研究槽 [B 表 B/ E 第 2 行]；C 的資格界線、E 的資源未知未被撤回。這是**有材料的改判 ≠ 全席同意**；任何 QUIET 亦不代表 CONSENSUS [A07/A10]。
+B 的最新研究立場為雙出口（上方 B/E 第 1 條）; A 為 E8/E9 研究槽（上方 B/E 第 2 條）；C 的資格界線、E 的資源未知未被撤回。這是**有材料的改判 ≠ 全席同意**；任何 QUIET 亦不代表 CONSENSUS [A07/A10]。
 
 ## G. Expert Consultations
 未有可核對的獨立專家測試返回；Engine 哲學名稱並非有資格的外部專家結果 [A03]。
