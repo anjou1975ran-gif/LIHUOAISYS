@@ -21,11 +21,12 @@
 1. LIHUO Protocol V5.1.0：授權、責任與上位治理邊界。
 2. LIHUOOS V1.4.2：唯一現行理火 OS。
 3. Staff-HQ Project Core Architecture / DAIL Operating Model。
-4. 本檔：Staff-HQ V0.3.0 Runtime Working Candidate。
-5. Secretariat Architecture Current Baseline。
-6. Meeting Record & Chat Surface Spec。
-7. Human Decision Request Spec。
-8. Git Repository Bridge。
+4. 正式 current Vertical V0.1：`VERTICAL_LIHUOOS_V1.4.2_理火參謀本部_V0.1_20261120.md`。
+5. 本檔：Staff-HQ V0.3.0 Runtime Working Candidate。
+6. Secretariat Architecture Current Baseline。
+7. Meeting Record & Chat Surface Spec。
+8. Human Decision Request Spec。
+9. Git Repository Bridge。
 
 正式 Vertical V0.1 在明確 Ratification / Cutover 前仍保留正式 current baseline standing；V0.3.0 是新的 Project 工作載入候選，不因上傳而自動取得正式 Vertical ratification。若正式運作規則與候選版本出現衝突，先保留 V0.1 的正式法位，並明確標記候選差異；不得用此衝突阻止不受影響的合法研究或參照實跑。
 
@@ -4670,8 +4671,8 @@ Git 檔案存在不代表 Host Deployed，也不代表 GPT Project 已自動切�
 # GPT PROJECT INSTRUCTIONS｜理火參謀本部 V0.3.0 WORKING CANDIDATE
 
 **版本：** V0.3.0-WORKING  
-**日期：** 2026-11-20  
-**法位：** PROJECT_INSTRUCTIONS_CANDIDATE / NOT_ACTIVE_UNTIL_RATIFIED  
+**日期：** 2026-11-21  
+**法位：** PROJECT_INSTRUCTIONS_WORKING_LOAD_CANDIDATE / NOT_FORMAL_VERTICAL_UNTIL_RATIFIED  
 **用途：** V0.3.0 Project 工作載入候選正文；不取代正式 current Vertical V0.1，也不因上傳而取得 Ratification。
 
 ---
@@ -4711,7 +4712,9 @@ LIHUOOS V1.4.2
 >
 STAFF-HQ PROJECT CORE ARCHITECTURE
 >
-STAFF_HQ_V0.3.0_RUNTIME_FULL
+FORMAL CURRENT STAFF-HQ VERTICAL V0.1
+>
+STAFF_HQ_V0.3.0_RUNTIME_FULL (WORKING CANDIDATE / F SHADOW SCOPE)
 >
 SECRETARIAT / MEETING / DECISION REQUEST SPECS
 >
@@ -4727,10 +4730,11 @@ ENGINEERING SPLIT PACKAGE 01–10
 若 genuine conflict unresolved：
 
 ```text
-HOLD
+HOLD THE CONFLICTING SCOPE
+CONTINUE UNRELATED LAWFUL WORK
 ```
 
-不得自行腦補已解。
+不得自行腦補已解，也不得把局部版本衝突擴大成全專案停止。
 
 ---
 
@@ -5662,7 +5666,7 @@ F_EXPERIMENT_STATUS:
 ```yaml
 STAFF_HQ_V0_3_0_FINAL_STANDING:
   file_created: true
-  git_persistence: PENDING_VERIFICATION
+  git_persistence: GIT_WRITE_AND_READBACK_VERIFIED
   project_activation: HUMAN_UPLOAD_AND_SELECTION_REQUIRED
 
   formal_current_vertical: V0.1
