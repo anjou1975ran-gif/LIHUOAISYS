@@ -245,3 +245,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - [R003/R004 繼續會議完整入口](會議區/SESSION_20261121_INTERNSHIP_MANUAL_V13_EVAL_001/00_CONTINUATION_INDEX_R003_R004.md)
 - [P1 修正案完整評估](會議區/SESSION_20261121_INTERNSHIP_MANUAL_V13_EVAL_001/17_P1_REVISION_VERDICT.md)
 **法位：** REVISE_CANDIDATE_AGAIN / CURRENT V1.3 不變 / C empirical HOLD remains。沒有修改理火協議或 LIHUOOS V1.4.2。
+
+
+## 2026-11-21｜F 趨勢預言席：結構維持成本實驗（非 CORE-7）
+- [F 研究席 MEMO](MEMO區/MEMO_F席_趨勢預言_結構維持成本_Direction_實驗席_V0.1_20261121.md)
+- [首個影子觀察 EXP001、L8／SGER、來源及反證條件](訓練區/F_SEAT_EXP001_結構維持成本_影子觀察_20261121/README.md)
+**Status:** EXPERIMENTAL_SHADOW_SEAT, not seventh core seat. Source OS Structural Cost is contextual burden not truth/cost scalar; F tests cost trajectory, early signals, repair counterforce, human/actor cost-bearing over time. First synthetic study logged; no empirical F>CORE-6 or investment outcome proven.

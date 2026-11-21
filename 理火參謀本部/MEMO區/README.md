@@ -31,3 +31,10 @@ HOST DEPLOYED
 - [SEED｜參謀本部關係結構再生 V0.1](../心得區/SEED_參謀本部關係結構再生_V0.1_20261120.md)：目標相對的最小可再生候選，用來在新問題中重建關係、限制與判斷形成方式，而非授權或記憶快照。
 
 兩者都是 **NON-NORMATIVE / FUTURE INTEGRATION INPUT**；不取代 Current OS、Vertical、V0.1.1 PATCH、Canonical Events 或訓練資格紀錄。
+
+
+## 2026-11-21｜F 趨勢預言席：結構維持成本實驗（非 CORE-7）
+- [F 實驗席責任與邊界](MEMO_F席_趨勢預言_結構維持成本_Direction_實驗席_V0.1_20261121.md)
+- [F EXP001 虛構案例與實際 CHAT_NATIVE L8／SGER](../訓練區/F_SEAT_EXP001_結構維持成本_影子觀察_20261121/README.md)
+
+**站位：** EXPERIMENTAL_SHADOW_SEAT / EVENT_DRIVEN / NOT_CORE7 / NOT_RATIFIED。真正要測的不是新聞預言，而是 Structural Cost Profile 隨時間改變、成本承擔者、反作用與修復窗口。已生成可審查的文字參考觀察，未做獨立席位或市場投資預測有效性驗證。CORE-6、OS、Protocol 不動。
