@@ -5,6 +5,7 @@ DAIL_CP3_FINAL_REPORT_CONTRACT:
   standing: NEXT_GEN_CANDIDATE_REQUIRED_SEMANTICS
   owner: STAFF_HQ_SECRETARIAT_CP3_HUMAN_PROJECTION
   predecessor: MEETING_RECORD_AND_CHAT_SURFACE_V0_1_SECTION_11_A_K
+  human_readability_source: "理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/07_HUMAN_READABLE_REPORT_MANDATE_20261121.md"
   authorization_source: "理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md"
   comparison_source: "理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/03_STAGE2A_STRUCTURAL_COMPARISON_AND_RECOMMENDATION.md"
   no_independent_projector_capability: true
@@ -32,6 +33,27 @@ DAIL_TASK_DECLARATION:
     current_stance_not_prior_stance_rewrite: true
     conditional_rejudgment_preserves_objection: true
   output_contract:
+    human_readable_projection:
+      audience: NONEXPERT_SHAREABLE_WITHOUT_ORIGINAL_CHAT
+      default_reader_language: "zh-Hant"
+      user_specified_single_language_overrides_default: true
+      full_report_one_reader_language: true
+      translate_internal_terms_to_plain_reader_language: true
+      no_bare_seat_codes_as_public_explanation: true
+      role_display_aliases:
+        N1: "常識審查專家"
+        A: "探索專家"
+        B: "架構專家"
+        C: "資格審查專家"
+        D: "工程專家"
+        E: "成本與資源專家"
+      aliases_do_not_create_real_expert_credentials_or_independent_agents: true
+      audit_preserves_exact_source_owner_mapping: true
+      ordering: [ORIGINAL_PROBLEM, COMPETING_POSITIONS, MATERIAL_DISPUTES,
+                 OWNER_BASED_REJUDGMENTS, SURVIVING_UNKNOWNS, HUMAN_NEXT_ACTION]
+      narrative_allowed_if_grounded: true
+      giant_table_printout_not_required: true
+      exact_event_ids_and_original_language_preserved_on_demand: true
     base_report: EXISTING_FINAL_COUNCIL_REPORT_A_K
     b_and_f:
       WHAT_CHANGED_BECAUSE_OF_THIS_MEETING: [BEFORE, MATERIAL_CHANGE, AFTER, UNCHANGED]
@@ -69,5 +91,9 @@ DAIL_TASK_DECLARATION:
     - CHECK_HOLD_AND_CONDITIONAL_DISSENT_SURVIVE
     - CHECK_A_K_EXECUTIVE_AUDIT_SHARE_SOURCE_CUTOFF
     - CHECK_NO_NEW_CANONICAL_OR_AUTHORITY_FROM_REPORT
+    - CHECK_ROLE_DISPLAY_ALIAS_MAPS_TO_OWNER
+    - CHECK_REPORT_IS_SINGLE_LANGUAGE_AND_SELF_CONTAINED
+    - CHECK_NO_FALSE_CREDENTIALS_OR_INDEPENDENT_AGENT_CLAIMS
+    - CHECK_PLAIN_LANGUAGE_DOES_NOT_ERASE_CAUSALITY_OR_HOLD
   claims_not_validated: [HUMAN_COMPREHENSION_IMPROVED, READING_TIME_REDUCED,
                          COGNITIVE_LOAD_REDUCED, EXECUTIVE_FIRST_UX_SUPERIOR]
