@@ -1,7 +1,7 @@
-# STAFF-HQ V0.2 / V0.2.1 / V0.3.0 RUNTIME PACKAGE
+# STAFF-HQ V0.2 / V0.2.1 / V0.3.0 / V0.3.1 RUNTIME PACKAGE
 ## 理火參謀本部｜真正議事型 Vertical 整合包
 
-**最新 Project 工作載入候選：** V0.3.0-WORKING-FULL  
+**最新 Project 工作載入候選：** V0.3.1-RUNTIME-CORE-AI-NATIVE-WORKING（已整合 CP3 Enhanced A–K 候選）  
 **歷史基底：** V0.2.1-WORKING-FULL  
 **日期：** 2026-11-21  
 **法位：** PROJECT_RUNTIME_WORKING_LOAD_CANDIDATE / NOT_RATIFIED / NOT_DEPLOYED  
@@ -22,7 +22,7 @@ LIHUOOS V1.4.2
 >
 STAFF-HQ PROJECT CORE
 >
-STAFF-HQ V0.3.0 WORKING LOAD CANDIDATE
+STAFF-HQ V0.3.1 WORKING LOAD CANDIDATE
 >
 SESSION
 ```
@@ -35,10 +35,10 @@ SESSION
 
 ```text
 DEPLOY/
-  STAFF_HQ_V0.3.0_RUNTIME_FULL_WORKING_20261121.md
+  STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md
 ```
 
-V0.2.1 與 V0.2 主程式保留歷史，不與 V0.3.0 同時作為 Runtime 載入。
+V0.3.0、V0.2.1 與 V0.2 主程式保留歷史，不與 V0.3.1 同時作為 Project Runtime 載入。**採用仍須明確人類 Cutover，Git 不等於安裝。**
 
 01–10 拆分文件保留為：
 - engineering source；
@@ -110,3 +110,11 @@ V0.3.0 檔案存在不代表 Project 已載入；Git 寫入成功不代表 Host 
 - [GPT Project Install List](DEPLOY/GPT_PROJECT_INSTALL_LIST_V0.3.1_WORKING_20261121.md)
 - [Migration/Regression Plan](DEPLOY/STAFF_HQ_V0.3.1_MIGRATION_AND_REGRESSION_20261121.md)
 Current V0.3.0 full body preserved as audit and on-demand engineering detail; do not simultaneously load both.
+
+
+## Stage 2A｜Enhanced A–K Candidate Integration（2026-11-21）
+- **[單檔最新候選主程式](DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md)**：§10A 寫入 `WHAT_CHANGED_BECAUSE_OF_THIS_MEETING`／`OBJECTION_LIFECYCLE` 的 A–K 報告語義要求。
+- **[DAIL CP3 語義契約](DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml)**：不另造 Current L9 capability，不另載入第二 Runtime。
+- **[Secretariat V0.2 候選](../../MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md)**：§7A／CP09–13。原 `MEETING_RECORD_AND_CHAT_SURFACE_V0.1` §11 Current 本體未改。
+- **[Stage 2A 與首席驗收承接](../../研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md)**：版本鏈中的批准範圍。
+- 原 V0.3.1 Core blob `a63017298d4e93cd18b83dddf1ed48a516bd7e28`、原 Secretariat V0.2 blob `2fea4d9af4fa0419610bef361de30fa6d70295fb` 均可按 Git SHA 回查；更動只發生在 Working Candidate（非 Current）。

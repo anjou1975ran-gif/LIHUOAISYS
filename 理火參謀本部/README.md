@@ -259,3 +259,13 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - **Secretariat V0.2 candidate:** MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md
 - **Provenance/reference tests:** 工程區/AI_NATIVE_CP_REFERENCE_V0.1_20261121/
 **Working candidate only:** formal Vertical V0.1 remains, V0.3.0 full body remains in Git, user must switch Project explicitly. Synthetic reference tests != MRC-001 deployed.
+
+
+## 2026-11-21｜Enhanced A–K 正式納入 V0.3.1 下一代 Staff-HQ 候選（非 Current Cutover）
+- **架構選擇：** `UPGRADE_AK_ONLY`，將 `WHAT_CHANGED_BECAUSE_OF_THIS_MEETING`（BEFORE/MATERIAL_CHANGE/AFTER/UNCHANGED）和 `OBJECTION_LIFECYCLE`（ORIGIN/TARGET/RESPONSE/MATERIAL_EFFECT/PROPOSAL_EFFECT/CURRENT_STATE/REMAINDER）納入**既有 A–K Final Council Report** 的 CP3 候選語義義務；不成立第二套歷史或獨立 Projector Runtime。
+- **[下一代 V0.3.1 Working Main Core](工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md)**：§10A 已整合，維持原 V0.3.1 工作候選版本（歷史整合前 Git blob `a63017298d4e93cd18b83dddf1ed48a516bd7e28` 保留）。
+- **[Secretariat V0.2 候選](MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md)**：§7A／CP-09..13 已整合（整合前 Git blob `2fea4d9af4fa0419610bef361de30fa6d70295fb`）。
+- **[DAIL Enhanced A–K CP3 候選契約](工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml)**：僅宣告現有報告的語義契約，不是新 Current L9 Card 或 Host binding。
+- **[Stage 2A 結構消融研究](研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/03_STAGE2A_STRUCTURAL_COMPARISON_AND_RECOMMENDATION.md)** 與 **[人類轉交的首席驗收／工作授權範圍](研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md)**：明確記錄「下一代候選整合」的來源與法位，不冒充另行核對的首席簽章。
+- 舊 **[Council Narrative Projector 概念與原型](會議區/SESSION_20261121_STAFFHQ_COUNCIL_REPORT_DAIL_CONCEPT_001/03_DAIL_COUNCIL_NARRATIVE_PROJECTOR_V0_1.dail.yaml)** 保留為 `HISTORICAL_RESEARCH_CANDIDATE + SEMANTIC_DISCOVERY_SOURCE`。
+- **Stage 2B**：`WARRANTED / NOT_RUN`，人類理解改善、閱讀時間、認知負擔與 Executive-first UX 的實證優勢均未證；**Current Staff-HQ、Current Secretariat、LIHUOOS、Protocol、L9 Current Registry 均未修改**。
