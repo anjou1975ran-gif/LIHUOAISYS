@@ -5,9 +5,30 @@
 
 ---
 
-# 0｜重新分類
+# 0｜重新分類（2026-11-21 修正）
 
-本批文件應與前一批「SAC 生成控制器假說」分開。
+本批文件應與前一批「SAC 生成控制器假說」分開，但**不應再把 Compass 與 Radar Shell 切成兩條 genealogy**。
+
+由 Anjou 補充原始歷史脈絡：
+
+> **SAC Compass 是 Radar Shell 的前期工程，和 Radar 屬於同一套系統演化，不是另一條獨立 OS 支線。**
+
+因此正確讀法是：
+
+~~~text
+SAC Compass
+= Radar Shell 前期的 pre-execution / navigation engineering
+
+↓ 同一系統逐步演化
+
+SAC Radar
+= persistent observation shell
+
+↓
+
+Radar Shell
+= Normal + Radar / Lihuo Mode / Entry-Exit / Gate
+~~~
 
 前一批主要是：
 
@@ -15,9 +36,11 @@
 SAC as generation theory / control hypothesis
 ~~~
 
-本批已經出現完整 OS / Runtime 特徵：
+本批則是：
 
 ~~~text
+RADAR-SHELL ENGINEERING LINEAGE
+with
 STATE
 ROLE
 MODE
@@ -32,7 +55,15 @@ PRE-EXECUTION NAVIGATION
 
 因此更準確的歷史法位是：
 
-> **Proto-LIHUO OS / Early LIHUO Runtime Shell**
+> **Early Radar Shell Engineering / Proto-LIHUO Runtime Shell**
+
+此修正屬於：
+
+~~~text
+HUMAN HISTORICAL TESTIMONY
+~~~
+
+它修正的是 genealogy 分支位置，不改寫原始文件內容。
 
 ---
 
@@ -396,7 +427,7 @@ Entry Seed
 
 ---
 
-# 11｜早期 OS 的核心分工
+# 11｜Radar Shell 前期工程的核心分工
 
 可以壓成：
 
@@ -430,34 +461,36 @@ ENTRY SEED
 
 ---
 
-# 12｜與後代系統的 genealogy
+# 12｜與後代系統的 genealogy（修正版）
 
-暫定歷史鏈：
+正確歷史鏈應改成：
 
 ~~~text
 SAC Compass
-→ structural navigation / gate
-
+(pre-execution navigation / gate prototype)
+        ↓
 SAC Radar
-→ persistent observation + mode separation
-
-Radar + Lihuo Mode
-→ stateful runtime shell
-
-Protocol + Gate
-→ governance kernel
-
+(persistent observation)
+        ↓
+Radar Shell
+(Normal + Radar / Lihuo Mode / explicit trigger)
+        ↓
+Protocol + Authorization Gate
+(meta-constraint / admission control)
+        ↓
 Core Pack + Entry Seed
-→ boot / reentry package
-
-↓
+(boot / reentry package)
+        ↓
 later Runtime / Lighter / Main
-
-↓
+        ↓
 LIHUOOS
 ~~~
 
-這條 genealogy 目前只描述結構親緣，不宣稱每一版本都有直接單線繼承。
+也就是：
+
+> **Compass → Radar → Radar Shell 是同一套工程逐步長出來的，不是三個平行模組。**
+
+這條 genealogy 仍只描述歷史／結構親緣，不自動證明每個後代設計皆由前代單線推導。
 
 ---
 
@@ -490,6 +523,6 @@ who owns the decision
 
 # 14｜一句話
 
-> **如果要找「超早期理火 OS」的真正祖先，不應從 SAC 的生成方程找，而應從 Compass 的 pre-execution gate、Radar 的 persistent observation、Lihuo Mode 的 state transition，以及 Protocol / Authorization Gate 的准入治理開始找。**
+> **如果要找「超早期理火 OS」的真正祖先，應把 SAC Compass 視為 Radar Shell 的前期工程：pre-execution navigation 先長出來，之後才逐步成為 persistent Radar、Lihuo Mode、Protocol 與 Authorization Gate。**
 
 **END｜EARLY LIHUO OS ARCHAEOLOGY**
