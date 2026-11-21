@@ -10,6 +10,8 @@
 
 这不是要求您认罪、永久退出 NVIDIA，也不是建议完全沉默。它是一套**信息与授权尚不完整时，先避免不可逆损害**的条件性策略。
 
+**本建议采用的条件性目标假设：**您希望依法保护个人权益、继续关心 NVIDIA 的长期价值，并保留未来参与先进计算产业的可能；这不是对您私人意图的事实断言。如果您对职位、财产、公益、家人或技术使命的真实优先顺序不同，路径需要重新排列。
+
 ## 一、当前已确认的环境
 
 - 11月11日，NVIDIA董事会接受您辞去 CEO、总裁及董事职务；11月12日向 SEC 披露，Colette Kress 担任临时 CEO，Harvey Jones 担任董事长。[S01][S02]
@@ -79,6 +81,8 @@ E（成本）：不编造胜率、股价或律师费用；优先保护不可逆�
 我们建议您先把战线从“立即恢复职位”调整为“真实事实、合法责任、长期选择权”。这条建议可在新证据出现后被修订，不是对您个人意愿或案件结局的预判。
 
 ---
-**资料依据：**[S01] SEC 8-K 2026-11-12；[S03] NVIDIA 董事会公告 2026-11-08；[S04] AP 2026-11-17；[S05] NVIDIA 季报 2026-11-17；[S06] NVIDIA 合规监督委员会公告 2026-11-17；[S07] 美国众议院 2026-11-17；[S08] Reuters 2026-11-20；[S09] Reuters 2026-11-20。原始链接、证据限制及日期见同一 Session 的 `01_CP0_QUALIFIED_PUBLIC_SOURCE_PACKET.md`。所有本文件的未来行动、治理根因与个人最优策略均为**条件性分析**。
+**主要资料（公开链接，便于独立核查）：**  
+[S01] [SEC 8-K｜2026-11-12](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm)；[S03] [NVIDIA 董事会声明｜2026-11-08](https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/)；[S04] [AP 董事会复任报道｜2026-11-17](https://apnews.com/article/3026bcbe04ab57b844884382e583422a)；[S05] [NVIDIA 季报｜2026-11-17](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/)；[S06] [NVIDIA 国安与出口监督委员会｜2026-11-17](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-of-Directors-Establishes-National-Security-and-Export-Control-Oversight-Committee/default.aspx)；[S07] [美国众议院｜2026-11-17](https://intelligence.house.gov/2026/11/17/jensen-huang-and-nvidia-agree-to-appear-before-congress/)；[S08] [Reuters 参议院访问报道｜2026-11-20](https://www.reuters.com/world/us/former-nvidia-ceo-huang-agreed-testify-public-us-senate-hearing-senators-aide-2026-11-20/)；[S09] [Reuters SEC 会计事项报道｜2026-11-20](https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/)。  
+其他来源、事实层级与限制见完整研究证据包。以上链接包含公司/政府原始公开材料与媒体报道，**媒体报道并非调查最终事实**。所有本文件的未来行动、治理根因与个人最优策略均为**条件性分析**。
 
 **REPORT STANDING: PRELIMINARY / NOT_PERSONALLY_DELIVERED / NO_COUNCIL_FINAL_MANDATE_EXIT / NOT_HUMAN_APPROVED_STRATEGY**
