@@ -2,7 +2,7 @@
 **Session ID:** SESSION_AI_INTELLIGENCE_GENERATION_EXPERIENCE_001_20261121
 **Meeting:** AI Intelligence Generation & Evolution
 **Date:** 2026-11-21
-**Standing:** MEETING_COMPLETED / CONCEPT_COMPLETE / SESSION_END_WAITING_HUMAN / NOT_RATIFIED
+**Standing:** MEETING_COMPLETED / CONCEPT_COMPLETE / SESSION_OPEN_IDLE_BY_HUMAN_DECISION / NOT_RATIFIED
 **Repository:** anjou1975ran-gif/LIHUOAISYS / main
 **Execution identity:** SAME_MODEL_MULTI_ROLE_REFERENCE
 **P0:** NONE
@@ -31,4 +31,6 @@
 - Four candidate structures retained as HYPOTHESIS / OPEN.
 - No new formal theory, no Method Atlas admission, no runtime change.
 - Meeting record acceptance: PARTIAL pending independent new-conversation replay and comparative cost benchmark.
-- Session end not yet issued; see Decision Request in Final Report.
+- Session remains OPEN / QUIET by explicit human decision (EV-0041; 2026-11-21). No Session End event. The prior end-request EV-0039 is resolved by KEEP_OPEN, not by session termination.
+- The Final Report records the historical R8 checkpoint and remains an unchanged derived snapshot; the current post-R8 state is determined solely by the appended EV-0041.
+- D1 remains SECRETARY_INTERPRETATION_HUMAN_UNCONFIRMED; human choice B was not approval of D1 or any research candidate.

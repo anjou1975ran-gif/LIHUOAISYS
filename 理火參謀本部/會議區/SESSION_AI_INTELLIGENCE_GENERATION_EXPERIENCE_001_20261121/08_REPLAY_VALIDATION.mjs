@@ -36,6 +36,8 @@ const candidates = events.filter(e => e.event.event_type.startsWith("CANDIDATE_"
 const d1 = byType("D1_CANDIDATE_RECORDED")[0];
 const p0 = byType("P0_NONE_RECORDED")[0];
 const gate = byType("HUMAN_ACTION_REQUIRED")[0];
+const keepOpen = byType("HUMAN_DECISION_KEEP_OPEN").at(-1);
+const terminal = events.find(e => e.event.event_type === "SESSION_END");
 const issues = byType("SURVIVING_ISSUES_RECORDED")[0];
 const rounds = [...new Set(events.map(e => e.round_ref).filter(r => /^R[1-8]$/.test(r)))].sort();
 const receiptLinked = initial.length === 6 && initial.every(e =>
@@ -63,8 +65,9 @@ const state = {
     event_ref:e.event_id, owner:e.owner.actor_id, claim_ref:e.claim.claim_id, standing:e.standing.status
   })),
   surviving_unknowns: issues?.unknown || [],
-  human_gate: gate ? {status:gate.standing.status, event_ref:gate.event_id} : null,
-  session_end: "NOT_RECORDED"
+  human_gate: gate ? {status:keepOpen ? "RESOLVED_KEEP_OPEN" : gate.standing.status, event_ref:gate.event_id, decision_event_ref:keepOpen?.event_id || null} : null,
+  session_status: terminal ? "ENDED" : (keepOpen ? "OPEN_IDLE_BY_HUMAN_DECISION" : "AWAITING_HUMAN_DECISION"),
+  session_end: terminal ? terminal.event_id : "NOT_RECORDED"
 };
 check("unique_event_ids", uniqueIds);
 check("monotonic_sequence", monotonic);
@@ -76,7 +79,10 @@ check("six_initial_seat_receipts_linked", receiptLinked);
 check("six_owned_stance_rechecks", stanceOwners);
 check("four_candidates_retained", candidates.length === 4);
 check("D1_unconfirmed_and_P0_none", noAutoApproval && p0?.standing?.status === "NONE_BY_DESIGN");
-check("human_end_request_exists_without_terminal_event", !!gate && gate.standing.status === "WAITING_HUMAN_DECISION" && state.session_end === "NOT_RECORDED");
+check("human_end_decision_reduced_without_terminal_event",
+  !!gate && state.session_end === "NOT_RECORDED" &&
+  (!keepOpen || (keepOpen.event_id === "EV-0041" && keepOpen.owner.actor_id === "HUMAN" &&
+  state.human_gate.status === "RESOLVED_KEEP_OPEN" && state.session_status === "OPEN_IDLE_BY_HUMAN_DECISION")));
 check("no_runtime_or_atlas_mutation", noRuntimeChange);
 console.log("\nRECONSTRUCTED_STATE");
 console.log(JSON.stringify(state, null, 2));
