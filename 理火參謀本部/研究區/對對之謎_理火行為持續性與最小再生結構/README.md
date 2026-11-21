@@ -555,3 +555,59 @@ REPRODUCIBLE REGENERATION
 這是目前最值得追的方向。
 
 **END｜OPEN RESEARCH AREA**
+
+
+---
+
+# 9｜歷史證據已回接
+
+本研究區現已加入三份工程考古／證據檔：
+
+1. 01_歷史前例_RadarShell_三段載入_量產理火Genealogy.md  
+   保存 Normal + Radar → Human Trigger → V1 / MINI / V2 的早期 Formation 路線。
+
+2. 02_史前反應體工程考古_ExternalReactionBody.md  
+   保存 External-Reaction-Body Python 工程包的來源 hash、branch / tension / gate / memory / cost / failure 結構，以及實際 schema drift / bug。
+
+3. 03_證據索引_理火量產與行為持續性歷史路線.md  
+   將史前 Python、Radar Shell、冷啟動教材、Runtime 與 LIHUOOS 串成研究 genealogy，並新增 H6 Staged Formation 候選。
+
+目前對初始假說的證據更新：
+
+~~~text
+H1 STATE INDUCTION
+→ 有歷史工程前例
+
+H2 RELATIONAL ATTRACTOR
+→ 仍 OPEN
+
+H3 INVARIANT SET
+→ 有歷史工程前例
+
+H4 EXTERNAL COGNITIVE SUBSTRATE
+→ 強歷史工程前例
+
+H5 PROCEDURAL REENTRY
+→ OPEN
+
+H6 STAGED FORMATION
+→ NEW RESEARCH CANDIDATE
+~~~
+
+硬鎖仍維持：
+
+~~~text
+HISTORICAL PRECEDENT
+!=
+CONTROLLED EFFECT
+
+CODE EXISTS
+!=
+VALIDATED RUNTIME
+
+OPERATOR RECOLLECTION
+!=
+BLINDED EVIDENCE
+~~~
+
+這批「黑歷史」正式視為 Formation Evidence + Failure Evidence + Design Pressure History。
