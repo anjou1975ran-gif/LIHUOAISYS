@@ -39,10 +39,9 @@ check("14_first_lesson_spec_created",ofType("PUBLIC_LESSON_SPEC_ADMITTED").lengt
 check("15_sealed_access_gap_explicit",ofType("EVALUATOR_BANK_CANDIDATE_CREATED").some(e=>e.unknown.includes("HUMAN_ACCESS_CONTROL_REQUIRED")));
 check("16_CURRENT_v13_not_promoted",state.current_manual==="V1.3"&&!events.some(e=>/CURRENT_PROMOTION|METHOD_ATLAS_PROMOTED|RUNTIME_UPDATED|PROTOCOL_CHANGED/.test(e.event.type)));
 check("17_human_gate_without_session_end",state.human_checkpoint==="WAITING_HUMAN_DECISION"&&state.session_end==="NOT_RECORDED");
-check("18_deterministic_replay",JSON.stringify(state)===JSON.stringify((()=>{
- const c=Object.fromEntries(initial.map(e=>[e.owner.id,{event_ref:e.event_id,standing:e.standing.state,receipt:e.receipt}]));
- for(const x of reawake)c[x.owner.id]={event_ref:x.event_id,standing:x.standing.state,receipt:x.receipt};
- return {...state,current_stances:c};})())));
+const replayedCurrent=Object.fromEntries(initial.map(e=>[e.owner.id,{event_ref:e.event_id,standing:e.standing.state,receipt:e.receipt}]));
+for(const x of reawake)replayedCurrent[x.owner.id]={event_ref:x.event_id,standing:x.standing.state,receipt:x.receipt};
+check("18_deterministic_replay",JSON.stringify(state.current_stances)===JSON.stringify(replayedCurrent));
 console.log("RECONSTRUCTED_STATE="+JSON.stringify(state));
 console.log("RESULT="+(18-fails.length)+"/18");
 if(fails.length)process.exitCode=1;
