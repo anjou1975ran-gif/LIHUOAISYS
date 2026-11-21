@@ -50,3 +50,10 @@ All eight were exact SHA matches. L9 Current Registry: no Current L9 write in an
 - The preserved single-file V0.3.1 Working Core **does not automatically become the active GPT Project file** when its Git blob changes. Any future active use must deliberately install/ratify the exact chosen candidate, avoiding concurrent V0.3.0/V0.3.1 runtime instructions.
 
 **Conclusion:** NEXT_GEN_SEMANTIC_INTEGRATION_COMPLETE / CURRENT_RUNTIME_CHANGED=NO / NO_NEW_L9_CAPABILITY / CUTOVER_NOT_AUTHORIZED.
+
+## 6｜Post-readback clarification / latest Secretariat blob (append-only audit note)
+- Following the first ten-file readback, the Secretariat candidate text was tightened to state the Stage 2B standing exactly as `WARRANTED / NOT_RUN / NOT_REQUIRED_FOR_STRUCTURAL_CANDIDATE_INTEGRATION`.
+- Git follow-up commit: `edd88c78e12c8b1b769493dd9b43b44cf41d93d3`.
+- **Latest Secretariat V0.2 blob after clarification**: `3e22501b4f34071c0e67458f4d3a34bbdc5d9f51` (replaces the earlier in-flight candidate blob `c770a81a8cba77fce831006fd8db23f6572861d9`, which remains retrievable by SHA).
+- No new file, capability, runtime, seat or canonical record was added by this clarification; Current specs remain unchanged.
+- This paragraph captures the later Git operation rather than silently claiming the first audit readback already verified the latest text. The resulting audit document itself requires new readback after its update.
