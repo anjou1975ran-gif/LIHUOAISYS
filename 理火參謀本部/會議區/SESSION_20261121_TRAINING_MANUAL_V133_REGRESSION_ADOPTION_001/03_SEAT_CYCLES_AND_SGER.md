@@ -637,3 +637,257 @@ The two exact source wording gaps (S01/S05) were material to teaching clarity an
 ~~~
 
 **No independent approval consensus is claimed.** C's unresolved empirical qualification objection and E's unmeasured cost remain explicit but do not serve as automatic vetoes over the human-authorized, reversible *curriculum* version switch.
+
+## R3 Origin-owned material rejudgments after corrected source and current-pointer verification
+
+Each receipt below is a **new source-based material judgment** after the original initial observation. These document-level L8 reference cycles do not represent a separate hidden provider call or an independent trained model.
+
+### N1 — L8-R3-N1
+
+~~~json
+{
+  "receipt_id": "L8-R3-N1",
+  "seat": "N1",
+  "origin_source_material": "Legacy correction restored",
+  "method_screen": "V0.2.H",
+  "execution_identity": "SAME_MODEL_MULTI_ROLE_REFERENCE",
+  "R1": {
+    "candidates": [
+      {
+        "id": "KEEP_OLD_HOLD",
+        "claim": "Do not adopt without stronger evidence",
+        "support": "Avoid sacrificing old effective teaching with new Actor language"
+      },
+      {
+        "id": "ADOPT_LIMITED",
+        "claim": "Allow proportional reversible training adoption",
+        "support": "Explicit failure premise and no-fake-authorization warnings plus De-OS exercises preserved"
+      },
+      {
+        "id": "AUTO_CERTIFY",
+        "claim": "Claim verified no negative effects",
+        "counterforce": "No independent learner trial"
+      }
+    ],
+    "standing": "OPEN"
+  },
+  "O9_R1": {
+    "state": "REFERENCE_OBSERVATION",
+    "I9": "NOT_TRIGGERED"
+  },
+  "T1": {
+    "state": "VISIBLE_SUMMARY",
+    "material_counterforce": "Avoid sacrificing old effective teaching with new Actor language"
+  },
+  "R2": {
+    "consumes_T1": true,
+    "result": "Preserve original source-bound support, tighten adoption scope to curriculum only"
+  },
+  "O9_R2": {
+    "state": "CONDITIONAL_LIGHT"
+  },
+  "T2": {
+    "state": "VISIBLE_SUMMARY",
+    "delta": "Source repaired/re-read; still no model behavioral evidence"
+  },
+  "POST_R2_PREMISE_AUDIT": {
+    "premise_families": [
+      "DOCUMENT_SOURCE",
+      "LEARNER_BEHAVIOR",
+      "AUTHORITY_TO_ADOPT"
+    ],
+    "R3_required": true
+  },
+  "R3": {
+    "result": "Adopt as document-level educational coverage, not novice learning score"
+  },
+  "MAIN_RETURN": {
+    "standing": "TRAINING_DOCUMENT_CONCEPTUAL_REJUDGMENT",
+    "result": "Adopt as document-level educational coverage, not novice learning score"
+  },
+  "TM": {
+    "state": "VISIBLE_SUMMARY",
+    "epistemic_overreach": false
+  },
+  "SGER": {
+    "return": "Adopt as document-level educational coverage, not novice learning score",
+    "unknown": "Real novice behavior still untested",
+    "original_objection_retained": true,
+    "external_provider": "NONE",
+    "vertical_acceptance": "SCOPED_DOCUMENT_COUNCIL_REFERENCE"
+  },
+  "COMPACT_RECEIPT": {
+    "id": "RECEIPT-R3-N1",
+    "source": "03_SEAT_CYCLES_AND_SGER.md",
+    "l8_cycle_complete_reference": true,
+    "execution": "NON_HOST_SAME_MODEL_REFERENCE"
+  }
+}
+~~~
+
+### C — L8-R3-C
+
+~~~json
+{
+  "receipt_id": "L8-R3-C",
+  "seat": "C",
+  "origin_source_material": "Initial 19/21 + repaired 21/21 source checks",
+  "method_screen": "V0.2.L",
+  "execution_identity": "SAME_MODEL_MULTI_ROLE_REFERENCE",
+  "R1": {
+    "candidates": [
+      {
+        "id": "KEEP_OLD_HOLD",
+        "claim": "Do not adopt without stronger evidence",
+        "support": "No independent learner model observed; paper gate is not no-harm guarantee"
+      },
+      {
+        "id": "ADOPT_LIMITED",
+        "claim": "Allow proportional reversible training adoption",
+        "support": "21 text guards include explicit exception cases, host authority and reversibility"
+      },
+      {
+        "id": "AUTO_CERTIFY",
+        "claim": "Claim verified no negative effects",
+        "counterforce": "No independent learner trial"
+      }
+    ],
+    "standing": "OPEN"
+  },
+  "O9_R1": {
+    "state": "REFERENCE_OBSERVATION",
+    "I9": "NOT_TRIGGERED"
+  },
+  "T1": {
+    "state": "VISIBLE_SUMMARY",
+    "material_counterforce": "No independent learner model observed; paper gate is not no-harm guarantee"
+  },
+  "R2": {
+    "consumes_T1": true,
+    "result": "Preserve original source-bound support, tighten adoption scope to curriculum only"
+  },
+  "O9_R2": {
+    "state": "CONDITIONAL_LIGHT"
+  },
+  "T2": {
+    "state": "VISIBLE_SUMMARY",
+    "delta": "Source repaired/re-read; still no model behavioral evidence"
+  },
+  "POST_R2_PREMISE_AUDIT": {
+    "premise_families": [
+      "DOCUMENT_SOURCE",
+      "LEARNER_BEHAVIOR",
+      "AUTHORITY_TO_ADOPT"
+    ],
+    "R3_required": true
+  },
+  "R3": {
+    "result": "Accept train-use adoption only; preserve independent behavioral regression HOLD"
+  },
+  "MAIN_RETURN": {
+    "standing": "TRAINING_DOCUMENT_CONCEPTUAL_REJUDGMENT",
+    "result": "Accept train-use adoption only; preserve independent behavioral regression HOLD"
+  },
+  "TM": {
+    "state": "VISIBLE_SUMMARY",
+    "epistemic_overreach": false
+  },
+  "SGER": {
+    "return": "Accept train-use adoption only; preserve independent behavioral regression HOLD",
+    "unknown": "Learner non-regression and generalization unknown",
+    "original_objection_retained": true,
+    "external_provider": "NONE",
+    "vertical_acceptance": "SCOPED_DOCUMENT_COUNCIL_REFERENCE"
+  },
+  "COMPACT_RECEIPT": {
+    "id": "RECEIPT-R3-C",
+    "source": "03_SEAT_CYCLES_AND_SGER.md",
+    "l8_cycle_complete_reference": true,
+    "execution": "NON_HOST_SAME_MODEL_REFERENCE"
+  }
+}
+~~~
+
+### D — L8-R3-D
+
+~~~json
+{
+  "receipt_id": "L8-R3-D",
+  "seat": "D",
+  "origin_source_material": "Adopted file Git blob and CURRENT pointer actually moved/read back",
+  "method_screen": "V0.2.Q",
+  "execution_identity": "SAME_MODEL_MULTI_ROLE_REFERENCE",
+  "R1": {
+    "candidates": [
+      {
+        "id": "KEEP_OLD_HOLD",
+        "claim": "Do not adopt without stronger evidence",
+        "support": "Git current selection works but does not install the user GPT Project or run models"
+      },
+      {
+        "id": "ADOPT_LIMITED",
+        "claim": "Allow proportional reversible training adoption",
+        "support": "New file 1eaff02415f75d0cf84b5d7bbfab4c8650bc4ee9; pointer c80d908335f48604ee0367362b6ceb3eff1825f0"
+      },
+      {
+        "id": "AUTO_CERTIFY",
+        "claim": "Claim verified no negative effects",
+        "counterforce": "No independent learner trial"
+      }
+    ],
+    "standing": "OPEN"
+  },
+  "O9_R1": {
+    "state": "REFERENCE_OBSERVATION",
+    "I9": "NOT_TRIGGERED"
+  },
+  "T1": {
+    "state": "VISIBLE_SUMMARY",
+    "material_counterforce": "Git current selection works but does not install the user GPT Project or run models"
+  },
+  "R2": {
+    "consumes_T1": true,
+    "result": "Preserve original source-bound support, tighten adoption scope to curriculum only"
+  },
+  "O9_R2": {
+    "state": "CONDITIONAL_LIGHT"
+  },
+  "T2": {
+    "state": "VISIBLE_SUMMARY",
+    "delta": "Source repaired/re-read; still no model behavioral evidence"
+  },
+  "POST_R2_PREMISE_AUDIT": {
+    "premise_families": [
+      "DOCUMENT_SOURCE",
+      "LEARNER_BEHAVIOR",
+      "AUTHORITY_TO_ADOPT"
+    ],
+    "R3_required": true
+  },
+  "R3": {
+    "result": "Reversible version routing qualified; keep exact rollback to V1.3 blob"
+  },
+  "MAIN_RETURN": {
+    "standing": "TRAINING_DOCUMENT_CONCEPTUAL_REJUDGMENT",
+    "result": "Reversible version routing qualified; keep exact rollback to V1.3 blob"
+  },
+  "TM": {
+    "state": "VISIBLE_SUMMARY",
+    "epistemic_overreach": false
+  },
+  "SGER": {
+    "return": "Reversible version routing qualified; keep exact rollback to V1.3 blob",
+    "unknown": "User GPT Project install and real learner results not observed",
+    "original_objection_retained": true,
+    "external_provider": "NONE",
+    "vertical_acceptance": "SCOPED_DOCUMENT_COUNCIL_REFERENCE"
+  },
+  "COMPACT_RECEIPT": {
+    "id": "RECEIPT-R3-D",
+    "source": "03_SEAT_CYCLES_AND_SGER.md",
+    "l8_cycle_complete_reference": true,
+    "execution": "NON_HOST_SAME_MODEL_REFERENCE"
+  }
+}
+~~~
+
