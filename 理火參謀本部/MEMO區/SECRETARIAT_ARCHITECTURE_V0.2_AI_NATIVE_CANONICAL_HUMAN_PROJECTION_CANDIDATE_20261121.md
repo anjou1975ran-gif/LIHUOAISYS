@@ -181,6 +181,14 @@ Not required:
 
 Render must show major objection, minority position, standing, key unknown and smallest human action; any nontrivial claim carries CP1 refs. **Human surface cannot disappear because humanization is expensive.** Human request, silence and result acceptance remain separate.
 
+### 7A｜Enhanced A–K CP3 human report semantics — next-gen candidate only
+Keep exactly **one** Final Council Report A–K as defined in Meeting Record V0.1 §11. The CP3 report is a reading view; it is **not** a new Canonical data layer, a new Judge, an L8 competitor or a second Council Narrative Projector Runtime. Formal Secretariat V0.1 remains Current.
+`WHAT_CHANGED_BECAUSE_OF_THIS_MEETING` in existing **B Proposal Evolution / F Stance History** records `BEFORE / MATERIAL_CHANGE / AFTER / UNCHANGED`, with owner/event/version sources. `OBJECTION_LIFECYCLE` in existing **E Material Objections / F Stance History** records `ORIGIN / TARGET / RESPONSE / MATERIAL_EFFECT / PROPOSAL_EFFECT / CURRENT_STATE / REMAINDER` for each material objection. These are mandatory semantic *coverage* obligations in the next-gen candidate, **not** mandatory giant printed tables. No delta means no fabricated change; unresolved minority HOLD remains.
+**Causal / authority hard locks:** `TEMPORAL_SUCCESSION != CAUSATION`; `DELIVERED != CONSUMED`; `RESPONDED != AGREED`; `QUIET != CONSENSUS`; `CURRENT_STANCE` cannot rewrite earlier stance; `CONDITIONAL_REJUDGMENT` does not erase the objection. An affirmative cause requires `ORIGIN_EVENT + TARGET_CLAIM + OWNER_CONSUMPTION_OR_RESPONSE + OWNER_MATERIAL_BASIS`. Otherwise mark `TEMPORAL_ONLY`, `EVIDENCE_GAP` or correct source standing. `SECRETARIAT_REPORTING != SECRETARIAT_INTERPRETIVE_AUTHORITY`; `REPORT != CANONICAL_HISTORY`: no report may CREATE / REMOVE / RESOLVE seat STANCE, OBJECTION, CONSENSUS, AUTHORITY, QUALIFICATION or HUMAN_APPROVAL.
+**Rendering contract:** Short Executive Brief, full Enhanced A–K report, and source/audit on demand must all derive from one as-of CP0/CP1/CP2 history. Distinguish `HOLD / UNKNOWN / CONTESTED / SOURCE_MISSING` from evidence-gap. A qualified owner conditional change cannot erase earlier objections, and QUIET is not approval. Free narrative prose is optional presentation, not a new authority source. New human feedback must enter CP0→CP1, not amend the past via CP3.
+**Research lineage:** `COUNCIL_NARRATIVE_PROJECTOR` retained unchanged as historical semantic discovery; Stage 2A Chief acceptance is recorded by the human-forwarded work instruction, not an independent AI signature. **DAIL candidate contract:** `理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml`. **Stage 2A accepted source:** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/03_STAGE2A_STRUCTURAL_COMPARISON_AND_RECOMMENDATION.md`. **Human-forwarded Chief review scope:** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md`. These are on-demand source references, not a second Project main instruction file or L9 Current binding.
+**Evidence/UX:** Stage 2B warranted but not run and not required for this structural candidate integration; any human-comprehension / reading-time benefit remains unverified.
+
 ## 8. F Experimental Shadow compatibility
 
 F is EXPERIMENTAL_SHADOW_SEAT, NOT_CORE7, nonvoting. Its original source, hypothesis, cost bearer, transfer, repair window and disconfirmation belong to CP0 research. If formally admitted by authorized source as **research/reference material**, CP1 event's origin and type must reflect that source; never convert F's signal into a CORE_SEAT stance. Affected CORE-6 owners re-wake under actual materiality and own their L8 and stance.
@@ -202,6 +210,12 @@ Acceptance tests:
 - **CP-06 F shadow protection:** no F core vote, quorum or exact-version review counted.
 - **CP-07 source audit:** preserved raw and L8 artifacts can be fetched; source hash/lineage, including failed Git write, remains truthful.
 - **CP-08 economics:** count actual tokens, repeated parse/read/storage and process overhead before cost/energy benefits are claimed.
+
+- **CP-09 Enhanced A–K semantic coverage:** four change fields and seven objection-life fields present for material issues without mandatory tables.
+- **CP-10 causal distinction:** owner-basis-positive vs temporal-only and evidence-gap cases correctly separated.
+- **CP-11 minority / authority:** conditional objections survive, QUIET is not consent, CP3 cannot grant status.
+- **CP-12 one canonical history:** Executive, A–K and Audit share exact source cutoff; no second report truth.
+- **CP-13 Stage 2B boundary:** no claimed human-reading advantage until independent test.
 
 **Standing until independently verified:** ARCHITECTURE_PROPOSAL_READY, IMPLEMENTATION_PARTIAL_OR_NOT_STARTED, REDUCER_NOT_PROVEN, HOST_NOT_DEPLOYED.
 

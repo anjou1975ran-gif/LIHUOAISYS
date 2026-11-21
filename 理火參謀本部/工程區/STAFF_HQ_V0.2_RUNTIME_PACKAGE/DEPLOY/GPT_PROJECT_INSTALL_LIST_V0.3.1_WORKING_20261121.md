@@ -27,6 +27,8 @@
 - this migration/testing record.
 The runtime core holds pointers to exact Git sources for on-demand consultation. Do not claim this loads old sources into a prompt automatically.
 
+**Stage 2A Chief-reviewed candidate integration:** the one-file V0.3.1 Working Core now includes Enhanced A–K CP3 §10A; candidate Secretariat V0.2 §7A and its DAIL semantic contract `理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml` stay **Git-only on-demand**. The human-forwarded Chief record is `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md`. This does not activate or ratify the candidate, add a second runtime file, modify Current L9, or complete Stage 2B.
+
 **Version standing:** Actual GPT Project switch requires human upload/selection; a Git commit does not perform it. Do not promote the formal Vertical, L9 RLT, CP reducer, energy savings, or F to CORE-7 via this install.
 
 **Final installation set = ONE new Markdown file**, existing upper sources unchanged, when approved.
