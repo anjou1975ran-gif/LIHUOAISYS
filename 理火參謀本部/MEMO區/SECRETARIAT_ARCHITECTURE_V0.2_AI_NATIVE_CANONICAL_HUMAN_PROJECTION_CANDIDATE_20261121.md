@@ -189,6 +189,17 @@ Keep exactly **one** Final Council Report A–K as defined in Meeting Record V0.
 **Research lineage:** `COUNCIL_NARRATIVE_PROJECTOR` retained unchanged as historical semantic discovery; Stage 2A Chief acceptance is recorded by the human-forwarded work instruction, not an independent AI signature. **DAIL candidate contract:** `理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml`. **Stage 2A accepted source:** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/03_STAGE2A_STRUCTURAL_COMPARISON_AND_RECOMMENDATION.md`. **Human-forwarded Chief review scope:** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md`. These are on-demand source references, not a second Project main instruction file or L9 Current binding.
 **Evidence/UX:** Stage 2B standing = `WARRANTED / NOT_RUN / NOT_REQUIRED_FOR_STRUCTURAL_CANDIDATE_INTEGRATION`; any HUMAN_COMPREHENSION_IMPROVED, READING_TIME_REDUCED, COGNITIVE_LOAD_REDUCED or EXECUTIVE_FIRST_UX_SUPERIOR claim remains NOT_VALIDATED.
 
+### 7B｜普通人可直接轉交的會議報告（下一代候選）
+§7A 已規定應保留的議事語義，本段規範**怎樣顯影給不熟悉制度的人**，不新增獨立報告或秘書處解釋權。
+
+- **讀者目標**：他不需懂 CORE-6、DAIL 或席號，也能回答「會議要解決什麼、有哪些立場、為何爭論、誰因什麼有根據的材料改判、哪些異議未解、人類現在要怎麼辦」。報告必須離開原聊天也能成立。
+- **公開稱謂**：內部 N1/A/B/C/D/E 在報告顯示為「常識審查專家／探索專家／架構專家／資格審查專家／工程專家／成本與資源專家」。這只是同一責任席的別名，不可據此宣稱獨立真人專家、外部學位資格或多模型實跑；原 owner、來源事件和版本在按需審計保持一對一映射，不以裸席號作為唯一敘述。
+- **一份報告一種語言**：本專案默認繁體中文。若使用者指示其他語言，所有對外標題、段落、未解事項、下一步及決策請求一致使用該語言，避免混用中文英文技術詞。內部英文狀態用白話說明；精確引用、原文及技術代碼可在按需來源視圖保留。
+- **自然的人類敘事**：以問題、各方主張、重要爭議、材料造成的變化、未改變的異議、決策為主線，不要求六席輪流發言；不機械印巨表。完整 A–K 和兩項語義義務不變，不能為故事好看而虛構對話、因果、表決或共識。
+- **靜態驗證 CP-14（候選）**：無裸席號代稱、全篇單語、獨立轉交可讀、關鍵判斷可追到原 owner/事件、反對與 HOLD 仍存活、沒有假獨立專家身份。此檢查不是 Stage 2B 真人實測或效果驗證。
+
+**人類原始要求：** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/07_HUMAN_READABLE_REPORT_MANDATE_20261121.md`。Current Secretariat 未改、Cutover HOLD。
+
 ## 8. F Experimental Shadow compatibility
 
 F is EXPERIMENTAL_SHADOW_SEAT, NOT_CORE7, nonvoting. Its original source, hypothesis, cost bearer, transfer, repair window and disconfirmation belong to CP0 research. If formally admitted by authorized source as **research/reference material**, CP1 event's origin and type must reflect that source; never convert F's signal into a CORE_SEAT stance. Affected CORE-6 owners re-wake under actual materiality and own their L8 and stance.
