@@ -6,7 +6,7 @@ Execution identity: SAME_MODEL_MULTI_ROLE_REFERENCE
 Mandate: RECOMMENDATION / document architecture only
 Source target: V1.3.2-CANDIDATE @ 8acac163d49e4b6b24d77f18cc6727ab49e3027d
 Current Manual: V1.3 @ pointer be3760fc633cc0cd0600dfbb17a9b6d5d3aab525
-Session Standing: IN_REVIEW, NOT_TERMINATED
+Session Standing: COUNCIL_REVIEW_COMPLETE / CHECKPOINT_ENDING / WAITING_HUMAN_DECISION / NOT_TERMINATED
 D1 Standing: SECRETARY_INTERPRETATION_HUMAN_UNCONFIRMED
 End Policy: REQUIRE_HUMAN_END, provisional
 Formal Vertical: V0.1. Staff-HQ V0.3.1 remains a working reference, not proven Host deployed.
@@ -41,5 +41,14 @@ A Git commit is durable only after write/readback succeeds; no User approval inf
 07_COUNCIL_VERDICT_AND_AMENDMENT_SPEC.md
 08_EXECUTIVE_BRIEF_AND_DECISION_REQUEST.md
 09_RECORD_AUDIT_AND_GIT_RECEIPT.md
+10_REPLAY_CHECK.mjs
 
 A missing future file means work not yet done, not fake saved.
+
+## Current derived state — post R003 and replay audit
+- Canonical EV-0001…EV-0029 (29 event objects); first-pass six L8/SGER records and four meaningful R003 L8/SGER re-wakes.
+- C retains EMPIRICAL HOLD; N1 first-lesson test completeness and E lifecycle cost uncertainty survive. N1/E are QUIET at R003, not missing.
+- Recommendation: functional AI working Actor ACCEPT_WITH_GUARDS; Stage1/Stage2 INTERFACE_REWRITE; V1.3.2 stays CANDIDATE; CURRENT V1.3 unchanged.
+- One human decision on NEXT action requested in 08. No human result approval or Session End event.
+- Audit observation: first replay "17/17" missed six initial seats due reducer path defect; corrected to "18/18" with explicit CORE-6 state check. EV-0028/0029 preserve that failure/fix history.
+- 11 early canonical events lack explicit materiality field; record schema quality remains PARTIAL. No retrospective source-event rewrite.
