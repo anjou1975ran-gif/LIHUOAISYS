@@ -1,0 +1,93 @@
+{
+  "session_ref": "SESSION-CP-REF-001",
+  "mandate": {
+    "D0_ref": "RAW-D0",
+    "D1_ref": "D1-UNCONFIRMED",
+    "standing": "SECRETARY_INTERPRETATION_HUMAN_UNCONFIRMED"
+  },
+  "current_proposal": {
+    "version_ref": "P1v1",
+    "standing": "CANDIDATE"
+  },
+  "stance_refs": {
+    "N1": {
+      "stance_ref": "N1@P1v1-R1",
+      "proposal_version_ref": "P1v1",
+      "standing": "CONDITIONED"
+    }
+  },
+  "active_objections": {
+    "OBJ-C-1": {
+      "origin": "C",
+      "target_ref": "N1@P1v1",
+      "standing": "ACTIVE",
+      "source_refs": [
+        "SRC-LICENSE"
+      ],
+      "premise_refs": [
+        "PREM-SCOPE"
+      ]
+    }
+  },
+  "minority_holds": [
+    {
+      "seat_ref": "C",
+      "ref": "HOLD-C-1",
+      "objection_ref": "OBJ-C-1"
+    }
+  ],
+  "material_relations": {
+    "REL-C-N1": {
+      "target_seat_ref": "N1",
+      "objection_ref": "OBJ-C-1",
+      "state": "RESPONDED"
+    }
+  },
+  "source_refs": [
+    "RAW-D0",
+    "RAW-P1",
+    "L8-N1-RAW",
+    "SRC-LICENSE",
+    "EV-004",
+    "EV-005",
+    "L8-N1-002",
+    "L8-C-001",
+    "F-EXP001",
+    "EV-008"
+  ],
+  "research_refs": [
+    "F-EXP001"
+  ],
+  "unknown_refs": [
+    "UNRESOLVED-CROSS-VERTICAL",
+    "UNRESOLVED-ECONOMIC-COST"
+  ],
+  "human_gate": "REQUIRED",
+  "last_sequence": 10,
+  "event_ids": [
+    "EV-001",
+    "EV-002",
+    "EV-003",
+    "EV-004",
+    "EV-005",
+    "EV-006",
+    "EV-007",
+    "EV-008",
+    "EV-009",
+    "EV-010"
+  ],
+  "decision_request_source": {
+    "question": "要批准後續資料驗證嗎？",
+    "context": "目前仍有未解資格與成本問題，沒有自動授權。",
+    "choices": [
+      {
+        "id": "A",
+        "label": "批准下一步測試"
+      },
+      {
+        "id": "B",
+        "label": "保留現狀"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+import {readFileSync} from "node:fs";
+import {replayCP1,renderHuman} from "./reference_replay.mjs";
+const events=readFileSync(new URL("./fixture.jsonl",import.meta.url),"utf8").trim().split("\n").map(JSON.parse);
+const state=replayCP1(events),view=renderHuman(state);
+const check=(v,msg)=>{if(!v)throw Error(msg)};
+check(state.material_relations["REL-C-N1"].state==="RESPONDED","relation response");
+check(!!state.active_objections["OBJ-C-1"],"objection preserved");
+check(state.minority_holds.length===1,"minority hold preserved");
+check(state.unknown_refs.length===2,"unknown integrity");
+check(view.kind==="DECISION_REQUEST"&&!!view.question,"human request");
+check(!state.stance_refs.F,"F must not qualify core");
+check(state.current_proposal.standing==="CANDIDATE","no auto qualification");
+check(JSON.stringify(replayCP1(events))===JSON.stringify(state),"deterministic replay");
+let caught=false;try{replayCP1([...events,events.at(-1)])}catch(e){caught=true};check(caught,"duplicate rejection");
+console.log("PASS: reference replay assertions (basic sample; not full engineering validation)");
