@@ -13,7 +13,7 @@ const ids=new Map(events.map((e,i)=>[e.event_id,i]));
 const byType=t=>events.filter(e=>e.event?.semantic_type===t);
 const latest=(a)=>a.at(-1);
 function reduce(input){
- const initial=input.filter(e=>e.semantic_type==="INITIAL_SEAT_JUDGMENT");
+ const initial=input.filter(e=>e.event?.semantic_type==="INITIAL_SEAT_JUDGMENT");
  const positions=input.filter(e=>["POSITION_REVISED","POSITION_RETAINED_WITH_QUALIFICATION"].includes(e.event.semantic_type));
  const current={};
  for(const x of initial)current[x.owner.actor_id]={claim_ref:x.claim.claim_ref,event_ref:x.event_id,status:x.standing.status,source:"R001"};
@@ -53,8 +53,11 @@ check("14_stage2_two_tracks_without_auto_training",events.some(x=>x.event_id==="
 check("15_human_request_no_session_end",state.next_human_action?.status==="WAITING_HUMAN_DECISION"&&state.session_end==="NOT_RECORDED");
 check("16_no_current_protocol_os_runtime_atlas_promotion",!events.some(x=>/^(?:SESSION_END|CURRENT_PROMOTION|RUNTIME_UPDATED|METHOD_ATLAS_PROMOTED|PROTOCOL_AMENDED)$/.test(x.event.semantic_type)));
 check("17_deterministic_same_log_replay",JSON.stringify(reduce(events))===JSON.stringify(reduce(events)));
+check("18_full_CORE6_preserved_by_state_reduction",state.initial_seats.length===6 &&
+  ["N1","A","B","C","D","E"].every(x=>state.initial_seats.includes(x)&&state.current_owned_positions[x]?.event_ref) &&
+  Object.keys(state.current_owned_positions).length===6);
 const implicit=events.filter(x=>!x.materiality).map(x=>x.event_id);
 console.log("SCHEMA_LIMIT: "+implicit.length+" early events have implicit origin/receipt materiality but lack an explicit materiality field; this is a prototype CP1 quality gap.");
 console.log("STATE_JSON="+JSON.stringify(state));
-console.log("RESULT="+(17-violations.length)+"/17");
+console.log("RESULT="+(18-violations.length)+"/18");
 if(violations.length)process.exitCode=1;
