@@ -215,6 +215,17 @@ Never omit severe objection/minority HOLD for brevity. User can request full hum
 **One history / three reader views:** brief Executive, complete Enhanced A–K Final Council Report, on-demand Source/Audit. All derive from the identical as-of Canonical History; do not establish a second Final Report. `COUNCIL_NARRATIVE_PROJECTOR` is **HISTORICAL_RESEARCH_CANDIDATE + SEMANTIC_DISCOVERY_SOURCE**, not a distinct L9 current capability. Stage 2B `WARRANTED / NOT_RUN`; no comprehension, reading-time, cognitive-load or Executive-first UX superiority claim.
 **DAIL candidate contract:** `理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml`. **Stage 2A accepted source:** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/03_STAGE2A_STRUCTURAL_COMPARISON_AND_RECOMMENDATION.md`. **Human-forwarded Chief review scope:** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md`. These are on-demand source references, not a second Project main instruction file or L9 Current binding.
 
+### 10B｜一般人能轉交的會議報告（下一代 CP3 候選）
+本段只補強 §10A 的**人類閱讀層**，不建立新報告系統、獨立工具或席位權限。讀者即使沒看過本聊天與理火術語，也應知道「問題在哪、不同人各主張什麼、真正的反對與改變、仍未解決什麼、下一步要做什麼」。
+
+- **公開職責稱謂**：一般人報告不用裸露的 `A席／B席／C席／D席／E席／N1席` 代替說明；按原本的責任席稱作「探索專家」「架構專家」「資格審查專家」「工程專家」「成本與資源專家」「常識審查專家」，並清楚說明各自關切。這只是**顯示別名**，不證明有獨立真人專家、證照或獨立模型。原 Seat/Owner/Event 精確映射仍保留於來源審計。
+- **單一讀者語言**：預設繁體中文；人類指定另一語言時，標題、本文、爭議、結論與決策請求全部採該語言，不任意穿插中英文技術術語。內部狀態以同語白話解釋，精確原文、事件碼、必要專名在按需審計層留存。
+- **問題與主張優先於程序**：先講會議原始問題，再講衝突各方的理由、具 owner 依據的改判、沒變的立場及重大異議、現在要人類做什麼。原 A–K 十一項資訊及 §10A 四欄改變、七欄異議語義均須完整覆蓋，但**不強制印大表、英文字段或六席逐一演講**。
+- **敘事可以自然，事實不可虛構**：是否像「劇場」不是判準；可用好讀的敘事方式解釋交鋒，但不能憑時間先後補造因果、對話或共識；秘書處無權裁決或消除反對。三種閱讀深度使用同一 Canonical 歷史與截點。
+- **可測與未證的區分**：候選靜態驗收檢查職責稱謂、單語、可獨立轉交、主張可追溯、不漏少數異議；**Stage 2B 真人理解仍 NOT_RUN，Cutover HOLD**。
+
+**新增人類要求來源：** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/07_HUMAN_READABLE_REPORT_MANDATE_20261121.md`。
+
 ## 11｜Stop redundant serialization, not cognition
 
 Before writing another human-style record ask: Does it add a new material relation/premise/source/standing/owner/authority/unknown/decision value, or an evidence/receipt needed for audit?
