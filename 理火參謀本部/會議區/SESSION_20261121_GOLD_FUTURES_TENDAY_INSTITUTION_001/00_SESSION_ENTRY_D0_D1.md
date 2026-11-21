@@ -14,7 +14,7 @@
 **End policy (Secretary proposed):** REQUIRE_HUMAN_END; checkpoint upon report delivery, no terminal Session End inferred from report.
 **Source standing:** CURRENT Staff-HQ Vertical V0.1 + LIHUOOS V1.4.2 above V0.3.1 nextgen candidate presentation; using readable A–K as a **research projection** does NOT deploy V0.3.1 or create new L9 tool.
 **Execution identity:** SAME_MODEL_MULTI_ROLE_REFERENCE / NON_HOST / NO_INDEPENDENT_AGENTS. 外部官方市场、交易所及经济数据为公开专家资料，不是假称真人外聘顾问。
-**Deliverable:** `未来十日黄金期货_机构投资策略参谋会议报告_20261121.docx`，SHA256 `8e3195c7138311ae4736b2ff1f39777444320d55f1f2a410a2e40c54b2a4fbbe`，本对话 sandbox 创建并渲染，未上传 Git 二进制。
+**Deliverable:** `未来十日黄金期货_机构投资策略参谋会议报告_20261121.docx`，SHA256 `c41942bbde8ea5434054de696c8ad8b845dc32d5ccc4461bb76c33d87650ff4f`，本对话 sandbox 创建并渲染，未上传 Git 二进制。
 
 ## 六责任席初轮独立判断
 N1 常识审查；A 探索可能性与反弹；B 市场机制与策略架构；C 资格审计与风险事实；D 合约执行与期货运营；E 成本预算与组合资源。席位是责任，非固定看多/看空立场。
