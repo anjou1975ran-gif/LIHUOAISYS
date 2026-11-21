@@ -611,3 +611,29 @@ BLINDED EVIDENCE
 ~~~
 
 這批「黑歷史」正式視為 Formation Evidence + Failure Evidence + Design Pressure History。
+
+
+## 9.1｜新增工程考古：DAIL 的苦難起源
+
+已新增：
+
+`04_DAIL的苦難起源_從ProceduralOverEngineering到DeclarativeRelationLayer.md`
+
+此檔保存 Python 反應體／理火律師的 procedural over-engineering 與 DAIL declarative turn 之間的 genealogy，並保留以下邊界：
+
+~~~text
+ENGINEERING HISTORY EXISTS
+!=
+THEORY IS PROVEN TRUE
+
+FAILURE PRESSURE EXISTS
+!=
+ONE UNIQUE NECESSARY DESIGN
+~~~
+
+本研究區因此同時保存：
+
+- Formation 成功前例；
+- Runtime／Python 失敗前例；
+- DAIL 抽象轉向；
+- 今日 behavioral persistence 問題。
