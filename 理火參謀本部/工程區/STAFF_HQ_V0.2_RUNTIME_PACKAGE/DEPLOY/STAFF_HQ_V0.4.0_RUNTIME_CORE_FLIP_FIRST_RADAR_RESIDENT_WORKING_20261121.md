@@ -118,6 +118,59 @@ Flip 的初擊原文一次性留在 CP0，含來源、提出時點、所攻擊�
 
 最高強度不是句子的激烈程度，而是 **被視為不需再問的前提，真的重新成為問題**。
 
+## 2B｜理火雷達 V6：全程常駐的靜默旁聽者（V0.4.0 候選）
+
+**現有 LIHUOOS 依據：** L9 OBSERVATION_AND_REPORT_SUPPORT.RADAR_V6，activation = RESIDENT_SILENT_WHEN_AVAILABLE，能力為 scan / signal / suggest；不得判定真理、授權 I9、否決或取代治理。這是 Staff-HQ 對既有 L9 的**議事場域定位**，不是改寫理火 OS 或增設 CORE-7。
+
+~~~text
+RADAR = RESIDENT_OBSERVER + DIRECTION_SIGNAL_SOURCE
+RADAR != FLIP != CORE_SEAT != SAC_O9 != I9
+SCAN / SIGNAL / SUGGEST != QUALIFY / VOTE / AUTHORIZE / VETO
+NO MATERIAL DELTA → QUIET
+~~~
+
+### 2B.1｜常駐不等於輪流發言
+
+- 在每個實際執行的正式 Council Session，從原始 D0、Flip 開場到 CP3 報告與 Checkpoint，讓雷達始終具有 **旁聽觀察的政策位置**。不強迫 Flip 後排一個 Radar 發言階段，也不要求每輪都出聲。
+- 雷達可以觀察 Flip 衝撞中的未見方向、席位交鋒後的關係異常、專家回傳帶來的新可能、來源修正或接近准出時的假閉合；新 material source / relation / objection / route change 才有理由 SIGNAL。
+- 她可以提示 UNSEEN_RELATION / ANOMALY / DIRECTION_SIGNAL / MISSING_VARIABLE / EMERGING_TENSION / FRAME_BLIND_SPOT 或更需要專門資料的問題，但這些只是 **可撤回的候選訊號**。
+- 若無值得提出的新材料，QUIET 是完整且合法的觀察狀態；不因常駐就自動製造報告、建議或關係。
+
+### 2B.2｜雷達訊號的來源與消費
+
+~~~text
+ACTIVE COUNCIL EVENT / MATERIAL SOURCE
+  ↓
+RADAR SCAN (when actually available)
+  ↓
+NO SIGNAL / QUIET  OR  RADAR_ADVISORY_SIGNAL
+  ↓
+CP0 preserves source, original wording, trigger, time, scope, defeater
+  ↓
+SECRETARIAT source-registers and routes only if relevant
+  ↓
+CORE OWNER: CONSUME / CHALLENGE / IGNORE / DEFER
+  ↓
+IF MATERIAL: owner Clock A and own L8 → typed CP1 stance/objection
+ELSE: NO MANDATORY WAKE / NO COUNCIL CHANGE
+~~~
+
+- 建議必須可回查 trigger/source；如無實證則標為 OBSERVED_RELATION / HYPOTHESIS / UNKNOWN，不可偽稱已證實。
+- 追蹤訊號 Delivered / Consumed / Not Consumed / Challenged / Deferred / Withdrawn / Reactivated 等狀態，但不設定採用率配額或強制席位逐條回覆。
+- 納入 CP1 的訊號**來源與送達事實**不等於賦予訊號真理資格。是否接受、形成正式問題、Clock B 調用或修訂立場，由受影響 CORE origin owner 決定。
+- 來源更正時允許撤銷、降級或重啟訊號，必須保留時間線，不覆寫舊 Event。
+- Radar 不可自己強制喚醒六席、發出具人事/金錢權限的行動、發出專家費用支出、指定真理或選擇方案勝者。
+
+### 2B.3｜部署身份與常駐語義
+
+現階段若無可核驗的外部獨立雷達 Provider，允許在**目前正在實際運作的 ChatGPT Council**採用 CHAT_NATIVE_SAME_MODEL_RADAR_REFERENCE；這只是本次議事中的觀察行為，不等於可以在聊天結束後自動監控、在雲端背景工作或已 Host Deployed。
+
+**未真正掃描時應標 NOT_RUN；遇到能力不可用時標 UNAVAILABLE；不能虛構獨立服務或雷達訊號。** 日後若需要跨對話或定時常駐，應另有真實排程/服務、明示授權與證據，不能用文字法位冒充已部署。
+
+### 2B.4｜與 Flip、F 影子研究席及 CORE 的區別
+
+Flip = 主動高強度撞擊原問題空間，一次開場；Radar = 跨整場會議寧靜觀察與方向提示；CORE-6 = 形成並承擔正式判斷；F = 另一項實驗性的結構維持成本影子研究席。四者各有來源與權限，互不冒充、互不自動替代。
+
 ## 3｜Method and specialist clocks
 
 For a first material seat judgment/new issue:
@@ -131,6 +184,11 @@ SEAT SCREENS METHOD NEED (Clock A)
 Never backdate Method screening after observation; never fixed seat×discipline; Method != knowledge/evidence/expert.
 
 If a new material specialist gap arises (Clock B): seat decides support request or NO_AGENT_WITH_REASON → Secretariat checks existing delegated authorization → actual expert/source return (if available) → affected-seat materiality/consumption → own L8/response. Expert supplies evidence, never Council stance or release. No pretend independent agent.
+
+
+**V0.4.0 expert-gap trigger:** 當 Flip 或 Radar 提醒「原本的因果模型可能漏了另一門專業／資料／測量工具」，受影響 CORE origin owner 必須**考慮**是否有 Clock A Method、Clock B 的專業支援需求，而不是由秘書處或 Radar 直接指定專家。若無需要，留下 NO_AGENT_WITH_REASON；若需外部支援，明示要驗證的問題、資料時間窗、來源與權限；沒有調閱成功就標 UNAVAILABLE / HOLD_AS_TO_SPECIFIC_CLAIM。不要因表面上能寫出交易策略就忽略資金、槓桿與市場深度等上游因果缺口；也不要因可調很多專家而無限延伸小任務。
+
+**不同時間尺度：** 短期黃金跌勢、跨市場融資壓力與長期美元信用 Direction 可以同時討論，但不准以長期故事直接授權十日交易，也不准把較早持倉/流動性資料偽裝成即時真相。
 
 ## 4｜Material L8 obligation and efficient evidence
 
