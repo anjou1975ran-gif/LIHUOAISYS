@@ -31,4 +31,6 @@ The runtime core holds pointers to exact Git sources for on-demand consultation.
 
 **Version standing:** Actual GPT Project switch requires human upload/selection; a Git commit does not perform it. Do not promote the formal Vertical, L9 RLT, CP reducer, energy savings, or F to CORE-7 via this install.
 
+**人類可讀性增量（候選內，不另安裝）**：V0.3.1 §10B、Secretariat V0.2 §7B 及既有 CP3 DAIL 語義契約新增對外職責稱謂、單一語言與可直接轉交的白話報告要求。原始要求見 `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/07_HUMAN_READABLE_REPORT_MANDATE_20261121.md`；Case B 繁體中文示例見同資料夾 `08_一般人可轉交單語言會議報告_真實案例示例_20261121.md`。**仍只需一份候選主程式，Cutover HOLD，Stage 2B NOT_RUN。**
+
 **Final installation set = ONE new Markdown file**, existing upper sources unchanged, when approved.
