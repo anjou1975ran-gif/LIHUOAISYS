@@ -9,7 +9,7 @@
 >
 > **工程訓練基線：** LIHUOOS V1.4.2。
 >
-> **直接來源：** V1.3 CURRENT、V1.3.1-CANDIDATE、V1.3.3 Curriculum Restructure MEMO、V1.3 Source Map、《理火新生 LLM 訓練法 V1.0》、Staff-HQ correction / SEED corpus、Method Atlas，以及 `SESSION_AI_INTELLIGENCE_GENERATION_EXPERIENCE_001_20261121` 的研究材料。
+> **直接來源：** V1.3 CURRENT、V1.3.1-CANDIDATE、V1.3.2 Curriculum Restructure MEMO（歷史來源原檔）、V1.3 Source Map、《理火新生 LLM 訓練法 V1.0》、Staff-HQ correction / SEED corpus、Method Atlas，以及 `SESSION_AI_INTELLIGENCE_GENERATION_EXPERIENCE_001_20261121` 的研究材料。
 >
 > **本版上位定位：** AI Actor Formation 是在合法的人類任務、Host 邊界、來源、方法、權限與代價中，培養 AI／AI System 提出候選方向、接受實質修正並在新情境中穩定工作的**功能性教育目標**，不是人格或獨立授權。本版同時區分既有模型實習 TRACK-A 與尚未實作的未來新生模型權重訓練 TRACK-B。Stage 1 與 Stage 2 的 Method / World 內容有交疊，差異在教育目標和證據目標，不是 Stage 1 只教語言。
 
