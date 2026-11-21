@@ -16,3 +16,5 @@
 - [真實案例繁體中文報告示例](COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/08_一般人可轉交單語言會議報告_真實案例示例_20261121.md)：一整份可直接轉交的單一語言報告；[原始來源／責任席映射審計](COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/09_單語報告來源與責任席映射審計_20261121.md) 另存於按需查核檔案，避免中英技術碼混入人類報告。
 - [Staff-HQ V0.3.1 Working §10B](../工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md)／[Secretariat V0.2 §7B](../MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md)／[DAIL CP3 契約](../工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml)：**只在下一代候選的既有 CP3 顯影內更新，不另增新工具**。
 - 對外白話顯影的靜態檢查不等於真人理解度提高；Stage 2B 尚未執行。**首席先前 PASS 是對前一輪整合的驗收，不自動涵蓋這份後續人類閱讀要求增量；Cutover 仍 HOLD。**
+
+- [本輪單語閱讀層靜態驗收／Git 來源核對](COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/10_人類可轉交報告單語顯影_靜態驗收與版本審計_20261121.md)：檢查正文無混語與裸席號、來源可回查、Current 不變；非真人測試。
