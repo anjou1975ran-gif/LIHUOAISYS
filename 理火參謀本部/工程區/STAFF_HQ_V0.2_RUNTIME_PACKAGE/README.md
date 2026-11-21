@@ -118,3 +118,5 @@ Current V0.3.0 full body preserved as audit and on-demand engineering detail; do
 - **[Secretariat V0.2 候選](../../MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md)**：§7A／CP09–13。原 `MEETING_RECORD_AND_CHAT_SURFACE_V0.1` §11 Current 本體未改。
 - **[Stage 2A 與首席驗收承接](../../研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md)**：版本鏈中的批准範圍。
 - 原 V0.3.1 Core blob `a63017298d4e93cd18b83dddf1ed48a516bd7e28`、原 Secretariat V0.2 blob `2fea4d9af4fa0419610bef361de30fa6d70295fb` 均可按 Git SHA 回查；更動只發生在 Working Candidate（非 Current）。
+
+- **[Stage 2A Enhanced A–K Git 整合／Current 不變審計](DEPLOY/STAFF_HQ_V0.3.1_ENHANCED_AK_STAGE2A_INTEGRATION_AUDIT_20261121.md)**：候選法位、Git 回讀、來源 SHA、Stage 2B 開放缺口。
