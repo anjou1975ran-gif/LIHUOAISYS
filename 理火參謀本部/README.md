@@ -269,3 +269,9 @@ P0=NONE；17 創意來源/收入觸發，由材料性反對促使 A/B/D/N1 改�
 - **[Stage 2A 結構消融研究](研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/03_STAGE2A_STRUCTURAL_COMPARISON_AND_RECOMMENDATION.md)** 與 **[人類轉交的首席驗收／工作授權範圍](研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md)**：明確記錄「下一代候選整合」的來源與法位，不冒充另行核對的首席簽章。
 - 舊 **[Council Narrative Projector 概念與原型](會議區/SESSION_20261121_STAFFHQ_COUNCIL_REPORT_DAIL_CONCEPT_001/03_DAIL_COUNCIL_NARRATIVE_PROJECTOR_V0_1.dail.yaml)** 保留為 `HISTORICAL_RESEARCH_CANDIDATE + SEMANTIC_DISCOVERY_SOURCE`。
 - **Stage 2B**：`WARRANTED / NOT_RUN`，人類理解改善、閱讀時間、認知負擔與 Executive-first UX 的實證優勢均未證；**Current Staff-HQ、Current Secretariat、LIHUOOS、Protocol、L9 Current Registry 均未修改**。
+
+## 2026-11-21｜會議報告給一般人看懂：單語與職責稱謂（下一代候選）
+- **[人類閱讀要求](研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/07_HUMAN_READABLE_REPORT_MANDATE_20261121.md)**：正式報告不要求讀者認得 A/B/C 席號，以「探索專家」「資格審查專家」「成本與資源專家」等責任名稱說明；對外統一一種語言，預設繁體中文。
+- **[實際舊會議改寫的人類可讀示例](研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/08_一般人可轉交單語言會議報告_真實案例示例_20261121.md)**：繁體中文正文可轉交，事件與席號轉存按需來源附錄。
+- **候選內最小修改：** [Staff-HQ V0.3.1 §10B](工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md)／[Secretariat V0.2 §7B](MEMO區/SECRETARIAT_ARCHITECTURE_V0.2_AI_NATIVE_CANONICAL_HUMAN_PROJECTION_CANDIDATE_20261121.md)／[CP3 DAIL 語義契約](工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/CP3_ENHANCED_AK_DAIL_NEXTGEN_CANDIDATE_20261121.yaml)。未增加獨立工具、Canonical 或席位權限。
+- **Standing：** 這是原首席 PASS 之後的新閱讀層候選增量，不能假稱首席已重新驗收；Stage 2B 真人理解測試未執行，Current Cutover 仍 HOLD。
