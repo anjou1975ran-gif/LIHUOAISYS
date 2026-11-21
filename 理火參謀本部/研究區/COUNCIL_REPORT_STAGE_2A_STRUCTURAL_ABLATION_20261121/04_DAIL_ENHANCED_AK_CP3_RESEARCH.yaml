@@ -1,0 +1,94 @@
+# RESEARCH ONLY — DAIL semantic enhancement of EXISTING A–K CP3 report
+# This is NOT a new Council Narrative Projector capability registration,
+# not a new L9 Current tool, not an executable provider binding.
+DAIL_REPORT_ENHANCEMENT_CANDIDATE_V0_1:
+  standing: STAGE_2A_RESEARCH_CANDIDATE_ONLY
+  existing_owner: STAFF_HQ_SECRETARIAT_CP3_HUMAN_PROJECTION
+  existing_artifact: FINAL_COUNCIL_REPORT_A_TO_K
+  output_is: DERIVED_VIEW_NOT_CANONICAL
+  no_independent_capability_registration: true
+
+  entity:
+    - HUMAN_MANDATE
+    - PROPOSAL_VERSION
+    - OWNER_STANCE
+    - MATERIAL_OBJECTION
+    - OWNER_RESPONSE
+    - EVIDENCE_SOURCE
+    - OPEN_ISSUE
+    - HUMAN_AUTHORIZATION
+
+  state:
+    primary_input: QUALIFIED_CP0_CP1_SOURCE_AND_CP2_AS_OF_SNAPSHOT
+    cutoff: IMMUTABLE_AND_EXPLICIT
+    owner_of_judgment: ORIGINAL_SEAT
+    source_missing: EXPLICIT_IF_ACTUAL_SOURCE_UNAVAILABLE
+    evidence_gap: EXPLICIT_IF_PROOF_NOT_AVAILABLE_IN_VERIFIED_SOURCE
+
+  goal:
+    - HUMAN_CAN_EXPLAIN_WHAT_CHANGED_AND_WHY
+    - HUMAN_CAN_IDENTIFY_STRONGEST_SURVIVING_OBJECTION
+    - HUMAN_KNOWS_IF_AND_WHAT_DECISION_IS_NOW_NEEDED
+
+  relation:
+    causality:
+      qualified_basis_required: [ORIGIN_EVENT, TARGET_CLAIM, OWNER_CONSUMPTION_AND_MATERIAL_BASIS]
+      temporal_only_not_causality: true
+      delivered_not_equal_consumed: true
+      responded_not_equal_agreed: true
+      quiet_not_equal_consensus: true
+    positions:
+      conditional_rejudgment_does_not_erase_original_objection: true
+      current_stance_does_not_rewrite_prior_stance: true
+
+  output_contract:
+    existing_sections: [A_MANDATE, B_PROPOSAL_EVOLUTION, C_QUALIFIED_FINDINGS,
+      D_SURVIVING_OPTIONS, E_MATERIAL_OBJECTIONS, F_STANCE_HISTORY,
+      G_EXPERT_CONSULTATIONS, H_ENGINEERING_COST, I_COMMON_SENSE_GAPS,
+      J_MANDATE_EXIT_STANDING, K_HUMAN_NEXT_ACTION]
+    b_or_f_semantics:
+      WHAT_CHANGED_BECAUSE_OF_THIS_MEETING:
+        - BEFORE
+        - MATERIAL_CHANGE
+        - AFTER
+        - UNCHANGED
+    e_or_f_semantics:
+      OBJECTION_LIFECYCLE:
+        - ORIGIN
+        - TARGET
+        - RESPONSE
+        - MATERIAL_EFFECT
+        - PROPOSAL_EFFECT
+        - CURRENT_STATE
+        - REMAINDER
+    optional_cp3_reading:
+      - EXECUTIVE_SUMMARY_DERIVED_FROM_SAME_EVENTS
+      - ON_DEMAND_SOURCE_AUDIT
+    do_not_force_extra_narrative_layer: true
+
+  constraint:
+    - NO_NEW_CANONICAL_EVENTS
+    - NO_SECRETARIAT_INTERPRETIVE_AUTHORITY
+    - NO_UNSOURCED_CAUSAL_ASSERTION
+    - NO_ERASE_MINORITIES_OR_HOLD
+    - NO_FALSE_HUMAN_APPROVAL
+    - NO_BACKCAST_FROM_FUTURE_SESSIONS
+    - NO_CURRENT_OS_OR_L9_REGISTRY_PATCH
+    - NO_FAKE_MODEL_OR_TOOL_INDEPENDENCE
+
+  validation:
+    - CHECK_MATERIAL_OBJECTION_LIFECYCLE_AGAINST_ORIGIN_OWNER
+    - CHECK_BEFORE_AFTER_REFER_TO_IDENTICAL_HISTORICAL_CUTOFF
+    - CHECK_CAUSE_LABEL_HAS_OWNER_BASIS_OR_IS_TEMPORAL_ONLY
+    - CHECK_EVERY_SURVIVING_HOLD_VISIBLE
+    - CHECK_NO_HUMAN_RELEASE_WITHOUT_EXPLICIT_HUMAN_EVENT
+    - COMPARE_WITH_PROJECTOR_AND_LEGACY_REPORTS_ON_SAME_SOURCE
+
+  reversibility:
+    original_canonical_unchanged: true
+    regenerate_report_from_same_snapshot: true
+    future_corrections_are_new_DERIVED_VIEW_VERSION: true
+
+# Standing: DAIL defines source-bound human reporting semantics. A later owner
+# may define a bounded renderer implementation, but this file cannot itself
+# invoke a host capability, approve a Council position, or register L9 tools.
