@@ -97,3 +97,9 @@ PACKAGE:
 V0.3.0 檔案存在不代表 Project 已載入；Git 寫入成功不代表 Host 部署。
 
 **END**
+
+## 4｜V0.3.0 Persistence Audit
+
+- [V0.3.0 Git Persistence Audit](DEPLOY/STAFF_HQ_V0.3.0_GIT_PERSISTENCE_AUDIT_20261121.md)
+- Main Runtime blob SHA: `095c3eb799d0f1e89bff8cf3a898cd2c87add7a8`
+- Main Runtime readback verified after commit `93f0dfc7015ee8c2e116d303139fee3cab7f2228`.

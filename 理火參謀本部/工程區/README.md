@@ -68,3 +68,7 @@ F SHADOW OBSERVATION != FORMAL COUNCIL STANCE
 重要歷史教訓：CG 二十輪會議曾出現長程高張力下的角色漂移，因此跨輪身份、狀態快照與重入驗證不得被當成 UI 細節。
 
 目前沒有獨立 Runtime / Host deployment claim。
+
+## V0.3.0 寫入稽核
+
+- [V0.3.0 Git Persistence Audit](STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.0_GIT_PERSISTENCE_AUDIT_20261121.md)
