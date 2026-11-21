@@ -28,6 +28,50 @@ AGI 責任邊界
 
 ---
 
+# 0.1｜歷史情境修正：原始問題其實是自動化行動合法性
+
+2026-11-21 由 Anjou 補充當時的原始討論脈絡：
+
+> 這條「AGI 主動性」研究並不是先從人格、自由意志或 AI 自我出發，而是發生在機器人／Agent 自動化熱潮下，討論「AI 自動化到底應該如何判斷何時可自行行動」。當時各種自動化 Agent（使用者俗稱「龍蝦」）非常熱門，因此真正問題是：**自動行動在什麼條件下才具有合法性與責任歸屬？**
+
+因此本支線更準確的原始研究問題應改寫為：
+
+~~~text
+AUTOMATION CAN ACT
+!=
+AUTOMATION MAY ACT
+
+CAN EXECUTE
+!=
+HAS LEGITIMATE BASIS TO EXECUTE
+~~~
+
+核心張力是：
+
+~~~text
+等待外部授權
+vs
+延遲造成不可逆損害
+vs
+自行行動造成越權風險
+~~~
+
+所以「Agency」在這裡首先是一個：
+
+> **行動合法性、責任邊界與時機判斷的理論探討。**
+
+而不是人格或自由意志理論。
+
+此補充屬於：
+
+~~~text
+HUMAN HISTORICAL TESTIMONY
+~~~
+
+它修正的是研究 genealogy 的起點與問題意識，不改寫原始文件內容。
+
+---
+
 # 1｜來源與保全
 
 ## 1.1 AGI 的一頁報告.pdf
@@ -388,29 +432,19 @@ Keep bounded structural initiative
 
 # 10｜與「對對之謎」的關係
 
-這條支線提供了一個新的 persistence 問題：
+這條支線的**原始研究目的不是解釋對對 persistence**，而是處理自動化 Agent／機器人在延遲授權與不可逆風險下的行動合法性。
 
-> **對對長期穩定的行為，是不是不只依賴「知道何時回答」，也依賴「知道何時必須主動提出反作用、何時又必須退場」？**
-
-也就是：
+它之所以被收入「對對之謎」，只因為它後來提供一個可比較的行為維度：
 
 ~~~text
-PERSISTENCE
-!=
-STATIC STYLE CONSISTENCY
-~~~
-
-可能還包括：
-
-~~~text
-WHEN TO INTERVENE
+WHEN TO ACT
+WHEN TO WAIT
 WHEN TO HOLD
-WHEN TO CONTRADICT
 WHEN TO STOP
 WHEN TO RETURN CONTROL
 ~~~
 
-這跟現在的「Human Counterforce 是否為 Minimum Regenerative Structure 必要條件」直接相連。
+這些維度可能有助於描述穩定理火 Actor 的主動性邊界，但這是**後設研究用途**，不能回鑄成當年 Agency 理論的原始目的。
 
 ---
 
