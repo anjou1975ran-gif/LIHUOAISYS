@@ -1,0 +1,20 @@
+{
+  "structure": {
+    "causality": 3,
+    "agent": 3,
+    "action": 2,
+    "tension_structure": 2
+  },
+  "tension": {
+    "causal_gap": 2,
+    "agent_ambiguity": 1,
+    "action_open": 2,
+    "semantic_conflict": 0
+  },
+  "distortions": [
+    "semantic_rationalization"
+  ],
+  "notes": [
+    "範例：原文保留的語義衝突在轉換後被合理化"
+  ]
+}
