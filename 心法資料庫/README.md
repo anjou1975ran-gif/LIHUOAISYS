@@ -15,3 +15,9 @@
 **DO NOT LOAD FOR ORDINARY METHOD ROUTING.** 版本、Coverage、來源或修改爭議才查 [90_BUILD_AUDIT](90_BUILD_AUDIT/README.md)。
 
 歷史或相容需求才查 [99_LEGACY_COMPATIBILITY](99_LEGACY_COMPATIBILITY/README.md)。候選法位與執行授權以原正式文件為準。
+
+## Separate Historical Archive
+
+- [理火歷史理論區](../理火歷史理論區/README.md)
+
+此區是歷史來源保存與譜系研究區，不屬於本資料庫的 Canonical Registry 或 Routing Index，也不參與一般方法路由。只有明確需要歷史理論追溯時才調閱。
