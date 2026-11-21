@@ -241,6 +241,14 @@ COMPACT != AMBIGUOUS
 
 CP0/CP1 remain ordinary documented, reconstructable text/data, not hidden proprietary machine language or model private chain-of-thought.
 
+### 5A｜Flip / Radar 的資料法位（依既有 CP0–CP3，不新造第五層）
+
+- **CP0 SOURCE_RAW:** 只存一次原始 Flip 衝撞、原始 Radar 建議、來源/時點/假設世界/資格界線/受攻擊前提，保留人類最初問題與來源；可以包含完全不合常理的反事實，但要標示為候選。
+- **CP1 CANONICAL_TYPED:** 可以收入經過程序校驗的「FLIP_FRAME_ATTACK_DECLARED」「RADAR_SIGNAL_SOURCE」「DELIVERY」「OWNER_CONSUMPTION」「QUALIFIED_REFRAME」「REJECTION」等事件語義；**某人確實提出主張**並不等於該主張對世界為真。若當前 schema 不含對應型別，僅存 CP0 參考、或依法版控擴充 schema，不得默默強制映射成正式提案／結論。
+- **CP2 REDUCED_OPERATIONAL:** 只根據已合法採納的 CP1 推導受影響席位、原框架是否被保留、誰改判、哪些訊號仍未消費與哪些問題需再次調閱；不能自行將被動提示升格為“共識”。
+- **CP3 HUMAN_PROJECTION:** Executive / Enhanced A–K / Audit 按需呈現實質變更及未被接受的衝撞，沒有資料就明說。演繹敘事必須來自源與 owner 的消費證據，不能替 Flip 補寫勝利。
+- **分類分離：** PROCEDURAL_ADMISSION != EPISTEMIC_QUALIFICATION；HYPOTHETICAL != FACT；SOURCE_HAS_SIGNAL != VERIFIED_DIRECTION。Adapter 可 challenge origin semantic type，不得靜默強迫改寫原始假設。
+
 ## 6｜CP1 minimal admissible typed event
 
 Minimal logical fields (serialize as JSONL or equivalent qualified schema):
@@ -294,6 +302,16 @@ SECRETARIAT != OWNER_OF_SEAT_STANCE
 ~~~
 
 Proposer/Seat changes must be traceable to actual material evidence, not a scripted forced consensus or artificially generated objection.
+
+### 8A｜Frame Attack / Radar Advisory 的材料性歸屬與追因
+
+1. **衝撞來源成立：** Flip 的原話、時點與攻擊目標在 CP0；第一擊成功發出，不等於任何正式席位接受。
+2. **是否真的觸及席位：** 只在 CORE owner 指明新材料與受影響的原前提時，才能建立 MATERIAL_DELTA 候選；“隔一段時間後 B 席也說了類似話”不能自動證明是 Flip 導致。
+3. **因果鏈至少包含：** ORIGIN_RAW_SOURCE + TARGET_PRIOR_FRAME + DELIVERY + OWNER_CONSUMPTION_OR_RESPONSE + OWNER_MATERIAL_BASIS + STANCE_BEFORE/AFTER（若真的改變）；否則標 TEMPORAL_ONLY / UNKNOWN / RETAINED。
+4. **可拒絕：** KEEP_WITH_REASON、PARTIAL_ADOPTION、INVALID_SHOCK、HOLD_FOR_EVIDENCE、QUIET 都合法。翻桌撞不垮不代表本 Session 失敗；也不要求每個席位對每一條原始奇想寫出 L8。
+5. **Radar 處理：** 觀察可保持未採用、延期、撤回或重啟；只有真正 material 的 source change 才讓受影響 CORE owner 重醒。NO SIGNAL/QUIET 不得被記錄成雷達缺席或自動失敗。
+6. **人類目標：** 若衝撞質疑人類目標或 Mandate，只能提出授權範圍問題／人類決策請求，不得讓 Flip、Radar、B 或秘書處私自改寫 D0/D1。
+7. **上位衝突：** 若特殊衝撞法位與現行正式 Source 發生實質法位衝突，記錄具體衝突並僅 HOLD 衝突範圍，不能靜默自認本工作候選已取代現行協議。
 
 ## 9｜Reduction and latest-version qualification
 
@@ -349,6 +367,27 @@ Never omit severe objection/minority HOLD for brevity. User can request full hum
 - **可測與未證的區分**：候選靜態驗收檢查職責稱謂、單語、可獨立轉交、主張可追溯、不漏少數異議；**Stage 2B 真人理解仍 NOT_RUN，Cutover HOLD**。
 
 **新增人類要求來源：** `理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/07_HUMAN_READABLE_REPORT_MANDATE_20261121.md`。
+
+### 10C｜翻桌衝撞與雷達旁聽的人類可讀報告（本候選新增）
+
+保留原 §11 A–K 和 §10A/§10B 的既有語義要求。在 A–K 的 **B Proposal Evolution / E Objections / F Stance / G Experts** 中按實際 material 情況呈現，不另造第二份 Final：
+
+- **衝撞了什麼：** 原始問題被挑戰的前提、變數角色、因果層級、時間尺度或目標；標明原始 Frame Attack 僅是候選。
+- **真正改變了什麼：** BEFORE / MATERIAL_CHALLENGE / OWNER_CONSUMPTION / AFTER / UNCHANGED。若沒有具來源的 owner 改判，清楚寫「原框架經衝撞後維持」「FRAME_CHANGE: NONE」，不要為了漂亮故事製造效果。
+- **撞不動的地方：** 哪些極端猜想被否定、哪些仍無證據；能將 Flip 發生但未改判的例子保存為負樣本。
+- **雷達實際訊號：** 僅揭露真正 material 且有來源的 signal 及其 CONSUMED / NOT_CONSUMED / HOLD / WITHDRAWN 等狀態；安靜時不需要編一欄“她說了什麼”。
+- **專家需求：** 明確列示召入了誰、實際取得了什麼原文/回傳，哪些只是建議或缺資料；公開專業資料不是獨立真人或模型專家出場。
+- **交還人類的事項：** 人類當前是否需要批准新的研究方向、費用、測試、投資/執行等；Flip 和 Radar 都不代人類下決策。
+
+人類預設看 Executive Brief；完整 A–K 依交付需求提供。報告用自然易讀的來源說明，不用強迫展示七個角色對話；必要時審計層保留所有衝撞原文與訊號源。
+
+~~~text
+FLIP_HYPOTHESIS != EVIDENCE
+RADAR_SIGNAL != WORLD_FACT
+FIRST_PASS_WITH_FLIP != PRISTINE_NO_FLIP_CONTROL
+NO_FRAME_REVISION != NO_REAL_TEST
+REPORT_NARRATIVE != CANONICAL_HISTORY
+~~~
 
 ## 11｜Stop redundant serialization, not cognition
 
