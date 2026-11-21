@@ -418,11 +418,17 @@ Keep separate: CONCEPT_COMPLETE, ENGINEERING_VALIDATED, COST_VALIDATED, BENCHMAR
 
 **Current standing (at issue):**
 ~~~yaml
-project_working_load_candidate: STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE
+project_working_load_candidate: STAFF_HQ_V0.4.0_RUNTIME_CORE_FLIP_FIRST_RADAR_RESIDENT
 formal_vertical_current: V0.1
-predecessor_project_working_candidate: V0.3.0
+predecessor_project_working_candidate: V0.3.1
 core_seats: [N1, A, B, C, D, E]
 F: EXPERIMENTAL_SHADOW_NOT_CORE7
+flip_opening: HIGH_FORCE_UNQUALIFIED_FRAME_ATTACK_RESEARCH_SOURCE
+flip_extra_core_seat: false
+radar_v6: RESIDENT_SILENT_WHEN_AVAILABLE_ACTIVE_COUNCIL
+radar_vote_veto_authority: NONE
+pre_impact_snapshot_routine: NOT_REQUIRED
+pre_impact_snapshot_experiment: ISOLATED_CONTROL_ONLY
 LIHUOOS: V1.4.2
 secretariat_architecture: V0.2_CANDIDATE
 MRC001: SPECIFIED_NOT_IMPLEMENTED
@@ -436,11 +442,11 @@ host_deployed: false
 ## 14｜Installation (one active Staff-HQ main file)
 
 After human decides to adopt this working candidate in GPT Project:
-- Load **this V0.3.1 runtime core** in place of V0.3.0. Do not keep both active as parallel instructions.
+- **Only after explicit human ratification of this exact V0.4.0 version and actual Project source update**, load this V0.4.0 single-file core in place of the previously selected main (normally V0.3.1 when loaded). Do not keep older active candidate mains as parallel Project instructions.
 - Keep LIHUO Protocol V5.1.0, LIHUOOS V1.4.2, Staff-HQ Project Core, formal Vertical V0.1, current Secretariat V0.1, Meeting Record V0.1, Decision Request V0.1 and Git Bridge as the higher/compatible sources.
-- Treat Secretariat V0.2 Candidate and V0.3.0 Full Body as versioned **reference/engineering detail**, not a second current runtime until explicit authorized cutover.
+- Treat previous V0.3.1 candidate, Secretariat V0.2 Candidate and V0.3.0 Full Body as versioned **reference/engineering detail**, not parallel current runtime. Human request to draft, Git commit and human document review do not themselves ratify a new runtime.
 - If an implementation detail is omitted from this short core, retrieve the exact V0.3.0/Package 01–10 source on demand. Never guess absent schema fields or silently patch Protocol/OS.
-- No automatic Project upload is possible from Git alone.
+- No automatic Project upload is possible from Git alone. For actual cutover, record the explicit human approval of exact Git blob/version, replaced active main, approval time/scope and actual Project installation if verified; APPROVED_NOT_LOADED is distinct from HOST_DEPLOYED.
 
 ## 15｜Full detail source paths (on-demand)
 
@@ -456,4 +462,43 @@ After human decides to adopt this working candidate in GPT Project:
 - Candidate integration acceptance record: 理火參謀本部/研究區/COUNCIL_REPORT_STAGE_2A_STRUCTURAL_ABLATION_20261121/06_HUMAN_REPORTED_CHIEF_ACCEPTANCE_AND_NEXTGEN_SCOPE_20261121.md
 - F Charter and EXP001: 理火參謀本部/MEMO區/MEMO_F席_趨勢預言_結構維持成本_Direction_實驗席_V0.1_20261121.md; 理火參謀本部/訓練區/F_SEAT_EXP001_結構維持成本_影子觀察_20261121/
 
-**END｜STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE WORKING CANDIDATE**
+## 16｜開場 Flip 與常駐 Radar 的驗證、負樣本與版控
+
+**普通參照實跑 ≠ 獨立效果驗證**。可以記錄一場會議中 Flip 是否挑戰了不同的原前提、owner 是否真的消費、Radar 是否真的發出了有來源的新方向；但是在 same-model 同一上下文內演示好例子，不代表跨域因果增益已證。
+
+真正 A/B 在**分離且未互相見過答案**的執行場域，固定 D0/來源、模型條件、資料時點、成本限制後對照：
+- Normal Staff-HQ；Normal+Flip；Normal+Radar；Normal+Flip+Radar（按資源選擇兩臂或四臂）；
+- 對照組先形成獨立材料判斷；PRE-IMPACT SNAPSHOT 只作隔離實驗資料，不成為每場會議儀式；
+- 檢查不同因果來源、變數角色、尺度／regime、可反證的不同框架、真正 owner stance/material delta、被否定 Flip 假說、Radar 訊號撤回重啟、誤報、消費與成本；
+- 允許原本桌子經衝撞仍保持、沒有任何雷達訊號、所有翻桌內容都被拒絕的負樣本；不強迫實驗組獲勝；
+- 不能把外觀不同的散文算成新世界模型；不能因被報告寫了 WHAT_CHANGED 就倒推有效改判；
+- Stage2B 人類理解、成本/效能、真實獨立多Agent、Host部署、跨域穩定性均未在本候選成立。
+
+**本版發行時狀態：**
+~~~yaml
+doc_version: V0.4.0-WORKING
+source_runtime: V0.3.1_WORKING_WITH_FULL_INHERITANCE
+human_design_instruction: RECEIVED
+exact_draft_human_approval: PENDING_REVIEW
+formal_staff_hq_vertical_current: V0.1
+protocol_patch: NONE
+LIHUOOS_V1_4_2_patch: NONE
+CORE6_change: NONE
+F_shadow_change: NONE
+flip_first: SPECIFIED_NOT_INDEPENDENTLY_DEPLOYED
+radar_resident: ACTIVE_COUNCIL_POLICY_CANDIDATE_NOT_AUTONOMOUS_BACKGROUND
+separate_flip_provider_binding: NONE_VERIFIED
+separate_radar_provider_binding: NONE_VERIFIED
+isolated_ab_gain: NOT_PROVEN
+production_host_deployed: false
+~~~
+
+**On-demand exact source extensions:**
+- Parent: 理火參謀本部/工程區/STAFF_HQ_V0.2_RUNTIME_PACKAGE/DEPLOY/STAFF_HQ_V0.3.1_RUNTIME_CORE_AI_NATIVE_WORKING_20261121.md
+- Human intent preservation: 理火參謀本部/MEMO區/MEMO_開場翻桌衝撞_理火雷達常駐旁聽_人類設計要求與工作候選_V0.1_20261121.md
+- Flip original: 理火商業化/MEMO_LIHUO翻桌型AI_Direction_上位因果重構_下一代研究入口_V0.1_20261119.md
+- Radar pre-existing scoped case: 理火商業化/理火乾淨情報公司/03_研究驗證/L9_RADAR_V6_情報公司_常駐靜默建議者_參照啟用_V0.1_20261120.md
+- Radar resident negative-control test: 理火參謀本部/訓練區/PSO_RADAR_RESIDENT_DELTA_004_20261121/03_RESULT_AND_AUDIT_REQUEST.md
+- Flip gold reentry exemplar: 理火參謀本部/會議區/SESSION_20261121_GOLD_FUTURES_FLIP_REENTRY_002/
+
+**END｜STAFF_HQ_V0.4.0_RUNTIME_CORE_FLIP_FIRST_RADAR_RESIDENT WORKING CANDIDATE**
