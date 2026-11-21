@@ -517,3 +517,62 @@ RUNTIME WHERE NECESSARY
 > **DAIL 不是從天上掉下來的語言；它可以被讀成理火在 procedural over-engineering 撞牆後，第一次系統性地把問題從「把智慧寫成程式」改成「把合法結構宣告清楚，讓推理在其中搜尋」。**
 
 **END｜ENGINEERING ARCHAEOLOGY**
+
+
+---
+
+# 13｜DAIL Playground 支線回接：從 FreeShop 到觀止
+
+新增：
+
+10_DAIL早期Playground考古_從FreeShop到觀止青樓.md
+
+這批材料補足一條原本缺少的形成史：
+
+~~~text
+PROCEDURAL OVER-ENGINEERING
+↓
+DAIL DECLARATIVE ABSTRACTION
+↓
+DAIL PLAYGROUND TESTS
+Echo Chamber / i_World / MLGB / O_Fortuna
+↓
+跨題型測：
+WORLD / ROLE / STATE / CONSTRAINT / PHASE / PATH
+能否被模型持續維持
+↓
+INTERACTIVE WORLD PREDECESSOR
+↓
+GUANZHI LONG-HORIZON PERSISTENT WORLD
+~~~
+
+2026-11-21 Anjou 第一手歷史證詞確認：
+
+> **這些 FreeShop 玩具本來就是 DAIL 早期測試，後來成為觀止青樓的最早前身；觀止是 DAIL 最大型的實驗場。**
+
+2026-10-28 的 Guanzhi Harness MEMO 又把觀止定位為高複雜度、低現實風險的 Persistent World / Long-Horizon Harness 測試床。
+
+因此可支持：
+
+> **DAIL 不只是在規格文件裡從 procedural 轉向 declarative；它也曾透過遊戲與互動世界，反覆測試 declarative structure 能否形成可持續的生成約束。觀止後來把這條實驗線放大到長距離 Persistent World。**
+
+硬鎖：
+
+~~~text
+EARLY PLAYGROUND
+!=
+FORMAL GUANZHI ALREADY EXISTED
+
+HUMAN TESTIMONY
+!=
+CONTROLLED EXPERIMENT
+
+GUANZHI AS BIGGEST DAIL TESTBED
+=
+HUMAN HISTORICAL TESTIMONY
++
+CORPUS-SUPPORTED LARGE-SCALE TESTBED ROLE
+
+!=
+OBJECTIVE EXTERNAL RANKING
+~~~
